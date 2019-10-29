@@ -1,2 +1,131 @@
 # Sonnenberg
- A small but helpful Windows Explorer context menu extension.
+
+A small but useful Windows Explorer extension
+
+## What it does
+This application extends the Windows Explorer context menu. After installation, you'll find the Sonnenberg icon with a drop down inside the Windows Explorer context menu.
+Depending on the context, you'll be able to:
+
+- Copy the path of the clicked item, folder or directory, also in unix-style
+- Open Powershell inside any directory and folder
+- Open Command Prompt inside any directory and folder
+- Count lines of text and code files, with or without blank lines, and copy the result to clipboard (optional)
+- More features are planned
+
+## What it looks like
+![Context Menu](./assets/image.jpg)
+Note: Works with any theme, be it dark, light, or custom.
+
+## Grab Yours!
+If you're just interested in using or testing the resulting software, you'll find MSI-packages inside the [dist folder](https://github.com/demispatti/Sonnenberg/tree/master/dist). Choose your language and architecture, and install the package. You can enable and disable the context menu extension via the *Windows Start Menu*, and the application can easily be uninstalled again. Although - don't you ever dare to :))
+
+## Getting Started
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+
+### Prerequisites
+Software:
+- [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
+- [WiX Toolset 3.11.2](https://github.com/wixtoolset/wix3/releases/tag/wix3112rtm)
+
+Visual Studio Extensions:
+- [Microsoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
+- WiX Toolset Visual Studio Extension from [here](https://wixtoolset.org/releases/)
+- [Wax](https://marketplace.visualstudio.com/items?itemName=TomEnglert.Wax)
+
+## First Of All
+Make sure you've read the license.  
+Clone the repo.
+
+## Automatic Installation (recommended)
+Be sure to meet the **Prerequisites**.  
+Note: This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.  
+In addition, this method depends on the strong naming tool **Sn.exe**, which is part of any Windows SDK (and which will be located automatically, too).
+
+### Start
+In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*.  
+This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Installation"). After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build it. The Installer Project has to be built separately (you can change this option in the *Configuration Manager*, of course).
+
+## Manual Installation
+If the Quick Start option should fail, you have to setup the solution manually. Just follow these simple steps in order to get up and running:
+
+### 1. Create a GUID in *each* AssemblyInfo.cs files
+In *each* projects AssemblyInfo.cs file, replace YOUR_GUID_HERE with a newly created GUID.
+
+### 2. Create GUIDs in Product.wxs file
+Inside the *Installer Project*, open Product.wxs and create *unique UPPERCASE* GUIDs in it where it says YOUR_GUID_HERE.
+
+### 3. Sign the assemblies with a strong name
+You have to sign the assemblies with a strong name by creating a \*.snk file whose name corresponds to the project name (e.g. **ShellServer**.snk). See the [Docs](https://docs.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name).  
+
+If you wish to run the tests, you have to to sign the test projects with a strong name, too.
+But instead of naming the test project key file e.g. **ProjectName.Tests**.snk, just skip the **.Tests** part and name it **ProjectName**.snk (identical to the project you want to test).
+Sign the assemblies **after** creating and pasting the GUIDs.
+
+### 4. Enter a Manufacturer Name to the Product.wxs file
+Enter your Manufacturer Name in Product.wxs, right where it says YOUR_MANUFACTURER_NAME_HERE.
+
+### 5. Build the solution
+Open the IDE of your choice, restore the packages and build the solution.
+
+## Running the tests
+Run the tests.
+
+## Debugging the Shell Server
+
+### Prerequisites
+Note #1:  
+*if* you already take advantage of **Sonnenberg** on your computer, you need to stop the service first (e.g. via the Start Menu), in order to debug the ShellServer.dll you built.
+
+Note #2:  
+In order to debug the ShellServer.dll, you need your copy of the *SharpShell ServerManager* first.  
+You can install the [SharpShell Tools Nuget-Package]( https://www.nuget.org/packages/SharpShellTools/ ) separately and use that *ServerManager.exe*.  
+Or you **download and build** [SharpShell]( https://github.com/dwmkerr/sharpshell ) on your own, which then produces the **ServerManager.exe** and its dependencies, located at "sharpshell\SharpShell\Tools\ServerManager\bin\Debug".
+
+### Start Debugging
+1. Start up **ServerManager.exe**. (check *Prerequisites*  above for file location) In there, select *File->Load Server*, navigate to "Sonnenberg\ShellServer\bin\Debug", and select *ShellServer.dll*.
+2. Click *Server*, and then first *install* the Server and then *register* it for the architecture you want to debug.
+3. Click *Explorer*. Make sure there is a tick where it says *Always Unload DLLs*.
+4. Click *Restart Explorer*.
+5. Open a Windows Explorer window up again.
+6. In your IDE, click on the *Debug* tab and attach to process (explorer.exe).
+7. Debug.
+8. In order to rebuild, you need to go trough the *Stop Debugging* process described below.
+
+Note #3 (of 3):
+In order to rebuild anything, you need to make sure the Shell Server ,A.K.A. ShellServer.dll, isn't installed and/or registered, since the file is locked by Windows Explorer during debugging as it is attached to an explorer.exe process. So you must have *Stopped Debugging* properly.
+In addition, the Server Manager Window needs to be closed.
+
+### Stop Debugging
+1. In ServerManager.exe, mark ShellServer.dll.
+2. Click *Server*, and then first *unregister* the Server and then *uninstall* it for the architecture you were debugging.
+3. Click *Explorer*. Make sure there is a tick where it says *Always Unload DLLs*.
+4. Click *Restart Explorer*.
+5. *Close* ServerManager.exe.
+6. Do your build-thing.
+7. in order to debug again, well, you know...
+
+## Deployment
+Build the installer project and deploy the MSI file.
+
+## Built With
+* [SharpShell](https://github.com/dwmkerr/sharpshell)
+* [nUnit](https://nunit.org/)
+* [WiX Toolset](https://wixtoolset.org/)
+
+## Contributing
+Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on the code of conduct in use, and the process for submitting pull requests.
+
+## Versioning
+I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/demispatti/Sonnenberg/tags). 
+
+## Author
+* **Demis Patti**
+
+## License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+* My Sister - I Thank you for *my* [Toolbox](https://www.jetbrains.com/store/?fromNavMenu#personal?billing=yearly) subscription <3
+* Microsoft - Thanks for [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/?rr=https%3A%2F%2Fwww.google.com%2F)
+* [Dave Kerr](https://github.com/dwmkerr) - Thanks for SharpShell
+
