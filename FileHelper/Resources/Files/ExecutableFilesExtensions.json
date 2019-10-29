@@ -1,0 +1,766 @@
+[
+  {
+    "Name": "F-Secure Renamed Virus File",
+    "Extension": ".0xe"
+  },
+  {
+    "Name": "TI-73 Application",
+    "Extension": ".73k"
+  },
+  {
+    "Name": "TI-89 Application",
+    "Extension": ".89k"
+  },
+  {
+    "Name": "TI-84 Plus C Silver Edition Application File",
+    "Extension": ".8ck"
+  },
+  {
+    "Name": "Authorware 6 Program",
+    "Extension": ".a6p"
+  },
+  {
+    "Name": "Authorware 7 Runtime File",
+    "Extension": ".a7r"
+  },
+  {
+    "Name": "Autoconf Script",
+    "Extension": ".ac"
+  },
+  {
+    "Name": "GEM Accessory File",
+    "Extension": ".acc"
+  },
+  {
+    "Name": "ACRobot Script",
+    "Extension": ".acr"
+  },
+  {
+    "Name": "Action(s) Collection File",
+    "Extension": ".actc"
+  },
+  {
+    "Name": "Automator Action",
+    "Extension": ".action"
+  },
+  {
+    "Name": "AutoCAD Action Macro File",
+    "Extension": ".actm"
+  },
+  {
+    "Name": "AutoHotkey Script",
+    "Extension": ".ahk"
+  },
+  {
+    "Name": "Adobe AIR Installation Package",
+    "Extension": ".air"
+  },
+  {
+    "Name": "Android Package File",
+    "Extension": ".apk"
+  },
+  {
+    "Name": "macOS Application",
+    "Extension": ".app"
+  },
+  {
+    "Name": "FoxPro Generated Application",
+    "Extension": ".app"
+  },
+  {
+    "Name": "Symbian OS Application",
+    "Extension": ".app"
+  },
+  {
+    "Name": "AppleScript File",
+    "Extension": ".applescript"
+  },
+  {
+    "Name": "ArtRage Script",
+    "Extension": ".arscript"
+  },
+  {
+    "Name": "Alphacam Stone VB Macro File",
+    "Extension": ".asb"
+  },
+  {
+    "Name": "Kindle Active Content App File",
+    "Extension": ".azw2"
+  },
+  {
+    "Name": "Renamed BAT File",
+    "Extension": ".ba_"
+  },
+  {
+    "Name": "DOS Batch File",
+    "Extension": ".bat"
+  },
+  {
+    "Name": "Compiled Erlang File",
+    "Extension": ".beam"
+  },
+  {
+    "Name": "Unix Executable File",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "Generic Binary Executable File",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "4DOS Batch File",
+    "Extension": ".btm"
+  },
+  {
+    "Name": "Automator Converter Action",
+    "Extension": ".caction"
+  },
+  {
+    "Name": "Celestia Script File",
+    "Extension": ".cel"
+  },
+  {
+    "Name": "Celestia Script",
+    "Extension": ".celx"
+  },
+  {
+    "Name": "Common Gateway Interface Script",
+    "Extension": ".cgi"
+  },
+  {
+    "Name": "Windows Command File",
+    "Extension": ".cmd"
+  },
+  {
+    "Name": "MPLAB COFF File",
+    "Extension": ".cof"
+  },
+  {
+    "Name": "CoffeeScript JavaScript File",
+    "Extension": ".coffee"
+  },
+  {
+    "Name": "DOS Command File",
+    "Extension": ".com"
+  },
+  {
+    "Name": "Terminal Command File",
+    "Extension": ".command"
+  },
+  {
+    "Name": "C Shell Script",
+    "Extension": ".csh"
+  },
+  {
+    "Name": "Rbot.CYW Worm File",
+    "Extension": ".cyw"
+  },
+  {
+    "Name": "Eavesdropper Batch File",
+    "Extension": ".dek"
+  },
+  {
+    "Name": "EdLog Compiled Program",
+    "Extension": ".dld"
+  },
+  {
+    "Name": "Medical Manager Script",
+    "Extension": ".dmc"
+  },
+  {
+    "Name": "TWAIN Data Source",
+    "Extension": ".ds"
+  },
+  {
+    "Name": "Rational DOORS Script",
+    "Extension": ".dxl"
+  },
+  {
+    "Name": "Renamed EXE File",
+    "Extension": ".e_e"
+  },
+  {
+    "Name": "Java Enterprise Archive File",
+    "Extension": ".ear"
+  },
+  {
+    "Name": "EXTRA! Basic Macro",
+    "Extension": ".ebm"
+  },
+  {
+    "Name": "E-Run 1.x Script",
+    "Extension": ".ebs"
+  },
+  {
+    "Name": "E-Run 2.0 Script File",
+    "Extension": ".ebs2"
+  },
+  {
+    "Name": "SageCRM Component File",
+    "Extension": ".ecf"
+  },
+  {
+    "Name": "ExtraHAM Executable File",
+    "Extension": ".eham"
+  },
+  {
+    "Name": "Nintendo Wii Game File",
+    "Extension": ".elf"
+  },
+  {
+    "Name": "LG Firmware Package",
+    "Extension": ".epk"
+  },
+  {
+    "Name": "SageCRM Script File",
+    "Extension": ".es"
+  },
+  {
+    "Name": "Extended Shell Batch File",
+    "Extension": ".esh"
+  },
+  {
+    "Name": "MetaTrader 4 Program File",
+    "Extension": ".ex4"
+  },
+  {
+    "Name": "MetaTrader 5 Program File",
+    "Extension": ".ex5"
+  },
+  {
+    "Name": "Compressed Executable File",
+    "Extension": ".ex_"
+  },
+  {
+    "Name": "Renamed Windows Executable File",
+    "Extension": ".ex_"
+  },
+  {
+    "Name": "Windows Executable File",
+    "Extension": ".exe"
+  },
+  {
+    "Name": "PortableApps.com Application",
+    "Extension": ".exe"
+  },
+  {
+    "Name": "Renamed EXE File",
+    "Extension": ".exe1"
+  },
+  {
+    "Name": "ExoPC Application",
+    "Extension": ".exopc"
+  },
+  {
+    "Name": "EZ-R Stats Batch Script",
+    "Extension": ".ezs"
+  },
+  {
+    "Name": "EZT Malicious Worm File",
+    "Extension": ".ezt"
+  },
+  {
+    "Name": "Compiled Fast-Load AutoLISP File",
+    "Extension": ".fas"
+  },
+  {
+    "Name": "QuickSilver Fast Save Lisp File",
+    "Extension": ".fas"
+  },
+  {
+    "Name": "FoxPro Macro",
+    "Extension": ".fky"
+  },
+  {
+    "Name": "FPS Creator Intelligence Script",
+    "Extension": ".fpi"
+  },
+  {
+    "Name": "Flash Renamer Script",
+    "Extension": ".frs"
+  },
+  {
+    "Name": "FoxPro Compiled Program",
+    "Extension": ".fxp"
+  },
+  {
+    "Name": "Windows Gadget",
+    "Extension": ".gadget"
+  },
+  {
+    "Name": "GP2X Video Game",
+    "Extension": ".gpe"
+  },
+  {
+    "Name": "GP2X Utility Program",
+    "Extension": ".gpu"
+  },
+  {
+    "Name": "Geosoft Script",
+    "Extension": ".gs"
+  },
+  {
+    "Name": "HAM Executable File",
+    "Extension": ".ham"
+  },
+  {
+    "Name": "HostMonitor Script File",
+    "Extension": ".hms"
+  },
+  {
+    "Name": "HP9100A Program File",
+    "Extension": ".hpf"
+  },
+  {
+    "Name": "HTML Application",
+    "Extension": ".hta"
+  },
+  {
+    "Name": "SafeDisc Encrypted Program",
+    "Extension": ".icd"
+  },
+  {
+    "Name": "iMacro Macro File",
+    "Extension": ".iim"
+  },
+  {
+    "Name": "iOS Application",
+    "Extension": ".ipa"
+  },
+  {
+    "Name": "SMS Installer Script",
+    "Extension": ".ipf"
+  },
+  {
+    "Name": "InstallShield Uninstaller Script",
+    "Extension": ".isu"
+  },
+  {
+    "Name": "VTech InnoTab Application File",
+    "Extension": ".ita"
+  },
+  {
+    "Name": "Java Archive File",
+    "Extension": ".jar"
+  },
+  {
+    "Name": "JScript Executable Script",
+    "Extension": ".js"
+  },
+  {
+    "Name": "JScript Encoded File",
+    "Extension": ".jse"
+  },
+  {
+    "Name": "Java Script Command File",
+    "Extension": ".jsf"
+  },
+  {
+    "Name": "ExtendScript Script File",
+    "Extension": ".jsx"
+  },
+  {
+    "Name": "KiXtart Script File",
+    "Extension": ".kix"
+  },
+  {
+    "Name": "Unix Korn Shell Script",
+    "Extension": ".ksh"
+  },
+  {
+    "Name": "KiXtart Tokenized Script File",
+    "Extension": ".kx"
+  },
+  {
+    "Name": "Interleaf Compiled Lisp File",
+    "Extension": ".lo"
+  },
+  {
+    "Name": "LightWave LScript File",
+    "Extension": ".ls"
+  },
+  {
+    "Name": "Mobile 3D Graphics Program",
+    "Extension": ".m3g"
+  },
+  {
+    "Name": "Application Macro File",
+    "Extension": ".mac"
+  },
+  {
+    "Name": "Microsoft Access Macro",
+    "Extension": ".mam"
+  },
+  {
+    "Name": "3ds Max Macroscript File",
+    "Extension": ".mcr"
+  },
+  {
+    "Name": "Tecplot Macro",
+    "Extension": ".mcr"
+  },
+  {
+    "Name": "Maya Embedded Language File",
+    "Extension": ".mel"
+  },
+  {
+    "Name": "Macro Editor Macro",
+    "Extension": ".mem"
+  },
+  {
+    "Name": "MioEngine Application File",
+    "Extension": ".mio"
+  },
+  {
+    "Name": "MATLAB Live Script",
+    "Extension": ".mlx"
+  },
+  {
+    "Name": "NeXtMidas Macro File",
+    "Extension": ".mm"
+  },
+  {
+    "Name": "FoxPro Compiled Menu Program",
+    "Extension": ".mpx"
+  },
+  {
+    "Name": "mIRC Script File",
+    "Extension": ".mrc"
+  },
+  {
+    "Name": "Mobile Application File",
+    "Extension": ".mrp"
+  },
+  {
+    "Name": "3ds Max Script File",
+    "Extension": ".ms"
+  },
+  {
+    "Name": "Maxwell Script",
+    "Extension": ".ms"
+  },
+  {
+    "Name": "Magick Scripting Language File",
+    "Extension": ".msl"
+  },
+  {
+    "Name": "Macro Express Playable Macro",
+    "Extension": ".mxe"
+  },
+  {
+    "Name": "Neko Bytecode File",
+    "Extension": ".n"
+  },
+  {
+    "Name": "NirCmd Script File",
+    "Extension": ".ncl"
+  },
+  {
+    "Name": "Chrome Native Client Executable",
+    "Extension": ".nexe"
+  },
+  {
+    "Name": "Ore Executable File",
+    "Extension": ".ore"
+  },
+  {
+    "Name": "PowerPC Executable File",
+    "Extension": ".osx"
+  },
+  {
+    "Name": "Outlook Macro File",
+    "Extension": ".otm"
+  },
+  {
+    "Name": "Compiled Executable File",
+    "Extension": ".out"
+  },
+  {
+    "Name": "Portable Application Installer File",
+    "Extension": ".paf"
+  },
+  {
+    "Name": "PortableApps.com Program File",
+    "Extension": ".paf.exe"
+  },
+  {
+    "Name": "ProBoard Executable File",
+    "Extension": ".pex"
+  },
+  {
+    "Name": "PHP Archive",
+    "Extension": ".phar"
+  },
+  {
+    "Name": "Program Information File",
+    "Extension": ".pif"
+  },
+  {
+    "Name": "Messenger Plus! Live Script File",
+    "Extension": ".plsc"
+  },
+  {
+    "Name": "Perl Executable File",
+    "Extension": ".plx"
+  },
+  {
+    "Name": "Palm Resource Code File",
+    "Extension": ".prc"
+  },
+  {
+    "Name": "Program File",
+    "Extension": ".prg"
+  },
+  {
+    "Name": "GEM Application",
+    "Extension": ".prg"
+  },
+  {
+    "Name": "Windows PowerShell Cmdlet File",
+    "Extension": ".ps1"
+  },
+  {
+    "Name": "Instalit Script",
+    "Extension": ".pvd"
+  },
+  {
+    "Name": "PictureTaker File",
+    "Extension": ".pwc"
+  },
+  {
+    "Name": "Python Compiled File",
+    "Extension": ".pyc"
+  },
+  {
+    "Name": "Python Optimized Code",
+    "Extension": ".pyo"
+  },
+  {
+    "Name": "QIT Trojan Horse File",
+    "Extension": ".qit"
+  },
+  {
+    "Name": "FoxPro Compiled Query Program",
+    "Extension": ".qpx"
+  },
+  {
+    "Name": "LEGO MINDSTORMS EV3 Robot Brick File",
+    "Extension": ".rbf"
+  },
+  {
+    "Name": "Rembo-C Compiled Script",
+    "Extension": ".rbx"
+  },
+  {
+    "Name": "Remote Firmware Update",
+    "Extension": ".rfu"
+  },
+  {
+    "Name": "Registry Script",
+    "Extension": ".rgs"
+  },
+  {
+    "Name": "Actuate Report Object Executable File",
+    "Extension": ".rox"
+  },
+  {
+    "Name": "Real Pac Batch Job File",
+    "Extension": ".rpj"
+  },
+  {
+    "Name": "Linux Executable File",
+    "Extension": ".run"
+  },
+  {
+    "Name": "Lego Mindstorms NXT Executable Program",
+    "Extension": ".rxe"
+  },
+  {
+    "Name": "SEAL2 Application",
+    "Extension": ".s2a"
+  },
+  {
+    "Name": "SPSS Script",
+    "Extension": ".sbs"
+  },
+  {
+    "Name": "Scala Script File",
+    "Extension": ".sca"
+  },
+  {
+    "Name": "SCAR Script",
+    "Extension": ".scar"
+  },
+  {
+    "Name": "Scala Published Script",
+    "Extension": ".scb"
+  },
+  {
+    "Name": "AppleScript Script File",
+    "Extension": ".scpt"
+  },
+  {
+    "Name": "AppleScript Script Bundle",
+    "Extension": ".scptd"
+  },
+  {
+    "Name": "Script File",
+    "Extension": ".scr"
+  },
+  {
+    "Name": "Generic Script File",
+    "Extension": ".script"
+  },
+  {
+    "Name": "Windows Scriptlet",
+    "Extension": ".sct"
+  },
+  {
+    "Name": "Linux Preseed File",
+    "Extension": ".seed"
+  },
+  {
+    "Name": "MySQL Server Script",
+    "Extension": ".server"
+  },
+  {
+    "Name": "Windows Document Shortcut",
+    "Extension": ".shb"
+  },
+  {
+    "Name": "Ami Pro Macro",
+    "Extension": ".smm"
+  },
+  {
+    "Name": "FoxPro Generated Screen File",
+    "Extension": ".spr"
+  },
+  {
+    "Name": "Tally Compiled Program File",
+    "Extension": ".tcp"
+  },
+  {
+    "Name": "Thermwood Macro File",
+    "Extension": ".thm"
+  },
+  {
+    "Name": "TiTanium App",
+    "Extension": ".tiapp"
+  },
+  {
+    "Name": "Telemate Script",
+    "Extension": ".tms"
+  },
+  {
+    "Name": "U3 Smart Application",
+    "Extension": ".u3p"
+  },
+  {
+    "Name": "Excel User Defined Function",
+    "Extension": ".udf"
+  },
+  {
+    "Name": "Ultimate Packer for eXecutables File",
+    "Extension": ".upx"
+  },
+  {
+    "Name": "VBScript Encoded Script File",
+    "Extension": ".vbe"
+  },
+  {
+    "Name": "VBScript File",
+    "Extension": ".vbs"
+  },
+  {
+    "Name": "Visual Basic Script",
+    "Extension": ".vbscript"
+  },
+  {
+    "Name": "Heathen Virus File",
+    "Extension": ".vdo"
+  },
+  {
+    "Name": "Virus Executable File",
+    "Extension": ".vexe"
+  },
+  {
+    "Name": "Compiled AutoLISP File",
+    "Extension": ".vlx"
+  },
+  {
+    "Name": "Vox Proxy Macro File",
+    "Extension": ".vpm"
+  },
+  {
+    "Name": "Mobile Application File",
+    "Extension": ".vxp"
+  },
+  {
+    "Name": "WordPerfect Macro",
+    "Extension": ".wcm"
+  },
+  {
+    "Name": "Microsoft Windows Mobile Widget",
+    "Extension": ".widget"
+  },
+  {
+    "Name": "Yahoo! Widget",
+    "Extension": ".widget"
+  },
+  {
+    "Name": "Microsoft Wizard File",
+    "Extension": ".wiz"
+  },
+  {
+    "Name": "Automator Workflow",
+    "Extension": ".workflow"
+  },
+  {
+    "Name": "WordPerfect Macro",
+    "Extension": ".wpk"
+  },
+  {
+    "Name": "WordPerfect Macro File",
+    "Extension": ".wpm"
+  },
+  {
+    "Name": "Windows Script",
+    "Extension": ".ws"
+  },
+  {
+    "Name": "Windows Script File",
+    "Extension": ".wsf"
+  },
+  {
+    "Name": "Windows Script Host Settings",
+    "Extension": ".wsh"
+  },
+  {
+    "Name": "Linux Executable File",
+    "Extension": ".x86"
+  },
+  {
+    "Name": "Silverlight Application Package",
+    "Extension": ".xap"
+  },
+  {
+    "Name": "XAML Browser Application File",
+    "Extension": ".xbap"
+  },
+  {
+    "Name": "Excel Macro",
+    "Extension": ".xlm"
+  },
+  {
+    "Name": "SuperCalc Macro File",
+    "Extension": ".xqt"
+  },
+  {
+    "Name": "XYplorer Script File",
+    "Extension": ".xys"
+  },
+  {
+    "Name": "ZoneAlarm Quarantined EXE File",
+    "Extension": ".zl9"
+  }
+]

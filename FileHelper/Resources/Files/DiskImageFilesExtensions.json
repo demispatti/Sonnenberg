@@ -1,0 +1,806 @@
+[
+  {
+    "Name": "Virtual CD Disc Image File",
+    "Extension": ".000"
+  },
+  {
+    "Name": "Apple IIGS Disk Image",
+    "Extension": ".2mg"
+  },
+  {
+    "Name": "Generic CD Image",
+    "Extension": ".aa"
+  },
+  {
+    "Name": "Amiga Disk File",
+    "Extension": ".adf"
+  },
+  {
+    "Name": "Archimedes Disk File",
+    "Extension": ".adf"
+  },
+  {
+    "Name": "Compressed Amiga Disk File",
+    "Extension": ".adz"
+  },
+  {
+    "Name": "AFF Disk Image Part File",
+    "Extension": ".afd"
+  },
+  {
+    "Name": "AFF Disk Image",
+    "Extension": ".aff"
+  },
+  {
+    "Name": "AFF Metadata File",
+    "Extension": ".afm"
+  },
+  {
+    "Name": "Ashampoo Burning Studio Image",
+    "Extension": ".ashdisc"
+  },
+  {
+    "Name": "Atari Disk Image",
+    "Extension": ".atr"
+  },
+  {
+    "Name": "Hyper-V SnapShot File",
+    "Extension": ".avhd"
+  },
+  {
+    "Name": "BlindWrite 5 Disk Image",
+    "Extension": ".b5i"
+  },
+  {
+    "Name": "BlindWrite 5 Disc Track Information File",
+    "Extension": ".b5t"
+  },
+  {
+    "Name": "BlindWrite 6 Disc Image",
+    "Extension": ".b6i"
+  },
+  {
+    "Name": "BlindWrite 6 Track Information File",
+    "Extension": ".b6t"
+  },
+  {
+    "Name": "MIDAS BDF Disk Image File",
+    "Extension": ".bdf"
+  },
+  {
+    "Name": "Boot Information File",
+    "Extension": ".bif"
+  },
+  {
+    "Name": "Binary Disc Image",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "BlindWrite Disk Information File",
+    "Extension": ".bwa"
+  },
+  {
+    "Name": "BlindWrite CD/DVD Disc Image",
+    "Extension": ".bwi"
+  },
+  {
+    "Name": "BlindWrite Sub Code File",
+    "Extension": ".bws"
+  },
+  {
+    "Name": "BlindWrite 4 Track Information FIle",
+    "Extension": ".bwt"
+  },
+  {
+    "Name": "WinImage Batch Configuration File",
+    "Extension": ".bwz"
+  },
+  {
+    "Name": "WinOnCD Disc Image",
+    "Extension": ".c2d"
+  },
+  {
+    "Name": "CloneCD Disc Image",
+    "Extension": ".ccd"
+  },
+  {
+    "Name": "CD-i OptImage",
+    "Extension": ".cd"
+  },
+  {
+    "Name": "DiscJuggler Disc Image",
+    "Extension": ".cdi"
+  },
+  {
+    "Name": "NTI CD-Maker Image",
+    "Extension": ".cdm"
+  },
+  {
+    "Name": "Macintosh DVD/CD Master",
+    "Extension": ".cdr"
+  },
+  {
+    "Name": "CD-Text File",
+    "Extension": ".cdt"
+  },
+  {
+    "Name": "Compact File Set Archive",
+    "Extension": ".cfs"
+  },
+  {
+    "Name": "Easy CD Creator Disk Image",
+    "Extension": ".cif"
+  },
+  {
+    "Name": "Compact ISO File",
+    "Extension": ".ciso"
+  },
+  {
+    "Name": "Easy CD Creator 5 Saved Project",
+    "Extension": ".cl5"
+  },
+  {
+    "Name": "Compressed ISO Disk Image",
+    "Extension": ".cso"
+  },
+  {
+    "Name": "Cue Sheet File",
+    "Extension": ".cue"
+  },
+  {
+    "Name": "CDRWIN Cue Sheet",
+    "Extension": ".cue"
+  },
+  {
+    "Name": "VirtualDrive Disc Image Part File",
+    "Extension": ".d00"
+  },
+  {
+    "Name": "VirtualDrive Disc Image Part 2 File",
+    "Extension": ".d01"
+  },
+  {
+    "Name": "Commodore 64 Disk Image",
+    "Extension": ".d64"
+  },
+  {
+    "Name": "Toshiba Pasopia 7 Disk File",
+    "Extension": ".d88"
+  },
+  {
+    "Name": "PowerISO Direct-Access-Archive",
+    "Extension": ".daa"
+  },
+  {
+    "Name": "Disk at Once CD/DVD Image",
+    "Extension": ".dao"
+  },
+  {
+    "Name": "PSP Compressed ISO Disc Image",
+    "Extension": ".dax"
+  },
+  {
+    "Name": "DeepBurner Disc Project",
+    "Extension": ".dbr"
+  },
+  {
+    "Name": "Disk Copy Fast Disk Image File",
+    "Extension": ".dcf"
+  },
+  {
+    "Name": "Toast Document",
+    "Extension": ".disc"
+  },
+  {
+    "Name": "Linux Virtual Hard Disk",
+    "Extension": ".disk"
+  },
+  {
+    "Name": "Mac OS X Disk Image",
+    "Extension": ".dmg"
+  },
+  {
+    "Name": "Mac OS X Disk Image Part",
+    "Extension": ".dmgpart"
+  },
+  {
+    "Name": "Disk Masher Image",
+    "Extension": ".dms"
+  },
+  {
+    "Name": "Disk Image",
+    "Extension": ".dsk"
+  },
+  {
+    "Name": "CloneCD DVD Information File",
+    "Extension": ".dvd"
+  },
+  {
+    "Name": "DVD/CD-R Master Image",
+    "Extension": ".dvdr"
+  },
+  {
+    "Name": "CDBurnerXP Data Compilation File",
+    "Extension": ".dxp"
+  },
+  {
+    "Name": "EnCase Image File",
+    "Extension": ".e01"
+  },
+  {
+    "Name": "ECM Disc Image",
+    "Extension": ".ecm"
+  },
+  {
+    "Name": "Ensoniq ASR Disk Image",
+    "Extension": ".eda"
+  },
+  {
+    "Name": "Ensoniq EPS Disk Image",
+    "Extension": ".ede"
+  },
+  {
+    "Name": "Ensoniq KT Disk Image",
+    "Extension": ".edk"
+  },
+  {
+    "Name": "Ensoniq SQ1/SQ2/KS32 Disk Image",
+    "Extension": ".edq"
+  },
+  {
+    "Name": "Ensoniq SQ-80 Disk Image",
+    "Extension": ".eds"
+  },
+  {
+    "Name": "Ensoniq VFX-SD Disk Image",
+    "Extension": ".edv"
+  },
+  {
+    "Name": "Ensoniq EPS Compacted Disk Image",
+    "Extension": ".eui"
+  },
+  {
+    "Name": "EnCase Evidence Image File",
+    "Extension": ".ex01"
+  },
+  {
+    "Name": "Virtual CD Format",
+    "Extension": ".fcd"
+  },
+  {
+    "Name": "Parallels Desktop Floppy Disk Image File",
+    "Extension": ".fdd"
+  },
+  {
+    "Name": "Amiga Disk Image",
+    "Extension": ".fdi"
+  },
+  {
+    "Name": "IsoPuzzle Flag File",
+    "Extension": ".flg"
+  },
+  {
+    "Name": "Floppy Disk Image",
+    "Extension": ".flp"
+  },
+  {
+    "Name": "Commodore 1541 Disk Image",
+    "Extension": ".g41"
+  },
+  {
+    "Name": "gBurner Project File",
+    "Extension": ".gbi"
+  },
+  {
+    "Name": "Prassi CD Image",
+    "Extension": ".gcd"
+  },
+  {
+    "Name": "Gizmo Virtual Drive File",
+    "Extension": ".gdrive"
+  },
+  {
+    "Name": "Global Image",
+    "Extension": ".gi"
+  },
+  {
+    "Name": "Ensoniq EPS Family Disk Image",
+    "Extension": ".gkh"
+  },
+  {
+    "Name": "VeraCrypt Container File",
+    "Extension": ".hc"
+  },
+  {
+    "Name": "Parallels Desktop Hard Disk File",
+    "Extension": ".hdd"
+  },
+  {
+    "Name": "Hard Disk Image",
+    "Extension": ".hdi"
+  },
+  {
+    "Name": "Parallels Desktop Hard Disk File",
+    "Extension": ".hds"
+  },
+  {
+    "Name": "HFS Disk Image File",
+    "Extension": ".hfs"
+  },
+  {
+    "Name": "HFS Disk Image",
+    "Extension": ".hfv"
+  },
+  {
+    "Name": "DVD Shrink Part 1 File",
+    "Extension": ".i00"
+  },
+  {
+    "Name": "DVD Shrink Part 2 File",
+    "Extension": ".i01"
+  },
+  {
+    "Name": "DVD Shrink Part 3 File",
+    "Extension": ".i02"
+  },
+  {
+    "Name": "IsoBuster Address File",
+    "Extension": ".ibadr"
+  },
+  {
+    "Name": "ImgBurn Project File",
+    "Extension": ".ibb"
+  },
+  {
+    "Name": "IsoBuster Data File",
+    "Extension": ".ibdat"
+  },
+  {
+    "Name": "IsoBuster Managed Image Information File",
+    "Extension": ".ibp"
+  },
+  {
+    "Name": "IsoBuster Managed Image File",
+    "Extension": ".ibq"
+  },
+  {
+    "Name": "Disk Image",
+    "Extension": ".ima"
+  },
+  {
+    "Name": "Apple Disk Image",
+    "Extension": ".image"
+  },
+  {
+    "Name": "ImageDisk Disk Image File",
+    "Extension": ".imd"
+  },
+  {
+    "Name": "Macintosh Disk Image",
+    "Extension": ".img"
+  },
+  {
+    "Name": "Disc Image Data File",
+    "Extension": ".img"
+  },
+  {
+    "Name": "Floppy Disk Image",
+    "Extension": ".img"
+  },
+  {
+    "Name": "WinImage Compressed Disk Image",
+    "Extension": ".imz"
+  },
+  {
+    "Name": "Interchangeable Preservation File",
+    "Extension": ".ipf"
+  },
+  {
+    "Name": "Disc Image File",
+    "Extension": ".iso"
+  },
+  {
+    "Name": "PlayStation 2 ROM File",
+    "Extension": ".iso"
+  },
+  {
+    "Name": "Wii Game ROM File",
+    "Extension": ".iso"
+  },
+  {
+    "Name": "Zipped ISO Disk Image",
+    "Extension": ".isz"
+  },
+  {
+    "Name": "Ulead Disc Image format",
+    "Extension": ".ixa"
+  },
+  {
+    "Name": "K3b Disk Burning Project File",
+    "Extension": ".k3b"
+  },
+  {
+    "Name": "EnCase Logical Evidence File",
+    "Extension": ".l01"
+  },
+  {
+    "Name": "CDSpace Emulated Disk Image",
+    "Extension": ".lcd"
+  },
+  {
+    "Name": "Atari Lynx ROM",
+    "Extension": ".lnx"
+  },
+  {
+    "Name": "EnCase Logical Evidence File",
+    "Extension": ".lx01"
+  },
+  {
+    "Name": "Multi-Bootable Information File",
+    "Extension": ".mbi"
+  },
+  {
+    "Name": "Alcohol Disk Image Segment 1",
+    "Extension": ".md0"
+  },
+  {
+    "Name": "GEAR CD/DVD Disc Image",
+    "Extension": ".md1"
+  },
+  {
+    "Name": "Alcohol Disk Image Segment 2",
+    "Extension": ".md1"
+  },
+  {
+    "Name": "Alcohol Disk Image Segment 2",
+    "Extension": ".md2"
+  },
+  {
+    "Name": "Media Disc Image File",
+    "Extension": ".mdf"
+  },
+  {
+    "Name": "Media Descriptor Sidecar File",
+    "Extension": ".mds"
+  },
+  {
+    "Name": "Extended Media Descriptor File",
+    "Extension": ".mdx"
+  },
+  {
+    "Name": "Mini Image Destination File",
+    "Extension": ".miniso"
+  },
+  {
+    "Name": "Mini-Image Ripper Disc Image",
+    "Extension": ".mir"
+  },
+  {
+    "Name": "MobaLiveCD File",
+    "Extension": ".mlc"
+  },
+  {
+    "Name": "Macrium Reflect Disk Image",
+    "Extension": ".mrimg"
+  },
+  {
+    "Name": "NTI CD-Maker Disc Image",
+    "Extension": ".ncd"
+  },
+  {
+    "Name": "Apple New Disk Image Format File",
+    "Extension": ".ndif"
+  },
+  {
+    "Name": "Dreambox Disc Image",
+    "Extension": ".nfi"
+  },
+  {
+    "Name": "Nero CD File List",
+    "Extension": ".nn"
+  },
+  {
+    "Name": "Nero CD/DVD Image File",
+    "Extension": ".nrg"
+  },
+  {
+    "Name": "Nero ISO CD Compilation File",
+    "Extension": ".nri"
+  },
+  {
+    "Name": "Image File",
+    "Extension": ".omg"
+  },
+  {
+    "Name": "GEAR CD/DVD Disc Image",
+    "Extension": ".p01"
+  },
+  {
+    "Name": "Toast CD Image",
+    "Extension": ".p01"
+  },
+  {
+    "Name": "Power2Go Project File",
+    "Extension": ".p2g"
+  },
+  {
+    "Name": "Power2Go Disc Image",
+    "Extension": ".p2i"
+  },
+  {
+    "Name": "Partimage File",
+    "Extension": ".partimg"
+  },
+  {
+    "Name": "InstantCopy Disc Image",
+    "Extension": ".pdi"
+  },
+  {
+    "Name": "PGP Disk Image",
+    "Extension": ".pgd"
+  },
+  {
+    "Name": "Hopedot VOS Data File",
+    "Extension": ".pgx"
+  },
+  {
+    "Name": "Partition Image File",
+    "Extension": ".pmf"
+  },
+  {
+    "Name": "PowerQuest Drive Image",
+    "Extension": ".pqi"
+  },
+  {
+    "Name": "Parallels Virtual Machine",
+    "Extension": ".pvm"
+  },
+  {
+    "Name": "PlexTools Disc Image",
+    "Extension": ".pxi"
+  },
+  {
+    "Name": "QEMU Copy On Write Disk Image",
+    "Extension": ".qcow"
+  },
+  {
+    "Name": "QEMU Copy On Write Version 2 Disk Image",
+    "Extension": ".qcow2"
+  },
+  {
+    "Name": "RatDVD Disk Image",
+    "Extension": ".ratdvd"
+  },
+  {
+    "Name": "Easy CD and DVD Creator 6 Project",
+    "Extension": ".rcl"
+  },
+  {
+    "Name": "PowerProducer Disc Image",
+    "Extension": ".rdf"
+  },
+  {
+    "Name": "TotalRecovery Backup Image",
+    "Extension": ".sco"
+  },
+  {
+    "Name": "Windows System Deployment Image",
+    "Extension": ".sdi"
+  },
+  {
+    "Name": "SafeHouse Private Storage Volume",
+    "Extension": ".sdsk"
+  },
+  {
+    "Name": "Synclavier Disk Image File",
+    "Extension": ".simg"
+  },
+  {
+    "Name": "Self-Mounting Disk Image",
+    "Extension": ".smi"
+  },
+  {
+    "Name": "Synclavier Optical Disk Image File",
+    "Extension": ".sopt"
+  },
+  {
+    "Name": "Mac OS X Sparse Bundle",
+    "Extension": ".sparsebundle"
+  },
+  {
+    "Name": "Mac OS X Sparse Image",
+    "Extension": ".sparseimage"
+  },
+  {
+    "Name": "Squash FS Bootable File",
+    "Extension": ".sqfs"
+  },
+  {
+    "Name": "Atari ST Disk Image",
+    "Extension": ".st"
+  },
+  {
+    "Name": "CloneCD Subchannel File",
+    "Extension": ".sub"
+  },
+  {
+    "Name": "Split Windows Imaging Format File",
+    "Extension": ".swm"
+  },
+  {
+    "Name": "Commodore 64 Tape Image File",
+    "Extension": ".t64"
+  },
+  {
+    "Name": "Track at Once CD/DVD Image",
+    "Extension": ".tao"
+  },
+  {
+    "Name": "Commodore 64 Cassette Tape Image",
+    "Extension": ".tap"
+  },
+  {
+    "Name": "TrueCrypt Volume",
+    "Extension": ".tc"
+  },
+  {
+    "Name": "Teledisk Archive",
+    "Extension": ".td0"
+  },
+  {
+    "Name": "Acronis True Image File",
+    "Extension": ".tib"
+  },
+  {
+    "Name": "Toast Disc Image",
+    "Extension": ".toast"
+  },
+  {
+    "Name": "Brasero Table of Contents File",
+    "Extension": ".toc"
+  },
+  {
+    "Name": "ZX Spectrum Tape Image File",
+    "Extension": ".tzx"
+  },
+  {
+    "Name": "Universal Disk Format File",
+    "Extension": ".udf"
+  },
+  {
+    "Name": "FreeBSD Unix File System File",
+    "Extension": ".ufs"
+  },
+  {
+    "Name": "UltraISO Backup Disk Image",
+    "Extension": ".uibak"
+  },
+  {
+    "Name": "Universal Image Format Disc Image",
+    "Extension": ".uif"
+  },
+  {
+    "Name": "Norum Vapor CD",
+    "Extension": ".vaporcd"
+  },
+  {
+    "Name": "Virtual CD Disc Image",
+    "Extension": ".vc4"
+  },
+  {
+    "Name": "Virtual CD 6 CD Image",
+    "Extension": ".vc6"
+  },
+  {
+    "Name": "Virtual CD 8 Disc Image",
+    "Extension": ".vc8"
+  },
+  {
+    "Name": "Virtual CD",
+    "Extension": ".vcd"
+  },
+  {
+    "Name": "FarStone Virtual Drive",
+    "Extension": ".vcd"
+  },
+  {
+    "Name": "Virtual CD Collection File",
+    "Extension": ".vco"
+  },
+  {
+    "Name": "Virtual Disc Definition File",
+    "Extension": ".vcx"
+  },
+  {
+    "Name": "VirtualBox Virtual Disk Image",
+    "Extension": ".vdi"
+  },
+  {
+    "Name": "Virtuo CD Manager Disk Image",
+    "Extension": ".vdi"
+  },
+  {
+    "Name": "Virtual Floppy Disk",
+    "Extension": ".vfd"
+  },
+  {
+    "Name": "Virtual PC Virtual Hard Disk",
+    "Extension": ".vhd"
+  },
+  {
+    "Name": "Windows 8 Virtual Hard Drive File",
+    "Extension": ".vhdx"
+  },
+  {
+    "Name": "Virtual Machine Disk File",
+    "Extension": ".vmdk"
+  },
+  {
+    "Name": "VMware Fusion Virtual Machine",
+    "Extension": ".vmwarevm"
+  },
+  {
+    "Name": "CopyCatX Volume Archive",
+    "Extension": ".volarchive"
+  },
+  {
+    "Name": "Compact ISO File",
+    "Extension": ".wbi"
+  },
+  {
+    "Name": "Scrambled Wii Disc Image",
+    "Extension": ".wii"
+  },
+  {
+    "Name": "WinImage Disk Image List",
+    "Extension": ".wil"
+  },
+  {
+    "Name": "Windows Imaging Format File",
+    "Extension": ".wim"
+  },
+  {
+    "Name": "Winclone Image",
+    "Extension": ".winclone"
+  },
+  {
+    "Name": "WinImage Compressed Disk Image Set",
+    "Extension": ".wlz"
+  },
+  {
+    "Name": "WinMount Virtual Disk File",
+    "Extension": ".wmt"
+  },
+  {
+    "Name": "Wii U Disk Image File",
+    "Extension": ".wud"
+  },
+  {
+    "Name": "Commodore 64 Disk Image",
+    "Extension": ".x64"
+  },
+  {
+    "Name": "GEAR CD/DVD Disc Image",
+    "Extension": ".xa"
+  },
+  {
+    "Name": "WinArchiver Extended Disc Image File",
+    "Extension": ".xdi"
+  },
+  {
+    "Name": "Extended Media Disc Image",
+    "Extension": ".xmd"
+  },
+  {
+    "Name": "GameJack Disc Image File",
+    "Extension": ".xmf"
+  },
+  {
+    "Name": "XenServer Virtual Appliance File",
+    "Extension": ".xva"
+  },
+  {
+    "Name": "Xbox Virtual Disk",
+    "Extension": ".xvd"
+  }
+]

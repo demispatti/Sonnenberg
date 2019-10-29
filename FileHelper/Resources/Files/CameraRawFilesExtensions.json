@@ -1,0 +1,142 @@
+[
+  {
+    "Name": "Hasselblad 3F RAW Image",
+    "Extension": ".3fr"
+  },
+  {
+    "Name": "ARRIRAW Image",
+    "Extension": ".ari"
+  },
+  {
+    "Name": "Sony Digital Camera Image",
+    "Extension": ".arw"
+  },
+  {
+    "Name": "Casio RAW Image",
+    "Extension": ".bay"
+  },
+  {
+    "Name": "Canon Raw Image File",
+    "Extension": ".cr2"
+  },
+  {
+    "Name": "Canon Raw 3 Image File",
+    "Extension": ".cr3"
+  },
+  {
+    "Name": "Canon Raw CIFF Image File",
+    "Extension": ".crw"
+  },
+  {
+    "Name": "CaptureShop 1-shot Raw Image",
+    "Extension": ".cs1"
+  },
+  {
+    "Name": "FMAT RAW Image",
+    "Extension": ".cxi"
+  },
+  {
+    "Name": "Kodak RAW Image File",
+    "Extension": ".dcr"
+  },
+  {
+    "Name": "Digital Negative Image File",
+    "Extension": ".dng"
+  },
+  {
+    "Name": "Enhanced Image Package File",
+    "Extension": ".eip"
+  },
+  {
+    "Name": "Epson RAW File",
+    "Extension": ".erf"
+  },
+  {
+    "Name": "Hasselblad RAW Image",
+    "Extension": ".fff"
+  },
+  {
+    "Name": "Phase One RAW Image",
+    "Extension": ".iiq"
+  },
+  {
+    "Name": "Ricoh Camera Image File",
+    "Extension": ".j6i"
+  },
+  {
+    "Name": "Kodak K25 Image",
+    "Extension": ".k25"
+  },
+  {
+    "Name": "Kodak Photo-Enhancer File",
+    "Extension": ".kdc"
+  },
+  {
+    "Name": "Mamiya RAW Image",
+    "Extension": ".mef"
+  },
+  {
+    "Name": "Mamiya Camera Raw File",
+    "Extension": ".mfw"
+  },
+  {
+    "Name": "Leaf Camera RAW File",
+    "Extension": ".mos"
+  },
+  {
+    "Name": "Minolta Raw Image File",
+    "Extension": ".mrw"
+  },
+  {
+    "Name": "Nikon Electronic Format RAW Image",
+    "Extension": ".nef"
+  },
+  {
+    "Name": "Nikon Raw Image File",
+    "Extension": ".nrw"
+  },
+  {
+    "Name": "Olympus RAW File",
+    "Extension": ".orf"
+  },
+  {
+    "Name": "Pentax Electronic File",
+    "Extension": ".pef"
+  },
+  {
+    "Name": "Fuji RAW Image File",
+    "Extension": ".raf"
+  },
+  {
+    "Name": "Raw Image Data File",
+    "Extension": ".raw"
+  },
+  {
+    "Name": "Panasonic RAW Image",
+    "Extension": ".rw2"
+  },
+  {
+    "Name": "Leica RAW Image",
+    "Extension": ".rwl"
+  },
+  {
+    "Name": "Rawzor Compressed Image",
+    "Extension": ".rwz"
+  },
+  {
+    "Name": "Sony RAW Image",
+    "Extension": ".sr2"
+  },
+  {
+    "Name": "Sony RAW Image",
+    "Extension": ".srf"
+  },
+  {
+    "Name": "Samsung RAW Image",
+    "Extension": ".srw"
+  },
+  {
+    "Name": "SIGMA X3F Camera RAW File",
+    "Extension": ".x3f"
+  }
+]

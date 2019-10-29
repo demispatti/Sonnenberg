@@ -1,0 +1,2002 @@
+[
+  {
+    "Name": "3GPP Audio File",
+    "Extension": ".3ga"
+  },
+  {
+    "Name": "4-MP3 Database File",
+    "Extension": ".4mp"
+  },
+  {
+    "Name": "Line 6 POD HD500X Edit Bundle",
+    "Extension": ".5xb"
+  },
+  {
+    "Name": "Line 6 POD HD500X Edit Preset File",
+    "Extension": ".5xe"
+  },
+  {
+    "Name": "Line 6 POD HD500X Edit Setlist File",
+    "Extension": ".5xs"
+  },
+  {
+    "Name": "UNIS Composer 669 Module",
+    "Extension": ".669"
+  },
+  {
+    "Name": "Amiga 8-Bit Sound File",
+    "Extension": ".8svx"
+  },
+  {
+    "Name": "Adlib Tracker II Instrument Bank",
+    "Extension": ".a2b"
+  },
+  {
+    "Name": "Adlib Tracker II Instrument File",
+    "Extension": ".a2i"
+  },
+  {
+    "Name": "Adlib Tracker II File",
+    "Extension": ".a2m"
+  },
+  {
+    "Name": "Audible Audio Book File",
+    "Extension": ".aa"
+  },
+  {
+    "Name": "ATRAC Audio File",
+    "Extension": ".aa3"
+  },
+  {
+    "Name": "Advanced Audio Coding File",
+    "Extension": ".aac"
+  },
+  {
+    "Name": "Audible Enhanced Audiobook File",
+    "Extension": ".aax"
+  },
+  {
+    "Name": "Ambling BookPlayer MP3 File",
+    "Extension": ".ab"
+  },
+  {
+    "Name": "ABC Music Notation",
+    "Extension": ".abc"
+  },
+  {
+    "Name": "Music Album",
+    "Extension": ".abm"
+  },
+  {
+    "Name": "Audio Codec 3 File",
+    "Extension": ".ac3"
+  },
+  {
+    "Name": "ACID Project File",
+    "Extension": ".acd"
+  },
+  {
+    "Name": "MAGIX ACID Project Backup File",
+    "Extension": ".acd-bak"
+  },
+  {
+    "Name": "Sony ACID Project With Embedded Media File",
+    "Extension": ".acd-zip"
+  },
+  {
+    "Name": "Interplay Audio File",
+    "Extension": ".acm"
+  },
+  {
+    "Name": "aacPlus Audio File",
+    "Extension": ".acp"
+  },
+  {
+    "Name": "ADPCM Compressed Audio File",
+    "Extension": ".act"
+  },
+  {
+    "Name": "Ableton Device Group",
+    "Extension": ".adg"
+  },
+  {
+    "Name": "ADTS Audio File",
+    "Extension": ".adt"
+  },
+  {
+    "Name": "Audio Data Transport Stream File",
+    "Extension": ".adts"
+  },
+  {
+    "Name": "Ableton Device Preset File",
+    "Extension": ".adv"
+  },
+  {
+    "Name": "Mass Effect 2 Audio File",
+    "Extension": ".afc"
+  },
+  {
+    "Name": "DTS Multi-channel Pro Packer File",
+    "Extension": ".agm"
+  },
+  {
+    "Name": "Ableton Groove File",
+    "Extension": ".agr"
+  },
+  {
+    "Name": "Audio Interchange File Format",
+    "Extension": ".aif"
+  },
+  {
+    "Name": "Compressed Audio Interchange File",
+    "Extension": ".aifc"
+  },
+  {
+    "Name": "Audio Interchange File Format",
+    "Extension": ".aiff"
+  },
+  {
+    "Name": "AIMP Playlist File",
+    "Extension": ".aimppl"
+  },
+  {
+    "Name": "Akai Sampler File",
+    "Extension": ".akp"
+  },
+  {
+    "Name": "Ableton Live Clip File",
+    "Extension": ".alc"
+  },
+  {
+    "Name": "Cubasis Project File",
+    "Extension": ".all"
+  },
+  {
+    "Name": "Ableton Live Set File",
+    "Extension": ".als"
+  },
+  {
+    "Name": "Advanced Module File",
+    "Extension": ".amf"
+  },
+  {
+    "Name": "Adaptive Multi-Rate Codec File",
+    "Extension": ".amr"
+  },
+  {
+    "Name": "Extreme Tracker Module",
+    "Extension": ".ams"
+  },
+  {
+    "Name": "Velvet Studio Module",
+    "Extension": ".ams"
+  },
+  {
+    "Name": "Ableton Max Patch File",
+    "Extension": ".amxd"
+  },
+  {
+    "Name": "Amazon MP3 Downloader File",
+    "Extension": ".amz"
+  },
+  {
+    "Name": "Anghami Audio File",
+    "Extension": ".ang"
+  },
+  {
+    "Name": "DVD-Audio Audio Object File",
+    "Extension": ".aob"
+  },
+  {
+    "Name": "Monkey's Audio Lossless Audio File",
+    "Extension": ".ape"
+  },
+  {
+    "Name": "Monkey's Audio Track Information File",
+    "Extension": ".apl"
+  },
+  {
+    "Name": "Chipsounds Sound File",
+    "Extension": ".aria"
+  },
+  {
+    "Name": "Chipsounds XML Sound File",
+    "Extension": ".ariax"
+  },
+  {
+    "Name": "Ableton Live Sample Analysis File",
+    "Extension": ".asd"
+  },
+  {
+    "Name": "ATRAC3 Audio File",
+    "Extension": ".at3"
+  },
+  {
+    "Name": "Audio File",
+    "Extension": ".au"
+  },
+  {
+    "Name": "Video Game Compressed Audio File",
+    "Extension": ".aud"
+  },
+  {
+    "Name": "Audacity Project File",
+    "Extension": ".aup"
+  },
+  {
+    "Name": "Avast! Soundpack File",
+    "Extension": ".avastsounds"
+  },
+  {
+    "Name": "AY Chiptune File",
+    "Extension": ".ay"
+  },
+  {
+    "Name": "Winamp Playlist File",
+    "Extension": ".b4s"
+  },
+  {
+    "Name": "GarageBand Project File",
+    "Extension": ".band"
+  },
+  {
+    "Name": "Blaze Audio Wave Information File",
+    "Extension": ".bap"
+  },
+  {
+    "Name": "CARA Sound Radiation Data File",
+    "Extension": ".bdd"
+  },
+  {
+    "Name": "Bidule Layout File",
+    "Extension": ".bidule"
+  },
+  {
+    "Name": "Adlib Instrument Bank",
+    "Extension": ".bnk"
+  },
+  {
+    "Name": "BRSTM Audio Stream File",
+    "Extension": ".brstm"
+  },
+  {
+    "Name": "Cakewalk Bundle File",
+    "Extension": ".bun"
+  },
+  {
+    "Name": "Broadcast Wave File",
+    "Extension": ".bwf"
+  },
+  {
+    "Name": "BrainWave Generator Audio File",
+    "Extension": ".bwg"
+  },
+  {
+    "Name": "Bagpipe Player File",
+    "Extension": ".bww"
+  },
+  {
+    "Name": "Core Audio File",
+    "Extension": ".caf"
+  },
+  {
+    "Name": "Core Audio File",
+    "Extension": ".caff"
+  },
+  {
+    "Name": "CD Audio Track Shortcut",
+    "Extension": ".cda"
+  },
+  {
+    "Name": "CD Digital Audio File",
+    "Extension": ".cdda"
+  },
+  {
+    "Name": "Audition CD Layout File",
+    "Extension": ".cdlx"
+  },
+  {
+    "Name": "Crescendo Music Notation File",
+    "Extension": ".cdo"
+  },
+  {
+    "Name": "Raw Audio CD Data",
+    "Extension": ".cdr"
+  },
+  {
+    "Name": "Audition Loop",
+    "Extension": ".cel"
+  },
+  {
+    "Name": "Adobe Conformed Audio File",
+    "Extension": ".cfa"
+  },
+  {
+    "Name": "Pro Tools Clip Group File",
+    "Extension": ".cgrp"
+  },
+  {
+    "Name": "iTunes CD Information File",
+    "Extension": ".cidb"
+  },
+  {
+    "Name": "Cricket Audio Bank File",
+    "Extension": ".ckb"
+  },
+  {
+    "Name": "Casio Keyboard File",
+    "Extension": ".ckf"
+  },
+  {
+    "Name": "Conformalizer Change List File",
+    "Extension": ".conform"
+  },
+  {
+    "Name": "Sony Ericsson Protected Content File",
+    "Extension": ".copy"
+  },
+  {
+    "Name": "Cubase Project",
+    "Extension": ".cpr"
+  },
+  {
+    "Name": "DTS Compact Audio File",
+    "Extension": ".cpt"
+  },
+  {
+    "Name": "Cubase Waveform File",
+    "Extension": ".csh"
+  },
+  {
+    "Name": "CrazyTalk Script File",
+    "Extension": ".cts"
+  },
+  {
+    "Name": "Cakewalk Bundle",
+    "Extension": ".cwb"
+  },
+  {
+    "Name": "Cakewalk SONAR Project",
+    "Extension": ".cwp"
+  },
+  {
+    "Name": "ChordWizard Song",
+    "Extension": ".cws"
+  },
+  {
+    "Name": "Cakewalk SONAR Template",
+    "Extension": ".cwt"
+  },
+  {
+    "Name": "DRM Content Format File",
+    "Extension": ".dcf"
+  },
+  {
+    "Name": "DCM Audio Module",
+    "Extension": ".dcm"
+  },
+  {
+    "Name": "Dictation Audio File",
+    "Extension": ".dct"
+  },
+  {
+    "Name": "SoundEdit Recorded Instrument",
+    "Extension": ".dewf"
+  },
+  {
+    "Name": "Defractor 2 Instrument",
+    "Extension": ".df2"
+  },
+  {
+    "Name": "Defractor Instrument",
+    "Extension": ".dfc"
+  },
+  {
+    "Name": "DSD Audio File",
+    "Extension": ".dff"
+  },
+  {
+    "Name": "Digilink Audio File",
+    "Extension": ".dig"
+  },
+  {
+    "Name": "Sound Designer Audio File",
+    "Extension": ".dig"
+  },
+  {
+    "Name": "Downloadable Sounds File",
+    "Extension": ".dls"
+  },
+  {
+    "Name": "DRM Delivery Message",
+    "Extension": ".dm"
+  },
+  {
+    "Name": "DPCM Sample File",
+    "Extension": ".dmc"
+  },
+  {
+    "Name": "Delusion Digital Music File",
+    "Extension": ".dmf"
+  },
+  {
+    "Name": "Music Disc Creator Project File",
+    "Extension": ".dmsa"
+  },
+  {
+    "Name": "Sound Editor Project File",
+    "Extension": ".dmse"
+  },
+  {
+    "Name": "Nuance Dragon Voice Recording File",
+    "Extension": ".dra"
+  },
+  {
+    "Name": "I-Doser Audio Drug File",
+    "Extension": ".drg"
+  },
+  {
+    "Name": "LMMS DrumSynth File",
+    "Extension": ".ds"
+  },
+  {
+    "Name": "Olympus DSS Pro Audio File",
+    "Extension": ".ds2"
+  },
+  {
+    "Name": "Delusion Digital Sound File",
+    "Extension": ".dsf"
+  },
+  {
+    "Name": "Digital Sound Module",
+    "Extension": ".dsm"
+  },
+  {
+    "Name": "Digital Speech Standard File",
+    "Extension": ".dss"
+  },
+  {
+    "Name": "DigiTrakker Module",
+    "Extension": ".dtm"
+  },
+  {
+    "Name": "DTS Encoded Audio File",
+    "Extension": ".dts"
+  },
+  {
+    "Name": "DTS-HD Master Audio File",
+    "Extension": ".dtshd"
+  },
+  {
+    "Name": "Sony Digital Voice File",
+    "Extension": ".dvf"
+  },
+  {
+    "Name": "DiamondWare Digital Audio File",
+    "Extension": ".dwd"
+  },
+  {
+    "Name": "Ensoniq ASR File",
+    "Extension": ".efa"
+  },
+  {
+    "Name": "Ensoniq EPS File",
+    "Extension": ".efe"
+  },
+  {
+    "Name": "Ensoniq KT File",
+    "Extension": ".efk"
+  },
+  {
+    "Name": "Ensoniq SQ1/SQ2/KS-32 File",
+    "Extension": ".efq"
+  },
+  {
+    "Name": "Ensoniq SQ-80 File",
+    "Extension": ".efs"
+  },
+  {
+    "Name": "Ensoniq VFX-SD File",
+    "Extension": ".efv"
+  },
+  {
+    "Name": "ABT Extended Module",
+    "Extension": ".emd"
+  },
+  {
+    "Name": "eMusic Music Download File",
+    "Extension": ".emp"
+  },
+  {
+    "Name": "eMusic Download File",
+    "Extension": ".emx"
+  },
+  {
+    "Name": "ESPS Sampled Data File",
+    "Extension": ".esps"
+  },
+  {
+    "Name": "Cubase Expression Map File",
+    "Extension": ".expressionmap"
+  },
+  {
+    "Name": "EXS Instrument",
+    "Extension": ".exs"
+  },
+  {
+    "Name": "Farandoyle Linear Module File",
+    "Extension": ".f2r"
+  },
+  {
+    "Name": "Raw 32-Bit Audio File",
+    "Extension": ".f32"
+  },
+  {
+    "Name": "Farandoyle Blocked Module File",
+    "Extension": ".f3r"
+  },
+  {
+    "Name": "Adobe Flash Protected Audio File",
+    "Extension": ".f4a"
+  },
+  {
+    "Name": "Raw 64-Bit Audio File",
+    "Extension": ".f64"
+  },
+  {
+    "Name": "FMOD Project File",
+    "Extension": ".fdp"
+  },
+  {
+    "Name": "FMOD Audio Events File",
+    "Extension": ".fev"
+  },
+  {
+    "Name": "Free Lossless Audio Codec File",
+    "Extension": ".flac"
+  },
+  {
+    "Name": "FL Studio Mobile Song File",
+    "Extension": ".flm"
+  },
+  {
+    "Name": "FL Studio Project",
+    "Extension": ".flp"
+  },
+  {
+    "Name": "Finale Performance Assessment File",
+    "Extension": ".fpa"
+  },
+  {
+    "Name": "Sound Forge Pro Project File",
+    "Extension": ".frg"
+  },
+  {
+    "Name": "FMOD Sample Bank File",
+    "Extension": ".fsb"
+  },
+  {
+    "Name": "FL Studio Score File",
+    "Extension": ".fsc"
+  },
+  {
+    "Name": "Farandole Composer WaveSample File",
+    "Extension": ".fsm"
+  },
+  {
+    "Name": "FamiTracker Module",
+    "Extension": ".ftm"
+  },
+  {
+    "Name": "Finale Template File",
+    "Extension": ".ftm"
+  },
+  {
+    "Name": "Finale Template File",
+    "Extension": ".ftmx"
+  },
+  {
+    "Name": "Casio FZ-1 Full Dump",
+    "Extension": ".fzf"
+  },
+  {
+    "Name": "Casio FZ-1 Voice Dump",
+    "Extension": ".fzv"
+  },
+  {
+    "Name": "G.721 Audio File",
+    "Extension": ".g721"
+  },
+  {
+    "Name": "G.723 Audio File",
+    "Extension": ".g723"
+  },
+  {
+    "Name": "G.726 Audio File",
+    "Extension": ".g726"
+  },
+  {
+    "Name": "GarageBand Project",
+    "Extension": ".gbproj"
+  },
+  {
+    "Name": "GameBoy Sound File",
+    "Extension": ".gbs"
+  },
+  {
+    "Name": "Tascam GigaSampler File",
+    "Extension": ".gig"
+  },
+  {
+    "Name": "Guitar Pro 5 Tablature File",
+    "Extension": ".gp5"
+  },
+  {
+    "Name": "Guitar Pro Sound Bank File",
+    "Extension": ".gpbank"
+  },
+  {
+    "Name": "WaveLab Audio Peak File",
+    "Extension": ".gpk"
+  },
+  {
+    "Name": "Guitar Pro 6 Document",
+    "Extension": ".gpx"
+  },
+  {
+    "Name": "ACID Groove File",
+    "Extension": ".groove"
+  },
+  {
+    "Name": "Game Boy Advance Sound File",
+    "Extension": ".gsf"
+  },
+  {
+    "Name": "Game Boy Advance Song Library",
+    "Extension": ".gsflib"
+  },
+  {
+    "Name": "Global System for Mobile Audio File",
+    "Extension": ".gsm"
+  },
+  {
+    "Name": "Movie Edit Pro Waveform Information File",
+    "Extension": ".h0"
+  },
+  {
+    "Name": "Line 6 POD HD400 Edit Bundle",
+    "Extension": ".h4b"
+  },
+  {
+    "Name": "Line 6 POD HD500 Edit Bundle",
+    "Extension": ".h5b"
+  },
+  {
+    "Name": "Line 6 POD HD500 Edit Preset File",
+    "Extension": ".h5e"
+  },
+  {
+    "Name": "Line 6 POD HD500 Edit Setlist File",
+    "Extension": ".h5s"
+  },
+  {
+    "Name": "Line 6 POD HD Edit Preset File",
+    "Extension": ".hbe"
+  },
+  {
+    "Name": "High Compression Audio File",
+    "Extension": ".hca"
+  },
+  {
+    "Name": "MAGIX Hard Disk Project Audio File",
+    "Extension": ".hdp"
+  },
+  {
+    "Name": "HALion Sound Bank File",
+    "Extension": ".hsb"
+  },
+  {
+    "Name": "INTUS Audio Archive",
+    "Extension": ".iaa"
+  },
+  {
+    "Name": "IC Recorder Sound File",
+    "Extension": ".ics"
+  },
+  {
+    "Name": "Interchange File Format",
+    "Extension": ".iff"
+  },
+  {
+    "Name": "Igor Published Music Notation File",
+    "Extension": ".igp"
+  },
+  {
+    "Name": "Igor Engraver File",
+    "Extension": ".igr"
+  },
+  {
+    "Name": "Audition Impulse File",
+    "Extension": ".imp"
+  },
+  {
+    "Name": "Adlib Tracker Instrument File",
+    "Extension": ".ins"
+  },
+  {
+    "Name": "Sample Cell II Instrument Definition File",
+    "Extension": ".ins"
+  },
+  {
+    "Name": "IIS Smooth Streaming Audio File",
+    "Extension": ".isma"
+  },
+  {
+    "Name": "Impulse Tracker Instrument",
+    "Extension": ".iti"
+  },
+  {
+    "Name": "iTunes Live Stream URL",
+    "Extension": ".itls"
+  },
+  {
+    "Name": "Impulse Tracker Sample",
+    "Extension": ".its"
+  },
+  {
+    "Name": "Line 6 Device Recording",
+    "Extension": ".jam"
+  },
+  {
+    "Name": "JSON Playlist File",
+    "Extension": ".jspf"
+  },
+  {
+    "Name": "Kurzweil K2600 File",
+    "Extension": ".k26"
+  },
+  {
+    "Name": "Karaoke MIDI File",
+    "Extension": ".kar"
+  },
+  {
+    "Name": "KaraFun Karaoke File",
+    "Extension": ".kfn"
+  },
+  {
+    "Name": "Korg Trinity/Triton Keymap File",
+    "Extension": ".kmp"
+  },
+  {
+    "Name": "Audiokoz Music File",
+    "Extension": ".koz"
+  },
+  {
+    "Name": "Bell Music File",
+    "Extension": ".koz"
+  },
+  {
+    "Name": "Kazaa Playlist File",
+    "Extension": ".kpl"
+  },
+  {
+    "Name": "Kurzweil K2000 File",
+    "Extension": ".krz"
+  },
+  {
+    "Name": "Korg Trinity/Triton Script File",
+    "Extension": ".ksc"
+  },
+  {
+    "Name": "Korg Trinity/Triton Sample File",
+    "Extension": ".ksf"
+  },
+  {
+    "Name": "Battery 3 Drum Kit File",
+    "Extension": ".kt3"
+  },
+  {
+    "Name": "Left Audio Channel File",
+    "Extension": ".l"
+  },
+  {
+    "Name": "Lossless Audio File",
+    "Extension": ".la"
+  },
+  {
+    "Name": "Audacity File List",
+    "Extension": ".lof"
+  },
+  {
+    "Name": "Logic Pro Project File",
+    "Extension": ".logic"
+  },
+  {
+    "Name": "Logic Pro Project",
+    "Extension": ".logicx"
+  },
+  {
+    "Name": "Logic Audio Project",
+    "Extension": ".lso"
+  },
+  {
+    "Name": "Linguistically Enhanced Sound File",
+    "Extension": ".lwv"
+  },
+  {
+    "Name": "Media Playlist File",
+    "Extension": ".m3u"
+  },
+  {
+    "Name": "UTF-8 M3U Playlist File",
+    "Extension": ".m3u8"
+  },
+  {
+    "Name": "MPEG-4 Audio File",
+    "Extension": ".m4a"
+  },
+  {
+    "Name": "MPEG-4 Audio Book File",
+    "Extension": ".m4b"
+  },
+  {
+    "Name": "iTunes Music Store Audio File",
+    "Extension": ".m4p"
+  },
+  {
+    "Name": "iPhone Ringtone File",
+    "Extension": ".m4r"
+  },
+  {
+    "Name": "MachFive Preset File",
+    "Extension": ".m5p"
+  },
+  {
+    "Name": "Monarch Audio File",
+    "Extension": ".ma1"
+  },
+  {
+    "Name": "Zune Smooth Streaming File",
+    "Extension": ".mbr"
+  },
+  {
+    "Name": "MidiCo Karaoke Audio File",
+    "Extension": ".mdc"
+  },
+  {
+    "Name": "ModPlug Compressed Module",
+    "Extension": ".mdr"
+  },
+  {
+    "Name": "Amiga MED Sound File",
+    "Extension": ".med"
+  },
+  {
+    "Name": "Yamaha MegaVoice File",
+    "Extension": ".mgv"
+  },
+  {
+    "Name": "MIDI File",
+    "Extension": ".mid"
+  },
+  {
+    "Name": "MIDI File",
+    "Extension": ".midi"
+  },
+  {
+    "Name": "Game Boy Advance Song File",
+    "Extension": ".minigsf"
+  },
+  {
+    "Name": "Miniature PlayStation Sound Format File",
+    "Extension": ".minipsf"
+  },
+  {
+    "Name": "Nintendo 64 Song File",
+    "Extension": ".miniusf"
+  },
+  {
+    "Name": "Matroska Audio File",
+    "Extension": ".mka"
+  },
+  {
+    "Name": "Synthetic Music Mobile Application File",
+    "Extension": ".mmf"
+  },
+  {
+    "Name": "Music Macro Language Project",
+    "Extension": ".mmlp"
+  },
+  {
+    "Name": "Music Maker Arrangement File",
+    "Extension": ".mmm"
+  },
+  {
+    "Name": "MixMeister Playlist",
+    "Extension": ".mmp"
+  },
+  {
+    "Name": "LMMS Project File",
+    "Extension": ".mmpz"
+  },
+  {
+    "Name": "MO3 Audio File",
+    "Extension": ".mo3"
+  },
+  {
+    "Name": "Amiga Music Module File",
+    "Extension": ".mod"
+  },
+  {
+    "Name": "Multitrack Ogg File",
+    "Extension": ".mogg"
+  },
+  {
+    "Name": "MPEG Layer II Compressed Audio File",
+    "Extension": ".mp2"
+  },
+  {
+    "Name": "MP3 Audio File",
+    "Extension": ".mp3"
+  },
+  {
+    "Name": "MPEG-2 Audio File",
+    "Extension": ".mpa"
+  },
+  {
+    "Name": "Musepack Compressed Audio File",
+    "Extension": ".mpc"
+  },
+  {
+    "Name": "MixPad Project File",
+    "Extension": ".mpdp"
+  },
+  {
+    "Name": "MPEG-1 Layer 3 Audio File",
+    "Extension": ".mpga"
+  },
+  {
+    "Name": "MPEG Layer 3 Audio File",
+    "Extension": ".mpu"
+  },
+  {
+    "Name": "MuseScore Music Score File",
+    "Extension": ".mscx"
+  },
+  {
+    "Name": "MuseScore Compressed Score File",
+    "Extension": ".mscz"
+  },
+  {
+    "Name": "Korg microSAMPLER Bank Data File",
+    "Extension": ".msmpl_bank"
+  },
+  {
+    "Name": "Memory Stick Voice File",
+    "Extension": ".msv"
+  },
+  {
+    "Name": "MadTracker 2 Module",
+    "Extension": ".mt2"
+  },
+  {
+    "Name": "MadTracker 2 Envelope",
+    "Extension": ".mte"
+  },
+  {
+    "Name": "Multi Tracker File",
+    "Extension": ".mtf"
+  },
+  {
+    "Name": "MadTracker Instrument",
+    "Extension": ".mti"
+  },
+  {
+    "Name": "MultiTracker Module",
+    "Extension": ".mtm"
+  },
+  {
+    "Name": "MadTracker 2 Pattern",
+    "Extension": ".mtp"
+  },
+  {
+    "Name": "MadTracker 2 Sample File",
+    "Extension": ".mts"
+  },
+  {
+    "Name": "Myriad User Instrument File",
+    "Extension": ".mui"
+  },
+  {
+    "Name": "Finale Notation File",
+    "Extension": ".mus"
+  },
+  {
+    "Name": "Minecraft Music File",
+    "Extension": ".mus"
+  },
+  {
+    "Name": "Finale Notation File",
+    "Extension": ".musx"
+  },
+  {
+    "Name": "Trackmania Music File",
+    "Extension": ".mux"
+  },
+  {
+    "Name": "Mixcraft 3 Audio Project",
+    "Extension": ".mx3"
+  },
+  {
+    "Name": "Mixcraft 4 Audio Project",
+    "Extension": ".mx4"
+  },
+  {
+    "Name": "Mixcraft 5 Audio Project",
+    "Extension": ".mx5"
+  },
+  {
+    "Name": "Mixcraft 5 Audio Project Template",
+    "Extension": ".mx5template"
+  },
+  {
+    "Name": "Compressed MusicXML File",
+    "Extension": ".mxl"
+  },
+  {
+    "Name": "Mobile XMF Ringtone File",
+    "Extension": ".mxmf"
+  },
+  {
+    "Name": "Myriad Music File",
+    "Extension": ".myr"
+  },
+  {
+    "Name": "Narrator Document",
+    "Extension": ".narrative"
+  },
+  {
+    "Name": "Minecraft Note Block Studio File",
+    "Extension": ".nbs"
+  },
+  {
+    "Name": "Native Compressed Wave File",
+    "Extension": ".ncw"
+  },
+  {
+    "Name": "Kontakt Audio Bank",
+    "Extension": ".nkb"
+  },
+  {
+    "Name": "Kontakt Library Data File",
+    "Extension": ".nkc"
+  },
+  {
+    "Name": "KONTAKT Instrument File",
+    "Extension": ".nki"
+  },
+  {
+    "Name": "Kontakt Multi Instrument File",
+    "Extension": ".nkm"
+  },
+  {
+    "Name": "Kontakt Monolith Container",
+    "Extension": ".nks"
+  },
+  {
+    "Name": "Kontakt Monolith Container File",
+    "Extension": ".nkx"
+  },
+  {
+    "Name": "Traktor Collection File",
+    "Extension": ".nml"
+  },
+  {
+    "Name": "Native Instruments Massive Sound File",
+    "Extension": ".nmsv"
+  },
+  {
+    "Name": "Notessimo Composition",
+    "Extension": ".note"
+  },
+  {
+    "Name": "Cubase Library File",
+    "Extension": ".npl"
+  },
+  {
+    "Name": "Nero Audio Compilation",
+    "Extension": ".nra"
+  },
+  {
+    "Name": "Nokia Ringtone",
+    "Extension": ".nrt"
+  },
+  {
+    "Name": "Nullsoft Streaming Audio File",
+    "Extension": ".nsa"
+  },
+  {
+    "Name": "NOTION Song File",
+    "Extension": ".ntn"
+  },
+  {
+    "Name": "Creative Labs NVF Audio File",
+    "Extension": ".nvf"
+  },
+  {
+    "Name": "NoteWorthy Composer File",
+    "Extension": ".nwc"
+  },
+  {
+    "Name": "Superior Drummer Sounds File",
+    "Extension": ".obw"
+  },
+  {
+    "Name": "OverDrive Media File",
+    "Extension": ".odm"
+  },
+  {
+    "Name": "OptimFROG Audio File",
+    "Extension": ".ofr"
+  },
+  {
+    "Name": "Ogg Vorbis Audio File",
+    "Extension": ".oga"
+  },
+  {
+    "Name": "Ogg Vorbis Audio File",
+    "Extension": ".ogg"
+  },
+  {
+    "Name": "Oktalyzer Module",
+    "Extension": ".okt"
+  },
+  {
+    "Name": "Sony OpenMG Music File",
+    "Extension": ".oma"
+  },
+  {
+    "Name": "Open Media Framework File",
+    "Extension": ".omf"
+  },
+  {
+    "Name": "OpenMG Audio File",
+    "Extension": ".omg"
+  },
+  {
+    "Name": "OtsAV Media Library Information File",
+    "Extension": ".omx"
+  },
+  {
+    "Name": "Opus Audio File",
+    "Extension": ".opus"
+  },
+  {
+    "Name": "OtsAV Album File",
+    "Extension": ".ots"
+  },
+  {
+    "Name": "Overture Musical Score",
+    "Extension": ".ove"
+  },
+  {
+    "Name": "Logic Pro Overview File",
+    "Extension": ".ovw"
+  },
+  {
+    "Name": "Cubase WAVE Overview File",
+    "Extension": ".ovw"
+  },
+  {
+    "Name": "SBStudio II Song File",
+    "Extension": ".pac"
+  },
+  {
+    "Name": "Pandora Android App Executable",
+    "Extension": ".pandora"
+  },
+  {
+    "Name": "Pinnacle Sample Bank",
+    "Extension": ".pbf"
+  },
+  {
+    "Name": "Perfect Clarity Audio File",
+    "Extension": ".pca"
+  },
+  {
+    "Name": "iTunes Podcast File",
+    "Extension": ".pcast"
+  },
+  {
+    "Name": "Korg Instrument Bank File",
+    "Extension": ".pcg"
+  },
+  {
+    "Name": "Steinberg Peak File",
+    "Extension": ".peak"
+  },
+  {
+    "Name": "Adobe Peak Waveform File",
+    "Extension": ".pek"
+  },
+  {
+    "Name": "MBROLA Phonetic Data File",
+    "Extension": ".pho"
+  },
+  {
+    "Name": "PhyMod Physical Modeling Data",
+    "Extension": ".phy"
+  },
+  {
+    "Name": "Audition Peak File",
+    "Extension": ".pk"
+  },
+  {
+    "Name": "Audition Peak File",
+    "Extension": ".pkf"
+  },
+  {
+    "Name": "Sansa Playlist File",
+    "Extension": ".pla"
+  },
+  {
+    "Name": "Audio Playlist",
+    "Extension": ".pls"
+  },
+  {
+    "Name": "Finale Playback File",
+    "Extension": ".ply"
+  },
+  {
+    "Name": "PhatNoise Audio File",
+    "Extension": ".pna"
+  },
+  {
+    "Name": "Windows 8 Piano Song",
+    "Extension": ".pno"
+  },
+  {
+    "Name": "Adobe Presenter Audio File",
+    "Extension": ".ppc"
+  },
+  {
+    "Name": "Adobe Presenter Presentation Audio File",
+    "Extension": ".ppcx"
+  },
+  {
+    "Name": "WAVmaker Patch File",
+    "Extension": ".prg"
+  },
+  {
+    "Name": "Portable Sound File",
+    "Extension": ".psf"
+  },
+  {
+    "Name": "PlayStation Sound Format File",
+    "Extension": ".psf1"
+  },
+  {
+    "Name": "PlayStation Sound Format File",
+    "Extension": ".psf2"
+  },
+  {
+    "Name": "Protracker Studio Module",
+    "Extension": ".psm"
+  },
+  {
+    "Name": "Psycle Song File",
+    "Extension": ".psy"
+  },
+  {
+    "Name": "PxTone Audio File",
+    "Extension": ".ptcop"
+  },
+  {
+    "Name": "Pro Tools 7 Session File",
+    "Extension": ".ptf"
+  },
+  {
+    "Name": "PolyTracker Module",
+    "Extension": ".ptm"
+  },
+  {
+    "Name": "Pro Tools Session",
+    "Extension": ".pts"
+  },
+  {
+    "Name": "Pro Tools Session Template",
+    "Extension": ".ptt"
+  },
+  {
+    "Name": "Pro Tools Session File",
+    "Extension": ".ptx"
+  },
+  {
+    "Name": "Pro Tools Session Template",
+    "Extension": ".ptxt"
+  },
+  {
+    "Name": "Panasonic VM1 Voice File",
+    "Extension": ".pvc"
+  },
+  {
+    "Name": "PureVoice Audio File",
+    "Extension": ".qcp"
+  },
+  {
+    "Name": "RealOne Streaming Media File",
+    "Extension": ".r1m"
+  },
+  {
+    "Name": "Real Audio File",
+    "Extension": ".ra"
+  },
+  {
+    "Name": "Real Audio Metadata File",
+    "Extension": ".ram"
+  },
+  {
+    "Name": "Raw Audio Data",
+    "Extension": ".raw"
+  },
+  {
+    "Name": "Real Music Store Audio File",
+    "Extension": ".rax"
+  },
+  {
+    "Name": "Rebirth Song File",
+    "Extension": ".rbs"
+  },
+  {
+    "Name": "MP3 Ringtone File",
+    "Extension": ".rbs"
+  },
+  {
+    "Name": "ReCycle 1.x Document",
+    "Extension": ".rcy"
+  },
+  {
+    "Name": "ReCycle Loop File",
+    "Extension": ".rex"
+  },
+  {
+    "Name": "Reason ReFill Sound Bank",
+    "Extension": ".rfl"
+  },
+  {
+    "Name": "Pro Tools Region Group File",
+    "Extension": ".rgrp"
+  },
+  {
+    "Name": "Hit'n'Mix Audio Mashup File",
+    "Extension": ".rip"
+  },
+  {
+    "Name": "RMID MIDI File",
+    "Extension": ".rmi"
+  },
+  {
+    "Name": "Real Media Jukebox Audio File",
+    "Extension": ".rmj"
+  },
+  {
+    "Name": "RealJukebox Format",
+    "Extension": ".rmx"
+  },
+  {
+    "Name": "Nokia Composer Ringtone",
+    "Extension": ".rng"
+  },
+  {
+    "Name": "Reason Song File",
+    "Extension": ".rns"
+  },
+  {
+    "Name": "Ad Lib Synthesized Instrument",
+    "Extension": ".rol"
+  },
+  {
+    "Name": "Reason Project File",
+    "Extension": ".rsn"
+  },
+  {
+    "Name": "NXT Brick Audio File",
+    "Extension": ".rso"
+  },
+  {
+    "Name": "TrueRTA Project File",
+    "Extension": ".rta"
+  },
+  {
+    "Name": "Real Tracker Instrument",
+    "Extension": ".rti"
+  },
+  {
+    "Name": "Real Tracker Sample",
+    "Extension": ".rts"
+  },
+  {
+    "Name": "Real Protected Video File",
+    "Extension": ".rvx"
+  },
+  {
+    "Name": "REX2 Audio File",
+    "Extension": ".rx2"
+  },
+  {
+    "Name": "Scream Tracker 3 Instrument",
+    "Extension": ".s3i"
+  },
+  {
+    "Name": "ScreamTracker 3 Module",
+    "Extension": ".s3m"
+  },
+  {
+    "Name": "Compressed Scream Tracker 3 Module",
+    "Extension": ".s3z"
+  },
+  {
+    "Name": "Secure Audio File",
+    "Extension": ".saf"
+  },
+  {
+    "Name": "Atari SAP Music File",
+    "Extension": ".sap"
+  },
+  {
+    "Name": "SBaGen Binaural Beat File",
+    "Extension": ".sbg"
+  },
+  {
+    "Name": "Sound Blaster Instrument",
+    "Extension": ".sbi"
+  },
+  {
+    "Name": "Sample Cell II Instrument Definition",
+    "Extension": ".sc2"
+  },
+  {
+    "Name": "Show Cue System Cue File",
+    "Extension": ".scs11"
+  },
+  {
+    "Name": "Sound Designer Audio File",
+    "Extension": ".sd"
+  },
+  {
+    "Name": "ESPS Sampled Data File",
+    "Extension": ".sd"
+  },
+  {
+    "Name": "Sound Designer II File",
+    "Extension": ".sd2"
+  },
+  {
+    "Name": "Sound Designer 2 File",
+    "Extension": ".sd2f"
+  },
+  {
+    "Name": "Nintendo DS Sound Data File",
+    "Extension": ".sdat"
+  },
+  {
+    "Name": "MIDI Sample Dump Standard File",
+    "Extension": ".sds"
+  },
+  {
+    "Name": "Electronic Arts Sound Data File",
+    "Extension": ".sdt"
+  },
+  {
+    "Name": "PowerTracks Pro Audio Project File",
+    "Extension": ".seq"
+  },
+  {
+    "Name": "Audition Session File",
+    "Extension": ".ses"
+  },
+  {
+    "Name": "Adobe Audition Session File",
+    "Extension": ".sesx"
+  },
+  {
+    "Name": "SoundFont 2 Sound Bank",
+    "Extension": ".sf2"
+  },
+  {
+    "Name": "Sound Forge Pro Audio Proxy File",
+    "Extension": ".sfap0"
+  },
+  {
+    "Name": "Sound Forge Pro Audio Peak File",
+    "Extension": ".sfk"
+  },
+  {
+    "Name": "Sound Forge Pro Sound Data File",
+    "Extension": ".sfl"
+  },
+  {
+    "Name": "Packed SoundFont File",
+    "Extension": ".sfpack"
+  },
+  {
+    "Name": "SFX Sample File",
+    "Extension": ".sfs"
+  },
+  {
+    "Name": "SFZ Sample Definition File",
+    "Extension": ".sfz"
+  },
+  {
+    "Name": "MP3 Audio Mixer Sound Group Project",
+    "Extension": ".sgp"
+  },
+  {
+    "Name": "Shorten Compressed Audio File",
+    "Extension": ".shn"
+  },
+  {
+    "Name": "Sibelius Score",
+    "Extension": ".sib"
+  },
+  {
+    "Name": "SpectraLayers Pro Project",
+    "Extension": ".slp"
+  },
+  {
+    "Name": "SpectraLayers Pro Project",
+    "Extension": ".slx"
+  },
+  {
+    "Name": "SmartMusic Accompaniment File",
+    "Extension": ".sma"
+  },
+  {
+    "Name": "Standard MIDI File",
+    "Extension": ".smf"
+  },
+  {
+    "Name": "SmartMusic Performance File",
+    "Extension": ".smp"
+  },
+  {
+    "Name": "SampleVision Audio Sample Format",
+    "Extension": ".smp"
+  },
+  {
+    "Name": "SmartMusic Accompaniment File",
+    "Extension": ".smpx"
+  },
+  {
+    "Name": "Sound File",
+    "Extension": ".snd"
+  },
+  {
+    "Name": "Macintosh Sound Resource",
+    "Extension": ".snd"
+  },
+  {
+    "Name": "Akai MPC Sample",
+    "Extension": ".snd"
+  },
+  {
+    "Name": "MIDI Song File",
+    "Extension": ".sng"
+  },
+  {
+    "Name": "Korg Trinity Song File",
+    "Extension": ".sng"
+  },
+  {
+    "Name": "ChordWizard Song",
+    "Extension": ".sngx"
+  },
+  {
+    "Name": "SNS Video Game Audio File",
+    "Extension": ".sns"
+  },
+  {
+    "Name": "AudioSauna Song File",
+    "Extension": ".song"
+  },
+  {
+    "Name": "SBStudio II Sound File",
+    "Extension": ".sou"
+  },
+  {
+    "Name": "SPPack Sound Sample",
+    "Extension": ".sppack"
+  },
+  {
+    "Name": "Synclavier Program File",
+    "Extension": ".sprg"
+  },
+  {
+    "Name": "Ogg Vorbis Speex File",
+    "Extension": ".spx"
+  },
+  {
+    "Name": "Nintendo DS Sound File",
+    "Extension": ".sseq"
+  },
+  {
+    "Name": "Synclavier Sequence File",
+    "Extension": ".sseq"
+  },
+  {
+    "Name": "Sound Clip Archive",
+    "Extension": ".ssm"
+  },
+  {
+    "Name": "Synclavier Sound File",
+    "Extension": ".ssnd"
+  },
+  {
+    "Name": "Soundtrack Pro Audio Project File",
+    "Extension": ".stap"
+  },
+  {
+    "Name": "Scream Tracker 2 Module",
+    "Extension": ".stm"
+  },
+  {
+    "Name": "STRM Audio Stream File",
+    "Extension": ".strm"
+  },
+  {
+    "Name": "Scream Tracker Music Interface Kit File",
+    "Extension": ".stx"
+  },
+  {
+    "Name": "Band-in-a-Box Styles File",
+    "Extension": ".sty"
+  },
+  {
+    "Name": "Roland Patch File",
+    "Extension": ".svd"
+  },
+  {
+    "Name": "8SVX Sound File",
+    "Extension": ".svx"
+  },
+  {
+    "Name": "Shockwave Audio",
+    "Extension": ".swa"
+  },
+  {
+    "Name": "Propellerhead Reason NN-XT Patch File",
+    "Extension": ".sxt"
+  },
+  {
+    "Name": "Synchomatic Instrument",
+    "Extension": ".syh"
+  },
+  {
+    "Name": "SimSynth Document",
+    "Extension": ".syn"
+  },
+  {
+    "Name": "Yamaha SY99/SY85 Audio File",
+    "Extension": ".syw"
+  },
+  {
+    "Name": "MIDI System Exclusive Message",
+    "Extension": ".syx"
+  },
+  {
+    "Name": "Tom's Lossless Audio Kompressor File",
+    "Extension": ".tak"
+  },
+  {
+    "Name": "Music Maker Take File",
+    "Extension": ".tak"
+  },
+  {
+    "Name": "Akai Teledisk Sound Library",
+    "Extension": ".td0"
+  },
+  {
+    "Name": "TuxGuitar Document",
+    "Extension": ".tg"
+  },
+  {
+    "Name": "PSP Audio File",
+    "Extension": ".toc"
+  },
+  {
+    "Name": "Traktor Content Pack File",
+    "Extension": ".trak"
+  },
+  {
+    "Name": "True Audio File",
+    "Extension": ".tta"
+  },
+  {
+    "Name": "Yamaha TX16W Audio File",
+    "Extension": ".txw"
+  },
+  {
+    "Name": "AU Audio File",
+    "Extension": ".u"
+  },
+  {
+    "Name": "Unreal Audio Package",
+    "Extension": ".uax"
+  },
+  {
+    "Name": "UltraTracker Module",
+    "Extension": ".ult"
+  },
+  {
+    "Name": "MikMod UniMOD Module",
+    "Extension": ".uni"
+  },
+  {
+    "Name": "Nintendo 64 Music File",
+    "Extension": ".usf"
+  },
+  {
+    "Name": "Nintendo 64 Song Library",
+    "Extension": ".usflib"
+  },
+  {
+    "Name": "UTAU Sequence Text File",
+    "Extension": ".ust"
+  },
+  {
+    "Name": "Unsigned Word Audio File",
+    "Extension": ".uw"
+  },
+  {
+    "Name": "UltraTracker Wave File",
+    "Extension": ".uwf"
+  },
+  {
+    "Name": "PlayStation Compressed Sound File",
+    "Extension": ".vag"
+  },
+  {
+    "Name": "Dialogic Indexed Voice Audio File",
+    "Extension": ".vap"
+  },
+  {
+    "Name": "Grand Theft Auto Audio File",
+    "Extension": ".vb"
+  },
+  {
+    "Name": "VSampler Soundbank File",
+    "Extension": ".vc3"
+  },
+  {
+    "Name": "VirtualDJ Audio Sample File",
+    "Extension": ".vdj"
+  },
+  {
+    "Name": "Video Game Music File",
+    "Extension": ".vgm"
+  },
+  {
+    "Name": "Video Game Music Compressed File",
+    "Extension": ".vgz"
+  },
+  {
+    "Name": "MAGIX Samplitude Music Studio Project",
+    "Extension": ".vip"
+  },
+  {
+    "Name": "VLC Playlist",
+    "Extension": ".vlc"
+  },
+  {
+    "Name": "Covox Raw Sample",
+    "Extension": ".vmd"
+  },
+  {
+    "Name": "Vocaltec Media File",
+    "Extension": ".vmf"
+  },
+  {
+    "Name": "Covox Speech Thing Sample",
+    "Extension": ".vmf"
+  },
+  {
+    "Name": "Siemens Voice Memo File",
+    "Extension": ".vmo"
+  },
+  {
+    "Name": "Creative Labs Audio File",
+    "Extension": ".voc"
+  },
+  {
+    "Name": "Dialogic Voice Audio File",
+    "Extension": ".vox"
+  },
+  {
+    "Name": "Voxal Project File",
+    "Extension": ".voxal"
+  },
+  {
+    "Name": "Karaoke Player Playlist",
+    "Extension": ".vpl"
+  },
+  {
+    "Name": "Garmin Voice File",
+    "Extension": ".vpm"
+  },
+  {
+    "Name": "VOCALOID5 Project File",
+    "Extension": ".vpr"
+  },
+  {
+    "Name": "VoxPro Wave File",
+    "Extension": ".vpw"
+  },
+  {
+    "Name": "TwinVQ Audio File",
+    "Extension": ".vqf"
+  },
+  {
+    "Name": "Ventrilo Audio Recording",
+    "Extension": ".vrf"
+  },
+  {
+    "Name": "VOCALOID2 Project File",
+    "Extension": ".vsq"
+  },
+  {
+    "Name": "VOCALOID3 Project File",
+    "Extension": ".vsqx"
+  },
+  {
+    "Name": "VTX Chiptune File",
+    "Extension": ".vtx"
+  },
+  {
+    "Name": "Samsung Digital Voice Recorder File",
+    "Extension": ".vyf"
+  },
+  {
+    "Name": "Yamaha SY Series Wave File",
+    "Extension": ".w01"
+  },
+  {
+    "Name": "Sony Wave64 Audio File",
+    "Extension": ".w64"
+  },
+  {
+    "Name": "WAVE Audio File",
+    "Extension": ".wav"
+  },
+  {
+    "Name": "WAVE Sound File",
+    "Extension": ".wave"
+  },
+  {
+    "Name": "Windows Media Audio Redirect",
+    "Extension": ".wax"
+  },
+  {
+    "Name": "WaveFront Sound Bank",
+    "Extension": ".wfb"
+  },
+  {
+    "Name": "WaveFront Drum Kit File",
+    "Extension": ".wfd"
+  },
+  {
+    "Name": "Pro Tools Wave Cache File",
+    "Extension": ".wfm"
+  },
+  {
+    "Name": "WaveFront Program File",
+    "Extension": ".wfp"
+  },
+  {
+    "Name": "Windows Media Audio File",
+    "Extension": ".wma"
+  },
+  {
+    "Name": "Grave Composer Music Module",
+    "Extension": ".wow"
+  },
+  {
+    "Name": "Nero Wave Editor File",
+    "Extension": ".wpk"
+  },
+  {
+    "Name": "WavePad Project File",
+    "Extension": ".wpp"
+  },
+  {
+    "Name": "Wwise Project File",
+    "Extension": ".wproj"
+  },
+  {
+    "Name": "Cakewalk Music Project",
+    "Extension": ".wrk"
+  },
+  {
+    "Name": "WireTap Studio Library",
+    "Extension": ".wtpl"
+  },
+  {
+    "Name": "WireTap Studio Packaged Track",
+    "Extension": ".wtpt"
+  },
+  {
+    "Name": "WUTG Tagged Audio File",
+    "Extension": ".wus"
+  },
+  {
+    "Name": "WUTG Tag File",
+    "Extension": ".wut"
+  },
+  {
+    "Name": "WavPack Audio File",
+    "Extension": ".wv"
+  },
+  {
+    "Name": "WavPack Correction File",
+    "Extension": ".wvc"
+  },
+  {
+    "Name": "WaveEditor Project File",
+    "Extension": ".wve"
+  },
+  {
+    "Name": "Wwise Work Unit",
+    "Extension": ".wwu"
+  },
+  {
+    "Name": "The Sims Audio File",
+    "Extension": ".xa"
+  },
+  {
+    "Name": "PlayStation Audio File",
+    "Extension": ".xa"
+  },
+  {
+    "Name": "eRacer Sound File",
+    "Extension": ".xfs"
+  },
+  {
+    "Name": "Fasttracker 2 Extended Module",
+    "Extension": ".xm"
+  },
+  {
+    "Name": "Extensible Music File",
+    "Extension": ".xmf"
+  },
+  {
+    "Name": "Expressive Music Container File",
+    "Extension": ".xmu"
+  },
+  {
+    "Name": "Renoise Song File",
+    "Extension": ".xrns"
+  },
+  {
+    "Name": "Kodi Smart Playlist File",
+    "Extension": ".xsp"
+  },
+  {
+    "Name": "XSPF Playlist File",
+    "Extension": ".xspf"
+  },
+  {
+    "Name": "Yookoo Player Playlist File",
+    "Extension": ".yookoo"
+  },
+  {
+    "Name": "Vielklang Audio Metadata File",
+    "Extension": ".zpa"
+  },
+  {
+    "Name": "Zune Playlist",
+    "Extension": ".zpl"
+  },
+  {
+    "Name": "ZyXEL Voice File",
+    "Extension": ".zvd"
+  }
+]

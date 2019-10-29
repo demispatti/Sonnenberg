@@ -1,0 +1,1178 @@
+[
+  {
+    "Name": "Hacha Split Archive File",
+    "Extension": ".0"
+  },
+  {
+    "Name": "DoubleSpace Compressed File",
+    "Extension": ".000"
+  },
+  {
+    "Name": "7-Zip Compressed File",
+    "Extension": ".7z"
+  },
+  {
+    "Name": "7-Zip Split Archive Part 1 File",
+    "Extension": ".7z.001"
+  },
+  {
+    "Name": "7-Zip Split Archive Part 2 File",
+    "Extension": ".7z.002"
+  },
+  {
+    "Name": "ALZip Second Split Archive File",
+    "Extension": ".a00"
+  },
+  {
+    "Name": "ALZip Third Split Archive File",
+    "Extension": ".a01"
+  },
+  {
+    "Name": "ALZip Fourth Split Archive File",
+    "Extension": ".a02"
+  },
+  {
+    "Name": "WinAce Compressed File",
+    "Extension": ".ace"
+  },
+  {
+    "Name": "Bulk Data File",
+    "Extension": ".agg"
+  },
+  {
+    "Name": "AIN Compressed File Archive",
+    "Extension": ".ain"
+  },
+  {
+    "Name": "ALZip Archive",
+    "Extension": ".alz"
+  },
+  {
+    "Name": "Autoplay Media Studio Exported Project",
+    "Extension": ".apz"
+  },
+  {
+    "Name": "Unix Static Library",
+    "Extension": ".ar"
+  },
+  {
+    "Name": "Compressed File Archive",
+    "Extension": ".arc"
+  },
+  {
+    "Name": "Archiver Compressed File Archive",
+    "Extension": ".archiver"
+  },
+  {
+    "Name": "Arduboy Game Package",
+    "Extension": ".arduboy"
+  },
+  {
+    "Name": "ProTool Compressed Project File",
+    "Extension": ".arh"
+  },
+  {
+    "Name": "ARI Compressed File Archive",
+    "Extension": ".ari"
+  },
+  {
+    "Name": "ARJ Compressed File Archive",
+    "Extension": ".arj"
+  },
+  {
+    "Name": "PowerDesk Pro Archive",
+    "Extension": ".ark"
+  },
+  {
+    "Name": "Audio Streaming Resource Archive",
+    "Extension": ".asr"
+  },
+  {
+    "Name": "B1 Compressed Archive",
+    "Extension": ".b1"
+  },
+  {
+    "Name": "Base64 MIME-Encoded File",
+    "Extension": ".b64"
+  },
+  {
+    "Name": "B6Z Archive",
+    "Extension": ".b6z"
+  },
+  {
+    "Name": "Scifer External Header Archive",
+    "Extension": ".ba"
+  },
+  {
+    "Name": "Binary DigiDoc Signature File",
+    "Extension": ".bdoc"
+  },
+  {
+    "Name": "BlakHole Archive",
+    "Extension": ".bh"
+  },
+  {
+    "Name": "Game Data Bundle File",
+    "Extension": ".bndl"
+  },
+  {
+    "Name": "Booasm Compressed Archive",
+    "Extension": ".boo"
+  },
+  {
+    "Name": "Game Data Bundle File",
+    "Extension": ".bundle"
+  },
+  {
+    "Name": "Bzip Compressed File",
+    "Extension": ".bz"
+  },
+  {
+    "Name": "Bzip2 Compressed File",
+    "Extension": ".bz2"
+  },
+  {
+    "Name": "IZArc BGA Archive",
+    "Extension": ".bza"
+  },
+  {
+    "Name": "Bzip Compressed Archive",
+    "Extension": ".bzip"
+  },
+  {
+    "Name": "Bzip2 Compressed Archive",
+    "Extension": ".bzip2"
+  },
+  {
+    "Name": "WinAce Split Archive File",
+    "Extension": ".c00"
+  },
+  {
+    "Name": "WinAce Split Archive Part 1 File",
+    "Extension": ".c01"
+  },
+  {
+    "Name": "WinAce Split Archive Part 1 File",
+    "Extension": ".c02"
+  },
+  {
+    "Name": "WinAce Split Archive Part 10",
+    "Extension": ".c10"
+  },
+  {
+    "Name": "CAR Archive",
+    "Extension": ".car"
+  },
+  {
+    "Name": "Comic Book 7-Zip Archive",
+    "Extension": ".cb7"
+  },
+  {
+    "Name": "Comic Book ACE Archive",
+    "Extension": ".cba"
+  },
+  {
+    "Name": "Comic Book RAR Archive",
+    "Extension": ".cbr"
+  },
+  {
+    "Name": "Comic Book TAR File",
+    "Extension": ".cbt"
+  },
+  {
+    "Name": "Comic Book Zip Archive",
+    "Extension": ".cbz"
+  },
+  {
+    "Name": "Compressed CD Image File",
+    "Extension": ".cdz"
+  },
+  {
+    "Name": "Hauptwerk Component Package",
+    "Extension": ".comppkg.hauptwerk.rar"
+  },
+  {
+    "Name": "Hauptwerk Component Package",
+    "Extension": ".comppkg_hauptwerk_rar"
+  },
+  {
+    "Name": "ChoicePoint Encrypted File",
+    "Extension": ".cp9"
+  },
+  {
+    "Name": "Compressed CPIO Archive",
+    "Extension": ".cpgz"
+  },
+  {
+    "Name": "Compact Pro Archive",
+    "Extension": ".cpt"
+  },
+  {
+    "Name": "Cherrytree Password-protected SQLite Document",
+    "Extension": ".ctx"
+  },
+  {
+    "Name": "Cherrytree Password-protected XML Document",
+    "Extension": ".ctz"
+  },
+  {
+    "Name": "CrossOver Bottle Archive",
+    "Extension": ".cxarchive"
+  },
+  {
+    "Name": "ZipGenius CryptoZip File",
+    "Extension": ".czip"
+  },
+  {
+    "Name": "DupArchive Format File",
+    "Extension": ".daf"
+  },
+  {
+    "Name": "DAR Disk Archive",
+    "Extension": ".dar"
+  },
+  {
+    "Name": "DiskDoubler Archive",
+    "Extension": ".dd"
+  },
+  {
+    "Name": "Debian Software Package",
+    "Extension": ".deb"
+  },
+  {
+    "Name": "DGCA File Archive",
+    "Extension": ".dgc"
+  },
+  {
+    "Name": "Mac OS X Distribution Script",
+    "Extension": ".dist"
+  },
+  {
+    "Name": "Compressed DLL File",
+    "Extension": ".dl_"
+  },
+  {
+    "Name": "Dzip File",
+    "Extension": ".dz"
+  },
+  {
+    "Name": "Sony Ericsson Phone Backup File",
+    "Extension": ".ecs"
+  },
+  {
+    "Name": "Error-Correcting SeqBox Container File",
+    "Extension": ".ecsbx"
+  },
+  {
+    "Name": "EPLAN Electric P8 Data Archive Zipped File",
+    "Extension": ".edz"
+  },
+  {
+    "Name": "Renamed Zip or Executable File",
+    "Extension": ".efw"
+  },
+  {
+    "Name": "ALZip Archive",
+    "Extension": ".egg"
+  },
+  {
+    "Name": "EclipsePackager2000 Compressed File",
+    "Extension": ".epi"
+  },
+  {
+    "Name": "Freeze Compressed File",
+    "Extension": ".f"
+  },
+  {
+    "Name": "Fusion 360 Shared Project Archive",
+    "Extension": ".f3z"
+  },
+  {
+    "Name": "MySafe Encrypted Data",
+    "Extension": ".fdp"
+  },
+  {
+    "Name": "FP8 (= Fast PAQ8) Compressed File",
+    "Extension": ".fp8"
+  },
+  {
+    "Name": "Fritzing Bundled Bin File",
+    "Extension": ".fzbz"
+  },
+  {
+    "Name": "Fritzing Bundled Part File",
+    "Extension": ".fzpz"
+  },
+  {
+    "Name": "GCA File Archive",
+    "Extension": ".gca"
+  },
+  {
+    "Name": "Compressed GameMaker File",
+    "Extension": ".gmz"
+  },
+  {
+    "Name": "Gnu Zipped Archive",
+    "Extension": ".gz"
+  },
+  {
+    "Name": "Misnamed BZ2 File",
+    "Extension": ".gz2"
+  },
+  {
+    "Name": "IZArc BGA Archive File",
+    "Extension": ".gza"
+  },
+  {
+    "Name": "Unix Gzip File",
+    "Extension": ".gzi"
+  },
+  {
+    "Name": "Gnu Zipped File",
+    "Extension": ".gzip"
+  },
+  {
+    "Name": "HA Compressed Archive",
+    "Extension": ".ha"
+  },
+  {
+    "Name": "HyperBac Compressed Archive",
+    "Extension": ".hbc"
+  },
+  {
+    "Name": "HyperBac Compressed File Archive",
+    "Extension": ".hbc2"
+  },
+  {
+    "Name": "HyperBac Compressed and Encrypted Archive",
+    "Extension": ".hbe"
+  },
+  {
+    "Name": "WinHKI Archive",
+    "Extension": ".hki"
+  },
+  {
+    "Name": "WinHKI HKI1 Archive",
+    "Extension": ".hki1"
+  },
+  {
+    "Name": "WinHKI HKI2 Archive",
+    "Extension": ".hki2"
+  },
+  {
+    "Name": "WinHKI HKI3 Archive",
+    "Extension": ".hki3"
+  },
+  {
+    "Name": "HPack Compressed Archive",
+    "Extension": ".hpk"
+  },
+  {
+    "Name": "Haiku Package File",
+    "Extension": ".hpkg"
+  },
+  {
+    "Name": "HYPER Compressed Archive",
+    "Extension": ".hyp"
+  },
+  {
+    "Name": "iAd Producer Project",
+    "Extension": ".iadproj"
+  },
+  {
+    "Name": "ICE File Archive",
+    "Extension": ".ice"
+  },
+  {
+    "Name": "iPod Game File",
+    "Extension": ".ipg"
+  },
+  {
+    "Name": "Itsy Package",
+    "Extension": ".ipk"
+  },
+  {
+    "Name": "ISH Compressed Archive",
+    "Extension": ".ish"
+  },
+  {
+    "Name": "SimulationX Project",
+    "Extension": ".isx"
+  },
+  {
+    "Name": "IconTweaker Theme Archive",
+    "Extension": ".ita"
+  },
+  {
+    "Name": "IZArc Archive",
+    "Extension": ".ize"
+  },
+  {
+    "Name": "JAR Archive",
+    "Extension": ".j"
+  },
+  {
+    "Name": "Pack200 Packed Jar File",
+    "Extension": ".jar.pack"
+  },
+  {
+    "Name": "Gzipped Javascript File",
+    "Extension": ".jgz"
+  },
+  {
+    "Name": "Java Icon File",
+    "Extension": ".jic"
+  },
+  {
+    "Name": "Compressed Firefox Bookmarks Backup File",
+    "Extension": ".jsonlz4"
+  },
+  {
+    "Name": "KGB Archive File",
+    "Extension": ".kgb"
+  },
+  {
+    "Name": "KuaiZip Compressed File",
+    "Extension": ".kz"
+  },
+  {
+    "Name": "LayOut Document",
+    "Extension": ".layout"
+  },
+  {
+    "Name": "LU Library Archive",
+    "Extension": ".lbr"
+  },
+  {
+    "Name": "LemonShare.net Download",
+    "Extension": ".lemon"
+  },
+  {
+    "Name": "LHARC Compressed Archive",
+    "Extension": ".lha"
+  },
+  {
+    "Name": "Live Home 3D Compressed Project",
+    "Extension": ".lhzd"
+  },
+  {
+    "Name": "Camtasia Studio Zipped Library File",
+    "Extension": ".libzip"
+  },
+  {
+    "Name": "Commodore 64 Lynx Archive",
+    "Extension": ".lnx"
+  },
+  {
+    "Name": "Liferay Application",
+    "Extension": ".lpkg"
+  },
+  {
+    "Name": "SQ Compressed LBR Archive",
+    "Extension": ".lqr"
+  },
+  {
+    "Name": "Lzip Compressed File",
+    "Extension": ".lz"
+  },
+  {
+    "Name": "LZH Compressed File",
+    "Extension": ".lzh"
+  },
+  {
+    "Name": "Slax Module",
+    "Extension": ".lzm"
+  },
+  {
+    "Name": "LZMA Compressed File",
+    "Extension": ".lzma"
+  },
+  {
+    "Name": "LZO Compressed File",
+    "Extension": ".lzo"
+  },
+  {
+    "Name": "Amiga LZX Compressed File",
+    "Extension": ".lzx"
+  },
+  {
+    "Name": "Moodle Backup FIle",
+    "Extension": ".mbz"
+  },
+  {
+    "Name": "MDCD Compressed Archive",
+    "Extension": ".md"
+  },
+  {
+    "Name": "Linux Mint Installer File",
+    "Extension": ".mint"
+  },
+  {
+    "Name": "WinMount Compressed File",
+    "Extension": ".mou"
+  },
+  {
+    "Name": "Meta Package File",
+    "Extension": ".mpkg"
+  },
+  {
+    "Name": "MAXScript Zip Package",
+    "Extension": ".mzp"
+  },
+  {
+    "Name": "WinArchiver Mountable Archive",
+    "Extension": ".mzp"
+  },
+  {
+    "Name": "Navigator Extension",
+    "Extension": ".nex"
+  },
+  {
+    "Name": "MikroTik Software Package",
+    "Extension": ".npk"
+  },
+  {
+    "Name": "NanoZip Compressed File",
+    "Extension": ".nz"
+  },
+  {
+    "Name": "OpenSimulator Archive",
+    "Extension": ".oar"
+  },
+  {
+    "Name": "GCW Zero Open Package",
+    "Extension": ".opk"
+  },
+  {
+    "Name": "Opera Job Management Compressed File",
+    "Extension": ".oz"
+  },
+  {
+    "Name": "Parchive Recovery Volume",
+    "Extension": ".p01"
+  },
+  {
+    "Name": "Parchive Recovery Volume",
+    "Extension": ".p19"
+  },
+  {
+    "Name": "S/MIME Compressed Email Message",
+    "Extension": ".p7z"
+  },
+  {
+    "Name": "PowerArchiver Compressed File",
+    "Extension": ".pa"
+  },
+  {
+    "Name": "Pack200 Compressed Archive",
+    "Extension": ".pack.gz"
+  },
+  {
+    "Name": "Linux Autopackage File",
+    "Extension": ".package"
+  },
+  {
+    "Name": "PowerArchiver Encrypted Archive",
+    "Extension": ".pae"
+  },
+  {
+    "Name": "PAK (Packed) File",
+    "Extension": ".pak"
+  },
+  {
+    "Name": "PAQ6 Data Archive",
+    "Extension": ".paq6"
+  },
+  {
+    "Name": "PAQ7 Data Archive",
+    "Extension": ".paq7"
+  },
+  {
+    "Name": "PAQ8 Data Archive",
+    "Extension": ".paq8"
+  },
+  {
+    "Name": "PAQ8F Compressed Archive",
+    "Extension": ".paq8f"
+  },
+  {
+    "Name": "PAQ8L Data Archive",
+    "Extension": ".paq8l"
+  },
+  {
+    "Name": "PAQ8P Data Archive",
+    "Extension": ".paq8p"
+  },
+  {
+    "Name": "Parchive Index File",
+    "Extension": ".par"
+  },
+  {
+    "Name": "Parchive 2 Index File",
+    "Extension": ".par2"
+  },
+  {
+    "Name": "PAX Archive",
+    "Extension": ".pax"
+  },
+  {
+    "Name": "PC BSD Installer Package",
+    "Extension": ".pbi"
+  },
+  {
+    "Name": "MozBackup Profile Backup",
+    "Extension": ".pcv"
+  },
+  {
+    "Name": "PEA File Archive",
+    "Extension": ".pea"
+  },
+  {
+    "Name": "Puppy Linux Install Package",
+    "Extension": ".pet"
+  },
+  {
+    "Name": "Private File",
+    "Extension": ".pf"
+  },
+  {
+    "Name": "PIM Archive",
+    "Extension": ".pim"
+  },
+  {
+    "Name": "PackIt Compressed Archive",
+    "Extension": ".pit"
+  },
+  {
+    "Name": "Zipped File",
+    "Extension": ".piz"
+  },
+  {
+    "Name": "Mac OS X Installer Package",
+    "Extension": ".pkg"
+  },
+  {
+    "Name": "Arch Linux Package File",
+    "Extension": ".pkg.tar.xz"
+  },
+  {
+    "Name": "PRS Archive",
+    "Extension": ".prs"
+  },
+  {
+    "Name": "Compressed PostScript File",
+    "Extension": ".psz"
+  },
+  {
+    "Name": "PlayStation 3 Update File",
+    "Extension": ".pup"
+  },
+  {
+    "Name": "Puppy Linux DotPup Installer Package",
+    "Extension": ".pup"
+  },
+  {
+    "Name": "Packed Publisher File",
+    "Extension": ".puz"
+  },
+  {
+    "Name": "Parallels Compressed Virtual Machine",
+    "Extension": ".pvmz"
+  },
+  {
+    "Name": "Password Agent File",
+    "Extension": ".pwa"
+  },
+  {
+    "Name": "Quadruple D Archive",
+    "Extension": ".qda"
+  },
+  {
+    "Name": "WinRAR Compressed Archive",
+    "Extension": ".r0"
+  },
+  {
+    "Name": "WinRAR Compressed Archive",
+    "Extension": ".r00"
+  },
+  {
+    "Name": "WinRAR Split Archive Part 1",
+    "Extension": ".r01"
+  },
+  {
+    "Name": "WinRAR Split Archive Part 2",
+    "Extension": ".r02"
+  },
+  {
+    "Name": "WinRAR Split Archive Part 3",
+    "Extension": ".r03"
+  },
+  {
+    "Name": "WinRAR Split Archive Part 4",
+    "Extension": ".r04"
+  },
+  {
+    "Name": "WinRAR Multi-Volume Archive Part 1",
+    "Extension": ".r1"
+  },
+  {
+    "Name": "WinRAR Multi-Volume Archive Part 2",
+    "Extension": ".r2"
+  },
+  {
+    "Name": "WinRAR Split Archive Part 21",
+    "Extension": ".r21"
+  },
+  {
+    "Name": "WinRAR Split Archive Part 30",
+    "Extension": ".r30"
+  },
+  {
+    "Name": "WinRAR Compressed Archive",
+    "Extension": ".rar"
+  },
+  {
+    "Name": "RAR Recovery Volume Set",
+    "Extension": ".rev"
+  },
+  {
+    "Name": "WinRK File Archive",
+    "Extension": ".rk"
+  },
+  {
+    "Name": "RNC ProPack Archive",
+    "Extension": ".rnc"
+  },
+  {
+    "Name": "RetroPlatform Disk Image Archive",
+    "Extension": ".rp9"
+  },
+  {
+    "Name": "Red Hat Package Manager File",
+    "Extension": ".rpm"
+  },
+  {
+    "Name": "RAM Structural System Model File",
+    "Extension": ".rss"
+  },
+  {
+    "Name": "RTE Encoded File",
+    "Extension": ".rte"
+  },
+  {
+    "Name": "Rzip Compressed File",
+    "Extension": ".rz"
+  },
+  {
+    "Name": "ZipSplitter Part 1 File",
+    "Extension": ".s00"
+  },
+  {
+    "Name": "ZipSplitter Part 2 File",
+    "Extension": ".s01"
+  },
+  {
+    "Name": "ZipSplitter Part 3 File",
+    "Extension": ".s02"
+  },
+  {
+    "Name": "ZipSplitter Part 10 File",
+    "Extension": ".s09"
+  },
+  {
+    "Name": "Mac OS X 7-Zip File",
+    "Extension": ".s7z"
+  },
+  {
+    "Name": "Service Archive File",
+    "Extension": ".sar"
+  },
+  {
+    "Name": "GLBasic Shoebox File",
+    "Extension": ".sbx"
+  },
+  {
+    "Name": "SeqBox Container File",
+    "Extension": ".sbx"
+  },
+  {
+    "Name": "Secure Download Cabinet",
+    "Extension": ".sdc"
+  },
+  {
+    "Name": "Shareware Distributors Network File",
+    "Extension": ".sdn"
+  },
+  {
+    "Name": "Self-Extracting Archive",
+    "Extension": ".sea"
+  },
+  {
+    "Name": "Scifer Internal Header Archive",
+    "Extension": ".sen"
+  },
+  {
+    "Name": "Synfig Studio Compressed Project",
+    "Extension": ".sfg"
+  },
+  {
+    "Name": "Squashfs File Archive",
+    "Extension": ".sfs"
+  },
+  {
+    "Name": "Windows Self-Extracting Archive",
+    "Extension": ".sfx"
+  },
+  {
+    "Name": "Unix Shell Archive",
+    "Extension": ".sh"
+  },
+  {
+    "Name": "Unix Shar Archive",
+    "Extension": ".shar"
+  },
+  {
+    "Name": "ShrinkIt Archive",
+    "Extension": ".shk"
+  },
+  {
+    "Name": "Unix Shell Archive File",
+    "Extension": ".shr"
+  },
+  {
+    "Name": "Synfig Studio Compressed Project",
+    "Extension": ".sifz"
+  },
+  {
+    "Name": "StuffIt Archive",
+    "Extension": ".sit"
+  },
+  {
+    "Name": "StuffIt X Archive",
+    "Extension": ".sitx"
+  },
+  {
+    "Name": "Sprite Monkey Project",
+    "Extension": ".smpf"
+  },
+  {
+    "Name": "Snappy Compressed File",
+    "Extension": ".snappy"
+  },
+  {
+    "Name": "S Note File",
+    "Extension": ".snb"
+  },
+  {
+    "Name": "S Note File",
+    "Extension": ".spd"
+  },
+  {
+    "Name": "Splunk Application Package",
+    "Extension": ".spl"
+  },
+  {
+    "Name": "Salt Package Manager Formula Package",
+    "Extension": ".spm"
+  },
+  {
+    "Name": "TM File Packer Compressed Archive",
+    "Extension": ".spt"
+  },
+  {
+    "Name": "SQX Archive",
+    "Extension": ".sqx"
+  },
+  {
+    "Name": "The Master Genealogist Backup Project",
+    "Extension": ".sqz"
+  },
+  {
+    "Name": "SuperREP Compressed File",
+    "Extension": ".srep"
+  },
+  {
+    "Name": "iAd Producer Project",
+    "Extension": ".stproj"
+  },
+  {
+    "Name": "Compressed SYS File",
+    "Extension": ".sy_"
+  },
+  {
+    "Name": "Compressed Tarball File",
+    "Extension": ".tar.bz2"
+  },
+  {
+    "Name": "Compressed Tarball File",
+    "Extension": ".tar.gz"
+  },
+  {
+    "Name": "Misnamed BZ2 Tarball",
+    "Extension": ".tar.gz2"
+  },
+  {
+    "Name": "Lzip Compressed Tarball",
+    "Extension": ".tar.lz"
+  },
+  {
+    "Name": "LZMA Compressed Tarball",
+    "Extension": ".tar.lzma"
+  },
+  {
+    "Name": "XZ Compressed Tar Archive",
+    "Extension": ".tar.xz"
+  },
+  {
+    "Name": "Zipped Tarball File",
+    "Extension": ".tar.z"
+  },
+  {
+    "Name": "Tar Zipped File",
+    "Extension": ".taz"
+  },
+  {
+    "Name": "Bzip Compressed Tar Archive",
+    "Extension": ".tbz"
+  },
+  {
+    "Name": "Tar BZip 2 Compressed File",
+    "Extension": ".tbz2"
+  },
+  {
+    "Name": "TestComplete Script Extension Package",
+    "Extension": ".tcx"
+  },
+  {
+    "Name": "Gzip Compressed Tar Archive",
+    "Extension": ".tg"
+  },
+  {
+    "Name": "Gzipped Tar File",
+    "Extension": ".tgz"
+  },
+  {
+    "Name": "Tar LZMA Compressed File",
+    "Extension": ".tlz"
+  },
+  {
+    "Name": "LZMA Compressed Tar Archive",
+    "Extension": ".tlzma"
+  },
+  {
+    "Name": "Linear Saw Component Information Archive",
+    "Extension": ".trs"
+  },
+  {
+    "Name": "Compressed Text File",
+    "Extension": ".tx_"
+  },
+  {
+    "Name": "XZ Compressed Tar Archive",
+    "Extension": ".txz"
+  },
+  {
+    "Name": "Zipped Tar Archive",
+    "Extension": ".tz"
+  },
+  {
+    "Name": "Zstandard Compressed Tar File",
+    "Extension": ".tzst"
+  },
+  {
+    "Name": "UltraCompressor 2 Archive",
+    "Extension": ".uc2"
+  },
+  {
+    "Name": "Compressed Unix File System File",
+    "Extension": ".ufs.uzip"
+  },
+  {
+    "Name": "UHarc Compressed Archive",
+    "Extension": ".uha"
+  },
+  {
+    "Name": "FreeBSD Compressed Disk Image",
+    "Extension": ".uzip"
+  },
+  {
+    "Name": "Virtual Expander Compressed File",
+    "Extension": ".vem"
+  },
+  {
+    "Name": "Animated Slide File",
+    "Extension": ".vfs"
+  },
+  {
+    "Name": "Virtual Instrument Package",
+    "Extension": ".vip"
+  },
+  {
+    "Name": "PhotoVOCA Communication Board File",
+    "Extension": ".voca"
+  },
+  {
+    "Name": "PlayStation Vita Application Package",
+    "Extension": ".vpk"
+  },
+  {
+    "Name": "Visual Studio Content Installer File",
+    "Extension": ".vsi"
+  },
+  {
+    "Name": "Windows Addon Archive",
+    "Extension": ".wa"
+  },
+  {
+    "Name": "Internet Explorer for Mac Web Archive",
+    "Extension": ".waff"
+  },
+  {
+    "Name": "Java Web Archive",
+    "Extension": ".war"
+  },
+  {
+    "Name": "WDZip Compressed Archive",
+    "Extension": ".wdz"
+  },
+  {
+    "Name": "Python Wheel Package",
+    "Extension": ".whl"
+  },
+  {
+    "Name": "WinList Protocol Bundle",
+    "Extension": ".wlb"
+  },
+  {
+    "Name": "Web Of Trust File",
+    "Extension": ".wot"
+  },
+  {
+    "Name": "Compressed Wii U Disk Image File",
+    "Extension": ".wux"
+  },
+  {
+    "Name": "Compressed Android Package File",
+    "Extension": ".xapk"
+  },
+  {
+    "Name": "Extensible Archive Format File",
+    "Extension": ".xar"
+  },
+  {
+    "Name": "WinAce Encrypted File",
+    "Extension": ".xef"
+  },
+  {
+    "Name": "eManager Template Package",
+    "Extension": ".xez"
+  },
+  {
+    "Name": "macOS Signed Archive",
+    "Extension": ".xip"
+  },
+  {
+    "Name": "Mathcad Compressed Worksheet File",
+    "Extension": ".xmcdz"
+  },
+  {
+    "Name": "XXEncoded File",
+    "Extension": ".xx"
+  },
+  {
+    "Name": "XZ Compressed Archive",
+    "Extension": ".xz"
+  },
+  {
+    "Name": "Porteus Module",
+    "Extension": ".xzm"
+  },
+  {
+    "Name": "Amiga Yabba Compressed File",
+    "Extension": ".y"
+  },
+  {
+    "Name": "YAC Compressed File",
+    "Extension": ".yz"
+  },
+  {
+    "Name": "Yamazaki ZIPPER File",
+    "Extension": ".yz1"
+  },
+  {
+    "Name": "Unix Compressed File",
+    "Extension": ".z"
+  },
+  {
+    "Name": "WinZip First Split Zip File",
+    "Extension": ".z01"
+  },
+  {
+    "Name": "WinZip Second Split Zip File",
+    "Extension": ".z02"
+  },
+  {
+    "Name": "WinZip Third Split Zip File",
+    "Extension": ".z03"
+  },
+  {
+    "Name": "WinZip Fourth Split Zip File",
+    "Extension": ".z04"
+  },
+  {
+    "Name": "FileWrangler Archive",
+    "Extension": ".zap"
+  },
+  {
+    "Name": "Compressed Folder",
+    "Extension": ".zfsendtotarget"
+  },
+  {
+    "Name": "Renamed Zip File",
+    "Extension": ".zi"
+  },
+  {
+    "Name": "Renamed Zip File",
+    "Extension": ".zi_"
+  },
+  {
+    "Name": "Zipped File",
+    "Extension": ".zip"
+  },
+  {
+    "Name": "Extended Zip File",
+    "Extension": ".zipx"
+  },
+  {
+    "Name": "WinZix Compressed File",
+    "Extension": ".zix"
+  },
+  {
+    "Name": "Zlib Compressed File",
+    "Extension": ".zl"
+  },
+  {
+    "Name": "Zoo Compressed File",
+    "Extension": ".zoo"
+  },
+  {
+    "Name": "Zipped File",
+    "Extension": ".zpi"
+  },
+  {
+    "Name": "Archiver Compressed Split File",
+    "Extension": ".zsplit"
+  },
+  {
+    "Name": "Zstandard Compressed File",
+    "Extension": ".zst"
+  },
+  {
+    "Name": "Zooper Widget Template",
+    "Extension": ".zw"
+  },
+  {
+    "Name": "Zzip Compressed Archive",
+    "Extension": ".zz"
+  }
+]

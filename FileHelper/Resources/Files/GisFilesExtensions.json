@@ -1,0 +1,650 @@
+[
+  {
+    "Name": "Survex 3D Cavern File",
+    "Extension": ".3d"
+  },
+  {
+    "Name": "iGO 3D Building File",
+    "Extension": ".3dc"
+  },
+  {
+    "Name": "ArcGlobe Document",
+    "Extension": ".3dd"
+  },
+  {
+    "Name": "iGO Landmark File",
+    "Extension": ".3dl"
+  },
+  {
+    "Name": "MNS Shape Definition Companion File",
+    "Extension": ".477"
+  },
+  {
+    "Name": "ESRI ArcInfo Binary Grid Format",
+    "Extension": ".adf"
+  },
+  {
+    "Name": "ArcPad Layer File",
+    "Extension": ".apl"
+  },
+  {
+    "Name": "ArcView Project File",
+    "Extension": ".apr"
+  },
+  {
+    "Name": "AlpineQuest Map File",
+    "Extension": ".aqm"
+  },
+  {
+    "Name": "Lowrance Map File",
+    "Extension": ".at5"
+  },
+  {
+    "Name": "ArcGIS Attribute Index File",
+    "Extension": ".atx"
+  },
+  {
+    "Name": "Auxiliary File",
+    "Extension": ".aux"
+  },
+  {
+    "Name": "ArcView Legend File",
+    "Extension": ".avl"
+  },
+  {
+    "Name": "AutoRoute Map File",
+    "Extension": ".axe"
+  },
+  {
+    "Name": "Microsoft AutoRoute Template",
+    "Extension": ".axt"
+  },
+  {
+    "Name": "ESRI BIL File",
+    "Extension": ".bil"
+  },
+  {
+    "Name": "Bitmap World File",
+    "Extension": ".bpw"
+  },
+  {
+    "Name": "Binary Terrain File",
+    "Extension": ".bt"
+  },
+  {
+    "Name": "OGC Web Map Context Document",
+    "Extension": ".cml"
+  },
+  {
+    "Name": "Trimble Corrected SSF File",
+    "Extension": ".cor"
+  },
+  {
+    "Name": "GeoMedia Coordinate System File",
+    "Extension": ".csf"
+  },
+  {
+    "Name": "ISIS Cube File",
+    "Extension": ".cub"
+  },
+  {
+    "Name": "CassiniVision Map Image File",
+    "Extension": ".cvi"
+  },
+  {
+    "Name": "Digital Elevation Model",
+    "Extension": ".dem"
+  },
+  {
+    "Name": "DIVA-GIS Project File",
+    "Extension": ".div"
+  },
+  {
+    "Name": "DIVA-GIS Export File",
+    "Extension": ".dix"
+  },
+  {
+    "Name": "Digital Line Graph",
+    "Extension": ".dlg"
+  },
+  {
+    "Name": "Geosystem Digitals Map File",
+    "Extension": ".dmf"
+  },
+  {
+    "Name": "DeLorme Transfer File",
+    "Extension": ".dmt"
+  },
+  {
+    "Name": "DTED Level 0 File",
+    "Extension": ".dt0"
+  },
+  {
+    "Name": "DTED Level 1 File",
+    "Extension": ".dt1"
+  },
+  {
+    "Name": "DTED Level 2 File",
+    "Extension": ".dt2"
+  },
+  {
+    "Name": "IDRISI Vector Definition File",
+    "Extension": ".dvc"
+  },
+  {
+    "Name": "ArcInfo Coverage Export File",
+    "Extension": ".e00"
+  },
+  {
+    "Name": "Spatial Geodatabase File",
+    "Extension": ".embr"
+  },
+  {
+    "Name": "ER Mapper Data File",
+    "Extension": ".ers"
+  },
+  {
+    "Name": "Streets & Trips Map File",
+    "Extension": ".est"
+  },
+  {
+    "Name": "Google Earth Placemark File",
+    "Extension": ".eta"
+  },
+  {
+    "Name": "iGO Map File",
+    "Extension": ".fbl"
+  },
+  {
+    "Name": "FME Custom Format File",
+    "Extension": ".fds"
+  },
+  {
+    "Name": "FME Desktop Feature Store File",
+    "Extension": ".ffs"
+  },
+  {
+    "Name": "Garmin Activity File",
+    "Extension": ".fit"
+  },
+  {
+    "Name": "ArcView GIS Windows Help Supporting File",
+    "Extension": ".fls"
+  },
+  {
+    "Name": "FME Mapping File",
+    "Extension": ".fme"
+  },
+  {
+    "Name": "FME Include File",
+    "Extension": ".fmi"
+  },
+  {
+    "Name": "FME Desktop Viewspace File",
+    "Extension": ".fmv"
+  },
+  {
+    "Name": "FME Workbench File",
+    "Extension": ".fmw"
+  },
+  {
+    "Name": "GeoJSON File",
+    "Extension": ".geojson"
+  },
+  {
+    "Name": "GIF World File",
+    "Extension": ".gfw"
+  },
+  {
+    "Name": "STK Globe File",
+    "Extension": ".glb"
+  },
+  {
+    "Name": "Garmin Map File",
+    "Extension": ".gmap"
+  },
+  {
+    "Name": "Geology Multi-File",
+    "Extension": ".gmf"
+  },
+  {
+    "Name": "Geography Markup Language File",
+    "Extension": ".gml"
+  },
+  {
+    "Name": "Geosoft Project File",
+    "Extension": ".gpf"
+  },
+  {
+    "Name": "Geoxa Project File",
+    "Extension": ".gprx"
+  },
+  {
+    "Name": "Survey Pro Coordinate File",
+    "Extension": ".gps"
+  },
+  {
+    "Name": "GPS Exchange File",
+    "Extension": ".gpx"
+  },
+  {
+    "Name": "GRIB Meteorological Data File",
+    "Extension": ".grb"
+  },
+  {
+    "Name": "Golden Software Boundary File",
+    "Extension": ".gsb"
+  },
+  {
+    "Name": "Golden Software Interchange File",
+    "Extension": ".gsi"
+  },
+  {
+    "Name": "MapViewer Project File",
+    "Extension": ".gsm"
+  },
+  {
+    "Name": "Golden Software Reference File",
+    "Extension": ".gsr"
+  },
+  {
+    "Name": "Golden Software Reference File",
+    "Extension": ".gsr2"
+  },
+  {
+    "Name": "MapInfo Geoset File",
+    "Extension": ".gst"
+  },
+  {
+    "Name": "GPS TrackMaker Data File",
+    "Extension": ".gtm"
+  },
+  {
+    "Name": "Geocortex Viewer for Silverlight Project",
+    "Extension": ".gvsp"
+  },
+  {
+    "Name": "Geosoft Workspace File",
+    "Extension": ".gws"
+  },
+  {
+    "Name": "ESRI BIL Header File",
+    "Extension": ".hdr"
+  },
+  {
+    "Name": "SRTM Elevation Data File",
+    "Extension": ".hgt"
+  },
+  {
+    "Name": "GIS Image Metadata File",
+    "Extension": ".imd"
+  },
+  {
+    "Name": "ERDAS IMAGINE Image File",
+    "Extension": ".img"
+  },
+  {
+    "Name": "Garmin Map File",
+    "Extension": ".img"
+  },
+  {
+    "Name": "Magellan Map File",
+    "Extension": ".imi"
+  },
+  {
+    "Name": "JPEG World File",
+    "Extension": ".jgw"
+  },
+  {
+    "Name": "BirdsEye JNX Raster Map",
+    "Extension": ".jnx"
+  },
+  {
+    "Name": "JPEG World File",
+    "Extension": ".jpgw"
+  },
+  {
+    "Name": "Fugawi Projection File",
+    "Extension": ".jpr"
+  },
+  {
+    "Name": "World File for JPEG",
+    "Extension": ".jpw"
+  },
+  {
+    "Name": "Keyhole Markup Language File",
+    "Extension": ".kml"
+  },
+  {
+    "Name": "Google Earth Placemark File",
+    "Extension": ".kmz"
+  },
+  {
+    "Name": "ERDAS LAN File",
+    "Extension": ".lan"
+  },
+  {
+    "Name": "IMAGINE Lens Flare File",
+    "Extension": ".len"
+  },
+  {
+    "Name": "ArcGIS Layer Package",
+    "Extension": ".lpk"
+  },
+  {
+    "Name": "NAVIGON Map File",
+    "Extension": ".map"
+  },
+  {
+    "Name": "Mapjects Server Webparts File",
+    "Extension": ".map"
+  },
+  {
+    "Name": "Merkaartor Document",
+    "Extension": ".mdc"
+  },
+  {
+    "Name": "MGMaps File",
+    "Extension": ".mgm"
+  },
+  {
+    "Name": "MapInfo Data File",
+    "Extension": ".mid"
+  },
+  {
+    "Name": "MapInfo Interchange Format File",
+    "Extension": ".mif"
+  },
+  {
+    "Name": "MiraMon Maps File",
+    "Extension": ".mmm"
+  },
+  {
+    "Name": "MiraMon Compressed Map File",
+    "Extension": ".mmz"
+  },
+  {
+    "Name": "Master Navigator Header File",
+    "Extension": ".mnh"
+  },
+  {
+    "Name": "ArcGIS Map Package",
+    "Extension": ".mpk"
+  },
+  {
+    "Name": "Pocket Streets Map File",
+    "Extension": ".mps"
+  },
+  {
+    "Name": "Map Service Definition File",
+    "Extension": ".msd"
+  },
+  {
+    "Name": "MapGuide Author Map Window XML File",
+    "Extension": ".mwx"
+  },
+  {
+    "Name": "ArcGIS Map Document",
+    "Extension": ".mxd"
+  },
+  {
+    "Name": "ArcGIS Map Template",
+    "Extension": ".mxt"
+  },
+  {
+    "Name": "Noni GPSPlot Track File",
+    "Extension": ".ngt"
+  },
+  {
+    "Name": "Navitel Map File",
+    "Extension": ".nm2"
+  },
+  {
+    "Name": "Navitel 5 Map File",
+    "Extension": ".nm3"
+  },
+  {
+    "Name": "NaviComputer Map File",
+    "Extension": ".nmap"
+  },
+  {
+    "Name": "ArcGIS Explorer Map Content File",
+    "Extension": ".nmc"
+  },
+  {
+    "Name": "ArcGIS Explorer Map File",
+    "Extension": ".nmf"
+  },
+  {
+    "Name": "Navionics Chart File",
+    "Extension": ".nv2"
+  },
+  {
+    "Name": "OsmAnd Offline Map File",
+    "Extension": ".obf"
+  },
+  {
+    "Name": "OCAD Map File",
+    "Extension": ".ocd"
+  },
+  {
+    "Name": "OpenStreetMap Binary Map File",
+    "Extension": ".osb"
+  },
+  {
+    "Name": "OpenStreetMap Change File",
+    "Extension": ".osc"
+  },
+  {
+    "Name": "OpenStreetMap Map File",
+    "Extension": ".osm"
+  },
+  {
+    "Name": "TomTom Points of Interest Database",
+    "Extension": ".ov2"
+  },
+  {
+    "Name": "MNS Projection Information File",
+    "Extension": ".pin"
+  },
+  {
+    "Name": "PCI Geomatics Database File",
+    "Extension": ".pix"
+  },
+  {
+    "Name": "ESRI Published Map File",
+    "Extension": ".pmf"
+  },
+  {
+    "Name": "Route 66 Map File",
+    "Extension": ".prm"
+  },
+  {
+    "Name": "MapPoint Map File",
+    "Extension": ".ptm"
+  },
+  {
+    "Name": "MapPoint Map Template",
+    "Extension": ".ptt"
+  },
+  {
+    "Name": "Memory-Map QuickChart File",
+    "Extension": ".qct"
+  },
+  {
+    "Name": "IDRISI Raster Documentation File",
+    "Extension": ".rdc"
+  },
+  {
+    "Name": "ArcGIS Report Document File",
+    "Extension": ".rdf"
+  },
+  {
+    "Name": "IDRISI Raster Image Reference File",
+    "Extension": ".ref"
+  },
+  {
+    "Name": "Garmin Regional Map File",
+    "Extension": ".rgn"
+  },
+  {
+    "Name": "Magellan Raster Map File",
+    "Extension": ".rmp"
+  },
+  {
+    "Name": "Reduced Resolution Dataset File",
+    "Extension": ".rrd"
+  },
+  {
+    "Name": "IDRISI Raster Image",
+    "Extension": ".rst"
+  },
+  {
+    "Name": "Street Atlas USA Map File",
+    "Extension": ".saf"
+  },
+  {
+    "Name": "Septentrio Binary File",
+    "Extension": ".sbf"
+  },
+  {
+    "Name": "ESRI Spatial Binary File",
+    "Extension": ".sbn"
+  },
+  {
+    "Name": "GT-31 Binary Data File",
+    "Extension": ".sbn"
+  },
+  {
+    "Name": "Spatial Data Format File",
+    "Extension": ".sdf"
+  },
+  {
+    "Name": "Spatial Data Modeling Language File",
+    "Extension": ".sdm"
+  },
+  {
+    "Name": "MrSID World File",
+    "Extension": ".sdw"
+  },
+  {
+    "Name": "SEG-Y Data File",
+    "Extension": ".segy"
+  },
+  {
+    "Name": "SEG-Y Data File",
+    "Extension": ".sgy"
+  },
+  {
+    "Name": "ESRI Shapefile",
+    "Extension": ".shp"
+  },
+  {
+    "Name": "Styled Layer Descriptor File",
+    "Extension": ".sld"
+  },
+  {
+    "Name": "Map Manager Schema File",
+    "Extension": ".smm"
+  },
+  {
+    "Name": "IDRISI Palette File",
+    "Extension": ".smp"
+  },
+  {
+    "Name": "NGS SP3 File",
+    "Extension": ".sp3"
+  },
+  {
+    "Name": "Trimble Standard Storage Format File",
+    "Extension": ".ssf"
+  },
+  {
+    "Name": "Streets & Trips Map Template",
+    "Extension": ".stt"
+  },
+  {
+    "Name": "ArcGIS Style Manager File",
+    "Extension": ".style"
+  },
+  {
+    "Name": "Subsurface Viewer Project",
+    "Extension": ".svp"
+  },
+  {
+    "Name": "Survex Cavern Data File",
+    "Extension": ".svx"
+  },
+  {
+    "Name": "ArcScene Document",
+    "Extension": ".sxd"
+  },
+  {
+    "Name": "TatukGIS Symbols File",
+    "Extension": ".sym"
+  },
+  {
+    "Name": "MapInfo TAB File",
+    "Extension": ".tab"
+  },
+  {
+    "Name": "Tape Image Format Requirements Document",
+    "Extension": ".tfrd"
+  },
+  {
+    "Name": "World File for TIFF",
+    "Extension": ".tfw"
+  },
+  {
+    "Name": "Therion Data File",
+    "Extension": ".th"
+  },
+  {
+    "Name": "Geodatabase Timestamp File",
+    "Extension": ".timestamp"
+  },
+  {
+    "Name": "DeLorme Topo Project File",
+    "Extension": ".tpx"
+  },
+  {
+    "Name": "TatukGIS Project File",
+    "Extension": ".ttkgp"
+  },
+  {
+    "Name": "Lowrance GPS Data File",
+    "Extension": ".usr"
+  },
+  {
+    "Name": "IDRISI Vector Image",
+    "Extension": ".vct"
+  },
+  {
+    "Name": "IDRISI Vector Documentation File",
+    "Extension": ".vdc"
+  },
+  {
+    "Name": "IDRISI Vector File",
+    "Extension": ".vec"
+  },
+  {
+    "Name": "Wayfinder Map File",
+    "Extension": ".wfd"
+  },
+  {
+    "Name": "ESRI World File",
+    "Extension": ".wld"
+  },
+  {
+    "Name": "MapSource Web Link File",
+    "Extension": ".wlx"
+  },
+  {
+    "Name": "MapInfo Workspace File",
+    "Extension": ".wor"
+  },
+  {
+    "Name": "Swiss Map Overlay",
+    "Extension": ".xol"
+  }
+]

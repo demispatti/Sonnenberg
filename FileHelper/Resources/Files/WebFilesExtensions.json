@@ -1,0 +1,974 @@
+[
+  {
+    "Name": "A4Desk Pro Project File",
+    "Extension": ".a4p"
+  },
+  {
+    "Name": "Alpha Five Webpage File",
+    "Extension": ".a5w"
+  },
+  {
+    "Name": "Opera Bookmarks File",
+    "Extension": ".adr"
+  },
+  {
+    "Name": "Alpha Five Compiled Global Functions File",
+    "Extension": ".aex"
+  },
+  {
+    "Name": "ActiveX Layout Control File",
+    "Extension": ".alx"
+  },
+  {
+    "Name": "Adobe Edge Animate Project File",
+    "Extension": ".an"
+  },
+  {
+    "Name": "Active Page",
+    "Extension": ".ap"
+  },
+  {
+    "Name": "HTML5 Cache Manifest File",
+    "Extension": ".appcache"
+  },
+  {
+    "Name": "SteelArrow Web Application File",
+    "Extension": ".aro"
+  },
+  {
+    "Name": "ASP Configuration File",
+    "Extension": ".asa"
+  },
+  {
+    "Name": "ASP.NET Server Application File",
+    "Extension": ".asax"
+  },
+  {
+    "Name": "ASP.NET User Control File",
+    "Extension": ".ascx"
+  },
+  {
+    "Name": "ASP.NET Web Handler File",
+    "Extension": ".ashx"
+  },
+  {
+    "Name": "ASP.NET Web Service File",
+    "Extension": ".asmx"
+  },
+  {
+    "Name": "Active Server Page",
+    "Extension": ".asp"
+  },
+  {
+    "Name": "Active Server Page Extended File",
+    "Extension": ".aspx"
+  },
+  {
+    "Name": "ActionScript Remote Document",
+    "Extension": ".asr"
+  },
+  {
+    "Name": "Atom Syndication Format",
+    "Extension": ".atom"
+  },
+  {
+    "Name": "Web Form Post Data File",
+    "Extension": ".att"
+  },
+  {
+    "Name": "AllWebMenus Project File",
+    "Extension": ".awm"
+  },
+  {
+    "Name": "ASP.NET Web Handler File",
+    "Extension": ".axd"
+  },
+  {
+    "Name": "Bean Markup Language File",
+    "Extension": ".bml"
+  },
+  {
+    "Name": "ProStores Dynamic Web Page",
+    "Extension": ".bok"
+  },
+  {
+    "Name": "Brotli Compressed File",
+    "Extension": ".br"
+  },
+  {
+    "Name": "ASP.NET Browser Definition File",
+    "Extension": ".browser"
+  },
+  {
+    "Name": "uTorrent App",
+    "Extension": ".btapp"
+  },
+  {
+    "Name": "BuRg3r Web Page",
+    "Extension": ".bwp"
+  },
+  {
+    "Name": "CopperCube JavaScript File",
+    "Extension": ".ccbjs"
+  },
+  {
+    "Name": "Channel Definition Format",
+    "Extension": ".cdf"
+  },
+  {
+    "Name": "Internet Security Certificate",
+    "Extension": ".cer"
+  },
+  {
+    "Name": "ColdFusion Markup File",
+    "Extension": ".cfm"
+  },
+  {
+    "Name": "ColdFusion Markup Language File",
+    "Extension": ".cfml"
+  },
+  {
+    "Name": "IRC Chat Configuration File",
+    "Extension": ".cha"
+  },
+  {
+    "Name": "IRC Chat Configuration File",
+    "Extension": ".chat"
+  },
+  {
+    "Name": "Compiled HTML Help File",
+    "Extension": ".chm"
+  },
+  {
+    "Name": "Content Management System",
+    "Extension": ".cms"
+  },
+  {
+    "Name": "Coda Site File",
+    "Extension": ".codasite"
+  },
+  {
+    "Name": "WordCompress Compacted Web File",
+    "Extension": ".compressed"
+  },
+  {
+    "Name": "Concept Application Source File",
+    "Extension": ".con"
+  },
+  {
+    "Name": "Cool Page Project File",
+    "Extension": ".cpg"
+  },
+  {
+    "Name": "CloudChan Pre-processed Hypertext Document",
+    "Extension": ".cphd"
+  },
+  {
+    "Name": "Certificate Revocation List File",
+    "Extension": ".crl"
+  },
+  {
+    "Name": "Security Certificate",
+    "Extension": ".crt"
+  },
+  {
+    "Name": "ASP.NET Razor Web Page",
+    "Extension": ".cshtml"
+  },
+  {
+    "Name": "Concept Server Page",
+    "Extension": ".csp"
+  },
+  {
+    "Name": "Certificate Signing Request File",
+    "Extension": ".csr"
+  },
+  {
+    "Name": "Cascading Style Sheet",
+    "Extension": ".css"
+  },
+  {
+    "Name": "Access Data Access Page",
+    "Extension": ".dap"
+  },
+  {
+    "Name": "ColdFusion Server File",
+    "Extension": ".dbm"
+  },
+  {
+    "Name": "Shockwave Media File",
+    "Extension": ".dcr"
+  },
+  {
+    "Name": "DER Certificate File",
+    "Extension": ".der"
+  },
+  {
+    "Name": "Dynamic HTML file",
+    "Extension": ".dhtml"
+  },
+  {
+    "Name": "DISCO Discovery Document",
+    "Extension": ".disco"
+  },
+  {
+    "Name": "DISCO Discovery Output File",
+    "Extension": ".discomap"
+  },
+  {
+    "Name": "DLL Dynamic Web Page",
+    "Extension": ".dll"
+  },
+  {
+    "Name": "DynaScript File",
+    "Extension": ".dml"
+  },
+  {
+    "Name": "Java Servlet",
+    "Extension": ".do"
+  },
+  {
+    "Name": "Microsoft Word HTML Document",
+    "Extension": ".dochtml"
+  },
+  {
+    "Name": "Microsoft Word MIME HTML Document",
+    "Extension": ".docmhtml"
+  },
+  {
+    "Name": "Microsoft Word HTML Document Template",
+    "Extension": ".dothtml"
+  },
+  {
+    "Name": "Partially Downloaded File",
+    "Extension": ".download"
+  },
+  {
+    "Name": "Dreamweaver Web Page Template",
+    "Extension": ".dwt"
+  },
+  {
+    "Name": "Escenic Dynamic Web Page",
+    "Extension": ".ece"
+  },
+  {
+    "Name": "Adobe Edge Project File",
+    "Extension": ".edge"
+  },
+  {
+    "Name": "Web File Location",
+    "Extension": ".epibrw"
+  },
+  {
+    "Name": "Espresso Project File",
+    "Extension": ".esproj"
+  },
+  {
+    "Name": "Ewisoft Website Project File",
+    "Extension": ".ewp"
+  },
+  {
+    "Name": "FastCGI File",
+    "Extension": ".fcgi"
+  },
+  {
+    "Name": "123 Flash Menu Project",
+    "Extension": ".fmp"
+  },
+  {
+    "Name": "Freeway Document",
+    "Extension": ".freeway"
+  },
+  {
+    "Name": "Microsoft Expression Web Package",
+    "Extension": ".fwp"
+  },
+  {
+    "Name": "Freeway Template Bundle",
+    "Extension": ".fwtb"
+  },
+  {
+    "Name": "Freeway Template",
+    "Extension": ".fwtemplate"
+  },
+  {
+    "Name": "Freeway Template Bundle",
+    "Extension": ".fwtemplateb"
+  },
+  {
+    "Name": "Flickr Web Page",
+    "Extension": ".gne"
+  },
+  {
+    "Name": "IMail Error Message File",
+    "Extension": ".gsp"
+  },
+  {
+    "Name": "Groovy Server Page",
+    "Extension": ".gsp"
+  },
+  {
+    "Name": "HTTP Archive FIle",
+    "Extension": ".har"
+  },
+  {
+    "Name": "HDML File",
+    "Extension": ".hdm"
+  },
+  {
+    "Name": "Handheld Device Markup Language File",
+    "Extension": ".hdml"
+  },
+  {
+    "Name": "Apache HTACCESS File",
+    "Extension": ".htaccess"
+  },
+  {
+    "Name": "HTML Component File",
+    "Extension": ".htc"
+  },
+  {
+    "Name": "Hypertext Markup Language File",
+    "Extension": ".htm"
+  },
+  {
+    "Name": "Hypertext Markup Language File",
+    "Extension": ".html"
+  },
+  {
+    "Name": "HTML Extension File",
+    "Extension": ".htx"
+  },
+  {
+    "Name": "Help 2 Compiled Help File",
+    "Extension": ".hxs"
+  },
+  {
+    "Name": "Hype Document",
+    "Extension": ".hype"
+  },
+  {
+    "Name": "Hype Resources Folder",
+    "Extension": ".hyperesources"
+  },
+  {
+    "Name": "Hype Symbol File",
+    "Extension": ".hypesymbol"
+  },
+  {
+    "Name": "Hype Document Template",
+    "Extension": ".hypetemplate"
+  },
+  {
+    "Name": "Internet Database Connector File",
+    "Extension": ".idc"
+  },
+  {
+    "Name": "Internet Query",
+    "Extension": ".iqy"
+  },
+  {
+    "Name": "iTunes Music Store Link File",
+    "Extension": ".itms"
+  },
+  {
+    "Name": "iTunes Podcast Link File",
+    "Extension": ".itpc"
+  },
+  {
+    "Name": "iWeb Widget File",
+    "Extension": ".iwdgt"
+  },
+  {
+    "Name": "Liquid Motion Animation",
+    "Extension": ".jcz"
+  },
+  {
+    "Name": "Java HTML Web Page",
+    "Extension": ".jhtml"
+  },
+  {
+    "Name": "Java Web Start File",
+    "Extension": ".jnlp"
+  },
+  {
+    "Name": "JavaScript File",
+    "Extension": ".js"
+  },
+  {
+    "Name": "JavaScript Object Notation File",
+    "Extension": ".json"
+  },
+  {
+    "Name": "Java Server Page",
+    "Extension": ".jsp"
+  },
+  {
+    "Name": "Java Servlet Alias",
+    "Extension": ".jspa"
+  },
+  {
+    "Name": "XML Java Server Page",
+    "Extension": ".jspx"
+  },
+  {
+    "Name": "JavaScript Style Sheet File",
+    "Extension": ".jss"
+  },
+  {
+    "Name": "JavaServer Page Document",
+    "Extension": ".jst"
+  },
+  {
+    "Name": "JavaScript Proxy Autoconfig File",
+    "Extension": ".jvs"
+  },
+  {
+    "Name": "Java Web Services File",
+    "Extension": ".jws"
+  },
+  {
+    "Name": "CodeKit File",
+    "Extension": ".kit"
+  },
+  {
+    "Name": "Lasso Database-Driven Web Page",
+    "Extension": ".lasso"
+  },
+  {
+    "Name": "Cloaked Affiliate Link Builder Saved Link",
+    "Extension": ".lbc"
+  },
+  {
+    "Name": "LESS Style Sheet",
+    "Extension": ".less"
+  },
+  {
+    "Name": "Mozilla Archive Format File",
+    "Extension": ".maff"
+  },
+  {
+    "Name": "Image Map",
+    "Extension": ".map"
+  },
+  {
+    "Name": "Mapjects Client Webparts File",
+    "Extension": ".mapx"
+  },
+  {
+    "Name": "ASP.NET Master Page",
+    "Extension": ".master"
+  },
+  {
+    "Name": "MHTML Web Archive",
+    "Extension": ".mht"
+  },
+  {
+    "Name": "MIME HTML File",
+    "Extension": ".mhtml"
+  },
+  {
+    "Name": "Node.js ES Module File",
+    "Extension": ".mjs"
+  },
+  {
+    "Name": "Mozilla Cache File",
+    "Extension": ".moz"
+  },
+  {
+    "Name": "Microsoft ASP.NET Web Page",
+    "Extension": ".mspx"
+  },
+  {
+    "Name": "Adobe Muse Website Project",
+    "Extension": ".muse"
+  },
+  {
+    "Name": "MivaScript Compiled File",
+    "Extension": ".mvc"
+  },
+  {
+    "Name": "IBM HotMedia Multimedia File",
+    "Extension": ".mvr"
+  },
+  {
+    "Name": "NetObjects Fusion File",
+    "Extension": ".nod"
+  },
+  {
+    "Name": "eSite Builder NXG Web Page",
+    "Extension": ".nxg"
+  },
+  {
+    "Name": "NewzBin Usenet Index File",
+    "Extension": ".nzb"
+  },
+  {
+    "Name": "Adobe Edge Animate Widget File",
+    "Extension": ".oam"
+  },
+  {
+    "Name": "Opera Mini Saved Web Page",
+    "Extension": ".obml"
+  },
+  {
+    "Name": "Opera Mini Saved Web Page",
+    "Extension": ".obml15"
+  },
+  {
+    "Name": "Opera Mini Saved Web Page",
+    "Extension": ".obml16"
+  },
+  {
+    "Name": "Dynamic Web Page",
+    "Extension": ".ognc"
+  },
+  {
+    "Name": "Office Live Package",
+    "Extension": ".olp"
+  },
+  {
+    "Name": "Outline Processor Markup Language File",
+    "Extension": ".opml"
+  },
+  {
+    "Name": "OpenDocument HTML Template",
+    "Extension": ".oth"
+  },
+  {
+    "Name": "Personal Information Exchange File",
+    "Extension": ".p12"
+  },
+  {
+    "Name": "PKCS #7 Digital Certificate File",
+    "Extension": ".p7"
+  },
+  {
+    "Name": "PKCS #7 Certificate File",
+    "Extension": ".p7b"
+  },
+  {
+    "Name": "PKCS #7 Certificate File",
+    "Extension": ".p7c"
+  },
+  {
+    "Name": "Proxy Auto-Config File",
+    "Extension": ".pac"
+  },
+  {
+    "Name": "HybridJava Web Page",
+    "Extension": ".page"
+  },
+  {
+    "Name": "Privacy Enhanced Mail Certificate",
+    "Extension": ".pem"
+  },
+  {
+    "Name": "PHP Source Code File",
+    "Extension": ".php"
+  },
+  {
+    "Name": "PHP 2 Web Page",
+    "Extension": ".php2"
+  },
+  {
+    "Name": "PHP 3 Web Page",
+    "Extension": ".php3"
+  },
+  {
+    "Name": "PHP 4 Web Page",
+    "Extension": ".php4"
+  },
+  {
+    "Name": "PHP 5 Web Page",
+    "Extension": ".php5"
+  },
+  {
+    "Name": "PHP-Based Web Page",
+    "Extension": ".phtm"
+  },
+  {
+    "Name": "PHP Web Page",
+    "Extension": ".phtml"
+  },
+  {
+    "Name": "PowerPoint HTML Presentation",
+    "Extension": ".ppthtml"
+  },
+  {
+    "Name": "Microsoft PowerPoint MIME HTML Presentation",
+    "Extension": ".pptmhtml"
+  },
+  {
+    "Name": "PICS Rules File",
+    "Extension": ".prf"
+  },
+  {
+    "Name": "Adobe Proto Design File",
+    "Extension": ".pro"
+  },
+  {
+    "Name": "PL/SQL Server Page",
+    "Extension": ".psp"
+  },
+  {
+    "Name": "AutoCAD Publish To Web File",
+    "Extension": ".ptw"
+  },
+  {
+    "Name": "Public Key File",
+    "Extension": ".pub"
+  },
+  {
+    "Name": "QuickBooks Online Bank Statement File",
+    "Extension": ".qbo"
+  },
+  {
+    "Name": "Blocks Landing Page File",
+    "Extension": ".qbx"
+  },
+  {
+    "Name": "Qompose Web Page Template",
+    "Extension": ".qf"
+  },
+  {
+    "Name": "Qworum Message File",
+    "Extension": ".qrm"
+  },
+  {
+    "Name": "Edge Reflow Data File",
+    "Extension": ".rflw"
+  },
+  {
+    "Name": "Ruby HTML Web Page",
+    "Extension": ".rhtml"
+  },
+  {
+    "Name": "Ruby Javascript File",
+    "Extension": ".rjs"
+  },
+  {
+    "Name": "Rich Site Summary",
+    "Extension": ".rss"
+  },
+  {
+    "Name": "RealText Streaming Text File",
+    "Extension": ".rt"
+  },
+  {
+    "Name": "RapidWeaver 3 Site File",
+    "Extension": ".rw3"
+  },
+  {
+    "Name": "RapidWeaver Package",
+    "Extension": ".rwp"
+  },
+  {
+    "Name": "RapidWeaver Site File",
+    "Extension": ".rwsw"
+  },
+  {
+    "Name": "RapidWeaver Theme",
+    "Extension": ".rwtheme"
+  },
+  {
+    "Name": "Syntactically Awesome StyleSheets File",
+    "Extension": ".sass"
+  },
+  {
+    "Name": "Nokia Saved Web Page",
+    "Extension": ".saveddeck"
+  },
+  {
+    "Name": "Sass Cascading Style Sheet",
+    "Extension": ".scss"
+  },
+  {
+    "Name": "SocialDecks Blog File",
+    "Extension": ".sdb"
+  },
+  {
+    "Name": "Seam Framework Java Servlet File",
+    "Extension": ".seam"
+  },
+  {
+    "Name": "HTML File with Server Side Includes",
+    "Extension": ".sht"
+  },
+  {
+    "Name": "HTML Server Side Include File",
+    "Extension": ".shtm"
+  },
+  {
+    "Name": "Server Side Include HTML File",
+    "Extension": ".shtml"
+  },
+  {
+    "Name": "GoLive Website Project File",
+    "Extension": ".site"
+  },
+  {
+    "Name": "ASP.NET Site Map File",
+    "Extension": ".sitemap"
+  },
+  {
+    "Name": "iWeb Site Design Project",
+    "Extension": ".sites"
+  },
+  {
+    "Name": "iWeb Site Design Project",
+    "Extension": ".sites2"
+  },
+  {
+    "Name": "Sparkle Website Project",
+    "Extension": ".sparkle"
+  },
+  {
+    "Name": "Software Publisher Certificate File",
+    "Extension": ".spc"
+  },
+  {
+    "Name": "Server Response File",
+    "Extension": ".srf"
+  },
+  {
+    "Name": "Scala Server Page",
+    "Extension": ".ssp"
+  },
+  {
+    "Name": "Contribute Connection Key File",
+    "Extension": ".stc"
+  },
+  {
+    "Name": "Certificate Trust List",
+    "Extension": ".stl"
+  },
+  {
+    "Name": "SSI Web Page",
+    "Extension": ".stm"
+  },
+  {
+    "Name": "SSI HTML File",
+    "Extension": ".stml"
+  },
+  {
+    "Name": "SharePoint Template",
+    "Extension": ".stp"
+  },
+  {
+    "Name": "Stream Location File",
+    "Extension": ".strm"
+  },
+  {
+    "Name": "SiteSucker Website File",
+    "Extension": ".suck"
+  },
+  {
+    "Name": "WCF Web Service File",
+    "Extension": ".svc"
+  },
+  {
+    "Name": "Compressed Virtual World",
+    "Extension": ".svr"
+  },
+  {
+    "Name": "Adobe Flash Player Cache File",
+    "Extension": ".swz"
+  },
+  {
+    "Name": "HTTP File Server Template",
+    "Extension": ".tpl"
+  },
+  {
+    "Name": "TitanTV Television Listing File",
+    "Extension": ".tvpi"
+  },
+  {
+    "Name": "TitanTV Television Listing File",
+    "Extension": ".tvvi"
+  },
+  {
+    "Name": "WebEx Media File",
+    "Extension": ".ucf"
+  },
+  {
+    "Name": "UC Browser Saved Webpage",
+    "Extension": ".uhtml"
+  },
+  {
+    "Name": "Internet Shortcut",
+    "Extension": ".url"
+  },
+  {
+    "Name": "Visual Basic ActiveX Document",
+    "Extension": ".vbd"
+  },
+  {
+    "Name": "ASP.NET Razor Web Page",
+    "Extension": ".vbhtml"
+  },
+  {
+    "Name": "Visio Web Drawing",
+    "Extension": ".vdw"
+  },
+  {
+    "Name": "LiveSite Project",
+    "Extension": ".vlp"
+  },
+  {
+    "Name": "VRML File",
+    "Extension": ".vrml"
+  },
+  {
+    "Name": "Virtual World",
+    "Extension": ".vrt"
+  },
+  {
+    "Name": "DISCO Dynamic Discovery Document",
+    "Extension": ".vsdisco"
+  },
+  {
+    "Name": "WebBlender Project File",
+    "Extension": ".wbs"
+  },
+  {
+    "Name": "WAP Binary XML File",
+    "Extension": ".wbxml"
+  },
+  {
+    "Name": "Opera Widget",
+    "Extension": ".wdgt"
+  },
+  {
+    "Name": "Xara Web Document",
+    "Extension": ".web"
+  },
+  {
+    "Name": "Safari Web Archive",
+    "Extension": ".webarchive"
+  },
+  {
+    "Name": "Android Web Browser Archive",
+    "Extension": ".webarchivexml"
+  },
+  {
+    "Name": "Safari Web Bookmark File",
+    "Extension": ".webbookmark"
+  },
+  {
+    "Name": "Safari Web History File",
+    "Extension": ".webhistory"
+  },
+  {
+    "Name": "macOS Website Location",
+    "Extension": ".webloc"
+  },
+  {
+    "Name": "Internet Explorer Pinned Site Shortcut",
+    "Extension": ".website"
+  },
+  {
+    "Name": "Web Gallery Project",
+    "Extension": ".wgp"
+  },
+  {
+    "Name": "Opera Widget File",
+    "Extension": ".wgt"
+  },
+  {
+    "Name": "HTTrack Website Copier File",
+    "Extension": ".whtt"
+  },
+  {
+    "Name": "HybridJava Widget",
+    "Extension": ".widget"
+  },
+  {
+    "Name": "Wireless Markup Language File",
+    "Extension": ".wml"
+  },
+  {
+    "Name": "WN Web File",
+    "Extension": ".wn"
+  },
+  {
+    "Name": "WebObjects Application",
+    "Extension": ".woa"
+  },
+  {
+    "Name": "WebPlus Project File",
+    "Extension": ".wpp"
+  },
+  {
+    "Name": "WebPlus Project Template",
+    "Extension": ".wpx"
+  },
+  {
+    "Name": "WebEx Recording",
+    "Extension": ".wrf"
+  },
+  {
+    "Name": "Web Services Description Language File",
+    "Extension": ".wsdl"
+  },
+  {
+    "Name": "XBEL Bookmarks File",
+    "Extension": ".xbel"
+  },
+  {
+    "Name": "Extensible Binding Language File",
+    "Extension": ".xbl"
+  },
+  {
+    "Name": "XFDL File",
+    "Extension": ".xfdl"
+  },
+  {
+    "Name": "XHTML File",
+    "Extension": ".xht"
+  },
+  {
+    "Name": "Extensible Hypertext Markup Language Document",
+    "Extension": ".xhtm"
+  },
+  {
+    "Name": "Extensible Hypertext Markup Language File",
+    "Extension": ".xhtml"
+  },
+  {
+    "Name": "XML Pipeline Document",
+    "Extension": ".xpd"
+  },
+  {
+    "Name": "XML Style Sheet",
+    "Extension": ".xss"
+  },
+  {
+    "Name": "XML User Interface Language File",
+    "Extension": ".xul"
+  },
+  {
+    "Name": "Xara Web Designer Graphic",
+    "Extension": ".xws"
+  },
+  {
+    "Name": "XSL-FO Online Form",
+    "Extension": ".zfo"
+  },
+  {
+    "Name": "Secure IE Zipped HTML File",
+    "Extension": ".zhtml"
+  },
+  {
+    "Name": "RabbitWeb Webpage",
+    "Extension": ".zhtml"
+  },
+  {
+    "Name": "ZK User Interface File",
+    "Extension": ".zul"
+  },
+  {
+    "Name": "Possible Virus File",
+    "Extension": ".zvz"
+  }
+]

@@ -1,0 +1,218 @@
+[
+  {
+    "Name": "Adobe Binary Screen Font File",
+    "Extension": ".abf"
+  },
+  {
+    "Name": "Adobe Composite Font Metrics File",
+    "Extension": ".acfm"
+  },
+  {
+    "Name": "Adobe Font Metrics File",
+    "Extension": ".afm"
+  },
+  {
+    "Name": "Adobe Multiple Font Metrics File",
+    "Extension": ".amfm"
+  },
+  {
+    "Name": "Glyph Bitmap Distribution Format",
+    "Extension": ".bdf"
+  },
+  {
+    "Name": "Character Layout File",
+    "Extension": ".cha"
+  },
+  {
+    "Name": "Borland Character Set File",
+    "Extension": ".chr"
+  },
+  {
+    "Name": "Windows Composite Font File",
+    "Extension": ".compositefont"
+  },
+  {
+    "Name": "Mac OS X Data Fork Font",
+    "Extension": ".dfont"
+  },
+  {
+    "Name": "Embedded OpenType Font",
+    "Extension": ".eot"
+  },
+  {
+    "Name": "TeX Font Encoding File",
+    "Extension": ".etx"
+  },
+  {
+    "Name": "Private Character Editor File",
+    "Extension": ".euf"
+  },
+  {
+    "Name": "Crazy Machines Font File",
+    "Extension": ".f3f"
+  },
+  {
+    "Name": "AFDKO Feature Definitions File",
+    "Extension": ".fea"
+  },
+  {
+    "Name": "Mac Font Suitcase",
+    "Extension": ".ffil"
+  },
+  {
+    "Name": "Windows Font File",
+    "Extension": ".fnt"
+  },
+  {
+    "Name": "Generic Font File",
+    "Extension": ".fon"
+  },
+  {
+    "Name": "Font Resource File",
+    "Extension": ".fot"
+  },
+  {
+    "Name": "Symbian OS Font File",
+    "Extension": ".gdr"
+  },
+  {
+    "Name": "METAFONT Bitmap File",
+    "Extension": ".gf"
+  },
+  {
+    "Name": "Glyph Interchange Format File",
+    "Extension": ".glif"
+  },
+  {
+    "Name": "General CADD Pro Font File",
+    "Extension": ".gxf"
+  },
+  {
+    "Name": "Adobe Type 1 Mac Font File",
+    "Extension": ".lwfn"
+  },
+  {
+    "Name": "Watchtower Library Font File",
+    "Extension": ".mcf"
+  },
+  {
+    "Name": "METAFONT File",
+    "Extension": ".mf"
+  },
+  {
+    "Name": "Maxis Font File",
+    "Extension": ".mxf"
+  },
+  {
+    "Name": "Nintendo DS Font Type File",
+    "Extension": ".nftr"
+  },
+  {
+    "Name": "Obfuscated OpenType Font",
+    "Extension": ".odttf"
+  },
+  {
+    "Name": "OpenType Font",
+    "Extension": ".otf"
+  },
+  {
+    "Name": "PaintCAD Font",
+    "Extension": ".pcf"
+  },
+  {
+    "Name": "Printer Font ASCII File",
+    "Extension": ".pfa"
+  },
+  {
+    "Name": "Printer Font Binary File",
+    "Extension": ".pfb"
+  },
+  {
+    "Name": "Printer Font Metrics File",
+    "Extension": ".pfm"
+  },
+  {
+    "Name": "Portable Font Resource File",
+    "Extension": ".pfr"
+  },
+  {
+    "Name": "Packed METAFONT File",
+    "Extension": ".pk"
+  },
+  {
+    "Name": "PageMaker Template File",
+    "Extension": ".pmt"
+  },
+  {
+    "Name": "Spline Font Database File",
+    "Extension": ".sfd"
+  },
+  {
+    "Name": "Soft Font Printer File",
+    "Extension": ".sfp"
+  },
+  {
+    "Name": "Macintosh Font Suitcase",
+    "Extension": ".suit"
+  },
+  {
+    "Name": "PageMaker Template File",
+    "Extension": ".t65"
+  },
+  {
+    "Name": "TeX Font Metric File",
+    "Extension": ".tfm"
+  },
+  {
+    "Name": "TrueType Font Collection",
+    "Extension": ".ttc"
+  },
+  {
+    "Name": "Private Character Editor File",
+    "Extension": ".tte"
+  },
+  {
+    "Name": "TrueType Font",
+    "Extension": ".ttf"
+  },
+  {
+    "Name": "Celestia Font Texture File",
+    "Extension": ".txf"
+  },
+  {
+    "Name": "Unified Font Object File",
+    "Extension": ".ufo"
+  },
+  {
+    "Name": "FontLab Studio Font File",
+    "Extension": ".vfb"
+  },
+  {
+    "Name": "Processing Font File",
+    "Extension": ".vlw"
+  },
+  {
+    "Name": "Vision Numeric Font",
+    "Extension": ".vnf"
+  },
+  {
+    "Name": "Web Open Font Format File",
+    "Extension": ".woff"
+  },
+  {
+    "Name": "Web Open Font Format 2.0 File",
+    "Extension": ".woff2"
+  },
+  {
+    "Name": "Ventura Printer Font",
+    "Extension": ".xfn"
+  },
+  {
+    "Name": "ChiWriter Printer Font",
+    "Extension": ".xft"
+  },
+  {
+    "Name": "Google Picasa Font Cache",
+    "Extension": ".ytf"
+  }
+]

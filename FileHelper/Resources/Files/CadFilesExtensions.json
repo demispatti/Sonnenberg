@@ -1,0 +1,1234 @@
+[
+  {
+    "Name": "PCB123 Circuit Board Design",
+    "Extension": ".123"
+  },
+  {
+    "Name": "Autodesk 123C Drawing",
+    "Extension": ".123c"
+  },
+  {
+    "Name": "Autodesk 123D Drawing",
+    "Extension": ".123d"
+  },
+  {
+    "Name": "123D Design Model File",
+    "Extension": ".123dx"
+  },
+  {
+    "Name": "VersaCAD 2D Drawing File",
+    "Extension": ".2d"
+  },
+  {
+    "Name": "RoboCell Cell Setup File",
+    "Extension": ".3dc"
+  },
+  {
+    "Name": "Sierra LandDesigner 3D File",
+    "Extension": ".3dl"
+  },
+  {
+    "Name": "XYZprinting Sliced Model File",
+    "Extension": ".3w"
+  },
+  {
+    "Name": "ASAP2 ECU Description File",
+    "Extension": ".a2l"
+  },
+  {
+    "Name": "Alma CAD/CAM Document",
+    "Extension": ".act"
+  },
+  {
+    "Name": "AutoCAD Device-Independent Binary Plotter File",
+    "Extension": ".adi"
+  },
+  {
+    "Name": "AutoCAD Audit Log",
+    "Extension": ".adt"
+  },
+  {
+    "Name": "Alphacam Flame Drawing",
+    "Extension": ".afd"
+  },
+  {
+    "Name": "STAAD.foundation Project File",
+    "Extension": ".afs"
+  },
+  {
+    "Name": "AnyRail Layout Plan",
+    "Extension": ".any"
+  },
+  {
+    "Name": "ArtiosCAD Workspace File",
+    "Extension": ".ard"
+  },
+  {
+    "Name": "ArtCAM Model",
+    "Extension": ".art"
+  },
+  {
+    "Name": "LTspice Circuit Schematic File",
+    "Extension": ".asc"
+  },
+  {
+    "Name": "Solid Edge Assembly File",
+    "Extension": ".asm"
+  },
+  {
+    "Name": "LTspice Symbol File",
+    "Extension": ".asy"
+  },
+  {
+    "Name": "Alphacam Lathe Tool File",
+    "Extension": ".att"
+  },
+  {
+    "Name": "BobCAD-CAM Document",
+    "Extension": ".bbcd"
+  },
+  {
+    "Name": "RealView Debugger Board Chip Definition File",
+    "Extension": ".bcd"
+  },
+  {
+    "Name": "West Point Bridge Designer Design File",
+    "Extension": ".bdc"
+  },
+  {
+    "Name": "CoCreate Bundle File",
+    "Extension": ".bdl"
+  },
+  {
+    "Name": "BIM Explorer File",
+    "Extension": ".bimx"
+  },
+  {
+    "Name": "Xilinx Bitstream File",
+    "Extension": ".bit"
+  },
+  {
+    "Name": "AutoCAD Block Template File",
+    "Extension": ".blk"
+  },
+  {
+    "Name": "FloorPlan File",
+    "Extension": ".bmf"
+  },
+  {
+    "Name": "Bizagi Process Modeler",
+    "Extension": ".bpm"
+  },
+  {
+    "Name": "Bizagi Process Modeler Collaboration",
+    "Extension": ".bpmc"
+  },
+  {
+    "Name": "Easy Blue Print Symbol Library",
+    "Extension": ".bpz"
+  },
+  {
+    "Name": "Cadence Allegro PCB Design File",
+    "Extension": ".brd"
+  },
+  {
+    "Name": "KiCad PCB Design File",
+    "Extension": ".brd"
+  },
+  {
+    "Name": "StruWalker 3D Model",
+    "Extension": ".bsw"
+  },
+  {
+    "Name": "BIMReview 3D Model",
+    "Extension": ".bswx"
+  },
+  {
+    "Name": "Accelerated Designs PCB Library File",
+    "Extension": ".bxl"
+  },
+  {
+    "Name": "BobCAD-CAM File",
+    "Extension": ".cad"
+  },
+  {
+    "Name": "Autodesk QuickCAD File",
+    "Extension": ".cad"
+  },
+  {
+    "Name": "Gerber CAM Job File",
+    "Extension": ".cam"
+  },
+  {
+    "Name": "FastCAM CAM File",
+    "Extension": ".cam"
+  },
+  {
+    "Name": "CATIA V5 Drawing",
+    "Extension": ".catdrawing"
+  },
+  {
+    "Name": "CATIA V5 Part File",
+    "Extension": ".catpart"
+  },
+  {
+    "Name": "CATIA V5 Assembly File",
+    "Extension": ".catproduct"
+  },
+  {
+    "Name": "Circuit Diagram Document",
+    "Extension": ".cddx"
+  },
+  {
+    "Name": "CADKEY Wireframe Design File",
+    "Extension": ".cdl"
+  },
+  {
+    "Name": "KOMPAS Document",
+    "Extension": ".cdw"
+  },
+  {
+    "Name": "MicroStation Cell Library",
+    "Extension": ".cel"
+  },
+  {
+    "Name": "Common File Format File",
+    "Extension": ".cf2"
+  },
+  {
+    "Name": "Common File Format",
+    "Extension": ".cff"
+  },
+  {
+    "Name": "CATIA Graphical Representation File",
+    "Extension": ".cgr"
+  },
+  {
+    "Name": "Luminaire Data File",
+    "Extension": ".cib"
+  },
+  {
+    "Name": "KTechlab Circuit Design File",
+    "Extension": ".circuit"
+  },
+  {
+    "Name": "Kubotek Design Container",
+    "Extension": ".ckd"
+  },
+  {
+    "Name": "Solid Edge Wire Harness File",
+    "Extension": ".cmp"
+  },
+  {
+    "Name": "Generic CADD Component File",
+    "Extension": ".cmp"
+  },
+  {
+    "Name": "PartMaster CNC File",
+    "Extension": ".cnc"
+  },
+  {
+    "Name": "CNC Machine Tool Path",
+    "Extension": ".cnc"
+  },
+  {
+    "Name": "Melco Condensed Embroidery File",
+    "Extension": ".cnd"
+  },
+  {
+    "Name": "CADSTAR PCB Archive File",
+    "Extension": ".cpa"
+  },
+  {
+    "Name": "VCarve Pro Design File",
+    "Extension": ".crv"
+  },
+  {
+    "Name": "Home Designer Pro Project File",
+    "Extension": ".cyp"
+  },
+  {
+    "Name": "CAD Zone Drawing",
+    "Extension": ".czd"
+  },
+  {
+    "Name": "Tekla Structures Model File",
+    "Extension": ".db1"
+  },
+  {
+    "Name": "AutoCAD Query Set",
+    "Extension": ".dbq"
+  },
+  {
+    "Name": "DesignCAD Design File",
+    "Extension": ".dc"
+  },
+  {
+    "Name": "DevCad Document",
+    "Extension": ".dc1"
+  },
+  {
+    "Name": "DesignCAD 2D ASCII Drawing",
+    "Extension": ".dc2"
+  },
+  {
+    "Name": "DevCad Cam Pro Document",
+    "Extension": ".dc2"
+  },
+  {
+    "Name": "DesignCAD 3D ASCII Drawing",
+    "Extension": ".dc3"
+  },
+  {
+    "Name": "DesignCAD Drawing",
+    "Extension": ".dcd"
+  },
+  {
+    "Name": "Pro/DESKTOP CAD File",
+    "Extension": ".des"
+  },
+  {
+    "Name": "Solid Edge Draft Document",
+    "Extension": ".dft"
+  },
+  {
+    "Name": "Drafix CAD File",
+    "Extension": ".dfx"
+  },
+  {
+    "Name": "FlashCAD Drawing Database",
+    "Extension": ".dgb"
+  },
+  {
+    "Name": "Delcam 3D Model File",
+    "Extension": ".dgk"
+  },
+  {
+    "Name": "MicroStation Design File",
+    "Extension": ".dgn"
+  },
+  {
+    "Name": "CATIA 4 Export File",
+    "Extension": ".dlv"
+  },
+  {
+    "Name": "DIALux Document",
+    "Extension": ".dlx"
+  },
+  {
+    "Name": "OrCAD Drawing File",
+    "Extension": ".dra"
+  },
+  {
+    "Name": "Dolphin PartMaster Drawing File",
+    "Extension": ".dra"
+  },
+  {
+    "Name": "AllyCAD Drawing File",
+    "Extension": ".drg"
+  },
+  {
+    "Name": "EAGLE Design Rules File",
+    "Extension": ".dru"
+  },
+  {
+    "Name": "ANVIL Drawing File",
+    "Extension": ".drw"
+  },
+  {
+    "Name": "Personal Designer Drawing File",
+    "Extension": ".drw"
+  },
+  {
+    "Name": "SolidWorks Drawing Template",
+    "Extension": ".drwdot"
+  },
+  {
+    "Name": "Control Studio Document",
+    "Extension": ".dsg"
+  },
+  {
+    "Name": "OrCAD Design File",
+    "Extension": ".dsn"
+  },
+  {
+    "Name": "AutoCAD Sheet Set File",
+    "Extension": ".dst"
+  },
+  {
+    "Name": "Tajima Embroidery Format",
+    "Extension": ".dst"
+  },
+  {
+    "Name": "Graphic Works Vector Graphic",
+    "Extension": ".dvg"
+  },
+  {
+    "Name": "Design Web Format XPS File",
+    "Extension": ".dwfx"
+  },
+  {
+    "Name": "AutoCAD Drawing Database File",
+    "Extension": ".dwg"
+  },
+  {
+    "Name": "AutoCAD Drawing Standards File",
+    "Extension": ".dws"
+  },
+  {
+    "Name": "AutoCAD Drawing Template",
+    "Extension": ".dwt"
+  },
+  {
+    "Name": "AutoCAD Data Extraction Template",
+    "Extension": ".dxe"
+  },
+  {
+    "Name": "Drawing Exchange Format File",
+    "Extension": ".dxf"
+  },
+  {
+    "Name": "AutoCAD Drawing Interchange Attribute File",
+    "Extension": ".dxx"
+  },
+  {
+    "Name": "eDrawings Assembly File",
+    "Extension": ".easm"
+  },
+  {
+    "Name": "Edificius Project",
+    "Extension": ".edf"
+  },
+  {
+    "Name": "EDIF Implementation Netlist File",
+    "Extension": ".edn"
+  },
+  {
+    "Name": "SolidWorks eDrawings File",
+    "Extension": ".edrw"
+  },
+  {
+    "Name": "Eulumdat Formatted Luminaire Data File",
+    "Extension": ".eld"
+  },
+  {
+    "Name": "EAGLE Project",
+    "Extension": ".epf"
+  },
+  {
+    "Name": "eDrawings File",
+    "Extension": ".eprt"
+  },
+  {
+    "Name": "GAL Equation File",
+    "Extension": ".eqn"
+  },
+  {
+    "Name": "Electronics Workbench Circuit Design File",
+    "Extension": ".ewb"
+  },
+  {
+    "Name": "EasyWOOD Design File",
+    "Extension": ".ewd"
+  },
+  {
+    "Name": "CAXA Draft",
+    "Extension": ".exb"
+  },
+  {
+    "Name": "AutoCAD Ecscad Components Backup File",
+    "Extension": ".ezc"
+  },
+  {
+    "Name": "AutoCAD Ecscad Project Backup File",
+    "Extension": ".ezp"
+  },
+  {
+    "Name": "Form•Z Animation File",
+    "Extension": ".fan"
+  },
+  {
+    "Name": "FastCAD DOS Drawing",
+    "Extension": ".fcd"
+  },
+  {
+    "Name": "FreeCAD Document",
+    "Extension": ".fcstd"
+  },
+  {
+    "Name": "FreeCAD Backup Document",
+    "Extension": ".fcstd1"
+  },
+  {
+    "Name": "FastCAD Windows Drawing",
+    "Extension": ".fcw"
+  },
+  {
+    "Name": "FelixCAD Drawing",
+    "Extension": ".flx"
+  },
+  {
+    "Name": "Form•Z Project File",
+    "Extension": ".fmz"
+  },
+  {
+    "Name": "QuickCAM 3D CNC File",
+    "Extension": ".fnc"
+  },
+  {
+    "Name": "Front Panel Designer Project",
+    "Extension": ".fpd"
+  },
+  {
+    "Name": "Front Panel Project",
+    "Extension": ".fpp"
+  },
+  {
+    "Name": "Fritzing Project File",
+    "Extension": ".fz"
+  },
+  {
+    "Name": "Fritzing Bin File",
+    "Extension": ".fzb"
+  },
+  {
+    "Name": "Fritzing Module File",
+    "Extension": ".fzm"
+  },
+  {
+    "Name": "Fritzing Part File",
+    "Extension": ".fzp"
+  },
+  {
+    "Name": "Fritzing Shareable Project File",
+    "Extension": ".fzz"
+  },
+  {
+    "Name": "BRL-CAD Geometry File",
+    "Extension": ".g"
+  },
+  {
+    "Name": "GOM 3D File",
+    "Extension": ".g3d"
+  },
+  {
+    "Name": "Gerber PCB File",
+    "Extension": ".gbx"
+  },
+  {
+    "Name": "Generic CADD Drawing File",
+    "Extension": ".gcd"
+  },
+  {
+    "Name": "G-Code 3D Printer File",
+    "Extension": ".gcode"
+  },
+  {
+    "Name": "Graphic Data System File",
+    "Extension": ".gds"
+  },
+  {
+    "Name": "TruTops Geometry File",
+    "Extension": ".geo"
+  },
+  {
+    "Name": "GOM Inspect Project File",
+    "Extension": ".ginspect_prj"
+  },
+  {
+    "Name": "Graphic Description Language File",
+    "Extension": ".gsm"
+  },
+  {
+    "Name": "General CADD Pro Component",
+    "Extension": ".gxc"
+  },
+  {
+    "Name": "General CADD Pro Drawing",
+    "Extension": ".gxd"
+  },
+  {
+    "Name": "General CADD Pro Hatch Pattern File",
+    "Extension": ".gxh"
+  },
+  {
+    "Name": "General CADD Pro Macro File",
+    "Extension": ".gxm"
+  },
+  {
+    "Name": "HydroCAD Project File",
+    "Extension": ".hcp"
+  },
+  {
+    "Name": "Aspen HYSYS Simulation File",
+    "Extension": ".hsc"
+  },
+  {
+    "Name": "HOOPS Stream Format File",
+    "Extension": ".hsf"
+  },
+  {
+    "Name": "Husqvarna Embroidery File",
+    "Extension": ".hus"
+  },
+  {
+    "Name": "Inventor Assembly File",
+    "Extension": ".iam"
+  },
+  {
+    "Name": "Lectra Clothing Design Pieces File",
+    "Extension": ".iba"
+  },
+  {
+    "Name": "IC3D Scene File",
+    "Extension": ".ic3d"
+  },
+  {
+    "Name": "IronCAD 3D Drawing File",
+    "Extension": ".icd"
+  },
+  {
+    "Name": "IronCAD 3D Drawing File",
+    "Extension": ".ics"
+  },
+  {
+    "Name": "Inventor iFeature File",
+    "Extension": ".ide"
+  },
+  {
+    "Name": "Inventor Design View File",
+    "Extension": ".idv"
+  },
+  {
+    "Name": "Inventor Drawing",
+    "Extension": ".idw"
+  },
+  {
+    "Name": "Procedimientos-Uno IFWin Project File",
+    "Extension": ".if"
+  },
+  {
+    "Name": "Industry Foundation Classes XML File",
+    "Extension": ".ifcxml"
+  },
+  {
+    "Name": "Compessed IFC File",
+    "Extension": ".ifczip"
+  },
+  {
+    "Name": "IGES Drawing File",
+    "Extension": ".igs"
+  },
+  {
+    "Name": "iMPACT Project File",
+    "Extension": ".ipf"
+  },
+  {
+    "Name": "Inventor Project File",
+    "Extension": ".ipj"
+  },
+  {
+    "Name": "Inventor Presentation File",
+    "Extension": ".ipn"
+  },
+  {
+    "Name": "Inventor Part File",
+    "Extension": ".ipt"
+  },
+  {
+    "Name": "Xilinx ISE Project",
+    "Extension": ".ise"
+  },
+  {
+    "Name": "Arbortext IsoDraw Document",
+    "Extension": ".iso"
+  },
+  {
+    "Name": "Compressed Arbortext IsoDraw Illustration",
+    "Extension": ".isoz"
+  },
+  {
+    "Name": "Jam STAPL File",
+    "Extension": ".jam"
+  },
+  {
+    "Name": "Jam STAPL Byte-Code File",
+    "Extension": ".jbc"
+  },
+  {
+    "Name": "MetaCAM Nest Job File",
+    "Extension": ".job"
+  },
+  {
+    "Name": "JT Open CAD File",
+    "Extension": ".jt"
+  },
+  {
+    "Name": "Video Surveillance Project",
+    "Extension": ".jvsg"
+  },
+  {
+    "Name": "Compressed Video Surveillance Project",
+    "Extension": ".jvsgz"
+  },
+  {
+    "Name": "20-20 Design File",
+    "Extension": ".kit"
+  },
+  {
+    "Name": "LEGO 3D Model File",
+    "Extension": ".l3b"
+  },
+  {
+    "Name": "ArchiCAD Library Container File",
+    "Extension": ".lcf"
+  },
+  {
+    "Name": "LDraw Model File",
+    "Extension": ".ldr"
+  },
+  {
+    "Name": "Eulumdat Formatted Luminaire Data File",
+    "Extension": ".ldt"
+  },
+  {
+    "Name": "Live Interior 3D Document",
+    "Extension": ".li3d"
+  },
+  {
+    "Name": "P-CAD ASCII Library file",
+    "Extension": ".lia"
+  },
+  {
+    "Name": "AutoCAD Linetype File",
+    "Extension": ".lin"
+  },
+  {
+    "Name": "Live Interior 3D Compressed Document",
+    "Extension": ".lizd"
+  },
+  {
+    "Name": "Logicly Circuit File",
+    "Extension": ".logicly"
+  },
+  {
+    "Name": "Luminaire Data File",
+    "Extension": ".ltl"
+  },
+  {
+    "Name": "bestIMAGE Compressed Design File",
+    "Extension": ".lyc"
+  },
+  {
+    "Name": "bestIMAGE Design File",
+    "Extension": ".lyr"
+  },
+  {
+    "Name": "Mastercam 9 Geometry File",
+    "Extension": ".mc9"
+  },
+  {
+    "Name": "MiniCAD Design File",
+    "Extension": ".mcd"
+  },
+  {
+    "Name": "MICRO CADAM-X/6000 Model Data File",
+    "Extension": ".mcx"
+  },
+  {
+    "Name": "Lectra Modaris Clothing Design File",
+    "Extension": ".mdl"
+  },
+  {
+    "Name": "Xilinx XPS Hardware Specification File",
+    "Extension": ".mhs"
+  },
+  {
+    "Name": "Okuma CNC Program File",
+    "Extension": ".min"
+  },
+  {
+    "Name": "MAX Interchange Notation File",
+    "Extension": ".min"
+  },
+  {
+    "Name": "Model Master 3 Axis Flat File",
+    "Extension": ".mmg"
+  },
+  {
+    "Name": "Femap Model",
+    "Extension": ".mod"
+  },
+  {
+    "Name": "CATIA 3D Model FIle",
+    "Extension": ".model"
+  },
+  {
+    "Name": "Femap Model",
+    "Extension": ".modfem"
+  },
+  {
+    "Name": "Multisim 10 Project File",
+    "Extension": ".mp10"
+  },
+  {
+    "Name": "Multisim 11 Project File",
+    "Extension": ".mp11"
+  },
+  {
+    "Name": "Multisim 12 Project",
+    "Extension": ".mp12"
+  },
+  {
+    "Name": "Multisim 13 Project",
+    "Extension": ".mp13"
+  },
+  {
+    "Name": "Multisim 14 Project",
+    "Extension": ".mp14"
+  },
+  {
+    "Name": "Multisim 7 Project File",
+    "Extension": ".mp7"
+  },
+  {
+    "Name": "Multisim 8 Project",
+    "Extension": ".mp8"
+  },
+  {
+    "Name": "Multisim 9 Project File",
+    "Extension": ".mp9"
+  },
+  {
+    "Name": "Multisim 11 Circuit Design File",
+    "Extension": ".ms11"
+  },
+  {
+    "Name": "Multisim 12 Circuit Design File",
+    "Extension": ".ms12"
+  },
+  {
+    "Name": "Multisim 13 Circuit Design File",
+    "Extension": ".ms13"
+  },
+  {
+    "Name": "Multisim 14 Circuit Design File",
+    "Extension": ".ms14"
+  },
+  {
+    "Name": "Multisim 7 Circuit Design File",
+    "Extension": ".ms7"
+  },
+  {
+    "Name": "Multisim 9 Circuit Design File",
+    "Extension": ".ms9"
+  },
+  {
+    "Name": "Multisim Circuit Design File",
+    "Extension": ".msm"
+  },
+  {
+    "Name": "FastCAM MTO Text File",
+    "Extension": ".mto"
+  },
+  {
+    "Name": "Microchip Verification Specification File",
+    "Extension": ".mvs"
+  },
+  {
+    "Name": "Mastercam Numerical Control File",
+    "Extension": ".nc"
+  },
+  {
+    "Name": "Mastercam Numerical Control File",
+    "Extension": ".nc1"
+  },
+  {
+    "Name": "Pro/ENGINEER Neutral File",
+    "Extension": ".neu"
+  },
+  {
+    "Name": "Xilinx Generated Netlist File",
+    "Extension": ".ngc"
+  },
+  {
+    "Name": "Xilinx Netlist File",
+    "Extension": ".ngd"
+  },
+  {
+    "Name": "Xilinx ISE 5-6 Project File",
+    "Extension": ".npl"
+  },
+  {
+    "Name": "Navisworks Cache File",
+    "Extension": ".nwc"
+  },
+  {
+    "Name": "Navisworks Document",
+    "Extension": ".nwd"
+  },
+  {
+    "Name": "Navisworks File Set",
+    "Extension": ".nwf"
+  },
+  {
+    "Name": "OrCAD Symbol Library File",
+    "Extension": ".olb"
+  },
+  {
+    "Name": "OrCAD Project File",
+    "Extension": ".opj"
+  },
+  {
+    "Name": "Opterecenja File",
+    "Extension": ".opt"
+  },
+  {
+    "Name": "AutoCAD Hatch Pattern File",
+    "Extension": ".pat"
+  },
+  {
+    "Name": "PowerCADD 6 Drawing File",
+    "Extension": ".pc6"
+  },
+  {
+    "Name": "PowerCADD 7 Drawing File",
+    "Extension": ".pc7"
+  },
+  {
+    "Name": "Pfaff Embroidery File",
+    "Extension": ".pcs"
+  },
+  {
+    "Name": "PhCNC Project File",
+    "Extension": ".phj"
+  },
+  {
+    "Name": "Gerber Photoplot File",
+    "Extension": ".pho"
+  },
+  {
+    "Name": "PIPE-FLO Demo Project File",
+    "Extension": ".pipd"
+  },
+  {
+    "Name": "PIPE-FLO Project File",
+    "Extension": ".pipe"
+  },
+  {
+    "Name": "ArchiCAD Project Archive",
+    "Extension": ".pla"
+  },
+  {
+    "Name": "ArchiCAD Project File",
+    "Extension": ".pln"
+  },
+  {
+    "Name": "Crouzet Logic Software M3 File",
+    "Extension": ".pm3"
+  },
+  {
+    "Name": "PC-DMIS Part Program File",
+    "Extension": ".prg"
+  },
+  {
+    "Name": "KiCad Project",
+    "Extension": ".pro"
+  },
+  {
+    "Name": "Creo Parametric Part File",
+    "Extension": ".prt"
+  },
+  {
+    "Name": "Solid Edge Part File",
+    "Extension": ".prt"
+  },
+  {
+    "Name": "Unigraphics Part File",
+    "Extension": ".prt"
+  },
+  {
+    "Name": "CADKEY Part File",
+    "Extension": ".prt"
+  },
+  {
+    "Name": "AutoCAD PostScript Patterns File",
+    "Extension": ".psf"
+  },
+  {
+    "Name": "Solid Edge Sheet Metal File",
+    "Extension": ".psm"
+  },
+  {
+    "Name": "AutoCAD Plot Stamp Settings File",
+    "Extension": ".pss"
+  },
+  {
+    "Name": "PSU Designer Document",
+    "Extension": ".psu"
+  },
+  {
+    "Name": "Pipe System Viewer File",
+    "Extension": ".psv"
+  },
+  {
+    "Name": "Solid Edge Weldment Document",
+    "Extension": ".pwd"
+  },
+  {
+    "Name": "AutoCAD Publish To Web Template",
+    "Extension": ".pwt"
+  },
+  {
+    "Name": "Quick Pallet Maker Input Data",
+    "Extension": ".qpm"
+  },
+  {
+    "Name": "LEGO MINDSTORMS Recording File",
+    "Extension": ".rcd"
+  },
+  {
+    "Name": "RoofCon Viewer Project File",
+    "Extension": ".rcv"
+  },
+  {
+    "Name": "Relux Project File",
+    "Extension": ".rdf"
+  },
+  {
+    "Name": "CADViewer Redline Markup File",
+    "Extension": ".red"
+  },
+  {
+    "Name": "vRigger Design File",
+    "Extension": ".rig"
+  },
+  {
+    "Name": "Redline Markup Language File",
+    "Extension": ".rml"
+  },
+  {
+    "Name": "vRigger Rigging Gear File",
+    "Extension": ".rra"
+  },
+  {
+    "Name": "RapidSketch Document",
+    "Extension": ".rs"
+  },
+  {
+    "Name": "RaySupreme Graph",
+    "Extension": ".rsg"
+  },
+  {
+    "Name": "RouterSim Network Visualizer File",
+    "Extension": ".rsm"
+  },
+  {
+    "Name": "Robot Structural Analysis Design File",
+    "Extension": ".rtd"
+  },
+  {
+    "Name": "ACIS SAB Model File",
+    "Extension": ".sab"
+  },
+  {
+    "Name": "ACIS SAT 3D Model File",
+    "Extension": ".sat"
+  },
+  {
+    "Name": "OpenSBP CNC Program File",
+    "Extension": ".sbp"
+  },
+  {
+    "Name": "OpenSCAD Script",
+    "Extension": ".scad"
+  },
+  {
+    "Name": "SpaceClaim Document",
+    "Extension": ".scdoc"
+  },
+  {
+    "Name": "gEDA Schematic File",
+    "Extension": ".sch"
+  },
+  {
+    "Name": "KiCad Schematic File",
+    "Extension": ".sch"
+  },
+  {
+    "Name": "Strater Project File",
+    "Extension": ".sdg"
+  },
+  {
+    "Name": "Home Embroidery Format",
+    "Extension": ".sew"
+  },
+  {
+    "Name": "AutoCAD Compiled Shape File",
+    "Extension": ".shx"
+  },
+  {
+    "Name": "AutoSketch Drawing",
+    "Extension": ".skf"
+  },
+  {
+    "Name": "SolidWorks Assembly File",
+    "Extension": ".sldasm"
+  },
+  {
+    "Name": "SolidWorks Drawing File",
+    "Extension": ".slddrw"
+  },
+  {
+    "Name": "SolidWorks Part File",
+    "Extension": ".sldprt"
+  },
+  {
+    "Name": "SolidWorks Composer File",
+    "Extension": ".smg"
+  },
+  {
+    "Name": "SpeedTree Tree Data File",
+    "Extension": ".spt"
+  },
+  {
+    "Name": "Stereolithography File",
+    "Extension": ".stl"
+  },
+  {
+    "Name": "SolidView Design File",
+    "Extension": ".svd"
+  },
+  {
+    "Name": "gEDA Symbol File",
+    "Extension": ".sym"
+  },
+  {
+    "Name": "HiCAD Drawing File",
+    "Extension": ".sza"
+  },
+  {
+    "Name": "TARGET 3001! Circuit Design Project File",
+    "Extension": ".t3001"
+  },
+  {
+    "Name": "TAK 2000 Thermal Model File",
+    "Extension": ".tak"
+  },
+  {
+    "Name": "Tekla BIMsight Project",
+    "Extension": ".tbp"
+  },
+  {
+    "Name": "TurboCAD 2D Mac Drawing",
+    "Extension": ".tc2"
+  },
+  {
+    "Name": "TurboCAD 2D/3D Mac Drawing",
+    "Extension": ".tc3"
+  },
+  {
+    "Name": "TurboCAD Mac Deluxe Drawing",
+    "Extension": ".tcd"
+  },
+  {
+    "Name": "Technobox CAD Drawing",
+    "Extension": ".tcd"
+  },
+  {
+    "Name": "TurboCAD Mac Drawing",
+    "Extension": ".tcm"
+  },
+  {
+    "Name": "TurboCAD Mac Pro Drawing",
+    "Extension": ".tcp"
+  },
+  {
+    "Name": "TurboCAD Drawing Template",
+    "Extension": ".tct"
+  },
+  {
+    "Name": "TurboCAD Drawing File",
+    "Extension": ".tcw"
+  },
+  {
+    "Name": "TurboCAD 3D Model Text File",
+    "Extension": ".tcx"
+  },
+  {
+    "Name": "TopSolid Design Document",
+    "Extension": ".top"
+  },
+  {
+    "Name": "TopSolid Project File",
+    "Extension": ".topprj"
+  },
+  {
+    "Name": "TopSolid'Viewer Document",
+    "Extension": ".topviw"
+  },
+  {
+    "Name": "TINA Design File",
+    "Extension": ".tsc"
+  },
+  {
+    "Name": "Strater Template File",
+    "Extension": ".tsf"
+  },
+  {
+    "Name": "Unified Luminaire Data File",
+    "Extension": ".uld"
+  },
+  {
+    "Name": "AutoCAD Unit Definition File",
+    "Extension": ".unt"
+  },
+  {
+    "Name": "Unified Power Format File",
+    "Extension": ".upf"
+  },
+  {
+    "Name": "Lectra Cutter's Must File",
+    "Extension": ".vet"
+  },
+  {
+    "Name": "Type3 Design File",
+    "Extension": ".vnd"
+  },
+  {
+    "Name": "3DESIGN CAD File",
+    "Extension": ".vtf"
+  },
+  {
+    "Name": "Vectorworks Design File",
+    "Extension": ".vwx"
+  },
+  {
+    "Name": "Wintech Drawing File",
+    "Extension": ".wdf"
+  },
+  {
+    "Name": "AutoCAD Electrical Project File",
+    "Extension": ".wdp"
+  },
+  {
+    "Name": "Parasolid Model Part File",
+    "Extension": ".x_b"
+  },
+  {
+    "Name": "Parasolid Model Part File",
+    "Extension": ".x_t"
+  },
+  {
+    "Name": "Xilinx ISE Project File",
+    "Extension": ".xise"
+  },
+  {
+    "Name": "Exchange NC File",
+    "Extension": ".xnc"
+  },
+  {
+    "Name": "Lattice XVL Geometry File",
+    "Extension": ".xv3"
+  }
+]

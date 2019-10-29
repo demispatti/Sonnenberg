@@ -1,0 +1,266 @@
+[
+  {
+    "Name": "Lotus 1-2-3 Spreadsheet",
+    "Extension": ".123"
+  },
+  {
+    "Name": "Lotus 1-2-3 SmartMaster File",
+    "Extension": ".12m"
+  },
+  {
+    "Name": "Renamed Microsoft Excel Spreadsheet",
+    "Extension": "._xls"
+  },
+  {
+    "Name": "Renamed Microsoft Excel Open XML Spreadsheet",
+    "Extension": "._xlsx"
+  },
+  {
+    "Name": "Ability Spreadsheet Template",
+    "Extension": ".ast"
+  },
+  {
+    "Name": "Ability Spreadsheet File",
+    "Extension": ".aws"
+  },
+  {
+    "Name": "Microsoft Works Spreadsheet Backup File",
+    "Extension": ".bks"
+  },
+  {
+    "Name": "Thinkfree Office NEO Cell Workbook",
+    "Extension": ".cell"
+  },
+  {
+    "Name": "SmartWare II Data File",
+    "Extension": ".def"
+  },
+  {
+    "Name": "Excel Spreadsheet",
+    "Extension": ".dex"
+  },
+  {
+    "Name": "Data Flask Grid File",
+    "Extension": ".dfg"
+  },
+  {
+    "Name": "Oracle Discoverer Workbook",
+    "Extension": ".dis"
+  },
+  {
+    "Name": "Edraw XML FIle",
+    "Extension": ".edx"
+  },
+  {
+    "Name": "Edraw Compressed XML FIle",
+    "Extension": ".edxz"
+  },
+  {
+    "Name": "EasySpreadsheet Spreadsheet",
+    "Extension": ".ess"
+  },
+  {
+    "Name": "First Choice Spreadsheet",
+    "Extension": ".fcs"
+  },
+  {
+    "Name": "FileMaker Database",
+    "Extension": ".fm"
+  },
+  {
+    "Name": "OpenDocument Flat XML Spreadsheet",
+    "Extension": ".fods"
+  },
+  {
+    "Name": "FileMaker Pro Spreadsheet",
+    "Extension": ".fp"
+  },
+  {
+    "Name": "Gnumeric Spreadsheet",
+    "Extension": ".gnm"
+  },
+  {
+    "Name": "Gnumeric Spreadsheet",
+    "Extension": ".gnumeric"
+  },
+  {
+    "Name": "Google Drive Spreadsheet Link File",
+    "Extension": ".gsheet"
+  },
+  {
+    "Name": "Thinkfree Office NEO Cell Template",
+    "Extension": ".hcdt"
+  },
+  {
+    "Name": "Improv Spreadsheet",
+    "Extension": ".imp"
+  },
+  {
+    "Name": "Mariner Calc Spreadsheet",
+    "Extension": ".mar"
+  },
+  {
+    "Name": "Mathematica Notebook",
+    "Extension": ".nb"
+  },
+  {
+    "Name": "NCSS Dataset File",
+    "Extension": ".ncss"
+  },
+  {
+    "Name": "Numbers Spreadsheet Template",
+    "Extension": ".nmbtemplate"
+  },
+  {
+    "Name": "Numbers Spreadsheet File",
+    "Extension": ".numbers"
+  },
+  {
+    "Name": "Numbers iCloud Document",
+    "Extension": ".numbers-tef"
+  },
+  {
+    "Name": "OpenDocument Spreadsheet",
+    "Extension": ".ods"
+  },
+  {
+    "Name": "Origin Workbook File",
+    "Extension": ".ogw"
+  },
+  {
+    "Name": "Origin Unicode Workbook File",
+    "Extension": ".ogwu"
+  },
+  {
+    "Name": "OpenDocument Spreadsheet Template",
+    "Extension": ".ots"
+  },
+  {
+    "Name": "PlanMaker Spreadsheet",
+    "Extension": ".pmd"
+  },
+  {
+    "Name": "PlanMaker Spreadsheet",
+    "Extension": ".pmdx"
+  },
+  {
+    "Name": "PlanMaker Spreadsheet Template",
+    "Extension": ".pmv"
+  },
+  {
+    "Name": "PlanMaker Spreadsheet Template",
+    "Extension": ".pmvx"
+  },
+  {
+    "Name": "Quattro Pro Spreadsheet",
+    "Extension": ".qpw"
+  },
+  {
+    "Name": "Report Definition File",
+    "Extension": ".rdf"
+  },
+  {
+    "Name": "Apache OpenOffice Calc Spreadsheet",
+    "Extension": ".sdc"
+  },
+  {
+    "Name": "StarOffice Calc Spreadsheet Template",
+    "Extension": ".stc"
+  },
+  {
+    "Name": "StarOffice Calc Spreadsheet",
+    "Extension": ".sxc"
+  },
+  {
+    "Name": "TimeMap Visual",
+    "Extension": ".tmv"
+  },
+  {
+    "Name": "TimeMap Template",
+    "Extension": ".tmvt"
+  },
+  {
+    "Name": "Uniform Office Spreadsheet",
+    "Extension": ".uos"
+  },
+  {
+    "Name": "Lotus 2 Worksheet",
+    "Extension": ".wki"
+  },
+  {
+    "Name": "Quattro Pro for DOS Spreadsheet File",
+    "Extension": ".wkq"
+  },
+  {
+    "Name": "Works Spreadsheet",
+    "Extension": ".wks"
+  },
+  {
+    "Name": "Lotus 1-2-3 Spreadsheet",
+    "Extension": ".wks"
+  },
+  {
+    "Name": "Lotus 1-2-3 Spreadsheet",
+    "Extension": ".wku"
+  },
+  {
+    "Name": "Quattro Pro for DOS Spreadsheet File",
+    "Extension": ".wq1"
+  },
+  {
+    "Name": "Quattro Pro for DOS Spreadsheet File",
+    "Extension": ".wq2"
+  },
+  {
+    "Name": "Lotus Symphony Worksheet File",
+    "Extension": ".wr1"
+  },
+  {
+    "Name": "Excel Auto-Recovery File",
+    "Extension": ".xar"
+  },
+  {
+    "Name": "Excel Spreadsheet",
+    "Extension": ".xl"
+  },
+  {
+    "Name": "Works Spreadsheet",
+    "Extension": ".xlr"
+  },
+  {
+    "Name": "Excel Spreadsheet",
+    "Extension": ".xls"
+  },
+  {
+    "Name": "Excel Binary Spreadsheet",
+    "Extension": ".xlsb"
+  },
+  {
+    "Name": "Microsoft Excel HTML Spreadsheet",
+    "Extension": ".xlshtml"
+  },
+  {
+    "Name": "Excel Open XML Macro-Enabled Spreadsheet",
+    "Extension": ".xlsm"
+  },
+  {
+    "Name": "Microsoft Excel MIME HTML Spreadsheet",
+    "Extension": ".xlsmhtml"
+  },
+  {
+    "Name": "Microsoft Excel Open XML Spreadsheet",
+    "Extension": ".xlsx"
+  },
+  {
+    "Name": "Microsoft Excel HTML Spreadsheet Template",
+    "Extension": ".xlthtml"
+  },
+  {
+    "Name": "Excel Open XML Macro-Enabled Spreadsheet Template",
+    "Extension": ".xltm"
+  },
+  {
+    "Name": "Excel Open XML Spreadsheet Template",
+    "Extension": ".xltx"
+  }
+]

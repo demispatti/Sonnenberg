@@ -1,0 +1,250 @@
+[
+  {
+    "Name": "Adobe Content Server Message File",
+    "Extension": ".acsm"
+  },
+  {
+    "Name": "Activ E-Book Project",
+    "Extension": ".aep"
+  },
+  {
+    "Name": "Amazon Page Number Index File",
+    "Extension": ".apnx"
+  },
+  {
+    "Name": "AvaaBook eBook",
+    "Extension": ".ava"
+  },
+  {
+    "Name": "Amazon Kindle eBook File",
+    "Extension": ".azw"
+  },
+  {
+    "Name": "Amazon Topaz eBook",
+    "Extension": ".azw1"
+  },
+  {
+    "Name": "Amazon KF8 eBook File",
+    "Extension": ".azw3"
+  },
+  {
+    "Name": "Amazon Print Replica eBook",
+    "Extension": ".azw4"
+  },
+  {
+    "Name": "BookBuddi eBook File",
+    "Extension": ".bkk"
+  },
+  {
+    "Name": "PNU eBook File",
+    "Extension": ".bpnueb"
+  },
+  {
+    "Name": "Comic Book Collection",
+    "Extension": ".cbc"
+  },
+  {
+    "Name": "Apabi eBook File",
+    "Extension": ".ceb"
+  },
+  {
+    "Name": "Apabi XML eBook File",
+    "Extension": ".cebx"
+  },
+  {
+    "Name": "DNAML eBook File",
+    "Extension": ".dnl"
+  },
+  {
+    "Name": "Kindle End Actions File",
+    "Extension": ".ea"
+  },
+  {
+    "Name": "Kindle End Actions File",
+    "Extension": ".eal"
+  },
+  {
+    "Name": "eBook Pro eBook File",
+    "Extension": ".ebk"
+  },
+  {
+    "Name": "Adobe eBook Activation File",
+    "Extension": ".edn"
+  },
+  {
+    "Name": "Open eBook File",
+    "Extension": ".epub"
+  },
+  {
+    "Name": "Adobe Reader EBX Transfer Data File",
+    "Extension": ".etd"
+  },
+  {
+    "Name": "FictionBook 2.0 File",
+    "Extension": ".fb2"
+  },
+  {
+    "Name": "Flipkart eBook File",
+    "Extension": ".fkb"
+  },
+  {
+    "Name": "Amazon Kindle eBook Data File",
+    "Extension": ".han"
+  },
+  {
+    "Name": "Book Designer File",
+    "Extension": ".html0"
+  },
+  {
+    "Name": "Zipped HTML eBook",
+    "Extension": ".htmlz"
+  },
+  {
+    "Name": "Hanvon eBook File",
+    "Extension": ".htxt"
+  },
+  {
+    "Name": "HyperMaker 4 Publication",
+    "Extension": ".htz4"
+  },
+  {
+    "Name": "HyperMaker 5 Publication",
+    "Extension": ".htz5"
+  },
+  {
+    "Name": "Multi-Touch iBook",
+    "Extension": ".ibooks"
+  },
+  {
+    "Name": "Amazon KF10 eBook File",
+    "Extension": ".kfx"
+  },
+  {
+    "Name": "Koob E-Book File",
+    "Extension": ".koob"
+  },
+  {
+    "Name": "eBook File",
+    "Extension": ".lit"
+  },
+  {
+    "Name": "Sony Portable Reader File",
+    "Extension": ".lrf"
+  },
+  {
+    "Name": "Librie Reader Source File",
+    "Extension": ".lrs"
+  },
+  {
+    "Name": "Sony Portable Reader File",
+    "Extension": ".lrx"
+  },
+  {
+    "Name": "MartView eBook File",
+    "Extension": ".mart"
+  },
+  {
+    "Name": "Mobipocket Notes File",
+    "Extension": ".mbp"
+  },
+  {
+    "Name": "Mobipocket eBook",
+    "Extension": ".mobi"
+  },
+  {
+    "Name": "EPUB Navigation Control XML File",
+    "Extension": ".ncx"
+  },
+  {
+    "Name": "NVA Document",
+    "Extension": ".nva"
+  },
+  {
+    "Name": "Open eBook File",
+    "Extension": ".oeb"
+  },
+  {
+    "Name": "Zipped Open eBook File",
+    "Extension": ".oebzip"
+  },
+  {
+    "Name": "Open Packaging Format File",
+    "Extension": ".opf"
+  },
+  {
+    "Name": "Original eBook Reader File",
+    "Extension": ".orb"
+  },
+  {
+    "Name": "PEF Braille Book File",
+    "Extension": ".pef"
+  },
+  {
+    "Name": "Kindle Popular Highlights File",
+    "Extension": ".phl"
+  },
+  {
+    "Name": "Palm Markup Language File",
+    "Extension": ".pml"
+  },
+  {
+    "Name": "Zipped Palm Markup Language File",
+    "Extension": ".pmlz"
+  },
+  {
+    "Name": "Kindle Touch Periodical File",
+    "Extension": ".pobi"
+  },
+  {
+    "Name": "Mobipocket eBook File",
+    "Extension": ".prc"
+  },
+  {
+    "Name": "YanCEyDesktop Quickmarks File",
+    "Extension": ".qmk"
+  },
+  {
+    "Name": "Red Zion Book File",
+    "Extension": ".rzb"
+  },
+  {
+    "Name": "Red Zion Security File",
+    "Extension": ".rzs"
+  },
+  {
+    "Name": "Shanda Bambook eBook",
+    "Extension": ".snb"
+  },
+  {
+    "Name": "Psion Series 3 eBook File",
+    "Extension": ".tcr"
+  },
+  {
+    "Name": "TK3 Multimedia eBook",
+    "Extension": ".tk3"
+  },
+  {
+    "Name": "Kindle Topaz eBook File",
+    "Extension": ".tpz"
+  },
+  {
+    "Name": "TomeRaider 2 eBook File",
+    "Extension": ".tr"
+  },
+  {
+    "Name": "TomeRaider eBook File",
+    "Extension": ".tr3"
+  },
+  {
+    "Name": "VitalSource eBook",
+    "Extension": ".vbk"
+  },
+  {
+    "Name": "WEBZ Compressed eBook File",
+    "Extension": ".webz"
+  },
+  {
+    "Name": "YanCEyWare eBook",
+    "Extension": ".ybk"
+  }
+]

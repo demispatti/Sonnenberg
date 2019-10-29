@@ -1,0 +1,726 @@
+[
+  {
+    "Name": "Micrografx ABC FlowCharter 6 File",
+    "Extension": ".abc"
+  },
+  {
+    "Name": "ArtCut 5 Document",
+    "Extension": ".ac5"
+  },
+  {
+    "Name": "ArtCut 6 Document",
+    "Extension": ".ac6"
+  },
+  {
+    "Name": "Micrografx ABC FlowCharter 2 File",
+    "Extension": ".af2"
+  },
+  {
+    "Name": "Micrografx ABC FlowCharter 3/4 File",
+    "Extension": ".af3"
+  },
+  {
+    "Name": "Affinity Design Document",
+    "Extension": ".afdesign"
+  },
+  {
+    "Name": "Adobe Illustrator File",
+    "Extension": ".ai"
+  },
+  {
+    "Name": "Art Document",
+    "Extension": ".art"
+  },
+  {
+    "Name": "Artboard Document",
+    "Extension": ".artb"
+  },
+  {
+    "Name": "Asymptote Module",
+    "Extension": ".asy"
+  },
+  {
+    "Name": "Ability Draw Document",
+    "Extension": ".awg"
+  },
+  {
+    "Name": "ClipArt Gallery Package",
+    "Extension": ".cag"
+  },
+  {
+    "Name": "Corel Clipart File",
+    "Extension": ".ccx"
+  },
+  {
+    "Name": "ConceptDraw PRO Document",
+    "Extension": ".cdd"
+  },
+  {
+    "Name": "ConceptDraw PRO Document",
+    "Extension": ".cddz"
+  },
+  {
+    "Name": "ConceptDraw PRO XML Library File",
+    "Extension": ".cdlx"
+  },
+  {
+    "Name": "ConceptDraw MINDMAP Document",
+    "Extension": ".cdmm"
+  },
+  {
+    "Name": "ConceptDraw MINDMAP Template",
+    "Extension": ".cdmt"
+  },
+  {
+    "Name": "Compressed ConceptDraw MINDMAP Template",
+    "Extension": ".cdmtz"
+  },
+  {
+    "Name": "Compressed ConceptDraw MINDMAP Document",
+    "Extension": ".cdmz"
+  },
+  {
+    "Name": "CorelDRAW Image File",
+    "Extension": ".cdr"
+  },
+  {
+    "Name": "CorelDRAW.app Image File",
+    "Extension": ".cdrapp"
+  },
+  {
+    "Name": "ConceptDraw SlideShow",
+    "Extension": ".cds"
+  },
+  {
+    "Name": "ConceptDraw PRO XML SlideShow File",
+    "Extension": ".cdsx"
+  },
+  {
+    "Name": "ConceptDraw PRO Template",
+    "Extension": ".cdt"
+  },
+  {
+    "Name": "ConceptDraw PRO XML Template",
+    "Extension": ".cdtx"
+  },
+  {
+    "Name": "CorelDRAW Compressed File",
+    "Extension": ".cdx"
+  },
+  {
+    "Name": "ConceptDraw PRO XML Document",
+    "Extension": ".cdx"
+  },
+  {
+    "Name": "Computer Graphics Metafile",
+    "Extension": ".cgm"
+  },
+  {
+    "Name": "Clip Gallery Packaged File",
+    "Extension": ".cil"
+  },
+  {
+    "Name": "Clarify Document",
+    "Extension": ".clarify"
+  },
+  {
+    "Name": "Corel Metafile Exchange Image File",
+    "Extension": ".cmx"
+  },
+  {
+    "Name": "Canvas 6-8 Drawing File",
+    "Extension": ".cnv"
+  },
+  {
+    "Name": "CorelDRAW Drawing",
+    "Extension": ".cor"
+  },
+  {
+    "Name": "Canvas Symbol File",
+    "Extension": ".csy"
+  },
+  {
+    "Name": "Canvas 5 Drawing File",
+    "Extension": ".cv5"
+  },
+  {
+    "Name": "Calamus Vector Graphic File",
+    "Extension": ".cvg"
+  },
+  {
+    "Name": "Canvas Image File",
+    "Extension": ".cvi"
+  },
+  {
+    "Name": "Canvas 3 Drawing File",
+    "Extension": ".cvs"
+  },
+  {
+    "Name": "Canvas Drawing File",
+    "Extension": ".cvx"
+  },
+  {
+    "Name": "ClarisWorks Texture File",
+    "Extension": ".cwt"
+  },
+  {
+    "Name": "Coordinates Export Format",
+    "Extension": ".cxf"
+  },
+  {
+    "Name": "Desktop Color Separation File",
+    "Extension": ".dcs"
+  },
+  {
+    "Name": "ClarisDraw Drawing",
+    "Extension": ".ddrw"
+  },
+  {
+    "Name": "Dr. Engrave Document",
+    "Extension": ".ded"
+  },
+  {
+    "Name": "Microsoft Expression Design Drawing",
+    "Extension": ".design"
+  },
+  {
+    "Name": "HyperSnap Drawing",
+    "Extension": ".dhs"
+  },
+  {
+    "Name": "Dia Diagram File",
+    "Extension": ".dia"
+  },
+  {
+    "Name": "DrawPlus Drawing File",
+    "Extension": ".dpp"
+  },
+  {
+    "Name": "Digital InterPlot File",
+    "Extension": ".dpr"
+  },
+  {
+    "Name": "DrawPlus Template",
+    "Extension": ".dpx"
+  },
+  {
+    "Name": "Artboard Drawing",
+    "Extension": ".drawing"
+  },
+  {
+    "Name": "DrawIt Drawing",
+    "Extension": ".drawit"
+  },
+  {
+    "Name": "Drawing File",
+    "Extension": ".drw"
+  },
+  {
+    "Name": "DESIGNER Drawing",
+    "Extension": ".drw"
+  },
+  {
+    "Name": "Designer File",
+    "Extension": ".dsf"
+  },
+  {
+    "Name": "Stitch Era Design File",
+    "Extension": ".dsg"
+  },
+  {
+    "Name": "Drawing Exchange Binary",
+    "Extension": ".dxb"
+  },
+  {
+    "Name": "EximiousSoft GIF Creator Document",
+    "Extension": ".egc"
+  },
+  {
+    "Name": "Enhanced Windows Metafile",
+    "Extension": ".emf"
+  },
+  {
+    "Name": "Windows Compressed Enhanced Metafile",
+    "Extension": ".emz"
+  },
+  {
+    "Name": "Pencil Document",
+    "Extension": ".ep"
+  },
+  {
+    "Name": "Encapsulated PostScript File",
+    "Extension": ".eps"
+  },
+  {
+    "Name": "Encapsulated PostScript Format File",
+    "Extension": ".epsf"
+  },
+  {
+    "Name": "EasySignCut Pro Project",
+    "Extension": ".esc"
+  },
+  {
+    "Name": "EazyDraw Graphic",
+    "Extension": ".ezdraw"
+  },
+  {
+    "Name": "FreeHand 10 Drawing File",
+    "Extension": ".fh10"
+  },
+  {
+    "Name": "FreeHand 11 Drawing File",
+    "Extension": ".fh11"
+  },
+  {
+    "Name": "FreeHand 3 Drawing File",
+    "Extension": ".fh3"
+  },
+  {
+    "Name": "FreeHand 4 Drawing File",
+    "Extension": ".fh4"
+  },
+  {
+    "Name": "FreeHand 5 Drawing File",
+    "Extension": ".fh5"
+  },
+  {
+    "Name": "FreeHand 6 Drawing File",
+    "Extension": ".fh6"
+  },
+  {
+    "Name": "FreeHand 7 Drawing File",
+    "Extension": ".fh7"
+  },
+  {
+    "Name": "FreeHand 8 Drawing File",
+    "Extension": ".fh8"
+  },
+  {
+    "Name": "FreeHand 9 Drawing File",
+    "Extension": ".fh9"
+  },
+  {
+    "Name": "FreeHand Drawing File",
+    "Extension": ".fhd"
+  },
+  {
+    "Name": "Fractal Image File",
+    "Extension": ".fif"
+  },
+  {
+    "Name": "Xfig Drawing",
+    "Extension": ".fig"
+  },
+  {
+    "Name": "Frame Vector Metafile",
+    "Extension": ".fmv"
+  },
+  {
+    "Name": "FlexiSIGN Document",
+    "Extension": ".fs"
+  },
+  {
+    "Name": "FreeHand 10 Drawing Template",
+    "Extension": ".ft10"
+  },
+  {
+    "Name": "FreeHand 11 Drawing Template",
+    "Extension": ".ft11"
+  },
+  {
+    "Name": "FreeHand 7 Drawing Template",
+    "Extension": ".ft7"
+  },
+  {
+    "Name": "FreeHand 8 Template",
+    "Extension": ".ft8"
+  },
+  {
+    "Name": "FreeHand 9 Drawing Template",
+    "Extension": ".ft9"
+  },
+  {
+    "Name": "Flowton Diagram File",
+    "Extension": ".ftn"
+  },
+  {
+    "Name": "Flash XML Graphics File",
+    "Extension": ".fxg"
+  },
+  {
+    "Name": "Google Drive Drawing",
+    "Extension": ".gdraw"
+  },
+  {
+    "Name": "GEM Metafile",
+    "Extension": ".gem"
+  },
+  {
+    "Name": "Graphics Kernel System File",
+    "Extension": ".gks"
+  },
+  {
+    "Name": "Microsoft Office SmartArt Graphics Layout File",
+    "Extension": ".glox"
+  },
+  {
+    "Name": "Sothink SWF Easy Shape File",
+    "Extension": ".gls"
+  },
+  {
+    "Name": "OmniGraffle Drawing",
+    "Extension": ".graffle"
+  },
+  {
+    "Name": "Graphtec Vector Graphics File",
+    "Extension": ".gsd"
+  },
+  {
+    "Name": "OmniGraffle Stencil",
+    "Extension": ".gstencil"
+  },
+  {
+    "Name": "OmniGraffle Template",
+    "Extension": ".gtemplate"
+  },
+  {
+    "Name": "Gravit Designer File",
+    "Extension": ".gvdesign"
+  },
+  {
+    "Name": "HP Graphics Language File",
+    "Extension": ".hgl"
+  },
+  {
+    "Name": "HPGL Plot File",
+    "Extension": ".hpg"
+  },
+  {
+    "Name": "HP Graphics Language Plotter File",
+    "Extension": ".hpgl"
+  },
+  {
+    "Name": "HP-GL Plotter File",
+    "Extension": ".hpl"
+  },
+  {
+    "Name": "Haiku Vector Icon File",
+    "Extension": ".hvif"
+  },
+  {
+    "Name": "Adobe Ideas Document",
+    "Extension": ".idea"
+  },
+  {
+    "Name": "iGrafx Document Template",
+    "Extension": ".igt"
+  },
+  {
+    "Name": "iGrafx Document",
+    "Extension": ".igx"
+  },
+  {
+    "Name": "Microsoft VisioModeler File",
+    "Extension": ".imd"
+  },
+  {
+    "Name": "InkML Image",
+    "Extension": ".ink"
+  },
+  {
+    "Name": "Pocket PC Handwritten Note",
+    "Extension": ".ink"
+  },
+  {
+    "Name": "Corel PaintShop Pro Shape Library",
+    "Extension": ".jsl"
+  },
+  {
+    "Name": "Sothink Logo Maker Image",
+    "Extension": ".lmk"
+  },
+  {
+    "Name": "Microsoft Clip Organizer Media Catalog",
+    "Extension": ".mgc"
+  },
+  {
+    "Name": "Equation Illustrator Project File",
+    "Extension": ".mgcb"
+  },
+  {
+    "Name": "MindGenius Map File",
+    "Extension": ".mgmf"
+  },
+  {
+    "Name": "MindGenius 2-3 Template",
+    "Extension": ".mgmt"
+  },
+  {
+    "Name": "MindGenius XML Map File",
+    "Extension": ".mgmx"
+  },
+  {
+    "Name": "MGCSoft Vector Shapes File",
+    "Extension": ".mgs"
+  },
+  {
+    "Name": "MindGenius XML Template File",
+    "Extension": ".mgtx"
+  },
+  {
+    "Name": "MindManager Map Template",
+    "Extension": ".mmat"
+  },
+  {
+    "Name": "LaTeX MetaPost File",
+    "Extension": ".mp"
+  },
+  {
+    "Name": "Magick Vector Graphics File",
+    "Extension": ".mvg"
+  },
+  {
+    "Name": "NAP Metafile",
+    "Extension": ".nap"
+  },
+  {
+    "Name": "OpenDocument Graphic File",
+    "Extension": ".odg"
+  },
+  {
+    "Name": "OpenDocument Graphic Template",
+    "Extension": ".otg"
+  },
+  {
+    "Name": "The Overlay Maker Package File",
+    "Extension": ".ovp"
+  },
+  {
+    "Name": "The Overlay Maker Overlay File",
+    "Extension": ".ovr"
+  },
+  {
+    "Name": "CorelDRAW Pattern File",
+    "Extension": ".pat"
+  },
+  {
+    "Name": "Microsoft Office ClipArt File",
+    "Extension": ".pcs"
+  },
+  {
+    "Name": "FlexiSIGN 5 Plotter Document",
+    "Extension": ".pd"
+  },
+  {
+    "Name": "Logitech io2 Drawing",
+    "Extension": ".pen"
+  },
+  {
+    "Name": "Micrografx Optima! File",
+    "Extension": ".pfd"
+  },
+  {
+    "Name": "PhotoFiltre Studio Vectorial Path",
+    "Extension": ".pfv"
+  },
+  {
+    "Name": "Unix Color Plot File",
+    "Extension": ".pl"
+  },
+  {
+    "Name": "AutoCAD Plotter Document",
+    "Extension": ".plt"
+  },
+  {
+    "Name": "HPGL Plot File",
+    "Extension": ".plt"
+  },
+  {
+    "Name": "PageMaker Group File",
+    "Extension": ".pmg"
+  },
+  {
+    "Name": "Photo Pos Pro Vector Object File",
+    "Extension": ".pobj"
+  },
+  {
+    "Name": "PostScript File",
+    "Extension": ".ps"
+  },
+  {
+    "Name": "PostScript Image Data File",
+    "Extension": ".psid"
+  },
+  {
+    "Name": "Print Workshop Image",
+    "Extension": ".pws"
+  },
+  {
+    "Name": "Quilt Manager Pattern File",
+    "Extension": ".qcc"
+  },
+  {
+    "Name": "MicroStation Redline File",
+    "Extension": ".rdl"
+  },
+  {
+    "Name": "ScanVec CASmate Sign File",
+    "Extension": ".scv"
+  },
+  {
+    "Name": "StarOffice Drawing",
+    "Extension": ".sda"
+  },
+  {
+    "Name": "sK1 Vector Graphic File",
+    "Extension": ".sk1"
+  },
+  {
+    "Name": "ChemSketch Drawing",
+    "Extension": ".sk2"
+  },
+  {
+    "Name": "Sketch Drawing",
+    "Extension": ".sketch"
+  },
+  {
+    "Name": "Sketchpad Drawing File",
+    "Extension": ".sketchpad"
+  },
+  {
+    "Name": "SolidWorks Sheet File",
+    "Extension": ".slddrt"
+  },
+  {
+    "Name": "Serif Metafile",
+    "Extension": ".smf"
+  },
+  {
+    "Name": "Snagit Stamp Archive",
+    "Extension": ".snagitstamps"
+  },
+  {
+    "Name": "Snagit Style Archive",
+    "Extension": ".snagstyles"
+  },
+  {
+    "Name": "SmartSketch 95 Document",
+    "Extension": ".ssk"
+  },
+  {
+    "Name": "Apache OpenOffice Drawing Template",
+    "Extension": ".std"
+  },
+  {
+    "Name": "Genuine Fractals Image",
+    "Extension": ".stn"
+  },
+  {
+    "Name": "Simple Vector Format Graphic",
+    "Extension": ".svf"
+  },
+  {
+    "Name": "Scalable Vector Graphics File",
+    "Extension": ".svg"
+  },
+  {
+    "Name": "Compressed SVG File",
+    "Extension": ".svgz"
+  },
+  {
+    "Name": "StarOffice Drawing",
+    "Extension": ".sxd"
+  },
+  {
+    "Name": "The Logo Creator File",
+    "Extension": ".tlc"
+  },
+  {
+    "Name": "Manga Studio Tone File",
+    "Extension": ".tne"
+  },
+  {
+    "Name": "Canvas Template",
+    "Extension": ".tpl"
+  },
+  {
+    "Name": "Ultra Fractal File",
+    "Extension": ".ufr"
+  },
+  {
+    "Name": "GIMP Parametric Brush File",
+    "Extension": ".vbr"
+  },
+  {
+    "Name": "CX-Designer Shape File",
+    "Extension": ".vec"
+  },
+  {
+    "Name": "Vector Markup Language File",
+    "Extension": ".vml"
+  },
+  {
+    "Name": "Visio Drawing File",
+    "Extension": ".vsd"
+  },
+  {
+    "Name": "Visio Macro-Enabled Drawing",
+    "Extension": ".vsdm"
+  },
+  {
+    "Name": "Visio Drawing",
+    "Extension": ".vsdx"
+  },
+  {
+    "Name": "Visio Drawing Template",
+    "Extension": ".vst"
+  },
+  {
+    "Name": "Visio Macro-Enabled Drawing Template",
+    "Extension": ".vstm"
+  },
+  {
+    "Name": "Visio Drawing Template",
+    "Extension": ".vstx"
+  },
+  {
+    "Name": "Windows Metafile",
+    "Extension": ".wmf"
+  },
+  {
+    "Name": "Compressed Windows Metafile",
+    "Extension": ".wmz"
+  },
+  {
+    "Name": "WordPerfect Graphic File",
+    "Extension": ".wpg"
+  },
+  {
+    "Name": "Inkling Sketch Binary File",
+    "Extension": ".wpi"
+  },
+  {
+    "Name": "Xara Xtreme Drawing",
+    "Extension": ".xar"
+  },
+  {
+    "Name": "MindManager XML Map File",
+    "Extension": ".xmmap"
+  },
+  {
+    "Name": "Microsoft Expression Design Graphic",
+    "Extension": ".xpr"
+  },
+  {
+    "Name": "Arts & Letters Clipart Library",
+    "Extension": ".yal"
+  },
+  {
+    "Name": "YouiDraw Drawing Project",
+    "Extension": ".ydr"
+  },
+  {
+    "Name": "Zenographics Image File",
+    "Extension": ".zgm"
+  }
+]

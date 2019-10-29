@@ -1,0 +1,754 @@
+[
+  {
+    "Name": "ACID Encrypted File",
+    "Extension": ".acid"
+  },
+  {
+    "Name": "Dharma Ransomware Encrypted File",
+    "Extension": ".adobe"
+  },
+  {
+    "Name": "Advanced Encryption Package Encrypted File",
+    "Extension": ".aep"
+  },
+  {
+    "Name": "AES Crypt Encrypted File",
+    "Extension": ".aes"
+  },
+  {
+    "Name": "FileProtector Encrypted File",
+    "Extension": ".afp"
+  },
+  {
+    "Name": "PGP ASCII Armored File",
+    "Extension": ".asc"
+  },
+  {
+    "Name": "LetEncrypt Encrypted File",
+    "Extension": ".atsofts"
+  },
+  {
+    "Name": "Aurora Ransomware Encrypted File",
+    "Extension": ".aurora"
+  },
+  {
+    "Name": "AxCrypt Encrypted File",
+    "Extension": ".axx"
+  },
+  {
+    "Name": "AirZip FileSECURE File",
+    "Extension": ".azf"
+  },
+  {
+    "Name": "AirZip FileSECURE File",
+    "Extension": ".azs"
+  },
+  {
+    "Name": "Btoa Encoded File",
+    "Extension": ".b2a"
+  },
+  {
+    "Name": "Ransomware Encrypted File",
+    "Extension": ".bc5b"
+  },
+  {
+    "Name": "Blowfish Encrypted File",
+    "Extension": ".bfa"
+  },
+  {
+    "Name": "BinHex Encoded File",
+    "Extension": ".bhx"
+  },
+  {
+    "Name": "Macbinary Encoded File",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "Dharma Ransomware Encrypted File",
+    "Extension": ".bip"
+  },
+  {
+    "Name": "FinalCrypt Encrypted Data File",
+    "Extension": ".bit"
+  },
+  {
+    "Name": "Blower Ransomware Encrypted File",
+    "Extension": ".blower"
+  },
+  {
+    "Name": "Nero SecurDisc Public Key File",
+    "Extension": ".bpk"
+  },
+  {
+    "Name": "Bitser Password File",
+    "Extension": ".bpw"
+  },
+  {
+    "Name": "Nero SecurDisc Private Key File",
+    "Extension": ".bsk"
+  },
+  {
+    "Name": "Binary-to-ASCII Encoded File",
+    "Extension": ".btoa"
+  },
+  {
+    "Name": "Bitdefender Vault File",
+    "Extension": ".bvd"
+  },
+  {
+    "Name": "Carote Ransomware Encrypted File",
+    "Extension": ".carote"
+  },
+  {
+    "Name": "CryptLoad Container File",
+    "Extension": ".ccf"
+  },
+  {
+    "Name": "Encrypted DigiDoc File",
+    "Extension": ".cdoc"
+  },
+  {
+    "Name": "CenturionMail Encrypted Package",
+    "Extension": ".cef"
+  },
+  {
+    "Name": "Cerber Ransomware Encrypted File",
+    "Extension": ".cerber"
+  },
+  {
+    "Name": "Cerber2 Ransomware Encrypted File",
+    "Extension": ".cerber2"
+  },
+  {
+    "Name": "PixelCryptor Encrypted File",
+    "Extension": ".cgp"
+  },
+  {
+    "Name": "Chameleon Encrypted Database File",
+    "Extension": ".chml"
+  },
+  {
+    "Name": "Ceelox SecureMail Secure Message",
+    "Extension": ".clx"
+  },
+  {
+    "Name": "CryptoNG Encrypted Archive",
+    "Extension": ".cng"
+  },
+  {
+    "Name": "Unix CPIO Archive",
+    "Extension": ".cpio"
+  },
+  {
+    "Name": "Ccrypt Encrypted Archive",
+    "Extension": ".cpt"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".crypt"
+  },
+  {
+    "Name": "CryptXXX Ransomware Encrypted File",
+    "Extension": ".crypt"
+  },
+  {
+    "Name": "WinOptimizer Encrypted File",
+    "Extension": ".crypted"
+  },
+  {
+    "Name": "Cryptra Encrypted File",
+    "Extension": ".cryptra"
+  },
+  {
+    "Name": "ViaThinkSoft (De)Coder 4 File",
+    "Extension": ".dc4"
+  },
+  {
+    "Name": "DisCryptor Encrypted Database",
+    "Extension": ".dcd"
+  },
+  {
+    "Name": "Safetica Free Encrypted Archive",
+    "Extension": ".dcf"
+  },
+  {
+    "Name": "Safetica Free Encrypted Virtual Disk Archive",
+    "Extension": ".dco"
+  },
+  {
+    "Name": "DigiDoc Signature File",
+    "Extension": ".ddoc"
+  },
+  {
+    "Name": "DIME File",
+    "Extension": ".dim"
+  },
+  {
+    "Name": "Direct Internet Message Encapsulation File",
+    "Extension": ".dime"
+  },
+  {
+    "Name": "Download Link Container File",
+    "Extension": ".dlc"
+  },
+  {
+    "Name": "LG Encrypted Gallery File",
+    "Extension": ".dm"
+  },
+  {
+    "Name": "Encrypt4all Archive",
+    "Extension": ".e4a"
+  },
+  {
+    "Name": "Encrypted Cryptee Document",
+    "Extension": ".ecd"
+  },
+  {
+    "Name": "Electronically Certified Document",
+    "Extension": ".edoc"
+  },
+  {
+    "Name": "Encryptafile Encrypted File",
+    "Extension": ".efl"
+  },
+  {
+    "Name": "Encryptafile Private Key File",
+    "Extension": ".efr"
+  },
+  {
+    "Name": "Encryptafile Public Key File",
+    "Extension": ".efu"
+  },
+  {
+    "Name": "Striata Reader Encrypted Document",
+    "Extension": ".emc"
+  },
+  {
+    "Name": "Encoded File",
+    "Extension": ".enc"
+  },
+  {
+    "Name": "Max PC Safe Encrypted File",
+    "Extension": ".enx"
+  },
+  {
+    "Name": "eDataSecurity Management Encrypted File",
+    "Extension": ".enx"
+  },
+  {
+    "Name": "Password Manager Container File",
+    "Extension": ".esf"
+  },
+  {
+    "Name": "ES File Explorer File Manager Encrypted File",
+    "Extension": ".eslock"
+  },
+  {
+    "Name": "eDataSecurity Management Self-extracting File",
+    "Extension": ".exc"
+  },
+  {
+    "Name": "COW App Extractor File",
+    "Extension": ".extr"
+  },
+  {
+    "Name": "Filebolt Encrypted File",
+    "Extension": ".filebolt"
+  },
+  {
+    "Name": "Filmkey Player Media File",
+    "Extension": ".film"
+  },
+  {
+    "Name": "FileProtect Encrypted File",
+    "Extension": ".fpenc"
+  },
+  {
+    "Name": "Splitty Master Split File",
+    "Extension": ".fsm"
+  },
+  {
+    "Name": "GandCrab Ransomware Encrypted File",
+    "Extension": ".gdcb"
+  },
+  {
+    "Name": "Glarysoft Encrypted File",
+    "Extension": ".gfe"
+  },
+  {
+    "Name": "Galaxkey Secured File",
+    "Extension": ".gxk"
+  },
+  {
+    "Name": "Bitdefender Antivirus Quarantine File",
+    "Extension": ".gzquar"
+  },
+  {
+    "Name": "BinHex Encoded File",
+    "Extension": ".hbx"
+  },
+  {
+    "Name": "BinHex Encoded File",
+    "Extension": ".hex"
+  },
+  {
+    "Name": "KeepSafe File",
+    "Extension": ".hid"
+  },
+  {
+    "Name": "KeepSafe File",
+    "Extension": ".hid2"
+  },
+  {
+    "Name": "BinHex 4.0 Encoded File",
+    "Extension": ".hqx"
+  },
+  {
+    "Name": "Apache HTACCESS File",
+    "Extension": ".htpasswd"
+  },
+  {
+    "Name": "Tresor IDEA Encrypted File",
+    "Extension": ".idea"
+  },
+  {
+    "Name": "iWork Archive File",
+    "Extension": ".iwa"
+  },
+  {
+    "Name": "JaStaCry Encrypted File",
+    "Extension": ".jac"
+  },
+  {
+    "Name": "JCEKS Keystore File",
+    "Extension": ".jceks"
+  },
+  {
+    "Name": "JCRYPT File",
+    "Extension": ".jcrypt"
+  },
+  {
+    "Name": "Java Keystore File",
+    "Extension": ".jks"
+  },
+  {
+    "Name": "JM-Crypt Encrypted File",
+    "Extension": ".jmc"
+  },
+  {
+    "Name": "JM-Crypt Encrypted File",
+    "Extension": ".jmce"
+  },
+  {
+    "Name": "JM-Crypt Key File",
+    "Extension": ".jmck"
+  },
+  {
+    "Name": "JM-Crypt Encrypted File",
+    "Extension": ".jmcp"
+  },
+  {
+    "Name": "JM-Crypt Encrypted File",
+    "Extension": ".jmcr"
+  },
+  {
+    "Name": "JM-Crypt Encrypted File",
+    "Extension": ".jmcx"
+  },
+  {
+    "Name": "KryptoStorage Container File",
+    "Extension": ".kde"
+  },
+  {
+    "Name": "Java Keystore File",
+    "Extension": ".keystore"
+  },
+  {
+    "Name": "KKK Ransomware Encrypted File",
+    "Extension": ".kkk"
+  },
+  {
+    "Name": "Kaspersky Quarantine File",
+    "Extension": ".klq"
+  },
+  {
+    "Name": "KodeFile Encrypted File",
+    "Extension": ".kode"
+  },
+  {
+    "Name": "GandCrab V4 Ransomware Encrypted File",
+    "Extension": ".krab"
+  },
+  {
+    "Name": "Keystore File",
+    "Extension": ".ks"
+  },
+  {
+    "Name": "KeepSafe File",
+    "Extension": ".ksd"
+  },
+  {
+    "Name": "Keyman Developer Encrypted Keyboard File",
+    "Extension": ".kxx"
+  },
+  {
+    "Name": "Minecraft User Credential File",
+    "Extension": ".lastlogin"
+  },
+  {
+    "Name": "License File",
+    "Extension": ".lcn"
+  },
+  {
+    "Name": "Lilocked Ransomware Encrypted File",
+    "Extension": ".lilocked"
+  },
+  {
+    "Name": "Litar Virus Encrypted File",
+    "Extension": ".litar"
+  },
+  {
+    "Name": "Ransomware Encrypted File",
+    "Extension": ".locked"
+  },
+  {
+    "Name": "Locky Ransomware Encrypted File",
+    "Extension": ".locky"
+  },
+  {
+    "Name": "Lvivtotoro Encrypted Game File",
+    "Extension": ".lvivt"
+  },
+  {
+    "Name": "MobyExplorer Encrypted File",
+    "Extension": ".mcrp"
+  },
+  {
+    "Name": "MEO Encrypted Archive",
+    "Extension": ".meo"
+  },
+  {
+    "Name": "MetFS Encrypted File System",
+    "Extension": ".mfs"
+  },
+  {
+    "Name": "Multi-Purpose Internet Mail Message File",
+    "Extension": ".mim"
+  },
+  {
+    "Name": "Multi-Purpose Internet Mail Extension",
+    "Extension": ".mime"
+  },
+  {
+    "Name": "Adobe Acrobat MIME Encoded Job Definition File",
+    "Extension": ".mjd"
+  },
+  {
+    "Name": "Multi-Purpose Internet Mail",
+    "Extension": ".mme"
+  },
+  {
+    "Name": "AutoCAD Compiled Menu File",
+    "Extension": ".mnc"
+  },
+  {
+    "Name": "3ds Max Encrypted MAXScript File",
+    "Extension": ".mse"
+  },
+  {
+    "Name": "mcrypt Encrypted File",
+    "Extension": ".nc"
+  },
+  {
+    "Name": "Nextlabs Encrypted Data File",
+    "Extension": ".nxl"
+  },
+  {
+    "Name": "Locky Ransomware Encrypted File",
+    "Extension": ".odin"
+  },
+  {
+    "Name": "Pack200 Packed Jar File",
+    "Extension": ".pack"
+  },
+  {
+    "Name": "Lizard Safeguard Secure PDF File",
+    "Extension": ".pdc"
+  },
+  {
+    "Name": "Orient Computer Encrypted Data File",
+    "Extension": ".pdex"
+  },
+  {
+    "Name": "Rights Management Protected File",
+    "Extension": ".pfile"
+  },
+  {
+    "Name": "Private Folder",
+    "Extension": ".pfo"
+  },
+  {
+    "Name": "PowerKey Encrypted File",
+    "Extension": ".pkey"
+  },
+  {
+    "Name": "Photo Locker Picture",
+    "Extension": ".plp"
+  },
+  {
+    "Name": "Rights Management Protected File",
+    "Extension": ".ppdf"
+  },
+  {
+    "Name": "Password Depot 6 File",
+    "Extension": ".psw6"
+  },
+  {
+    "Name": "Password Vault Archive",
+    "Extension": ".pwv"
+  },
+  {
+    "Name": "Pendix Firmware File",
+    "Extension": ".pxf"
+  },
+  {
+    "Name": "Keyman Developer Encrypted Customization File",
+    "Extension": ".pxx"
+  },
+  {
+    "Name": "Scarab Ransomware Encrypted File",
+    "Extension": ".rap"
+  },
+  {
+    "Name": "Rohos Disk Image File",
+    "Extension": ".rdi"
+  },
+  {
+    "Name": "RapidShare Download File",
+    "Extension": ".rsdf"
+  },
+  {
+    "Name": "Red Zion Key File",
+    "Extension": ".rzk"
+  },
+  {
+    "Name": "File Crypt Encrypted File",
+    "Extension": ".rzx"
+  },
+  {
+    "Name": "SIGLock Encrypted File",
+    "Extension": ".safe"
+  },
+  {
+    "Name": "Scrambls Encrypted File",
+    "Extension": ".scb"
+  },
+  {
+    "Name": "Euro Truck Simulator 2 Product Key File",
+    "Extension": ".scb"
+  },
+  {
+    "Name": "Signed Document",
+    "Extension": ".sdo"
+  },
+  {
+    "Name": "Sealed Word Document",
+    "Extension": ".sdoc"
+  },
+  {
+    "Name": "SecurID Soft Token File",
+    "Extension": ".sdtid"
+  },
+  {
+    "Name": "Safe Exam Browser Configuration File",
+    "Extension": ".seb"
+  },
+  {
+    "Name": "Encryptafile Signature File",
+    "Extension": ".sef"
+  },
+  {
+    "Name": "Password Manager Container File",
+    "Extension": ".sef"
+  },
+  {
+    "Name": "SafeFolder Encrypted File",
+    "Extension": ".sfi"
+  },
+  {
+    "Name": "SigzaLock Encrypted File",
+    "Extension": ".sgz"
+  },
+  {
+    "Name": "ShyFile Encrypted File",
+    "Extension": ".shy"
+  },
+  {
+    "Name": "Sia Metadata File",
+    "Extension": ".sia"
+  },
+  {
+    "Name": "e-Filing Digital Signature File",
+    "Extension": ".signature"
+  },
+  {
+    "Name": "Sealed JPG File",
+    "Extension": ".sjpg"
+  },
+  {
+    "Name": "SmartEncryptor Encrypted File",
+    "Extension": ".sme"
+  },
+  {
+    "Name": "Strong Name Key File",
+    "Extension": ".snk"
+  },
+  {
+    "Name": "Sealed Acrobat Document",
+    "Extension": ".spd"
+  },
+  {
+    "Name": "Sealed PDF File",
+    "Extension": ".spdf"
+  },
+  {
+    "Name": "Samsung Smart TV Recording File",
+    "Extension": ".srf"
+  },
+  {
+    "Name": "Sealed Text File",
+    "Extension": ".stxt"
+  },
+  {
+    "Name": "Ccrypt Encrypted File",
+    "Extension": ".suf"
+  },
+  {
+    "Name": "Switch Package",
+    "Extension": ".switch"
+  },
+  {
+    "Name": "Sealed Excel Spreadsheet",
+    "Extension": ".sxls"
+  },
+  {
+    "Name": "Sealed XML File",
+    "Extension": ".sxml"
+  },
+  {
+    "Name": "Android System File",
+    "Extension": ".tar.md5"
+  },
+  {
+    "Name": "Protector Suite QL Encrypted Archive",
+    "Extension": ".uea"
+  },
+  {
+    "Name": "Upfiring File",
+    "Extension": ".ufr"
+  },
+  {
+    "Name": "Uuencoded File",
+    "Extension": ".uu"
+  },
+  {
+    "Name": "UUDecoded File",
+    "Extension": ".uud"
+  },
+  {
+    "Name": "Uuencoded File",
+    "Extension": ".uue"
+  },
+  {
+    "Name": "Vaulty Vault File",
+    "Extension": ".vdata"
+  },
+  {
+    "Name": "Viivo Encrypted File",
+    "Extension": ".viivo"
+  },
+  {
+    "Name": "WinVault File Archive",
+    "Extension": ".vlt"
+  },
+  {
+    "Name": "Verilog Encrypted Source Code File",
+    "Extension": ".vp"
+  },
+  {
+    "Name": "Wallet Ransomware",
+    "Extension": ".wallet"
+  },
+  {
+    "Name": "WannaCry Virus Encrypted File",
+    "Extension": ".wcry"
+  },
+  {
+    "Name": "R-Link Update File",
+    "Extension": ".wls"
+  },
+  {
+    "Name": "Jaff Ransomware Encrypted File",
+    "Extension": ".wlu"
+  },
+  {
+    "Name": "Wana Decrypt0r 2.0 Encrypted File",
+    "Extension": ".wncry"
+  },
+  {
+    "Name": "WannaCry Virus Encrypted File",
+    "Extension": ".wnry"
+  },
+  {
+    "Name": "Wolf RPG Editor Game Data Archive",
+    "Extension": ".wolf"
+  },
+  {
+    "Name": "WordPerfect Entrust Document",
+    "Extension": ".wpe"
+  },
+  {
+    "Name": "Panwrypter Depleted Storage Volume File",
+    "Extension": ".wrypt"
+  },
+  {
+    "Name": "ExamSoft Answer File",
+    "Extension": ".xmdx"
+  },
+  {
+    "Name": "XTBL Ransomware Encrypted File",
+    "Extension": ".xtbl"
+  },
+  {
+    "Name": "XXEncoded File",
+    "Extension": ".xxe"
+  },
+  {
+    "Name": "Extractor Ransomware Encrypted File",
+    "Extension": ".xxx"
+  },
+  {
+    "Name": "yEnc File",
+    "Extension": ".yenc"
+  },
+  {
+    "Name": "Locky Ransomware Encrypted File",
+    "Extension": ".ykcol"
+  },
+  {
+    "Name": "yEnc Encoded File",
+    "Extension": ".ync"
+  },
+  {
+    "Name": "Zepto Virus File",
+    "Extension": ".zepto"
+  },
+  {
+    "Name": "Zebra Portable Safe File",
+    "Extension": ".zps"
+  },
+  {
+    "Name": "Ransomware Encrypted File",
+    "Extension": ".zzzzz"
+  }
+]

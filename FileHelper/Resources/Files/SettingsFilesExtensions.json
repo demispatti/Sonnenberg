@@ -1,0 +1,2002 @@
+[
+  {
+    "Name": "3D Lookup Table File",
+    "Extension": ".3dl"
+  },
+  {
+    "Name": "TS-AudioToMIDI Settings File",
+    "Extension": ".a2m"
+  },
+  {
+    "Name": "Aston 2 Theme File",
+    "Extension": ".a2theme"
+  },
+  {
+    "Name": "Authorware 7 Project",
+    "Extension": ".a7p"
+  },
+  {
+    "Name": "TurboZIP Auto Compress Script",
+    "Extension": ".abs"
+  },
+  {
+    "Name": "Adobe Photoshop Color Book File",
+    "Extension": ".acb"
+  },
+  {
+    "Name": "AutoCAD Color Book File",
+    "Extension": ".acb"
+  },
+  {
+    "Name": "Adobe Photoshop Color Swatch File",
+    "Extension": ".aco"
+  },
+  {
+    "Name": "Adobe Acrobat Security Settings File",
+    "Extension": ".acrobatsecuritysettings"
+  },
+  {
+    "Name": "Adobe Color Table File",
+    "Extension": ".act"
+  },
+  {
+    "Name": "Photoshop Curves File",
+    "Extension": ".acv"
+  },
+  {
+    "Name": "Windows Accessibility Wizard File",
+    "Extension": ".acw"
+  },
+  {
+    "Name": "Adobe Device Profile Package",
+    "Extension": ".adpp"
+  },
+  {
+    "Name": "eMule Metadata File",
+    "Extension": ".ahl"
+  },
+  {
+    "Name": "Adobe Halftone Screen File",
+    "Extension": ".ahs"
+  },
+  {
+    "Name": "Adobe Photoshop HSL File",
+    "Extension": ".ahu"
+  },
+  {
+    "Name": "Adobe Illustrator Action File",
+    "Extension": ".aia"
+  },
+  {
+    "Name": "Advanced Installer Project",
+    "Extension": ".aip"
+  },
+  {
+    "Name": "Adobe Illustrator Template",
+    "Extension": ".ait"
+  },
+  {
+    "Name": "Advanced Installer Updates Configuration File",
+    "Extension": ".aiu"
+  },
+  {
+    "Name": "Java RMI Policy File",
+    "Extension": ".all"
+  },
+  {
+    "Name": "Adobe Photoshop Levels File",
+    "Extension": ".alv"
+  },
+  {
+    "Name": "BlackBerry Application Loader XML File",
+    "Extension": ".alx"
+  },
+  {
+    "Name": "Adobe Monitor Setup File",
+    "Extension": ".ams"
+  },
+  {
+    "Name": "After Effects Output Module",
+    "Extension": ".aom"
+  },
+  {
+    "Name": "ClickOnce Deployment Manifest File",
+    "Extension": ".application"
+  },
+  {
+    "Name": "Microsoft Application Reference File",
+    "Extension": ".appref-ms"
+  },
+  {
+    "Name": "AutoCAD Profile",
+    "Extension": ".arg"
+  },
+  {
+    "Name": "After Effects Render Settings File",
+    "Extension": ".ars"
+  },
+  {
+    "Name": "Adobe Swatch Exchange File",
+    "Extension": ".ase"
+  },
+  {
+    "Name": "Adobe Swatch Exchange File",
+    "Extension": ".asef"
+  },
+  {
+    "Name": "Ableton Live Skin File",
+    "Extension": ".ask"
+  },
+  {
+    "Name": "Photoshop Style",
+    "Extension": ".asl"
+  },
+  {
+    "Name": "Adobe Color Separation Setup File",
+    "Extension": ".asp"
+  },
+  {
+    "Name": "Adobe Color Separations Table",
+    "Extension": ".ast"
+  },
+  {
+    "Name": "ACDSee Slideshow Wizard File",
+    "Extension": ".asw"
+  },
+  {
+    "Name": "AutoCAD Tool Catalog File",
+    "Extension": ".atc"
+  },
+  {
+    "Name": "Alienware AlienFX Theme File",
+    "Extension": ".ath"
+  },
+  {
+    "Name": "Photoshop Actions File",
+    "Extension": ".atn"
+  },
+  {
+    "Name": "Aston Compiled Theme",
+    "Extension": ".atz"
+  },
+  {
+    "Name": "LaTeX Auxiliary File",
+    "Extension": ".aux"
+  },
+  {
+    "Name": "Avid User File",
+    "Extension": ".ave"
+  },
+  {
+    "Name": "AVS Preset File",
+    "Extension": ".avs"
+  },
+  {
+    "Name": "Avid Project Preferences File",
+    "Extension": ".avs"
+  },
+  {
+    "Name": "ActiveWorlds Custom Avatar File",
+    "Extension": ".awcav"
+  },
+  {
+    "Name": "Adobe Photoshop Extract File",
+    "Extension": ".axt"
+  },
+  {
+    "Name": "Apache OpenOffice AutoText File",
+    "Extension": ".bau"
+  },
+  {
+    "Name": "Business Contact Manager Customization",
+    "Extension": ".bcmx"
+  },
+  {
+    "Name": "BlackMagic Custom Palette",
+    "Extension": ".bcp"
+  },
+  {
+    "Name": "Batch Compiler Preset File",
+    "Extension": ".bcp"
+  },
+  {
+    "Name": "Batch Compiler Specification File",
+    "Extension": ".bcs"
+  },
+  {
+    "Name": "BgInfo Configuration File",
+    "Extension": ".bgi"
+  },
+  {
+    "Name": "BlackBerry IT Policy File",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "BitPim Configuration File",
+    "Extension": ".bitpim"
+  },
+  {
+    "Name": "NTBackup Settings File",
+    "Extension": ".bks"
+  },
+  {
+    "Name": "Valve Steam Archive",
+    "Extension": ".blob"
+  },
+  {
+    "Name": "AIM Buddy List",
+    "Extension": ".blt"
+  },
+  {
+    "Name": "Adobe Photoshop Black and White Presets File",
+    "Extension": ".blw"
+  },
+  {
+    "Name": "InstallShield Boot File",
+    "Extension": ".boot"
+  },
+  {
+    "Name": "ProjectWise User Settings File",
+    "Extension": ".brg"
+  },
+  {
+    "Name": "Windows 7 Boot Updater Skin",
+    "Extension": ".bs7"
+  },
+  {
+    "Name": "BitTorrent Search Engine File",
+    "Extension": ".btsearch"
+  },
+  {
+    "Name": "Windows Media Center Click-To-Record File",
+    "Extension": ".c2r"
+  },
+  {
+    "Name": "WCS Color Appearance Model Profile File",
+    "Extension": ".camp"
+  },
+  {
+    "Name": "CorelDRAW Image Template",
+    "Extension": ".cdrt"
+  },
+  {
+    "Name": "CorelDRAW Image Template",
+    "Extension": ".cdt"
+  },
+  {
+    "Name": "SolidWorks Enterprise PDM Vault Export File",
+    "Extension": ".cex"
+  },
+  {
+    "Name": "Configuration File",
+    "Extension": ".cfg"
+  },
+  {
+    "Name": "Citrix Server Connection File",
+    "Extension": ".cfg"
+  },
+  {
+    "Name": "MAME Configuration File",
+    "Extension": ".cfg"
+  },
+  {
+    "Name": "LightWave Configuration File",
+    "Extension": ".cfg"
+  },
+  {
+    "Name": "Celestia Configuration File",
+    "Extension": ".cfg"
+  },
+  {
+    "Name": "Quest3D Channel Group File",
+    "Extension": ".cgr"
+  },
+  {
+    "Name": "WinFast PVR2 Channel List",
+    "Extension": ".chl"
+  },
+  {
+    "Name": "AutoCAD Standards Check File",
+    "Extension": ".chx"
+  },
+  {
+    "Name": "Windows Catalog File",
+    "Extension": ".clg"
+  },
+  {
+    "Name": "CryptLoad Router Information File",
+    "Extension": ".clr"
+  },
+  {
+    "Name": "ControllerMate File",
+    "Extension": ".cmate"
+  },
+  {
+    "Name": "Windows Connection Manager Profile",
+    "Extension": ".cmp"
+  },
+  {
+    "Name": "MySQL Configuration File",
+    "Extension": ".cnf"
+  },
+  {
+    "Name": "Telnet Configuration File",
+    "Extension": ".cnf"
+  },
+  {
+    "Name": "Fusion Composition File",
+    "Extension": ".comp"
+  },
+  {
+    "Name": "Unix Configuration File",
+    "Extension": ".conf"
+  },
+  {
+    "Name": "Generic Configuration File",
+    "Extension": ".conf"
+  },
+  {
+    "Name": "Capture One Preset File",
+    "Extension": ".copreset"
+  },
+  {
+    "Name": "Capture One Settings File",
+    "Extension": ".cos"
+  },
+  {
+    "Name": "Capture One Style File",
+    "Extension": ".costyle"
+  },
+  {
+    "Name": "Adobe Captivate Storyboard Project",
+    "Extension": ".cpdx"
+  },
+  {
+    "Name": "Cab Provisioning Format File",
+    "Extension": ".cpf"
+  },
+  {
+    "Name": "ESRI Code Page File",
+    "Extension": ".cpg"
+  },
+  {
+    "Name": "Adobe Captivate Preferences File",
+    "Extension": ".cpr"
+  },
+  {
+    "Name": "Captivate Styles File",
+    "Extension": ".cps"
+  },
+  {
+    "Name": "Captivate Theme File",
+    "Extension": ".cptm"
+  },
+  {
+    "Name": "Oracle ADF Binding Context File",
+    "Extension": ".cpx"
+  },
+  {
+    "Name": "SPSS Analysis Plan File",
+    "Extension": ".csaplan"
+  },
+  {
+    "Name": "Adobe Color Settings File",
+    "Extension": ".csf"
+  },
+  {
+    "Name": "CD Art Display Skin File",
+    "Extension": ".cskin"
+  },
+  {
+    "Name": "SPSS Sampling Plan File",
+    "Extension": ".csplan"
+  },
+  {
+    "Name": "Canvas Custom Set File",
+    "Extension": ".cst"
+  },
+  {
+    "Name": "AutoCAD Color-Based Plot Style File",
+    "Extension": ".ctb"
+  },
+  {
+    "Name": "CrazyTalk Animator Actor Fitting File",
+    "Extension": ".ctbodyfitting"
+  },
+  {
+    "Name": "Autodesk Custom Workspace File",
+    "Extension": ".cui"
+  },
+  {
+    "Name": "AutoCAD Custom User Interface File",
+    "Extension": ".cuix"
+  },
+  {
+    "Name": "HP System Software Manager Information File",
+    "Extension": ".cva"
+  },
+  {
+    "Name": "Cyberduck Donation Key",
+    "Extension": ".cyberducklicense"
+  },
+  {
+    "Name": "Cyberduck Connection Profile",
+    "Extension": ".cyberduckprofile"
+  },
+  {
+    "Name": "DVD Architect Project",
+    "Extension": ".dar"
+  },
+  {
+    "Name": "Skype User Information File",
+    "Extension": ".dbb"
+  },
+  {
+    "Name": "Visual FoxPro Debugger Configuration File",
+    "Extension": ".dbg"
+  },
+  {
+    "Name": "AutoCAD Dialog Definition File",
+    "Extension": ".dcl"
+  },
+  {
+    "Name": "Adobe DNG Camera Profile",
+    "Extension": ".dcp"
+  },
+  {
+    "Name": "Adobe InDesign Document Presets File",
+    "Extension": ".dcst"
+  },
+  {
+    "Name": "Diamond Directive File",
+    "Extension": ".ddf"
+  },
+  {
+    "Name": "Juice Grinder Defaults File",
+    "Extension": ".deft"
+  },
+  {
+    "Name": "Microsoft Dictionary Proofing File",
+    "Extension": ".dicproof"
+  },
+  {
+    "Name": "DivX Temporary Video Info File",
+    "Extension": ".dinfo"
+  },
+  {
+    "Name": "KDE Folder View Properties File",
+    "Extension": ".directory"
+  },
+  {
+    "Name": "DesktopOK Icons Layout File",
+    "Extension": ".dok"
+  },
+  {
+    "Name": "Dolphin Folder View Settings File",
+    "Extension": ".dolphinview"
+  },
+  {
+    "Name": "MSN Download Settings File",
+    "Extension": ".downloadhost"
+  },
+  {
+    "Name": "Dramatica Story Expert Project",
+    "Extension": ".dr5"
+  },
+  {
+    "Name": "Cubase Drum Map File",
+    "Extension": ".drm"
+  },
+  {
+    "Name": "DaVinci Resolve Project",
+    "Extension": ".drp"
+  },
+  {
+    "Name": "Mac OS X Folder Settings File",
+    "Extension": ".ds_store"
+  },
+  {
+    "Name": "AutoCAD Drawing Set Description File",
+    "Extension": ".dsd"
+  },
+  {
+    "Name": "Dramatica Pro Project",
+    "Extension": ".dsf"
+  },
+  {
+    "Name": "Visual C++ 6 Workspace File",
+    "Extension": ".dsw"
+  },
+  {
+    "Name": "DAZ Studio XML File",
+    "Extension": ".dsx"
+  },
+  {
+    "Name": "SSIS Package Configuration File",
+    "Extension": ".dtsconfig"
+  },
+  {
+    "Name": "Cyberduck Bookmark",
+    "Extension": ".duck"
+  },
+  {
+    "Name": "Dial Up Network File",
+    "Extension": ".dun"
+  },
+  {
+    "Name": "Xcode Color Theme File",
+    "Extension": ".dvtcolortheme"
+  },
+  {
+    "Name": "DashXL Skin Set File",
+    "Extension": ".dxls"
+  },
+  {
+    "Name": "Dexpot Profile File",
+    "Extension": ".dxp"
+  },
+  {
+    "Name": "Office 2007 Theme Effect File",
+    "Extension": ".eftx"
+  },
+  {
+    "Name": "HTTP Injector Config File",
+    "Extension": ".ehi"
+  },
+  {
+    "Name": "Office Theme File",
+    "Extension": ".elm"
+  },
+  {
+    "Name": "MindMaple Map",
+    "Extension": ".emm"
+  },
+  {
+    "Name": "EndNote Style File",
+    "Extension": ".ens"
+  },
+  {
+    "Name": "Vue Environment File",
+    "Extension": ".env"
+  },
+  {
+    "Name": "EndNote Connection File",
+    "Extension": ".enz"
+  },
+  {
+    "Name": "Winamp Equalizer Preset File",
+    "Extension": ".eqf"
+  },
+  {
+    "Name": "MathType Settings",
+    "Extension": ".eql"
+  },
+  {
+    "Name": "MathType Preferences",
+    "Extension": ".eqp"
+  },
+  {
+    "Name": "Enterprise User Monitor Configuration File",
+    "Extension": ".eum"
+  },
+  {
+    "Name": "Ultiboard Layout Project",
+    "Extension": ".ewprj"
+  },
+  {
+    "Name": "Exe4j Configuration File",
+    "Extension": ".exe4j"
+  },
+  {
+    "Name": "SonicWALL Preference File",
+    "Extension": ".exp"
+  },
+  {
+    "Name": "Microsoft Office Exported UI Customization File",
+    "Extension": ".exportedui"
+  },
+  {
+    "Name": "Zinf Theme File",
+    "Extension": ".fat"
+  },
+  {
+    "Name": "ABBYY FineReader Document Options File",
+    "Extension": ".fbt"
+  },
+  {
+    "Name": "FirstClass Settings File",
+    "Extension": ".fc"
+  },
+  {
+    "Name": "Forms Credential Collector File",
+    "Extension": ".fcc"
+  },
+  {
+    "Name": "LaTeX Font Definition File",
+    "Extension": ".fd"
+  },
+  {
+    "Name": "Fetch Mirror Document",
+    "Extension": ".fetchmirror"
+  },
+  {
+    "Name": "After Effects Preset File",
+    "Extension": ".ffx"
+  },
+  {
+    "Name": "Adobe InDesign Flattener Presets File",
+    "Extension": ".flst"
+  },
+  {
+    "Name": "Vue Filters File",
+    "Extension": ".flt"
+  },
+  {
+    "Name": "Fusion Flow File",
+    "Extension": ".flw"
+  },
+  {
+    "Name": "AutoCAD Font Map File",
+    "Extension": ".fmp"
+  },
+  {
+    "Name": "FoxPro Format File",
+    "Extension": ".fmt"
+  },
+  {
+    "Name": "Frogans Player Network Certificate",
+    "Extension": ".fnc"
+  },
+  {
+    "Name": "xScope Frames File",
+    "Extension": ".frames"
+  },
+  {
+    "Name": "Edgecam Feature Template",
+    "Extension": ".ft"
+  },
+  {
+    "Name": "FileMaker Theme File",
+    "Extension": ".fth"
+  },
+  {
+    "Name": "Foobar2000 Theme File",
+    "Extension": ".fth"
+  },
+  {
+    "Name": "FlashFXP XML File",
+    "Extension": ".ftp"
+  },
+  {
+    "Name": "Ftpquota File",
+    "Extension": ".ftpquota"
+  },
+  {
+    "Name": "File Viewer Plus Batch Presets File",
+    "Extension": ".fvp"
+  },
+  {
+    "Name": "FacetWin Configuration File",
+    "Extension": ".fwt"
+  },
+  {
+    "Name": "FX Preset File",
+    "Extension": ".fxp"
+  },
+  {
+    "Name": "Microsoft Office SmartArt Color File",
+    "Extension": ".gcsx"
+  },
+  {
+    "Name": "Windows Help Global Index File",
+    "Extension": ".gid"
+  },
+  {
+    "Name": "GEMS Engine Control Unit File",
+    "Extension": ".gin"
+  },
+  {
+    "Name": "Global Mapper Workspace File",
+    "Extension": ".gmw"
+  },
+  {
+    "Name": "Godot Engine Project",
+    "Extension": ".godot"
+  },
+  {
+    "Name": "GOM Player Skin File",
+    "Extension": ".gps"
+  },
+  {
+    "Name": "GenePix Settings File",
+    "Extension": ".gps"
+  },
+  {
+    "Name": "Microsoft Office SmartArt Styles File",
+    "Extension": ".gqsx"
+  },
+  {
+    "Name": "Photoshop Gradient File",
+    "Extension": ".grd"
+  },
+  {
+    "Name": "Growl Notification File",
+    "Extension": ".growlticket"
+  },
+  {
+    "Name": "GTK+ Theme File",
+    "Extension": ".gtkrc"
+  },
+  {
+    "Name": "GNOME Theme Package File",
+    "Extension": ".gtp"
+  },
+  {
+    "Name": "GVim Runtime Configuration File",
+    "Extension": ".gvimrc"
+  },
+  {
+    "Name": "GeoMedia GeoWorkspace File",
+    "Extension": ".gws"
+  },
+  {
+    "Name": "Grand Theft Auto Text File",
+    "Extension": ".gxt"
+  },
+  {
+    "Name": "Home Design 3D Project",
+    "Extension": ".hd3d"
+  },
+  {
+    "Name": "Sony Ericsson Remote Settings File",
+    "Extension": ".hid"
+  },
+  {
+    "Name": "Windows Mobile Theme File",
+    "Extension": ".hme"
+  },
+  {
+    "Name": "HyperTerminal Session File",
+    "Extension": ".ht"
+  },
+  {
+    "Name": "Outlook Internet Account File",
+    "Extension": ".iaf"
+  },
+  {
+    "Name": "Citrix ICA File",
+    "Extension": ".ica"
+  },
+  {
+    "Name": "ICC Profile",
+    "Extension": ".icc"
+  },
+  {
+    "Name": "Installable Client Driver File",
+    "Extension": ".icd"
+  },
+  {
+    "Name": "Image Color Matching Profile",
+    "Extension": ".icm"
+  },
+  {
+    "Name": "InCopy Document Preset File",
+    "Extension": ".icst"
+  },
+  {
+    "Name": "iCursor Effect File",
+    "Extension": ".icursorfx"
+  },
+  {
+    "Name": "Adobe InDesign Preflight Profile",
+    "Extension": ".idpp"
+  },
+  {
+    "Name": "IN-HEH Timeline Workspace",
+    "Extension": ".ihw"
+  },
+  {
+    "Name": "Install Creator Pro Project File",
+    "Extension": ".iip"
+  },
+  {
+    "Name": "Install Creator Project File",
+    "Extension": ".iit"
+  },
+  {
+    "Name": "INTUS Keyboard File",
+    "Extension": ".ikf"
+  },
+  {
+    "Name": "IK Multimedia Preset FIle",
+    "Extension": ".ikmp"
+  },
+  {
+    "Name": "Setup Information File",
+    "Extension": ".inf"
+  },
+  {
+    "Name": "Windows Initialization File",
+    "Extension": ".ini"
+  },
+  {
+    "Name": "Gravis UltraSound Bank Setup File",
+    "Extension": ".ini"
+  },
+  {
+    "Name": "Symbian OS Configuration File",
+    "Extension": ".ini"
+  },
+  {
+    "Name": "Internet Settings File",
+    "Extension": ".ins"
+  },
+  {
+    "Name": "iPhone Carrier Bundle",
+    "Extension": ".ipcc"
+  },
+  {
+    "Name": "Jupyter Notebook",
+    "Extension": ".ipynb"
+  },
+  {
+    "Name": "Adobe Save For Web Settings",
+    "Extension": ".irs"
+  },
+  {
+    "Name": "IIS Internet Service Provider Settings",
+    "Extension": ".isp"
+  },
+  {
+    "Name": "InstallShield Silent Response File",
+    "Extension": ".iss"
+  },
+  {
+    "Name": "Inno Setup Script",
+    "Extension": ".iss"
+  },
+  {
+    "Name": "IconTweaker Theme File",
+    "Extension": ".itt"
+  },
+  {
+    "Name": "dtSearch Index File",
+    "Extension": ".ix"
+  },
+  {
+    "Name": "Adobe Acrobat Job Definition File",
+    "Extension": ".jdf"
+  },
+  {
+    "Name": "JAWS Key Map File",
+    "Extension": ".jkm"
+  },
+  {
+    "Name": "CryENGINE Facial Editor Joystick File",
+    "Extension": ".joy"
+  },
+  {
+    "Name": "Java Workspace Settings File",
+    "Extension": ".jws"
+  },
+  {
+    "Name": "3ds Max Keyboard Shortcuts File",
+    "Extension": ".kbd"
+  },
+  {
+    "Name": "KD Player Skin File",
+    "Extension": ".kds"
+  },
+  {
+    "Name": "KMPlayer Skin File",
+    "Extension": ".ksf"
+  },
+  {
+    "Name": "Adobe Photoshop Keyboard Shortcuts File",
+    "Extension": ".kys"
+  },
+  {
+    "Name": "Cinema 4D Layout File",
+    "Extension": ".l4d"
+  },
+  {
+    "Name": "Capture One Lens Cast Correction File",
+    "Extension": ".lcc"
+  },
+  {
+    "Name": "Live Home 3D Project",
+    "Extension": ".lh3d"
+  },
+  {
+    "Name": "SpeedGrade Look File",
+    "Extension": ".look"
+  },
+  {
+    "Name": "MasterCook Layout File",
+    "Extension": ".lop"
+  },
+  {
+    "Name": "Adobe Lightroom Smart Collection Settings File",
+    "Extension": ".lrsmcol"
+  },
+  {
+    "Name": "Adobe Lightroom Template",
+    "Extension": ".lrtemplate"
+  },
+  {
+    "Name": "Logitech Video Effects Avatar File",
+    "Extension": ".lva"
+  },
+  {
+    "Name": "Logitech Video Effects File",
+    "Extension": ".lvf"
+  },
+  {
+    "Name": "Liquid XML Studio Project Options File",
+    "Extension": ".lxsopt"
+  },
+  {
+    "Name": "Xcalibur Layout File",
+    "Extension": ".lyt"
+  },
+  {
+    "Name": "Maxthon 2 Browser Skin File",
+    "Extension": ".m2s"
+  },
+  {
+    "Name": "MSN Mailhost Settings File",
+    "Extension": ".mailhost"
+  },
+  {
+    "Name": "MadAppLauncher Configuration File",
+    "Extension": ".mal"
+  },
+  {
+    "Name": "SpeedGrade Color Mask File",
+    "Extension": ".mask"
+  },
+  {
+    "Name": "Rigs of Rods Texture Reference File",
+    "Extension": ".material"
+  },
+  {
+    "Name": "Windows Media Center Link File",
+    "Extension": ".mcl"
+  },
+  {
+    "Name": "Monitor Calibration Wizard File",
+    "Extension": ".mcw"
+  },
+  {
+    "Name": "TestComplete Project File",
+    "Extension": ".mds"
+  },
+  {
+    "Name": "ImageMagick Configuration File",
+    "Extension": ".mgk"
+  },
+  {
+    "Name": "MasterCook Look File",
+    "Extension": ".mlk"
+  },
+  {
+    "Name": "MediaMonkey Device Configuration File",
+    "Extension": ".mmdc"
+  },
+  {
+    "Name": "Symbian Project Specification File",
+    "Extension": ".mmp"
+  },
+  {
+    "Name": "AutoCAD Interface Settings File",
+    "Extension": ".mns"
+  },
+  {
+    "Name": "AutoCAD Interface Layout File",
+    "Extension": ".mnu"
+  },
+  {
+    "Name": "Mobirise Project File",
+    "Extension": ".mobirise"
+  },
+  {
+    "Name": "Apple Motion Effect Project Template",
+    "Extension": ".moef"
+  },
+  {
+    "Name": "Managed Object Format File",
+    "Extension": ".mof"
+  },
+  {
+    "Name": "Apple Motion Title Project Template",
+    "Extension": ".moti"
+  },
+  {
+    "Name": "Apple Motion Generator Project Template",
+    "Extension": ".motn"
+  },
+  {
+    "Name": "Apple Motion Transition Project Template",
+    "Extension": ".motr"
+  },
+  {
+    "Name": "Music Player Daemon File",
+    "Extension": ".mpdconf"
+  },
+  {
+    "Name": "Microsoft Project Template",
+    "Extension": ".mpt"
+  },
+  {
+    "Name": "MediaMonkey Skin File",
+    "Extension": ".mskn"
+  },
+  {
+    "Name": "Windows Installer Merge Module",
+    "Extension": ".msm"
+  },
+  {
+    "Name": "Host Blocking File",
+    "Extension": ".msn"
+  },
+  {
+    "Name": "Windows Installer Setup Transform File",
+    "Extension": ".mst"
+  },
+  {
+    "Name": "Corel Presentations Master Template File",
+    "Extension": ".mst"
+  },
+  {
+    "Name": "Painter Color Mixer Swatches File",
+    "Extension": ".msw"
+  },
+  {
+    "Name": "Motorola Theme File",
+    "Extension": ".mtf"
+  },
+  {
+    "Name": "Painter Color Mixer Pad File",
+    "Extension": ".mxs"
+  },
+  {
+    "Name": "Maxthon Skin File",
+    "Extension": ".mxskin"
+  },
+  {
+    "Name": "Stardock MyColors Theme File",
+    "Extension": ".mycolors"
+  },
+  {
+    "Name": "ArcGIS Explorer Configuration File",
+    "Extension": ".ncfg"
+  },
+  {
+    "Name": "QuickBooks Network Data File",
+    "Extension": ".nd"
+  },
+  {
+    "Name": "Personal Communications Settings File",
+    "Extension": ".ndc"
+  },
+  {
+    "Name": "Guitar Rig Preset",
+    "Extension": ".ngrr"
+  },
+  {
+    "Name": "Nero Job Information File",
+    "Extension": ".nji"
+  },
+  {
+    "Name": "Kontakt Presets File",
+    "Extension": ".nkp"
+  },
+  {
+    "Name": "NetPoint 4 Schedule File",
+    "Extension": ".np4"
+  },
+  {
+    "Name": "Norton Internet Security Firewall Settings File",
+    "Extension": ".npfx"
+  },
+  {
+    "Name": "Natron Node Presets File",
+    "Extension": ".nps"
+  },
+  {
+    "Name": "AppStudio Project",
+    "Extension": ".nsx"
+  },
+  {
+    "Name": "Nikon Vignette Correction File",
+    "Extension": ".nvc"
+  },
+  {
+    "Name": "NVivo for Windows Project",
+    "Extension": ".nvp"
+  },
+  {
+    "Name": "Dragon NaturallySpeaking User Archive",
+    "Extension": ".nwv"
+  },
+  {
+    "Name": "Outlook RSS Subscription File",
+    "Extension": ".obi"
+  },
+  {
+    "Name": "Openbox Theme File",
+    "Extension": ".obt"
+  },
+  {
+    "Name": "Office Data Connection File",
+    "Extension": ".odc"
+  },
+  {
+    "Name": "OEM Setup File",
+    "Extension": ".oem"
+  },
+  {
+    "Name": "Microsoft Office UI Customization File",
+    "Extension": ".officeui"
+  },
+  {
+    "Name": "HP Printer Substrate Presets Package File",
+    "Extension": ".oms"
+  },
+  {
+    "Name": "Microsoft OneNote Table of Contents File",
+    "Extension": ".onetoc2"
+  },
+  {
+    "Name": "Office Profile Settings File",
+    "Extension": ".ops"
+  },
+  {
+    "Name": "Options File",
+    "Extension": ".opt"
+  },
+  {
+    "Name": "Search Connector Description File",
+    "Extension": ".osdx"
+  },
+  {
+    "Name": "Microsoft Outlook Saved Search File",
+    "Extension": ".oss"
+  },
+  {
+    "Name": "Origin Unicode Graph Template",
+    "Extension": ".otpu"
+  },
+  {
+    "Name": "OpenLP Theme File",
+    "Extension": ".otz"
+  },
+  {
+    "Name": "OpenVPN Configuration File",
+    "Extension": ".ovpn"
+  },
+  {
+    "Name": "PhotoWorks Appearance File",
+    "Extension": ".p2m"
+  },
+  {
+    "Name": "Painter Custom Palettes File",
+    "Extension": ".pal"
+  },
+  {
+    "Name": "Painter Paper Texture File",
+    "Extension": ".papers"
+  },
+  {
+    "Name": "AutoCAD Plotter Configuration File",
+    "Extension": ".pc3"
+  },
+  {
+    "Name": "Kaspersky Parental Control Settings File",
+    "Extension": ".pctl"
+  },
+  {
+    "Name": "PhotoDirector Preset File",
+    "Extension": ".pdadj"
+  },
+  {
+    "Name": "Palo Alto Software Plan Component File",
+    "Extension": ".pdp"
+  },
+  {
+    "Name": "Paint Shop Pro Pen Preset File",
+    "Extension": ".pen"
+  },
+  {
+    "Name": "Performance Monitor Configuration File",
+    "Extension": ".perfmoncfg"
+  },
+  {
+    "Name": "AutoCAD Program Parameters File",
+    "Extension": ".pgp"
+  },
+  {
+    "Name": "PhtotoBase Album File",
+    "Extension": ".phb"
+  },
+  {
+    "Name": "GlovePIE Controller Script",
+    "Extension": ".pie"
+  },
+  {
+    "Name": "Pro Tools I/O Settings File",
+    "Extension": ".pio"
+  },
+  {
+    "Name": "Office Personalized Settings File",
+    "Extension": ".pip"
+  },
+  {
+    "Name": "TestComplete Project Suite File",
+    "Extension": ".pjs"
+  },
+  {
+    "Name": "Symbian Package File",
+    "Extension": ".pkg"
+  },
+  {
+    "Name": "Mac OS X Property List File",
+    "Extension": ".plist"
+  },
+  {
+    "Name": "Performance Monitor Counter File",
+    "Extension": ".pmc"
+  },
+  {
+    "Name": "Pegasus Mail Configuration File",
+    "Extension": ".pmj"
+  },
+  {
+    "Name": "Pyre Properties File",
+    "Extension": ".pml"
+  },
+  {
+    "Name": "AutoCAD Plot Model Parameter File",
+    "Extension": ".pmp"
+  },
+  {
+    "Name": "Java Policy Implementation File",
+    "Extension": ".policy"
+  },
+  {
+    "Name": "Source Insight Project",
+    "Extension": ".pr"
+  },
+  {
+    "Name": "Preferences File",
+    "Extension": ".pref"
+  },
+  {
+    "Name": "Outlook Profile File",
+    "Extension": ".prf"
+  },
+  {
+    "Name": "Director Preferences File",
+    "Extension": ".prf"
+  },
+  {
+    "Name": "QuarkXPress Preferences File",
+    "Extension": ".prf"
+  },
+  {
+    "Name": "Premiere Pro Effect Preset File",
+    "Extension": ".prfpset"
+  },
+  {
+    "Name": "Parameter File",
+    "Extension": ".prm"
+  },
+  {
+    "Name": "ProPresenter 5 Template",
+    "Extension": ".pro5template"
+  },
+  {
+    "Name": "Citrix Application Profile",
+    "Extension": ".profile"
+  },
+  {
+    "Name": "ProfiMail Settings File",
+    "Extension": ".profimail"
+  },
+  {
+    "Name": "Property Description",
+    "Extension": ".propdesc"
+  },
+  {
+    "Name": "Java Properties File",
+    "Extension": ".properties"
+  },
+  {
+    "Name": "Visual Studio Project Property File",
+    "Extension": ".props"
+  },
+  {
+    "Name": "Batch & Print Pro Printer Settings File",
+    "Extension": ".prs"
+  },
+  {
+    "Name": "Windows Media Profile File",
+    "Extension": ".prx"
+  },
+  {
+    "Name": "Windows PowerShell Display Configuration File",
+    "Extension": ".ps1xml"
+  },
+  {
+    "Name": "Windows PowerShell Console File",
+    "Extension": ".psc1"
+  },
+  {
+    "Name": "Photoshop Proof Settings File",
+    "Extension": ".psf"
+  },
+  {
+    "Name": "Photoshop Preferences File",
+    "Extension": ".psp"
+  },
+  {
+    "Name": "The Psychedelic Screen Saver Settings File",
+    "Extension": ".psy"
+  },
+  {
+    "Name": "PSP Theme File",
+    "Extension": ".ptf"
+  },
+  {
+    "Name": "Parallels Desktop Configuration File",
+    "Extension": ".pvs"
+  },
+  {
+    "Name": "Pixelmator Brush File",
+    "Extension": ".pxb"
+  },
+  {
+    "Name": "Pixelmator Gradient File",
+    "Extension": ".pxg"
+  },
+  {
+    "Name": "Microsoft Office Quick Access Toolbar File",
+    "Extension": ".qat"
+  },
+  {
+    "Name": "Nokia Maps Version File",
+    "Extension": ".qf"
+  },
+  {
+    "Name": "Quattro Pro QuickColumn Settings File",
+    "Extension": ".qpx"
+  },
+  {
+    "Name": "Qt Resource Collection File",
+    "Extension": ".qrc"
+  },
+  {
+    "Name": "Qt Style Sheet",
+    "Extension": ".qss"
+  },
+  {
+    "Name": "QuickTime Preferences File",
+    "Extension": ".qtp"
+  },
+  {
+    "Name": "QlikView Extension Properties Page File",
+    "Extension": ".qvpp"
+  },
+  {
+    "Name": "QlikView Theme File",
+    "Extension": ".qvt"
+  },
+  {
+    "Name": "Q Light Controller+ Workspace File",
+    "Extension": ".qxw"
+  },
+  {
+    "Name": "Citrix Rapid Application Delivery File",
+    "Extension": ".rad"
+  },
+  {
+    "Name": "Raskin Place Layout File",
+    "Extension": ".raskinplace"
+  },
+  {
+    "Name": "SonicWALL VPN Configuration File",
+    "Extension": ".rcf"
+  },
+  {
+    "Name": "Visual Studio Resource Template",
+    "Extension": ".rct"
+  },
+  {
+    "Name": "Resource Description Framework File",
+    "Extension": ".rdf"
+  },
+  {
+    "Name": "Xerox Rawster Document Object File",
+    "Extension": ".rdo"
+  },
+  {
+    "Name": "Remote Desktop Configuration File",
+    "Extension": ".rdp"
+  },
+  {
+    "Name": "Real-DRAW Project File",
+    "Extension": ".rdw"
+  },
+  {
+    "Name": "Registration Information File",
+    "Extension": ".reg"
+  },
+  {
+    "Name": "Resource Monitor Configuration File",
+    "Extension": ".resmoncfg"
+  },
+  {
+    "Name": "RoboForm SearchCard File",
+    "Extension": ".rfq"
+  },
+  {
+    "Name": "Microsoft Resource Library",
+    "Extension": ".rll"
+  },
+  {
+    "Name": "Rainmeter Skin File",
+    "Extension": ".rmskin"
+  },
+  {
+    "Name": "RealPlayer Settings File",
+    "Extension": ".rnx"
+  },
+  {
+    "Name": "RadLight Media Player Skin",
+    "Extension": ".rpk"
+  },
+  {
+    "Name": "R Project",
+    "Extension": ".rproj"
+  },
+  {
+    "Name": "3ds Max Render Preset Settings",
+    "Extension": ".rps"
+  },
+  {
+    "Name": "Royal TS Remote Connection File",
+    "Extension": ".rts"
+  },
+  {
+    "Name": "Visual Studio Code Analysis Rule Set File",
+    "Extension": ".ruleset"
+  },
+  {
+    "Name": "RapidWeaver Style File",
+    "Extension": ".rwstyle"
+  },
+  {
+    "Name": "StarCraft 2 Map Localization File",
+    "Extension": ".s2ml"
+  },
+  {
+    "Name": "YouTube Captions File",
+    "Extension": ".sbv"
+  },
+  {
+    "Name": "SuperCard Application Configuration File",
+    "Extension": ".scacfg"
+  },
+  {
+    "Name": "Strater Scheme File",
+    "Extension": ".sch"
+  },
+  {
+    "Name": "SuperCard Project Configuration File",
+    "Extension": ".scpcfg"
+  },
+  {
+    "Name": "Snap Converter Presets File",
+    "Extension": ".scpresets"
+  },
+  {
+    "Name": "VideoScribe Project",
+    "Extension": ".scribe"
+  },
+  {
+    "Name": "IExpress Self Extraction Directive File",
+    "Extension": ".sed"
+  },
+  {
+    "Name": "Coda Style Sheet File",
+    "Extension": ".seestyle"
+  },
+  {
+    "Name": "Settings File",
+    "Extension": ".set"
+  },
+  {
+    "Name": "Windows Settings File",
+    "Extension": ".settingcontent-ms"
+  },
+  {
+    "Name": "Visual Studio Settings File",
+    "Extension": ".settings"
+  },
+  {
+    "Name": "CuteFTP Search File",
+    "Extension": ".sfo"
+  },
+  {
+    "Name": "SPSS Chart Template",
+    "Extension": ".sgt"
+  },
+  {
+    "Name": "Windows Setup Information File",
+    "Extension": ".sif"
+  },
+  {
+    "Name": "Motorola Phone Skin File",
+    "Extension": ".ski"
+  },
+  {
+    "Name": "ASP.NET Skin File",
+    "Extension": ".skin"
+  },
+  {
+    "Name": "InstallShield Skin File",
+    "Extension": ".skin"
+  },
+  {
+    "Name": "Symbian OS Skin File",
+    "Extension": ".skn"
+  },
+  {
+    "Name": "Avant Browser Skin File",
+    "Extension": ".skn"
+  },
+  {
+    "Name": "SuperKaramba Theme",
+    "Extension": ".skz"
+  },
+  {
+    "Name": "Software License File",
+    "Extension": ".sl"
+  },
+  {
+    "Name": "Mozilla User Profile Folder",
+    "Extension": ".slt"
+  },
+  {
+    "Name": "Samsung Theme File",
+    "Extension": ".smt"
+  },
+  {
+    "Name": "PISnoop Workspace File",
+    "Extension": ".snx"
+  },
+  {
+    "Name": "Flash Local Shared Object File",
+    "Extension": ".sol"
+  },
+  {
+    "Name": "Slingplayer Favorites File",
+    "Extension": ".spf"
+  },
+  {
+    "Name": "Squeeze Presets File",
+    "Extension": ".spfx"
+  },
+  {
+    "Name": "SPSS Production Job File",
+    "Extension": ".spj"
+  },
+  {
+    "Name": "Substance Painter Project",
+    "Extension": ".spp"
+  },
+  {
+    "Name": "Configuration Settings File",
+    "Extension": ".sqd"
+  },
+  {
+    "Name": "Outlook Send/Receive Settings File",
+    "Extension": ".srs"
+  },
+  {
+    "Name": "Sunlight ScanLibrary File",
+    "Extension": ".ssl"
+  },
+  {
+    "Name": "Sunlight ScanLibrary 2 File",
+    "Extension": ".ssl2"
+  },
+  {
+    "Name": "WindowBlinds Substyle File",
+    "Extension": ".sss"
+  },
+  {
+    "Name": "E-Prime 2.0 Startup Info File",
+    "Extension": ".startupinfo"
+  },
+  {
+    "Name": "AutoCAD Plot Style Table File",
+    "Extension": ".stb"
+  },
+  {
+    "Name": "PROMT Translator Document",
+    "Extension": ".std"
+  },
+  {
+    "Name": "Dreamweaver Site Settings File",
+    "Extension": ".ste"
+  },
+  {
+    "Name": "Storyist Application Theme File",
+    "Extension": ".storyisttheme"
+  },
+  {
+    "Name": "SPSS Table Template",
+    "Extension": ".stt"
+  },
+  {
+    "Name": "SketchUp Style",
+    "Extension": ".style"
+  },
+  {
+    "Name": "Softwrap License File",
+    "Extension": ".sw2"
+  },
+  {
+    "Name": "SynWrite Project",
+    "Extension": ".synw-proj"
+  },
+  {
+    "Name": "Winamp Classic Skin Download",
+    "Extension": ".sz"
+  },
+  {
+    "Name": "TicTacTi Advertisement Definition File",
+    "Extension": ".t3d"
+  },
+  {
+    "Name": "Title Definition Format File",
+    "Extension": ".tdf"
+  },
+  {
+    "Name": "Terminal Settings File",
+    "Extension": ".terminal"
+  },
+  {
+    "Name": "Microsoft Plus! Theme File",
+    "Extension": ".the"
+  },
+  {
+    "Name": "GTK Theme Index File",
+    "Extension": ".theme"
+  },
+  {
+    "Name": "Comodo Theme File",
+    "Extension": ".theme"
+  },
+  {
+    "Name": "Windows 7 Theme Pack",
+    "Extension": ".themepack"
+  },
+  {
+    "Name": "Office 2007 Theme File",
+    "Extension": ".thmx"
+  },
+  {
+    "Name": "SPSS TableLooks File",
+    "Extension": ".tlo"
+  },
+  {
+    "Name": "TextMate Theme File",
+    "Extension": ".tmtheme"
+  },
+  {
+    "Name": "ThemePark Project File",
+    "Extension": ".tpark"
+  },
+  {
+    "Name": "SPSS Text Wizard Document",
+    "Extension": ".tpf"
+  },
+  {
+    "Name": "PASSOLO Translation List File",
+    "Extension": ".trx"
+  },
+  {
+    "Name": "TechSmith Camtasia Project File",
+    "Extension": ".tscproj"
+  },
+  {
+    "Name": "Traktor Settings File",
+    "Extension": ".tsi"
+  },
+  {
+    "Name": "Pocket PC Skin",
+    "Extension": ".tsk"
+  },
+  {
+    "Name": "TwinCAT System Manager Configuration File",
+    "Extension": ".tsm"
+  },
+  {
+    "Name": "Trillian Skin File",
+    "Extension": ".tsz"
+  },
+  {
+    "Name": "ToolBook Translation System File",
+    "Extension": ".tts"
+  },
+  {
+    "Name": "Turbo View & Convert Batch Presets File",
+    "Extension": ".tvc"
+  },
+  {
+    "Name": "mimoLive Template",
+    "Extension": ".tvtemplate"
+  },
+  {
+    "Name": "TTWin Configuration File",
+    "Extension": ".twc"
+  },
+  {
+    "Name": "TypeIt4Me Clippings File",
+    "Extension": ".typeit4me"
+  },
+  {
+    "Name": "UC Browser Theme File",
+    "Extension": ".uct"
+  },
+  {
+    "Name": "Universal Data Connection File",
+    "Extension": ".udcx"
+  },
+  {
+    "Name": "WindowBlinds User Interface Specification",
+    "Extension": ".uis"
+  },
+  {
+    "Name": "MicroStation User Preferences File",
+    "Extension": ".upf"
+  },
+  {
+    "Name": "Norton AntiVirus User Profile File",
+    "Extension": ".userprofile"
+  },
+  {
+    "Name": "UIQ Theme Package",
+    "Extension": ".utz"
+  },
+  {
+    "Name": "Oracle VM VirtualBox Settings File",
+    "Extension": ".vbox"
+  },
+  {
+    "Name": "VirusBarrier X6 Settings File",
+    "Extension": ".vbx6settings"
+  },
+  {
+    "Name": "V-Comp Setup File",
+    "Extension": ".vcomps"
+  },
+  {
+    "Name": "Norton Antivirus Preferences File",
+    "Extension": ".vcpref"
+  },
+  {
+    "Name": "Vim Settings File",
+    "Extension": ".vim"
+  },
+  {
+    "Name": "Vim Runtime Configuration File",
+    "Extension": ".vimrc"
+  },
+  {
+    "Name": "Avee Player Visualizer Template",
+    "Extension": ".viz"
+  },
+  {
+    "Name": "VLC Media Player Skin File",
+    "Extension": ".vlt"
+  },
+  {
+    "Name": "Windows Virtual Machine Configuration File",
+    "Extension": ".vmc"
+  },
+  {
+    "Name": "Virtual Machine Shell Information File",
+    "Extension": ".vmcx"
+  },
+  {
+    "Name": "VMware Policy File",
+    "Extension": ".vmpl"
+  },
+  {
+    "Name": "VMware Team Data File",
+    "Extension": ".vmtm"
+  },
+  {
+    "Name": "VMware Configuration File",
+    "Extension": ".vmx"
+  },
+  {
+    "Name": "Cubase Mixer Settings File",
+    "Extension": ".vmx"
+  },
+  {
+    "Name": "VMware Team Member File",
+    "Extension": ".vmxf"
+  },
+  {
+    "Name": "VNC Configuration File",
+    "Extension": ".vnc"
+  },
+  {
+    "Name": "VirtualPhotographer Custom Settings",
+    "Extension": ".vph"
+  },
+  {
+    "Name": "Virtual CD Copy Template",
+    "Extension": ".vps"
+  },
+  {
+    "Name": "Virtual CD Quick Copy File",
+    "Extension": ".vqc"
+  },
+  {
+    "Name": "Visual Studio Project Property File",
+    "Extension": ".vsprops"
+  },
+  {
+    "Name": "Visual Studio Settings File",
+    "Extension": ".vssettings"
+  },
+  {
+    "Name": "VST Preset File",
+    "Extension": ".vstpreset"
+  },
+  {
+    "Name": "Studio Store Visualizer Project",
+    "Extension": ".vtpr"
+  },
+  {
+    "Name": "FoxPro 2.x View Settings",
+    "Extension": ".vue"
+  },
+  {
+    "Name": "Valve Hammer Configuration File",
+    "Extension": ".wc"
+  },
+  {
+    "Name": "RemoteApp and Desktop Connections Configuration File",
+    "Extension": ".wcx"
+  },
+  {
+    "Name": "Chameleon Clock Wallpaper File",
+    "Extension": ".wcz"
+  },
+  {
+    "Name": "Windows Wireless Network Settings File",
+    "Extension": ".wfc"
+  },
+  {
+    "Name": "Wondershare Filmora Project File",
+    "Extension": ".wfp"
+  },
+  {
+    "Name": "Weaving Interchange Format File",
+    "Extension": ".wif"
+  },
+  {
+    "Name": "Windows Movie Maker Video Settings File",
+    "Extension": ".wlvs"
+  },
+  {
+    "Name": "Windows Media Encoder Session File",
+    "Extension": ".wme"
+  },
+  {
+    "Name": "Windows Media Skin",
+    "Extension": ".wms"
+  },
+  {
+    "Name": "Compressed Windows Media Player Skin",
+    "Extension": ".wmz"
+  },
+  {
+    "Name": "Bibble Work Queue File",
+    "Extension": ".work"
+  },
+  {
+    "Name": "Translator's Workbench Project File",
+    "Extension": ".wps"
+  },
+  {
+    "Name": "Wondershare Filmora Project File",
+    "Extension": ".wve"
+  },
+  {
+    "Name": "WinZip Configuration File",
+    "Extension": ".wzconfig"
+  },
+  {
+    "Name": "OpenOffice.org Configuration File",
+    "Extension": ".xcu"
+  },
+  {
+    "Name": "XML-Data Reduced File",
+    "Extension": ".xdr"
+  },
+  {
+    "Name": "Excel Toolbars File",
+    "Extension": ".xlb"
+  },
+  {
+    "Name": "OpenOffice.org Module Information File",
+    "Extension": ".xlb"
+  },
+  {
+    "Name": "Music Studio Project",
+    "Extension": ".xms"
+  },
+  {
+    "Name": "Xpadder Controller Profile",
+    "Extension": ".xpaddercontroller"
+  },
+  {
+    "Name": "LcdStudio Playlist File",
+    "Extension": ".xpl"
+  },
+  {
+    "Name": "WebSphere Query Template",
+    "Extension": ".xst"
+  },
+  {
+    "Name": "ConvertXtoDVD Project File",
+    "Extension": ".xtodvd"
+  },
+  {
+    "Name": "AutoCAD Exported Tool Palettes File",
+    "Extension": ".xtp"
+  },
+  {
+    "Name": "Winstep Xtreme Theme Pack",
+    "Extension": ".xtreme"
+  },
+  {
+    "Name": "Xbox 360 User Interface File",
+    "Extension": ".xui"
+  },
+  {
+    "Name": "Xbox 360 Binary User Interface File",
+    "Extension": ".xur"
+  },
+  {
+    "Name": "VMware Console Configuration File",
+    "Extension": ".xvm"
+  },
+  {
+    "Name": "Zero Administration Package File",
+    "Extension": ".zap"
+  },
+  {
+    "Name": "OmniPage Zone Template File",
+    "Extension": ".zon"
+  },
+  {
+    "Name": "Collection Building Custom Zone File",
+    "Extension": ".zon"
+  },
+  {
+    "Name": "Form•Z Preferences File",
+    "Extension": ".zpf"
+  },
+  {
+    "Name": "PDF Converter Index File",
+    "Extension": ".zpi"
+  }
+]

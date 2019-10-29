@@ -1,0 +1,2002 @@
+[
+  {
+    "Name": "M3 DS Real Save File",
+    "Extension": ".0"
+  },
+  {
+    "Name": "Snes9x Slot 2 Saved State",
+    "Extension": ".001"
+  },
+  {
+    "Name": "Nintendo 3DS ROM",
+    "Extension": ".3ds"
+  },
+  {
+    "Name": "Homebrew Launcher File",
+    "Extension": ".3dsx"
+  },
+  {
+    "Name": "SEGA Mega Drive & Genesis Classics ROM File",
+    "Extension": ".68k"
+  },
+  {
+    "Name": "America's Army Map File",
+    "Extension": ".aao"
+  },
+  {
+    "Name": "AC3D 3D Definition File",
+    "Extension": ".ac"
+  },
+  {
+    "Name": "Steam Application Cache File",
+    "Extension": ".acf"
+  },
+  {
+    "Name": "Animal Crossing Wild World Pattern File",
+    "Extension": ".acww"
+  },
+  {
+    "Name": "World of Warcraft Map File",
+    "Extension": ".adt"
+  },
+  {
+    "Name": "Age of Empires 3 Recording",
+    "Extension": ".age3rec"
+  },
+  {
+    "Name": "Age of Empires 3 Save File",
+    "Extension": ".age3sav"
+  },
+  {
+    "Name": "Age of Empires 3 Scenario File",
+    "Extension": ".age3scn"
+  },
+  {
+    "Name": "Age of Empires 3: The WarChiefs Recording",
+    "Extension": ".age3xrec"
+  },
+  {
+    "Name": "Age of Empires 3: The WarChiefs Save File",
+    "Extension": ".age3xsav"
+  },
+  {
+    "Name": "Age of Empires 3: The Asian Dynasties Recording",
+    "Extension": ".age3yrec"
+  },
+  {
+    "Name": "Age of Empires 3: The Asian Dynasties Save File",
+    "Extension": ".age3ysav"
+  },
+  {
+    "Name": "Source Engine Compiled AI Nodegraph File",
+    "Extension": ".ain"
+  },
+  {
+    "Name": "Adventure Maker",
+    "Extension": ".am1"
+  },
+  {
+    "Name": "F.E.A.R. Game Archive",
+    "Extension": ".arch00"
+  },
+  {
+    "Name": "Audition Replay File",
+    "Extension": ".arp"
+  },
+  {
+    "Name": "Grand Theft Auto 3 Saved Game File",
+    "Extension": ".b"
+  },
+  {
+    "Name": "Bethesda Softworks Archive",
+    "Extension": ".ba2"
+  },
+  {
+    "Name": "Age of Empires 3 Data File",
+    "Extension": ".bar"
+  },
+  {
+    "Name": "Gameloft Game Data File",
+    "Extension": ".bdae"
+  },
+  {
+    "Name": "Bejeweled 2 Deluxe Saved Game",
+    "Extension": ".bejeweled2deluxesavedgame"
+  },
+  {
+    "Name": "Big Fish Games Application File",
+    "Extension": ".bfg"
+  },
+  {
+    "Name": "FlatOut Game Data File",
+    "Extension": ".bfs"
+  },
+  {
+    "Name": "Flight Simulator Scenery File",
+    "Extension": ".bgl"
+  },
+  {
+    "Name": "BioWare Infinity Engine File",
+    "Extension": ".bif"
+  },
+  {
+    "Name": "Electronic Arts Game Data File",
+    "Extension": ".big"
+  },
+  {
+    "Name": "Video Game Movie File",
+    "Extension": ".bik"
+  },
+  {
+    "Name": "Sega Genesis Game ROM",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "Nintendo DS Binary File",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "Blackhawk Striker 2 Saved Game",
+    "Extension": ".blackhawkstriker2"
+  },
+  {
+    "Name": "BlasterBall 3 Saved Game",
+    "Extension": ".blasterball3savedgame"
+  },
+  {
+    "Name": "Interactive Fiction Package Game File",
+    "Extension": ".blorb"
+  },
+  {
+    "Name": "Blizzard Texture File",
+    "Extension": ".blp"
+  },
+  {
+    "Name": "Blockland Saved Game File",
+    "Extension": ".bls"
+  },
+  {
+    "Name": "N-Gage Mobile Video Game File",
+    "Extension": ".blz"
+  },
+  {
+    "Name": "MU Online Game Data File",
+    "Extension": ".bmd"
+  },
+  {
+    "Name": "BeatMania 7-Key Song File",
+    "Extension": ".bme"
+  },
+  {
+    "Name": "BeatMania Song File",
+    "Extension": ".bms"
+  },
+  {
+    "Name": "Portal Bonus Map Zip File",
+    "Extension": ".bmz"
+  },
+  {
+    "Name": "Test Drive Unlimited Data Package",
+    "Extension": ".bnk"
+  },
+  {
+    "Name": "Portal Bonus Map Script",
+    "Extension": ".bns"
+  },
+  {
+    "Name": "Minecraft BO2 Object File",
+    "Extension": ".bo2"
+  },
+  {
+    "Name": "Minecraft BO3 Object File",
+    "Extension": ".bo3"
+  },
+  {
+    "Name": "Bookworm Deluxe Saved Game",
+    "Extension": ".bookwormdeluxesavedgame"
+  },
+  {
+    "Name": "BPS Patch File",
+    "Extension": ".bps"
+  },
+  {
+    "Name": "Wii BRRES Resource Package",
+    "Extension": ".brres"
+  },
+  {
+    "Name": "Bethesda Softworks Archive",
+    "Extension": ".bsa"
+  },
+  {
+    "Name": "BioShock Saved Game File",
+    "Extension": ".bsb"
+  },
+  {
+    "Name": "Quake Engine Game Map File",
+    "Extension": ".bsp"
+  },
+  {
+    "Name": "OMSI Bus Configuration File",
+    "Extension": ".bus"
+  },
+  {
+    "Name": "BZFlag World File",
+    "Extension": ".bzw"
+  },
+  {
+    "Name": "Clonk Key File",
+    "Extension": ".c4k"
+  },
+  {
+    "Name": "Nintendo Compressed Archive File",
+    "Extension": ".carc"
+  },
+  {
+    "Name": "ChessBase Database Header File",
+    "Extension": ".cbh"
+  },
+  {
+    "Name": "ChessBase Database File",
+    "Extension": ".cbv"
+  },
+  {
+    "Name": "Trainz Simulator Content Dispatcher Pack",
+    "Extension": ".cdp"
+  },
+  {
+    "Name": "Trainz Classics Content Dispatcher Pack 2",
+    "Extension": ".cdp2"
+  },
+  {
+    "Name": "Crytek Geometry Format File",
+    "Extension": ".cgf"
+  },
+  {
+    "Name": "Cube Map File",
+    "Extension": ".cgz"
+  },
+  {
+    "Name": "MAME Hard Disk Image",
+    "Extension": ".chd"
+  },
+  {
+    "Name": "StarCraft Chunk File",
+    "Extension": ".chk"
+  },
+  {
+    "Name": "Grand Theft Auto 5 Clip",
+    "Extension": ".clip"
+  },
+  {
+    "Name": "Compiled Game Resource File",
+    "Extension": ".compiled"
+  },
+  {
+    "Name": "Super Mario ReMaker Course File",
+    "Extension": ".course"
+  },
+  {
+    "Name": "Age of Mythology Campaign File",
+    "Extension": ".cpn"
+  },
+  {
+    "Name": "Cities: Skylines Colossal Raw Asset Package",
+    "Extension": ".crp"
+  },
+  {
+    "Name": "Cheat Engine Cheat Table",
+    "Extension": ".ct"
+  },
+  {
+    "Name": "Valve ICE Encoded Script",
+    "Extension": ".ctx"
+  },
+  {
+    "Name": "SimCity City File",
+    "Extension": ".cty"
+  },
+  {
+    "Name": "Minecraft Data File",
+    "Extension": ".dat"
+  },
+  {
+    "Name": "Minecraft World Level File",
+    "Extension": ".dat_new"
+  },
+  {
+    "Name": "Dragon Age: Origins Game File",
+    "Extension": ".dazip"
+  },
+  {
+    "Name": "Command & Conquer: Renegade Data File",
+    "Extension": ".ddb"
+  },
+  {
+    "Name": "Football Manager Keep Player Data File",
+    "Extension": ".ddt"
+  },
+  {
+    "Name": "Magic: The Gathering Online Deck File",
+    "Extension": ".dec"
+  },
+  {
+    "Name": "Magic: The Gathering Deck File",
+    "Extension": ".dek"
+  },
+  {
+    "Name": "Yugioh Virtual Desktop Deck File",
+    "Extension": ".dek"
+  },
+  {
+    "Name": "LackeyCCG Card Deck File",
+    "Extension": ".dek"
+  },
+  {
+    "Name": "Video Game Demo File",
+    "Extension": ".dem"
+  },
+  {
+    "Name": "MAME CHD Diff File",
+    "Extension": ".dif"
+  },
+  {
+    "Name": "Zoo Tycoon 2 Data File",
+    "Extension": ".dl"
+  },
+  {
+    "Name": "Quake 2 Demo File",
+    "Extension": ".dm2"
+  },
+  {
+    "Name": "Wolfenstein 1.00 Demo Movie File",
+    "Extension": ".dm_82"
+  },
+  {
+    "Name": "Wolfenstein 1.02 Demo Movie File",
+    "Extension": ".dm_83"
+  },
+  {
+    "Name": "Wolfenstein 2.06 Demo Movie File",
+    "Extension": ".dm_84"
+  },
+  {
+    "Name": "BYOND Game Executable",
+    "Extension": ".dmb"
+  },
+  {
+    "Name": "Duke Nukem 3D Demo File",
+    "Extension": ".dmo"
+  },
+  {
+    "Name": "Cube 2: Sauerbraten Demo File",
+    "Extension": ".dmo"
+  },
+  {
+    "Name": "Duke Nukem Forever Map File",
+    "Extension": ".dnf"
+  },
+  {
+    "Name": "Duke Nukem Forever Save File",
+    "Extension": ".dns"
+  },
+  {
+    "Name": "GameCube Executable File",
+    "Extension": ".dol"
+  },
+  {
+    "Name": "Doom Saved Game",
+    "Extension": ".dsg"
+  },
+  {
+    "Name": "Action Replay Max DS Save File",
+    "Extension": ".duc"
+  },
+  {
+    "Name": "Dungeon Defenders Saved Game File",
+    "Extension": ".dun"
+  },
+  {
+    "Name": "Divinity 2 Data File",
+    "Extension": ".dv2"
+  },
+  {
+    "Name": "Pangea Enigmo 2 Custom Game File",
+    "Extension": ".e2gm"
+  },
+  {
+    "Name": "EclipseCrossword Word List File",
+    "Extension": ".ecw"
+  },
+  {
+    "Name": "Enigmo Custom Game File",
+    "Extension": ".egm"
+  },
+  {
+    "Name": "PlayStation Executable File",
+    "Extension": ".elf"
+  },
+  {
+    "Name": "Chess Engine",
+    "Extension": ".eng"
+  },
+  {
+    "Name": "Metin2 Game Data Package",
+    "Extension": ".epk"
+  },
+  {
+    "Name": "Evil Genius Resource File",
+    "Extension": ".erb"
+  },
+  {
+    "Name": "BioWare Entity Resource File",
+    "Extension": ".erf"
+  },
+  {
+    "Name": "Alter Ego Game Archive",
+    "Extension": ".erp"
+  },
+  {
+    "Name": "Prison Architect Escape Mode Save File",
+    "Extension": ".escape"
+  },
+  {
+    "Name": "Enigmo Saved Game File",
+    "Extension": ".esg"
+  },
+  {
+    "Name": "Elder Scrolls Master File",
+    "Extension": ".esm"
+  },
+  {
+    "Name": "Fallout 3 Master File",
+    "Extension": ".esm"
+  },
+  {
+    "Name": "Elder Scrolls Plugin File",
+    "Extension": ".esp"
+  },
+  {
+    "Name": "Fallout 3 Plugin File",
+    "Extension": ".esp"
+  },
+  {
+    "Name": "The Elder Scrolls Saved Game",
+    "Extension": ".ess"
+  },
+  {
+    "Name": "The Sims Archive File",
+    "Extension": ".far"
+  },
+  {
+    "Name": "fCraft World File",
+    "Extension": ".fcm"
+  },
+  {
+    "Name": "FCEUX Save State File",
+    "Extension": ".fcs"
+  },
+  {
+    "Name": "Call of Duty 4 Fast File",
+    "Extension": ".ff"
+  },
+  {
+    "Name": "Forge Game Data File",
+    "Extension": ".fgd"
+  },
+  {
+    "Name": "Freelancer Saved Game File",
+    "Extension": ".fl"
+  },
+  {
+    "Name": "WWE RAW Character File",
+    "Extension": ".fml"
+  },
+  {
+    "Name": "Fallout Mod Archive",
+    "Extension": ".fomod"
+  },
+  {
+    "Name": "Assassin's Creed Game Data File",
+    "Extension": ".forge"
+  },
+  {
+    "Name": "Fallout 3 Saved Game",
+    "Extension": ".fos"
+  },
+  {
+    "Name": "FPS Creator Game Project File",
+    "Extension": ".fpg"
+  },
+  {
+    "Name": "Spider-Man: Shattered Dimensions Saved Game",
+    "Extension": ".fpop"
+  },
+  {
+    "Name": "FPS Creator Segment File",
+    "Extension": ".fps"
+  },
+  {
+    "Name": "Snes9x Saved State",
+    "Extension": ".frz"
+  },
+  {
+    "Name": "FreeSpace 2 Saved Mission File",
+    "Extension": ".fs2"
+  },
+  {
+    "Name": "FreeSpace Mission File",
+    "Extension": ".fsm"
+  },
+  {
+    "Name": "Flight Simulator Save File",
+    "Extension": ".fssave"
+  },
+  {
+    "Name": "Crazy Machines 2 Object File",
+    "Extension": ".fst"
+  },
+  {
+    "Name": "Postal 2 Map File",
+    "Extension": ".fuk"
+  },
+  {
+    "Name": "RealFlight Content File",
+    "Extension": ".g3x"
+  },
+  {
+    "Name": "Blizzard Galaxy File",
+    "Extension": ".galaxy"
+  },
+  {
+    "Name": "Saved Game File",
+    "Extension": ".gam"
+  },
+  {
+    "Name": "GameSalad Exported Game File",
+    "Extension": ".game"
+  },
+  {
+    "Name": "Game Boy ROM File",
+    "Extension": ".gb"
+  },
+  {
+    "Name": "Game Boy Advance ROM",
+    "Extension": ".gba"
+  },
+  {
+    "Name": "Game Boy Advance Controller Skin File",
+    "Extension": ".gbaskin"
+  },
+  {
+    "Name": "Game Boy Color ROM",
+    "Extension": ".gbc"
+  },
+  {
+    "Name": "Game Boy Color Controller Skin File",
+    "Extension": ".gbcskin"
+  },
+  {
+    "Name": "Nadeo Game File",
+    "Extension": ".gbx"
+  },
+  {
+    "Name": "Game Cache File",
+    "Extension": ".gcf"
+  },
+  {
+    "Name": "GDevelop Project File",
+    "Extension": ".gdg"
+  },
+  {
+    "Name": "Dreamcast Gigabyte Disc Image",
+    "Extension": ".gdi"
+  },
+  {
+    "Name": "Sega Genesis ROM",
+    "Extension": ".gen"
+  },
+  {
+    "Name": "GFx Scaleform File",
+    "Extension": ".gfx"
+  },
+  {
+    "Name": "Garry's Mod Addon File",
+    "Extension": ".gma"
+  },
+  {
+    "Name": "GameMaker Resource File",
+    "Extension": ".gmres"
+  },
+  {
+    "Name": "Garry's Mod Save File",
+    "Extension": ".gms"
+  },
+  {
+    "Name": "GRAVITY Ragnarok Online Patch File",
+    "Extension": ".gpf"
+  },
+  {
+    "Name": "Granny 3D File",
+    "Extension": ".gr2"
+  },
+  {
+    "Name": "Ragnarok Client Archive",
+    "Extension": ".grf"
+  },
+  {
+    "Name": "Transport Tycoon Graphics Resource File",
+    "Extension": ".grf"
+  },
+  {
+    "Name": "StarCraft Graphics Group File",
+    "Extension": ".grp"
+  },
+  {
+    "Name": "Call of Duty Game Script",
+    "Extension": ".gsc"
+  },
+  {
+    "Name": "Heroes 3 Map File",
+    "Extension": ".h3m"
+  },
+  {
+    "Name": "Heroes of Might and Magic IV Data File",
+    "Extension": ".h4r"
+  },
+  {
+    "Name": "Heroes of Might and Magic V Mod File",
+    "Extension": ".h5u"
+  },
+  {
+    "Name": "The Sims Sound File",
+    "Extension": ".hit"
+  },
+  {
+    "Name": "HON Modification Manager File",
+    "Extension": ".honmod"
+  },
+  {
+    "Name": "The Sims Sound File",
+    "Extension": ".hot"
+  },
+  {
+    "Name": "HPL Script",
+    "Extension": ".hps"
+  },
+  {
+    "Name": "OMSI Human Configuration File",
+    "Extension": ".hum"
+  },
+  {
+    "Name": "Texture and Model File",
+    "Extension": ".ibt"
+  },
+  {
+    "Name": "Runescape Cache Index File",
+    "Extension": ".idx0"
+  },
+  {
+    "Name": "Runescape Cache File",
+    "Extension": ".idx255"
+  },
+  {
+    "Name": "GTA Animation File",
+    "Extension": ".ifp"
+  },
+  {
+    "Name": "Grand Theft Auto Data File",
+    "Extension": ".img"
+  },
+  {
+    "Name": "Minecraft Forge Information File",
+    "Extension": ".info"
+  },
+  {
+    "Name": "Inform Project",
+    "Extension": ".inform"
+  },
+  {
+    "Name": "GTA Item Placement File",
+    "Extension": ".ipl"
+  },
+  {
+    "Name": "Internal Patching System Patch File",
+    "Extension": ".ips"
+  },
+  {
+    "Name": "GoMoku Game File",
+    "Extension": ".isr"
+  },
+  {
+    "Name": "Call of Duty Game Data File",
+    "Extension": ".iwd"
+  },
+  {
+    "Name": "Jazz 2 Internet Link File",
+    "Extension": ".j2i"
+  },
+  {
+    "Name": "Jazz Jackrabbit 2 Level File",
+    "Extension": ".j2l"
+  },
+  {
+    "Name": "Nonogram Puzzle File",
+    "Extension": ".jap"
+  },
+  {
+    "Name": "BigJig Jigsaw Puzzle",
+    "Extension": ".jg4"
+  },
+  {
+    "Name": "Jackhammer Project",
+    "Extension": ".jmf"
+  },
+  {
+    "Name": "Jnes Save State",
+    "Extension": ".jst"
+  },
+  {
+    "Name": "Kodu Game File",
+    "Extension": ".kodu"
+  },
+  {
+    "Name": "Command & Conquer 3 Replay File",
+    "Extension": ".kwreplay"
+  },
+  {
+    "Name": "Max Payne Level File",
+    "Extension": ".ldb"
+  },
+  {
+    "Name": "Virtual Villagers Saved Game File",
+    "Extension": ".ldw"
+  },
+  {
+    "Name": "LeechGet Download List",
+    "Extension": ".lgl"
+  },
+  {
+    "Name": "Final Fantasy Media Archive",
+    "Extension": ".lgp"
+  },
+  {
+    "Name": "Bethesda Softworks Lip Sync File",
+    "Extension": ".lip"
+  },
+  {
+    "Name": "Real Virtuality Lip Sync File",
+    "Extension": ".lip"
+  },
+  {
+    "Name": "Minecraft LiteLoader Mod File",
+    "Extension": ".litemod"
+  },
+  {
+    "Name": "List & Label Preview File",
+    "Extension": ".ll"
+  },
+  {
+    "Name": "Quake Engine Lump File",
+    "Extension": ".lmp"
+  },
+  {
+    "Name": "RPG Maker Map File",
+    "Extension": ".lmu"
+  },
+  {
+    "Name": "Heroes of Might and Magic 3 Graphics File",
+    "Extension": ".lod"
+  },
+  {
+    "Name": "LÖVE Game File",
+    "Extension": ".love"
+  },
+  {
+    "Name": "League of Legends Replay File",
+    "Extension": ".lrf"
+  },
+  {
+    "Name": "RPG Maker Game Save File",
+    "Extension": ".lsd"
+  },
+  {
+    "Name": "RPG Maker Saved Game File",
+    "Extension": ".lsw"
+  },
+  {
+    "Name": "S.T.A.L.K.E.R. Properties File",
+    "Extension": ".ltx"
+  },
+  {
+    "Name": "Lux Map File",
+    "Extension": ".luxb"
+  },
+  {
+    "Name": "Game Level File",
+    "Extension": ".lvl"
+  },
+  {
+    "Name": "World or Warcraft Model Object",
+    "Extension": ".m2"
+  },
+  {
+    "Name": "My Avatar Editor Character File",
+    "Extension": ".mae"
+  },
+  {
+    "Name": "Mahjong Titans Saved Game",
+    "Extension": ".mahjongtitanssave-ms"
+  },
+  {
+    "Name": "Quake Engine Map File",
+    "Extension": ".map"
+  },
+  {
+    "Name": "Halo Map File",
+    "Extension": ".map"
+  },
+  {
+    "Name": "Maplet World File",
+    "Extension": ".maplet"
+  },
+  {
+    "Name": "rFactor Track File",
+    "Extension": ".mas"
+  },
+  {
+    "Name": "Mass Effect Player Profile",
+    "Extension": ".masseffectprofile"
+  },
+  {
+    "Name": "Mass Effect Saved Game",
+    "Extension": ".masseffectsave"
+  },
+  {
+    "Name": "Minecraft \"Anvil\" Map File",
+    "Extension": ".mca"
+  },
+  {
+    "Name": "Minecraft Anvil PocketMine Data File",
+    "Extension": ".mcapm"
+  },
+  {
+    "Name": "Minecraft Resource Pack File",
+    "Extension": ".mcpack"
+  },
+  {
+    "Name": "Minecraft Region File",
+    "Extension": ".mcr"
+  },
+  {
+    "Name": "Minecraft Server File",
+    "Extension": ".mcserver"
+  },
+  {
+    "Name": "Minecraft World Backup File",
+    "Extension": ".mcworld"
+  },
+  {
+    "Name": "Quake 2 Player Model",
+    "Extension": ".md2"
+  },
+  {
+    "Name": "Quake 3 3D Model",
+    "Extension": ".md3"
+  },
+  {
+    "Name": "Half-Life Model File",
+    "Extension": ".mdl"
+  },
+  {
+    "Name": "Quake 3 Engine Menu File",
+    "Extension": ".menu"
+  },
+  {
+    "Name": "Age of Empires 2 Replay File",
+    "Extension": ".mgl"
+  },
+  {
+    "Name": "Age of Empires 2 Expansion Replay File",
+    "Extension": ".mgx"
+  },
+  {
+    "Name": "Rise of Nations Saved Game",
+    "Extension": ".mgx"
+  },
+  {
+    "Name": "Wii Virtual Avatar File",
+    "Extension": ".mii"
+  },
+  {
+    "Name": "Minesweeper Saved Game",
+    "Extension": ".minesweepersave-ms"
+  },
+  {
+    "Name": "Saved Game Mission File",
+    "Extension": ".mis"
+  },
+  {
+    "Name": "Marble Blast Gold Mission File",
+    "Extension": ".mis"
+  },
+  {
+    "Name": "Max Payne 2 Mod File",
+    "Extension": ".mp2m"
+  },
+  {
+    "Name": "Max Payne 2 Saved Game",
+    "Extension": ".mp2s"
+  },
+  {
+    "Name": "Max Payne Modfication File",
+    "Extension": ".mpm"
+  },
+  {
+    "Name": "Blizzard Mo'PaQ File",
+    "Extension": ".mpq"
+  },
+  {
+    "Name": "GunZ Game Data File",
+    "Extension": ".mrs"
+  },
+  {
+    "Name": "Ultima Online Multi File",
+    "Extension": ".mul"
+  },
+  {
+    "Name": "Super Mario World Level",
+    "Extension": ".mwl"
+  },
+  {
+    "Name": "N-Gage Application",
+    "Extension": ".n-gage"
+  },
+  {
+    "Name": "Knight Online 3D Mesh File",
+    "Extension": ".n3pmesh"
+  },
+  {
+    "Name": "Nintendo 64 Emulator ROM File",
+    "Extension": ".n64"
+  },
+  {
+    "Name": "Nexon game archive",
+    "Extension": ".nar"
+  },
+  {
+    "Name": "Nintendo DS Archive File",
+    "Extension": ".narc"
+  },
+  {
+    "Name": "Nintendo Content Archive",
+    "Extension": ".nca"
+  },
+  {
+    "Name": "No Cache File",
+    "Extension": ".ncf"
+  },
+  {
+    "Name": "Nintendo DS Game ROM",
+    "Extension": ".nds"
+  },
+  {
+    "Name": "Nintendo (NES) ROM File",
+    "Extension": ".nes"
+  },
+  {
+    "Name": "N-Gage Game File",
+    "Extension": ".ngage"
+  },
+  {
+    "Name": "NeoGeo Pocket ROM",
+    "Extension": ".ngp"
+  },
+  {
+    "Name": "NoLimits 2 Script File",
+    "Extension": ".nl2script"
+  },
+  {
+    "Name": "NoLimits Roller Coaster Track File",
+    "Extension": ".nltrack"
+  },
+  {
+    "Name": "Steins;Gate Archive",
+    "Extension": ".npa"
+  },
+  {
+    "Name": "Nintendo Switch Executable File",
+    "Extension": ".nro"
+  },
+  {
+    "Name": "Nestopia Save State",
+    "Extension": ".ns1"
+  },
+  {
+    "Name": "Nintendo DS Model Animation File",
+    "Extension": ".nsbca"
+  },
+  {
+    "Name": "Nintendo DS Model File",
+    "Extension": ".nsbmd"
+  },
+  {
+    "Name": "Nintendo DS Model Texture File",
+    "Extension": ".nsbtx"
+  },
+  {
+    "Name": "Pacific FIghters Online Track File",
+    "Extension": ".ntrk"
+  },
+  {
+    "Name": "Oblivion Mod Archive",
+    "Extension": ".omod"
+  },
+  {
+    "Name": "Osu! Skin File",
+    "Extension": ".osk"
+  },
+  {
+    "Name": "Osu! Replay File",
+    "Extension": ".osr"
+  },
+  {
+    "Name": "Osu! Beatmap File",
+    "Extension": ".osz"
+  },
+  {
+    "Name": "OMSI Vehicle Configuration File",
+    "Extension": ".ovh"
+  },
+  {
+    "Name": "PlayStation 3 Theme File",
+    "Extension": ".p3t"
+  },
+  {
+    "Name": "Electronic Arts Game Package File",
+    "Extension": ".package"
+  },
+  {
+    "Name": "Video Game Package",
+    "Extension": ".pak"
+  },
+  {
+    "Name": "Game Save Backup File",
+    "Extension": ".papa"
+  },
+  {
+    "Name": "Portable Bridge Notation File",
+    "Extension": ".pbn"
+  },
+  {
+    "Name": "PSP Firmware Update File",
+    "Extension": ".pbp"
+  },
+  {
+    "Name": "Mass Effect Package",
+    "Extension": ".pcc"
+  },
+  {
+    "Name": "Perfect World Data File",
+    "Extension": ".pck"
+  },
+  {
+    "Name": "Mass Effect 2 Saved Game",
+    "Extension": ".pcsav"
+  },
+  {
+    "Name": "Peggle Nights Replay File",
+    "Extension": ".pegn"
+  },
+  {
+    "Name": "Portable Game Notation File",
+    "Extension": ".pgn"
+  },
+  {
+    "Name": "Algodoo Phun Phunlet",
+    "Extension": ".phn"
+  },
+  {
+    "Name": "Project64 Saved State File",
+    "Extension": ".pj"
+  },
+  {
+    "Name": "Quake 3 Engine Game Data File",
+    "Extension": ".pk3"
+  },
+  {
+    "Name": "Doom 3 Engine Game Data File",
+    "Extension": ".pk4"
+  },
+  {
+    "Name": "PlayStation Store Downloaded Package",
+    "Extension": ".pkg"
+  },
+  {
+    "Name": "Decrypted 3DS Pokémon Save File",
+    "Extension": ".pkx"
+  },
+  {
+    "Name": "Terraria Mobile Player File",
+    "Extension": ".player"
+  },
+  {
+    "Name": "MissionPlayer Game File",
+    "Extension": ".playmission"
+  },
+  {
+    "Name": "Flight Simulator Flight Plan",
+    "Extension": ".pln"
+  },
+  {
+    "Name": "Terraria Player File",
+    "Extension": ".plr"
+  },
+  {
+    "Name": "rFactor Player File",
+    "Extension": ".plr"
+  },
+  {
+    "Name": "Terminal Reality Game Data File",
+    "Extension": ".pod"
+  },
+  {
+    "Name": "Puzzle Quest Saved Game",
+    "Extension": ".pqhero"
+  },
+  {
+    "Name": "Thrillville Park File",
+    "Extension": ".prk"
+  },
+  {
+    "Name": "PlayStation 2 Game Video File",
+    "Extension": ".pss"
+  },
+  {
+    "Name": "EGO Engine Textures File",
+    "Extension": ".pssg"
+  },
+  {
+    "Name": "PlayStation 2 Save File",
+    "Extension": ".psv"
+  },
+  {
+    "Name": "Across Lite Crossword Puzzle",
+    "Extension": ".puz"
+  },
+  {
+    "Name": "Counter-Strike PODBot Waypoint File",
+    "Extension": ".pwf"
+  },
+  {
+    "Name": "Counter-Strike PODBot Experience File",
+    "Extension": ".pxp"
+  },
+  {
+    "Name": "QuakeC Source Code File",
+    "Extension": ".qc"
+  },
+  {
+    "Name": "Quake 3 Virtual Machine File",
+    "Extension": ".qvm"
+  },
+  {
+    "Name": "QuakeWorld Demo File",
+    "Extension": ".qwd"
+  },
+  {
+    "Name": "Need for Madness Game Archive",
+    "Extension": ".radq"
+  },
+  {
+    "Name": "Dolphin Wii and Gamecube Emulator Game Save File",
+    "Extension": ".raw"
+  },
+  {
+    "Name": "ROBLOX Location File",
+    "Extension": ".rbxl"
+  },
+  {
+    "Name": "ROBLOX Model",
+    "Extension": ".rbxm"
+  },
+  {
+    "Name": "ROBLOX Model",
+    "Extension": ".rbxmx"
+  },
+  {
+    "Name": "Grand Theft Auto Replay File",
+    "Extension": ".rep"
+  },
+  {
+    "Name": "StarCraft Replay File",
+    "Extension": ".rep"
+  },
+  {
+    "Name": "Lithtech Game Engine Resource File",
+    "Extension": ".rez"
+  },
+  {
+    "Name": "rFactor Modification File",
+    "Extension": ".rfm"
+  },
+  {
+    "Name": "Raft Saved Game File",
+    "Extension": ".rgd"
+  },
+  {
+    "Name": "RPG Maker VX Ace RGSS Encrypted Archive",
+    "Extension": ".rgss3a"
+  },
+  {
+    "Name": "RPG Maker VX RGSS Encrypted Archive",
+    "Extension": ".rgssad"
+  },
+  {
+    "Name": "N64 Game ROM File",
+    "Extension": ".rom"
+  },
+  {
+    "Name": "Homeworld 2 Graphics File",
+    "Extension": ".rot"
+  },
+  {
+    "Name": "Grand Theft Auto Data File",
+    "Extension": ".rpf"
+  },
+  {
+    "Name": "RPG Maker MV Project",
+    "Extension": ".rpgproject"
+  },
+  {
+    "Name": "Toribash Replay File",
+    "Extension": ".rpl"
+  },
+  {
+    "Name": "Touhou Project Replay File",
+    "Extension": ".rpy"
+  },
+  {
+    "Name": "Robinson Technologies Texture File",
+    "Extension": ".rttex"
+  },
+  {
+    "Name": "RPG Maker VX Data File",
+    "Extension": ".rvdata"
+  },
+  {
+    "Name": "RPG Maker VX Ace Data File",
+    "Extension": ".rvdata2"
+  },
+  {
+    "Name": "RPG Maker VX Project File",
+    "Extension": ".rvproj"
+  },
+  {
+    "Name": "RPG Maker VX Ace Project File",
+    "Extension": ".rvproj2"
+  },
+  {
+    "Name": "RMXP Data File",
+    "Extension": ".rxdata"
+  },
+  {
+    "Name": "Heroes of Newerth Game Data File",
+    "Extension": ".s2z"
+  },
+  {
+    "Name": "Black & White Audio File",
+    "Extension": ".sad"
+  },
+  {
+    "Name": "Grand Theft Auto San Andres Mod Installer File",
+    "Extension": ".sami"
+  },
+  {
+    "Name": "Saved Game",
+    "Extension": ".sav"
+  },
+  {
+    "Name": "Mass Effect 3 Saved Game",
+    "Extension": ".sav"
+  },
+  {
+    "Name": "Nintendo DS Save File",
+    "Extension": ".sav"
+  },
+  {
+    "Name": "The Sims 4 Save File",
+    "Extension": ".save"
+  },
+  {
+    "Name": "Blizzard StarCraft 2 Archive File",
+    "Extension": ".sc2archive"
+  },
+  {
+    "Name": "Blizzard StarCraft 2 Assets File",
+    "Extension": ".sc2assets"
+  },
+  {
+    "Name": "StarCraft 2 Bank File",
+    "Extension": ".sc2bank"
+  },
+  {
+    "Name": "Blizzard StarCraft 2 Data File",
+    "Extension": ".sc2data"
+  },
+  {
+    "Name": "StarCraft 2 Map Data File",
+    "Extension": ".sc2ma"
+  },
+  {
+    "Name": "Blizzard StarCraft 2 Map File",
+    "Extension": ".sc2map"
+  },
+  {
+    "Name": "Blizzard StarCraft 2 Modification File",
+    "Extension": ".sc2mod"
+  },
+  {
+    "Name": "Blizzard StarCraft 2 Replay File",
+    "Extension": ".sc2replay"
+  },
+  {
+    "Name": "Blizzard StarCraft 2 Saved Game",
+    "Extension": ".sc2save"
+  },
+  {
+    "Name": "SimCity 4 Saved File",
+    "Extension": ".sc4"
+  },
+  {
+    "Name": "SimCity 4 Description File",
+    "Extension": ".sc4desc"
+  },
+  {
+    "Name": "SimCity 4 Lot File",
+    "Extension": ".sc4lot"
+  },
+  {
+    "Name": "MCEdit Schematic File",
+    "Extension": ".schematic"
+  },
+  {
+    "Name": "CLEO Compiled Script",
+    "Extension": ".scm"
+  },
+  {
+    "Name": "Age of Mythology Scenario File",
+    "Extension": ".scn"
+  },
+  {
+    "Name": "SimCity Scenario File",
+    "Extension": ".scn"
+  },
+  {
+    "Name": "SimCity Societies Saved Game File",
+    "Extension": ".scs"
+  },
+  {
+    "Name": "Prism3D Game Data File",
+    "Extension": ".scs"
+  },
+  {
+    "Name": "Survivalcraft World File",
+    "Extension": ".scworld"
+  },
+  {
+    "Name": "Game Scenario File",
+    "Extension": ".scx"
+  },
+  {
+    "Name": "Microsoft Game Scenario File",
+    "Extension": ".scx"
+  },
+  {
+    "Name": "Spring Content Package",
+    "Extension": ".sd7"
+  },
+  {
+    "Name": "Grand Theft Auto 3 Audio File",
+    "Extension": ".sdt"
+  },
+  {
+    "Name": "Spring Content Package",
+    "Extension": ".sdz"
+  },
+  {
+    "Name": "Mass Effect 3 DLC File",
+    "Extension": ".sfar"
+  },
+  {
+    "Name": "Super Nintendo ROM",
+    "Extension": ".sfc"
+  },
+  {
+    "Name": "PSP Game Parameters File",
+    "Extension": ".sfo"
+  },
+  {
+    "Name": "Humongous Entertainment Game Save File",
+    "Extension": ".sg0"
+  },
+  {
+    "Name": "Relic Entertainment Game Archive",
+    "Extension": ".sga"
+  },
+  {
+    "Name": "Dawn of War Map File",
+    "Extension": ".sgb"
+  },
+  {
+    "Name": "Super Game Boy ROM File",
+    "Extension": ".sgb"
+  },
+  {
+    "Name": "Smart Game Format File",
+    "Extension": ".sgf"
+  },
+  {
+    "Name": "VisualBoyAdvance Saved Game",
+    "Extension": ".sgm"
+  },
+  {
+    "Name": "Baltie Project",
+    "Extension": ".sgpbprj"
+  },
+  {
+    "Name": "Steam Game Data Backup File",
+    "Extension": ".sid"
+  },
+  {
+    "Name": "18 Wheels of Steel: Haulin' Truck Definition File",
+    "Extension": ".sii"
+  },
+  {
+    "Name": "Downloaded Sims 2 Package File",
+    "Extension": ".sims2pack"
+  },
+  {
+    "Name": "The Sims 3 Game Save File",
+    "Extension": ".sims3"
+  },
+  {
+    "Name": "The Sims 3 Package File",
+    "Extension": ".sims3pack"
+  },
+  {
+    "Name": "OMSI Spline Configuration File",
+    "Extension": ".sli"
+  },
+  {
+    "Name": "StepMania Song File",
+    "Extension": ".sm"
+  },
+  {
+    "Name": "Super Nintendo Game ROM",
+    "Extension": ".smc"
+  },
+  {
+    "Name": "Sega Mega Drive ROM",
+    "Extension": ".smd"
+  },
+  {
+    "Name": "Sid Meier's Railroads! Saved Game",
+    "Extension": ".smrailroadssavedgame"
+  },
+  {
+    "Name": "StepMania Package",
+    "Extension": ".smzip"
+  },
+  {
+    "Name": "Player Studio Viewer Item File",
+    "Extension": ".soepsx"
+  },
+  {
+    "Name": "Flight Simulator Mission File",
+    "Extension": ".spb"
+  },
+  {
+    "Name": "SNES Soundtrack File",
+    "Extension": ".spc"
+  },
+  {
+    "Name": "Simple Planes Plane File",
+    "Extension": ".splane"
+  },
+  {
+    "Name": "SuperTux Sprite File",
+    "Extension": ".sprite"
+  },
+  {
+    "Name": "ArmA Script File",
+    "Extension": ".sqf"
+  },
+  {
+    "Name": "Operation Flashpoint Mission File",
+    "Extension": ".sqm"
+  },
+  {
+    "Name": "Super Nintendo ROM Save File",
+    "Extension": ".srm"
+  },
+  {
+    "Name": "StepMania Song File",
+    "Extension": ".ssc"
+  },
+  {
+    "Name": "MAME Saved State File",
+    "Extension": ".sta"
+  },
+  {
+    "Name": "Stencyl Game File",
+    "Extension": ".stencyl"
+  },
+  {
+    "Name": "Sudoku Puzzle File",
+    "Extension": ".sud"
+  },
+  {
+    "Name": "BigJig Saved Puzzle",
+    "Extension": ".sv5"
+  },
+  {
+    "Name": "Game Boy Advance Saved State File",
+    "Extension": ".svs"
+  },
+  {
+    "Name": "Super Nintendo Wild Card ROM File",
+    "Extension": ".swc"
+  },
+  {
+    "Name": "Toribash Mod File",
+    "Extension": ".tbm"
+  },
+  {
+    "Name": "Alamo Map File",
+    "Extension": ".ted"
+  },
+  {
+    "Name": "Tomb Raider Game Data Archive",
+    "Extension": ".tiger"
+  },
+  {
+    "Name": "The Incredible Machine Level",
+    "Extension": ".tim"
+  },
+  {
+    "Name": "World of Warcraft Add-on Table of Contents File",
+    "Extension": ".toc"
+  },
+  {
+    "Name": "Star Wars: The Old Republic Asset File",
+    "Extension": ".tor"
+  },
+  {
+    "Name": "Telltale Games Archive",
+    "Extension": ".ttarch"
+  },
+  {
+    "Name": "Carmageddon 2 Data File",
+    "Extension": ".twt"
+  },
+  {
+    "Name": "Unreal Tournament Class Package",
+    "Extension": ".u"
+  },
+  {
+    "Name": "Mario Kart Wii Archive",
+    "Extension": ".u8"
+  },
+  {
+    "Name": "Unreal Asset File",
+    "Extension": ".uasset"
+  },
+  {
+    "Name": "UnrealScript Class",
+    "Extension": ".uc"
+  },
+  {
+    "Name": "Unreal Engine Map File",
+    "Extension": ".udk"
+  },
+  {
+    "Name": "Unreal Animation Package",
+    "Extension": ".ukx"
+  },
+  {
+    "Name": "Splinter Cell Blacklist Game Data File",
+    "Extension": ".umd"
+  },
+  {
+    "Name": "Unreal Tournament Module File",
+    "Extension": ".umod"
+  },
+  {
+    "Name": "Unreal Music Package",
+    "Extension": ".umx"
+  },
+  {
+    "Name": "UNIF ROM File",
+    "Extension": ".unf"
+  },
+  {
+    "Name": "Unity Scene File",
+    "Extension": ".unity"
+  },
+  {
+    "Name": "Unity Web Player Archive",
+    "Extension": ".unity3d"
+  },
+  {
+    "Name": "Unity 3D Project",
+    "Extension": ".unityproj"
+  },
+  {
+    "Name": "Unreal Level Map",
+    "Extension": ".unr"
+  },
+  {
+    "Name": "Unreal Engine 3 Package",
+    "Extension": ".upk"
+  },
+  {
+    "Name": "UPS Patch File",
+    "Extension": ".ups"
+  },
+  {
+    "Name": "Unreal Saved Game File",
+    "Extension": ".usa"
+  },
+  {
+    "Name": "Unreal Static Meshes",
+    "Extension": ".usx"
+  },
+  {
+    "Name": "Unreal Tournament Map",
+    "Extension": ".ut2"
+  },
+  {
+    "Name": "Unreal Tournament 2003/2004 Module File",
+    "Extension": ".ut2mod"
+  },
+  {
+    "Name": "Unreal Tournament 3 Map File",
+    "Extension": ".ut3"
+  },
+  {
+    "Name": "Unreal Tournament 2004 Module",
+    "Extension": ".ut4mod"
+  },
+  {
+    "Name": "Bioware Creature File",
+    "Extension": ".utc"
+  },
+  {
+    "Name": "Unreal Texture Package",
+    "Extension": ".utx"
+  },
+  {
+    "Name": "Unreal Tournament 2003 Saved Game",
+    "Extension": ".uvx"
+  },
+  {
+    "Name": "Unreal Tournament Cache",
+    "Extension": ".uxx"
+  },
+  {
+    "Name": "Nintendo 64 ROM Dump",
+    "Extension": ".v64"
+  },
+  {
+    "Name": "Virtual Boy ROM File",
+    "Extension": ".vb"
+  },
+  {
+    "Name": "Vice City Mod Manager File",
+    "Extension": ".vcm"
+  },
+  {
+    "Name": "Valve Data File",
+    "Extension": ".vdf"
+  },
+  {
+    "Name": "Metro 2033 Sound File",
+    "Extension": ".vfs0"
+  },
+  {
+    "Name": "Valve Map File",
+    "Extension": ".vmf"
+  },
+  {
+    "Name": "VisualBoyAdvance Recording",
+    "Extension": ".vmv"
+  },
+  {
+    "Name": "VirtuaNES Recording",
+    "Extension": ".vmv"
+  },
+  {
+    "Name": "Live for Speed Car File",
+    "Extension": ".vob"
+  },
+  {
+    "Name": "Video Game Archive",
+    "Extension": ".vol"
+  },
+  {
+    "Name": "Valve Pak",
+    "Extension": ".vpk"
+  },
+  {
+    "Name": "Valve Texture File",
+    "Extension": ".vtf"
+  },
+  {
+    "Name": "Warcraft 3 Replay File",
+    "Extension": ".w3g"
+  },
+  {
+    "Name": "Warcraft 3 Map File",
+    "Extension": ".w3m"
+  },
+  {
+    "Name": "Warcraft 3 Expansion Campaign Map File",
+    "Extension": ".w3n"
+  },
+  {
+    "Name": "Warcraft 3 Expansion Map FIle",
+    "Extension": ".w3x"
+  },
+  {
+    "Name": "Warcraft 3 Saved Game File",
+    "Extension": ".w3z"
+  },
+  {
+    "Name": "Doom WAD File",
+    "Extension": ".wad"
+  },
+  {
+    "Name": "Nintendo Wii Game Data File",
+    "Extension": ".wad"
+  },
+  {
+    "Name": "Worms Armageddon Game Recording",
+    "Extension": ".wagame"
+  },
+  {
+    "Name": "Quake 2 Texture File",
+    "Extension": ".wal"
+  },
+  {
+    "Name": "Worms Armageddon Mission File",
+    "Extension": ".wam"
+  },
+  {
+    "Name": "Toribash Help File",
+    "Extension": ".wbt"
+  },
+  {
+    "Name": "Blizzard World of Warcraft Database File",
+    "Extension": ".wdb"
+  },
+  {
+    "Name": "Unity Whirld Package",
+    "Extension": ".whirld"
+  },
+  {
+    "Name": "Wolfenstein 3D Data File",
+    "Extension": ".wl6"
+  },
+  {
+    "Name": "Terraria World File",
+    "Extension": ".wld"
+  },
+  {
+    "Name": "World of Warcraft World Map Object",
+    "Extension": ".wmo"
+  },
+  {
+    "Name": "WorldPainter File",
+    "Extension": ".world"
+  },
+  {
+    "Name": "The Sims 3 Create a World Tool File",
+    "Extension": ".world"
+  },
+  {
+    "Name": "Terraria Mobile World File",
+    "Extension": ".world"
+  },
+  {
+    "Name": "World of Tanks Replay File",
+    "Extension": ".wotreplay"
+  },
+  {
+    "Name": "World of Warships Replay File",
+    "Extension": ".wowsreplay"
+  },
+  {
+    "Name": "Warcraft 3 Path Map File",
+    "Extension": ".wpm"
+  },
+  {
+    "Name": "Grand Theft Auto IV Textures File",
+    "Extension": ".wtd"
+  },
+  {
+    "Name": "World of Warcraft Text File",
+    "Extension": ".wtf"
+  },
+  {
+    "Name": "Wiimm U8 Mario Kart Wii Archive",
+    "Extension": ".wu8"
+  },
+  {
+    "Name": "MapleStory Game Data File",
+    "Extension": ".wz"
+  },
+  {
+    "Name": "Warzone 2100 Data File",
+    "Extension": ".wz"
+  },
+  {
+    "Name": "Xbox Executable File",
+    "Extension": ".xbe"
+  },
+  {
+    "Name": "NX Card Image File",
+    "Extension": ".xci"
+  },
+  {
+    "Name": "DS Game Maker Project File",
+    "Extension": ".xds"
+  },
+  {
+    "Name": "Guitar Hero III Data File",
+    "Extension": ".xen"
+  },
+  {
+    "Name": "Xbox 360 Executable File",
+    "Extension": ".xex"
+  },
+  {
+    "Name": "Age of Empires Game Data File",
+    "Extension": ".xmb"
+  },
+  {
+    "Name": "X-Wing Mission Briefing File",
+    "Extension": ".xmb"
+  },
+  {
+    "Name": "XNA Game Studio Binary Package",
+    "Extension": ".xnb"
+  },
+  {
+    "Name": "Worms 3D Object File",
+    "Extension": ".xom"
+  },
+  {
+    "Name": "KiriKiri Package File",
+    "Extension": ".xp3"
+  },
+  {
+    "Name": "PlayStation Store PSP License File",
+    "Extension": ".xpd"
+  },
+  {
+    "Name": "WWE RAW Model File",
+    "Extension": ".xpk"
+  },
+  {
+    "Name": "Age of Empires 3 Map AI Generator",
+    "Extension": ".xs"
+  },
+  {
+    "Name": "Yugioh Card Maker File",
+    "Extension": ".ycm"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Card Deck File",
+    "Extension": ".ydc"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Deck File",
+    "Extension": ".ydk"
+  },
+  {
+    "Name": "Yu-Gi-Oh! Power of Chaos Replay File",
+    "Extension": ".ydr"
+  },
+  {
+    "Name": "Zoo Tycoon 2 Object File",
+    "Extension": ".z2f"
+  },
+  {
+    "Name": "Z-machine Z-code Version 3 File",
+    "Extension": ".z3"
+  },
+  {
+    "Name": "Z-machine Z-code Version 4 File",
+    "Extension": ".z4"
+  },
+  {
+    "Name": "Z-machine Z-code Version 5 File",
+    "Extension": ".z5"
+  },
+  {
+    "Name": "Nintendo 64 Game ROM",
+    "Extension": ".z64"
+  },
+  {
+    "Name": "Z-machine Package Game File",
+    "Extension": ".zblorb"
+  },
+  {
+    "Name": "GZDoom Save File",
+    "Extension": ".zds"
+  },
+  {
+    "Name": "MAME Game ROM",
+    "Extension": ".zip"
+  },
+  {
+    "Name": "Pathfinder Kingmaker Game Save File",
+    "Extension": ".zks"
+  },
+  {
+    "Name": "Zombies Ate My Neighbors Map File",
+    "Extension": ".zmap"
+  },
+  {
+    "Name": "ZSNES Slot 0 Saved State File",
+    "Extension": ".zs0"
+  },
+  {
+    "Name": "ZSNES Slot 1 Saved State File",
+    "Extension": ".zs1"
+  },
+  {
+    "Name": "ZSNES Slot 2 Saved State File",
+    "Extension": ".zs2"
+  },
+  {
+    "Name": "ZSNES Slot 3 Saved State File",
+    "Extension": ".zs3"
+  },
+  {
+    "Name": "ZSNES Slot 4 Saved State File",
+    "Extension": ".zs4"
+  },
+  {
+    "Name": "ZSNES Slot 5 Saved State File",
+    "Extension": ".zs5"
+  },
+  {
+    "Name": "ZSNES Slot 6 Saved State File",
+    "Extension": ".zs6"
+  },
+  {
+    "Name": "ZSNES Slot 7 Saved State File",
+    "Extension": ".zs7"
+  },
+  {
+    "Name": "ZSNES Slot 8 Saved State File",
+    "Extension": ".zs8"
+  },
+  {
+    "Name": "ZSNES Slot 9 Saved State File",
+    "Extension": ".zs9"
+  },
+  {
+    "Name": "ZSNES Save File",
+    "Extension": ".zst"
+  },
+  {
+    "Name": "Zoo Tycoon Data Archive",
+    "Extension": ".ztd"
+  },
+  {
+    "Name": "Steam Compressed Game Resource File",
+    "Extension": ".ztmp"
+  }
+]

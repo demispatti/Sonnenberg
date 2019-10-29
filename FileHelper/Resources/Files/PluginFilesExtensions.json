@@ -1,0 +1,882 @@
+[
+  {
+    "Name": "Photoshop Plug-in",
+    "Extension": ".8ba"
+  },
+  {
+    "Name": "Photoshop 5.0 Plug-in",
+    "Extension": ".8bc"
+  },
+  {
+    "Name": "PhotoDeluxe Plug-in",
+    "Extension": ".8be"
+  },
+  {
+    "Name": "Filter Factory Image Filter",
+    "Extension": ".8bf"
+  },
+  {
+    "Name": "Photoshop Filter Plug-in",
+    "Extension": ".8bf"
+  },
+  {
+    "Name": "Photoshop Plug-in",
+    "Extension": ".8bi"
+  },
+  {
+    "Name": "Photoshop Plug-in",
+    "Extension": ".8bi8"
+  },
+  {
+    "Name": "Photoshop Plug-in",
+    "Extension": ".8bl"
+  },
+  {
+    "Name": "Photoshop 5.0 Selection Plug-in",
+    "Extension": ".8bs"
+  },
+  {
+    "Name": "PhotoDeluxe Plug-in",
+    "Extension": ".8bx"
+  },
+  {
+    "Name": "PhotoDeluxe Plug-in",
+    "Extension": ".8by"
+  },
+  {
+    "Name": "Photoshop Scripting Plug-in",
+    "Extension": ".8li"
+  },
+  {
+    "Name": "Acrobat User Interface File",
+    "Extension": ".aaui"
+  },
+  {
+    "Name": "Avid Audio eXtension Plugin File",
+    "Extension": ".aaxplugin"
+  },
+  {
+    "Name": "Avant Browser Add-on File",
+    "Extension": ".aba"
+  },
+  {
+    "Name": "AbiWord Plug-in",
+    "Extension": ".abi"
+  },
+  {
+    "Name": "Access Add-in File",
+    "Extension": ".accda"
+  },
+  {
+    "Name": "Access Add-in File",
+    "Extension": ".accdu"
+  },
+  {
+    "Name": "Adobe Acrobat Plug-in",
+    "Extension": ".acroplugin"
+  },
+  {
+    "Name": "CFS Console Add-on File",
+    "Extension": ".addon"
+  },
+  {
+    "Name": "After Effects Plug-in",
+    "Extension": ".aex"
+  },
+  {
+    "Name": "AfterShot Pro Plugin Archive",
+    "Extension": ".afzplug"
+  },
+  {
+    "Name": "Adobe Lightroom Module",
+    "Extension": ".agmodule"
+  },
+  {
+    "Name": "Adobe Illustrator Plug-in",
+    "Extension": ".aip"
+  },
+  {
+    "Name": "Ableton Live Pack File",
+    "Extension": ".alp"
+  },
+  {
+    "Name": "AMX Mod Plugin File",
+    "Extension": ".amx"
+  },
+  {
+    "Name": "AMX Mod X Plugin File",
+    "Extension": ".amxx"
+  },
+  {
+    "Name": "Eclipse Plugin Descriptor File",
+    "Extension": ".apd"
+  },
+  {
+    "Name": "AVS Plugin Effects File",
+    "Extension": ".ape"
+  },
+  {
+    "Name": "Acrobat Plug-in",
+    "Extension": ".api"
+  },
+  {
+    "Name": "ACDSee Plugin File",
+    "Extension": ".apl"
+  },
+  {
+    "Name": "Audials Plug-in",
+    "Extension": ".aplg"
+  },
+  {
+    "Name": "Audials Plug-in Package",
+    "Extension": ".aplp"
+  },
+  {
+    "Name": "ArtRage Package",
+    "Extension": ".arpack"
+  },
+  {
+    "Name": "AutoCAD Runtime Extension File",
+    "Extension": ".arx"
+  },
+  {
+    "Name": "Grand Theft Auto Mod Library",
+    "Extension": ".asi"
+  },
+  {
+    "Name": "Camtasia Studio Asset Information File",
+    "Extension": ".assetproj"
+  },
+  {
+    "Name": "Animation Master Plugin File",
+    "Extension": ".atx"
+  },
+  {
+    "Name": "ArcView Extension File",
+    "Extension": ".avx"
+  },
+  {
+    "Name": "Avid Plugin File",
+    "Extension": ".avx"
+  },
+  {
+    "Name": "DirectShow Filter",
+    "Extension": ".ax"
+  },
+  {
+    "Name": "AVG AntiVirus The Bat! Plugin File",
+    "Extension": ".bav"
+  },
+  {
+    "Name": "BBEdit Language Module",
+    "Extension": ".bblm"
+  },
+  {
+    "Name": "BaKoMa TeX Installation Module",
+    "Extension": ".bkz"
+  },
+  {
+    "Name": "FileMaker Pro Runtime Extension",
+    "Extension": ".blu"
+  },
+  {
+    "Name": "3ds Max Plug-in",
+    "Extension": ".bmi"
+  },
+  {
+    "Name": "Bryce Plug-in File",
+    "Extension": ".bri"
+  },
+  {
+    "Name": "Bryce Plug-in File",
+    "Extension": ".brm"
+  },
+  {
+    "Name": "Bryce Plug-in",
+    "Extension": ".bro"
+  },
+  {
+    "Name": "Mac OS X Application Bundle",
+    "Extension": ".bundle"
+  },
+  {
+    "Name": "AfterShot Pro Plugin Bundle",
+    "Extension": ".bzplug"
+  },
+  {
+    "Name": "Curse Client Install Package",
+    "Extension": ".ccip"
+  },
+  {
+    "Name": "Click & Create Extension",
+    "Extension": ".ccx"
+  },
+  {
+    "Name": "ConceptDraw PRO Library File",
+    "Extension": ".cdl"
+  },
+  {
+    "Name": "CLEO Grand Theft Auto Mod File",
+    "Extension": ".cleo"
+  },
+  {
+    "Name": "HotDocs Clause Component File",
+    "Extension": ".cmp"
+  },
+  {
+    "Name": "Coda Plug-in",
+    "Extension": ".codaplugin"
+  },
+  {
+    "Name": "Color Picker Plugin",
+    "Extension": ".colorpicker"
+  },
+  {
+    "Name": "Mac OS X System Component",
+    "Extension": ".component"
+  },
+  {
+    "Name": "Click & Create Extension",
+    "Extension": ".cox"
+  },
+  {
+    "Name": "Chrome Extension",
+    "Extension": ".crx"
+  },
+  {
+    "Name": "Gary Gadget Plug-in",
+    "Extension": ".cst"
+  },
+  {
+    "Name": "Canvas External Tool File",
+    "Extension": ".cvt"
+  },
+  {
+    "Name": "AutoCAD Database Extension File",
+    "Extension": ".dbx"
+  },
+  {
+    "Name": "Fusion Plugin File",
+    "Extension": ".dfp"
+  },
+  {
+    "Name": "3ds Max Plug-in",
+    "Extension": ".dlo"
+  },
+  {
+    "Name": "finalRender Plugin",
+    "Extension": ".dlr"
+  },
+  {
+    "Name": "3ds Max Utility Plug-in File",
+    "Extension": ".dlu"
+  },
+  {
+    "Name": "Pro Tools Plugin File",
+    "Extension": ".dpm"
+  },
+  {
+    "Name": "Xcode DVT Plug-in",
+    "Extension": ".dvtplugin"
+  },
+  {
+    "Name": "ArcGIS Explorer Add-in File",
+    "Extension": ".eaz"
+  },
+  {
+    "Name": "Outlook Add-in",
+    "Extension": ".ecf"
+  },
+  {
+    "Name": "E-Prime 2.0 Package File",
+    "Extension": ".epk2"
+  },
+  {
+    "Name": "Norton Commander Extension",
+    "Extension": ".ext"
+  },
+  {
+    "Name": "Adobe Extension Script",
+    "Extension": ".exv"
+  },
+  {
+    "Name": "Foobar2000 Component Install File",
+    "Extension": ".fb2k-component"
+  },
+  {
+    "Name": "Adobe Audition Noise Print File",
+    "Extension": ".fft"
+  },
+  {
+    "Name": "Adobe Audition Filter",
+    "Extension": ".flt"
+  },
+  {
+    "Name": "Image Filter",
+    "Extension": ".flt"
+  },
+  {
+    "Name": "FileMaker Plug-in",
+    "Extension": ".fmplugin"
+  },
+  {
+    "Name": "FileMaker Plug-in",
+    "Extension": ".fmx"
+  },
+  {
+    "Name": "Foxit Reader Plugin",
+    "Extension": ".fpi"
+  },
+  {
+    "Name": "Mac OS X File System Plug-in",
+    "Extension": ".fs"
+  },
+  {
+    "Name": "Form•Z Compiled Script",
+    "Extension": ".fsb"
+  },
+  {
+    "Name": "Freeway Action File",
+    "Extension": ".fwaction"
+  },
+  {
+    "Name": "Freeway Action Bundle File",
+    "Extension": ".fwactionb"
+  },
+  {
+    "Name": "Finale Plug-in",
+    "Extension": ".fxt"
+  },
+  {
+    "Name": "Foxit Reader Add-on",
+    "Extension": ".fzip"
+  },
+  {
+    "Name": "Form•Z Plug-in",
+    "Extension": ".fzp"
+  },
+  {
+    "Name": "iTunes Visual Plug-in File",
+    "Extension": ".hvpl"
+  },
+  {
+    "Name": "iAd Producer Plugin Action Template",
+    "Extension": ".iadaction"
+  },
+  {
+    "Name": "iAd Producer Plugin Class Description File",
+    "Extension": ".iadclass"
+  },
+  {
+    "Name": "iAd Producer Plugin Component File",
+    "Extension": ".iadcomponent"
+  },
+  {
+    "Name": "iAd Producer Plugin Page Template",
+    "Extension": ".iadpage"
+  },
+  {
+    "Name": "iAd Producer Plugin",
+    "Extension": ".iadplug"
+  },
+  {
+    "Name": "iAd Producer Plugin Style Template",
+    "Extension": ".iadstyle"
+  },
+  {
+    "Name": "Interface Builder Plug-in",
+    "Extension": ".ibplugin"
+  },
+  {
+    "Name": "Xcode IDE Plug-in",
+    "Extension": ".ideplugin"
+  },
+  {
+    "Name": "Adobe InDesign Plug-in",
+    "Extension": ".indesignplugin"
+  },
+  {
+    "Name": "Drupal Module Information File",
+    "Extension": ".info"
+  },
+  {
+    "Name": "Inkscape Extension Descriptor File",
+    "Extension": ".inx"
+  },
+  {
+    "Name": "Binary ExtendScript Script File",
+    "Extension": ".jsxbin"
+  },
+  {
+    "Name": "K-Meleon Macro Module",
+    "Extension": ".kmm"
+  },
+  {
+    "Name": "Acrobat Language Plug-in",
+    "Extension": ".lng"
+  },
+  {
+    "Name": "Winamp Language File",
+    "Extension": ".lng"
+  },
+  {
+    "Name": "Adobe Lightroom Module",
+    "Extension": ".lrmodule"
+  },
+  {
+    "Name": "Adobe Lightroom Plug-in",
+    "Extension": ".lrplugin"
+  },
+  {
+    "Name": "Adobe Lightroom Web Gallery File",
+    "Extension": ".lrwebengine"
+  },
+  {
+    "Name": "Maxthon 2 Browser Plugin File",
+    "Extension": ".m2p"
+  },
+  {
+    "Name": "Mach3 Plugin File",
+    "Extension": ".m3p"
+  },
+  {
+    "Name": "V-Ray Materials File",
+    "Extension": ".mat"
+  },
+  {
+    "Name": "Access Add-in",
+    "Extension": ".mda"
+  },
+  {
+    "Name": "Compiled Access Add-in File",
+    "Extension": ".mde"
+  },
+  {
+    "Name": "ArchiCAD Educational Version Module File",
+    "Extension": ".mde"
+  },
+  {
+    "Name": "Metadata Importer",
+    "Extension": ".mdimporter"
+  },
+  {
+    "Name": "MobileFrame Workflow Pack File",
+    "Extension": ".mfw"
+  },
+  {
+    "Name": "Multimedia Fusion Extension",
+    "Extension": ".mfx"
+  },
+  {
+    "Name": "MilkDrop Winamp Plugin Preset",
+    "Extension": ".milk"
+  },
+  {
+    "Name": "Maya Plugin",
+    "Extension": ".mll"
+  },
+  {
+    "Name": "MediaMonkey Installation Package",
+    "Extension": ".mmip"
+  },
+  {
+    "Name": "ArchiCAD Module",
+    "Extension": ".mod"
+  },
+  {
+    "Name": "Coda Syntax Mode File",
+    "Extension": ".mode"
+  },
+  {
+    "Name": "Drupal Module File",
+    "Extension": ".module"
+  },
+  {
+    "Name": "Montax Imposer Template Document",
+    "Extension": ".mox"
+  },
+  {
+    "Name": "MadTracker 2 Extension",
+    "Extension": ".mtx"
+  },
+  {
+    "Name": "Maxthon Add-On File",
+    "Extension": ".mxaddon"
+  },
+  {
+    "Name": "Adobe Extension Package",
+    "Extension": ".mxp"
+  },
+  {
+    "Name": "NetBeans Module",
+    "Extension": ".nbm"
+  },
+  {
+    "Name": "NeoBook Plugin File",
+    "Extension": ".nbp"
+  },
+  {
+    "Name": "FileMaker Networking Module",
+    "Extension": ".net"
+  },
+  {
+    "Name": "Audacity Nyquist Plug-in",
+    "Extension": ".ny"
+  },
+  {
+    "Name": "Opera Extension",
+    "Extension": ".oex"
+  },
+  {
+    "Name": "OpenIV Mod Package File",
+    "Extension": ".oiv"
+  },
+  {
+    "Name": "AppleScript Scripting Addition",
+    "Extension": ".osax"
+  },
+  {
+    "Name": "Apache OpenOffice Extension",
+    "Extension": ".oxt"
+  },
+  {
+    "Name": "LightWave Plug-in",
+    "Extension": ".p"
+  },
+  {
+    "Name": "64-bit Windows IDA Plugin Module",
+    "Extension": ".p64"
+  },
+  {
+    "Name": "OpenOffice.org Basic Protected Module File",
+    "Extension": ".pba"
+  },
+  {
+    "Name": "PhotoFiltre Plugin",
+    "Extension": ".pfl"
+  },
+  {
+    "Name": "Pro Tools Controller Plug-in Mappings File",
+    "Extension": ".pim"
+  },
+  {
+    "Name": "Sibelius Plug-in",
+    "Extension": ".plg"
+  },
+  {
+    "Name": "Adobe InDesign Plug-in",
+    "Extension": ".pln"
+  },
+  {
+    "Name": "Mac OS X Plugin",
+    "Extension": ".plugin"
+  },
+  {
+    "Name": "Adobe Photoshop Plug-in",
+    "Extension": ".plugin"
+  },
+  {
+    "Name": "32-bit Windows IDA Plugin Module",
+    "Extension": ".plw"
+  },
+  {
+    "Name": "32-bit Linux IDA Plugin Module",
+    "Extension": ".plx"
+  },
+  {
+    "Name": "64-bit Linux IDA Plugin Module",
+    "Extension": ".plx64"
+  },
+  {
+    "Name": "PowerPoint Add-in",
+    "Extension": ".ppa"
+  },
+  {
+    "Name": "PowerPoint 2007 Add-In",
+    "Extension": ".ppam"
+  },
+  {
+    "Name": "Papers Please Mod File",
+    "Extension": ".ppmod"
+  },
+  {
+    "Name": "Premiere Plug-in",
+    "Extension": ".prm"
+  },
+  {
+    "Name": "Adobe InDesign Plug-in Set File",
+    "Extension": ".pset"
+  },
+  {
+    "Name": "LunarCell Photoshop Plug-in",
+    "Extension": ".q1q"
+  },
+  {
+    "Name": "Flexify Photoshop Plug-in",
+    "Extension": ".q2q"
+  },
+  {
+    "Name": "Solar Cell Photoshop Plug-in",
+    "Extension": ".q4q"
+  },
+  {
+    "Name": "Melancholytron Photoshop Plug-in",
+    "Extension": ".q5r"
+  },
+  {
+    "Name": "India Ink Photoshop Plug-in",
+    "Extension": ".q7q"
+  },
+  {
+    "Name": "Flood Photoshop Plug-in",
+    "Extension": ".q8r"
+  },
+  {
+    "Name": "Glitterato Photoshop Plug-In",
+    "Extension": ".q9r"
+  },
+  {
+    "Name": "Mr. Contrast Photoshop Plug-In",
+    "Extension": ".q9s"
+  },
+  {
+    "Name": "QlikView Extension",
+    "Extension": ".qar"
+  },
+  {
+    "Name": "Quick Look Generator File",
+    "Extension": ".qlgenerator"
+  },
+  {
+    "Name": "QuickTime Player Extension",
+    "Extension": ".qpx"
+  },
+  {
+    "Name": "QuickTime Extension Resource",
+    "Extension": ".qtr"
+  },
+  {
+    "Name": "QuickTime Extension",
+    "Extension": ".qtx"
+  },
+  {
+    "Name": "SketchUp Plugin",
+    "Extension": ".rbz"
+  },
+  {
+    "Name": "LiveCode Plugin",
+    "Extension": ".rev"
+  },
+  {
+    "Name": "Escape Velocity Plug-in File",
+    "Extension": ".rez"
+  },
+  {
+    "Name": "Rhino Plug-in",
+    "Extension": ".rhp"
+  },
+  {
+    "Name": "Rockbox Plug-in",
+    "Extension": ".rock"
+  },
+  {
+    "Name": "Render Plug-in",
+    "Extension": ".rpi"
+  },
+  {
+    "Name": "Axure RP Widget Library File",
+    "Extension": ".rplib"
+  },
+  {
+    "Name": "InDesign Required Plug-in File",
+    "Extension": ".rpln"
+  },
+  {
+    "Name": "RealPlayer Plug-in",
+    "Extension": ".rpm"
+  },
+  {
+    "Name": "RapidWeaver Plugin",
+    "Extension": ".rwplugin"
+  },
+  {
+    "Name": "Hue and Cry Photoshop Plug-in",
+    "Extension": ".sa9"
+  },
+  {
+    "Name": "Apple Safari Extension Package",
+    "Extension": ".safariextz"
+  },
+  {
+    "Name": "GIMP Script-Fu Script",
+    "Extension": ".scm"
+  },
+  {
+    "Name": "AppleScript Editor Plug-in",
+    "Extension": ".seplugin"
+  },
+  {
+    "Name": "Chat Style File",
+    "Extension": ".skypechatstyle"
+  },
+  {
+    "Name": "Cocoa AbiWord Plug-in",
+    "Extension": ".so-abi"
+  },
+  {
+    "Name": "Skype Plugin Archive",
+    "Extension": ".sparc"
+  },
+  {
+    "Name": "SPSS Custom Dialog File",
+    "Extension": ".spd"
+  },
+  {
+    "Name": "SPSS Extension",
+    "Extension": ".spe"
+  },
+  {
+    "Name": "Sublime Text Package File",
+    "Extension": ".sublime-package"
+  },
+  {
+    "Name": "Espresso Plug-in",
+    "Extension": ".sugar"
+  },
+  {
+    "Name": "TextPad Syntax File",
+    "Extension": ".syn"
+  },
+  {
+    "Name": "TYPO3 Compressed Extension",
+    "Extension": ".t3x"
+  },
+  {
+    "Name": "Autodesk Topobase File",
+    "Extension": ".tbp"
+  },
+  {
+    "Name": "Terragen Plugin",
+    "Extension": ".tgp"
+  },
+  {
+    "Name": "AMX Software Module File",
+    "Extension": ".tko"
+  },
+  {
+    "Name": "TextMate Bundle File",
+    "Extension": ".tmbundle"
+  },
+  {
+    "Name": "EDIUS Plugin File",
+    "Extension": ".tpi"
+  },
+  {
+    "Name": "Oracle VM VirtualBox Extension Pack",
+    "Extension": ".vbox-extpack"
+  },
+  {
+    "Name": "VirtualDub Video Filter",
+    "Extension": ".vdf"
+  },
+  {
+    "Name": "Visual Studio Extension",
+    "Extension": ".vsix"
+  },
+  {
+    "Name": "Visio Add-on",
+    "Extension": ".vsl"
+  },
+  {
+    "Name": "VST Audio Plugin",
+    "Extension": ".vst"
+  },
+  {
+    "Name": "VST 3 Audio Plugin",
+    "Extension": ".vst3"
+  },
+  {
+    "Name": "Webmin Module",
+    "Extension": ".wbm"
+  },
+  {
+    "Name": "WordPress Widget Export File",
+    "Extension": ".wie"
+  },
+  {
+    "Name": "Microsoft Word Add-in",
+    "Extension": ".wll"
+  },
+  {
+    "Name": "Winamp Language Pack",
+    "Extension": ".wlz"
+  },
+  {
+    "Name": "WOW Slider",
+    "Extension": ".wowsl"
+  },
+  {
+    "Name": "Adobe Xtra File",
+    "Extension": ".x32"
+  },
+  {
+    "Name": "Expression Web Add-in",
+    "Extension": ".xadd"
+  },
+  {
+    "Name": "OpenOffice.org Basic Module File",
+    "Extension": ".xba"
+  },
+  {
+    "Name": "Xcode Plug-in",
+    "Extension": ".xcodeplugin"
+  },
+  {
+    "Name": "Xcode Plug-in",
+    "Extension": ".xcplugin"
+  },
+  {
+    "Name": "Excel Add-In File",
+    "Extension": ".xla"
+  },
+  {
+    "Name": "Excel Open XML Macro-Enabled Add-In",
+    "Extension": ".xlam"
+  },
+  {
+    "Name": "Excel Add-In File",
+    "Extension": ".xll"
+  },
+  {
+    "Name": "Excel Visual Basic Module",
+    "Extension": ".xlv"
+  },
+  {
+    "Name": "Bitdefender Plugin File",
+    "Extension": ".xmd"
+  },
+  {
+    "Name": "QuarkXPress Extension File",
+    "Extension": ".xnt"
+  },
+  {
+    "Name": "Cross-platform Installer Package",
+    "Extension": ".xpi"
+  },
+  {
+    "Name": "Mozilla Firefox Component",
+    "Extension": ".xpt"
+  },
+  {
+    "Name": "Softimage Add-on File",
+    "Extension": ".xsiaddon"
+  },
+  {
+    "Name": "Form•Z Symbol Library File",
+    "Extension": ".zlb"
+  },
+  {
+    "Name": "Extension Manager Package",
+    "Extension": ".zxp"
+  }
+]

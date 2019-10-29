@@ -1,0 +1,1978 @@
+[
+  {
+    "Name": "Ripped Video Data File",
+    "Extension": ".264"
+  },
+  {
+    "Name": "3GPP2 Multimedia File",
+    "Extension": ".3g2"
+  },
+  {
+    "Name": "3GPP Multimedia File",
+    "Extension": ".3gp"
+  },
+  {
+    "Name": "3GPP Multimedia File",
+    "Extension": ".3gp2"
+  },
+  {
+    "Name": "3GPP Media File",
+    "Extension": ".3gpp"
+  },
+  {
+    "Name": "3GPP2 Multimedia File",
+    "Extension": ".3gpp2"
+  },
+  {
+    "Name": "3D Movie Maker Movie Project",
+    "Extension": ".3mm"
+  },
+  {
+    "Name": "3GPP Multimedia File",
+    "Extension": ".3p2"
+  },
+  {
+    "Name": "CCTV Video Clip",
+    "Extension": ".60d"
+  },
+  {
+    "Name": "AVTECH CCTV Video File",
+    "Extension": ".787"
+  },
+  {
+    "Name": "Cavena Subtitles File",
+    "Extension": ".890"
+  },
+  {
+    "Name": "Advanced Authoring Format File",
+    "Extension": ".aaf"
+  },
+  {
+    "Name": "Cinema 4D After Effects Composition",
+    "Extension": ".aec"
+  },
+  {
+    "Name": "After Effects Text Template",
+    "Extension": ".aecap"
+  },
+  {
+    "Name": "Adobe After Effects Graphic",
+    "Extension": ".aegraphic"
+  },
+  {
+    "Name": "After Effects Project",
+    "Extension": ".aep"
+  },
+  {
+    "Name": "After Effects XML Project",
+    "Extension": ".aepx"
+  },
+  {
+    "Name": "After Effects Project Template",
+    "Extension": ".aet"
+  },
+  {
+    "Name": "After Effects XML Project Template",
+    "Extension": ".aetx"
+  },
+  {
+    "Name": "CCTV Video File",
+    "Extension": ".ajp"
+  },
+  {
+    "Name": "Avid Log Exchange File",
+    "Extension": ".ale"
+  },
+  {
+    "Name": "Anark Media File",
+    "Extension": ".am"
+  },
+  {
+    "Name": "AMC Video File",
+    "Extension": ".amc"
+  },
+  {
+    "Name": "Anime Music Video File",
+    "Extension": ".amv"
+  },
+  {
+    "Name": "Adobe Motion Exchange File",
+    "Extension": ".amx"
+  },
+  {
+    "Name": "Amiga Animation File",
+    "Extension": ".anim"
+  },
+  {
+    "Name": "Annodex Exchange Format File",
+    "Extension": ".anx"
+  },
+  {
+    "Name": "AQTitle Subtitles File",
+    "Extension": ".aqt"
+  },
+  {
+    "Name": "Prelude Rough Cut File",
+    "Extension": ".arcut"
+  },
+  {
+    "Name": "WebEx Advanced Recording File",
+    "Extension": ".arf"
+  },
+  {
+    "Name": "Advanced Systems Format File",
+    "Extension": ".asf"
+  },
+  {
+    "Name": "Microsoft ASF Redirector File",
+    "Extension": ".asx"
+  },
+  {
+    "Name": "Video Surveillance File",
+    "Extension": ".av"
+  },
+  {
+    "Name": "Arbitrator Video Surveillance File",
+    "Extension": ".av3"
+  },
+  {
+    "Name": "Avid Bin File",
+    "Extension": ".avb"
+  },
+  {
+    "Name": "Avid Media Composer Script",
+    "Extension": ".avc"
+  },
+  {
+    "Name": "High Definition Video File",
+    "Extension": ".avchd"
+  },
+  {
+    "Name": "Movie Edit Pro Video Information File",
+    "Extension": ".avd"
+  },
+  {
+    "Name": "Avigilon Native Video Export File",
+    "Extension": ".ave"
+  },
+  {
+    "Name": "Audio Video Interleave File",
+    "Extension": ".avi"
+  },
+  {
+    "Name": "Anime Music Video",
+    "Extension": ".avm"
+  },
+  {
+    "Name": "Avid Project File",
+    "Extension": ".avp"
+  },
+  {
+    "Name": "EverFocus Recording File",
+    "Extension": ".avr"
+  },
+  {
+    "Name": "AviSynth Script File",
+    "Extension": ".avs"
+  },
+  {
+    "Name": "Application Visualization System File",
+    "Extension": ".avs"
+  },
+  {
+    "Name": "Avid Volume Bin File",
+    "Extension": ".avv"
+  },
+  {
+    "Name": "Active Webcam Video File",
+    "Extension": ".awlive"
+  },
+  {
+    "Name": "AXMEDIS Object",
+    "Extension": ".axm"
+  },
+  {
+    "Name": "Annodex Video File",
+    "Extension": ".axv"
+  },
+  {
+    "Name": "AVCHD Information File",
+    "Extension": ".bdm"
+  },
+  {
+    "Name": "Blu-ray Disc Movie Information File",
+    "Extension": ".bdmv"
+  },
+  {
+    "Name": "BEEDOCS Timeline 3D 2 Document",
+    "Extension": ".bdt2"
+  },
+  {
+    "Name": "BEEDOCS Timeline 3D 3 Document",
+    "Extension": ".bdt3"
+  },
+  {
+    "Name": "Bink Video File",
+    "Extension": ".bik"
+  },
+  {
+    "Name": "Bink Video 2 File",
+    "Extension": ".bik2"
+  },
+  {
+    "Name": "Binary Video File",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "Kodicom Video File",
+    "Extension": ".bix"
+  },
+  {
+    "Name": "Bink Video 2 File",
+    "Extension": ".bk2"
+  },
+  {
+    "Name": "TeamViewer Blizz Session File",
+    "Extension": ".blz"
+  },
+  {
+    "Name": "Bolide Movie Creator Project File",
+    "Extension": ".bmc"
+  },
+  {
+    "Name": "PowerDVD MovieMark File",
+    "Extension": ".bmk"
+  },
+  {
+    "Name": "Sony Camcorder Video Data File",
+    "Extension": ".bnp"
+  },
+  {
+    "Name": "Kodicom Video",
+    "Extension": ".box"
+  },
+  {
+    "Name": "Mikogo Session Video Recording",
+    "Extension": ".bs4"
+  },
+  {
+    "Name": "Blu-ray AVC Video File",
+    "Extension": ".bsf"
+  },
+  {
+    "Name": "Samsung CCTV Video File",
+    "Extension": ".bu"
+  },
+  {
+    "Name": "Blue Iris Video",
+    "Extension": ".bvr"
+  },
+  {
+    "Name": "Brigham Young University Movie File",
+    "Extension": ".byu"
+  },
+  {
+    "Name": "Camtasia Studio Project",
+    "Extension": ".camproj"
+  },
+  {
+    "Name": "Camtasia Studio Screen Recording",
+    "Extension": ".camrec"
+  },
+  {
+    "Name": "Camtasia Video File",
+    "Extension": ".camv"
+  },
+  {
+    "Name": "JVC Camera Video Data File",
+    "Extension": ".ced"
+  },
+  {
+    "Name": "FLIC Animation",
+    "Extension": ".cel"
+  },
+  {
+    "Name": "Phantom Digital Video File",
+    "Extension": ".cine"
+  },
+  {
+    "Name": "Cavena Subtitles File",
+    "Extension": ".cip"
+  },
+  {
+    "Name": "ClickView Video File",
+    "Extension": ".clk"
+  },
+  {
+    "Name": "Blu-ray Clip Information File",
+    "Extension": ".clpi"
+  },
+  {
+    "Name": "Command Multimedia Evidence File",
+    "Extension": ".cme"
+  },
+  {
+    "Name": "Camtasia MenuMaker Project",
+    "Extension": ".cmmp"
+  },
+  {
+    "Name": "Camtasia MenuMaker Template",
+    "Extension": ".cmmtpl"
+  },
+  {
+    "Name": "Camtasia Project File",
+    "Extension": ".cmproj"
+  },
+  {
+    "Name": "Camtasia Recording",
+    "Extension": ".cmrec"
+  },
+  {
+    "Name": "CorelMOVE Animation",
+    "Extension": ".cmv"
+  },
+  {
+    "Name": "AVCHD Video Clip Information File",
+    "Extension": ".cpi"
+  },
+  {
+    "Name": "Adobe Captivate Video Composition",
+    "Extension": ".cpvc"
+  },
+  {
+    "Name": "Lync Video File",
+    "Extension": ".crec"
+  },
+  {
+    "Name": "Director External Cast File",
+    "Extension": ".cst"
+  },
+  {
+    "Name": "cVideo",
+    "Extension": ".cvc"
+  },
+  {
+    "Name": "CMS Recorded Video File",
+    "Extension": ".cx3"
+  },
+  {
+    "Name": "DVD2AVI File",
+    "Extension": ".d2v"
+  },
+  {
+    "Name": "Datel Video File",
+    "Extension": ".d3v"
+  },
+  {
+    "Name": "IMS200 Video Record File",
+    "Extension": ".dad"
+  },
+  {
+    "Name": "MPEG-DASH Video File",
+    "Extension": ".dash"
+  },
+  {
+    "Name": "VCD Video File",
+    "Extension": ".dat"
+  },
+  {
+    "Name": "DVR365 Video File",
+    "Extension": ".dav"
+  },
+  {
+    "Name": "Samsung CCTV Video Information File",
+    "Extension": ".db2"
+  },
+  {
+    "Name": "DriveCam Video File",
+    "Extension": ".dce"
+  },
+  {
+    "Name": "Resolume Deck File",
+    "Extension": ".dck"
+  },
+  {
+    "Name": "Digital Court Recorder Video File",
+    "Extension": ".dcr"
+  },
+  {
+    "Name": "Liberty Video Recording File",
+    "Extension": ".dcr"
+  },
+  {
+    "Name": "DivX Temporary Video File",
+    "Extension": ".ddat"
+  },
+  {
+    "Name": "Digital Interface Format",
+    "Extension": ".dif"
+  },
+  {
+    "Name": "Adobe Director Movie",
+    "Extension": ".dir"
+  },
+  {
+    "Name": "DivX-Encoded Movie File",
+    "Extension": ".divx"
+  },
+  {
+    "Name": "Sony VDU Video File",
+    "Extension": ".dlx"
+  },
+  {
+    "Name": "Digital Multimedia Broadcasting File",
+    "Extension": ".dmb"
+  },
+  {
+    "Name": "Roxio MyDVD Project",
+    "Extension": ".dmsd"
+  },
+  {
+    "Name": "Roxio MyDVD 3D Project",
+    "Extension": ".dmsd3d"
+  },
+  {
+    "Name": "VideoWave Movie Project File",
+    "Extension": ".dmsm"
+  },
+  {
+    "Name": "VideoWave 3D Movie Project File",
+    "Extension": ".dmsm3d"
+  },
+  {
+    "Name": "VideoWave SlideShow Project File",
+    "Extension": ".dmss"
+  },
+  {
+    "Name": "Source Filmmaker Project File",
+    "Extension": ".dmx"
+  },
+  {
+    "Name": "Windows Dancer File",
+    "Extension": ".dnc"
+  },
+  {
+    "Name": "DrawPlus Animation File",
+    "Extension": ".dpa"
+  },
+  {
+    "Name": "Nintendo DS Movie File",
+    "Extension": ".dpg"
+  },
+  {
+    "Name": "Dream Animated Wallpaper File",
+    "Extension": ".dream"
+  },
+  {
+    "Name": "Besta Video File",
+    "Extension": ".dsy"
+  },
+  {
+    "Name": "Digital Video File",
+    "Extension": ".dv"
+  },
+  {
+    "Name": "Microsoft DV-AVI Video File",
+    "Extension": ".dv-avi"
+  },
+  {
+    "Name": "Bosch Security Systems CCTV Video File",
+    "Extension": ".dv4"
+  },
+  {
+    "Name": "RipIt DVD Package",
+    "Extension": ".dvdmedia"
+  },
+  {
+    "Name": "Microsoft Recorded TV Show",
+    "Extension": ".dvr"
+  },
+  {
+    "Name": "Microsoft Digital Video Recording",
+    "Extension": ".dvr-ms"
+  },
+  {
+    "Name": "DivX Video File",
+    "Extension": ".dvx"
+  },
+  {
+    "Name": "Protected Macromedia Director Movie",
+    "Extension": ".dxr"
+  },
+  {
+    "Name": "DirectorZone Menu Template",
+    "Extension": ".dzm"
+  },
+  {
+    "Name": "DirectorZone Particle Effect File",
+    "Extension": ".dzp"
+  },
+  {
+    "Name": "DirectorZone Title File",
+    "Extension": ".dzt"
+  },
+  {
+    "Name": "Edit Decision List File",
+    "Extension": ".edl"
+  },
+  {
+    "Name": "HD DVD Video File",
+    "Extension": ".evo"
+  },
+  {
+    "Name": "SeeVogh Player Video Recording",
+    "Extension": ".evo"
+  },
+  {
+    "Name": "YouTube Video Chunk File",
+    "Extension": ".exo"
+  },
+  {
+    "Name": "DX Series Exported Video File",
+    "Extension": ".exp"
+  },
+  {
+    "Name": "Eyemail Video Recording File",
+    "Extension": ".eye"
+  },
+  {
+    "Name": "EyeTV Recording File",
+    "Extension": ".eyetv"
+  },
+  {
+    "Name": "EZTitles Subtitles File",
+    "Extension": ".ezt"
+  },
+  {
+    "Name": "Flash Video Fragment",
+    "Extension": ".f4f"
+  },
+  {
+    "Name": "Adobe Flash Media Manifest File",
+    "Extension": ".f4m"
+  },
+  {
+    "Name": "Adobe Flash Protected Media File",
+    "Extension": ".f4p"
+  },
+  {
+    "Name": "Flash MP4 Video File",
+    "Extension": ".f4v"
+  },
+  {
+    "Name": "FlashBack Screen Recording",
+    "Extension": ".fbr"
+  },
+  {
+    "Name": "Mercury Screen Recording",
+    "Extension": ".fbr"
+  },
+  {
+    "Name": "FlashBack Screen Recorder Movie",
+    "Extension": ".fbz"
+  },
+  {
+    "Name": "Final Cut Pro Archive",
+    "Extension": ".fcarch"
+  },
+  {
+    "Name": "Final Cut Project",
+    "Extension": ".fcp"
+  },
+  {
+    "Name": "Final Cut Pro X Project File",
+    "Extension": ".fcproject"
+  },
+  {
+    "Name": "ffDiaporama Project File",
+    "Extension": ".ffd"
+  },
+  {
+    "Name": "FFmpeg Stream File",
+    "Extension": ".ffm"
+  },
+  {
+    "Name": "FLIC Animation",
+    "Extension": ".flc"
+  },
+  {
+    "Name": "FLIC Animation File",
+    "Extension": ".flh"
+  },
+  {
+    "Name": "FLIC Animation",
+    "Extension": ".fli"
+  },
+  {
+    "Name": "FLIC Animation",
+    "Extension": ".flic"
+  },
+  {
+    "Name": "Flash Video File",
+    "Extension": ".flv"
+  },
+  {
+    "Name": "FLIC Animation",
+    "Extension": ".flx"
+  },
+  {
+    "Name": "Utilius Fairplay Project",
+    "Extension": ".fpdx"
+  },
+  {
+    "Name": "FluxTime Clip File",
+    "Extension": ".ftc"
+  },
+  {
+    "Name": "FAST Search & Transfer Video File",
+    "Extension": ".fvt"
+  },
+  {
+    "Name": "GoToMeeting Recording File",
+    "Extension": ".g2m"
+  },
+  {
+    "Name": "Genetec Video File",
+    "Extension": ".g64"
+  },
+  {
+    "Name": "Genetec Video File",
+    "Extension": ".g64x"
+  },
+  {
+    "Name": "Cineform Studio Video Project",
+    "Extension": ".gcs"
+  },
+  {
+    "Name": "GreenForce-Player Protected Media File",
+    "Extension": ".gfp"
+  },
+  {
+    "Name": "GIF Video File",
+    "Extension": ".gifv"
+  },
+  {
+    "Name": "GRASP Animation",
+    "Extension": ".gl"
+  },
+  {
+    "Name": "GOM Media File",
+    "Extension": ".gom"
+  },
+  {
+    "Name": "GRASP Animation",
+    "Extension": ".grasp"
+  },
+  {
+    "Name": "CaptiveWorks PVR Video File",
+    "Extension": ".gts"
+  },
+  {
+    "Name": "Google Video File",
+    "Extension": ".gvi"
+  },
+  {
+    "Name": "Google Video Pointer",
+    "Extension": ".gvp"
+  },
+  {
+    "Name": "General eXchange Format File",
+    "Extension": ".gxf"
+  },
+  {
+    "Name": "H.264 Encoded Video File",
+    "Extension": ".h264"
+  },
+  {
+    "Name": "QuickTime HD Movie File",
+    "Extension": ".hdmov"
+  },
+  {
+    "Name": "High Definition Video Format",
+    "Extension": ".hdv"
+  },
+  {
+    "Name": "High Efficiency Video Coding File",
+    "Extension": ".hevc"
+  },
+  {
+    "Name": "Havok Movie File",
+    "Extension": ".hkm"
+  },
+  {
+    "Name": "DVD-Video Disc Information File",
+    "Extension": ".ifo"
+  },
+  {
+    "Name": "iMovie Library File",
+    "Extension": ".imovielibrary"
+  },
+  {
+    "Name": "iOS iMovie Project File",
+    "Extension": ".imoviemobile"
+  },
+  {
+    "Name": "iMovie Project File",
+    "Extension": ".imovieproj"
+  },
+  {
+    "Name": "iMovie Project",
+    "Extension": ".imovieproject"
+  },
+  {
+    "Name": "Sony Camcorder Image Management File",
+    "Extension": ".inp"
+  },
+  {
+    "Name": "Insta360 Panoramic Video",
+    "Extension": ".insv"
+  },
+  {
+    "Name": "Sony Camcorder Image Management File",
+    "Extension": ".int"
+  },
+  {
+    "Name": "SpeedGrade IRIDAS Composite File",
+    "Extension": ".ircp"
+  },
+  {
+    "Name": "CCTV DVR H.264 Video File",
+    "Extension": ".irf"
+  },
+  {
+    "Name": "IIS Smooth Streaming Manifest File",
+    "Extension": ".ism"
+  },
+  {
+    "Name": "Smooth Streaming Client Manifest File",
+    "Extension": ".ismc"
+  },
+  {
+    "Name": "iStopMotion Animation Clip",
+    "Extension": ".ismclip"
+  },
+  {
+    "Name": "IIS Smooth Streaming Video File",
+    "Extension": ".ismv"
+  },
+  {
+    "Name": "Surveillance Video File",
+    "Extension": ".iva"
+  },
+  {
+    "Name": "Indeo Video Format File",
+    "Extension": ".ivf"
+  },
+  {
+    "Name": "Internet Video Recording",
+    "Extension": ".ivr"
+  },
+  {
+    "Name": "Internet Streaming Video",
+    "Extension": ".ivs"
+  },
+  {
+    "Name": "Isadora Media Control Project",
+    "Extension": ".izz"
+  },
+  {
+    "Name": "Isadora Project",
+    "Extension": ".izzy"
+  },
+  {
+    "Name": "IROAD Dash Cam Video File",
+    "Extension": ".jdr"
+  },
+  {
+    "Name": "Jnes Movie File",
+    "Extension": ".jmv"
+  },
+  {
+    "Name": "JoinNet Recording File",
+    "Extension": ".jnr"
+  },
+  {
+    "Name": "JACOsub Subtitle File",
+    "Extension": ".jss"
+  },
+  {
+    "Name": "Cyberlink AVCHD Video File",
+    "Extension": ".jts"
+  },
+  {
+    "Name": "JRiver TV File",
+    "Extension": ".jtv"
+  },
+  {
+    "Name": "3GP Mobile Phone Video File",
+    "Extension": ".k3g"
+  },
+  {
+    "Name": "Kdenlive Project File",
+    "Extension": ".kdenlive"
+  },
+  {
+    "Name": "Mobile DJ Video File",
+    "Extension": ".kmv"
+  },
+  {
+    "Name": "KTooN Animation Project File",
+    "Extension": ".ktn"
+  },
+  {
+    "Name": "Inter-Tel Web Conference Recording",
+    "Extension": ".lrec"
+  },
+  {
+    "Name": "Low Resolution Video File",
+    "Extension": ".lrv"
+  },
+  {
+    "Name": "Streaming Media Format",
+    "Extension": ".lsf"
+  },
+  {
+    "Name": "Streaming Media Shortcut",
+    "Extension": ".lsx"
+  },
+  {
+    "Name": "Lightworks Video Index File",
+    "Extension": ".lvix"
+  },
+  {
+    "Name": "MPEG Video",
+    "Extension": ".m15"
+  },
+  {
+    "Name": "iFinish Video Clip",
+    "Extension": ".m1pg"
+  },
+  {
+    "Name": "MPEG-1 Video File",
+    "Extension": ".m1v"
+  },
+  {
+    "Name": "MPEG-21 File",
+    "Extension": ".m21"
+  },
+  {
+    "Name": "AXMEDIS MPEG-21 File",
+    "Extension": ".m21"
+  },
+  {
+    "Name": "MPEG-1 Layer 2 Audio File",
+    "Extension": ".m2a"
+  },
+  {
+    "Name": "MPEG-2 Program Stream File",
+    "Extension": ".m2p"
+  },
+  {
+    "Name": "HDV Video File",
+    "Extension": ".m2t"
+  },
+  {
+    "Name": "Blu-ray BDAV Video File",
+    "Extension": ".m2ts"
+  },
+  {
+    "Name": "MPEG-2 Video",
+    "Extension": ".m2v"
+  },
+  {
+    "Name": "MPEG-4 Video File",
+    "Extension": ".m4e"
+  },
+  {
+    "Name": "MPEG-4 Playlist",
+    "Extension": ".m4u"
+  },
+  {
+    "Name": "iTunes Video File",
+    "Extension": ".m4v"
+  },
+  {
+    "Name": "MPEG Video",
+    "Extension": ".m75"
+  },
+  {
+    "Name": "Mine-imator Project File",
+    "Extension": ".mani"
+  },
+  {
+    "Name": "RealPlayer Metafile",
+    "Extension": ".meta"
+  },
+  {
+    "Name": "PSP Video File",
+    "Extension": ".mgv"
+  },
+  {
+    "Name": "Motion JPEG 2000 Video Clip",
+    "Extension": ".mj2"
+  },
+  {
+    "Name": "MJPEG Video File",
+    "Extension": ".mjp"
+  },
+  {
+    "Name": "Motion JPEG Video File",
+    "Extension": ".mjpeg"
+  },
+  {
+    "Name": "Motion JPEG Video File",
+    "Extension": ".mjpg"
+  },
+  {
+    "Name": "Matroska 3D Video File",
+    "Extension": ".mk3d"
+  },
+  {
+    "Name": "Matroska Video File",
+    "Extension": ".mkv"
+  },
+  {
+    "Name": "MicroMV Video File",
+    "Extension": ".mmv"
+  },
+  {
+    "Name": "PlayStation Movie File",
+    "Extension": ".mnv"
+  },
+  {
+    "Name": "MOBTV Video File",
+    "Extension": ".mob"
+  },
+  {
+    "Name": "Camcorder Recorded Video File",
+    "Extension": ".mod"
+  },
+  {
+    "Name": "Sony Video Analysis File",
+    "Extension": ".modd"
+  },
+  {
+    "Name": "Sony Video Data File",
+    "Extension": ".moff"
+  },
+  {
+    "Name": "MOI Video File",
+    "Extension": ".moi"
+  },
+  {
+    "Name": "Apple QuickTime Movie",
+    "Extension": ".moov"
+  },
+  {
+    "Name": "Apple QuickTime Movie",
+    "Extension": ".mov"
+  },
+  {
+    "Name": "QuickTime Movie File",
+    "Extension": ".movie"
+  },
+  {
+    "Name": "Payday Movie File",
+    "Extension": ".movie"
+  },
+  {
+    "Name": "MPEG-21 Multimedia File",
+    "Extension": ".mp21"
+  },
+  {
+    "Name": "AXMEDIS MPEG-21 Object",
+    "Extension": ".mp21"
+  },
+  {
+    "Name": "MPEG-2 Video File",
+    "Extension": ".mp2v"
+  },
+  {
+    "Name": "MPEG-4 Video File",
+    "Extension": ".mp4"
+  },
+  {
+    "Name": "Parrot AR Drone and Gyro Flyer Video",
+    "Extension": ".mp4.infovid"
+  },
+  {
+    "Name": "MPEG-4 Video",
+    "Extension": ".mp4v"
+  },
+  {
+    "Name": "MPEG Movie File",
+    "Extension": ".mpe"
+  },
+  {
+    "Name": "MPEG Movie",
+    "Extension": ".mpeg"
+  },
+  {
+    "Name": "MPEG-1 Video File",
+    "Extension": ".mpeg1"
+  },
+  {
+    "Name": "MPEG-2 Video File",
+    "Extension": ".mpeg2"
+  },
+  {
+    "Name": "MPEG-4 File",
+    "Extension": ".mpeg4"
+  },
+  {
+    "Name": "MainActor Project File",
+    "Extension": ".mpf"
+  },
+  {
+    "Name": "MPEG Video File",
+    "Extension": ".mpg"
+  },
+  {
+    "Name": "MPEG-2 Video File",
+    "Extension": ".mpg2"
+  },
+  {
+    "Name": "MPEG-4 Video File",
+    "Extension": ".mpg4"
+  },
+  {
+    "Name": "Adobe MPEG Index File",
+    "Extension": ".mpgindex"
+  },
+  {
+    "Name": "AVCHD Playlist File",
+    "Extension": ".mpl"
+  },
+  {
+    "Name": "MPL2 Subtitles File",
+    "Extension": ".mpl"
+  },
+  {
+    "Name": "Blu-ray Movie Playlist File",
+    "Extension": ".mpls"
+  },
+  {
+    "Name": "Mine-imator Project",
+    "Extension": ".mproj"
+  },
+  {
+    "Name": "MPlayer Subtitles File",
+    "Extension": ".mpsub"
+  },
+  {
+    "Name": "MPEG Elementary Stream Video File",
+    "Extension": ".mpv"
+  },
+  {
+    "Name": "MPEG-2 Video Stream",
+    "Extension": ".mpv2"
+  },
+  {
+    "Name": "Sony Movie Format File",
+    "Extension": ".mqv"
+  },
+  {
+    "Name": "Windows DVD Maker Project File",
+    "Extension": ".msdvd"
+  },
+  {
+    "Name": "MediaShow Slideshow Project File",
+    "Extension": ".mse"
+  },
+  {
+    "Name": "Visual Communicator Project File",
+    "Extension": ".msh"
+  },
+  {
+    "Name": "Windows Movie Maker Project",
+    "Extension": ".mswmm"
+  },
+  {
+    "Name": "MPEG-2 Transport Stream File",
+    "Extension": ".mt2s"
+  },
+  {
+    "Name": "AVCHD Video File",
+    "Extension": ".mts"
+  },
+  {
+    "Name": "MTV Video Format File",
+    "Extension": ".mtv"
+  },
+  {
+    "Name": "Multimedia Viewer Book Source File",
+    "Extension": ".mvb"
+  },
+  {
+    "Name": "Movie Collector Catalog",
+    "Extension": ".mvc"
+  },
+  {
+    "Name": "Movie Edit Pro Movie File",
+    "Extension": ".mvd"
+  },
+  {
+    "Name": "Infinity Engine Movie File",
+    "Extension": ".mve"
+  },
+  {
+    "Name": "Muvee autoProducer 6 Project File",
+    "Extension": ".mvex"
+  },
+  {
+    "Name": "MAGIX Video Project File",
+    "Extension": ".mvp"
+  },
+  {
+    "Name": "MoviePlus Project File",
+    "Extension": ".mvp"
+  },
+  {
+    "Name": "Video easy Project File",
+    "Extension": ".mvy"
+  },
+  {
+    "Name": "Material Exchange Format File",
+    "Extension": ".mxf"
+  },
+  {
+    "Name": "MAGIX Video File",
+    "Extension": ".mxv"
+  },
+  {
+    "Name": "Vineyard Captured Video File",
+    "Extension": ".mys"
+  },
+  {
+    "Name": "Panasonic Security System Video File",
+    "Extension": ".n3r"
+  },
+  {
+    "Name": "Adobe Encore Project File",
+    "Extension": ".ncor"
+  },
+  {
+    "Name": "Netflix Video File",
+    "Extension": ".nfv"
+  },
+  {
+    "Name": "Nullsoft Streaming Video File",
+    "Extension": ".nsv"
+  },
+  {
+    "Name": "Natron Project File",
+    "Extension": ".ntp"
+  },
+  {
+    "Name": "NUT Video File",
+    "Extension": ".nut"
+  },
+  {
+    "Name": "NuppelVideo File",
+    "Extension": ".nuv"
+  },
+  {
+    "Name": "NeroVision Express Project File",
+    "Extension": ".nvc"
+  },
+  {
+    "Name": "Ogg Media File",
+    "Extension": ".ogm"
+  },
+  {
+    "Name": "Ogg Video File",
+    "Extension": ".ogv"
+  },
+  {
+    "Name": "Ogg Vorbis Multiplexed Media File",
+    "Extension": ".ogx"
+  },
+  {
+    "Name": "Oracom Video File",
+    "Extension": ".orv"
+  },
+  {
+    "Name": "OpenShot Project File",
+    "Extension": ".osp"
+  },
+  {
+    "Name": "OnlineTvRecorder Encoded Video File",
+    "Extension": ".otrkey"
+  },
+  {
+    "Name": "PAC Subtitles File",
+    "Extension": ".pac"
+  },
+  {
+    "Name": "Dedicated Micros DVR Recording",
+    "Extension": ".par"
+  },
+  {
+    "Name": "PowerDirector Script File",
+    "Extension": ".pds"
+  },
+  {
+    "Name": "Video Recording File",
+    "Extension": ".pgi"
+  },
+  {
+    "Name": "Roxio PhotoShow Project",
+    "Extension": ".photoshow"
+  },
+  {
+    "Name": "Pivot Stickfigure Animation",
+    "Extension": ".piv"
+  },
+  {
+    "Name": "Phoenix Subtitles File",
+    "Extension": ".pjs"
+  },
+  {
+    "Name": "CyberLink PowerDVD Playlist",
+    "Extension": ".playlist"
+  },
+  {
+    "Name": "Adobe Prelude Project File",
+    "Extension": ".plproj"
+  },
+  {
+    "Name": "PSP Movie File",
+    "Extension": ".pmf"
+  },
+  {
+    "Name": "Return to Zork Video File",
+    "Extension": ".pmv"
+  },
+  {
+    "Name": "Pelco CCTV Video File",
+    "Extension": ".pns"
+  },
+  {
+    "Name": "Premiere 6 Project File",
+    "Extension": ".ppj"
+  },
+  {
+    "Name": "Premiere Elements Project File",
+    "Extension": ".prel"
+  },
+  {
+    "Name": "ProPresenter Export File",
+    "Extension": ".pro"
+  },
+  {
+    "Name": "ProPresenter DVD Clips Document",
+    "Extension": ".pro4dvd"
+  },
+  {
+    "Name": "ProPresenter DVD Clips Document",
+    "Extension": ".pro5dvd"
+  },
+  {
+    "Name": "ProPresenter Quartz Composition",
+    "Extension": ".proqc"
+  },
+  {
+    "Name": "Premiere Pro Project",
+    "Extension": ".prproj"
+  },
+  {
+    "Name": "Premiere Pro Title File",
+    "Extension": ".prtl"
+  },
+  {
+    "Name": "PowerDivX Subtitles File",
+    "Extension": ".psb"
+  },
+  {
+    "Name": "Photodex Slide Show",
+    "Extension": ".psh"
+  },
+  {
+    "Name": "PhotoSuite Slide Show File",
+    "Extension": ".pssd"
+  },
+  {
+    "Name": "Pluralsight Video File",
+    "Extension": ".psv"
+  },
+  {
+    "Name": "PVA Video File",
+    "Extension": ".pva"
+  },
+  {
+    "Name": "Wintal PVR Video File",
+    "Extension": ".pvr"
+  },
+  {
+    "Name": "Pixbend Media File",
+    "Extension": ".pxv"
+  },
+  {
+    "Name": "Panzoid Video Project",
+    "Extension": ".pz"
+  },
+  {
+    "Name": "Apple QuickTime Movie",
+    "Extension": ".qt"
+  },
+  {
+    "Name": "QuickTime Cache File",
+    "Extension": ".qtch"
+  },
+  {
+    "Name": "Adobe QTIndex File",
+    "Extension": ".qtindex"
+  },
+  {
+    "Name": "QuickTime Link File",
+    "Extension": ".qtl"
+  },
+  {
+    "Name": "Apple QuickTime Movie File",
+    "Extension": ".qtm"
+  },
+  {
+    "Name": "Quartz Composer File",
+    "Extension": ".qtz"
+  },
+  {
+    "Name": "REDCODE Video File",
+    "Extension": ".r3d"
+  },
+  {
+    "Name": "Radiometric Video File",
+    "Extension": ".ravi"
+  },
+  {
+    "Name": "pcAnywhere Recorded Session File",
+    "Extension": ".rcd"
+  },
+  {
+    "Name": "iMovie '08 Project",
+    "Extension": ".rcproject"
+  },
+  {
+    "Name": "LogMeIn Remote Control Session Recording",
+    "Extension": ".rcrec"
+  },
+  {
+    "Name": "Webinaria Recording Cut",
+    "Extension": ".rcut"
+  },
+  {
+    "Name": "Wavelet Video Images File",
+    "Extension": ".rdb"
+  },
+  {
+    "Name": "Topfield PVR Recording",
+    "Extension": ".rec"
+  },
+  {
+    "Name": "RealMedia File",
+    "Extension": ".rm"
+  },
+  {
+    "Name": "RED Metadata File",
+    "Extension": ".rmd"
+  },
+  {
+    "Name": "RealPlayer Media File",
+    "Extension": ".rmd"
+  },
+  {
+    "Name": "RealPlayer Metadata Package File",
+    "Extension": ".rmp"
+  },
+  {
+    "Name": "Secure Real Media File",
+    "Extension": ".rms"
+  },
+  {
+    "Name": "Radical Entertainment Video File",
+    "Extension": ".rmv"
+  },
+  {
+    "Name": "RealMedia Variable Bit Rate File",
+    "Extension": ".rmvb"
+  },
+  {
+    "Name": "Id Software Game Video",
+    "Extension": ".roq"
+  },
+  {
+    "Name": "RealPix Clip",
+    "Extension": ".rp"
+  },
+  {
+    "Name": "RED Metadata XML File",
+    "Extension": ".rsx"
+  },
+  {
+    "Name": "RealPlayer Streaming Media",
+    "Extension": ".rts"
+  },
+  {
+    "Name": "QuickTime Real-Time Streaming Format",
+    "Extension": ".rts"
+  },
+  {
+    "Name": "Bink Video Subtitle File",
+    "Extension": ".rum"
+  },
+  {
+    "Name": "Real Video File",
+    "Extension": ".rv"
+  },
+  {
+    "Name": "Snapz Pro X Recorded Video File",
+    "Extension": ".rvid"
+  },
+  {
+    "Name": "muvee Reveal X Project File",
+    "Extension": ".rvl"
+  },
+  {
+    "Name": "Smush Animation File",
+    "Extension": ".san"
+  },
+  {
+    "Name": "SWiSH Project Backup File",
+    "Extension": ".sbk"
+  },
+  {
+    "Name": "SBT Subtitle File",
+    "Extension": ".sbt"
+  },
+  {
+    "Name": "ShowBiz Project File",
+    "Extension": ".sbz"
+  },
+  {
+    "Name": "ScreenFlow Screen Recording",
+    "Extension": ".scc"
+  },
+  {
+    "Name": "ScreenCam Screen Recording",
+    "Extension": ".scm"
+  },
+  {
+    "Name": "Super Chain Media File",
+    "Extension": ".scm"
+  },
+  {
+    "Name": "Pinnacle Studio Scene File",
+    "Extension": ".scn"
+  },
+  {
+    "Name": "ScreenFlow Document",
+    "Extension": ".screenflow"
+  },
+  {
+    "Name": "Studio DV Project File",
+    "Extension": ".sdv"
+  },
+  {
+    "Name": "Samsung Security Video File",
+    "Extension": ".sec"
+  },
+  {
+    "Name": "GuinXell Video File",
+    "Extension": ".sec"
+  },
+  {
+    "Name": "Slideshow Studio Elements Project",
+    "Extension": ".sedprj"
+  },
+  {
+    "Name": "NorPix StreamPix Sequence",
+    "Extension": ".seq"
+  },
+  {
+    "Name": "Astronomical Capture Video File",
+    "Extension": ".ser"
+  },
+  {
+    "Name": "Sofdec Dreamcast Movie",
+    "Extension": ".sfd"
+  },
+  {
+    "Name": "Sfera 360° File",
+    "Extension": ".sfera"
+  },
+  {
+    "Name": "Sonic Foundry Video Capture File",
+    "Extension": ".sfvidcap"
+  },
+  {
+    "Name": "Silicon Imaging Video File",
+    "Extension": ".siv"
+  },
+  {
+    "Name": "SMIL Presentation",
+    "Extension": ".smi"
+  },
+  {
+    "Name": "SAMI Subtitles File",
+    "Extension": ".smi"
+  },
+  {
+    "Name": "SMIL Presentation File",
+    "Extension": ".smil"
+  },
+  {
+    "Name": "Smacker Compressed Movie File",
+    "Extension": ".smk"
+  },
+  {
+    "Name": "SMIL Slideshow Presentation",
+    "Extension": ".sml"
+  },
+  {
+    "Name": "VideoLink Mail Video File",
+    "Extension": ".smv"
+  },
+  {
+    "Name": "Snagit Project File",
+    "Extension": ".snagproj"
+  },
+  {
+    "Name": "FutureSplash Animation",
+    "Extension": ".spl"
+  },
+  {
+    "Name": "Squeeze Project File",
+    "Extension": ".sqz"
+  },
+  {
+    "Name": "SubRip Subtitle File",
+    "Extension": ".srt"
+  },
+  {
+    "Name": "Structured Subtitle Format File",
+    "Extension": ".ssf"
+  },
+  {
+    "Name": "Standard Streaming Metafile",
+    "Extension": ".ssm"
+  },
+  {
+    "Name": "Spruce Technologies Subtitle File",
+    "Extension": ".stl"
+  },
+  {
+    "Name": "PlayStation Video Stream",
+    "Extension": ".str"
+  },
+  {
+    "Name": "Pinnacle Studio Project File",
+    "Extension": ".stx"
+  },
+  {
+    "Name": "Samsung Video File",
+    "Extension": ".svi"
+  },
+  {
+    "Name": "Shockwave Flash Movie",
+    "Extension": ".swf"
+  },
+  {
+    "Name": "SWiSH Project File",
+    "Extension": ".swi"
+  },
+  {
+    "Name": "Flash Generator Template",
+    "Extension": ".swt"
+  },
+  {
+    "Name": "DivX Author Template File",
+    "Extension": ".tda3mt"
+  },
+  {
+    "Name": "AVCHD Thumbnail File",
+    "Extension": ".tdt"
+  },
+  {
+    "Name": "D-TEG CCTV Video Information File",
+    "Extension": ".tdx"
+  },
+  {
+    "Name": "iMovie Theater File",
+    "Extension": ".theater"
+  },
+  {
+    "Name": "Wii/GameCube Video File",
+    "Extension": ".thp"
+  },
+  {
+    "Name": "AVCHD Thumbnail File",
+    "Extension": ".tid"
+  },
+  {
+    "Name": "TiVo Video File",
+    "Extension": ".tivo"
+  },
+  {
+    "Name": "DivX Video Download Activation File",
+    "Extension": ".tix"
+  },
+  {
+    "Name": "JVC Everio Video Capture File",
+    "Extension": ".tod"
+  },
+  {
+    "Name": "Beyond TV Transport Stream File",
+    "Extension": ".tp"
+  },
+  {
+    "Name": "Mascom PVR Video File",
+    "Extension": ".tp0"
+  },
+  {
+    "Name": "Cyberlink TOD Video File",
+    "Extension": ".tpd"
+  },
+  {
+    "Name": "TMPGEnc Project File",
+    "Extension": ".tpr"
+  },
+  {
+    "Name": "TechSmith Recording File",
+    "Extension": ".trec"
+  },
+  {
+    "Name": "HD Video Transport Stream",
+    "Extension": ".trp"
+  },
+  {
+    "Name": "Video Transport Stream File",
+    "Extension": ".ts"
+  },
+  {
+    "Name": "Digital TV DVR Recording",
+    "Extension": ".tsp"
+  },
+  {
+    "Name": "Digital Receiver Video Recording File",
+    "Extension": ".tsv"
+  },
+  {
+    "Name": "MPEG-4 Timed Text Subtitles File",
+    "Extension": ".ttxt"
+  },
+  {
+    "Name": "mimoLive TV Layer",
+    "Extension": ".tvlayer"
+  },
+  {
+    "Name": "BoinxTV TV recording",
+    "Extension": ".tvrecording"
+  },
+  {
+    "Name": "TeamViewer Video Session File",
+    "Extension": ".tvs"
+  },
+  {
+    "Name": "mimoLive Show",
+    "Extension": ".tvshow"
+  },
+  {
+    "Name": "Universal Subtitles Format File",
+    "Extension": ".usf"
+  },
+  {
+    "Name": "USM Game Video File",
+    "Extension": ".usm"
+  },
+  {
+    "Name": "v264 IPROBOT3 Video File",
+    "Extension": ".v264"
+  },
+  {
+    "Name": "VodBurner Crude Video File",
+    "Extension": ".vbc"
+  },
+  {
+    "Name": "VC-1 Video File",
+    "Extension": ".vc1"
+  },
+  {
+    "Name": "VideoConvert Project File",
+    "Extension": ".vcpf"
+  },
+  {
+    "Name": "ATI Video Card Recording",
+    "Extension": ".vcr"
+  },
+  {
+    "Name": "ViewCave Video File",
+    "Extension": ".vcv"
+  },
+  {
+    "Name": "VDOLive Media File",
+    "Extension": ".vdo"
+  },
+  {
+    "Name": "VirtualDub Signpost File",
+    "Extension": ".vdr"
+  },
+  {
+    "Name": "The 7th Guest Video File",
+    "Extension": ".vdx"
+  },
+  {
+    "Name": "VEGAS Video Project",
+    "Extension": ".veg"
+  },
+  {
+    "Name": "Meta Media Video E-Mail File",
+    "Extension": ".vem"
+  },
+  {
+    "Name": "AVS Video Editor Project File",
+    "Extension": ".vep"
+  },
+  {
+    "Name": "VEGAS Movie Studio Project File",
+    "Extension": ".vf"
+  },
+  {
+    "Name": "VideoStudio Filter File",
+    "Extension": ".vft"
+  },
+  {
+    "Name": "Video for Windows",
+    "Extension": ".vfw"
+  },
+  {
+    "Name": "Creative Webcam Video Effects File",
+    "Extension": ".vfz"
+  },
+  {
+    "Name": "DigitalVDO Compressed Video File",
+    "Extension": ".vgz"
+  },
+  {
+    "Name": "Generic Video File",
+    "Extension": ".vid"
+  },
+  {
+    "Name": "aTube Catcher Video File",
+    "Extension": ".video"
+  },
+  {
+    "Name": "Qarbon Viewlet",
+    "Extension": ".viewlet"
+  },
+  {
+    "Name": "VivoActive Video File",
+    "Extension": ".viv"
+  },
+  {
+    "Name": "VivoActive Video File",
+    "Extension": ".vivo"
+  },
+  {
+    "Name": "Lightworks Video Index File",
+    "Extension": ".vix"
+  },
+  {
+    "Name": "VisionLab Studio Project File",
+    "Extension": ".vlab"
+  },
+  {
+    "Name": "VAIO Video File",
+    "Extension": ".vmlf"
+  },
+  {
+    "Name": "VAIO Video File",
+    "Extension": ".vmlt"
+  },
+  {
+    "Name": "DVD Video Object File",
+    "Extension": ".vob"
+  },
+  {
+    "Name": "On2 Streaming Video File",
+    "Extension": ".vp3"
+  },
+  {
+    "Name": "TrueMotion VP6 Video File",
+    "Extension": ".vp6"
+  },
+  {
+    "Name": "TrueMotion VP7 Video File",
+    "Extension": ".vp7"
+  },
+  {
+    "Name": "VideoPad Video Editor Project File",
+    "Extension": ".vpj"
+  },
+  {
+    "Name": "VR Studio Project File",
+    "Extension": ".vr"
+  },
+  {
+    "Name": "DVD Video Recording Format",
+    "Extension": ".vro"
+  },
+  {
+    "Name": "AVTECH CCTV Video Surveillance File",
+    "Extension": ".vs4"
+  },
+  {
+    "Name": "AVTECH CCTV Video",
+    "Extension": ".vse"
+  },
+  {
+    "Name": "VideoStudio HTML5 Project File",
+    "Extension": ".vsh"
+  },
+  {
+    "Name": "VideoStudio Project File",
+    "Extension": ".vsp"
+  },
+  {
+    "Name": "Web Video Text Tracks File",
+    "Extension": ".vtt"
+  },
+  {
+    "Name": "WinCAPs Subtitle File",
+    "Extension": ".w32"
+  },
+  {
+    "Name": "WinDVD Creator Project File",
+    "Extension": ".wcp"
+  },
+  {
+    "Name": "WebM Video File",
+    "Extension": ".webm"
+  },
+  {
+    "Name": "Wondershare Fantashow Project",
+    "Extension": ".wfsp"
+  },
+  {
+    "Name": "Wildgame Innovations Video File",
+    "Extension": ".wgi"
+  },
+  {
+    "Name": "Windows Live Movie Maker Project File",
+    "Extension": ".wlmp"
+  },
+  {
+    "Name": "Windows Media File",
+    "Extension": ".wm"
+  },
+  {
+    "Name": "Windows Media Download Package",
+    "Extension": ".wmd"
+  },
+  {
+    "Name": "Windows Movie Maker Project File",
+    "Extension": ".wmmp"
+  },
+  {
+    "Name": "Windows Media Video File",
+    "Extension": ".wmv"
+  },
+  {
+    "Name": "Windows Media Redirector File",
+    "Extension": ".wmx"
+  },
+  {
+    "Name": "WebEx Recording File",
+    "Extension": ".wot"
+  },
+  {
+    "Name": "Microsoft Photo Story Project File",
+    "Extension": ".wp3"
+  },
+  {
+    "Name": "Windows Media Player Playlist",
+    "Extension": ".wpl"
+  },
+  {
+    "Name": "Wondershare Filmora for Mac Project File",
+    "Extension": ".wsve"
+  },
+  {
+    "Name": "Windows Recorded TV Show File",
+    "Extension": ".wtv"
+  },
+  {
+    "Name": "Google Play Video File",
+    "Extension": ".wvm"
+  },
+  {
+    "Name": "Windows Media Video Redirector",
+    "Extension": ".wvx"
+  },
+  {
+    "Name": "Wax 2.0 Project",
+    "Extension": ".wxp"
+  },
+  {
+    "Name": "Expression Encoder Job File",
+    "Extension": ".xej"
+  },
+  {
+    "Name": "Expression Encoder Live Encoding File",
+    "Extension": ".xel"
+  },
+  {
+    "Name": "Expression Encoder Screen Capture File",
+    "Extension": ".xesc"
+  },
+  {
+    "Name": "Animate Movie Archive",
+    "Extension": ".xfl"
+  },
+  {
+    "Name": "Xunlei Movie File",
+    "Extension": ".xlmv"
+  },
+  {
+    "Name": "Cinelerra Video Project",
+    "Extension": ".xml"
+  },
+  {
+    "Name": "Xbox Media Video File",
+    "Extension": ".xmv"
+  },
+  {
+    "Name": "Xvid-Encoded Video File",
+    "Extension": ".xvid"
+  },
+  {
+    "Name": "YUV4MPEG2 Video File",
+    "Extension": ".y4m"
+  },
+  {
+    "Name": "Outerra Captured Video File",
+    "Extension": ".yog"
+  },
+  {
+    "Name": "YUV Video File",
+    "Extension": ".yuv"
+  },
+  {
+    "Name": "ZeroG Subtitles File",
+    "Extension": ".zeg"
+  },
+  {
+    "Name": "ZSNES Movie #1 File",
+    "Extension": ".zm1"
+  },
+  {
+    "Name": "ZSNES Movie #2 File",
+    "Extension": ".zm2"
+  },
+  {
+    "Name": "ZSNES Movie #3 File",
+    "Extension": ".zm3"
+  },
+  {
+    "Name": "ZSNES Movie File",
+    "Extension": ".zmv"
+  }
+]

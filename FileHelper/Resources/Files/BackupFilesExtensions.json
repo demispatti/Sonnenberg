@@ -1,0 +1,1110 @@
+[
+  {
+    "Name": "Temporary File",
+    "Extension": ".$$$"
+  },
+  {
+    "Name": "dBASE Temporary File",
+    "Extension": ".$db"
+  },
+  {
+    "Name": "Split Archive File",
+    "Extension": ".001"
+  },
+  {
+    "Name": "Norton Ghost Disk Backup",
+    "Extension": ".001"
+  },
+  {
+    "Name": "Split Archive Part 2 File",
+    "Extension": ".002"
+  },
+  {
+    "Name": "Split Archive Part 3 File",
+    "Extension": ".003"
+  },
+  {
+    "Name": "Iomega Backup File",
+    "Extension": ".113"
+  },
+  {
+    "Name": "TI-73 Backup File",
+    "Extension": ".73b"
+  },
+  {
+    "Name": "File Splitter & Joiner Encrypted File",
+    "Extension": ".__a"
+  },
+  {
+    "Name": "File Splitter & Joiner Encrypted Archive File",
+    "Extension": ".__b"
+  },
+  {
+    "Name": "Android ADB Backup File",
+    "Extension": ".ab"
+  },
+  {
+    "Name": "Palm Address Book Archive",
+    "Extension": ".aba"
+  },
+  {
+    "Name": "Address Book Backup",
+    "Extension": ".abbu"
+  },
+  {
+    "Name": "Analysis Services Backup File",
+    "Extension": ".abf"
+  },
+  {
+    "Name": "Automatic Backup File",
+    "Extension": ".abk"
+  },
+  {
+    "Name": "Asus App Backup File",
+    "Extension": ".abu"
+  },
+  {
+    "Name": "ASUS Backup File",
+    "Extension": ".abu1"
+  },
+  {
+    "Name": "Alfresco Content Package",
+    "Extension": ".acp"
+  },
+  {
+    "Name": "Acer eRecovery Management Backup File",
+    "Extension": ".acr"
+  },
+  {
+    "Name": "Active@ Disk Image Backup File",
+    "Extension": ".adi"
+  },
+  {
+    "Name": "AOMEI Backupper Disk Backup File",
+    "Extension": ".adi"
+  },
+  {
+    "Name": "AdWords Editor Archive",
+    "Extension": ".aea"
+  },
+  {
+    "Name": "AOMEI Backupper File Backup File",
+    "Extension": ".afi"
+  },
+  {
+    "Name": "Symbian OS Backup File",
+    "Extension": ".arc"
+  },
+  {
+    "Name": "Norton Backup Archive",
+    "Extension": ".arc"
+  },
+  {
+    "Name": "askSam Backup File",
+    "Extension": ".as4"
+  },
+  {
+    "Name": "Word AutoSave File",
+    "Extension": ".asd"
+  },
+  {
+    "Name": "Ashampoo Backup Archive",
+    "Extension": ".ashbak"
+  },
+  {
+    "Name": "Finale Auto-save File",
+    "Extension": ".asv"
+  },
+  {
+    "Name": "Finale Auto-save File",
+    "Extension": ".asvx"
+  },
+  {
+    "Name": "Office Accounting Compressed Backup File",
+    "Extension": ".ate"
+  },
+  {
+    "Name": "Office Accounting Updated Company File",
+    "Extension": ".ati"
+  },
+  {
+    "Name": "TaxAct 2016 Tax Return Backup File",
+    "Extension": ".ba6"
+  },
+  {
+    "Name": "TaxAct 2017 Tax Return Backup File",
+    "Extension": ".ba7"
+  },
+  {
+    "Name": "TaxAct 2018 Tax Return Backup File",
+    "Extension": ".ba8"
+  },
+  {
+    "Name": "Backup File",
+    "Extension": ".bac"
+  },
+  {
+    "Name": "Android Backup File",
+    "Extension": ".backup"
+  },
+  {
+    "Name": "Time Machine Backup Folder",
+    "Extension": ".backupdb"
+  },
+  {
+    "Name": "Backup File",
+    "Extension": ".bak"
+  },
+  {
+    "Name": "Bookmarks Backup File",
+    "Extension": ".bak"
+  },
+  {
+    "Name": "ACT! Backup File",
+    "Extension": ".bak"
+  },
+  {
+    "Name": "Finale Backup File",
+    "Extension": ".bak"
+  },
+  {
+    "Name": "MobileTrans Backup File",
+    "Extension": ".bak"
+  },
+  {
+    "Name": "Backup File",
+    "Extension": ".bak2"
+  },
+  {
+    "Name": "Backup File",
+    "Extension": ".bak3"
+  },
+  {
+    "Name": "Finale Backup File",
+    "Extension": ".bakx"
+  },
+  {
+    "Name": "AbiWord Auto-Saved Document",
+    "Extension": ".bak~"
+  },
+  {
+    "Name": "BlackBerry Mobile Phone Backup File",
+    "Extension": ".bbb"
+  },
+  {
+    "Name": "BerryBuzz Backup File",
+    "Extension": ".bbz"
+  },
+  {
+    "Name": "VMX Backup File",
+    "Extension": ".bck"
+  },
+  {
+    "Name": "Ad-Aware Quarantined File",
+    "Extension": ".bckp"
+  },
+  {
+    "Name": "Microsoft Works Communications Script Backup",
+    "Extension": ".bcm"
+  },
+  {
+    "Name": "Microsoft Works Database Backup File",
+    "Extension": ".bdb"
+  },
+  {
+    "Name": "Backup File Format",
+    "Extension": ".bff"
+  },
+  {
+    "Name": "Get Backup Project File",
+    "Extension": ".bif"
+  },
+  {
+    "Name": "Get Backup Project",
+    "Extension": ".bifx"
+  },
+  {
+    "Name": "Autodesk Backup File",
+    "Extension": ".bk1"
+  },
+  {
+    "Name": "ERwin Backup File",
+    "Extension": ".bk1"
+  },
+  {
+    "Name": "Backup4all Backup Catalog",
+    "Extension": ".bkc"
+  },
+  {
+    "Name": "Windows Backup Utility File",
+    "Extension": ".bkf"
+  },
+  {
+    "Name": "Backup File",
+    "Extension": ".bkp"
+  },
+  {
+    "Name": "Zapback Backup File",
+    "Extension": ".bkp"
+  },
+  {
+    "Name": "Backup File",
+    "Extension": ".bkup"
+  },
+  {
+    "Name": "FileFort Backup File",
+    "Extension": ".bkz"
+  },
+  {
+    "Name": "Blender Document Backup File",
+    "Extension": ".blend1"
+  },
+  {
+    "Name": "Blender Document Backup 2 File",
+    "Extension": ".blend2"
+  },
+  {
+    "Name": "Sony Ericsson Backup File",
+    "Extension": ".bm3"
+  },
+  {
+    "Name": "BillMinder Backup File",
+    "Extension": ".bmk"
+  },
+  {
+    "Name": "BookSmart Backup Book File",
+    "Extension": ".bookexport"
+  },
+  {
+    "Name": "StorageSync Backup Archive",
+    "Extension": ".bpa"
+  },
+  {
+    "Name": "PowerDesigner Business Process Backup File",
+    "Extension": ".bpb"
+  },
+  {
+    "Name": "PowerDesigner Business Process Model",
+    "Extension": ".bpm"
+  },
+  {
+    "Name": "ArchiCAD Project Backup File",
+    "Extension": ".bpn"
+  },
+  {
+    "Name": "Works Document Backup",
+    "Extension": ".bps"
+  },
+  {
+    "Name": "DVD IFO Backup File",
+    "Extension": ".bup"
+  },
+  {
+    "Name": "Backup File",
+    "Extension": ".bup"
+  },
+  {
+    "Name": "CleanApp Archive",
+    "Extension": ".caa"
+  },
+  {
+    "Name": "Backup Configuration File",
+    "Extension": ".cbk"
+  },
+  {
+    "Name": "Comodo Backup Script",
+    "Extension": ".cbs"
+  },
+  {
+    "Name": "Comodo Backup File",
+    "Extension": ".cbu"
+  },
+  {
+    "Name": "Cenon Backup File",
+    "Extension": ".cenon~"
+  },
+  {
+    "Name": "Cook'n Cookbook Backup File",
+    "Extension": ".ck9"
+  },
+  {
+    "Name": "Connected Backup File",
+    "Extension": ".cmf"
+  },
+  {
+    "Name": "Windows CardSpace Backup File",
+    "Extension": ".crds"
+  },
+  {
+    "Name": "Steam Game Data Backup File",
+    "Extension": ".csd"
+  },
+  {
+    "Name": "Steam Game Backup File",
+    "Extension": ".csm"
+  },
+  {
+    "Name": "Windows Registry Backup File",
+    "Extension": ".da0"
+  },
+  {
+    "Name": "Dashlane Profile",
+    "Extension": ".dash"
+  },
+  {
+    "Name": "Palm Datebook Backup File",
+    "Extension": ".dba"
+  },
+  {
+    "Name": "Sony Ericsson Mobile Phone Backup File",
+    "Extension": ".dbk"
+  },
+  {
+    "Name": "dBASE Database Backup",
+    "Extension": ".dbk"
+  },
+  {
+    "Name": "Active@ Raw Disk Image Backup File",
+    "Extension": ".dim"
+  },
+  {
+    "Name": "My Drivers Backup Setup File",
+    "Extension": ".diy"
+  },
+  {
+    "Name": "CA Backup and Migration Backup File",
+    "Extension": ".dna"
+  },
+  {
+    "Name": "Temp File",
+    "Extension": ".dov"
+  },
+  {
+    "Name": "DataPilot Backup File",
+    "Extension": ".dpb"
+  },
+  {
+    "Name": "Dell DataSafe Backup File",
+    "Extension": ".dsb"
+  },
+  {
+    "Name": "DiskStation Backup Configuration File",
+    "Extension": ".dss"
+  },
+  {
+    "Name": "Family Tree Maker for DOS Backup File",
+    "Extension": ".fbc"
+  },
+  {
+    "Name": "Free Backup Fix Backup File",
+    "Extension": ".fbf"
+  },
+  {
+    "Name": "Microsoft Dynamics NAV Backup File",
+    "Extension": ".fbk"
+  },
+  {
+    "Name": "Family Tree Maker for Windows Backup File",
+    "Extension": ".fbk"
+  },
+  {
+    "Name": "FEBE Firefox Backup File",
+    "Extension": ".fbu"
+  },
+  {
+    "Name": "HP Recovery Manager Backup File",
+    "Extension": ".fbw"
+  },
+  {
+    "Name": "Symantec Backup Exec File",
+    "Extension": ".fh"
+  },
+  {
+    "Name": "Free Hide Folder Backup File",
+    "Extension": ".fhf"
+  },
+  {
+    "Name": "Folder Lock Portable Locker File",
+    "Extension": ".flka"
+  },
+  {
+    "Name": "Folder Lock Basic Locker File",
+    "Extension": ".flkb"
+  },
+  {
+    "Name": "Nokia Firmware Format File",
+    "Extension": ".fpsx"
+  },
+  {
+    "Name": "Family Tree Maker Backup File",
+    "Extension": ".ftmb"
+  },
+  {
+    "Name": "Microsoft Backup File List",
+    "Extension": ".ful"
+  },
+  {
+    "Name": "Freeway Backup",
+    "Extension": ".fwbackup"
+  },
+  {
+    "Name": "Form•Z Autosave File",
+    "Extension": ".fza"
+  },
+  {
+    "Name": "Form•Z Project Backup File",
+    "Extension": ".fzb"
+  },
+  {
+    "Name": "Game Maker Backup File",
+    "Extension": ".gb1"
+  },
+  {
+    "Name": "Game Maker Backup File",
+    "Extension": ".gb2"
+  },
+  {
+    "Name": "Genie Timeline Backup Index File",
+    "Extension": ".gbp"
+  },
+  {
+    "Name": "Norton Ghost Backup File",
+    "Extension": ".gho"
+  },
+  {
+    "Name": "Norton Ghost Image Segment",
+    "Extension": ".ghs"
+  },
+  {
+    "Name": "Genius Scan Backup File",
+    "Extension": ".gs-bck"
+  },
+  {
+    "Name": "IncrediMail Account Backup File",
+    "Extension": ".ibk"
+  },
+  {
+    "Name": "Calendar Backup File",
+    "Extension": ".icbu"
+  },
+  {
+    "Name": "Zoom Router Configuration File",
+    "Extension": ".icf"
+  },
+  {
+    "Name": "Time Machine Backup Progress File",
+    "Extension": ".inprogress"
+  },
+  {
+    "Name": "BlackBerry Backup File",
+    "Extension": ".ipd"
+  },
+  {
+    "Name": "Norton Ghost Incremental Virtual Volume Image",
+    "Extension": ".iv2i"
+  },
+  {
+    "Name": "Akeeba Multi-part Backup Archive",
+    "Extension": ".j01"
+  },
+  {
+    "Name": "Juno Backup File",
+    "Extension": ".jbk"
+  },
+  {
+    "Name": "JDownloader Links File",
+    "Extension": ".jdc"
+  },
+  {
+    "Name": "Akeeba Backup Archive",
+    "Extension": ".jpa"
+  },
+  {
+    "Name": "Akeeba Backup Archive",
+    "Extension": ".jps"
+  },
+  {
+    "Name": "Kleo Backup File",
+    "Extension": ".kb2"
+  },
+  {
+    "Name": "LG Backup File",
+    "Extension": ".lbf"
+  },
+  {
+    "Name": "Living Cookbook Backup File",
+    "Extension": ".lcb"
+  },
+  {
+    "Name": "Legistant Encrypted Backup File",
+    "Extension": ".ldabak"
+  },
+  {
+    "Name": "LabVIEW VI Library Backup File",
+    "Extension": ".llx"
+  },
+  {
+    "Name": "Microsoft Money Backup File",
+    "Extension": ".mbf"
+  },
+  {
+    "Name": "dBASE IV Multiple Index Backup File",
+    "Extension": ".mbk"
+  },
+  {
+    "Name": "MBRWizard Archive",
+    "Extension": ".mbw"
+  },
+  {
+    "Name": "iPhone Data Backup File",
+    "Extension": ".mdbackup"
+  },
+  {
+    "Name": "iPhone Backup File",
+    "Extension": ".mddata"
+  },
+  {
+    "Name": "iPhone Backup Information File",
+    "Extension": ".mdinfo"
+  },
+  {
+    "Name": "FoxPro Variable File",
+    "Extension": ".mem"
+  },
+  {
+    "Name": "Windows Migration Backup File",
+    "Extension": ".mig"
+  },
+  {
+    "Name": "MyPhoneExplorer Backup File",
+    "Extension": ".mpb"
+  },
+  {
+    "Name": "mSecure Password Manager Backup File",
+    "Extension": ".msim"
+  },
+  {
+    "Name": "Movie Edit Pro Movie Backup File",
+    "Extension": ".mv_"
+  },
+  {
+    "Name": "Keep My Notes Backup",
+    "Extension": ".mynotesbackup"
+  },
+  {
+    "Name": "NovaBACKUP Output File",
+    "Extension": ".nb7"
+  },
+  {
+    "Name": "Nero BackItUp Archive",
+    "Extension": ".nba"
+  },
+  {
+    "Name": "Neat Backup File",
+    "Extension": ".nbak"
+  },
+  {
+    "Name": "NovaBACKUP File",
+    "Extension": ".nbd"
+  },
+  {
+    "Name": "Data Backup Data File",
+    "Extension": ".nbd"
+  },
+  {
+    "Name": "Nokia Backup File",
+    "Extension": ".nbf"
+  },
+  {
+    "Name": "Backup Now Archive",
+    "Extension": ".nbf"
+  },
+  {
+    "Name": "Nero BackItUp Information File",
+    "Extension": ".nbi"
+  },
+  {
+    "Name": "NovaBACKUP Job File",
+    "Extension": ".nbk"
+  },
+  {
+    "Name": "Data Backup Job File",
+    "Extension": ".nbk"
+  },
+  {
+    "Name": "NTI Backup Set",
+    "Extension": ".nbs"
+  },
+  {
+    "Name": "Nokia Phone Backup File",
+    "Extension": ".nbu"
+  },
+  {
+    "Name": "Nero BackItUp File",
+    "Extension": ".nco"
+  },
+  {
+    "Name": "Nero Backup File",
+    "Extension": ".nda"
+  },
+  {
+    "Name": "Nokia Phone Backup File",
+    "Extension": ".nfb"
+  },
+  {
+    "Name": "Nokia Phone Backup Copy File",
+    "Extension": ".nfc"
+  },
+  {
+    "Name": "NOY Backup File",
+    "Extension": ".noy"
+  },
+  {
+    "Name": "NTI Partition File",
+    "Extension": ".npf"
+  },
+  {
+    "Name": "NTI Partition Set",
+    "Extension": ".nps"
+  },
+  {
+    "Name": "NeatReceipts Backup File",
+    "Extension": ".nrbak"
+  },
+  {
+    "Name": "NovaBACKUP Restore Script",
+    "Extension": ".nrs"
+  },
+  {
+    "Name": "NeatWorks Backup File",
+    "Extension": ".nwbak"
+  },
+  {
+    "Name": "Backup File",
+    "Extension": ".obk"
+  },
+  {
+    "Name": "Outlook Express Backup Wizard File",
+    "Extension": ".oeb"
+  },
+  {
+    "Name": "Backup File",
+    "Extension": ".old"
+  },
+  {
+    "Name": "Microsoft OneNote Package File",
+    "Extension": ".onepkg"
+  },
+  {
+    "Name": "Original File",
+    "Extension": ".ori"
+  },
+  {
+    "Name": "Original File",
+    "Extension": ".orig"
+  },
+  {
+    "Name": "Approach Alternate Database Index",
+    "Extension": ".oyx"
+  },
+  {
+    "Name": "Hewlett-Packard Software Restore File",
+    "Extension": ".paq"
+  },
+  {
+    "Name": "PowerBackup Archive",
+    "Extension": ".pba"
+  },
+  {
+    "Name": "AT&T Phonebook File",
+    "Extension": ".pbb"
+  },
+  {
+    "Name": "EaseUS Todo Backup File",
+    "Extension": ".pbd"
+  },
+  {
+    "Name": "PowerBackup Data File",
+    "Extension": ".pbf"
+  },
+  {
+    "Name": "Paragon Backup File",
+    "Extension": ".pbf"
+  },
+  {
+    "Name": "PowerBackup Job File",
+    "Extension": ".pbj"
+  },
+  {
+    "Name": "Personal Backup Script",
+    "Extension": ".pbx5script"
+  },
+  {
+    "Name": "Personal Backup Script",
+    "Extension": ".pbxscript"
+  },
+  {
+    "Name": "PowerDesigner Database Backup File",
+    "Extension": ".pdb"
+  },
+  {
+    "Name": "Paragon Backup Index File",
+    "Extension": ".pfi"
+  },
+  {
+    "Name": "Pleco Chinese Dictionary Backup File",
+    "Extension": ".pqb"
+  },
+  {
+    "Name": "Pleco Chinese Dictionary Backup File",
+    "Extension": ".pqb-backup"
+  },
+  {
+    "Name": "Free Folder Hider Backup File",
+    "Extension": ".prv"
+  },
+  {
+    "Name": "Plesk Backup File",
+    "Extension": ".psa"
+  },
+  {
+    "Name": "Sage 50 Backup File",
+    "Extension": ".ptb"
+  },
+  {
+    "Name": "Parallels Desktop Copied Configuration File",
+    "Extension": ".pvc"
+  },
+  {
+    "Name": "Paragon Virtual Hard Drive",
+    "Extension": ".pvhd"
+  },
+  {
+    "Name": "QBA Transaction Log File",
+    "Extension": ".qba.tlg"
+  },
+  {
+    "Name": "QuickBooks Backup File",
+    "Extension": ".qbb"
+  },
+  {
+    "Name": "QuickTax Backup File",
+    "Extension": ".qbk"
+  },
+  {
+    "Name": "QuickBooks Portable Company File",
+    "Extension": ".qbm"
+  },
+  {
+    "Name": "QuickBooks Backup File",
+    "Extension": ".qbmb"
+  },
+  {
+    "Name": "QuickBooks Backup File",
+    "Extension": ".qbmd"
+  },
+  {
+    "Name": "QuickBooks Accountant Transfer File",
+    "Extension": ".qbx"
+  },
+  {
+    "Name": "Windows Backup File",
+    "Extension": ".qic"
+  },
+  {
+    "Name": "Qualtrics Survey File",
+    "Extension": ".qsf"
+  },
+  {
+    "Name": "J&ASoft Code Archive File",
+    "Extension": ".qualsoftcode"
+  },
+  {
+    "Name": "Quicken 2015 Backup File",
+    "Extension": ".quicken2015backup"
+  },
+  {
+    "Name": "Quicken 2016 Backup File",
+    "Extension": ".quicken2016backup"
+  },
+  {
+    "Name": "Quicken 2017 Backup File",
+    "Extension": ".quicken2017backup"
+  },
+  {
+    "Name": "Quicken Essentials for Mac Backup File",
+    "Extension": ".quickenbackup"
+  },
+  {
+    "Name": "ViewletBuilder Project Backup File",
+    "Extension": ".qv~"
+  },
+  {
+    "Name": "Retrospect Backup Catalog File",
+    "Extension": ".rbc"
+  },
+  {
+    "Name": "Windows Installer Rollback File",
+    "Extension": ".rbf"
+  },
+  {
+    "Name": "Stellar Insta Backup Image",
+    "Extension": ".rbf"
+  },
+  {
+    "Name": "Retrospect Backup File",
+    "Extension": ".rbf"
+  },
+  {
+    "Name": "Windows 95 Registry Backup File",
+    "Extension": ".rbk"
+  },
+  {
+    "Name": "Windows Installer Rollback Script",
+    "Extension": ".rbs"
+  },
+  {
+    "Name": "Retrospect Backup Set",
+    "Extension": ".rdb"
+  },
+  {
+    "Name": "RootsMagic Backup File",
+    "Extension": ".rgmb"
+  },
+  {
+    "Name": "Registry Mechanic Backup File",
+    "Extension": ".rmbak"
+  },
+  {
+    "Name": "Registry Mechanic Backup File",
+    "Extension": ".rrr"
+  },
+  {
+    "Name": "Safe Note Backup File",
+    "Extension": ".safenotebackup"
+  },
+  {
+    "Name": "Parallels Desktop Saved State Image File",
+    "Extension": ".sav"
+  },
+  {
+    "Name": "Office Accounting Company Backup File",
+    "Extension": ".sbb"
+  },
+  {
+    "Name": "Secure Backup System File",
+    "Extension": ".sbs"
+  },
+  {
+    "Name": "Samsung Backup File",
+    "Extension": ".sbu"
+  },
+  {
+    "Name": "Stardock Central Download Archive",
+    "Extension": ".sdc"
+  },
+  {
+    "Name": "Steam Game Backup Information File",
+    "Extension": ".sim"
+  },
+  {
+    "Name": "Steam Game Backup Information File",
+    "Extension": ".sis"
+  },
+  {
+    "Name": "SketchUp Backup Document",
+    "Extension": ".skb"
+  },
+  {
+    "Name": "Samsung Mobile Backup File",
+    "Extension": ".sme"
+  },
+  {
+    "Name": "Drive Snapshot First Differential Backup",
+    "Extension": ".sn1"
+  },
+  {
+    "Name": "Drive Snapshot Second Differential Backup",
+    "Extension": ".sn2"
+  },
+  {
+    "Name": "Drive Snapshot Primary Backup File",
+    "Extension": ".sna"
+  },
+  {
+    "Name": "Save-N-Sync Project File",
+    "Extension": ".sns"
+  },
+  {
+    "Name": "ShadowProtect Full Backup File",
+    "Extension": ".spf"
+  },
+  {
+    "Name": "TCP Optimizer Backup File",
+    "Extension": ".spg"
+  },
+  {
+    "Name": "ShadowProtect Incremental Backup File",
+    "Extension": ".spi"
+  },
+  {
+    "Name": "SyncBack Settings File",
+    "Extension": ".sps"
+  },
+  {
+    "Name": "SQL Backup SQL Server Backup File",
+    "Extension": ".sqb"
+  },
+  {
+    "Name": "ReScene Metadata File",
+    "Extension": ".srr"
+  },
+  {
+    "Name": "ActiveSync Backup File",
+    "Extension": ".stg"
+  },
+  {
+    "Name": "AutoCAD Automated Backup File",
+    "Extension": ".sv$"
+  },
+  {
+    "Name": "Symantec System Index File",
+    "Extension": ".sv2i"
+  },
+  {
+    "Name": "FoxPro Memo Backup",
+    "Extension": ".tbk"
+  },
+  {
+    "Name": "eBay Turbo Lister Backup File",
+    "Extension": ".tdb"
+  },
+  {
+    "Name": "Titanium Backup File",
+    "Extension": ".tibkp"
+  },
+  {
+    "Name": "TI Connect Backup File",
+    "Extension": ".tig"
+  },
+  {
+    "Name": "True Image Script",
+    "Extension": ".tis"
+  },
+  {
+    "Name": "QuickBooks Transaction Log File",
+    "Extension": ".tlg"
+  },
+  {
+    "Name": "Temporary File",
+    "Extension": ".tmp"
+  },
+  {
+    "Name": "Finale Temporary File",
+    "Extension": ".tmp"
+  },
+  {
+    "Name": "Free Countdown Timer Backup File",
+    "Extension": ".tmr"
+  },
+  {
+    "Name": "SQL Server Transaction Log Backup File",
+    "Extension": ".trn"
+  },
+  {
+    "Name": "Canadian TurboTax 2010 Backup File",
+    "Extension": ".ttbk"
+  },
+  {
+    "Name": "UFS Explorer Backup File",
+    "Extension": ".uci"
+  },
+  {
+    "Name": "Norton Ghost Virtual Volume Image",
+    "Extension": ".v2i"
+  },
+  {
+    "Name": "Veeam Backup File",
+    "Extension": ".vbk"
+  },
+  {
+    "Name": "Veeam Backup Metadata File",
+    "Extension": ".vbm"
+  },
+  {
+    "Name": "Oracle VM VirtualBox Settings Backup File",
+    "Extension": ".vbox-prev"
+  },
+  {
+    "Name": "Windows Virtual PC Backup File",
+    "Extension": ".vpcbackup"
+  },
+  {
+    "Name": "Veeam Incremental Backup File",
+    "Extension": ".vrb"
+  },
+  {
+    "Name": "Samsung Recovery File",
+    "Extension": ".w01"
+  },
+  {
+    "Name": "Enpass Data File",
+    "Extension": ".walletx"
+  },
+  {
+    "Name": "WinBackup Archive",
+    "Extension": ".wbb"
+  },
+  {
+    "Name": "Windows Backup Catalog File",
+    "Extension": ".wbcat"
+  },
+  {
+    "Name": "Word Document Backup",
+    "Extension": ".wbk"
+  },
+  {
+    "Name": "Windows Backup File",
+    "Extension": ".win"
+  },
+  {
+    "Name": "FoxPro Window Settings",
+    "Extension": ".win"
+  },
+  {
+    "Name": "WinZip Job File",
+    "Extension": ".wjf"
+  },
+  {
+    "Name": "Windows Phone Device Manager Backup File",
+    "Extension": ".wpb"
+  },
+  {
+    "Name": "WebsitePanel Backup File",
+    "Extension": ".wspak"
+  },
+  {
+    "Name": "Wanam Xposed Backup File",
+    "Extension": ".wx"
+  },
+  {
+    "Name": "XenServer Backup File",
+    "Extension": ".xbk"
+  },
+  {
+    "Name": "Excel Backup File",
+    "Extension": ".xlk"
+  },
+  {
+    "Name": "YRC Backup Archive",
+    "Extension": ".yrcbck"
+  },
+  {
+    "Name": "zebNet Backup File Extended",
+    "Extension": ".zbfx"
+  },
+  {
+    "Name": "Circuit Wizard Backup File",
+    "Extension": ".~cw"
+  }
+]

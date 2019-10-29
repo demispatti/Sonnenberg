@@ -1,0 +1,1066 @@
+[
+  {
+    "Name": "Shared Library Link File",
+    "Extension": ".0"
+  },
+  {
+    "Name": "Indexing Service Data File",
+    "Extension": ".000"
+  },
+  {
+    "Name": "ASUS Notebook BIOS 208 Update File",
+    "Extension": ".208"
+  },
+  {
+    "Name": "Puppy Linux Save State File",
+    "Extension": ".2fs"
+  },
+  {
+    "Name": "Windows Virtual Device Driver",
+    "Extension": ".386"
+  },
+  {
+    "Name": "Puppy Linux Save State File",
+    "Extension": ".3fs"
+  },
+  {
+    "Name": "TI-73 Explorer Operating System File",
+    "Extension": ".73u"
+  },
+  {
+    "Name": "TI-84 Plus C Operating System File",
+    "Extension": ".8cu"
+  },
+  {
+    "Name": "TI-83 and TI-84 Plus Operating System File",
+    "Extension": ".8xu"
+  },
+  {
+    "Name": "Administrative Template File",
+    "Extension": ".adm"
+  },
+  {
+    "Name": "Group Policy Language-Specific Administrative Template",
+    "Extension": ".adml"
+  },
+  {
+    "Name": "Group Policy Administrative Template File",
+    "Extension": ".admx"
+  },
+  {
+    "Name": "Audio Driver File",
+    "Extension": ".adv"
+  },
+  {
+    "Name": "ACPI Machine Language File",
+    "Extension": ".aml"
+  },
+  {
+    "Name": "Windows Animated Cursor",
+    "Extension": ".ani"
+  },
+  {
+    "Name": "Help Annotations",
+    "Extension": ".ann"
+  },
+  {
+    "Name": "ARCHOS PCtablet Firmware File",
+    "Extension": ".aos"
+  },
+  {
+    "Name": "Android Secure Application File",
+    "Extension": ".asec"
+  },
+  {
+    "Name": "ATA Hard Drive Flag File",
+    "Extension": ".atahd"
+  },
+  {
+    "Name": "Windows Jump List File",
+    "Extension": ".automaticdestinations-ms"
+  },
+  {
+    "Name": "Bash History File",
+    "Extension": ".bash_history"
+  },
+  {
+    "Name": "Bash Interactive Login Shell File",
+    "Extension": ".bash_profile"
+  },
+  {
+    "Name": "Bash Non-Interactive Login Shell File",
+    "Extension": ".bashrc"
+  },
+  {
+    "Name": "Windows Boot Configuration Data File",
+    "Extension": ".bcd"
+  },
+  {
+    "Name": "Router Firmware File",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "BIOS File",
+    "Extension": ".bio"
+  },
+  {
+    "Name": "Windows Indexing Service File",
+    "Extension": ".bk1"
+  },
+  {
+    "Name": "Windows Indexing Service Data File",
+    "Extension": ".bk2"
+  },
+  {
+    "Name": "CLFS Base Log File",
+    "Extension": ".blf"
+  },
+  {
+    "Name": "Help Bookmarks",
+    "Extension": ".bmk"
+  },
+  {
+    "Name": "Mac OS X Bill of Materials File",
+    "Extension": ".bom"
+  },
+  {
+    "Name": "Binary Printer Description File",
+    "Extension": ".bud"
+  },
+  {
+    "Name": "Syslinux COM32 Module",
+    "Extension": ".c32"
+  },
+  {
+    "Name": "Windows Cabinet File",
+    "Extension": ".cab"
+  },
+  {
+    "Name": "Apple Predefined Search",
+    "Extension": ".cannedsearch"
+  },
+  {
+    "Name": "ASUS BIOS Update File",
+    "Extension": ".cap"
+  },
+  {
+    "Name": "Windows Catalog File",
+    "Extension": ".cat"
+  },
+  {
+    "Name": "WCS Device Model Profile",
+    "Extension": ".cdmp"
+  },
+  {
+    "Name": "Linux Drivers Archive",
+    "Extension": ".cgz"
+  },
+  {
+    "Name": "Windows Net Logon File",
+    "Extension": ".chg"
+  },
+  {
+    "Name": "Netgear Router Firmware File",
+    "Extension": ".chk"
+  },
+  {
+    "Name": "Windows Chinese Noise-Word List File",
+    "Extension": ".chs"
+  },
+  {
+    "Name": "Windows Chinese Traditional Noise-Word List File",
+    "Extension": ".cht"
+  },
+  {
+    "Name": "Windows Content Indexer Catalog File",
+    "Extension": ".ci"
+  },
+  {
+    "Name": "COM+ Catalog File",
+    "Extension": ".clb"
+  },
+  {
+    "Name": "Samsung Smart TV Index File",
+    "Extension": ".cm0013"
+  },
+  {
+    "Name": "ASUS BIOS File",
+    "Extension": ".cmo"
+  },
+  {
+    "Name": "Help Contents File",
+    "Extension": ".cnt"
+  },
+  {
+    "Name": "Apple Configuration Profile",
+    "Extension": ".configprofile"
+  },
+  {
+    "Name": "Codepage Information File",
+    "Extension": ".cpi"
+  },
+  {
+    "Name": "Windows Control Panel Item",
+    "Extension": ".cpl"
+  },
+  {
+    "Name": "Compaq OEM Disc Configuration File",
+    "Extension": ".cpq"
+  },
+  {
+    "Name": "Windows Phone Display Settings File",
+    "Extension": ".cpr"
+  },
+  {
+    "Name": "Mac OS X Crash Log File",
+    "Extension": ".crash"
+  },
+  {
+    "Name": "Windows Cursor",
+    "Extension": ".cur"
+  },
+  {
+    "Name": "Windows 7 Jump List File",
+    "Extension": ".customdestinations-ms"
+  },
+  {
+    "Name": "Windows Registry Hive File",
+    "Extension": ".dat"
+  },
+  {
+    "Name": "Desktop Shortcut",
+    "Extension": ".desklink"
+  },
+  {
+    "Name": "Windows 8 Desktop Theme Pack File",
+    "Extension": ".deskthemepack"
+  },
+  {
+    "Name": "Windows Device Driver File",
+    "Extension": ".dev"
+  },
+  {
+    "Name": "Device Metadata Package",
+    "Extension": ".devicemetadata-ms"
+  },
+  {
+    "Name": "iOS DFU File",
+    "Extension": ".dfu"
+  },
+  {
+    "Name": "Troubleshooting Pack Cabinet File",
+    "Extension": ".diagcab"
+  },
+  {
+    "Name": "Troubleshooting Pack Configuration File",
+    "Extension": ".diagcfg"
+  },
+  {
+    "Name": "Troubleshooting Pack File",
+    "Extension": ".diagpkg"
+  },
+  {
+    "Name": "DiMAX Firmware Image File",
+    "Extension": ".dimax"
+  },
+  {
+    "Name": "Active Directory Information Tree File",
+    "Extension": ".dit"
+  },
+  {
+    "Name": "Dynamic Link Library",
+    "Extension": ".dll"
+  },
+  {
+    "Name": "Renamed DLL File",
+    "Extension": ".dlx"
+  },
+  {
+    "Name": "Windows Memory Dump",
+    "Extension": ".dmp"
+  },
+  {
+    "Name": "Delta RPM File",
+    "Extension": ".drpm"
+  },
+  {
+    "Name": "Device Driver",
+    "Extension": ".drv"
+  },
+  {
+    "Name": "DCC Active Designer File",
+    "Extension": ".dss"
+  },
+  {
+    "Name": "Android Data Thumbnail",
+    "Extension": ".dthumb"
+  },
+  {
+    "Name": "DOS Device Driver",
+    "Extension": ".dvd"
+  },
+  {
+    "Name": "Xerox Printer Driver Configuration File",
+    "Extension": ".dyc"
+  },
+  {
+    "Name": "Windows EBD System File",
+    "Extension": ".ebd"
+  },
+  {
+    "Name": "Enlightenment Theme File",
+    "Extension": ".edj"
+  },
+  {
+    "Name": "Extensible Firmware Interface File",
+    "Extension": ".efi"
+  },
+  {
+    "Name": "EFI Image File",
+    "Extension": ".efires"
+  },
+  {
+    "Name": "Executable and Linkable Format File",
+    "Extension": ".elf"
+  },
+  {
+    "Name": "Emerald Theme",
+    "Extension": ".emerald"
+  },
+  {
+    "Name": "ES Explorer Temporary File",
+    "Extension": ".escopy"
+  },
+  {
+    "Name": "Microsoft Event Trace Log File",
+    "Extension": ".etl"
+  },
+  {
+    "Name": "Windows Event Viewer Log File",
+    "Extension": ".evt"
+  },
+  {
+    "Name": "Windows 7 Event Log File",
+    "Extension": ".evtx"
+  },
+  {
+    "Name": "Find Fast Status File",
+    "Extension": ".ffa"
+  },
+  {
+    "Name": "Find Fast Document List",
+    "Extension": ".ffl"
+  },
+  {
+    "Name": "Find Fast Document Properties Cache",
+    "Extension": ".ffo"
+  },
+  {
+    "Name": "Microsoft Find Fast Index",
+    "Extension": ".ffx"
+  },
+  {
+    "Name": "Microsoft Catalog Indexing Service File",
+    "Extension": ".fid"
+  },
+  {
+    "Name": "Boot9Strap 3DS Firmware File",
+    "Extension": ".firm"
+  },
+  {
+    "Name": "Lenovo BIOS Update File",
+    "Extension": ".fl1"
+  },
+  {
+    "Name": "Puppy Linux Partition Flag File",
+    "Extension": ".flg"
+  },
+  {
+    "Name": "Firmware Over-the-Air File",
+    "Extension": ".fota"
+  },
+  {
+    "Name": "Mac OS X Burn Folder",
+    "Extension": ".fpbf"
+  },
+  {
+    "Name": "FlashTool Firmware File",
+    "Extension": ".ftf"
+  },
+  {
+    "Name": "Full Text Group",
+    "Extension": ".ftg"
+  },
+  {
+    "Name": "Full Text Search",
+    "Extension": ".fts"
+  },
+  {
+    "Name": "ReadyBoot Trace File",
+    "Extension": ".fx"
+  },
+  {
+    "Name": "WCS Gamut Map Model Profile",
+    "Extension": ".gmmp"
+  },
+  {
+    "Name": "Windows Update Status File",
+    "Extension": ".grl"
+  },
+  {
+    "Name": "Windows Contacts Group File",
+    "Extension": ".group"
+  },
+  {
+    "Name": "Windows Program Manager Group",
+    "Extension": ".grp"
+  },
+  {
+    "Name": "Windows Assistance Platform Help File",
+    "Extension": ".h1s"
+  },
+  {
+    "Name": "Samsung Android Firmware File",
+    "Extension": ".hcd"
+  },
+  {
+    "Name": "Windows Heap Dump",
+    "Extension": ".hdmp"
+  },
+  {
+    "Name": "Mac OS X Help Book",
+    "Extension": ".help"
+  },
+  {
+    "Name": "HTML Help Table of Contents",
+    "Extension": ".hhc"
+  },
+  {
+    "Name": "HTML Help Index",
+    "Extension": ".hhk"
+  },
+  {
+    "Name": "Windows Registry Hive File",
+    "Extension": ".hiv"
+  },
+  {
+    "Name": "Windows Help File",
+    "Extension": ".hlp"
+  },
+  {
+    "Name": "Help Project File",
+    "Extension": ".hpj"
+  },
+  {
+    "Name": "Windows Catalog Search Index File",
+    "Extension": ".hsh"
+  },
+  {
+    "Name": "Hypertext Template File",
+    "Extension": ".htt"
+  },
+  {
+    "Name": "Windows Icon Library File",
+    "Extension": ".icl"
+  },
+  {
+    "Name": "macOS Icon Resource File",
+    "Extension": ".icns"
+  },
+  {
+    "Name": "Icon File",
+    "Extension": ".ico"
+  },
+  {
+    "Name": "IconPackager Theme File",
+    "Extension": ".iconpackage"
+  },
+  {
+    "Name": "EVA Controller Event Log",
+    "Extension": ".idi"
+  },
+  {
+    "Name": "Index File",
+    "Extension": ".idx"
+  },
+  {
+    "Name": "INTUS Firmware File",
+    "Extension": ".ifw"
+  },
+  {
+    "Name": "IMG4 Payload File",
+    "Extension": ".im4p"
+  },
+  {
+    "Name": "Windows Input Method Editor File",
+    "Extension": ".ime"
+  },
+  {
+    "Name": "iPhone IMG3 File",
+    "Extension": ".img3"
+  },
+  {
+    "Name": "Windows Driver Information Cache File",
+    "Extension": ".inf_loc"
+  },
+  {
+    "Name": "Internet Naming Service File",
+    "Extension": ".ins"
+  },
+  {
+    "Name": "Apple Internet Connect Document",
+    "Extension": ".internetconnect"
+  },
+  {
+    "Name": "File Description File",
+    "Extension": ".ion"
+  },
+  {
+    "Name": "Mac OS X IOPLIST File",
+    "Extension": ".ioplist"
+  },
+  {
+    "Name": "Rockbox Firmware File",
+    "Extension": ".ipod"
+  },
+  {
+    "Name": "IconPackager Raw Theme File",
+    "Extension": ".iptheme"
+  },
+  {
+    "Name": "Windows 8 Start Screen Item Data File",
+    "Extension": ".itemdata-ms"
+  },
+  {
+    "Name": "Internet Document Set",
+    "Extension": ".its"
+  },
+  {
+    "Name": "InfoTMIC Firmware Update File",
+    "Extension": ".ius"
+  },
+  {
+    "Name": "Windows Task Scheduler Job File",
+    "Extension": ".job"
+  },
+  {
+    "Name": "Windows Japanese Noise-Word List File",
+    "Extension": ".jpn"
+  },
+  {
+    "Name": "Keyboard Layout Script",
+    "Extension": ".kbd"
+  },
+  {
+    "Name": "Mac OS X Kernel Extension",
+    "Extension": ".kext"
+  },
+  {
+    "Name": "Security Key",
+    "Extension": ".key"
+  },
+  {
+    "Name": "Linux Kernel Module File",
+    "Extension": ".ko"
+  },
+  {
+    "Name": "Windows Korean Noise-Words List File",
+    "Extension": ".kor"
+  },
+  {
+    "Name": "Kickstart File",
+    "Extension": ".ks"
+  },
+  {
+    "Name": "Samsung Phone params.lfs File",
+    "Extension": ".lfs"
+  },
+  {
+    "Name": "Windows Library Description File",
+    "Extension": ".library-ms"
+  },
+  {
+    "Name": "Windows File Shortcut",
+    "Extension": ".lnk"
+  },
+  {
+    "Name": "Mac OS X PLIST Lock File",
+    "Extension": ".lockfile"
+  },
+  {
+    "Name": "Windows Registry Hive Log File",
+    "Extension": ".log1"
+  },
+  {
+    "Name": "Windows Registry Hive Log 2 File",
+    "Extension": ".log2"
+  },
+  {
+    "Name": "Lookout Protocol Driver File",
+    "Extension": ".lpd"
+  },
+  {
+    "Name": "LPD Daemon Print Permissions File",
+    "Extension": ".lpd"
+  },
+  {
+    "Name": "GRUB Boot List File",
+    "Extension": ".lst"
+  },
+  {
+    "Name": "Windows Application Manifest File",
+    "Extension": ".manifest"
+  },
+  {
+    "Name": "Send To Mail Recipient",
+    "Extension": ".mapimail"
+  },
+  {
+    "Name": "Multi Boot Image",
+    "Extension": ".mbn"
+  },
+  {
+    "Name": "Master Boot Record File",
+    "Extension": ".mbr"
+  },
+  {
+    "Name": "Windows Minidump",
+    "Extension": ".mdmp"
+  },
+  {
+    "Name": "Puppy Linux Partition Flag File",
+    "Extension": ".me"
+  },
+  {
+    "Name": "Parallels Desktop Memory Dump File",
+    "Extension": ".mem"
+  },
+  {
+    "Name": "Spotlight Never Index File",
+    "Extension": ".metadata_never_index"
+  },
+  {
+    "Name": "Audio Player Firmware File",
+    "Extension": ".mi4"
+  },
+  {
+    "Name": "Microsoft Language Interface Pack",
+    "Extension": ".mlc"
+  },
+  {
+    "Name": "Magnex Firmware File",
+    "Extension": ".mmv"
+  },
+  {
+    "Name": "Apple Mobile Configuration File",
+    "Extension": ".mobileconfig"
+  },
+  {
+    "Name": "GRUB Module",
+    "Extension": ".mod"
+  },
+  {
+    "Name": "Microsoft Management Console Snap-in Control File",
+    "Extension": ".msc"
+  },
+  {
+    "Name": "Windows Installer Patch",
+    "Extension": ".msp"
+  },
+  {
+    "Name": "Windows XP Unsigned Style",
+    "Extension": ".msstyle"
+  },
+  {
+    "Name": "Windows XP Style",
+    "Extension": ".msstyles"
+  },
+  {
+    "Name": "MIUI Theme",
+    "Extension": ".mtz"
+  },
+  {
+    "Name": "Multilingual User Interface File",
+    "Extension": ".mui"
+  },
+  {
+    "Name": "Hid User Library",
+    "Extension": ".mui_cccd5ae0"
+  },
+  {
+    "Name": "Windows Vista Update Package",
+    "Extension": ".mum"
+  },
+  {
+    "Name": "Send To My Documents",
+    "Extension": ".mydocs"
+  },
+  {
+    "Name": "Device Boot Loader Image",
+    "Extension": ".nb0"
+  },
+  {
+    "Name": "ROM Update Utility Image File",
+    "Extension": ".nbh"
+  },
+  {
+    "Name": "Apple Network Connect Document",
+    "Extension": ".networkconnect"
+  },
+  {
+    "Name": "System Information File",
+    "Extension": ".nfo"
+  },
+  {
+    "Name": "Microsoft National Language Support File",
+    "Extension": ".nls"
+  },
+  {
+    "Name": "Windows NT Startup File",
+    "Extension": ".nt"
+  },
+  {
+    "Name": "NTFS Partition File",
+    "Extension": ".ntfs"
+  },
+  {
+    "Name": "Optimized Dalvik Executable",
+    "Extension": ".odex"
+  },
+  {
+    "Name": "Kernel Panic File",
+    "Extension": ".panic"
+  },
+  {
+    "Name": "DiskStation Manager Installation File",
+    "Extension": ".pat"
+  },
+  {
+    "Name": "System Center Configuration Manager Package File",
+    "Extension": ".pck"
+  },
+  {
+    "Name": "Windows Port Driver",
+    "Extension": ".pdr"
+  },
+  {
+    "Name": "PKCS #12 Certificate File",
+    "Extension": ".pfx"
+  },
+  {
+    "Name": "Creative Driver File",
+    "Extension": ".pid"
+  },
+  {
+    "Name": "Samsung Phone Firmware File",
+    "Extension": ".pit"
+  },
+  {
+    "Name": "Silkroad Online Game Data File",
+    "Extension": ".pk2"
+  },
+  {
+    "Name": "Precompiled INF File",
+    "Extension": ".pnf"
+  },
+  {
+    "Name": "Windows Policy File",
+    "Extension": ".pol"
+  },
+  {
+    "Name": "PostScript Printer Description File",
+    "Extension": ".ppd"
+  },
+  {
+    "Name": "Post Programmable Memory File",
+    "Extension": ".ppm"
+  },
+  {
+    "Name": "Mac OS X System Preference Pane",
+    "Extension": ".prefpane"
+  },
+  {
+    "Name": "Windows System File",
+    "Extension": ".prf"
+  },
+  {
+    "Name": "Windows Printer Migration File",
+    "Extension": ".printerexport"
+  },
+  {
+    "Name": "TurboIntegrator Process Definition File",
+    "Extension": ".pro"
+  },
+  {
+    "Name": "Bash Shell Profile",
+    "Extension": ".profile"
+  },
+  {
+    "Name": "Android Build Properties File",
+    "Extension": ".prop"
+  },
+  {
+    "Name": "Apple Provision Profile",
+    "Extension": ".provisionprofile"
+  },
+  {
+    "Name": "Printer Driver File",
+    "Extension": ".prt"
+  },
+  {
+    "Name": "Microsoft Indexing Service Data File",
+    "Extension": ".ps1"
+  },
+  {
+    "Name": "Microsoft Search Catalog Index File",
+    "Extension": ".ps2"
+  },
+  {
+    "Name": "Windows Password List",
+    "Extension": ".pwl"
+  },
+  {
+    "Name": "Quirky Kernel",
+    "Extension": ".qky"
+  },
+  {
+    "Name": "Q Virtual Machine",
+    "Extension": ".qvm"
+  },
+  {
+    "Name": "Samsung Mobile Device Firmware File",
+    "Extension": ".rc1"
+  },
+  {
+    "Name": "Samsung Mobile Device Firmware File",
+    "Extension": ".rc2"
+  },
+  {
+    "Name": "PlayStation Portable Resource File",
+    "Extension": ".rco"
+  },
+  {
+    "Name": "Registry File",
+    "Extension": ".reg"
+  },
+  {
+    "Name": "Registry Editor Shortcut File",
+    "Extension": ".reglnk"
+  },
+  {
+    "Name": "Registry Transaction Log File",
+    "Extension": ".regtrans-ms"
+  },
+  {
+    "Name": "Rockchip Firmware File",
+    "Extension": ".rfw"
+  },
+  {
+    "Name": "Router Firmware File",
+    "Extension": ".rmt"
+  },
+  {
+    "Name": "Windows Rating System File",
+    "Extension": ".rs"
+  },
+  {
+    "Name": "Samsung DVD and Blu-ray Player Firmware File",
+    "Extension": ".ruf"
+  },
+  {
+    "Name": "Sharp Blu-ray Player Firmware File",
+    "Extension": ".rvp"
+  },
+  {
+    "Name": "Spotlight Saved Search",
+    "Extension": ".savedsearch"
+  },
+  {
+    "Name": "Mac OS X Screen Saver",
+    "Extension": ".saver"
+  },
+  {
+    "Name": "Slax Bundle",
+    "Extension": ".sb"
+  },
+  {
+    "Name": "Android System File",
+    "Extension": ".sbf"
+  },
+  {
+    "Name": "Cisco IP Phone Firmware File",
+    "Extension": ".sbn"
+  },
+  {
+    "Name": "EFI Firmware File",
+    "Extension": ".scap"
+  },
+  {
+    "Name": "Windows Explorer Command",
+    "Extension": ".scf"
+  },
+  {
+    "Name": "GConf Schema Definition File",
+    "Extension": ".schemas"
+  },
+  {
+    "Name": "Windows Screensaver",
+    "Extension": ".scr"
+  },
+  {
+    "Name": "Custom Application Compatibility Database",
+    "Extension": ".sdb"
+  },
+  {
+    "Name": "Siemens Desktop Theme File",
+    "Extension": ".sdt"
+  },
+  {
+    "Name": "Windows Search Connector File",
+    "Extension": ".searchconnector-ms"
+  },
+  {
+    "Name": "Systemd Service Unit File",
+    "Extension": ".service"
+  },
+  {
+    "Name": "ReadyBoost Cache File",
+    "Extension": ".sfcache"
+  },
+  {
+    "Name": "Windows Print Job Shadow File",
+    "Extension": ".shd"
+  },
+  {
+    "Name": "iPhone/iPod Touch SHSH Blob File",
+    "Extension": ".shsh"
+  },
+  {
+    "Name": "Sony Xperia Firmware File",
+    "Extension": ".sin"
+  },
+  {
+    "Name": "Unix Shared Library File",
+    "Extension": ".so.0"
+  },
+  {
+    "Name": "Windows Print Spool File",
+    "Extension": ".spl"
+  },
+  {
+    "Name": "System Profiler XML Report",
+    "Extension": ".spx"
+  },
+  {
+    "Name": "Service Quality Monitoring File",
+    "Extension": ".sqm"
+  },
+  {
+    "Name": "Windows Screensaver File",
+    "Extension": ".str"
+  },
+  {
+    "Name": "Swap File",
+    "Extension": ".swp"
+  },
+  {
+    "Name": "Windows System File",
+    "Extension": ".sys"
+  },
+  {
+    "Name": "Motorola Driver File",
+    "Extension": ".sys"
+  },
+  {
+    "Name": "Sony Firmware File",
+    "Extension": ".ta"
+  },
+  {
+    "Name": "Drobo Firmware File",
+    "Extension": ".tdz"
+  },
+  {
+    "Name": "Windows Thai Noise-Words List File",
+    "Extension": ".tha"
+  },
+  {
+    "Name": "Microsoft Plus! Desktop Theme",
+    "Extension": ".theme"
+  },
+  {
+    "Name": "Android Thumbnails Folder",
+    "Extension": ".thumbnails"
+  },
+  {
+    "Name": "Systemd Unit Configuration File",
+    "Extension": ".timer"
+  },
+  {
+    "Name": "macOS USB Flash Drive Trash Folder",
+    "Extension": ".trashes"
+  },
+  {
+    "Name": "Windows Startup File",
+    "Extension": ".trx_dll"
+  },
+  {
+    "Name": "Windows UCE System File",
+    "Extension": ".uce"
+  },
+  {
+    "Name": "VGA Display Driver",
+    "Extension": ".vga"
+  },
+  {
+    "Name": "Generic CADD VGA Driver",
+    "Extension": ".vgd"
+  },
+  {
+    "Name": "Compressed Virtual Device Driver File",
+    "Extension": ".vx_"
+  },
+  {
+    "Name": "Virtual Device Driver",
+    "Extension": ".vxd"
+  },
+  {
+    "Name": "Windows Driver Foundation File",
+    "Extension": ".wdf"
+  },
+  {
+    "Name": "Dashboard Widget",
+    "Extension": ".wdgt"
+  },
+  {
+    "Name": "Web Point and Print File",
+    "Extension": ".webpnp"
+  },
+  {
+    "Name": "Windows Error Report",
+    "Extension": ".wer"
+  },
+  {
+    "Name": "S60 Web Runtime Widget Package",
+    "Extension": ".wgz"
+  },
+  {
+    "Name": "Phoenix BIOS File",
+    "Extension": ".wph"
+  },
+  {
+    "Name": "Printer Description File",
+    "Extension": ".wpx"
+  },
+  {
+    "Name": "Xserve RAID Firmware Binary File",
+    "Extension": ".xfb"
+  },
+  {
+    "Name": "Microsoft Security Certificate",
+    "Extension": ".xrm-ms"
+  },
+  {
+    "Name": "Windows Zone Identifier File",
+    "Extension": ".zone.identifier"
+  }
+]

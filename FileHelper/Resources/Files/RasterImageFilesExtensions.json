@@ -1,0 +1,1930 @@
+[
+  {
+    "Name": "Fax File",
+    "Extension": ".001"
+  },
+  {
+    "Name": "Pocket PC Bitmap Image File",
+    "Extension": ".2bp"
+  },
+  {
+    "Name": "360desktop Panorama File",
+    "Extension": ".360"
+  },
+  {
+    "Name": "Mavica Thumbnail Image",
+    "Extension": ".411"
+  },
+  {
+    "Name": "TI-73 Screenshot File",
+    "Extension": ".73i"
+  },
+  {
+    "Name": "TI-84 Plus C Image Var Format",
+    "Extension": ".8ca"
+  },
+  {
+    "Name": "TI-84 Plus C Pic Vars Format",
+    "Extension": ".8ci"
+  },
+  {
+    "Name": "Adobe Photoshop Macintosh File",
+    "Extension": ".8pbs"
+  },
+  {
+    "Name": "TI-83/84 Plus Picture File",
+    "Extension": ".8xi"
+  },
+  {
+    "Name": "NinePatchDrawable Image",
+    "Extension": ".9.png"
+  },
+  {
+    "Name": "Photo Album",
+    "Extension": ".abm"
+  },
+  {
+    "Name": "Windows 8 Account Picture File",
+    "Extension": ".accountpicture-ms"
+  },
+  {
+    "Name": "Acorn Image",
+    "Extension": ".acorn"
+  },
+  {
+    "Name": "American College of Radiology File",
+    "Extension": ".acr"
+  },
+  {
+    "Name": "Scanstudio 16 Color Image",
+    "Extension": ".adc"
+  },
+  {
+    "Name": "Affinity Photo Document",
+    "Extension": ".afphoto"
+  },
+  {
+    "Name": "Auto FX PhotoGraphic Edges Image",
+    "Extension": ".afx"
+  },
+  {
+    "Name": "Active GIF Creator Project",
+    "Extension": ".agif"
+  },
+  {
+    "Name": "ArtGem Project File",
+    "Extension": ".agp"
+  },
+  {
+    "Name": "Advanced Image Coding File",
+    "Extension": ".aic"
+  },
+  {
+    "Name": "ACDSee Image Sequence File",
+    "Extension": ".ais"
+  },
+  {
+    "Name": "HP Photo Printing Software Album File",
+    "Extension": ".albm"
+  },
+  {
+    "Name": "ACDSee Photo Document",
+    "Extension": ".apd"
+  },
+  {
+    "Name": "Aldus Placeable Metafile Image",
+    "Extension": ".apm"
+  },
+  {
+    "Name": "Animated Portable Network Graphic",
+    "Extension": ".apng"
+  },
+  {
+    "Name": "Greeting Card Studio Project File",
+    "Extension": ".aps"
+  },
+  {
+    "Name": "Ability Photopaint Studio Image",
+    "Extension": ".apx"
+  },
+  {
+    "Name": "Amber Graphic File",
+    "Extension": ".arr"
+  },
+  {
+    "Name": "AOL Compressed Image File",
+    "Extension": ".art"
+  },
+  {
+    "Name": "ArtStudio Image",
+    "Extension": ".artwork"
+  },
+  {
+    "Name": "ArtStudio Image",
+    "Extension": ".arw"
+  },
+  {
+    "Name": "Aseprite Sprite File",
+    "Extension": ".ase"
+  },
+  {
+    "Name": "Aseprite Sprite File",
+    "Extension": ".aseprite"
+  },
+  {
+    "Name": "Google Talk Avatar File",
+    "Extension": ".avatar"
+  },
+  {
+    "Name": "Microsoft Comic Chat Character",
+    "Extension": ".avb"
+  },
+  {
+    "Name": "Microsoft Fax Document",
+    "Extension": ".awd"
+  },
+  {
+    "Name": "Artweaver Document",
+    "Extension": ".awd"
+  },
+  {
+    "Name": "Block Artist Image File",
+    "Extension": ".blkrt"
+  },
+  {
+    "Name": "Compressed Bitmap Image",
+    "Extension": ".blz"
+  },
+  {
+    "Name": "Subspace Bitmap File",
+    "Extension": ".bm2"
+  },
+  {
+    "Name": "Bitmap Cache File",
+    "Extension": ".bmc"
+  },
+  {
+    "Name": "Binary Material File",
+    "Extension": ".bmf"
+  },
+  {
+    "Name": "Bitmap Image File",
+    "Extension": ".bmp"
+  },
+  {
+    "Name": "Re-Volt Mipmap File",
+    "Extension": ".bmq"
+  },
+  {
+    "Name": "Siemens Mobile Animations File",
+    "Extension": ".bmx"
+  },
+  {
+    "Name": "Compressed Bitmap Image",
+    "Extension": ".bmz"
+  },
+  {
+    "Name": "BPG Image",
+    "Extension": ".bpg"
+  },
+  {
+    "Name": "Brooktrout Fax Document",
+    "Extension": ".brk"
+  },
+  {
+    "Name": "Cube Graphics File",
+    "Extension": ".brn"
+  },
+  {
+    "Name": "Bryce Textures File",
+    "Extension": ".brt"
+  },
+  {
+    "Name": "Resident Evil Background Images File",
+    "Extension": ".bss"
+  },
+  {
+    "Name": "Nintendo Texture File",
+    "Extension": ".bti"
+  },
+  {
+    "Name": "Black and White SGI Image File",
+    "Extension": ".bw"
+  },
+  {
+    "Name": "JEDMICS Image File",
+    "Extension": ".c4"
+  },
+  {
+    "Name": "CALS Raster Graphic",
+    "Extension": ".cal"
+  },
+  {
+    "Name": "CALS Raster Graphic File",
+    "Extension": ".cals"
+  },
+  {
+    "Name": "CASIO Digital Camera Picture File",
+    "Extension": ".cam"
+  },
+  {
+    "Name": "Canon Navigator Fax Document",
+    "Extension": ".can"
+  },
+  {
+    "Name": "Chasys Draw Image File",
+    "Extension": ".cd5"
+  },
+  {
+    "Name": "AutoCAD DesignCenter Preview Cache File",
+    "Extension": ".cdc"
+  },
+  {
+    "Name": "Compact Disc Plus Graphics Image",
+    "Extension": ".cdg"
+  },
+  {
+    "Name": "ComputerEyes Image",
+    "Extension": ".ce"
+  },
+  {
+    "Name": "Navigator Chart Image Description File",
+    "Extension": ".cid"
+  },
+  {
+    "Name": "CImg Image File",
+    "Extension": ".cimg"
+  },
+  {
+    "Name": "Kodak Cineon Bitmap File",
+    "Extension": ".cin"
+  },
+  {
+    "Name": "Intergraph Bitmap Image File",
+    "Extension": ".cit"
+  },
+  {
+    "Name": "Clip Studio Format File",
+    "Extension": ".clip"
+  },
+  {
+    "Name": "U.S. Sectional Chart Map File",
+    "Extension": ".cmr"
+  },
+  {
+    "Name": "Adobe Collage File",
+    "Extension": ".colz"
+  },
+  {
+    "Name": "iOS Wallpaper Image",
+    "Extension": ".cpbitmap"
+  },
+  {
+    "Name": "CPC Compressed Image File",
+    "Extension": ".cpc"
+  },
+  {
+    "Name": "Compressed PhotoDefiner Image File",
+    "Extension": ".cpd"
+  },
+  {
+    "Name": "Manga Studio Page File",
+    "Extension": ".cpg"
+  },
+  {
+    "Name": "Corel Photo House File",
+    "Extension": ".cps"
+  },
+  {
+    "Name": "Corel PHOTO-PAINT Image",
+    "Extension": ".cpt"
+  },
+  {
+    "Name": "Corel CMX Compressed File",
+    "Extension": ".cpx"
+  },
+  {
+    "Name": "Content Sealed Format",
+    "Extension": ".csf"
+  },
+  {
+    "Name": "Scitex Continuous Tone File",
+    "Extension": ".ct"
+  },
+  {
+    "Name": "Dr. Halo Bitmap Image File",
+    "Extension": ".cut"
+  },
+  {
+    "Name": "Kodak Photo-Enhancer File",
+    "Extension": ".dc2"
+  },
+  {
+    "Name": "DICOM Image",
+    "Extension": ".dcm"
+  },
+  {
+    "Name": "Zsoft Multi-Page Paintbrush File",
+    "Extension": ".dcx"
+  },
+  {
+    "Name": "Device Dependent Bitmap",
+    "Extension": ".ddb"
+  },
+  {
+    "Name": "DirectDraw Surface",
+    "Extension": ".dds"
+  },
+  {
+    "Name": "Age of Mythology Textures File",
+    "Extension": ".ddt"
+  },
+  {
+    "Name": "DST Thumbnail File",
+    "Extension": ".dgt"
+  },
+  {
+    "Name": "Device Independent Bitmap File",
+    "Extension": ".dib"
+  },
+  {
+    "Name": "DICOM Image",
+    "Extension": ".dic"
+  },
+  {
+    "Name": "DICOM Image File",
+    "Extension": ".dicom"
+  },
+  {
+    "Name": "DjVu Image",
+    "Extension": ".djv"
+  },
+  {
+    "Name": "DjVu Image",
+    "Extension": ".djvu"
+  },
+  {
+    "Name": "DigitalMicrograph Image",
+    "Extension": ".dm3"
+  },
+  {
+    "Name": "BYOND Dream Maker Icon File",
+    "Extension": ".dmi"
+  },
+  {
+    "Name": "Digital Picture Exchange File",
+    "Extension": ".dpx"
+  },
+  {
+    "Name": "Draz Paint File",
+    "Extension": ".drz"
+  },
+  {
+    "Name": "Windows Live Messenger Emoticon Image File",
+    "Extension": ".dt2"
+  },
+  {
+    "Name": "Desktop Wallpaper",
+    "Extension": ".dtw"
+  },
+  {
+    "Name": "Dalim Virtual Library File",
+    "Extension": ".dvl"
+  },
+  {
+    "Name": "Enhanced Compression Wavelet Image",
+    "Extension": ".ecw"
+  },
+  {
+    "Name": "Canon Easy-PhotoPrint Image File",
+    "Extension": ".epp"
+  },
+  {
+    "Name": "OpenEXR Image",
+    "Extension": ".exr"
+  },
+  {
+    "Name": "FACE Image File",
+    "Extension": ".fac"
+  },
+  {
+    "Name": "FACE Graphic File",
+    "Extension": ".face"
+  },
+  {
+    "Name": "Bitmap Graphic Header Information",
+    "Extension": ".fal"
+  },
+  {
+    "Name": "Fax Document",
+    "Extension": ".fax"
+  },
+  {
+    "Name": "Fuzzy Bitmap Image",
+    "Extension": ".fbm"
+  },
+  {
+    "Name": "Symbian Application Logo File",
+    "Extension": ".fil"
+  },
+  {
+    "Name": "Flexible Image Transport System File",
+    "Extension": ".fits"
+  },
+  {
+    "Name": "Free Lossless Image Format File",
+    "Extension": ".flif"
+  },
+  {
+    "Name": "Fenix Graphics Collection File",
+    "Extension": ".fpg"
+  },
+  {
+    "Name": "Photo Pos Pro Image",
+    "Extension": ".fpos"
+  },
+  {
+    "Name": "Microsoft Fresh Paint Painting File",
+    "Extension": ".fppx"
+  },
+  {
+    "Name": "FlashPix Bitmap Image File",
+    "Extension": ".fpx"
+  },
+  {
+    "Name": "Painter Frame Stack File",
+    "Extension": ".frm"
+  },
+  {
+    "Name": "CCITT Group 3 Fax Image",
+    "Extension": ".g3"
+  },
+  {
+    "Name": "GIMP Brush File",
+    "Extension": ".gbr"
+  },
+  {
+    "Name": "Greeting Card Studio Design Project",
+    "Extension": ".gcdp"
+  },
+  {
+    "Name": "GIFBlast Compressed Image File",
+    "Extension": ".gfb"
+  },
+  {
+    "Name": "Greenfish Icon Editor Pro Graphic",
+    "Extension": ".gfie"
+  },
+  {
+    "Name": "GIMP Gradient File",
+    "Extension": ".ggr"
+  },
+  {
+    "Name": "Graphical Interchange Format File",
+    "Extension": ".gif"
+  },
+  {
+    "Name": "GIMP Image Hose File",
+    "Extension": ".gih"
+  },
+  {
+    "Name": "PlayStation Portable Image File",
+    "Extension": ".gim"
+  },
+  {
+    "Name": "Game Maker Background Image File",
+    "Extension": ".gmbck"
+  },
+  {
+    "Name": "Game Maker Sprite File",
+    "Extension": ".gmspr"
+  },
+  {
+    "Name": "CCITT Group 4 Fax File",
+    "Extension": ".gp4"
+  },
+  {
+    "Name": "Graphic PhotoDefiner Image File",
+    "Extension": ".gpd"
+  },
+  {
+    "Name": "Graphic Object Bitmap",
+    "Extension": ".gro"
+  },
+  {
+    "Name": "Graphic Object Bitmap File",
+    "Extension": ".grob"
+  },
+  {
+    "Name": "Grayscale Image",
+    "Extension": ".gry"
+  },
+  {
+    "Name": "HD Photo File",
+    "Extension": ".hdp"
+  },
+  {
+    "Name": "High Dynamic Range Image File",
+    "Extension": ".hdr"
+  },
+  {
+    "Name": "HDRtist Pro Document",
+    "Extension": ".hdrp"
+  },
+  {
+    "Name": "High Efficiency Image Format",
+    "Extension": ".heic"
+  },
+  {
+    "Name": "High Efficiency Image Format",
+    "Extension": ".heif"
+  },
+  {
+    "Name": "HF Image",
+    "Extension": ".hf"
+  },
+  {
+    "Name": "Hemera Photo Objects Image File",
+    "Extension": ".hpi"
+  },
+  {
+    "Name": "TRS-80 Image",
+    "Extension": ".hr"
+  },
+  {
+    "Name": "Hitachi Raster Format File",
+    "Extension": ".hrf"
+  },
+  {
+    "Name": "Houdini Image 3D File",
+    "Extension": ".i3d"
+  },
+  {
+    "Name": "Low Resolution Imagic Graphics File",
+    "Extension": ".ic1"
+  },
+  {
+    "Name": "Medium Resolution Imagic Graphics File",
+    "Extension": ".ic2"
+  },
+  {
+    "Name": "High Resolution Imagic Graphics File",
+    "Extension": ".ic3"
+  },
+  {
+    "Name": "Image Object Content Architecture File",
+    "Extension": ".ica"
+  },
+  {
+    "Name": "Targa ICB Bitmap Image",
+    "Extension": ".icb"
+  },
+  {
+    "Name": "Windows Icon File",
+    "Extension": ".icn"
+  },
+  {
+    "Name": "Icon Image File",
+    "Extension": ".icon"
+  },
+  {
+    "Name": "IconUtils Project File",
+    "Extension": ".icpr"
+  },
+  {
+    "Name": "Interleaved Bitmap Image",
+    "Extension": ".ilbm"
+  },
+  {
+    "Name": "GEM Image",
+    "Extension": ".img"
+  },
+  {
+    "Name": "JFIF Bitmap Image",
+    "Extension": ".imj"
+  },
+  {
+    "Name": "ZoomBrowser Image Index File",
+    "Extension": ".info"
+  },
+  {
+    "Name": "Pantone Reference File",
+    "Extension": ".ink"
+  },
+  {
+    "Name": "Insta360 Panoramic Image",
+    "Extension": ".insp"
+  },
+  {
+    "Name": "SGI Integer Image",
+    "Extension": ".int"
+  },
+  {
+    "Name": "iPhoto Print Project",
+    "Extension": ".iphotoproject"
+  },
+  {
+    "Name": "iPick Football Image",
+    "Extension": ".ipick"
+  },
+  {
+    "Name": "IPIX Image",
+    "Extension": ".ipx"
+  },
+  {
+    "Name": "iTunes Cover Flow Data File 2",
+    "Extension": ".itc2"
+  },
+  {
+    "Name": "iPod and iPhone Photo Thumbnails File",
+    "Extension": ".ithmb"
+  },
+  {
+    "Name": "Image Worlds File",
+    "Extension": ".ivr"
+  },
+  {
+    "Name": "Live Picture IVUE Image",
+    "Extension": ".ivue"
+  },
+  {
+    "Name": "Infinity Ward Texture File",
+    "Extension": ".iwi"
+  },
+  {
+    "Name": "JPEG Image",
+    "Extension": ".j"
+  },
+  {
+    "Name": "JPEG 2000 Code Stream",
+    "Extension": ".j2c"
+  },
+  {
+    "Name": "JPEG 2000 Image",
+    "Extension": ".j2k"
+  },
+  {
+    "Name": "Paint Shop Pro Compressed Graphic",
+    "Extension": ".jas"
+  },
+  {
+    "Name": "JBIG2 Image",
+    "Extension": ".jb2"
+  },
+  {
+    "Name": "Paint Shop Pro Browser Cache File",
+    "Extension": ".jbf"
+  },
+  {
+    "Name": "Joint Bi-level Image Group File",
+    "Extension": ".jbg"
+  },
+  {
+    "Name": "Joint Bi-level Image Group File",
+    "Extension": ".jbig"
+  },
+  {
+    "Name": "JBIG2",
+    "Extension": ".jbig2"
+  },
+  {
+    "Name": "JAmes OS Bitmap Image",
+    "Extension": ".jbmp"
+  },
+  {
+    "Name": "Paint Shop Pro Brushes File",
+    "Extension": ".jbr"
+  },
+  {
+    "Name": "JPEG File Interchange Image",
+    "Extension": ".jfi"
+  },
+  {
+    "Name": "JPEG File Interchange Format",
+    "Extension": ".jfif"
+  },
+  {
+    "Name": "Digital Photo Navigator Album",
+    "Extension": ".jia"
+  },
+  {
+    "Name": "JPEG Image File",
+    "Extension": ".jif"
+  },
+  {
+    "Name": "JPEG Image File Format",
+    "Extension": ".jiff"
+  },
+  {
+    "Name": "JPEG Network Graphic",
+    "Extension": ".jng"
+  },
+  {
+    "Name": "JPEG 2000 Core Image File",
+    "Extension": ".jp2"
+  },
+  {
+    "Name": "JPEG 2000 Code Stream File",
+    "Extension": ".jpc"
+  },
+  {
+    "Name": "Joint PhotoDefiner Image",
+    "Extension": ".jpd"
+  },
+  {
+    "Name": "JPEG Image",
+    "Extension": ".jpe"
+  },
+  {
+    "Name": "JPEG Image",
+    "Extension": ".jpeg"
+  },
+  {
+    "Name": "JPEG 2000 Image",
+    "Extension": ".jpf"
+  },
+  {
+    "Name": "JPEG Image",
+    "Extension": ".jpg"
+  },
+  {
+    "Name": "Large JPEG Image",
+    "Extension": ".jpg-large"
+  },
+  {
+    "Name": "JPEG 2000 Image",
+    "Extension": ".jpg2"
+  },
+  {
+    "Name": "Stereo JPEG Image",
+    "Extension": ".jps"
+  },
+  {
+    "Name": "JPEG 2000 Image File",
+    "Extension": ".jpx"
+  },
+  {
+    "Name": "JPEG Tagged Interchange Format",
+    "Extension": ".jtf"
+  },
+  {
+    "Name": "Roxio Jewel Case File",
+    "Extension": ".jwl"
+  },
+  {
+    "Name": "JPEG XR Image",
+    "Extension": ".jxr"
+  },
+  {
+    "Name": "KD Player Skin Image File",
+    "Extension": ".kdi"
+  },
+  {
+    "Name": "Kodak Proprietary Decimated TIFF File",
+    "Extension": ".kdk"
+  },
+  {
+    "Name": "Kofax Image File",
+    "Extension": ".kfx"
+  },
+  {
+    "Name": "Kodak Compressed Image File",
+    "Extension": ".kic"
+  },
+  {
+    "Name": "Kodak Photo CD File",
+    "Extension": ".kodak"
+  },
+  {
+    "Name": "Kai's Power Goo Graphic",
+    "Extension": ".kpg"
+  },
+  {
+    "Name": "Krita Image Document",
+    "Extension": ".kra"
+  },
+  {
+    "Name": "Lens Blur Project File",
+    "Extension": ".lb"
+  },
+  {
+    "Name": "Deluxe Paint Bitmap Image",
+    "Extension": ".lbm"
+  },
+  {
+    "Name": "Leica Image File",
+    "Extension": ".lif"
+  },
+  {
+    "Name": "Clip Studio Paint File",
+    "Extension": ".lip"
+  },
+  {
+    "Name": "Lossless JPEG Image",
+    "Extension": ".ljp"
+  },
+  {
+    "Name": "Adobe Lightroom Preview File",
+    "Extension": ".lrpreview"
+  },
+  {
+    "Name": "LazPaint Image",
+    "Extension": ".lzp"
+  },
+  {
+    "Name": "MacPaint Image",
+    "Extension": ".mac"
+  },
+  {
+    "Name": "Vue Material File",
+    "Extension": ".mat"
+  },
+  {
+    "Name": "PaperPort Scanned Document",
+    "Extension": ".max"
+  },
+  {
+    "Name": "Multi Bitmap File",
+    "Extension": ".mbm"
+  },
+  {
+    "Name": "Kerbal Space Program Texture File",
+    "Extension": ".mbm"
+  },
+  {
+    "Name": "Mathcad Image",
+    "Extension": ".mcs"
+  },
+  {
+    "Name": "FireAlpaca Image",
+    "Extension": ".mdp"
+  },
+  {
+    "Name": "MediBang Paint Pro Image",
+    "Extension": ".mdp"
+  },
+  {
+    "Name": "Presentation Manager Metafile",
+    "Extension": ".met"
+  },
+  {
+    "Name": "Image Composer File",
+    "Extension": ".mic"
+  },
+  {
+    "Name": "Magick Image File",
+    "Extension": ".miff"
+  },
+  {
+    "Name": "Multiple Image Print File",
+    "Extension": ".mip"
+  },
+  {
+    "Name": "Microsoft Image Exchange File",
+    "Extension": ".mix"
+  },
+  {
+    "Name": "Multiple Network Graphic",
+    "Extension": ".mng"
+  },
+  {
+    "Name": "AutoCAD Menu Resource File",
+    "Extension": ".mnr"
+  },
+  {
+    "Name": "Microsoft Media Package FIle",
+    "Extension": ".mpf"
+  },
+  {
+    "Name": "Multi Picture Object File",
+    "Extension": ".mpo"
+  },
+  {
+    "Name": "Multiple Resolution Bitmap File",
+    "Extension": ".mrb"
+  },
+  {
+    "Name": "MIRAX Virtual Slide File",
+    "Extension": ".mrxs"
+  },
+  {
+    "Name": "Paint Shop Pro Mask File",
+    "Extension": ".msk"
+  },
+  {
+    "Name": "Microsoft Paint Bitmap Image",
+    "Extension": ".msp"
+  },
+  {
+    "Name": "Maxwell Image",
+    "Extension": ".mxi"
+  },
+  {
+    "Name": "MyLogo Maker Image",
+    "Extension": ".myl"
+  },
+  {
+    "Name": "Nero CoverDesigner File",
+    "Extension": ".ncd"
+  },
+  {
+    "Name": "NCR Image",
+    "Extension": ".ncr"
+  },
+  {
+    "Name": "Nero CoverDesigner Template",
+    "Extension": ".nct"
+  },
+  {
+    "Name": "NeoChrome Bitmap Image",
+    "Extension": ".neo"
+  },
+  {
+    "Name": "Nokia Logo File",
+    "Extension": ".nlm"
+  },
+  {
+    "Name": "Nokia Operator Logo File",
+    "Extension": ".nol"
+  },
+  {
+    "Name": "Sony NWM Display Screen File",
+    "Extension": ".nwm"
+  },
+  {
+    "Name": "openCanvas 3 Event File",
+    "Extension": ".oc3"
+  },
+  {
+    "Name": "openCanvas 4 Event File",
+    "Extension": ".oc4"
+  },
+  {
+    "Name": "openCanvas 5 Event File",
+    "Extension": ".oc5"
+  },
+  {
+    "Name": "openCanvas Image",
+    "Extension": ".oci"
+  },
+  {
+    "Name": "OpenDocument Image",
+    "Extension": ".odi"
+  },
+  {
+    "Name": "OMF Interchange Image File",
+    "Extension": ".omf"
+  },
+  {
+    "Name": "Nokia Operator Logo File",
+    "Extension": ".oplc"
+  },
+  {
+    "Name": "OpenRaster Image File",
+    "Extension": ".ora"
+  },
+  {
+    "Name": "OTA Bitmap Image",
+    "Extension": ".ota"
+  },
+  {
+    "Name": "Nokia Over The Air Bitmap Image",
+    "Extension": ".otb"
+  },
+  {
+    "Name": "OpenDocument Image Template",
+    "Extension": ".oti"
+  },
+  {
+    "Name": "MU Online Image File",
+    "Extension": ".ozb"
+  },
+  {
+    "Name": "MU Online Image File",
+    "Extension": ".ozj"
+  },
+  {
+    "Name": "MU Online Image File",
+    "Extension": ".ozt"
+  },
+  {
+    "Name": "STAD Graphic File",
+    "Extension": ".pac"
+  },
+  {
+    "Name": "Dr. Halo Color Palette File",
+    "Extension": ".pal"
+  },
+  {
+    "Name": "Camera Panoramic Picture",
+    "Extension": ".pano"
+  },
+  {
+    "Name": "PanoramaStudio Project File",
+    "Extension": ".pap"
+  },
+  {
+    "Name": "Pattern File",
+    "Extension": ".pat"
+  },
+  {
+    "Name": "Portable Bitmap Image",
+    "Extension": ".pbm"
+  },
+  {
+    "Name": "Degas Elite Low Res Image File",
+    "Extension": ".pc1"
+  },
+  {
+    "Name": "Degas Elite Medium Res Image File",
+    "Extension": ".pc2"
+  },
+  {
+    "Name": "Degas Elite High Res Image File",
+    "Extension": ".pc3"
+  },
+  {
+    "Name": "Kodak Photo CD Image File",
+    "Extension": ".pcd"
+  },
+  {
+    "Name": "Paintbrush Bitmap Image File",
+    "Extension": ".pcx"
+  },
+  {
+    "Name": "Adobe PhotoDeluxe Image",
+    "Extension": ".pdd"
+  },
+  {
+    "Name": "paint.net Image File",
+    "Extension": ".pdn"
+  },
+  {
+    "Name": "Photo Explorer Thumbnail Archive",
+    "Extension": ".pe4"
+  },
+  {
+    "Name": "PhotoImpact Image Archive",
+    "Extension": ".pe4"
+  },
+  {
+    "Name": "PhotoFiltre Studio Image",
+    "Extension": ".pfi"
+  },
+  {
+    "Name": "Paint Shop Pro Picture Frame File",
+    "Extension": ".pfr"
+  },
+  {
+    "Name": "Progressive Graphics File",
+    "Extension": ".pgf"
+  },
+  {
+    "Name": "Portable Gray Map Image",
+    "Extension": ".pgm"
+  },
+  {
+    "Name": "Degas Low Resolution Image File",
+    "Extension": ".pi1"
+  },
+  {
+    "Name": "Portrait Innovations Photo",
+    "Extension": ".pi2"
+  },
+  {
+    "Name": "Degas Medium Resolution Image File",
+    "Extension": ".pi2"
+  },
+  {
+    "Name": "Degas High Resolution Image File",
+    "Extension": ".pi3"
+  },
+  {
+    "Name": "DEGAS Image",
+    "Extension": ".pi4"
+  },
+  {
+    "Name": "DEGAS Bitmap Image",
+    "Extension": ".pi5"
+  },
+  {
+    "Name": "DEGAS Bitmap Image File",
+    "Extension": ".pi6"
+  },
+  {
+    "Name": "Generic Picture File",
+    "Extension": ".pic"
+  },
+  {
+    "Name": "Houdini Raster Image",
+    "Extension": ".pic"
+  },
+  {
+    "Name": "QuickTime PICT Image",
+    "Extension": ".pic"
+  },
+  {
+    "Name": "Houdini 3D Compositing Image",
+    "Extension": ".picnc"
+  },
+  {
+    "Name": "Picture File",
+    "Extension": ".pict"
+  },
+  {
+    "Name": "Picture Clipping File",
+    "Extension": ".pictclipping"
+  },
+  {
+    "Name": "Piskel Sprite",
+    "Extension": ".piskel"
+  },
+  {
+    "Name": "BRL-CAD Raw Image File",
+    "Extension": ".pix"
+  },
+  {
+    "Name": "Alias PIX Image",
+    "Extension": ".pix"
+  },
+  {
+    "Name": "Pixadex Icon",
+    "Extension": ".pixadex"
+  },
+  {
+    "Name": "Pixela Project",
+    "Extension": ".pixela"
+  },
+  {
+    "Name": "Progressive JPEG Image",
+    "Extension": ".pjpeg"
+  },
+  {
+    "Name": "Progressive JPEG Image",
+    "Extension": ".pjpg"
+  },
+  {
+    "Name": "Unix XV Graphic File",
+    "Extension": ".pm"
+  },
+  {
+    "Name": "PageMaker 3 Document",
+    "Extension": ".pm3"
+  },
+  {
+    "Name": "Adobe Photoshop Photomerge Panoramic Composition File",
+    "Extension": ".pmg"
+  },
+  {
+    "Name": "Panasonic Network Camera Image",
+    "Extension": ".pnc"
+  },
+  {
+    "Name": "Portable Network Graphic",
+    "Extension": ".png"
+  },
+  {
+    "Name": "Popnoggin Image File",
+    "Extension": ".pni"
+  },
+  {
+    "Name": "Portable Any Map Image",
+    "Extension": ".pnm"
+  },
+  {
+    "Name": "PNG Stereo Image",
+    "Extension": ".pns"
+  },
+  {
+    "Name": "MacPaint File",
+    "Extension": ".pnt"
+  },
+  {
+    "Name": "MacPaint Graphic File",
+    "Extension": ".pntg"
+  },
+  {
+    "Name": "Samsung Popcon Character File",
+    "Extension": ".pop"
+  },
+  {
+    "Name": "POV-Ray Raytracing Format",
+    "Extension": ".pov"
+  },
+  {
+    "Name": "Prolab Object File",
+    "Extension": ".pov"
+  },
+  {
+    "Name": "Picture Publisher Bitmap File",
+    "Extension": ".pp4"
+  },
+  {
+    "Name": "Picture Publisher 5 Image File",
+    "Extension": ".pp5"
+  },
+  {
+    "Name": "Picture Publisher Image File",
+    "Extension": ".ppf"
+  },
+  {
+    "Name": "Portable Pixmap Image File",
+    "Extension": ".ppm"
+  },
+  {
+    "Name": "Artlantis Shader Preview File",
+    "Extension": ".prw"
+  },
+  {
+    "Name": "Photoshop Large Document Format",
+    "Extension": ".psb"
+  },
+  {
+    "Name": "Adobe Photoshop Document",
+    "Extension": ".psd"
+  },
+  {
+    "Name": "Photoshop Touch Document",
+    "Extension": ".psdx"
+  },
+  {
+    "Name": "Photoshop Elements Photo Project",
+    "Extension": ".pse"
+  },
+  {
+    "Name": "PhotoStudio File",
+    "Extension": ".psf"
+  },
+  {
+    "Name": "PaintShop Pro Image File",
+    "Extension": ".psp"
+  },
+  {
+    "Name": "PaintShop Pro Brush File",
+    "Extension": ".pspbrush"
+  },
+  {
+    "Name": "PaintShop Pro Image",
+    "Extension": ".pspimage"
+  },
+  {
+    "Name": "Ptex Texture File",
+    "Extension": ".ptex"
+  },
+  {
+    "Name": "ArtRage Painting",
+    "Extension": ".ptg"
+  },
+  {
+    "Name": "Puntotek Embroidery Design File",
+    "Extension": ".ptk"
+  },
+  {
+    "Name": "PTGui Project File",
+    "Extension": ".pts"
+  },
+  {
+    "Name": "Pentax RAW Image File",
+    "Extension": ".ptx"
+  },
+  {
+    "Name": "Paint Shop Pro Texture File",
+    "Extension": ".ptx"
+  },
+  {
+    "Name": "POWERVR Texture File",
+    "Extension": ".pvr"
+  },
+  {
+    "Name": "PhotoWorks Image File",
+    "Extension": ".pwp"
+  },
+  {
+    "Name": "Pixel Image File",
+    "Extension": ".px"
+  },
+  {
+    "Name": "Pixlr Layered Image",
+    "Extension": ".pxd"
+  },
+  {
+    "Name": "CandyBar Icon",
+    "Extension": ".pxicon"
+  },
+  {
+    "Name": "Pixelmator Image File",
+    "Extension": ".pxm"
+  },
+  {
+    "Name": "Pixar Image File",
+    "Extension": ".pxr"
+  },
+  {
+    "Name": "Pyxel Image Document",
+    "Extension": ".pyxel"
+  },
+  {
+    "Name": "PhotoSuite Album File",
+    "Extension": ".pza"
+  },
+  {
+    "Name": "PhotoSuite Project File",
+    "Extension": ".pzp"
+  },
+  {
+    "Name": "PhotoSuite Slide Show File",
+    "Extension": ".pzs"
+  },
+  {
+    "Name": "QuickTime Image File",
+    "Extension": ".qif"
+  },
+  {
+    "Name": "Samsung Theme Graphics File",
+    "Extension": ".qmg"
+  },
+  {
+    "Name": "QuickTime Image File",
+    "Extension": ".qti"
+  },
+  {
+    "Name": "QuickTime Image File",
+    "Extension": ".qtif"
+  },
+  {
+    "Name": "Sun Raster Graphic",
+    "Extension": ".ras"
+  },
+  {
+    "Name": "Recolored Project File",
+    "Extension": ".rcl"
+  },
+  {
+    "Name": "RealWorld Layered Cursor Image",
+    "Extension": ".rcu"
+  },
+  {
+    "Name": "RGB Bitmap",
+    "Extension": ".rgb"
+  },
+  {
+    "Name": "Q0 Image File",
+    "Extension": ".rgb"
+  },
+  {
+    "Name": "RGB Bitmap",
+    "Extension": ".rgba"
+  },
+  {
+    "Name": "LEGO MINDSTORMS EV3 Robot Graphics File",
+    "Extension": ".rgf"
+  },
+  {
+    "Name": "NXT Image File",
+    "Extension": ".ric"
+  },
+  {
+    "Name": "Painter Raster Image File",
+    "Extension": ".rif"
+  },
+  {
+    "Name": "Painter Raster Image",
+    "Extension": ".riff"
+  },
+  {
+    "Name": "ColoRIX Image",
+    "Extension": ".rix"
+  },
+  {
+    "Name": "Run Length Encoded Bitmap",
+    "Extension": ".rle"
+  },
+  {
+    "Name": "RealWorld Graphics Layered Image",
+    "Extension": ".rli"
+  },
+  {
+    "Name": "Rich Pixel Format File",
+    "Extension": ".rpf"
+  },
+  {
+    "Name": "RealWorld Image",
+    "Extension": ".rri"
+  },
+  {
+    "Name": "Sun Raster Graphic",
+    "Extension": ".rs"
+  },
+  {
+    "Name": "Red Storm Bitmap File",
+    "Extension": ".rsb"
+  },
+  {
+    "Name": "Poser Model Preview File",
+    "Extension": ".rsr"
+  },
+  {
+    "Name": "Raster Transfer Language File",
+    "Extension": ".rtl"
+  },
+  {
+    "Name": "RVG X-ray Image",
+    "Extension": ".rvg"
+  },
+  {
+    "Name": "StarCraft 2 Map Preview File",
+    "Extension": ".s2mv"
+  },
+  {
+    "Name": "PaintTool SAI Image",
+    "Extension": ".sai"
+  },
+  {
+    "Name": "Saracen Paint Image",
+    "Extension": ".sar"
+  },
+  {
+    "Name": "Sketchbook Express iCloud Image",
+    "Extension": ".sbp"
+  },
+  {
+    "Name": "ColoRIX Image File",
+    "Extension": ".scg"
+  },
+  {
+    "Name": "ColoRIX Graphics Image",
+    "Extension": ".sci"
+  },
+  {
+    "Name": "TreePaint Image",
+    "Extension": ".scn"
+  },
+  {
+    "Name": "ColoRIX Bitmap Graphic File",
+    "Extension": ".scp"
+  },
+  {
+    "Name": "Scitex Continuous Tone File",
+    "Extension": ".sct"
+  },
+  {
+    "Name": "ColoRIX Bitmap Image",
+    "Extension": ".scu"
+  },
+  {
+    "Name": "SmartDraw Drawing",
+    "Extension": ".sdr"
+  },
+  {
+    "Name": "Separated Image File",
+    "Extension": ".sep"
+  },
+  {
+    "Name": "Motic Microscope Image",
+    "Extension": ".sfc"
+  },
+  {
+    "Name": "Structured Fax File",
+    "Extension": ".sff"
+  },
+  {
+    "Name": "Seattle FilmWorks Image",
+    "Extension": ".sfw"
+  },
+  {
+    "Name": "GeneSnap Image File",
+    "Extension": ".sgd"
+  },
+  {
+    "Name": "Silicon Graphics Image File",
+    "Extension": ".sgi"
+  },
+  {
+    "Name": "Segmented Hyper-Graphic",
+    "Extension": ".shg"
+  },
+  {
+    "Name": "MrSID Image",
+    "Extension": ".sid"
+  },
+  {
+    "Name": "ScanIt Document",
+    "Extension": ".sid"
+  },
+  {
+    "Name": "Broderbund Sign File",
+    "Extension": ".sig"
+  },
+  {
+    "Name": "QuickTac SIG File",
+    "Extension": ".sig"
+  },
+  {
+    "Name": "Aurora Image",
+    "Extension": ".sim"
+  },
+  {
+    "Name": "Skitch Image",
+    "Extension": ".skitch"
+  },
+  {
+    "Name": "SketchUp Materials File",
+    "Extension": ".skm"
+  },
+  {
+    "Name": "Skype Emoticon Set File",
+    "Extension": ".skypeemoticonset"
+  },
+  {
+    "Name": "AutoCAD Slide File",
+    "Extension": ".sld"
+  },
+  {
+    "Name": "Xionics SMP Image",
+    "Extension": ".smp"
+  },
+  {
+    "Name": "OpenOffice.org Impress Bimap Styles File",
+    "Extension": ".sob"
+  },
+  {
+    "Name": "MikuMikuDance Sphere Mapping File",
+    "Extension": ".spa"
+  },
+  {
+    "Name": "Spectrum 512 Compressed Image",
+    "Extension": ".spc"
+  },
+  {
+    "Name": "WinSpec CCD Capture File",
+    "Extension": ".spe"
+  },
+  {
+    "Name": "MikuMikuDance Sphere Mapping File",
+    "Extension": ".sph"
+  },
+  {
+    "Name": "Still Picture Interchange File Format",
+    "Extension": ".spiff"
+  },
+  {
+    "Name": "Microsoft ICE Panorama Project",
+    "Extension": ".spj"
+  },
+  {
+    "Name": "Serif PhotoPlus Picture File",
+    "Extension": ".spp"
+  },
+  {
+    "Name": "Half-Life Sprite File",
+    "Extension": ".spr"
+  },
+  {
+    "Name": "Scratch Sprite File",
+    "Extension": ".sprite"
+  },
+  {
+    "Name": "Scratch 2.0 Sprite File",
+    "Extension": ".sprite2"
+  },
+  {
+    "Name": "Spectrum 512 Image",
+    "Extension": ".spu"
+  },
+  {
+    "Name": "Sun Raster Image File",
+    "Extension": ".sr"
+  },
+  {
+    "Name": "Samsung IPOLIS Image File",
+    "Extension": ".ste"
+  },
+  {
+    "Name": "Godot Engine StreamTexture File",
+    "Extension": ".stex"
+  },
+  {
+    "Name": "Sumo Paint Image",
+    "Extension": ".sumo"
+  },
+  {
+    "Name": "Sun Raster Graphic File",
+    "Extension": ".sun"
+  },
+  {
+    "Name": "Sun TAAC Image",
+    "Extension": ".suniff"
+  },
+  {
+    "Name": "Subtitle Bitmap File",
+    "Extension": ".sup"
+  },
+  {
+    "Name": "Manga Browser Comic File",
+    "Extension": ".sva"
+  },
+  {
+    "Name": "StarView Metafile",
+    "Extension": ".svm"
+  },
+  {
+    "Name": "CyBook Thumbnail Image",
+    "Extension": ".t2b"
+  },
+  {
+    "Name": "Sun TAAC Image File",
+    "Extension": ".taac"
+  },
+  {
+    "Name": "Targa Graphic",
+    "Extension": ".targa"
+  },
+  {
+    "Name": "Adobe Photoshop Thumbnail Cache File",
+    "Extension": ".tb0"
+  },
+  {
+    "Name": "Kodi Thumbnail Image",
+    "Extension": ".tbn"
+  },
+  {
+    "Name": "Texture File",
+    "Extension": ".tex"
+  },
+  {
+    "Name": "Diesel Engine Game Texture File",
+    "Extension": ".texture"
+  },
+  {
+    "Name": "Unreal Engine 3 Texture File Cache",
+    "Extension": ".tfc"
+  },
+  {
+    "Name": "Tiled Group 4 Raster Image File",
+    "Extension": ".tg4"
+  },
+  {
+    "Name": "Targa Graphic",
+    "Extension": ".tga"
+  },
+  {
+    "Name": "Thumbnail Image File",
+    "Extension": ".thm"
+  },
+  {
+    "Name": "Video Thumbnail File",
+    "Extension": ".thm"
+  },
+  {
+    "Name": "JAlbum Thumbnail File",
+    "Extension": ".thumb"
+  },
+  {
+    "Name": "Tagged Image File",
+    "Extension": ".tif"
+  },
+  {
+    "Name": "GeoTIFF Image",
+    "Extension": ".tif"
+  },
+  {
+    "Name": "Tagged Image File Format",
+    "Extension": ".tiff"
+  },
+  {
+    "Name": "Tiled JPEG File",
+    "Extension": ".tjp"
+  },
+  {
+    "Name": "PlayStation 2 Graphic",
+    "Extension": ".tm2"
+  },
+  {
+    "Name": "LG Phone Image",
+    "Extension": ".tn"
+  },
+  {
+    "Name": "Tiny Low Resolution Image",
+    "Extension": ".tn1"
+  },
+  {
+    "Name": "Tiny Medium Resolution Image",
+    "Extension": ".tn2"
+  },
+  {
+    "Name": "Tiny High Resolution Image",
+    "Extension": ".tn3"
+  },
+  {
+    "Name": "Atari Tiny Image",
+    "Extension": ".tny"
+  },
+  {
+    "Name": "TexMod Package File",
+    "Extension": ".tpf"
+  },
+  {
+    "Name": "TrueVision Bitmap Image",
+    "Extension": ".tpi"
+  },
+  {
+    "Name": "TexturePacker Sprite Sheet File",
+    "Extension": ".tps"
+  },
+  {
+    "Name": "Tiled Raster Interchange Format",
+    "Extension": ".trif"
+  },
+  {
+    "Name": "TIFF Simple Rare File",
+    "Extension": ".tsr"
+  },
+  {
+    "Name": "PaintShop Pro Picture Tube",
+    "Extension": ".tub"
+  },
+  {
+    "Name": "Subsampled Raw YUV Image",
+    "Extension": ".u"
+  },
+  {
+    "Name": "Ulead File Object",
+    "Extension": ".ufo"
+  },
+  {
+    "Name": "Ulead GIF Animator File",
+    "Extension": ".uga"
+  },
+  {
+    "Name": "Ugoira Animated Image File",
+    "Extension": ".ugoira"
+  },
+  {
+    "Name": "Panono Unstitched Panorama Format",
+    "Extension": ".upf"
+  },
+  {
+    "Name": "Utah Raster Toolkit File",
+    "Extension": ".urt"
+  },
+  {
+    "Name": "Windows 8 User Tile File",
+    "Extension": ".usertile-ms"
+  },
+  {
+    "Name": "Subsampled Raw YUV Image",
+    "Extension": ".v"
+  },
+  {
+    "Name": "Targa Bitmap Image File",
+    "Extension": ".vda"
+  },
+  {
+    "Name": "Sun TAAC Graphic File",
+    "Extension": ".vff"
+  },
+  {
+    "Name": "VICAR Image",
+    "Extension": ".vic"
+  },
+  {
+    "Name": "VICAR Image File",
+    "Extension": ".vicar"
+  },
+  {
+    "Name": "Visualization Image File Format",
+    "Extension": ".viff"
+  },
+  {
+    "Name": "JVC JLIP Image",
+    "Extension": ".vna"
+  },
+  {
+    "Name": "Photoshop Vanishing Point Export File",
+    "Extension": ".vpe"
+  },
+  {
+    "Name": "V-Ray Image File",
+    "Extension": ".vrimg"
+  },
+  {
+    "Name": "VR Photo Image",
+    "Extension": ".vrphoto"
+  },
+  {
+    "Name": "Visio Stencil File",
+    "Extension": ".vss"
+  },
+  {
+    "Name": "Targa Bitmap Image",
+    "Extension": ".vst"
+  },
+  {
+    "Name": "Webshots Picture File",
+    "Extension": ".wb0"
+  },
+  {
+    "Name": "Webshots Picture File",
+    "Extension": ".wb1"
+  },
+  {
+    "Name": "Webshots Picture File",
+    "Extension": ".wb2"
+  },
+  {
+    "Name": "Webshots Collection File",
+    "Extension": ".wbc"
+  },
+  {
+    "Name": "Webshots Picture File",
+    "Extension": ".wbd"
+  },
+  {
+    "Name": "Wireless Bitmap Image",
+    "Extension": ".wbm"
+  },
+  {
+    "Name": "Wireless Bitmap Image File",
+    "Extension": ".wbmp"
+  },
+  {
+    "Name": "Webshots Collection File",
+    "Extension": ".wbp"
+  },
+  {
+    "Name": "Webshots Download Picture File",
+    "Extension": ".wbz"
+  },
+  {
+    "Name": "Windows Media Photo File",
+    "Extension": ".wdp"
+  },
+  {
+    "Name": "WebP Image",
+    "Extension": ".webp"
+  },
+  {
+    "Name": "Wavelet Image",
+    "Extension": ".wi"
+  },
+  {
+    "Name": "J Wavelet Image",
+    "Extension": ".wic"
+  },
+  {
+    "Name": "Windows Media Photo File",
+    "Extension": ".wmp"
+  },
+  {
+    "Name": "openCanvas 1.1 Image",
+    "Extension": ".wpb"
+  },
+  {
+    "Name": "openCanvas 1.1 Event File",
+    "Extension": ".wpe"
+  },
+  {
+    "Name": "Wavelet Image",
+    "Extension": ".wvl"
+  },
+  {
+    "Name": "X11 Bitmap Graphic",
+    "Extension": ".xbm"
+  },
+  {
+    "Name": "GIMP Image File",
+    "Extension": ".xcf"
+  },
+  {
+    "Name": "X11 Pixmap Graphic",
+    "Extension": ".xpm"
+  },
+  {
+    "Name": "X Windows Dump Image",
+    "Extension": ".xwd"
+  },
+  {
+    "Name": "Subsampled Raw YUV Image",
+    "Extension": ".y"
+  },
+  {
+    "Name": "BYOB Sprite File",
+    "Extension": ".ysp"
+  },
+  {
+    "Name": "YUV Encoded Image File",
+    "Extension": ".yuv"
+  },
+  {
+    "Name": "Zooming Image Format File",
+    "Extension": ".zif"
+  },
+  {
+    "Name": "Zoomify Image Format File",
+    "Extension": ".zif"
+  },
+  {
+    "Name": "Zeiss Vision Image",
+    "Extension": ".zvi"
+  }
+]

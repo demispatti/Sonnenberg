@@ -1,0 +1,1218 @@
+[
+  {
+    "Name": "Readme File",
+    "Extension": ".1st"
+  },
+  {
+    "Name": "Text602 Document",
+    "Extension": ".602"
+  },
+  {
+    "Name": "Renamed Microsoft Word Document",
+    "Extension": "._doc"
+  },
+  {
+    "Name": "Renamed Microsoft Word Open XML Document",
+    "Extension": "._docx"
+  },
+  {
+    "Name": "AbiWord Document",
+    "Extension": ".abw"
+  },
+  {
+    "Name": "FoxPro Documenting Wizard Action Diagram",
+    "Extension": ".act"
+  },
+  {
+    "Name": "AsciiDoc File",
+    "Extension": ".adoc"
+  },
+  {
+    "Name": "AIMMS ASCII Model File",
+    "Extension": ".aim"
+  },
+  {
+    "Name": "ANSI Text File",
+    "Extension": ".ans"
+  },
+  {
+    "Name": "Exported Anki Flashcard Deck",
+    "Extension": ".apkg"
+  },
+  {
+    "Name": "Almost Plain Text File",
+    "Extension": ".apt"
+  },
+  {
+    "Name": "ASCII Text File",
+    "Extension": ".asc"
+  },
+  {
+    "Name": "Autodesk ASCII Export File",
+    "Extension": ".asc"
+  },
+  {
+    "Name": "ASCII Text File",
+    "Extension": ".ascii"
+  },
+  {
+    "Name": "Autodesk ASCII Scene Export File",
+    "Extension": ".ase"
+  },
+  {
+    "Name": "Association Type Placeholder",
+    "Extension": ".aty"
+  },
+  {
+    "Name": "Ability Write Template",
+    "Extension": ".awp"
+  },
+  {
+    "Name": "AbiWord Template",
+    "Extension": ".awt"
+  },
+  {
+    "Name": "Ability Write Document",
+    "Extension": ".aww"
+  },
+  {
+    "Name": "Exchange Badmail File",
+    "Extension": ".bad"
+  },
+  {
+    "Name": "Bulletin Board System Text",
+    "Extension": ".bbs"
+  },
+  {
+    "Name": "Exchange Diagnostic Message",
+    "Extension": ".bdp"
+  },
+  {
+    "Name": "Exchange Non-Delivery Report Body File",
+    "Extension": ".bdr"
+  },
+  {
+    "Name": "Bean Rich Text Document",
+    "Extension": ".bean"
+  },
+  {
+    "Name": "BibTeX Bibliography Database",
+    "Extension": ".bib"
+  },
+  {
+    "Name": "Bibliography Document",
+    "Extension": ".bib"
+  },
+  {
+    "Name": "BibTeX Bibliography Database",
+    "Extension": ".bibtex"
+  },
+  {
+    "Name": "Braille 2000 Braille File",
+    "Extension": ".bml"
+  },
+  {
+    "Name": "Barna Word Processor Document",
+    "Extension": ".bna"
+  },
+  {
+    "Name": "EasyWord Big Document",
+    "Extension": ".boc"
+  },
+  {
+    "Name": "Beam Report Document",
+    "Extension": ".brx"
+  },
+  {
+    "Name": "Business-in-a-Box Document",
+    "Extension": ".btd"
+  },
+  {
+    "Name": "Compressed AbiWord Document",
+    "Extension": ".bzabw"
+  },
+  {
+    "Name": "Calca Document",
+    "Extension": ".calca"
+  },
+  {
+    "Name": "Character Set",
+    "Extension": ".charset"
+  },
+  {
+    "Name": "Guitar Rhythm Chart File",
+    "Extension": ".chart"
+  },
+  {
+    "Name": "Song Chords File",
+    "Extension": ".chord"
+  },
+  {
+    "Name": "NoteMap Outline File",
+    "Extension": ".cnm"
+  },
+  {
+    "Name": "Atlantis Word Processor Encrypted Document",
+    "Extension": ".cod"
+  },
+  {
+    "Name": "Windows Crawl File",
+    "Extension": ".crwl"
+  },
+  {
+    "Name": "Claris Works Template",
+    "Extension": ".cws"
+  },
+  {
+    "Name": "Clustify Input File",
+    "Extension": ".cyi"
+  },
+  {
+    "Name": "DisplayWrite Document",
+    "Extension": ".dca"
+  },
+  {
+    "Name": "FlexiWrite Document",
+    "Extension": ".dfti"
+  },
+  {
+    "Name": "Dagesh Pro Document",
+    "Extension": ".dgs"
+  },
+  {
+    "Name": "Description in Zip File",
+    "Extension": ".diz"
+  },
+  {
+    "Name": "Netica Text File",
+    "Extension": ".dne"
+  },
+  {
+    "Name": "Microsoft Word Document",
+    "Extension": ".doc"
+  },
+  {
+    "Name": "WordPad Document",
+    "Extension": ".doc"
+  },
+  {
+    "Name": "Word Open XML Macro-Enabled Document",
+    "Extension": ".docm"
+  },
+  {
+    "Name": "Microsoft Word Open XML Document",
+    "Extension": ".docx"
+  },
+  {
+    "Name": "Microsoft Word XML Document",
+    "Extension": ".docxml"
+  },
+  {
+    "Name": "ThinkFree Online Note Document",
+    "Extension": ".docz"
+  },
+  {
+    "Name": "MultiMate Document",
+    "Extension": ".dox"
+  },
+  {
+    "Name": "Dropbox Shared Folder Tracker",
+    "Extension": ".dropbox"
+  },
+  {
+    "Name": "Text Description File",
+    "Extension": ".dsc"
+  },
+  {
+    "Name": "Device Independent Format File",
+    "Extension": ".dvi"
+  },
+  {
+    "Name": "DavkaWriter File",
+    "Extension": ".dwd"
+  },
+  {
+    "Name": "DEC WPS Plus File",
+    "Extension": ".dx"
+  },
+  {
+    "Name": "Duxbury Braille File",
+    "Extension": ".dxb"
+  },
+  {
+    "Name": "Duxbury Print File",
+    "Extension": ".dxp"
+  },
+  {
+    "Name": "Yozo Office File",
+    "Extension": ".eio"
+  },
+  {
+    "Name": "Yozo Office Template File",
+    "Extension": ".eit"
+  },
+  {
+    "Name": "Jasspa MicroEmacs Macro File",
+    "Extension": ".emf"
+  },
+  {
+    "Name": "E-Mail Message",
+    "Extension": ".eml"
+  },
+  {
+    "Name": "Apple Mail Message",
+    "Extension": ".emlx"
+  },
+  {
+    "Name": "eMule Data File",
+    "Extension": ".emulecollection"
+  },
+  {
+    "Name": "EditPad Pro Project",
+    "Extension": ".epp"
+  },
+  {
+    "Name": "Error Log File",
+    "Extension": ".err"
+  },
+  {
+    "Name": "FoxPro Compilation Error",
+    "Extension": ".err"
+  },
+  {
+    "Name": "ENIGMA Transportable File",
+    "Extension": ".etf"
+  },
+  {
+    "Name": "Structure Enhanced Text (Setext) File",
+    "Extension": ".etx"
+  },
+  {
+    "Name": "Extended Unix Code File",
+    "Extension": ".euc"
+  },
+  {
+    "Name": "Fade In Template",
+    "Extension": ".fadein.template"
+  },
+  {
+    "Name": "Frequently Asked Questions Document",
+    "Extension": ".faq"
+  },
+  {
+    "Name": "CADfix Command Level Log File",
+    "Extension": ".fbl"
+  },
+  {
+    "Name": "Final Draft Converter File",
+    "Extension": ".fcf"
+  },
+  {
+    "Name": "Acrobat Forms Data Format",
+    "Extension": ".fdf"
+  },
+  {
+    "Name": "Final Draft Document",
+    "Extension": ".fdr"
+  },
+  {
+    "Name": "Final Draft Secure Copy",
+    "Extension": ".fds"
+  },
+  {
+    "Name": "Final Draft 5-7 Template",
+    "Extension": ".fdt"
+  },
+  {
+    "Name": "Final Draft Document",
+    "Extension": ".fdx"
+  },
+  {
+    "Name": "Final Draft 8 Template",
+    "Extension": ".fdxt"
+  },
+  {
+    "Name": "Final Form Text File",
+    "Extension": ".fft"
+  },
+  {
+    "Name": "Fig Figure Settings File",
+    "Extension": ".fgs"
+  },
+  {
+    "Name": "Flare Decompiled ActionScript File",
+    "Extension": ".flr"
+  },
+  {
+    "Name": "OpenDocument Flat XML Document",
+    "Extension": ".fodt"
+  },
+  {
+    "Name": "Fountain Script File",
+    "Extension": ".fountain"
+  },
+  {
+    "Name": "FoxPro Table Memo",
+    "Extension": ".fpt"
+  },
+  {
+    "Name": "FoxPro Report Memo",
+    "Extension": ".frt"
+  },
+  {
+    "Name": "fWriter Document",
+    "Extension": ".fwdn"
+  },
+  {
+    "Name": "GroupMail Message",
+    "Extension": ".gmd"
+  },
+  {
+    "Name": "Generic Printer Description File",
+    "Extension": ".gpd"
+  },
+  {
+    "Name": "GlidePlan Map Document",
+    "Extension": ".gpn"
+  },
+  {
+    "Name": "General Station Description File",
+    "Extension": ".gsd"
+  },
+  {
+    "Name": "Gather Log File",
+    "Extension": ".gthr"
+  },
+  {
+    "Name": "Graphviz DOT File",
+    "Extension": ".gv"
+  },
+  {
+    "Name": "Mathcad Handbook File",
+    "Extension": ".hbk"
+  },
+  {
+    "Name": "Help and Support Center HHT File",
+    "Extension": ".hht"
+  },
+  {
+    "Name": "Java HelpSet File",
+    "Extension": ".hs"
+  },
+  {
+    "Name": "Hanword Document",
+    "Extension": ".hwp"
+  },
+  {
+    "Name": "Hangul (Korean) Text Document",
+    "Extension": ".hwp"
+  },
+  {
+    "Name": "Chinese (Hanzi) Text",
+    "Extension": ".hz"
+  },
+  {
+    "Name": "Outlook Express Mailbox Index File",
+    "Extension": ".idx"
+  },
+  {
+    "Name": "CleanSweep Installation Log",
+    "Extension": ".iil"
+  },
+  {
+    "Name": "OS/2 Help File",
+    "Extension": ".ipf"
+  },
+  {
+    "Name": "iPhoto Spot File",
+    "Extension": ".ipspot"
+  },
+  {
+    "Name": "Jarvis Subscriber File",
+    "Extension": ".jarvis"
+  },
+  {
+    "Name": "Japanese Industry Standard Text",
+    "Extension": ".jis"
+  },
+  {
+    "Name": "Java Web Start File",
+    "Extension": ".jnp"
+  },
+  {
+    "Name": "JOE Document",
+    "Extension": ".joe"
+  },
+  {
+    "Name": "Japanese (Romaji) Text File",
+    "Extension": ".jp1"
+  },
+  {
+    "Name": "JAmes OS Rich Text File",
+    "Extension": ".jrtf"
+  },
+  {
+    "Name": "JustSystems Ichitaro Document",
+    "Extension": ".jtd"
+  },
+  {
+    "Name": "Kurzweil 3000 Document",
+    "Extension": ".kes"
+  },
+  {
+    "Name": "Log File",
+    "Extension": ".klg"
+  },
+  {
+    "Name": "KOFIA Log",
+    "Extension": ".klg"
+  },
+  {
+    "Name": "KeyNote Note File",
+    "Extension": ".knt"
+  },
+  {
+    "Name": "Yahoo! Widget XML File",
+    "Extension": ".kon"
+  },
+  {
+    "Name": "KWord Document",
+    "Extension": ".kwd"
+  },
+  {
+    "Name": "LaTeX Document",
+    "Extension": ".latex"
+  },
+  {
+    "Name": "FoxPro Label Memo",
+    "Extension": ".lbt"
+  },
+  {
+    "Name": "SQR Output File",
+    "Extension": ".lis"
+  },
+  {
+    "Name": "Laego Note Taker File",
+    "Extension": ".lnt"
+  },
+  {
+    "Name": "Log File",
+    "Extension": ".log"
+  },
+  {
+    "Name": "iLEAP Word Processing Document",
+    "Extension": ".lp2"
+  },
+  {
+    "Name": "Data List",
+    "Extension": ".lst"
+  },
+  {
+    "Name": "FoxPro Documenting Wizard List",
+    "Extension": ".lst"
+  },
+  {
+    "Name": "Letter File",
+    "Extension": ".ltr"
+  },
+  {
+    "Name": "LaTeX Document",
+    "Extension": ".ltx"
+  },
+  {
+    "Name": "Norton LiveUpdate Log File",
+    "Extension": ".lue"
+  },
+  {
+    "Name": "Lipikar Uniform Format File",
+    "Extension": ".luf"
+  },
+  {
+    "Name": "Lotus Word Pro Document",
+    "Extension": ".lwp"
+  },
+  {
+    "Name": "LEGO Digital Designer XML File",
+    "Extension": ".lxfml"
+  },
+  {
+    "Name": "TurboTax Install Log File",
+    "Extension": ".lyt"
+  },
+  {
+    "Name": "LyX Document",
+    "Extension": ".lyx"
+  },
+  {
+    "Name": "Unix Manual",
+    "Extension": ".man"
+  },
+  {
+    "Name": "Email Mailbox File",
+    "Extension": ".mbox"
+  },
+  {
+    "Name": "MacWrite II Document",
+    "Extension": ".mcw"
+  },
+  {
+    "Name": "Message Digest 5 Hash File",
+    "Extension": ".md5.txt"
+  },
+  {
+    "Name": "Readme Text File",
+    "Extension": ".me"
+  },
+  {
+    "Name": "Mellel Word Processing File",
+    "Extension": ".mell"
+  },
+  {
+    "Name": "Mellel Word Processing Document",
+    "Extension": ".mellel"
+  },
+  {
+    "Name": "Mint Source File",
+    "Extension": ".min"
+  },
+  {
+    "Name": "FoxPro Menu Memo",
+    "Extension": ".mnt"
+  },
+  {
+    "Name": "Outlook Mail Message",
+    "Extension": ".msg"
+  },
+  {
+    "Name": "MacWrite Text Document",
+    "Extension": ".mw"
+  },
+  {
+    "Name": "Mariner Write Document",
+    "Extension": ".mwd"
+  },
+  {
+    "Name": "Lotus Word Pro SmartMaster File",
+    "Extension": ".mwp"
+  },
+  {
+    "Name": "Nota Bene File",
+    "Extension": ".nb"
+  },
+  {
+    "Name": "Naver Word",
+    "Extension": ".ndoc"
+  },
+  {
+    "Name": "Warez Information File",
+    "Extension": ".nfo"
+  },
+  {
+    "Name": "Nisus Writer Glossary",
+    "Extension": ".ngloss"
+  },
+  {
+    "Name": "NJStar Document",
+    "Extension": ".njx"
+  },
+  {
+    "Name": "Notability Note File",
+    "Extension": ".note"
+  },
+  {
+    "Name": "Memento Notes File",
+    "Extension": ".notes"
+  },
+  {
+    "Name": "Readme File",
+    "Extension": ".now"
+  },
+  {
+    "Name": "NoteWorthy Composer Text File",
+    "Extension": ".nwctxt"
+  },
+  {
+    "Name": "Nisus Macro",
+    "Extension": ".nwm"
+  },
+  {
+    "Name": "Now Contact WP Document",
+    "Extension": ".nwp"
+  },
+  {
+    "Name": "FAXGrapper Fax Text File",
+    "Extension": ".ocr"
+  },
+  {
+    "Name": "Open Document Interchange Format",
+    "Extension": ".odif"
+  },
+  {
+    "Name": "OpenDocument Master Document",
+    "Extension": ".odm"
+  },
+  {
+    "Name": "Online Operating System Write Document",
+    "Extension": ".odo"
+  },
+  {
+    "Name": "OpenDocument Text Document",
+    "Extension": ".odt"
+  },
+  {
+    "Name": "Ots File List",
+    "Extension": ".ofl"
+  },
+  {
+    "Name": "Opeico Text File",
+    "Extension": ".opeico"
+  },
+  {
+    "Name": "OpenBSD Readme File",
+    "Extension": ".openbsd"
+  },
+  {
+    "Name": "Rich Text Editor Document",
+    "Extension": ".ort"
+  },
+  {
+    "Name": "OpenDocument Document Template",
+    "Extension": ".ott"
+  },
+  {
+    "Name": "Digitally Signed Email Message",
+    "Extension": ".p7s"
+  },
+  {
+    "Name": "Pages Document",
+    "Extension": ".pages"
+  },
+  {
+    "Name": "Pages iCloud Document",
+    "Extension": ".pages-tef"
+  },
+  {
+    "Name": "Pdplayer Command File",
+    "Extension": ".pdpcmd"
+  },
+  {
+    "Name": "First Choice Word Processing Document",
+    "Extension": ".pfx"
+  },
+  {
+    "Name": "FoxPro Project Memo",
+    "Extension": ".pjt"
+  },
+  {
+    "Name": "Plain Text File",
+    "Extension": ".plain"
+  },
+  {
+    "Name": "PlantUML File",
+    "Extension": ".plantuml"
+  },
+  {
+    "Name": "Pegasus Saved Message File",
+    "Extension": ".pmo"
+  },
+  {
+    "Name": "Printer Output File",
+    "Extension": ".prt"
+  },
+  {
+    "Name": "Crypt Edit Protected Text Format File",
+    "Extension": ".prt"
+  },
+  {
+    "Name": "Pocket Word Document",
+    "Extension": ".psw"
+  },
+  {
+    "Name": "PlantUML File",
+    "Extension": ".pu"
+  },
+  {
+    "Name": "ProofVision Job Ticket",
+    "Extension": ".pvj"
+  },
+  {
+    "Name": "Photo Video Manifest File",
+    "Extension": ".pvm"
+  },
+  {
+    "Name": "Pocket Word Document",
+    "Extension": ".pwd"
+  },
+  {
+    "Name": "Password Pad Document",
+    "Extension": ".pwdp"
+  },
+  {
+    "Name": "Password Pad Lite Document",
+    "Extension": ".pwdpl"
+  },
+  {
+    "Name": "Pocket Word Document",
+    "Extension": ".pwi"
+  },
+  {
+    "Name": "PowerWrite Document",
+    "Extension": ".pwr"
+  },
+  {
+    "Name": "QDL Program",
+    "Extension": ".qdl"
+  },
+  {
+    "Name": "QuickPad Encrypted Document",
+    "Extension": ".qpf"
+  },
+  {
+    "Name": "Radar ViewPoint Radar Data",
+    "Extension": ".rad"
+  },
+  {
+    "Name": "Readme File",
+    "Extension": ".readme"
+  },
+  {
+    "Name": "Revisable Form Text Document",
+    "Extension": ".rft"
+  },
+  {
+    "Name": "Research Information Systems Citation File",
+    "Extension": ".ris"
+  },
+  {
+    "Name": "Generic Report",
+    "Extension": ".rpt"
+  },
+  {
+    "Name": "reStructuredText File",
+    "Extension": ".rst"
+  },
+  {
+    "Name": "RagTime Document",
+    "Extension": ".rtd"
+  },
+  {
+    "Name": "Rich Text Format File",
+    "Extension": ".rtf"
+  },
+  {
+    "Name": "Rich Text Format Directory File",
+    "Extension": ".rtfd"
+  },
+  {
+    "Name": "Rich Text Document",
+    "Extension": ".rtx"
+  },
+  {
+    "Name": "Runscanner Scan File",
+    "Extension": ".run"
+  },
+  {
+    "Name": "RichView Format File",
+    "Extension": ".rvf"
+  },
+  {
+    "Name": "File Crypt Password File",
+    "Extension": ".rzk"
+  },
+  {
+    "Name": "Red Zion Notes File",
+    "Extension": ".rzn"
+  },
+  {
+    "Name": "SafeText File",
+    "Extension": ".saf"
+  },
+  {
+    "Name": "SafeText File",
+    "Extension": ".safetext"
+  },
+  {
+    "Name": "Ami Pro Document",
+    "Extension": ".sam"
+  },
+  {
+    "Name": "LMHOSTS Sample File",
+    "Extension": ".sam"
+  },
+  {
+    "Name": "Nano Temporary Save File",
+    "Extension": ".save"
+  },
+  {
+    "Name": "Scenarist Closed Caption File",
+    "Extension": ".scc"
+  },
+  {
+    "Name": "Schema File",
+    "Extension": ".scm"
+  },
+  {
+    "Name": "Scrivener Document",
+    "Extension": ".scriv"
+  },
+  {
+    "Name": "Scrivener XML Document",
+    "Extension": ".scrivx"
+  },
+  {
+    "Name": "FoxPro Form Memo",
+    "Extension": ".sct"
+  },
+  {
+    "Name": "Movie Magic Screenwriter Document",
+    "Extension": ".scw"
+  },
+  {
+    "Name": "StarOffice Mail Message",
+    "Extension": ".sdm"
+  },
+  {
+    "Name": "Satra Khmer Document",
+    "Extension": ".sdoc"
+  },
+  {
+    "Name": "StarOffice Writer Text Document",
+    "Extension": ".sdw"
+  },
+  {
+    "Name": "Shuttle Document",
+    "Extension": ".se"
+  },
+  {
+    "Name": "Mozilla Firefox Session File",
+    "Extension": ".session"
+  },
+  {
+    "Name": "SGML File",
+    "Extension": ".sgm"
+  },
+  {
+    "Name": "Signature File",
+    "Extension": ".sig"
+  },
+  {
+    "Name": "Starfish Sidekick Card File",
+    "Extension": ".skcard"
+  },
+  {
+    "Name": "Scribus Document",
+    "Extension": ".sla"
+  },
+  {
+    "Name": "Scribus Compressed Document",
+    "Extension": ".sla.gz"
+  },
+  {
+    "Name": "StarMath Formula File",
+    "Extension": ".smf"
+  },
+  {
+    "Name": "Exported SMS Text Message",
+    "Extension": ".sms"
+  },
+  {
+    "Name": "Sub Station Alpha Subtitle File",
+    "Extension": ".ssa"
+  },
+  {
+    "Name": "Storyist Document",
+    "Extension": ".story"
+  },
+  {
+    "Name": "Text Strings File",
+    "Extension": ".strings"
+  },
+  {
+    "Name": "StarOffice Document Template",
+    "Extension": ".stw"
+  },
+  {
+    "Name": "LaTeX Style",
+    "Extension": ".sty"
+  },
+  {
+    "Name": "Sublime Text Project File",
+    "Extension": ".sublime-project"
+  },
+  {
+    "Name": "Sublime Text Workspace File",
+    "Extension": ".sublime-workspace"
+  },
+  {
+    "Name": "Apache OpenOffice Master Document",
+    "Extension": ".sxg"
+  },
+  {
+    "Name": "StarOffice Writer Document",
+    "Extension": ".sxw"
+  },
+  {
+    "Name": "Guitar Tablature File",
+    "Extension": ".tab"
+  },
+  {
+    "Name": "Tab Separated Data File",
+    "Extension": ".tab"
+  },
+  {
+    "Name": "Guide Text Definition File",
+    "Extension": ".tdf"
+  },
+  {
+    "Name": "Xserve Test Definition File",
+    "Extension": ".tdf"
+  },
+  {
+    "Name": "Apple Pages Template",
+    "Extension": ".template"
+  },
+  {
+    "Name": "LaTeX Source Document",
+    "Extension": ".tex"
+  },
+  {
+    "Name": "Plain Text File",
+    "Extension": ".text"
+  },
+  {
+    "Name": "Mac OS X Text Clipping File",
+    "Extension": ".textclipping"
+  },
+  {
+    "Name": "TurboTax Text String",
+    "Extension": ".thp"
+  },
+  {
+    "Name": "VAX Text Library",
+    "Extension": ".tlb"
+  },
+  {
+    "Name": "TeXmacs Document",
+    "Extension": ".tm"
+  },
+  {
+    "Name": "TextMaker Document",
+    "Extension": ".tmd"
+  },
+  {
+    "Name": "TextMaker Document",
+    "Extension": ".tmdx"
+  },
+  {
+    "Name": "TextMaker Template",
+    "Extension": ".tmv"
+  },
+  {
+    "Name": "TextMaker Document Template",
+    "Extension": ".tmvx"
+  },
+  {
+    "Name": "Topic Connection Placeholder",
+    "Extension": ".tpc"
+  },
+  {
+    "Name": "Trelby File",
+    "Extension": ".trelby"
+  },
+  {
+    "Name": "TrueView Job Ticket",
+    "Extension": ".tvj"
+  },
+  {
+    "Name": "Plain Text File",
+    "Extension": ".txt"
+  },
+  {
+    "Name": "U3 Application Information File",
+    "Extension": ".u3i"
+  },
+  {
+    "Name": "SiteMinder Unauthorized Message File",
+    "Extension": ".unauth"
+  },
+  {
+    "Name": "Unix Text File",
+    "Extension": ".unx"
+  },
+  {
+    "Name": "Uniform Office Document",
+    "Extension": ".uof"
+  },
+  {
+    "Name": "Uniform Office Document",
+    "Extension": ".uot"
+  },
+  {
+    "Name": "Program Update Information",
+    "Extension": ".upd"
+  },
+  {
+    "Name": "Unicode UTF8-Encoded Text Document",
+    "Extension": ".utf8"
+  },
+  {
+    "Name": "Unicode Text File",
+    "Extension": ".utxt"
+  },
+  {
+    "Name": "Visual Class Library Memo",
+    "Extension": ".vct"
+  },
+  {
+    "Name": "Mobile Phone vNote File",
+    "Extension": ".vnt"
+  },
+  {
+    "Name": "Volkswriter Text File",
+    "Extension": ".vw"
+  },
+  {
+    "Name": "WordPerfect Workbook",
+    "Extension": ".wbk"
+  },
+  {
+    "Name": "Box.net Web Document",
+    "Extension": ".webdoc"
+  },
+  {
+    "Name": "WriteNow Text Document",
+    "Extension": ".wn"
+  },
+  {
+    "Name": "WordPerfect Document",
+    "Extension": ".wp"
+  },
+  {
+    "Name": "WordPerfect 4 Document",
+    "Extension": ".wp4"
+  },
+  {
+    "Name": "WordPerfect 5 Document",
+    "Extension": ".wp5"
+  },
+  {
+    "Name": "WordPerfect 6 Document",
+    "Extension": ".wp6"
+  },
+  {
+    "Name": "WordPerfect 7 Document",
+    "Extension": ".wp7"
+  },
+  {
+    "Name": "ACT! Word Processing Document",
+    "Extension": ".wpa"
+  },
+  {
+    "Name": "WordPerfect Document",
+    "Extension": ".wpd"
+  },
+  {
+    "Name": "ACT! 2 Word Processing Document",
+    "Extension": ".wpd"
+  },
+  {
+    "Name": "602Text Word Processing Document",
+    "Extension": ".wpd"
+  },
+  {
+    "Name": "DEC WPS Plus Text Document",
+    "Extension": ".wpl"
+  },
+  {
+    "Name": "Microsoft Works Word Processor Document",
+    "Extension": ".wps"
+  },
+  {
+    "Name": "Kingsoft Writer Document",
+    "Extension": ".wps"
+  },
+  {
+    "Name": "WordPerfect Template",
+    "Extension": ".wpt"
+  },
+  {
+    "Name": "Kingsoft Writer Template",
+    "Extension": ".wpt"
+  },
+  {
+    "Name": "WP Works Word Processor File",
+    "Extension": ".wpw"
+  },
+  {
+    "Name": "Microsoft Write Document",
+    "Extension": ".wri"
+  },
+  {
+    "Name": "WordStar Document",
+    "Extension": ".wsd"
+  },
+  {
+    "Name": "Write! Document",
+    "Extension": ".wtt"
+  },
+  {
+    "Name": "Text Document",
+    "Extension": ".wtx"
+  },
+  {
+    "Name": "Xiosis Scribe Document",
+    "Extension": ".xbdoc"
+  },
+  {
+    "Name": "Xiosis Scribe Template",
+    "Extension": ".xbplate"
+  },
+  {
+    "Name": "XML Schema File",
+    "Extension": ".xdl"
+  },
+  {
+    "Name": "Oracle Expert Definition Language File",
+    "Extension": ".xdl"
+  },
+  {
+    "Name": "XMLwriter Project",
+    "Extension": ".xwp"
+  },
+  {
+    "Name": "Xerox Writer Text Document",
+    "Extension": ".xwp"
+  },
+  {
+    "Name": "Crosstalk Session File",
+    "Extension": ".xwp"
+  },
+  {
+    "Name": "XYWrite Document",
+    "Extension": ".xy"
+  },
+  {
+    "Name": "XYWrite III Document",
+    "Extension": ".xy3"
+  },
+  {
+    "Name": "XYWrite Plus Document",
+    "Extension": ".xyp"
+  },
+  {
+    "Name": "XYWrite for Windows Document",
+    "Extension": ".xyw"
+  },
+  {
+    "Name": "Compressed AbiWord Document File",
+    "Extension": ".zabw"
+  },
+  {
+    "Name": "Nisus Compressed Rich Text File",
+    "Extension": ".zrtf"
+  },
+  {
+    "Name": "Chinese Text File",
+    "Extension": ".zw"
+  }
+]

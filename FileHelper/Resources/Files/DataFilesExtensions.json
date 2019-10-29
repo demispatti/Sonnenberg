@@ -1,0 +1,2002 @@
+[
+  {
+    "Name": "3DMark Results File",
+    "Extension": ".3dr"
+  },
+  {
+    "Name": "4D View Ultrasound File",
+    "Extension": ".4dv"
+  },
+  {
+    "Name": "Authorware Map File",
+    "Extension": ".aam"
+  },
+  {
+    "Name": "PhotoImpact 3 Album File",
+    "Extension": ".ab3"
+  },
+  {
+    "Name": "AudioVisual Book Data File",
+    "Extension": ".abcd"
+  },
+  {
+    "Name": "AVS Barcode Profile",
+    "Extension": ".abp"
+  },
+  {
+    "Name": "AOL Address Book File",
+    "Extension": ".aby"
+  },
+  {
+    "Name": "Graphics Accounts Data File",
+    "Extension": ".acc"
+  },
+  {
+    "Name": "Adobe Device Central Project File",
+    "Extension": ".adcp"
+  },
+  {
+    "Name": "ACT! Document Template",
+    "Extension": ".adt"
+  },
+  {
+    "Name": "Approach Index File",
+    "Extension": ".adx"
+  },
+  {
+    "Name": "Ancestry.com Family Tree Database",
+    "Extension": ".aft"
+  },
+  {
+    "Name": "AIF Builder Project File",
+    "Extension": ".aifb"
+  },
+  {
+    "Name": "Dynamics AX Application Label Data File",
+    "Extension": ".ald"
+  },
+  {
+    "Name": "Dynamics AX Label Index File",
+    "Extension": ".ali"
+  },
+  {
+    "Name": "Anime Studio Document",
+    "Extension": ".anme"
+  },
+  {
+    "Name": "Answer Wizard File",
+    "Extension": ".aw"
+  },
+  {
+    "Name": "Belarc Advisor Report File",
+    "Extension": ".bci"
+  },
+  {
+    "Name": "Business Contact Manager File",
+    "Extension": ".bcm"
+  },
+  {
+    "Name": "Chrome Dictionary File",
+    "Extension": ".bdic"
+  },
+  {
+    "Name": "Babylon Glossary File",
+    "Extension": ".bgl"
+  },
+  {
+    "Name": "Graphics Accounts Data File",
+    "Extension": ".bgt"
+  },
+  {
+    "Name": "Generic Binary File",
+    "Extension": ".bin"
+  },
+  {
+    "Name": "TabRite Tablature File",
+    "Extension": ".bjo"
+  },
+  {
+    "Name": "FrameMaker Book File",
+    "Extension": ".bk"
+  },
+  {
+    "Name": "Blob Data File",
+    "Extension": ".blb"
+  },
+  {
+    "Name": "Envisioneer Building Project File",
+    "Extension": ".bld"
+  },
+  {
+    "Name": "Windows Binary Performance Log File",
+    "Extension": ".blg"
+  },
+  {
+    "Name": "E-mail Mailbox",
+    "Extension": ".box"
+  },
+  {
+    "Name": "Calyx Point Borrower File",
+    "Extension": ".brw"
+  },
+  {
+    "Name": "BizTalk Map File",
+    "Extension": ".btm"
+  },
+  {
+    "Name": "VodaHost BlueVoda Project File",
+    "Extension": ".bvp"
+  },
+  {
+    "Name": "Packet Capture File",
+    "Extension": ".cap"
+  },
+  {
+    "Name": "Capito Data File",
+    "Extension": ".capt"
+  },
+  {
+    "Name": "Common Data Format",
+    "Extension": ".cdf"
+  },
+  {
+    "Name": "ChemDraw Exchange File",
+    "Extension": ".cdx"
+  },
+  {
+    "Name": "Compound Index File",
+    "Extension": ".cdx"
+  },
+  {
+    "Name": "Affymetrix Probe Results File",
+    "Extension": ".cel"
+  },
+  {
+    "Name": "Celtx Project File",
+    "Extension": ".celtx"
+  },
+  {
+    "Name": "CircuitMaker File",
+    "Extension": ".ckt"
+  },
+  {
+    "Name": "MagicJack Call Log File",
+    "Extension": ".clm"
+  },
+  {
+    "Name": "CrazyTalk Clip File",
+    "Extension": ".clp"
+  },
+  {
+    "Name": "Coach Activity File",
+    "Extension": ".cma"
+  },
+  {
+    "Name": "Catena Project File",
+    "Extension": ".cna"
+  },
+  {
+    "Name": "Windows Contact File",
+    "Extension": ".contact"
+  },
+  {
+    "Name": "Office 2007 Chart Template File",
+    "Extension": ".crtx"
+  },
+  {
+    "Name": "PNA Code Calset File",
+    "Extension": ".csa"
+  },
+  {
+    "Name": "Comma Separated Values File",
+    "Extension": ".csv"
+  },
+  {
+    "Name": "WhereIsIt Catalog File",
+    "Extension": ".ctf"
+  },
+  {
+    "Name": "Analysis Services Cube File",
+    "Extension": ".cub"
+  },
+  {
+    "Name": "ClamAV Virus Definitions File",
+    "Extension": ".cvd"
+  },
+  {
+    "Name": "CineVision Encoding Session",
+    "Extension": ".cvn"
+  },
+  {
+    "Name": "DVD-lab Project File",
+    "Extension": ".dal"
+  },
+  {
+    "Name": "DeltaMaster Analysis Model",
+    "Extension": ".dam"
+  },
+  {
+    "Name": "DeltaMaster Analysis Session",
+    "Extension": ".das"
+  },
+  {
+    "Name": "Data File",
+    "Extension": ".dat"
+  },
+  {
+    "Name": "DemoShield Project",
+    "Extension": ".dbd"
+  },
+  {
+    "Name": "Document Computation Format",
+    "Extension": ".dcf"
+  },
+  {
+    "Name": "DiskCatalogMaker Catalog File",
+    "Extension": ".dcm"
+  },
+  {
+    "Name": "DiskCatalogMaker Thumbnail-Enabled Catalog",
+    "Extension": ".dcmd"
+  },
+  {
+    "Name": "DivX Descriptor File",
+    "Extension": ".ddc"
+  },
+  {
+    "Name": "DivX Descriptor 2 File",
+    "Extension": ".ddcx"
+  },
+  {
+    "Name": "DVD Flick Project",
+    "Extension": ".dfproj"
+  },
+  {
+    "Name": "Data Interchange Format",
+    "Extension": ".dif"
+  },
+  {
+    "Name": "Summation Batch Load File",
+    "Extension": ".dii"
+  },
+  {
+    "Name": "Toad Data Modeler 2 File",
+    "Extension": ".dm2"
+  },
+  {
+    "Name": "PhotoSuite Project File",
+    "Extension": ".dmsp"
+  },
+  {
+    "Name": "ObjectDock File",
+    "Extension": ".dockzip"
+  },
+  {
+    "Name": "Gerber Drill Rack File",
+    "Extension": ".drl"
+  },
+  {
+    "Name": "Wondershare DVD Slideshow Builder Project",
+    "Extension": ".dsb"
+  },
+  {
+    "Name": "Directory Synchronizer Project File",
+    "Extension": ".dsy"
+  },
+  {
+    "Name": "Orchida (OES) Embroidery File",
+    "Extension": ".dsz"
+  },
+  {
+    "Name": "iDVD Project File",
+    "Extension": ".dvdproj"
+  },
+  {
+    "Name": "Cook'n Cookbook File",
+    "Extension": ".dvo"
+  },
+  {
+    "Name": "Dance With Intensity Song File",
+    "Extension": ".dwi"
+  },
+  {
+    "Name": "Portage eBuild Script",
+    "Extension": ".ebuild"
+  },
+  {
+    "Name": "Electronic Data Interchange File",
+    "Extension": ".edi"
+  },
+  {
+    "Name": "eFax Document",
+    "Extension": ".efx"
+  },
+  {
+    "Name": "Easy Grade Pro Gradebook File",
+    "Extension": ".egp"
+  },
+  {
+    "Name": "Wilcom Embroidery Design File",
+    "Extension": ".emb"
+  },
+  {
+    "Name": "Mail Message Attachment",
+    "Extension": ".emlxpart"
+  },
+  {
+    "Name": "Evernote Archive",
+    "Extension": ".enex"
+  },
+  {
+    "Name": "EndNote Library",
+    "Extension": ".enl"
+  },
+  {
+    "Name": "EnergyPlus Weather Data File",
+    "Extension": ".epw"
+  },
+  {
+    "Name": "ERWin Entity Relationship Diagram",
+    "Extension": ".er1"
+  },
+  {
+    "Name": "Xactimate Insurance Claims Estimate",
+    "Extension": ".esx"
+  },
+  {
+    "Name": "Echoview File",
+    "Extension": ".ev"
+  },
+  {
+    "Name": "Exchangeable Image Information File",
+    "Extension": ".exif"
+  },
+  {
+    "Name": "Export File",
+    "Extension": ".exp"
+  },
+  {
+    "Name": "IBM Linkway MsgPut File",
+    "Extension": ".exx"
+  },
+  {
+    "Name": "Final Cut Pro Event File",
+    "Extension": ".fcpevent"
+  },
+  {
+    "Name": "Flow Cytometry Standard File",
+    "Extension": ".fcs"
+  },
+  {
+    "Name": "Portfolio Catalog",
+    "Extension": ".fdb"
+  },
+  {
+    "Name": "Art Explosion Catalog",
+    "Extension": ".fdb"
+  },
+  {
+    "Name": "FormsForWeb Packet",
+    "Extension": ".ffwp"
+  },
+  {
+    "Name": "FHC Data File",
+    "Extension": ".fhc"
+  },
+  {
+    "Name": "Files List Object File",
+    "Extension": ".fil"
+  },
+  {
+    "Name": "iGrafx FlowCharter File",
+    "Extension": ".flo"
+  },
+  {
+    "Name": "ActivPrimary Flipchart File",
+    "Extension": ".flp"
+  },
+  {
+    "Name": "FMAT Runfile",
+    "Extension": ".fmat"
+  },
+  {
+    "Name": "FormConnect Form File",
+    "Extension": ".fmc"
+  },
+  {
+    "Name": "XSL-FO Form",
+    "Extension": ".fo"
+  },
+  {
+    "Name": "Dynamics NAV Object Container File",
+    "Extension": ".fob"
+  },
+  {
+    "Name": "InfoZoom Protected Data File",
+    "Extension": ".fop"
+  },
+  {
+    "Name": "InfoZoom Data File",
+    "Extension": ".fox"
+  },
+  {
+    "Name": "dBASE IV Compiled Report",
+    "Extension": ".fro"
+  },
+  {
+    "Name": "Practical Scriptwriter File",
+    "Extension": ".fsc"
+  },
+  {
+    "Name": "Family Tree Maker File",
+    "Extension": ".ftw"
+  },
+  {
+    "Name": "Adobe Flex Project File",
+    "Extension": ".fxp"
+  },
+  {
+    "Name": "GanttProject Project File",
+    "Extension": ".gan"
+  },
+  {
+    "Name": "Gerber File",
+    "Extension": ".gbr"
+  },
+  {
+    "Name": "GraphClick File",
+    "Extension": ".gc"
+  },
+  {
+    "Name": "Microsoft Mathematics Worksheet",
+    "Extension": ".gcw"
+  },
+  {
+    "Name": "gretl Datafile",
+    "Extension": ".gdt"
+  },
+  {
+    "Name": "GEDCOM Genealogy Data File",
+    "Extension": ".ged"
+  },
+  {
+    "Name": "GEDCOM Genealogy File",
+    "Extension": ".gedcom"
+  },
+  {
+    "Name": "GeoGebra Document",
+    "Extension": ".ggb"
+  },
+  {
+    "Name": "GenoPro Genealogy Tree File",
+    "Extension": ".gno"
+  },
+  {
+    "Name": "Garmin Point of Interest File",
+    "Extension": ".gpi"
+  },
+  {
+    "Name": "GradeStat Document",
+    "Extension": ".grade"
+  },
+  {
+    "Name": "DPlot Graph File",
+    "Extension": ".grf"
+  },
+  {
+    "Name": "Gradekeeper Class Gradebook File",
+    "Extension": ".grk"
+  },
+  {
+    "Name": "Gradekeeper Class Roster File",
+    "Extension": ".grr"
+  },
+  {
+    "Name": "Office Groove File",
+    "Extension": ".grv"
+  },
+  {
+    "Name": "GemStone Document",
+    "Extension": ".gs"
+  },
+  {
+    "Name": "Guitar Pro File",
+    "Extension": ".gtp"
+  },
+  {
+    "Name": "GraphiCode PCB Job File",
+    "Extension": ".gwk"
+  },
+  {
+    "Name": "At Home Canada 2012 Tax Return",
+    "Extension": ".h12"
+  },
+  {
+    "Name": "H&R Block Canada 2013 Tax Return",
+    "Extension": ".h13"
+  },
+  {
+    "Name": "H&R Block Canada 2017 Tax Return",
+    "Extension": ".h17"
+  },
+  {
+    "Name": "HydroCAD Prefab Chamber Data File",
+    "Extension": ".hcc"
+  },
+  {
+    "Name": "Hydrograph Units Definitons File",
+    "Extension": ".hcu"
+  },
+  {
+    "Name": "HotDocs Auto-Assemble File",
+    "Extension": ".hda"
+  },
+  {
+    "Name": "Hierarchical Data Format File",
+    "Extension": ".hdf"
+  },
+  {
+    "Name": "HeuristicLab Storage File",
+    "Extension": ".hl"
+  },
+  {
+    "Name": "HostMonitor TestList File",
+    "Extension": ".hml"
+  },
+  {
+    "Name": "History File",
+    "Extension": ".hst"
+  },
+  {
+    "Name": "HydroCAD Unit Hydrograph Definitions File",
+    "Extension": ".huh"
+  },
+  {
+    "Name": "Team Manager Meet Event File",
+    "Extension": ".hyv"
+  },
+  {
+    "Name": "IUCLID 5 Import/Export File",
+    "Extension": ".i5z"
+  },
+  {
+    "Name": "iBooks Author Document",
+    "Extension": ".iba"
+  },
+  {
+    "Name": "Windows Live Messenger Emoticon File",
+    "Extension": ".id2"
+  },
+  {
+    "Name": "HMI Historical Log Index File",
+    "Extension": ".idx"
+  },
+  {
+    "Name": "Navigation POI File",
+    "Extension": ".idx"
+  },
+  {
+    "Name": "Anime List Builder Input File",
+    "Extension": ".igc"
+  },
+  {
+    "Name": "IconWorkshop Extended Information File",
+    "Extension": ".ii"
+  },
+  {
+    "Name": "Intuit Interchange Format File",
+    "Extension": ".iif"
+  },
+  {
+    "Name": "Sage ACT! Email Message",
+    "Extension": ".ima"
+  },
+  {
+    "Name": "My Time Data File",
+    "Extension": ".imt"
+  },
+  {
+    "Name": "Input File",
+    "Extension": ".in"
+  },
+  {
+    "Name": "Mimio Ink Data File",
+    "Extension": ".ink"
+  },
+  {
+    "Name": "Abaqus Input File",
+    "Extension": ".inp"
+  },
+  {
+    "Name": "Compiled Script",
+    "Extension": ".inx"
+  },
+  {
+    "Name": "IconPackager Theme File",
+    "Extension": ".ip"
+  },
+  {
+    "Name": "Inspiration Flowchart Document",
+    "Extension": ".isf"
+  },
+  {
+    "Name": "iTunes Library File",
+    "Extension": ".itl"
+  },
+  {
+    "Name": "iThink Model File",
+    "Extension": ".itm"
+  },
+  {
+    "Name": "iTunes Store Package",
+    "Extension": ".itmsp"
+  },
+  {
+    "Name": "ITX Form Template",
+    "Extension": ".itx"
+  },
+  {
+    "Name": "Beyond 20/20 Table File",
+    "Extension": ".ivt"
+  },
+  {
+    "Name": "Ulead Disc Image",
+    "Extension": ".ixb"
+  },
+  {
+    "Name": "JasperReports Data File",
+    "Extension": ".jasper"
+  },
+  {
+    "Name": "Symantec Endpoint Protection Update File",
+    "Extension": ".jdb"
+  },
+  {
+    "Name": "Janome Embroidery Format",
+    "Extension": ".jef"
+  },
+  {
+    "Name": "Windows Journal File",
+    "Extension": ".jnt"
+  },
+  {
+    "Name": "JProbe Memory Snapshot",
+    "Extension": ".jph"
+  },
+  {
+    "Name": "JasperReports Print File",
+    "Extension": ".jrprint"
+  },
+  {
+    "Name": "JasperReports Layout File",
+    "Extension": ".jrxml"
+  },
+  {
+    "Name": "BSB Chart Image File",
+    "Extension": ".kap"
+  },
+  {
+    "Name": "Kaspersky Virus Database File",
+    "Extension": ".kdc"
+  },
+  {
+    "Name": "Keynote Presentation",
+    "Extension": ".key"
+  },
+  {
+    "Name": "Mac OS X Keychain File",
+    "Extension": ".keychain"
+  },
+  {
+    "Name": "Kidspiration Document",
+    "Extension": ".kid"
+  },
+  {
+    "Name": "KisMAC Webservice File",
+    "Extension": ".kismac"
+  },
+  {
+    "Name": "Komodo Project File",
+    "Extension": ".kpf"
+  },
+  {
+    "Name": "Kid Pix Presentation",
+    "Extension": ".kpp"
+  },
+  {
+    "Name": "KPresenter Presentation",
+    "Extension": ".kpr"
+  },
+  {
+    "Name": "Kid Pix Picture",
+    "Extension": ".kpx"
+  },
+  {
+    "Name": "Komodo Template File",
+    "Extension": ".kpz"
+  },
+  {
+    "Name": "Keynote Theme",
+    "Extension": ".kth"
+  },
+  {
+    "Name": "Line 6 Tone File",
+    "Extension": ".l6t"
+  },
+  {
+    "Name": "NiceLabel Template File",
+    "Extension": ".lbl"
+  },
+  {
+    "Name": "Lipikar Custom Map File",
+    "Extension": ".lcm"
+  },
+  {
+    "Name": "LDAP Data Interchange Format File",
+    "Extension": ".ldif"
+  },
+  {
+    "Name": "HMI Historical Log File",
+    "Extension": ".lgh"
+  },
+  {
+    "Name": "Multimedia Logic File",
+    "Extension": ".lgi"
+  },
+  {
+    "Name": "Generic Data Library",
+    "Extension": ".lib"
+  },
+  {
+    "Name": "Symantec Antivirus Session File",
+    "Extension": ".livereg"
+  },
+  {
+    "Name": "Symantec LiveUpdate File",
+    "Extension": ".liveupdate"
+  },
+  {
+    "Name": "Logos Library System File",
+    "Extension": ".lix"
+  },
+  {
+    "Name": "ExtendSim Simulation Software Library",
+    "Extension": ".lix"
+  },
+  {
+    "Name": "LenMus Score File",
+    "Extension": ".lms"
+  },
+  {
+    "Name": "Landmark Exchange File",
+    "Extension": ".lmx"
+  },
+  {
+    "Name": "LP7 Digitally Signed File",
+    "Extension": ".lp7"
+  },
+  {
+    "Name": "Logos Library System File",
+    "Extension": ".lsf"
+  },
+  {
+    "Name": "LightScribe Label",
+    "Extension": ".lsl"
+  },
+  {
+    "Name": "LabVIEW Measurement File",
+    "Extension": ".lvm"
+  },
+  {
+    "Name": "Mathematica Input File",
+    "Extension": ".m"
+  },
+  {
+    "Name": "Microsoft Mail File",
+    "Extension": ".mai"
+  },
+  {
+    "Name": "MATLAB MAT-File",
+    "Extension": ".mat"
+  },
+  {
+    "Name": "Mailbag Assistant Mailbox File",
+    "Extension": ".mbg"
+  },
+  {
+    "Name": "Microsoft Mailbag",
+    "Extension": ".mbg"
+  },
+  {
+    "Name": "Outlook Express Mailbox",
+    "Extension": ".mbx"
+  },
+  {
+    "Name": "Mathcad Document",
+    "Extension": ".mcd"
+  },
+  {
+    "Name": "Mathcad Prime Document",
+    "Extension": ".mcdx"
+  },
+  {
+    "Name": "Multi Dimension Cube File",
+    "Extension": ".mdc"
+  },
+  {
+    "Name": "Measurement Data Format File",
+    "Extension": ".mdf"
+  },
+  {
+    "Name": "StarUML Model File",
+    "Extension": ".mdj"
+  },
+  {
+    "Name": "MathWorks Simulink Model",
+    "Extension": ".mdl"
+  },
+  {
+    "Name": "Rational Rose Model File",
+    "Extension": ".mdl"
+  },
+  {
+    "Name": "HLM Multivariate Data Matrix File",
+    "Extension": ".mdm"
+  },
+  {
+    "Name": "MEGA Saved Session",
+    "Extension": ".mdsx"
+  },
+  {
+    "Name": "Multiple Index File",
+    "Extension": ".mdx"
+  },
+  {
+    "Name": "Windows Mobile Encrypted File",
+    "Extension": ".menc"
+  },
+  {
+    "Name": "eMule Resource File",
+    "Extension": ".met"
+  },
+  {
+    "Name": "Macro Express File",
+    "Extension": ".mex"
+  },
+  {
+    "Name": "Question File",
+    "Extension": ".mjk"
+  },
+  {
+    "Name": "Milestones Simplicity File",
+    "Extension": ".mls"
+  },
+  {
+    "Name": "MindManager Map File",
+    "Extension": ".mmap"
+  },
+  {
+    "Name": "Microsoft Media Catalog",
+    "Extension": ".mmc"
+  },
+  {
+    "Name": "Meal-Master Recipe File",
+    "Extension": ".mmf"
+  },
+  {
+    "Name": "MindManager Mind Map",
+    "Extension": ".mmp"
+  },
+  {
+    "Name": "Master Album Maker Project",
+    "Extension": ".mmp"
+  },
+  {
+    "Name": "My Notes Center Notebook",
+    "Extension": ".mnc"
+  },
+  {
+    "Name": "Macromedia Design Note",
+    "Extension": ".mno"
+  },
+  {
+    "Name": "Moho Animation Project",
+    "Extension": ".moho"
+  },
+  {
+    "Name": "MacOSaiX Mosaic File",
+    "Extension": ".mosaic"
+  },
+  {
+    "Name": "ExtendSim Simulation Software Model",
+    "Extension": ".mox"
+  },
+  {
+    "Name": "Photostory Deluxe Project",
+    "Extension": ".mph"
+  },
+  {
+    "Name": "MOPEKS Trial File",
+    "Extension": ".mpkt"
+  },
+  {
+    "Name": "Microsoft Project File",
+    "Extension": ".mpp"
+  },
+  {
+    "Name": "Microsoft Project Exchange File",
+    "Extension": ".mpx"
+  },
+  {
+    "Name": "Derive Math File",
+    "Extension": ".mth"
+  },
+  {
+    "Name": "Minitab Worksheet File",
+    "Extension": ".mtw"
+  },
+  {
+    "Name": "Maple Worksheet",
+    "Extension": ".mw"
+  },
+  {
+    "Name": "MapGuide Author Map Window File",
+    "Extension": ".mwf"
+  },
+  {
+    "Name": "Maple Classic Worksheet",
+    "Extension": ".mws"
+  },
+  {
+    "Name": "MySQL MyISAM Index File",
+    "Extension": ".myi"
+  },
+  {
+    "Name": "Mathematica Player Notebook File",
+    "Extension": ".nbp"
+  },
+  {
+    "Name": "Adobe Encore Project",
+    "Extension": ".ncorx"
+  },
+  {
+    "Name": "Lotus Notes Design Elements File",
+    "Extension": ".ndk"
+  },
+  {
+    "Name": "dBASE Index File",
+    "Extension": ".ndx"
+  },
+  {
+    "Name": "netViz Project File",
+    "Extension": ".net"
+  },
+  {
+    "Name": "National Imagery Transmission Format File",
+    "Extension": ".nitf"
+  },
+  {
+    "Name": "Notation File",
+    "Extension": ".not"
+  },
+  {
+    "Name": "SMART Notebook File",
+    "Extension": ".notebook"
+  },
+  {
+    "Name": "Portfolio NetPublish File",
+    "Extension": ".np"
+  },
+  {
+    "Name": "Nokia Playlist File",
+    "Extension": ".npl"
+  },
+  {
+    "Name": "Portfolio NetPublish Template",
+    "Extension": ".npt"
+  },
+  {
+    "Name": "Autonomy Interwoven Link File",
+    "Extension": ".nrl"
+  },
+  {
+    "Name": "Relocatable Object Code",
+    "Extension": ".obj"
+  },
+  {
+    "Name": "OpenDocument Presentation",
+    "Extension": ".odp"
+  },
+  {
+    "Name": "BizTalk Server Orchestration File",
+    "Extension": ".odx"
+  },
+  {
+    "Name": "Windows Mail Account File",
+    "Extension": ".oeaccount"
+  },
+  {
+    "Name": "Open Financial Connectivity File",
+    "Extension": ".ofc"
+  },
+  {
+    "Name": "Outlook File Template",
+    "Extension": ".oft"
+  },
+  {
+    "Name": "Open Financial Exchange File",
+    "Extension": ".ofx"
+  },
+  {
+    "Name": "Lotus Notes Encapsulated Memo File",
+    "Extension": ".ond"
+  },
+  {
+    "Name": "OneNote Document",
+    "Extension": ".one"
+  },
+  {
+    "Name": "OmniOutliner 3 File",
+    "Extension": ".oo3"
+  },
+  {
+    "Name": "Origin Unicode Project",
+    "Extension": ".opju"
+  },
+  {
+    "Name": "OrgPlus Org Chart",
+    "Extension": ".opx"
+  },
+  {
+    "Name": "FlipAlbum Photo Album File",
+    "Extension": ".opx"
+  },
+  {
+    "Name": "Opal Outline File",
+    "Extension": ".otln"
+  },
+  {
+    "Name": "OpenDocument Presentation Template",
+    "Extension": ".otp"
+  },
+  {
+    "Name": "Output File",
+    "Extension": ".out"
+  },
+  {
+    "Name": "Open Virtual Appliance",
+    "Extension": ".ova"
+  },
+  {
+    "Name": "Open Virtualization File",
+    "Extension": ".ovf"
+  },
+  {
+    "Name": "Personal Ancestral File",
+    "Extension": ".paf"
+  },
+  {
+    "Name": "Pcap-NG Packet Capture File",
+    "Extension": ".pcapng"
+  },
+  {
+    "Name": "Printed Circuit Board Design File",
+    "Extension": ".pcb"
+  },
+  {
+    "Name": "PCMark Vantage Benchmark File",
+    "Extension": ".pcr"
+  },
+  {
+    "Name": "Windows Live Photo Gallery Information File",
+    "Extension": ".pd4"
+  },
+  {
+    "Name": "Windows Live Photo Gallery Information File",
+    "Extension": ".pd5"
+  },
+  {
+    "Name": "PDAStore Data Store File",
+    "Extension": ".pdas"
+  },
+  {
+    "Name": "Protein Data Bank File",
+    "Extension": ".pdb"
+  },
+  {
+    "Name": "Planetary Data System File",
+    "Extension": ".pds"
+  },
+  {
+    "Name": "Adobe Acrobat Index File",
+    "Extension": ".pdx"
+  },
+  {
+    "Name": "Product Data eXchange File",
+    "Extension": ".pdx"
+  },
+  {
+    "Name": "AOL Personal File Cabinet",
+    "Extension": ".pfc"
+  },
+  {
+    "Name": "Motorola Phone Book File",
+    "Extension": ".phb"
+  },
+  {
+    "Name": "Pro Home Manager Data File",
+    "Extension": ".phm"
+  },
+  {
+    "Name": "Photos Library",
+    "Extension": ".photoslibrary"
+  },
+  {
+    "Name": "xPlan Document",
+    "Extension": ".pj2"
+  },
+  {
+    "Name": "xPlan Model",
+    "Extension": ".pjm"
+  },
+  {
+    "Name": "Packet Tracer Activity File",
+    "Extension": ".pka"
+  },
+  {
+    "Name": "Oracle Package Body File",
+    "Extension": ".pkb"
+  },
+  {
+    "Name": "Oracle Package File",
+    "Extension": ".pkh"
+  },
+  {
+    "Name": "Oracle Package Spec File",
+    "Extension": ".pks"
+  },
+  {
+    "Name": "Packet Tracer Network Simulation Model",
+    "Extension": ".pkt"
+  },
+  {
+    "Name": "PicoLog Data File",
+    "Extension": ".plw"
+  },
+  {
+    "Name": "Broderbund Print Meta Object File",
+    "Extension": ".pmo"
+  },
+  {
+    "Name": "OpenProj Project File",
+    "Extension": ".pod"
+  },
+  {
+    "Name": "Magellan Maestro Point of Interest File",
+    "Extension": ".poi"
+  },
+  {
+    "Name": "PowerPoint Open XML Macro-Enabled Presentation Template",
+    "Extension": ".potm"
+  },
+  {
+    "Name": "PowerPoint Open XML Presentation Template",
+    "Extension": ".potx"
+  },
+  {
+    "Name": "Edgecam Pathtrace Part File",
+    "Extension": ".ppf"
+  },
+  {
+    "Name": "Transit NXT Pack Project File",
+    "Extension": ".ppf"
+  },
+  {
+    "Name": "PowerPoint Slide Show",
+    "Extension": ".pps"
+  },
+  {
+    "Name": "PowerPoint Open XML Macro-Enabled Slide Show",
+    "Extension": ".ppsm"
+  },
+  {
+    "Name": "PowerPoint Open XML Slide Show",
+    "Extension": ".ppsx"
+  },
+  {
+    "Name": "PowerPoint Presentation",
+    "Extension": ".ppt"
+  },
+  {
+    "Name": "PowerPoint Open XML Macro-Enabled Presentation",
+    "Extension": ".pptm"
+  },
+  {
+    "Name": "PowerPoint Open XML Presentation",
+    "Extension": ".pptx"
+  },
+  {
+    "Name": "Presentations Document",
+    "Extension": ".prdx"
+  },
+  {
+    "Name": "Project File",
+    "Extension": ".prj"
+  },
+  {
+    "Name": "AIMMS Project File",
+    "Extension": ".prj"
+  },
+  {
+    "Name": "ProPresenter 5 Playlist Bundle",
+    "Extension": ".pro5plx"
+  },
+  {
+    "Name": "Harvard Graphics Presentation",
+    "Extension": ".prs"
+  },
+  {
+    "Name": "Outlook Personal Information Store File",
+    "Extension": ".pst"
+  },
+  {
+    "Name": "Power Tab File",
+    "Extension": ".ptb"
+  },
+  {
+    "Name": "Scrapbook Flair Template",
+    "Extension": ".ptf"
+  },
+  {
+    "Name": "PaperPort Thumbnail File",
+    "Extension": ".ptn"
+  },
+  {
+    "Name": "E-Transcript Bundle File",
+    "Extension": ".ptz"
+  },
+  {
+    "Name": "Transit XV Pack Project File",
+    "Extension": ".pxf"
+  },
+  {
+    "Name": "Pocket Excel File",
+    "Extension": ".pxl"
+  },
+  {
+    "Name": "QuickTax 2008 Tax Return",
+    "Extension": ".q08"
+  },
+  {
+    "Name": "QuickTax 2009 Tax Return",
+    "Extension": ".q09"
+  },
+  {
+    "Name": "QuickBooks 2009 File",
+    "Extension": ".qb2009"
+  },
+  {
+    "Name": "QuickBooks 2011 File",
+    "Extension": ".qb2011"
+  },
+  {
+    "Name": "QuickBooks 2012 File",
+    "Extension": ".qb2012"
+  },
+  {
+    "Name": "QuickBooks 2013 File",
+    "Extension": ".qb2013"
+  },
+  {
+    "Name": "QuickBooks 2014 File",
+    "Extension": ".qb2014"
+  },
+  {
+    "Name": "QuickBooks 2017 for Mac Data File",
+    "Extension": ".qb2017"
+  },
+  {
+    "Name": "QuickBooks Data File",
+    "Extension": ".qbw"
+  },
+  {
+    "Name": "Quicken Data File",
+    "Extension": ".qdf"
+  },
+  {
+    "Name": "Quicken Financial Exchange File",
+    "Extension": ".qfx"
+  },
+  {
+    "Name": "Quicken Interchange Format File",
+    "Extension": ".qif"
+  },
+  {
+    "Name": "LabQuest Document",
+    "Extension": ".qmbl"
+  },
+  {
+    "Name": "Quicken Mac Transfer File",
+    "Extension": ".qmtf"
+  },
+  {
+    "Name": "QuickBooks Point of Sale Data File",
+    "Extension": ".qpb"
+  },
+  {
+    "Name": "QuickReport File",
+    "Extension": ".qrp"
+  },
+  {
+    "Name": "Quicken 2015 Data File",
+    "Extension": ".quicken2015"
+  },
+  {
+    "Name": "Quicken 2017 Data File",
+    "Extension": ".quicken2017"
+  },
+  {
+    "Name": "Quicken Essentials for Mac Data File",
+    "Extension": ".quickendata"
+  },
+  {
+    "Name": "QlikView Document",
+    "Extension": ".qvw"
+  },
+  {
+    "Name": "WinRail Track Design File",
+    "Extension": ".ral"
+  },
+  {
+    "Name": "LEGO MINDSTORMS NXT Program",
+    "Extension": ".rbt"
+  },
+  {
+    "Name": "Recog Character Recognition Set",
+    "Extension": ".rcg"
+  },
+  {
+    "Name": "N64 ROM Database",
+    "Extension": ".rdb"
+  },
+  {
+    "Name": "BusinessObjects Template",
+    "Extension": ".ret"
+  },
+  {
+    "Name": "Revit Family File",
+    "Extension": ".rfa"
+  },
+  {
+    "Name": "RoboForm Option File",
+    "Extension": ".rfo"
+  },
+  {
+    "Name": "RepliGo File",
+    "Extension": ".rgo"
+  },
+  {
+    "Name": "Renque Model File",
+    "Extension": ".rnq"
+  },
+  {
+    "Name": "Road Trip Planner File",
+    "Extension": ".roadtrip"
+  },
+  {
+    "Name": "Actuate Report Object Design File",
+    "Extension": ".rod"
+  },
+  {
+    "Name": "Ancestry Genealogical Database File",
+    "Extension": ".rodz"
+  },
+  {
+    "Name": "Gerber Route File",
+    "Extension": ".rou"
+  },
+  {
+    "Name": "Roxio Project File",
+    "Extension": ".rox"
+  },
+  {
+    "Name": "Axure RP Project File",
+    "Extension": ".rp"
+  },
+  {
+    "Name": "REAPER Project File",
+    "Extension": ".rpp"
+  },
+  {
+    "Name": "Crystal Reports File",
+    "Extension": ".rpt"
+  },
+  {
+    "Name": "Symbian Application Compiled Resource File",
+    "Extension": ".rsc"
+  },
+  {
+    "Name": "Revit Project Template",
+    "Extension": ".rte"
+  },
+  {
+    "Name": "Navigation Route",
+    "Extension": ".rte"
+  },
+  {
+    "Name": "Revit Project File",
+    "Extension": ".rvt"
+  },
+  {
+    "Name": "Sibelius Arrange Style",
+    "Extension": ".sar"
+  },
+  {
+    "Name": "SPSS Data File",
+    "Extension": ".sav"
+  },
+  {
+    "Name": "SuperCard Project File",
+    "Extension": ".sc45"
+  },
+  {
+    "Name": "Norton AntiVirus Scan File",
+    "Extension": ".sca"
+  },
+  {
+    "Name": "TurboTax Tax Schedule List",
+    "Extension": ".scd"
+  },
+  {
+    "Name": "Standard Data File",
+    "Extension": ".sdf"
+  },
+  {
+    "Name": "Structure Data File",
+    "Extension": ".sdf"
+  },
+  {
+    "Name": "Session Description Protocol File",
+    "Extension": ".sdp"
+  },
+  {
+    "Name": "OpenOffice.org Chart",
+    "Extension": ".sds"
+  },
+  {
+    "Name": "SenTest Data File",
+    "Extension": ".sen"
+  },
+  {
+    "Name": "SEO Note File",
+    "Extension": ".seo"
+  },
+  {
+    "Name": "Standard Generalized Markup Language File",
+    "Extension": ".sgml"
+  },
+  {
+    "Name": "Corel Presentation",
+    "Extension": ".shw"
+  },
+  {
+    "Name": "Sisulizer Package File",
+    "Extension": ".sle"
+  },
+  {
+    "Name": "Symbolic Link File",
+    "Extension": ".slk"
+  },
+  {
+    "Name": "Sisulizer Project File",
+    "Extension": ".slp"
+  },
+  {
+    "Name": "MathWorks Simulink Model File",
+    "Extension": ".slx"
+  },
+  {
+    "Name": "SnagIt Capture File",
+    "Extension": ".snag"
+  },
+  {
+    "Name": "Corel SnapfireShow File",
+    "Extension": ".snapfireshow"
+  },
+  {
+    "Name": "SPSS Program File",
+    "Extension": ".sps"
+  },
+  {
+    "Name": "Disc Cover File",
+    "Extension": ".spub"
+  },
+  {
+    "Name": "SPSS Output Document",
+    "Extension": ".spv"
+  },
+  {
+    "Name": "Sysquake Program",
+    "Extension": ".sq"
+  },
+  {
+    "Name": "SQ Data File",
+    "Extension": ".sqd"
+  },
+  {
+    "Name": "SQL Program File",
+    "Extension": ".sqr"
+  },
+  {
+    "Name": "ABAQUS Status File",
+    "Extension": ".sta"
+  },
+  {
+    "Name": "Exchange Streaming Media File",
+    "Extension": ".stm"
+  },
+  {
+    "Name": "Analysis Studio Project Information File",
+    "Extension": ".stp"
+  },
+  {
+    "Name": "Stykz Stick Figure",
+    "Extension": ".styk"
+  },
+  {
+    "Name": "Stykz Animation",
+    "Extension": ".stykz"
+  },
+  {
+    "Name": "Subtitle File",
+    "Extension": ".sub"
+  },
+  {
+    "Name": "Serial Vector Format File",
+    "Extension": ".svf"
+  },
+  {
+    "Name": "StudyWorks Save File",
+    "Extension": ".swk"
+  },
+  {
+    "Name": "TaxCut 2005 Tax Return",
+    "Extension": ".t05"
+  },
+  {
+    "Name": "TaxCut 2006 Tax Return",
+    "Extension": ".t06"
+  },
+  {
+    "Name": "TaxCut 2007 Tax Return",
+    "Extension": ".t07"
+  },
+  {
+    "Name": "TaxCut 2008 Tax Return",
+    "Extension": ".t08"
+  },
+  {
+    "Name": "At Home 2009 Tax Return",
+    "Extension": ".t09"
+  },
+  {
+    "Name": "At Home 2010 Tax Return",
+    "Extension": ".t10"
+  },
+  {
+    "Name": "At Home 2011 Tax Return",
+    "Extension": ".t11"
+  },
+  {
+    "Name": "At Home 2012 Tax Return",
+    "Extension": ".t12"
+  },
+  {
+    "Name": "H&R Block 2013 Tax Return",
+    "Extension": ".t13"
+  },
+  {
+    "Name": "H&R Block 2016 Tax Return",
+    "Extension": ".t16"
+  },
+  {
+    "Name": "H&R Block 2018 Tax Return",
+    "Extension": ".t18"
+  },
+  {
+    "Name": "TaxAct 2018 Tax Return File",
+    "Extension": ".ta8"
+  },
+  {
+    "Name": "Consolidated Unix File Archive",
+    "Extension": ".tar"
+  },
+  {
+    "Name": "TurboTax 2009 Tax Return",
+    "Extension": ".tax2009"
+  },
+  {
+    "Name": "TurboTax 2010 Tax Return",
+    "Extension": ".tax2010"
+  },
+  {
+    "Name": "TurboTax 2011 Tax Return",
+    "Extension": ".tax2011"
+  },
+  {
+    "Name": "TurboTax 2013 Tax Return",
+    "Extension": ".tax2013"
+  },
+  {
+    "Name": "TurboTax 2015 Tax Return",
+    "Extension": ".tax2015"
+  },
+  {
+    "Name": "TurboTax 2016 Tax Return",
+    "Extension": ".tax2016"
+  },
+  {
+    "Name": "TurboTax 2017 Tax Return",
+    "Extension": ".tax2017"
+  },
+  {
+    "Name": "TurboTax 2018 Tax Return",
+    "Extension": ".tax2018"
+  },
+  {
+    "Name": "Tabbery Tab File",
+    "Extension": ".tb"
+  },
+  {
+    "Name": "ToolBook File",
+    "Extension": ".tbk"
+  },
+  {
+    "Name": "StarCraft Information Table",
+    "Extension": ".tbl"
+  },
+  {
+    "Name": "TimeCalc Classic Data File",
+    "Extension": ".tcc"
+  },
+  {
+    "Name": "Training Center XML File",
+    "Extension": ".tcx"
+  },
+  {
+    "Name": "Android Thumbnail Cache",
+    "Extension": ".tdb"
+  },
+  {
+    "Name": "Tab Delineated Format File",
+    "Extension": ".tdl"
+  },
+  {
+    "Name": "LabVIEW Binary Measurement File",
+    "Extension": ".tdm"
+  },
+  {
+    "Name": "THOR Data Tree File",
+    "Extension": ".tdt"
+  },
+  {
+    "Name": "WinTrack Object File",
+    "Extension": ".te3"
+  },
+  {
+    "Name": "TablEdit Tablature",
+    "Extension": ".tef"
+  },
+  {
+    "Name": "Textease CT Template",
+    "Extension": ".tet"
+  },
+  {
+    "Name": "TreeSoft CashFlow Analysis Data File",
+    "Extension": ".tfa"
+  },
+  {
+    "Name": "TKLinks Saver Favorite Links File",
+    "Extension": ".tkfl"
+  },
+  {
+    "Name": "Translation Memory Exchange File",
+    "Extension": ".tmx"
+  },
+  {
+    "Name": "TopicCrunch Project File",
+    "Extension": ".topc"
+  },
+  {
+    "Name": "GROMACS Binary Input File",
+    "Extension": ".tpb"
+  },
+  {
+    "Name": "Transit NXT Pack Translation File",
+    "Extension": ".tpf"
+  },
+  {
+    "Name": "WinTrack Railroad Track File",
+    "Extension": ".tra"
+  },
+  {
+    "Name": "TrID Definitions Package",
+    "Extension": ".trd"
+  },
+  {
+    "Name": "CompeGPS Land Track File",
+    "Extension": ".trk"
+  },
+  {
+    "Name": "Rosetta Stone Language Data File",
+    "Extension": ".trs"
+  },
+  {
+    "Name": "WinTrack Railroad Track Text File",
+    "Extension": ".trs"
+  },
+  {
+    "Name": "TestPoint Test File",
+    "Extension": ".tst"
+  },
+  {
+    "Name": "Tab Separated Values File",
+    "Extension": ".tsv"
+  },
+  {
+    "Name": "TurboTax Canada 2010 Tax Return",
+    "Extension": ".tt10"
+  },
+  {
+    "Name": "TurboTax Canada 2012 Tax Return",
+    "Extension": ".tt12"
+  },
+  {
+    "Name": "TurboTax Canada 2013 Tax Return",
+    "Extension": ".tt13"
+  },
+  {
+    "Name": "TurboTax Canada 2018 Tax Return",
+    "Extension": ".tt18"
+  },
+  {
+    "Name": "Catalyst Translation Toolkit",
+    "Extension": ".ttk"
+  },
+  {
+    "Name": "Tableau Workbook File",
+    "Extension": ".twb"
+  },
+  {
+    "Name": "Task Wheel Project File",
+    "Extension": ".twh"
+  },
+  {
+    "Name": "Game Texture Dictionary",
+    "Extension": ".txd"
+  },
+  {
+    "Name": "Tax Exchange Format",
+    "Extension": ".txf"
+  },
+  {
+    "Name": "UFile 2010 Tax Return",
+    "Extension": ".u10"
+  },
+  {
+    "Name": "Microsoft UCC API Log File",
+    "Extension": ".uccapilog"
+  },
+  {
+    "Name": "Universal List File",
+    "Extension": ".ulf"
+  },
+  {
+    "Name": "USBlyzer Data Capture File",
+    "Extension": ".ulz"
+  },
+  {
+    "Name": "iGO Points of Interest File",
+    "Extension": ".upoi"
+  },
+  {
+    "Name": "SmartMusic Custom File",
+    "Extension": ".usr"
+  },
+  {
+    "Name": "User Word List File",
+    "Extension": ".uwl"
+  },
+  {
+    "Name": "Value Change Dump File",
+    "Extension": ".vcd"
+  },
+  {
+    "Name": "Visual CertExam Exam File",
+    "Extension": ".vce"
+  },
+  {
+    "Name": "vCard File",
+    "Extension": ".vcf"
+  },
+  {
+    "Name": "vCalendar Event File",
+    "Extension": ".vcs"
+  },
+  {
+    "Name": "Symantec Virus Database File",
+    "Extension": ".vdb"
+  },
+  {
+    "Name": "AntiVir Virus Definitions File",
+    "Extension": ".vdf"
+  },
+  {
+    "Name": "Visio Drawing XML File",
+    "Extension": ".vdx"
+  },
+  {
+    "Name": "LabVIEW Virtual Instrument File",
+    "Extension": ".vi"
+  },
+  {
+    "Name": "Valve Material File",
+    "Extension": ".vmt"
+  },
+  {
+    "Name": "PocketVok Vocabulary File",
+    "Extension": ".vok"
+  },
+  {
+    "Name": "Visio Report Definition File",
+    "Extension": ".vrd"
+  },
+  {
+    "Name": "Visio Stencil XML File",
+    "Extension": ".vsx"
+  },
+  {
+    "Name": "Visio Template XML File",
+    "Extension": ".vtx"
+  },
+  {
+    "Name": "VoiceXML File",
+    "Extension": ".vxml"
+  },
+  {
+    "Name": "Windows Address Book",
+    "Extension": ".wab"
+  },
+  {
+    "Name": "Corel Quattro Pro File",
+    "Extension": ".wb2"
+  },
+  {
+    "Name": "Corel Quattro Pro 7 and 8 File",
+    "Extension": ".wb3"
+  },
+  {
+    "Name": "Workshare Compare DeltaFile",
+    "Extension": ".wdf"
+  },
+  {
+    "Name": "Ecotect Weather File",
+    "Extension": ".wea"
+  },
+  {
+    "Name": "XNBC Synaptic Weights File",
+    "Extension": ".wgt"
+  },
+  {
+    "Name": "IMPS Data File",
+    "Extension": ".wgt"
+  },
+  {
+    "Name": "Windows Live Contacts File",
+    "Extension": ".windowslivecontact"
+  },
+  {
+    "Name": "ReGet Deluxe Data File",
+    "Extension": ".wjr"
+  },
+  {
+    "Name": "Wink Presentation",
+    "Extension": ".wnk"
+  },
+  {
+    "Name": "WordPad Converter File",
+    "Extension": ".wpc"
+  },
+  {
+    "Name": "Win-Test Binary Log File",
+    "Extension": ".wtb"
+  },
+  {
+    "Name": "Symantec Virus Database File",
+    "Extension": ".xdb"
+  },
+  {
+    "Name": "DNA Strider Sequence File",
+    "Extension": ".xdna"
+  },
+  {
+    "Name": "PowerDesigner Model definition File",
+    "Extension": ".xem"
+  },
+  {
+    "Name": "XFD File",
+    "Extension": ".xfd"
+  },
+  {
+    "Name": "Adobe Acrobat XFDF File",
+    "Extension": ".xfdf"
+  },
+  {
+    "Name": "Adobe Form Designer 5.0 File",
+    "Extension": ".xft"
+  },
+  {
+    "Name": "Excel Chart",
+    "Extension": ".xlc"
+  },
+  {
+    "Name": "XLIFF Document",
+    "Extension": ".xlf"
+  },
+  {
+    "Name": "Excel Template",
+    "Extension": ".xlt"
+  },
+  {
+    "Name": "Mathcad Worksheet File",
+    "Extension": ".xmcd"
+  },
+  {
+    "Name": "XML File",
+    "Extension": ".xml"
+  },
+  {
+    "Name": "LeCroy Binary Waveform File",
+    "Extension": ".xmlper"
+  },
+  {
+    "Name": "Autoplay Media Studio Exported Page",
+    "Extension": ".xpg"
+  },
+  {
+    "Name": "RoboHelp HTML Project File",
+    "Extension": ".xpj"
+  },
+  {
+    "Name": "SAS Transport File",
+    "Extension": ".xpt"
+  },
+  {
+    "Name": "XRDML Data File",
+    "Extension": ".xrdml"
+  },
+  {
+    "Name": "RationalPlan Project File",
+    "Extension": ".xrp"
+  },
+  {
+    "Name": "XML Style Sheet",
+    "Extension": ".xsl"
+  },
+  {
+    "Name": "XSL Transformation File",
+    "Extension": ".xslt"
+  },
+  {
+    "Name": "ZoneAlarm Pro Data File",
+    "Extension": ".zap"
+  },
+  {
+    "Name": "CD Catalog Expert Database File",
+    "Extension": ".zdc"
+  },
+  {
+    "Name": "ZoneAlarm Quarantine File",
+    "Extension": ".zmc"
+  }
+]

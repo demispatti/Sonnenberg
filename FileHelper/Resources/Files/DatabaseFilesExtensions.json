@@ -1,0 +1,774 @@
+[
+  {
+    "Name": "GroupWise Database",
+    "Extension": ".$er"
+  },
+  {
+    "Name": "4th Dimension Database Data File",
+    "Extension": ".4dd"
+  },
+  {
+    "Name": "4th Dimension Database Log File",
+    "Extension": ".4dl"
+  },
+  {
+    "Name": "Pervasive.SQL Database File",
+    "Extension": ".^^^"
+  },
+  {
+    "Name": "Apple Address Book Contact List",
+    "Extension": ".abcddb"
+  },
+  {
+    "Name": "Absolute Database File",
+    "Extension": ".abs"
+  },
+  {
+    "Name": "WordPerfect Address Book",
+    "Extension": ".abx"
+  },
+  {
+    "Name": "Access 2007 Database File",
+    "Extension": ".accdb"
+  },
+  {
+    "Name": "Microsoft Access Signed Package",
+    "Extension": ".accdc"
+  },
+  {
+    "Name": "Access Execute Only Database",
+    "Extension": ".accde"
+  },
+  {
+    "Name": "Access Runtime Application",
+    "Extension": ".accdr"
+  },
+  {
+    "Name": "Microsoft Access Database Template",
+    "Extension": ".accdt"
+  },
+  {
+    "Name": "Microsoft Access Database Link File",
+    "Extension": ".accdw"
+  },
+  {
+    "Name": "Microsoft Access Data Type Template",
+    "Extension": ".accft"
+  },
+  {
+    "Name": "Alpha Five Database File",
+    "Extension": ".adb"
+  },
+  {
+    "Name": "Ability Database File",
+    "Extension": ".adb"
+  },
+  {
+    "Name": "Access Project Extension",
+    "Extension": ".ade"
+  },
+  {
+    "Name": "ACT! Data File",
+    "Extension": ".adf"
+  },
+  {
+    "Name": "Access Blank Project Template",
+    "Extension": ".adn"
+  },
+  {
+    "Name": "Access Project",
+    "Extension": ".adp"
+  },
+  {
+    "Name": "ACT! Lookup File",
+    "Extension": ".alf"
+  },
+  {
+    "Name": "askSam Database",
+    "Extension": ".ask"
+  },
+  {
+    "Name": "Btrieve Database File",
+    "Extension": ".btr"
+  },
+  {
+    "Name": "Advanced Disk Catalog Database",
+    "Extension": ".cat"
+  },
+  {
+    "Name": "Symbian Phonebook Database",
+    "Extension": ".cdb"
+  },
+  {
+    "Name": "Pocket Access Database",
+    "Extension": ".cdb"
+  },
+  {
+    "Name": "CardScan Contacts Database",
+    "Extension": ".cdb"
+  },
+  {
+    "Name": "SQL Server Checkpoint File",
+    "Extension": ".ckp"
+  },
+  {
+    "Name": "TM1 Exported Cube File",
+    "Extension": ".cma"
+  },
+  {
+    "Name": "RoboHelp Cache Project Database",
+    "Extension": ".cpd"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".crypt12"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".crypt5"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".crypt6"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".crypt7"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".crypt8"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".crypt9"
+  },
+  {
+    "Name": "RemObjects Data Abstract Connections File",
+    "Extension": ".daconnections"
+  },
+  {
+    "Name": "SQL Server Data Tier Application Package",
+    "Extension": ".dacpac"
+  },
+  {
+    "Name": "RemObjects Data Abstract Driver File",
+    "Extension": ".dad"
+  },
+  {
+    "Name": "RemObjects Data Abstract Data Diagrams File",
+    "Extension": ".dadiagrams"
+  },
+  {
+    "Name": "RemObjects Data Abstract Schema File",
+    "Extension": ".daschema"
+  },
+  {
+    "Name": "Database File",
+    "Extension": ".db"
+  },
+  {
+    "Name": "Mobile Device Database File",
+    "Extension": ".db"
+  },
+  {
+    "Name": "SQLite Rollback Journal File",
+    "Extension": ".db-journal"
+  },
+  {
+    "Name": "SQLite Database Shared Memory File",
+    "Extension": ".db-shm"
+  },
+  {
+    "Name": "SQLite Database Write-Ahead Log File",
+    "Extension": ".db-wal"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".db.crypt"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".db.crypt12"
+  },
+  {
+    "Name": "WhatsApp Encrypted Database File",
+    "Extension": ".db.crypt8"
+  },
+  {
+    "Name": "dBASE II Database",
+    "Extension": ".db2"
+  },
+  {
+    "Name": "SQLite Database File",
+    "Extension": ".db3"
+  },
+  {
+    "Name": "FoxPro Database",
+    "Extension": ".dbc"
+  },
+  {
+    "Name": "Database File",
+    "Extension": ".dbf"
+  },
+  {
+    "Name": "SQLBase Database File",
+    "Extension": ".dbs"
+  },
+  {
+    "Name": "Database Text File",
+    "Extension": ".dbt"
+  },
+  {
+    "Name": "Database Variable Field",
+    "Extension": ".dbv"
+  },
+  {
+    "Name": "Dropbox Encrypted Database File",
+    "Extension": ".dbx"
+  },
+  {
+    "Name": "Concordance Database File",
+    "Extension": ".dcb"
+  },
+  {
+    "Name": "FoxPro Database Memo",
+    "Extension": ".dct"
+  },
+  {
+    "Name": "FoxPro Database Index",
+    "Extension": ".dcx"
+  },
+  {
+    "Name": "Data Definition Language File",
+    "Extension": ".ddl"
+  },
+  {
+    "Name": "DLIS Well Log Data File",
+    "Extension": ".dlis"
+  },
+  {
+    "Name": "DataPower Database File",
+    "Extension": ".dp1"
+  },
+  {
+    "Name": "Excel Query File",
+    "Extension": ".dqy"
+  },
+  {
+    "Name": "Simple IDs Database",
+    "Extension": ".dsk"
+  },
+  {
+    "Name": "Database Source Name File",
+    "Extension": ".dsn"
+  },
+  {
+    "Name": "DTS Settings File",
+    "Extension": ".dtsx"
+  },
+  {
+    "Name": "Domino XML Language File",
+    "Extension": ".dxl"
+  },
+  {
+    "Name": "ECCO Database File",
+    "Extension": ".eco"
+  },
+  {
+    "Name": "ECCO Corrupted Database File",
+    "Extension": ".ecx"
+  },
+  {
+    "Name": "Exchange Information Store Database",
+    "Extension": ".edb"
+  },
+  {
+    "Name": "Windows Search Index Database",
+    "Extension": ".edb"
+  },
+  {
+    "Name": "EssentialPIM Database File",
+    "Extension": ".epim"
+  },
+  {
+    "Name": "First Choice Database",
+    "Extension": ".fcd"
+  },
+  {
+    "Name": "Microsoft Dynamics NAV Database File",
+    "Extension": ".fdb"
+  },
+  {
+    "Name": "WinDev Hyper File Database",
+    "Extension": ".fic"
+  },
+  {
+    "Name": "Final Cut Pro Library Database",
+    "Extension": ".flexolibrary"
+  },
+  {
+    "Name": "FileMaker 5 Database",
+    "Extension": ".fm5"
+  },
+  {
+    "Name": "FileMaker Pro Database",
+    "Extension": ".fmp"
+  },
+  {
+    "Name": "FileMaker Pro 12 Database",
+    "Extension": ".fmp12"
+  },
+  {
+    "Name": "FileMaker Pro 12 Snapshot Link",
+    "Extension": ".fmpsl"
+  },
+  {
+    "Name": "PFS First Choice Database File",
+    "Extension": ".fol"
+  },
+  {
+    "Name": "FileMaker Pro 3 Database",
+    "Extension": ".fp3"
+  },
+  {
+    "Name": "FileMaker Pro 4 Database",
+    "Extension": ".fp4"
+  },
+  {
+    "Name": "FileMaker Pro 5 Database",
+    "Extension": ".fp5"
+  },
+  {
+    "Name": "FileMaker Pro 7+ Database",
+    "Extension": ".fp7"
+  },
+  {
+    "Name": "FileMaker Pro Database Memo File",
+    "Extension": ".fpt"
+  },
+  {
+    "Name": "MySQL Database Format File",
+    "Extension": ".frm"
+  },
+  {
+    "Name": "GPS Database File",
+    "Extension": ".gdb"
+  },
+  {
+    "Name": "InterBase Database File",
+    "Extension": ".gdb"
+  },
+  {
+    "Name": "Gramps Database File",
+    "Extension": ".grdb"
+  },
+  {
+    "Name": "GroupWise Database Shortcut File",
+    "Extension": ".gwi"
+  },
+  {
+    "Name": "HansaWorld Database File",
+    "Extension": ".hdb"
+  },
+  {
+    "Name": "FindinSite Database Definition File",
+    "Extension": ".his"
+  },
+  {
+    "Name": "InterBase Database",
+    "Extension": ".ib"
+  },
+  {
+    "Name": "IDA Database File",
+    "Extension": ".idb"
+  },
+  {
+    "Name": "IN-HEH Timeline Database",
+    "Extension": ".ihx"
+  },
+  {
+    "Name": "iTunes Database File",
+    "Extension": ".itdb"
+  },
+  {
+    "Name": "InTouch With Database File",
+    "Extension": ".itw"
+  },
+  {
+    "Name": "JET Database File",
+    "Extension": ".jet"
+  },
+  {
+    "Name": "ESE Transaction Log",
+    "Extension": ".jtx"
+  },
+  {
+    "Name": "Keypass Database File",
+    "Extension": ".kdb"
+  },
+  {
+    "Name": "Kexi Database",
+    "Extension": ".kexi"
+  },
+  {
+    "Name": "Kexi Database Connection File",
+    "Extension": ".kexic"
+  },
+  {
+    "Name": "Kexi Database Shortcut File",
+    "Extension": ".kexis"
+  },
+  {
+    "Name": "SimpleK Database File",
+    "Extension": ".lgc"
+  },
+  {
+    "Name": "Lightwright Database File",
+    "Extension": ".lwx"
+  },
+  {
+    "Name": "Microsoft Access Form",
+    "Extension": ".maf"
+  },
+  {
+    "Name": "Microsoft Access Query",
+    "Extension": ".maq"
+  },
+  {
+    "Name": "Microsoft Access Report",
+    "Extension": ".mar"
+  },
+  {
+    "Name": "Marshal Data Migration Model File",
+    "Extension": ".marshal"
+  },
+  {
+    "Name": "Access Stored Procedures",
+    "Extension": ".mas"
+  },
+  {
+    "Name": "Access View File",
+    "Extension": ".mav"
+  },
+  {
+    "Name": "Access Data Access Page",
+    "Extension": ".maw"
+  },
+  {
+    "Name": "Microsoft Access Database",
+    "Extension": ".mdb"
+  },
+  {
+    "Name": "Microsoft Access Database HTML File",
+    "Extension": ".mdbhtml"
+  },
+  {
+    "Name": "SQL Server Database File",
+    "Extension": ".mdf"
+  },
+  {
+    "Name": "Blank Access Database Template",
+    "Extension": ".mdn"
+  },
+  {
+    "Name": "GeoMedia Access Database Template",
+    "Extension": ".mdt"
+  },
+  {
+    "Name": "Music Finder Database",
+    "Extension": ".mfd"
+  },
+  {
+    "Name": "Microsoft Project Database",
+    "Extension": ".mpd"
+  },
+  {
+    "Name": "MySQL Merge File",
+    "Extension": ".mrg"
+  },
+  {
+    "Name": "Textease Multi User Database",
+    "Extension": ".mud"
+  },
+  {
+    "Name": "MySQL Workbench Document",
+    "Extension": ".mwb"
+  },
+  {
+    "Name": "MySQL Database Data File",
+    "Extension": ".myd"
+  },
+  {
+    "Name": "SQL Server Secondary Database File",
+    "Extension": ".ndf"
+  },
+  {
+    "Name": "Eudora Address Book File",
+    "Extension": ".nnt"
+  },
+  {
+    "Name": "Neat Cabinet File",
+    "Extension": ".nrmlib"
+  },
+  {
+    "Name": "Lotus Notes 2 Database",
+    "Extension": ".ns2"
+  },
+  {
+    "Name": "Lotus Notes 3 Database",
+    "Extension": ".ns3"
+  },
+  {
+    "Name": "Lotus Notes 4 Database",
+    "Extension": ".ns4"
+  },
+  {
+    "Name": "Lotus Notes Database",
+    "Extension": ".nsf"
+  },
+  {
+    "Name": "NewViews Database File",
+    "Extension": ".nv"
+  },
+  {
+    "Name": "NewViews 2 Database File",
+    "Extension": ".nv2"
+  },
+  {
+    "Name": "Neat Database File",
+    "Extension": ".nwdb"
+  },
+  {
+    "Name": "myBase Database File",
+    "Extension": ".nyf"
+  },
+  {
+    "Name": "OpenDocument Database",
+    "Extension": ".odb"
+  },
+  {
+    "Name": "ABAQUS Database",
+    "Extension": ".odb"
+  },
+  {
+    "Name": "Excel OLAP Query File",
+    "Extension": ".oqy"
+  },
+  {
+    "Name": "Oracle Database Configuration File",
+    "Extension": ".ora"
+  },
+  {
+    "Name": "RadiantOne VDS Database Schema",
+    "Extension": ".orx"
+  },
+  {
+    "Name": "OutWit Catch Database",
+    "Extension": ".owc"
+  },
+  {
+    "Name": "Win96 Database File",
+    "Extension": ".p96"
+  },
+  {
+    "Name": "Win97 Database File",
+    "Extension": ".p97"
+  },
+  {
+    "Name": "Panorama Database File",
+    "Extension": ".pan"
+  },
+  {
+    "Name": "Program Database",
+    "Extension": ".pdb"
+  },
+  {
+    "Name": "Palm Desktop Database File",
+    "Extension": ".pdb"
+  },
+  {
+    "Name": "PowerDesigner Database File",
+    "Extension": ".pdm"
+  },
+  {
+    "Name": "Panorama Database Set",
+    "Extension": ".pnz"
+  },
+  {
+    "Name": "Query File",
+    "Extension": ".qry"
+  },
+  {
+    "Name": "QlikView Data File",
+    "Extension": ".qvd"
+  },
+  {
+    "Name": "Redatam Binary File",
+    "Extension": ".rbf"
+  },
+  {
+    "Name": "RabbitCT Dataset",
+    "Extension": ".rctd"
+  },
+  {
+    "Name": "RIB office Database File",
+    "Extension": ".rod"
+  },
+  {
+    "Name": "Ancestry Genealogical Database File",
+    "Extension": ".rod"
+  },
+  {
+    "Name": "Ancestry Genealogical Database File",
+    "Extension": ".rodx"
+  },
+  {
+    "Name": "RIB Project Database File",
+    "Extension": ".rpd"
+  },
+  {
+    "Name": "RealSQLDatabase File",
+    "Extension": ".rsd"
+  },
+  {
+    "Name": "SAS Data Set File",
+    "Extension": ".sas7bdat"
+  },
+  {
+    "Name": "Superbase Database File",
+    "Extension": ".sbf"
+  },
+  {
+    "Name": "FoxPro Form",
+    "Extension": ".scx"
+  },
+  {
+    "Name": "ServerBoss Database File",
+    "Extension": ".sdb"
+  },
+  {
+    "Name": "MonKey Office SQLite Database File",
+    "Extension": ".sdb"
+  },
+  {
+    "Name": "SparkleDB Database File",
+    "Extension": ".sdb"
+  },
+  {
+    "Name": "OpenOffice.org Base Database File",
+    "Extension": ".sdb"
+  },
+  {
+    "Name": "Paragon Dictionary Database File",
+    "Extension": ".sdc"
+  },
+  {
+    "Name": "SQL Server Compact Database File",
+    "Extension": ".sdf"
+  },
+  {
+    "Name": "Sisma Database File",
+    "Extension": ".sis"
+  },
+  {
+    "Name": "SPSS Database Query File",
+    "Extension": ".spq"
+  },
+  {
+    "Name": "Structured Query Language Data File",
+    "Extension": ".sql"
+  },
+  {
+    "Name": "SQLite Database File",
+    "Extension": ".sqlite"
+  },
+  {
+    "Name": "SQLite 3 Database File",
+    "Extension": ".sqlite3"
+  },
+  {
+    "Name": "SQLite Database",
+    "Extension": ".sqlitedb"
+  },
+  {
+    "Name": "Textease CT Database File",
+    "Extension": ".te"
+  },
+  {
+    "Name": "SMART Response Teacher Database File",
+    "Extension": ".teacher"
+  },
+  {
+    "Name": "MySQL Temporary Database File",
+    "Extension": ".tmd"
+  },
+  {
+    "Name": "Clarion TopSpeed Data File",
+    "Extension": ".tps"
+  },
+  {
+    "Name": "Oracle Trace File",
+    "Extension": ".trc"
+  },
+  {
+    "Name": "SQL Server Trace File",
+    "Extension": ".trc"
+  },
+  {
+    "Name": "Oracle Trace Map File",
+    "Extension": ".trm"
+  },
+  {
+    "Name": "Dynamics AX User Database File",
+    "Extension": ".udb"
+  },
+  {
+    "Name": "Microsoft Universal Data Link File",
+    "Extension": ".udl"
+  },
+  {
+    "Name": "FileMaker Pro Database File",
+    "Extension": ".usr"
+  },
+  {
+    "Name": "All The Right Type Database File",
+    "Extension": ".v12"
+  },
+  {
+    "Name": "Visual Importer Script",
+    "Extension": ".vis"
+  },
+  {
+    "Name": "VoxPro Database File",
+    "Extension": ".vpd"
+  },
+  {
+    "Name": "Virtual Volumes View Catalog",
+    "Extension": ".vvv"
+  },
+  {
+    "Name": "Microsoft Works Database",
+    "Extension": ".wdb"
+  },
+  {
+    "Name": "Windows Media Database File",
+    "Extension": ".wmdb"
+  },
+  {
+    "Name": "SQL Server Log Shipping File",
+    "Extension": ".wrk"
+  },
+  {
+    "Name": "PowerDesigner Database Definition File",
+    "Extension": ".xdb"
+  },
+  {
+    "Name": "Excel Database File",
+    "Extension": ".xld"
+  },
+  {
+    "Name": "XML Flat File",
+    "Extension": ".xmlff"
+  }
+]
