@@ -118,13 +118,13 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="copyDirectoryPathText" xml:space="preserve">
-    <value>Verzeichnis-Pfad kopieren</value>
+    <value>Verzeichnis-Pfad kopieren (Unix-Style)</value>
   </data>
   <data name="copyFilePathText" xml:space="preserve">
-    <value>Datei-Pfad kopieren</value>
+    <value>Datei-Pfad kopieren (Unix-Style)</value>
   </data>
   <data name="copyFolderPathText" xml:space="preserve">
-    <value>Ordner-Pfad kopieren</value>
+    <value>Ordner-Pfad kopieren (Unix-Style)</value>
   </data>
   <data name="copyForwardslashedDirectoryPathText" xml:space="preserve">
     <value>Verzeichnis-Pfad kopieren</value>

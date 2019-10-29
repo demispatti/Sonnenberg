@@ -121,13 +121,13 @@
     <value>There was an error (Argument).</value>
   </data>
   <data name="copyDirectoryPathText" xml:space="preserve">
-    <value>Copy Directory Path</value>
+    <value>Copy Directory Path (Unix-Style)</value>
   </data>
   <data name="copyFilePathText" xml:space="preserve">
-    <value>Copy File Path</value>
+    <value>Copy File Path (Unix-Style)</value>
   </data>
   <data name="copyFolderPathText" xml:space="preserve">
-    <value>Copy Folder Path</value>
+    <value>Copy Folder Path (Unix-Style)</value>
   </data>
   <data name="copyForwardslashedDirectoryPathText" xml:space="preserve">
     <value>Copy Directory Path</value>

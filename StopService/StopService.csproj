@@ -14,7 +14,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>Sonnenberg.StopService</RootNamespace>
     <AssemblyName>StopService</AssemblyName>
-      <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <SignAssembly>true</SignAssembly>
@@ -85,7 +85,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
-      <Compile Include="StopService.cs"/>
+    <Compile Include="StopService.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />

@@ -118,37 +118,4 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="imgCmd" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\imgCmd.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgCopyFilePathBs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\imgCopyFilePathBs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgCopyFilePathFs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\imgCopyFilePathFs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgCopyFolderPathBs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\imgCopyFolderPathBs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgCopyFolderPathFs" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\imgCopyFolderPathFs.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgCountLinesNoEmptyOnes" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\images\imgcountcleanlines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgCountAllLines" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\images\imgcountlines.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgPowershell" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Images\imgPowershell.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgPowershellElevated" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\images\imgPowershellElevated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgSonnenberg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\images\imgSonnenberg.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="imgCmdElevated" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\resources\images\imgcmdelevated.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
 </root>

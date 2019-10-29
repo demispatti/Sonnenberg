@@ -15,7 +15,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>Sonnenberg.ShellServer</RootNamespace>
     <AssemblyName>ShellServer</AssemblyName>
-      <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
@@ -94,10 +94,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ContextMenu.cs" />
-    <Compile Include="MenuItems\CountLines.cs" />
-    <Compile Include="MenuItems\CopyPath.cs" />
-    <Compile Include="MenuItems\OpenShell.cs" />
+    <Compile Include="Helper.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
@@ -110,15 +107,6 @@
     <Content Include="app.config">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <EmbeddedResource Include="Resources\Images\imgCmdElevated.png" />
-    <EmbeddedResource Include="Resources\Images\imgPowershellElevated.png" />
-    <EmbeddedResource Include="Resources\Images\imgCountCleanLines.png" />
-    <EmbeddedResource Include="Resources\Images\imgPowershell.png" />
-    <EmbeddedResource Include="Resources\Images\imgCopyFolderPathFs.png" />
-    <EmbeddedResource Include="Resources\Images\imgCopyFolderPathBs.png" />
-    <EmbeddedResource Include="Resources\Images\imgCopyFilePathFs.png" />
-    <EmbeddedResource Include="Resources\Images\imgCopyFilePathBs.png" />
-    <EmbeddedResource Include="Resources\Images\imgCmd.png" />
     <None Include="packages.config" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
@@ -126,10 +114,6 @@
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
     <None Include="ShellServer.snk" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Resources\Images\imgCountLines.png" />
-    <EmbeddedResource Include="Resources\Images\imgSonnenberg.png" />
   </ItemGroup>
   <ItemGroup>
     <Analyzer Include="..\packages\Microsoft.CodeAnalysis.VersionCheckAnalyzer.2.9.6\analyzers\dotnet\cs\Microsoft.CodeAnalysis.VersionCheckAnalyzer.resources.dll" />
@@ -146,6 +130,10 @@
     <ProjectReference Include="..\Common\Common.csproj">
       <Project>{de033b3b-909f-4682-a5b9-fe8ad6d86d9c}</Project>
       <Name>Common</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\ContextMenu\ContextMenu.csproj">
+      <Project>{9a2c94f7-e563-451f-b319-8053b4721de0}</Project>
+      <Name>ContextMenu</Name>
     </ProjectReference>
     <ProjectReference Include="..\FileHelper\FileHelper.csproj">
       <Project>{e31064e7-f353-4096-b38c-ad9068b90433}</Project>

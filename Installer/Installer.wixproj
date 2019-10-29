@@ -97,6 +97,14 @@
       <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
       <RefTargetDir>INSTALLFOLDER</RefTargetDir>
     </ProjectReference>
+    <ProjectReference Include="..\ContextMenu\ContextMenu.csproj">
+      <Name>ContextMenu</Name>
+      <Project>{9a2c94f7-e563-451f-b319-8053b4721de0}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
     <ProjectReference Include="..\FileHelper\FileHelper.csproj">
       <Name>FileHelper</Name>
       <Project>{e31064e7-f353-4096-b38c-ad9068b90433}</Project>
@@ -113,6 +121,14 @@
       <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
       <RefTargetDir>INSTALLFOLDER</RefTargetDir>
     </ProjectReference>
+    <ProjectReference Include="..\ServerManager\ServerManager.csproj">
+      <Name>ServerManager</Name>
+      <Project>{4578dacf-3af2-4d7f-a105-3a310dbda66f}</Project>
+      <Private>True</Private>
+      <DoNotHarvest>True</DoNotHarvest>
+      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
+      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
+    </ProjectReference>
     <ProjectReference Include="..\ServiceManager\ServiceManager.csproj">
       <Name>ServiceManager</Name>
       <Project>{114f866f-7758-4311-b137-929d03b1abff}</Project>
@@ -121,9 +137,9 @@
       <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
       <RefTargetDir>INSTALLFOLDER</RefTargetDir>
     </ProjectReference>
-    <ProjectReference Include="..\ShellServerManager\ServerManager.csproj">
-      <Name>ServerManager</Name>
-      <Project>{4578dacf-3af2-4d7f-a105-3a310dbda66f}</Project>
+    <ProjectReference Include="..\Service\Service.csproj">
+      <Name>Service</Name>
+      <Project>{f7ba5331-f124-4cc3-a3a7-1a9208135088}</Project>
       <Private>True</Private>
       <DoNotHarvest>True</DoNotHarvest>
       <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
@@ -148,14 +164,6 @@
     <ProjectReference Include="..\StopService\StopService.csproj">
       <Name>StopService</Name>
       <Project>{fb41a6f8-def4-4050-b925-672e353085c3}</Project>
-      <Private>True</Private>
-      <DoNotHarvest>True</DoNotHarvest>
-      <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>
-      <RefTargetDir>INSTALLFOLDER</RefTargetDir>
-    </ProjectReference>
-    <ProjectReference Include="..\WindowsService\WindowsService.csproj">
-      <Name>WindowsService</Name>
-      <Project>{f7ba5331-f124-4cc3-a3a7-1a9208135088}</Project>
       <Private>True</Private>
       <DoNotHarvest>True</DoNotHarvest>
       <RefProjectOutputGroups>Binaries;Content;Satellites</RefProjectOutputGroups>

@@ -23,6 +23,7 @@ namespace Sonnenberg.StopService
         {
             ConfigureLogger();
             Stop();
+			Notify();
         }
 
         private static void ConfigureLogger()
@@ -50,23 +51,27 @@ namespace Sonnenberg.StopService
                     var timeout = TimeSpan.FromMilliseconds(2000);
                     service.Stop();
                     service.WaitForStatus(ServiceControllerStatus.Stopped, timeout);
-                    MessageBox.Show(Strings.stopServiceSuccess);
                 }
                 catch (NullReferenceException ex)
                 {
-                    log.Error(Strings.failedToStartApplicationError + $" ({ex.Message})");
-                    MessageBox.Show(Strings.failedToStopApplicationError + $" ({ex.Message})");
+                    log.Error($"{Strings.failedToStopApplicationError} ({ex.Message})");
+                    MessageBox.Show($"{Strings.failedToStopApplicationError} ({ex.Message})");
 
                     throw;
                 }
                 catch (ArgumentException ex)
                 {
-                    log.Error(Strings.failedToStartApplicationError + $" ({ex.Message})");
-                    MessageBox.Show(Strings.failedToStopApplicationError + $" ({ex.Message})");
+                    log.Error($"{Strings.failedToStopApplicationError} ({ex.Message})");
+                    MessageBox.Show($"{Strings.failedToStopApplicationError} ({ex.Message})");
 
                     throw;
                 }
             }
         }
+
+		private static void Notify()
+		{
+			MessageBox.Show(Strings.stopServiceSuccess);
+		}
     }
 }

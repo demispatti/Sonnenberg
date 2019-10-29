@@ -33,6 +33,7 @@ namespace Sonnenberg.StartService
             SetLogFile();
             ConfigureLogger();
             Start();
+			Notify();
         }
 
         private static void ConfigureLogger()
@@ -61,23 +62,27 @@ namespace Sonnenberg.StartService
                     var timeout = TimeSpan.FromMilliseconds(2000);
                     service.Start();
                     service.WaitForStatus(ServiceControllerStatus.Running, timeout);
-                    MessageBox.Show(Strings.startServiceSuccess);
                 }
                 catch (NullReferenceException ex)
                 {
-                    log.Error(Strings.failedToStartApplicationError + $" ({ex.Message})");
-                    MessageBox.Show(Strings.failedToStopApplicationError + $" ({ex.Message})");
+                    log.Error($"{Strings.failedToStartApplicationError} ({ex.Message})");
+                    MessageBox.Show($"{Strings.failedToStartApplicationError} ({ex.Message})");
 
                     throw;
                 }
                 catch (ArgumentException ex)
                 {
-                    log.Error(Strings.failedToStartApplicationError + $" ({ex.Message})");
-                    MessageBox.Show(Strings.failedToStartApplicationError + $" ({ex.Message})");
+                    log.Error($"{Strings.failedToStartApplicationError} ({ex.Message})");
+                    MessageBox.Show($"{Strings.failedToStartApplicationError} ({ex.Message})");
 
                     throw;
                 }
             }
         }
-    }
+
+		private static void Notify()
+		{
+			MessageBox.Show(Strings.startServiceSuccess);
+		}
+	}
 }

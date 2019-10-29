@@ -65,9 +65,6 @@ project.lock.json
 project.fragment.lock.json
 artifacts/
 
-# MSI installer files
-*.wxs
-
 # StyleCop
 StyleCopReport.xml
 

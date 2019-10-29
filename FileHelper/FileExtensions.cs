@@ -11,12 +11,12 @@ using Sonnenberg.Common;
 namespace Sonnenberg.FileHelper
 {
     /// <summary>
-    ///     The class responsible for interacting with the file extensions library.
-    ///     The file extensions library consists of a bunch of JSON resource files that contain
-    ///     lists of file extensions grouped by file type, e.g. text, code, audio, video etc.
-    ///     So it's the main purpose of this class to read in lists of file extensions.
-    ///     These extensions are used to determine which functions will be made available
-    ///     from within the Windows Explorer context menu.
+    /// The class responsible for interacting with the file extensions library.
+    /// The file extensions library consists of a bunch of JSON resource files that contain
+    /// lists of file extensions grouped by file type, e.g. text, code, audio, video etc.
+    /// So it's the main purpose of this class to read in lists of file extensions.
+    /// These extensions are used to determine which functions will be made available
+    /// from within the Windows Explorer context menu.
     /// </summary>
     /// <seealso cref="Logger" />
     public class FileExtensions

@@ -33,6 +33,7 @@ Visual Studio Extensions:
 - [Wax](https://marketplace.visualstudio.com/items?itemName=TomEnglert.Wax)
 
 ## First Of All
+Make sure you've read the license.  
 Clone the repo.
 
 ## Automatic Installation (recommended)

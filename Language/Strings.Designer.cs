@@ -70,7 +70,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy Directory Path.
+        ///   Looks up a localized string similar to Copy Directory Path (Unix-Style).
         /// </summary>
         public static string copyDirectoryPathText {
             get {
@@ -79,7 +79,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy File Path.
+        ///   Looks up a localized string similar to Copy File Path (Unix-Style).
         /// </summary>
         public static string copyFilePathText {
             get {
@@ -88,7 +88,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Copy Folder Path.
+        ///   Looks up a localized string similar to Copy Folder Path (Unix-Style).
         /// </summary>
         public static string copyFolderPathText {
             get {
