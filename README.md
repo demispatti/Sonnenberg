@@ -120,7 +120,6 @@ I use [SemVer](http://semver.org/) for versioning. For the versions available, s
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
 ## Acknowledgments
-* My Sister - I Thank you for *my* [Toolbox](https://www.jetbrains.com/store/?fromNavMenu#personal?billing=yearly) subscription <3
 * Microsoft - Thanks for [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/?rr=https%3A%2F%2Fwww.google.com%2F)
 * [Dave Kerr](https://github.com/dwmkerr) - Thanks for SharpShell
 
