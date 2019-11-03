@@ -5,16 +5,14 @@ A small but useful Windows Explorer extension
 ## What it does
 This application extends the Windows Explorer context menu. After installation, you'll find the Sonnenberg icon with a drop down inside the Windows Explorer context menu.
 Depending on the context, you'll be able to:
-
 - Copy the path of the clicked item, folder or directory, also in unix-style
 - Open Powershell inside any directory and folder
 - Open Command Prompt inside any directory and folder
 - Count lines of text and code files, with or without blank lines, and copy the result to clipboard (optional)
-- More features are planned
 
 ## What it looks like
 ![Context Menu](./assets/image.jpg)
-Note: Works with any theme, be it dark, light, or custom.
+Works with any theme.
 
 ## Grab Yours!
 If you're just interested in using or testing the resulting software, you'll find MSI-packages inside the [dist folder](https://github.com/demispatti/Sonnenberg/tree/master/dist). Choose your language and architecture, and install the package. You can enable and disable the context menu extension via the *Windows Start Menu*, and the application can easily be uninstalled again. Although - don't you ever dare to :))
@@ -33,39 +31,36 @@ Visual Studio Extensions:
 - [Wax](https://marketplace.visualstudio.com/items?itemName=TomEnglert.Wax)
 
 ## First Of All
-Make sure you've read the license.  
 Clone the repo.
 
 ## Automatic Installation (recommended)
-Be sure to meet the **Prerequisites**.  
-Note: This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.  
+This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.  
 In addition, this method depends on the strong naming tool **Sn.exe**, which is part of any Windows SDK (and which will be located automatically, too).
 
 ### Start
 In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*.  
-This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Installation"). After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build it. The Installer Project has to be built separately (you can change this option in the *Configuration Manager*, of course).
+This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Installation"). After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution.
 
 ## Manual Installation
 If the Quick Start option should fail, you have to setup the solution manually. Just follow these simple steps in order to get up and running:
 
-### 1. Create a GUID in *each* AssemblyInfo.cs files
-In *each* projects AssemblyInfo.cs file, replace YOUR_GUID_HERE with a newly created GUID.
+### 1. Create AssemblyInfo GUIDs
+Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HERE.
 
-### 2. Create GUIDs in Product.wxs file
+### 2. Create Product.wxs file GUIDs
 Inside the *Installer Project*, open Product.wxs and create *unique UPPERCASE* GUIDs in it where it says YOUR_GUID_HERE.
 
 ### 3. Sign the assemblies with a strong name
-You have to sign the assemblies with a strong name by creating a \*.snk file whose name corresponds to the project name (e.g. **ShellServer**.snk). See the [Docs](https://docs.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name).  
+SIgn the assemblies with a strong name ( see [Docs](https://docs.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name)). Name the key file after the project, e.g. Common.snk, ContextMenu.snk, etc.  
 
-If you wish to run the tests, you have to to sign the test projects with a strong name, too.
-But instead of naming the test project key file e.g. **ProjectName.Tests**.snk, just skip the **.Tests** part and name it **ProjectName**.snk (identical to the project you want to test).
-Sign the assemblies **after** creating and pasting the GUIDs.
+If you wish to run the tests, you have to to sign the test assemblies with a strong name, too.
+For naming, skip the **.Tests** part from the project name, which would give a name like Common.snk, ContextMenu.snk, etc..
 
-### 4. Enter a Manufacturer Name to the Product.wxs file
-Enter your Manufacturer Name in Product.wxs, right where it says YOUR_MANUFACTURER_NAME_HERE.
+### 4. Product.wxs: Enter Manufacturer Name
+Replace YOUR_MANUFACTURER_NAME_HERE with your name (required).
 
 ### 5. Build the solution
-Open the IDE of your choice, restore the packages and build the solution.
+Restore the packages and build the solution.
 
 ## Running the tests
 Run the tests.
