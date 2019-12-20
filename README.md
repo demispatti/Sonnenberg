@@ -21,7 +21,7 @@ A Small But Useful Windows Explorer Extension
 - [Automatic Project Setup (recommended)](#automatic-project-setup-recommended)
 - [Manual Project Setup](#manual-project-setup)
 - [Running The Tests](#running-the-tests)
-- [Debugging The ShellServer](#debugging-the-shellserver)
+- [Debugging The ShellServer](#debugging-the-shell-server)
 - [Deployment](#deployment)
 - [Documentation](#documentation)
 - [Frequently Asked Questions](#documentation)
@@ -31,7 +31,7 @@ A Small But Useful Windows Explorer Extension
 - [Creator](#creator)
 - [Copyright And License](#copyright-and-license)
 - [Built With](#built-with)
-- [Acknowledgements](#acknowledgements)
+- [Acknowledgments](#acknowledgments)
 
 ---
 ## Features
