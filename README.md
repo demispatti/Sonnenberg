@@ -1,5 +1,5 @@
 <p align="center">
-<img src="/assets/Sonnenberg.png" alt="Sonnenberg Logo" width="128" height="128">
+<img src="/assets/Sonnenberg.png" alt="Sonnenberg Logo" width="128" height="128" border="1px solid #F6F8FA">
 </p>
 
 <h2 align="center">Sonnenberg</h2>
