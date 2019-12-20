@@ -1,6 +1,22 @@
-# Sonnenberg
+<p align="center">
+<img src="/assets/Sonnenberg.png" alt="Sonnenberg Logo" width="128" height="128">
+</p>
 
-A small but useful Windows Explorer extension
+<h2 align="center">Sonnenberg</h2>
+<p align="center">
+A small but useful Windows Explorer extension.
+  <br>
+  <br>
+<a href="https://github.com/demispatti/Sonnenberg/tree/master/dist" target="_blank"><strong>Get The Setup File</strong></a>
+  <br>
+  <br>
+  <a href="https://github.com/demispatti/Sonnenberg/issues/new?template=bug.md" target="_blank">Report A Bug</a>
+  <a href="https://github.com/demispatti/Sonnenberg/issues/new?template=feature.md&labels=feature" target="_blank">Request Feature</a>
+</p>
+
+<!--# Sonnenberg
+
+A small but useful Windows Explorer extension-->
 
 ## What it does
 This application extends the Windows Explorer context menu. After installation, you'll find the Sonnenberg icon with a drop down inside the Windows Explorer context menu.
@@ -33,15 +49,15 @@ Visual Studio Extensions:
 ## First Of All
 Clone the repo.
 
-## Automatic Installation (recommended)
+## Automatic Project Setup (recommended)
 This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.  
 In addition, this method depends on the strong naming tool **Sn.exe**, which is part of any Windows SDK (and which will be located automatically, too).
 
 ### Start
 In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*.  
-This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Installation"). After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution.
+This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup"). After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution.
 
-## Manual Installation
+## Manual Project Setup
 If the Quick Start option should fail, you have to setup the solution manually. Just follow these simple steps in order to get up and running:
 
 ### 1. Create AssemblyInfo GUIDs
