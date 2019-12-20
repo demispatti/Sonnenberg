@@ -16,7 +16,7 @@ A Small But Useful Windows Explorer Extension
 ---
 ## Table Of Contents
 - [Features](#features)
-- [Grab Setup FIle!](#grab-setup-file)
+- [Get Setup File](#get-setup-file)
 - [Getting Started](#getting-started)
 - [Automatic Project Setup (recommended)](#automatic-project-setup-recommended)
 - [Manual Project Setup](#manual-project-setup)
@@ -42,13 +42,13 @@ Depending on the context, you'll be able to:
 - Open Command Prompt inside any directory and folder
 - Count lines of text and code files, with or without blank lines, and copy the result to clipboard (optional)
 
-### What it looks like
+### What It Looks Like
 ![Context Menu](./assets/image.jpg)
 Works with any theme.
 
 ---
-## Grab Setup File!
-If you're just interested in using or testing the resulting software, you'll find MSI-packages inside the [dist folder](https://github.com/demispatti/Sonnenberg/tree/master/dist). Choose your language and architecture, and install the package. You can enable and disable the context menu extension via the *Windows Start Menu*, and the application can easily be uninstalled again. Although - don't you ever dare to :))
+## Get Setup File
+If you're just interested in using or testing the resulting software, you can get an installer file from [here](https://github.com/demispatti/Sonnenberg/tree/master/dist). Choose your language and architecture, and install the package. You can enable and disable the context menu extension via the *Windows Start Menu*, and the application can easily be uninstalled again.
 
 ---
 ## Getting Started
@@ -83,10 +83,10 @@ If the Quick Start option should fail, you have to setup the solution manually. 
 ### 1. Create Assembly Info GUIDs
 Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HERE.
 
-### 2. Create Product.wxs file GUIDs
+### 2. Create Product.wxs File GUIDs
 Inside the *Installer Project*, open Product.wxs and create *unique UPPERCASE* GUIDs in it where it says YOUR_GUID_HERE.
 
-### 3. Sign the assemblies with a strong name
+### 3. Sign The Assemblies With A Strong  Name
 Sign the assemblies with a strong name ( see [Docs](https://docs.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name)). Name the key file after the project, e.g. Common.snk, ContextMenu.snk, etc.
 
 If you wish to run the tests, you have to to sign the test assemblies with a strong name, too.
@@ -95,7 +95,7 @@ For naming, skip the **.Tests** part from the project name, which would give a n
 ### 4. Product.wxs: Enter Manufacturer Name
 Replace YOUR_MANUFACTURER_NAME_HERE with your name (required).
 
-### 5. Build the solution
+### 5. Build The Solution
 Restore the packages and build the solution.
 
 ---
