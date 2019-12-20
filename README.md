@@ -1,38 +1,56 @@
 <p align="center">
-<img src="/assets/Sonnenberg.png" alt="Sonnenberg Logo" width="128" height="128" border="1px solid #F6F8FA">
+<img src="./assets/Sonnenberg.png" alt="Sonnenberg Logo" width="128" height="128">
 </p>
-
 <h2 align="center">Sonnenberg</h2>
 <p align="center">
-A small but useful Windows Explorer extension.
+A Small But Useful Windows Explorer Extension
   <br>
   <br>
-<a href="https://github.com/demispatti/Sonnenberg/tree/master/dist" target="_blank"><strong>Get The Setup File</strong></a>
+<a href="https://github.com/demispatti/Sonnenberg/tree/master/dist" target="_blank"><strong>Get Setup File</strong></a>
   <br>
   <br>
   <a href="https://github.com/demispatti/Sonnenberg/issues/new?template=bug.md" target="_blank">Report A Bug</a>
   <a href="https://github.com/demispatti/Sonnenberg/issues/new?template=feature.md&labels=feature" target="_blank">Request Feature</a>
 </p>
 
-<!--# Sonnenberg
+---
+## Table Of Contents
+- [Features](#features)
+- [Grab Setup FIle!](#grab-setup-file)
+- [Getting Started](#getting-started)
+- [Automatic Project Setup (recommended)](#automatic-project-setup)
+- [Manual Project Setup (recommended)](#manual-project-setup)
+- [Running The Tests](#running-the-tests)
+- [Debugging The ShellServer](#debugging-the-shellserver)
+- [Deployment](#deployment)
+- [Documentation](#documentation)
+- [Frequently Asked Questions](#documentation)
+- [Bugs And Feature Requests](#bugs-and-feature-requests)
+- [Contributing](#contributing)
+- [Versioning](#versioning)
+- [Creator](#creator)
+- [Copyright And License](#copyright-and-license)
+- [Built With](#built-with)
+- [Acknowledgements](#acknowledgements)
 
-A small but useful Windows Explorer extension-->
-
-## What it does
+---
+## Features
 This application extends the Windows Explorer context menu. After installation, you'll find the Sonnenberg icon with a drop down inside the Windows Explorer context menu.
 Depending on the context, you'll be able to:
-- Copy the path of the clicked item, folder or directory, also in unix-style
-- Open Powershell inside any directory and folder
+- Copy the path of the clicked item, folder or directory, also in Unix-style
+- Open PowerShell inside any directory and folder
 - Open Command Prompt inside any directory and folder
 - Count lines of text and code files, with or without blank lines, and copy the result to clipboard (optional)
 
-## What it looks like
+### What it looks like
 ![Context Menu](./assets/image.jpg)
 Works with any theme.
 
-## Grab Yours!
+---
+## Grab Setup File!
 If you're just interested in using or testing the resulting software, you'll find MSI-packages inside the [dist folder](https://github.com/demispatti/Sonnenberg/tree/master/dist). Choose your language and architecture, and install the package. You can enable and disable the context menu extension via the *Windows Start Menu*, and the application can easily be uninstalled again. Although - don't you ever dare to :))
 
+---
 ## Getting Started
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
@@ -46,9 +64,10 @@ Visual Studio Extensions:
 - WiX Toolset Visual Studio Extension from [here](https://wixtoolset.org/releases/)
 - [Wax](https://marketplace.visualstudio.com/items?itemName=TomEnglert.Wax)
 
-## First Of All
-Clone the repo.
+Project:
+- [Clone](https://github.com/demispatti/Sonnenberg.git) the repository.
 
+---
 ## Automatic Project Setup (recommended)
 This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.  
 In addition, this method depends on the strong naming tool **Sn.exe**, which is part of any Windows SDK (and which will be located automatically, too).
@@ -57,20 +76,21 @@ In addition, this method depends on the strong naming tool **Sn.exe**, which is 
 In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*.  
 This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup"). After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution.
 
+---
 ## Manual Project Setup
 If the Quick Start option should fail, you have to setup the solution manually. Just follow these simple steps in order to get up and running:
 
-### 1. Create AssemblyInfo GUIDs
+### 1. Create Assembly Info GUIDs
 Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HERE.
 
 ### 2. Create Product.wxs file GUIDs
 Inside the *Installer Project*, open Product.wxs and create *unique UPPERCASE* GUIDs in it where it says YOUR_GUID_HERE.
 
 ### 3. Sign the assemblies with a strong name
-SIgn the assemblies with a strong name ( see [Docs](https://docs.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name)). Name the key file after the project, e.g. Common.snk, ContextMenu.snk, etc.  
+Sign the assemblies with a strong name ( see [Docs](https://docs.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name)). Name the key file after the project, e.g. Common.snk, ContextMenu.snk, etc.
 
 If you wish to run the tests, you have to to sign the test assemblies with a strong name, too.
-For naming, skip the **.Tests** part from the project name, which would give a name like Common.snk, ContextMenu.snk, etc..
+For naming, skip the **.Tests** part from the project name, which would give a name like Common.snk, ContextMenu.snk, etc.
 
 ### 4. Product.wxs: Enter Manufacturer Name
 Replace YOUR_MANUFACTURER_NAME_HERE with your name (required).
@@ -78,10 +98,12 @@ Replace YOUR_MANUFACTURER_NAME_HERE with your name (required).
 ### 5. Build the solution
 Restore the packages and build the solution.
 
-## Running the tests
+---
+## Running The Tests
 Run the tests.
 
-## Debugging the Shell Server
+---
+## Debugging The Shell Server
 
 ### Prerequisites
 Note #1:  
@@ -115,26 +137,64 @@ In addition, the Server Manager Window needs to be closed.
 6. Do your build-thing.
 7. in order to debug again, well, you know...
 
+---
 ## Deployment
 Build the installer project and deploy the MSI file.
 
+---
+## Documentation
+
+---
+## Frequently Asked Questions
+#### Where do I interact with this plugin and how does it work?
+
+
+#### Why doesn't it show up in the settings menu after installing and activating?
+
+
+#### I have the two plugins installed and activated but it doesn't work!
+
+
+#### Are there any known limitations?
+No
+
+#### Are there any known issues?
+No.
+
+---
+## Bugs And Feature Requests
+Have a bug or a feature request? Please first read the [issue guidelines](https://github.com/demispatti/Sonnenberg/blob/master/.github/CONTRIBUTING.md#using-the-issue-tracker) and search for existing and closed issues. If your problem or idea is not addressed yet, [please open a new issue](https://github.com/demispatti/Sonnenberg/issues/new).
+
+---
+## Contributing
+Please read through our [contributing guidelines](https://github.com/demispatti/Sonnenberg/blob/master/.github/CONTRIBUTING.md). Included are directions for opening issues, coding standards, and notes on development.
+
+Moreover, if your pull request contains JavaScript patches or features, you must include [relevant unit tests](https://github.com/demispatti/Sonnenberg/tree/master/js/tests). All HTML and CSS should conform to the [Code Guide](https://github.com/demispatti/code-guide), maintained by [Demis Patti](https://github.com/demispatti).
+
+Editor preferences are available in the [editor config](https://github.com/demispatti/Sonnenberg/blob/master/.editorconfig) for easy use in common text editors. Read more and download plugins at <https://editorconfig.org/>.
+
+---
+## Versioning
+For transparency into our release cycle and in striving to maintain backward compatibility, Sonnenberg is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to those rules whenever possible.
+
+See [the Releases section of our GitHub project](https://github.com/demispatti/Sonnenberg/releases) for changelogs for each release version of Nicescroll.
+
+---
+## Creator
+**Demis Patti**
+<https://github.com/demispatti>
+
+---
+## Copyright And License
+This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
+
+---
 ## Built With
 * [SharpShell](https://github.com/dwmkerr/sharpshell)
 * [nUnit](https://nunit.org/)
 * [WiX Toolset](https://wixtoolset.org/)
 
-## Contributing
-Please read [CONTRIBUTING.md](./CONTRIBUTING.md) for details on the code of conduct in use, and the process for submitting pull requests.
-
-## Versioning
-I use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/demispatti/Sonnenberg/tags). 
-
-## Author
-* **Demis Patti**
-
-## License
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
-
+---
 ## Acknowledgments
 * Microsoft - Thanks for [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/?rr=https%3A%2F%2Fwww.google.com%2F)
 * [Dave Kerr](https://github.com/dwmkerr) - Thanks for SharpShell
