@@ -18,7 +18,7 @@ A Small But Useful Windows Explorer Extension
 - [Features](#features)
 - [Grab Setup FIle!](#grab-setup-file)
 - [Getting Started](#getting-started)
-- [Automatic Project Setup (recommended)](#automatic-project-setup)
+- [Automatic Project Setup (recommended)](#automatic-project-setup-recommended)
 - [Manual Project Setup](#manual-project-setup)
 - [Running The Tests](#running-the-tests)
 - [Debugging The ShellServer](#debugging-the-shellserver)
