@@ -72,7 +72,8 @@ Project:
 This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.  
 In addition, this method depends on the strong naming tool **Sn.exe**, which is part of any Windows SDK (and which will be located automatically, too).
 
-### Start
+### 1. Run Setup Solution
+Do not open any project files or the solution in an editor or an IDE while running the setup script, or you will get error messages and will have to repeat the setup process.
 In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*.  
 This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup"). After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution.
 
