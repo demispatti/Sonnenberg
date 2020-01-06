@@ -16,7 +16,7 @@ using System.Security;
 [assembly: Guid("13CDC0A6-F575-42EC-AADC-6C24FD437B8D")]
 
 // Version
-[assembly: AssemblyVersion("1.0.*")]
+[assembly: AssemblyVersion("1.0.1.0")]
 
 // System
 [assembly: CLSCompliant(false)]
