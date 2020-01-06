@@ -88,7 +88,7 @@ Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HE
 Inside the *Installer Project*, open Product.wxs and create *unique UPPERCASE* GUIDs in it where it says YOUR_GUID_HERE.
 
 ### 3. Sign The Assemblies With A Strong  Name
-Sign the assemblies with a strong name ( see [Docs](https://docs.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name)). Name the key file after the project, e.g. Common.snk, ContextMenu.snk, etc.
+Sign the assemblies with a strong name (see [Docs](https://docs.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name)). Name the key file after the project, e.g. Common.snk, ContextMenu.snk, etc.
 
 If you wish to run the tests, you have to to sign the test assemblies with a strong name, too.
 For naming, skip the **.Tests** part from the project name, which would give a name like Common.snk, ContextMenu.snk, etc.
