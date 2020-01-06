@@ -59,7 +59,8 @@ namespace Sonnenberg.ContextMenu
 			var toolStripMenuItem = new ToolStripMenuItem
 			{
 				Text = "folder" == menuType ? Strings.menuStripNameFolderMenu : Strings.menuStripNameDirectoryMenu,
-				Image = Resources.imgSonnenberg
+				Image = Resources.imgSonnenberg,
+				Name = "Sonnenberg"
 			};
 
 			var openShell = new OpenShell();
@@ -108,7 +109,8 @@ namespace Sonnenberg.ContextMenu
 			var toolStripMenuItem = new ToolStripMenuItem
 			{
 				Text = Strings.menuStripNameFilesMenu,
-				Image = Resources.imgSonnenberg
+				Image = Resources.imgSonnenberg,
+				Name = "Sonnenberg"
 			};
 
 			// Add a "count lines" option for file types considered text files
