@@ -1,5 +1,6 @@
 ﻿using System.Drawing;
 using System.Windows.Forms;
+using log4net;
 using Sonnenberg.Common;
 using Sonnenberg.ContextMenu.Properties;
 using Sonnenberg.Language;
@@ -18,6 +19,8 @@ namespace Sonnenberg.ContextMenu.MenuItems
 	/// <seealso cref="Logger" />
 	internal class CopyPath
 	{
+		private static readonly ILog log = LogManager.GetLogger(typeof(CopyPath));
+
 		internal CopyPath()
 		{
 			ConfigureLogger();

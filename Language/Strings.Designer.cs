@@ -394,6 +394,15 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to You have to provide an agrument..
+        /// </summary>
+        public static string shellserverArgumentMissingError {
+            get {
+                return ResourceManager.GetString("shellserverArgumentMissingError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Failed to start Sonnenberg Service..
         /// </summary>
         public static string startServiceFail {

@@ -243,4 +243,7 @@
   <data name="linesCountMsgBoxTitle" xml:space="preserve">
     <value>Lines count</value>
   </data>
+  <data name="shellserverArgumentMissingError" xml:space="preserve">
+    <value>You have to provide an agrument.</value>
+  </data>
 </root>

@@ -4,6 +4,7 @@ using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using log4net;
 using Sonnenberg.Language;
 using Sonnenberg.Common;
 using Sonnenberg.ContextMenu.Properties;
@@ -28,6 +29,8 @@ namespace Sonnenberg.ContextMenu.MenuItems
 	/// <seealso cref="Logger" />
 	internal class OpenShell
 	{
+		private static readonly ILog log = LogManager.GetLogger(typeof(OpenShell));
+
 		internal OpenShell()
 		{
 			ConfigureLogger();

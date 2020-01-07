@@ -237,4 +237,7 @@
   <data name="argumentExceptionMessage" xml:space="preserve">
     <value>Fehler (Argument).</value>
   </data>
+  <data name="shellserverArgumentMissingError" xml:space="preserve">
+    <value>Sie müssen ein Argument mit übergeben.</value>
+  </data>
 </root>

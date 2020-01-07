@@ -25,7 +25,7 @@ namespace Sonnenberg.ShellServer
     [COMServerAssociation(AssociationType.Class, @"Directory\Background")]
     public class ShellServer : SharpContextMenu, IDisposable
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(ContextMenu.ContextMenu));
+        private static readonly ILog log = LogManager.GetLogger(typeof(ShellServer));
 
         private ContextMenu.ContextMenu _contextMenu;
 

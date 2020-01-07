@@ -1,6 +1,7 @@
 ﻿using System;
 using System.IO;
 using System.Windows.Forms;
+using log4net;
 using SharpShell;
 using Sonnenberg.Common;
 using Sonnenberg.ContextMenu.MenuItems;
@@ -20,6 +21,8 @@ namespace Sonnenberg.ContextMenu
 	/// <seealso cref="Logger" />
 	public class ContextMenu : IDisposable
 	{
+		private static readonly ILog log = LogManager.GetLogger(typeof(ContextMenu));
+
 		private ContextMenuStrip _contextMenuStrip;
 
 		private bool _disposedValue;
@@ -144,7 +147,16 @@ namespace Sonnenberg.ContextMenu
 
 		public ContextMenuStrip GetFileMenu(string menuType, string clickedItemPath, ShellExtInitServer shellServer)
 		{
-			return FileMenu(menuType, clickedItemPath, shellServer);
+			if(null != shellServer)
+			{
+				return FileMenu(menuType, clickedItemPath, shellServer);
+			}
+
+			var ex = new Exception($"{Strings.shellserverArgumentMissingError} ({ex.Message})");
+			log.Error($"{Strings.shellserverArgumentMissingError} ({ex.Message})");
+			MessageBox.Show($"{Strings.shellserverArgumentMissingError} ({ex.Message})");
+
+			throw ex;
 		}
 
 		protected virtual void Dispose(bool disposing)

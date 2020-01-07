@@ -12,8 +12,6 @@ using Sonnenberg.ContextMenu.Properties;
 using Clipboard = System.Windows.Clipboard;
 using MessageBox = System.Windows.MessageBox;
 
-//using Sonnenberg.ContextMenu.Properties;
-
 namespace Sonnenberg.ContextMenu.MenuItems
 {
 	/// <summary>
