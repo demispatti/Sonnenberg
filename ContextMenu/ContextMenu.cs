@@ -152,9 +152,9 @@ namespace Sonnenberg.ContextMenu
 				return FileMenu(menuType, clickedItemPath, shellServer);
 			}
 
-			var ex = new Exception($"{Strings.shellserverArgumentMissingError} ({ex.Message})");
-			log.Error($"{Strings.shellserverArgumentMissingError} ({ex.Message})");
-			MessageBox.Show($"{Strings.shellserverArgumentMissingError} ({ex.Message})");
+			var ex = new Exception($"{Strings.shellserverArgumentMissingError}");
+			log.Error($"{ex.Message}");
+			MessageBox.Show($"{ex.Message}");
 
 			throw ex;
 		}
