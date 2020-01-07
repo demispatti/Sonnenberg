@@ -146,7 +146,7 @@ Build the installer project and deploy the MSI file.
 
 ---
 ## Frequently Asked Questions
-#### Where do I interact with this plugin and how does it work?
+#### Where do I interact with this extension and how does it work?
 
 
 
