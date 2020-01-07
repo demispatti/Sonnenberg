@@ -73,9 +73,10 @@ This method depends on *Visual Studio Command Prompt*, which is shipped with rec
 In addition, this method depends on the strong naming tool **Sn.exe**, which is part of any Windows SDK (and which will be located automatically, too).
 
 ### 1. Run Setup Solution
-Do not open any project files or the solution in an editor or an IDE while running the setup script, or you will get error messages and will have to repeat the setup process.
-In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*.  
-This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup"). After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution.
+Do **not open** any project files or the solution in an editor or an IDE while running the setup script, or you will get error messages and you will have to repeat the setup process.
+In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*. Enter your name and your company name. 
+This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup").
+After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution.
 
 ---
 ## Manual Project Setup
@@ -111,12 +112,10 @@ Note #1:
 *if* you already take advantage of **Sonnenberg** on your computer, you need to stop the service first (e.g. via the Start Menu), in order to debug the ShellServer.dll you built.
 
 Note #2:  
-In order to debug the ShellServer.dll, you need your copy of the *SharpShell ServerManager* first.  
-You can install the [SharpShell Tools Nuget-Package]( https://www.nuget.org/packages/SharpShellTools/ ) separately and use that *ServerManager.exe*.  
-Or you **download and build** [SharpShell]( https://github.com/dwmkerr/sharpshell ) on your own, which then produces the **ServerManager.exe** and its dependencies, located at "sharpshell\SharpShell\Tools\ServerManager\bin\Debug".
+In order to debug the ShellServer.dll, you need a copy of the [SharpShell ServerManager](https://github.com/dwmkerr/sharpshell/releases/download/v2.7.2.0/ServerManager.zip). Download and unzip it.
 
 ### Start Debugging
-1. Start up **ServerManager.exe**. (check *Prerequisites*  above for file location) In there, select *File->Load Server*, navigate to "Sonnenberg\ShellServer\bin\Debug", and select *ShellServer.dll*.
+1. Execute **ServerManager.exe** as Administrator. Select *File->Load Server*, navigate to "Sonnenberg\ShellServer\bin\Debug", and select *ShellServer.dll*.
 2. Click *Server*, and then first *install* the Server and then *register* it for the architecture you want to debug.
 3. Click *Explorer*. Make sure there is a tick where it says *Always Unload DLLs*.
 4. Click *Restart Explorer*.
@@ -150,10 +149,6 @@ Build the installer project and deploy the MSI file.
 #### Where do I interact with this plugin and how does it work?
 
 
-#### Why doesn't it show up in the settings menu after installing and activating?
-
-
-#### I have the two plugins installed and activated but it doesn't work!
 
 
 #### Are there any known limitations?
