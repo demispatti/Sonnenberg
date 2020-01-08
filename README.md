@@ -9,7 +9,7 @@ A Small But Useful Windows Explorer Extension
 <a href="https://github.com/demispatti/Sonnenberg/tree/master/dist" target="_blank"><strong>Get Setup File</strong></a>
   <br>
   <br>
-  <a href="https://github.com/demispatti/Sonnenberg/issues/new?template=bug.md" target="_blank">Report A Bug</a>
+<a href="https://github.com/demispatti/Sonnenberg/issues/new?template=bug.md" target="_blank">Report A Bug</a><br>
   <a href="https://github.com/demispatti/Sonnenberg/issues/new?template=feature.md&labels=feature" target="_blank">Request Feature</a>
 </p>
 
