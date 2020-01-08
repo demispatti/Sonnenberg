@@ -37,10 +37,11 @@ A Small But Useful Windows Explorer Extension
 ## Features
 This application extends the Windows Explorer context menu. After installation, you'll find the Sonnenberg icon with a drop down inside the Windows Explorer context menu.
 Depending on the context, you'll be able to:
+
 - Copy the path of the clicked item, folder or directory, also in Unix-style
 - Open PowerShell inside any directory and folder
 - Open Command Prompt inside any directory and folder
-- Count lines of text and code files, with or without blank lines, and copy the result to clipboard (optional)
+- Count lines of text and code files, with or without blank lines, and copy the result to the clipboard
 
 ### What It Looks Like
 ![Context Menu](./assets/image.jpg)
@@ -143,12 +144,17 @@ Build the installer project and deploy the MSI file.
 
 ---
 ## Documentation
+No need for a documentation.
 
 ---
 ## Frequently Asked Questions
 #### Where do I interact with this extension and how does it work?
+After installation, you'll find the Sonnenberg icon with a drop down inside the Windows Explorer context menu. Depending on the context, you'll be able to:
 
-
+- Copy the path of the clicked item, folder or directory, also in Unix-style
+- Open PowerShell inside any directory and folder
+- Open Command Prompt inside any directory and folder
+- Count lines of text and code files, with or without blank lines, and copy the result to the clipboard
 
 
 #### Are there any known limitations?
