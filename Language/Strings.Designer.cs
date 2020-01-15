@@ -70,6 +70,15 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to clickedItemPath must not be NULL..
+        /// </summary>
+        public static string clickedItemPathArgumentNullException {
+            get {
+                return ResourceManager.GetString("clickedItemPathArgumentNullException", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Copy Directory Path (Unix-Style).
         /// </summary>
         public static string copyDirectoryPathText {
@@ -214,7 +223,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Lines count.
+        ///   Looks up a localized string similar to Lines Count.
         /// </summary>
         public static string linesCountMsgBoxTitle {
             get {
@@ -234,9 +243,18 @@ namespace Sonnenberg.Language {
         /// <summary>
         ///   Looks up a localized string similar to File.
         /// </summary>
-        public static string menuStripNameFilesMenu {
+        public static string menuStripNameFileMenu {
             get {
-                return ResourceManager.GetString("menuStripNameFilesMenu", resourceCulture);
+                return ResourceManager.GetString("menuStripNameFileMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to File Shortcut.
+        /// </summary>
+        public static string menuStripNameFileShortcutMenu {
+            get {
+                return ResourceManager.GetString("menuStripNameFileShortcutMenu", resourceCulture);
             }
         }
         
@@ -246,6 +264,15 @@ namespace Sonnenberg.Language {
         public static string menuStripNameFolderMenu {
             get {
                 return ResourceManager.GetString("menuStripNameFolderMenu", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Folder Shortcut.
+        /// </summary>
+        public static string menuStripNameFolderShortcutMenu {
+            get {
+                return ResourceManager.GetString("menuStripNameFolderShortcutMenu", resourceCulture);
             }
         }
         
@@ -277,7 +304,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open CMD inside (Admin).
+        ///   Looks up a localized string similar to Open CMD Inside (Admin).
         /// </summary>
         public static string openCmdInsideElevatedText {
             get {
@@ -286,11 +313,29 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Open CMD inside.
+        ///   Looks up a localized string similar to Open CMD Inside.
         /// </summary>
         public static string openCmdInsideText {
             get {
                 return ResourceManager.GetString("openCmdInsideText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Parent Folder.
+        /// </summary>
+        public static string openFileShortcutTargetFolderText {
+            get {
+                return ResourceManager.GetString("openFileShortcutTargetFolderText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Target Folder.
+        /// </summary>
+        public static string openFolderShortcutTargetFolderText {
+            get {
+                return ResourceManager.GetString("openFolderShortcutTargetFolderText", resourceCulture);
             }
         }
         

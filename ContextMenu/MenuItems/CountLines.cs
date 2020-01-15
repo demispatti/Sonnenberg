@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -26,7 +27,7 @@ namespace Sonnenberg.ContextMenu.MenuItems
 	/// - With or without blank lines
 	/// - Communicates the result via <c>MessageBox</c>
 	/// </remarks>
-	/// <seealso cref="ContextMenu" />
+	/// <seealso cref="Program" />
 	/// <seealso cref="Logger" />
 	internal class CountLines
 	{

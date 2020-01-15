@@ -4,7 +4,7 @@ using System.Configuration.Install;
 namespace Sonnenberg.Service
 {
     [RunInstaller(true)]
-    public partial class ProjectInstaller : Installer
+    internal partial class ProjectInstaller : Installer
     {
         public ProjectInstaller()
         {

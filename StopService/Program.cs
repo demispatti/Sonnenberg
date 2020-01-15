@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Linq;
 using System.ServiceProcess;
 using System.Windows.Forms;
@@ -12,11 +13,11 @@ namespace Sonnenberg.StopService
     /// The executable that initializes stopping of the shell server.
     /// </summary>
     /// <seealso cref="Logger" />
-    internal class StopService
+    internal class Program
     {
         private const string ServiceName = "SonnenbergService";
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(StopService));
+        private static readonly ILog log = LogManager.GetLogger(typeof(Program));
 
         [STAThread]
         private static void Main()

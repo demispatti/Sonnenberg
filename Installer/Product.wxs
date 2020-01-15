@@ -32,7 +32,7 @@
       <?define OutputName = !(loc.ProductName)-!(loc.ProductBitnessX64)?>
     <?endif?>
   <?endif?>
-  <?define BuildVersion = 1.0.1.0?>
+  <?define BuildVersion = 1.1.0.0?>
   <?define ShellServer_TargetDir=$(var.ShellServer.TargetDir)?>
   <?define StartService_TargetDir=$(var.StartService.TargetDir)?>
   <?define StopService_TargetDir=$(var.StopService.TargetDir)?>

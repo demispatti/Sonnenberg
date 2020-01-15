@@ -47,10 +47,7 @@
 			// 
 			// ProjectInstaller
 			// 
-			this.Installers.AddRange(new System.Configuration.Install.Installer[] {
-            this.ServiceProcessInstaller,
-            this.ServiceInstaller});
-
+			this.Installers.AddRange(new System.Configuration.Install.Installer[] {this.ServiceProcessInstaller, this.ServiceInstaller});
 		}
 
 		#endregion

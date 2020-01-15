@@ -240,4 +240,19 @@
   <data name="shellserverArgumentMissingError" xml:space="preserve">
     <value>Sie müssen ein Argument mit übergeben.</value>
   </data>
+  <data name="menuStripNameFileShortcutMenu" xml:space="preserve">
+    <value>Datei-Verknüpfung</value>
+  </data>
+  <data name="menuStripNameFolderShortcutMenu" xml:space="preserve">
+    <value>Ordner-Verknüpfung</value>
+  </data>
+  <data name="clickedItemPathArgumentNullException" xml:space="preserve">
+    <value>clickedItemPath darf nicht NULL sein.</value>
+  </data>
+  <data name="openFileShortcutTargetFolderText" xml:space="preserve">
+    <value>Übergeordneten Ordner öffnen</value>
+  </data>
+  <data name="openFolderShortcutTargetFolderText" xml:space="preserve">
+    <value>Zielverzeichnis öffnen</value>
+  </data>
 </root>

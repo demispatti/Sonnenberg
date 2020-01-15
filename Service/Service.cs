@@ -22,7 +22,7 @@ namespace Sonnenberg.Service
         /// <param name="args"></param>
         protected override void OnStart(string[] args)
         {
-            new ServiceManager.ServiceManager().StartShellServer();
+            new ServiceManager.Program().StartShellServer();
         }
 
         /// <summary>
@@ -30,7 +30,7 @@ namespace Sonnenberg.Service
         /// </summary>
         protected override void OnStop()
         {
-            new ServiceManager.ServiceManager().StopShellServer();
+            new ServiceManager.Program().StopShellServer();
         }
     }
 }

@@ -63,7 +63,7 @@ namespace Sonnenberg.ContextMenu.MenuItems
 			{
 				text = runElevated ? Strings.openPowershellHereElevatedText : Strings.openPowershellHereText;
 
-				if ("folder" == menuType)
+				if ("Folder" == menuType || "FolderShortcut" == menuType)
 				{
 					text = runElevated ? Strings.openPowershellInsideElevatedText : Strings.openPowershellInsideText;
 				}
@@ -72,7 +72,7 @@ namespace Sonnenberg.ContextMenu.MenuItems
 			{
 				text = runElevated ? Strings.openCmdHereElevatedText : Strings.openCmdHereText;
 
-				if ("folder" == menuType)
+				if ("Folder" == menuType || "FolderShortcut" == menuType)
 				{
 					text = runElevated ? Strings.openCmdInsideElevatedText : Strings.openCmdInsideText;
 				}

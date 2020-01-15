@@ -15,7 +15,7 @@ namespace Sonnenberg.ContextMenu.MenuItems
 	/// - Creates a click action
 	/// - Clears the clipboard and adds the path to the clipboard
 	/// </remarks>
-	/// <seealso cref="ContextMenu" />
+	/// <seealso cref="Program" />
 	/// <seealso cref="Logger" />
 	internal class CopyPath
 	{
@@ -39,13 +39,13 @@ namespace Sonnenberg.ContextMenu.MenuItems
 			// Set text and image based on the clicked item.
 			switch (menuType)
 			{
-				case "directory":
+				case "Directory":
 					{
 						text = forwardSlashes ? Strings.copyForwardslashedDirectoryPathText : Strings.copyDirectoryPathText;
 						image = forwardSlashes ? Resources.imgCopyFolderPathFs : Resources.imgCopyFolderPathBs;
 						break;
 					}
-				case "folder":
+				case "Folder":
 					{
 						text = forwardSlashes ? Strings.copyForwardslashedFolderPathText : Strings.copyFolderPathText;
 						image = forwardSlashes ? Resources.imgCopyFolderPathFs : Resources.imgCopyFolderPathBs;

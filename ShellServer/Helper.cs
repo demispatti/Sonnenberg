@@ -1,8 +1,12 @@
 using System;
 using System.IO;
 using System.Linq;
+using IWshRuntimeLibrary;
 using SharpShell;
 using log4net;
+using Sonnenberg.Language;
+using Sonnenberg.ShellServer.Properties;
+using File = System.IO.File;
 
 namespace Sonnenberg.ShellServer
 {
@@ -10,45 +14,127 @@ namespace Sonnenberg.ShellServer
     {
         private static readonly ILog log = LogManager.GetLogger(typeof(Helper));
 
-        /// <summary>
-        /// Determines wether the clicked item is a file, a folder or a directory.
-        /// </summary>
-        /// <param name="shellServer"></param>
-        /// <returns>string</returns>
-        internal static string GetClickedItemType(ShellExtInitServer shellServer)
+        internal static void SetSettings(Program shellServer)
         {
-            var itemType = "unsupported";
+            if (Settings.Default.hasClickedItemType)
+            {
+                return;
+            }
+            
+            var clickedItemType = ClickedItemType(shellServer);
+            var clickedItemPath = ClickedItemPath(clickedItemType, shellServer);
+            var ext = Path.GetExtension(clickedItemPath);
 
-            if (shellServer.FolderPath != null) return "directory";
+            Settings.Default.clickedItemType = ClickedItemType(shellServer);
+            Settings.Default.clickedItemPath = ClickedItemPath(clickedItemType, shellServer);
+            Settings.Default.clickedItemContainingFolder = ClickedItemContainingFolder(clickedItemType, shellServer);
+            
+            if ("Folder" == clickedItemType)
+            {
+                Settings.Default.shellStartUpDirectory = ShellStartUpDirectory(clickedItemType, shellServer);
+            }
 
+            if (".lnk" == ext)
+            {
+                Settings.Default.shortcutTarget = ShortcutTarget(clickedItemPath);
+                var targetType = Settings.Default.shortcutTargetType = ShortcutTargetType(clickedItemPath);
+                Settings.Default.shortcutTargetFolder = ShortcutTargetFolder(clickedItemPath, targetType);
+            }
+            
+            Settings.Default.hasClickedItemType = true;
+        }
+        
+        internal static void ResetSettings()
+        {
+            Settings.Default.hasClickedItemType = false;
+            Settings.Default.clickedItemType = "";
+            Settings.Default.clickedItemPath = "";
+            Settings.Default.clickedItemContainingFolder = "";
+            Settings.Default.shellStartUpDirectory = "";
+            Settings.Default.shortcutTarget = "";
+            Settings.Default.shortcutTargetFolder = "";
+            Settings.Default.shortcutTargetType = "";
+            Settings.Default.hasMenuWatcherSubscribed = false;
+        }
+        
+        private static string ShortcutTarget(string clickedItemPath)
+        {
+            var wsh = new WshShellClass();
+            var sc = (IWshShortcut) wsh.CreateShortcut(clickedItemPath);
+            
+            return sc.TargetPath;
+        }
+        
+        private static string ShortcutTargetFolder(string clickedItemPath, string targetType)
+        {
+            var wsh = new WshShellClass();
+            var sc = (IWshShortcut) wsh.CreateShortcut(clickedItemPath);
+            
+            return "Folder" == targetType ? ShortcutTarget(clickedItemPath) : Path.GetDirectoryName(sc.TargetPath);
+        }
+
+        private static string ShortcutTargetType(string clickedItemPath)
+        {
+            var shortcutTarget = ShortcutTarget(clickedItemPath);
+            var fileAttributes = File.GetAttributes(shortcutTarget);
+            
+            return (fileAttributes & FileAttributes.Directory) != 0 ? "Folder" : "File";
+        }
+
+        private static string ClickedItemType(ShellExtInitServer shellServer)
+        {
+            if (shellServer.FolderPath != null)
+            {
+                return "Directory";
+            }
+            
+            var clickedItemType = "Unsupported";
+            var clickedItemPath = shellServer.SelectedItemPaths.First();
+            if (null == clickedItemPath)
+            {
+                throw new ArgumentNullException(clickedItemType, Strings.clickedItemPathArgumentNullException);
+            }
+            
             try
             {
-                var path = shellServer.SelectedItemPaths.First();
-                if (null != path)
+                var ext = Path.GetExtension(clickedItemPath);
+                var fileAttributes = File.GetAttributes(clickedItemPath);
+
+                // @todo: Works in the debugger, but fails for shortcuts in release mode...
+                if (".lnk" != ext)
                 {
-                    var length = Path.GetExtension(path).Length;
-                    itemType = length == 0 ? "folder" : "file";
+                    clickedItemType = (fileAttributes & FileAttributes.Directory) != 0 ? "Folder" : "File";
                 }
+                else
+                {
+                    clickedItemType = "Folder" == ShortcutTargetType(clickedItemPath) ? "FolderShortcut" : "FileShortcut";
+                }
+
+                return clickedItemType;
+                
             }
             catch (ArgumentNullException ex)
             {
-                log.Error($"{ex.Message} (getclickeditemtype)");
+                log.Error($"{ex.Message} | Path: {clickedItemPath} | (GetClickedItemType)");
 
                 throw;
             }
-
-            return itemType;
+        }
+        
+        private static string ClickedItemPath(string menuType, ShellExtInitServer shellServer)
+        {
+            return "Directory" == menuType ? shellServer.FolderPath : shellServer.SelectedItemPaths.First();
         }
 
-        private static string ShellStartUpDirectory(string menuType, ShellExtInitServer shellServer)
+        private static string ShellStartUpDirectory(string clickedItemType, ShellExtInitServer shellServer)
         {
-            switch (menuType)
+            switch (clickedItemType)
             {
-                case "file":
+                case "FolderShortcut":
 
-                    return Path.GetDirectoryName(shellServer.SelectedItemPaths.First());
+                    return ShortcutTarget(ClickedItemPath(clickedItemType, (Program) shellServer));
 
-                case "folder":
+                case "Folder":
 
                     return shellServer.SelectedItemPaths.First();
 
@@ -58,35 +144,9 @@ namespace Sonnenberg.ShellServer
             }
         }
 
-        internal static string GetShellStartUpDirectory(string menuType, ShellServer shellServer)
+        private static string ClickedItemContainingFolder(string clickedItemType, ShellExtInitServer shellServer)
         {
-            return ShellStartUpDirectory(menuType, shellServer);
-        }
-
-        /// <summary>
-        /// Determines and returns the full path of the item or directory that got right-clicked inside Windows Explorer,
-        /// based on possible paths <c>ShellExtInitServer</c> provides us with.
-        /// </summary>
-        /// <seealso cref="ShellExtInitServer" />
-        /// <param name="menuType"></param>
-        /// <param name="shellServer"></param>
-        /// <returns></returns>
-        private static string ClickedItemPath(string menuType, ShellExtInitServer shellServer)
-        {
-            if ("file" == menuType || "folder" == menuType) return shellServer.SelectedItemPaths.First();
-
-            return shellServer.FolderPath;
-        }
-
-        /// <summary>
-        /// Returns the full path to the item or directory that was right-clicked by the user inside Windows Explorer.
-        /// </summary>
-        /// <param name="menuType"></param>
-        /// <param name="shellServer"></param>
-        /// <returns>string</returns>
-        public static string GetClickedItemPath(string menuType, ShellServer shellServer)
-        {
-            return ClickedItemPath(menuType, shellServer);
+            return "Directory" == clickedItemType ? Path.GetDirectoryName(shellServer.FolderPath) : Path.GetDirectoryName(shellServer.SelectedItemPaths.First());
         }
     }
 }

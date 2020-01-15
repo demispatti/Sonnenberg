@@ -12,11 +12,11 @@ namespace Sonnenberg.ServerManager
     /// </summary>
     /// <seealso cref="Logger" />
     /// <seealso cref="ServerRegistrationManager" />
-    public class ServerManager
+    public class Program
     {
-        private static readonly ILog log = LogManager.GetLogger(typeof(ServerManager));
+        private static readonly ILog log = LogManager.GetLogger(typeof(Program));
 
-        public ServerManager()
+        public Program()
         {
             ConfigureLogger();
         }

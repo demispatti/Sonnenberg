@@ -171,7 +171,7 @@
   <data name="menuStripNameDirectoryMenu" xml:space="preserve">
     <value>Directory</value>
   </data>
-  <data name="menuStripNameFilesMenu" xml:space="preserve">
+  <data name="menuStripNameFileMenu" xml:space="preserve">
     <value>File</value>
   </data>
   <data name="menuStripNameFolderMenu" xml:space="preserve">
@@ -187,10 +187,10 @@
     <value>Open CMD</value>
   </data>
   <data name="openCmdInsideElevatedText" xml:space="preserve">
-    <value>Open CMD inside (Admin)</value>
+    <value>Open CMD Inside (Admin)</value>
   </data>
   <data name="openCmdInsideText" xml:space="preserve">
-    <value>Open CMD inside</value>
+    <value>Open CMD Inside</value>
   </data>
   <data name="openPowershellHereElevatedText" xml:space="preserve">
     <value>Open Powershell (Admin)</value>
@@ -241,9 +241,24 @@
     <value>width</value>
   </data>
   <data name="linesCountMsgBoxTitle" xml:space="preserve">
-    <value>Lines count</value>
+    <value>Lines Count</value>
   </data>
   <data name="shellserverArgumentMissingError" xml:space="preserve">
     <value>You have to provide an agrument.</value>
+  </data>
+  <data name="menuStripNameFileShortcutMenu" xml:space="preserve">
+    <value>File Shortcut</value>
+  </data>
+  <data name="menuStripNameFolderShortcutMenu" xml:space="preserve">
+    <value>Folder Shortcut</value>
+  </data>
+  <data name="clickedItemPathArgumentNullException" xml:space="preserve">
+    <value>clickedItemPath must not be NULL.</value>
+  </data>
+  <data name="openFileShortcutTargetFolderText" xml:space="preserve">
+    <value>Open Parent Folder</value>
+  </data>
+  <data name="openFolderShortcutTargetFolderText" xml:space="preserve">
+    <value>Open Target Folder</value>
   </data>
 </root>

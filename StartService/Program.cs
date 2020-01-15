@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Globalization;
 using System.Linq;
 using System.ServiceProcess;
 using System.Windows.Forms;
@@ -11,11 +12,11 @@ namespace Sonnenberg.StartService
     /// <summary>
     /// The executable that initializes starting of the shell server.
     /// </summary>
-    internal class StartService
+    internal class Program
     {
         private const string ServiceName = "SonnenbergService";
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(StartService));
+        private static readonly ILog log = LogManager.GetLogger(typeof(Program));
 
         /// <summary>
         /// Triggers the logger class to create said files.
