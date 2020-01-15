@@ -100,7 +100,6 @@ namespace Sonnenberg.ShellServer
                 var ext = Path.GetExtension(clickedItemPath);
                 var fileAttributes = File.GetAttributes(clickedItemPath);
 
-                // @todo: Works in the debugger, but fails for shortcuts in release mode...
                 if (".lnk" != ext)
                 {
                     clickedItemType = (fileAttributes & FileAttributes.Directory) != 0 ? "Folder" : "File";

@@ -43,7 +43,7 @@ namespace Sonnenberg.ContextMenu
 			Logger.Configure();
 		}
 		
-		private ContextMenuStrip DirectoryMenu(string menuType, string clickedItemPath, string shellStartUpDirectory)
+		private ContextMenuStrip DirectoryMenu(string menuType, string clickedItemPath, string targetDirectory)
 		{
 			var toolStripMenuItem = new ToolStripMenuItem
 			{
@@ -52,39 +52,15 @@ namespace Sonnenberg.ContextMenu
 				Name = "Sonnenberg"
 			};
 
-			var openShell = new OpenShell();
-			if (OpenShell.AppExists("powershell.exe"))
-			{
-				var openPowershellInsideMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "powershell.exe", false);
-				toolStripMenuItem.DropDownItems.Add(openPowershellInsideMenuItem);
+			toolStripMenuItem = CreateOpenShellMenuItem(toolStripMenuItem, menuType, targetDirectory);
+			toolStripMenuItem = CreateCopyPathMenuItem(toolStripMenuItem, menuType, clickedItemPath);
 
-				var openPowershellInsideElevatedMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "powershell.exe", true);
-				toolStripMenuItem.DropDownItems.Add(openPowershellInsideElevatedMenuItem);
-			}
-
-			if (OpenShell.AppExists("cmd.exe"))
-			{
-				var openCmdInsideMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "cmd.exe", false);
-				toolStripMenuItem.DropDownItems.Add(openCmdInsideMenuItem);
-
-				var openCmdInsideElevatedMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "cmd.exe", true);
-				toolStripMenuItem.DropDownItems.Add(openCmdInsideElevatedMenuItem);
-			}
-
-			var copyPath = new CopyPath();
-			var escapedFilePathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath, true);
-			toolStripMenuItem.DropDownItems.Add(escapedFilePathMenuItem);
-
-			var copyPathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath);
-			toolStripMenuItem.DropDownItems.Add(copyPathMenuItem);
-
-			//// Add our main menu.
 			_contextMenuStrip.Items.Add(toolStripMenuItem);
 
 			return _contextMenuStrip;
 		}
 
-		private ContextMenuStrip FolderMenu(string menuType, string clickedItemPath, string shellStartUpDirectory)
+		private ContextMenuStrip FolderMenu(string menuType, string clickedItemPath, string targetDirectory)
 		{
 			var toolStripMenuItem = new ToolStripMenuItem
 			{
@@ -93,33 +69,9 @@ namespace Sonnenberg.ContextMenu
 				Name = "Sonnenberg"
 			};
 
-			var openShell = new OpenShell();
-			if (OpenShell.AppExists("powershell.exe"))
-			{
-				var openPowershellInsideMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "powershell.exe", false);
-				toolStripMenuItem.DropDownItems.Add(openPowershellInsideMenuItem);
+			toolStripMenuItem = CreateOpenShellMenuItem(toolStripMenuItem, menuType, targetDirectory);
+			toolStripMenuItem = CreateCopyPathMenuItem(toolStripMenuItem, menuType, clickedItemPath);
 
-				var openPowershellInsideElevatedMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "powershell.exe", true);
-				toolStripMenuItem.DropDownItems.Add(openPowershellInsideElevatedMenuItem);
-			}
-
-			if (OpenShell.AppExists("cmd.exe"))
-			{
-				var openCmdInsideMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "cmd.exe", false);
-				toolStripMenuItem.DropDownItems.Add(openCmdInsideMenuItem);
-
-				var openCmdInsideElevatedMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "cmd.exe", true);
-				toolStripMenuItem.DropDownItems.Add(openCmdInsideElevatedMenuItem);
-			}
-
-			var copyPath = new CopyPath();
-			var escapedFilePathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath, true);
-			toolStripMenuItem.DropDownItems.Add(escapedFilePathMenuItem);
-
-			var copyPathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath);
-			toolStripMenuItem.DropDownItems.Add(copyPathMenuItem);
-
-			//// Add our main menu.
 			_contextMenuStrip.Items.Add(toolStripMenuItem);
 
 			return _contextMenuStrip;
@@ -127,7 +79,6 @@ namespace Sonnenberg.ContextMenu
 
 		private ContextMenuStrip FileMenu(string menuType, string clickedItemPath, ShellExtInitServer shellServer)
 		{
-			// Create our main menu.
 			var toolStripMenuItem = new ToolStripMenuItem
 			{
 				Text = Strings.menuStripNameFileMenu,
@@ -135,24 +86,8 @@ namespace Sonnenberg.ContextMenu
 				Name = "Sonnenberg"
 			};
 
-			// Add a "count lines" option for file types considered text files
-			if ("Text" == new FileTypes().GetFileType(Path.GetExtension(clickedItemPath)))
-			{
-				var countLines = new CountLines();
-				var countLinesMenuItem = countLines.CreateToolStripMenuItem(shellServer.SelectedItemPaths);
-				toolStripMenuItem.DropDownItems.Add(countLinesMenuItem);
-
-				var countCleanLinesMenuItem = countLines.CreateToolStripMenuItem(shellServer.SelectedItemPaths, true);
-				toolStripMenuItem.DropDownItems.Add(countCleanLinesMenuItem);
-			}
-
-			// Add items
-			var copyPath = new CopyPath();
-			var fwdSlashesFilePathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath, true);
-			toolStripMenuItem.DropDownItems.Add(fwdSlashesFilePathMenuItem);
-
-			var filePathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath);
-			toolStripMenuItem.DropDownItems.Add(filePathMenuItem);
+			toolStripMenuItem = CreateCountLinesMenuItem(toolStripMenuItem, clickedItemPath, shellServer);
+			toolStripMenuItem = CreateCopyPathMenuItem(toolStripMenuItem, menuType, clickedItemPath);
 
 			_contextMenuStrip.Items.Add(toolStripMenuItem);
 
@@ -161,7 +96,6 @@ namespace Sonnenberg.ContextMenu
 
 		private ContextMenuStrip FileShortcutMenu(string menuType, string clickedItemPath, ShellExtInitServer shellServer, string shortcutTargetFolder)
 		{
-			// Create our main menu.
 			var toolStripMenuItem = new ToolStripMenuItem
 			{
 				Text = Strings.menuStripNameFileShortcutMenu,
@@ -169,91 +103,103 @@ namespace Sonnenberg.ContextMenu
 				Name = "Sonnenberg"
 			};
 
-			// Add a "count lines" option for file types considered text files
-			if ("Text" == new FileTypes().GetFileType(Path.GetExtension(clickedItemPath)))
-			{
-				var countLines = new CountLines();
-				var countLinesMenuItem = countLines.CreateToolStripMenuItem(shellServer.SelectedItemPaths);
-				toolStripMenuItem.DropDownItems.Add(countLinesMenuItem);
-
-				var countCleanLinesMenuItem = countLines.CreateToolStripMenuItem(shellServer.SelectedItemPaths, true);
-				toolStripMenuItem.DropDownItems.Add(countCleanLinesMenuItem);
-			}
-
-			// Add items
-						
-			var openPath = new OpenPath();
-			var openPathMenuItem = openPath.CreateToolStripMenuItem(menuType, shortcutTargetFolder);
-			toolStripMenuItem.DropDownItems.Add(openPathMenuItem);
-			
-			var copyPath = new CopyPath();
-			var fwdSlashesFilePathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath, true);
-			toolStripMenuItem.DropDownItems.Add(fwdSlashesFilePathMenuItem);
-
-			var filePathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath);
-			toolStripMenuItem.DropDownItems.Add(filePathMenuItem);
+			toolStripMenuItem = CreateCountLinesMenuItem(toolStripMenuItem, shortcutTargetFolder, shellServer);
+			toolStripMenuItem = CreateOpenPathMenuItem(toolStripMenuItem, menuType,  shortcutTargetFolder);
+			toolStripMenuItem = CreateCopyPathMenuItem(toolStripMenuItem, menuType, clickedItemPath);
 
 			_contextMenuStrip.Items.Add(toolStripMenuItem);
 
 			return _contextMenuStrip;
-			//return menuType == "FileShortcut" ? GetFileMenu(menuType, clickedItemPath, shellServer) : GetFolderMenu(menuType, clickedItemPath, shellStartUpDirectory);
 		}
 		
-		private ContextMenuStrip FolderShortcutMenu(string menuType, string clickedItemPath, string shellStartUpDirectory, string shortcutTargetFolder)
+		private ContextMenuStrip FolderShortcutMenu(string menuType, string clickedItemPath, string shortcutTargetFolder)
 		{
-			// Create our main menu.
 			var toolStripMenuItem = new ToolStripMenuItem
 			{
 				Text = Strings.menuStripNameFolderShortcutMenu,
 				Image = Resources.imgSonnenberg,
 				Name = "Sonnenberg"
 			};
-
-			var openShell = new OpenShell();
-			if (OpenShell.AppExists("powershell.exe"))
-			{
-				var openPowershellInsideMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "powershell.exe", false);
-				toolStripMenuItem.DropDownItems.Add(openPowershellInsideMenuItem);
-
-				var openPowershellInsideElevatedMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "powershell.exe", true);
-				toolStripMenuItem.DropDownItems.Add(openPowershellInsideElevatedMenuItem);
-			}
-
-			if (OpenShell.AppExists("cmd.exe"))
-			{
-				var openCmdInsideMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "cmd.exe", false);
-				toolStripMenuItem.DropDownItems.Add(openCmdInsideMenuItem);
-
-				var openCmdInsideElevatedMenuItem = openShell.CreateToolStripMenuItem(menuType, shellStartUpDirectory, "cmd.exe", true);
-				toolStripMenuItem.DropDownItems.Add(openCmdInsideElevatedMenuItem);
-			}
 			
-			// Add items.
-			var openPath = new OpenPath();
-			var openPathMenuItem = openPath.CreateToolStripMenuItem(menuType, shortcutTargetFolder);
-			toolStripMenuItem.DropDownItems.Add(openPathMenuItem);
+			toolStripMenuItem = CreateOpenShellMenuItem(toolStripMenuItem, menuType, shortcutTargetFolder);
+			toolStripMenuItem = CreateOpenPathMenuItem(toolStripMenuItem, menuType,  shortcutTargetFolder);
+			toolStripMenuItem = CreateCopyPathMenuItem(toolStripMenuItem, menuType, clickedItemPath);
 
-			var copyPath = new CopyPath();
-			var escapedFilePathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath, true);
-			toolStripMenuItem.DropDownItems.Add(escapedFilePathMenuItem);
-
-			var copyPathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath);
-			toolStripMenuItem.DropDownItems.Add(copyPathMenuItem);
-
-			//// Add our main menu.
 			_contextMenuStrip.Items.Add(toolStripMenuItem);
 
 			return _contextMenuStrip;
 		}
-		
-		public ContextMenuStrip GetDirectoryMenu(string menuType, string clickedItemPath, string shellStartUpDirectory)
+
+		private ToolStripMenuItem CreateOpenShellMenuItem(ToolStripMenuItem toolStripMenuItem, string menuType, string targetDirectory)
 		{
-			return DirectoryMenu(menuType, clickedItemPath, shellStartUpDirectory);
+			var openShell = new OpenShell();
+			if (OpenShell.AppExists("powershell.exe"))
+			{
+				var openPowershellInsideMenuItem = openShell.CreateToolStripMenuItem(menuType, targetDirectory, "powershell.exe", false);
+				toolStripMenuItem.DropDownItems.Add(openPowershellInsideMenuItem);
+
+				var openPowershellInsideElevatedMenuItem = openShell.CreateToolStripMenuItem(menuType, targetDirectory, "powershell.exe", true);
+				toolStripMenuItem.DropDownItems.Add(openPowershellInsideElevatedMenuItem);
+			}
+			
+			if (OpenShell.AppExists("cmd.exe"))
+			{
+				var openCmdInsideMenuItem = openShell.CreateToolStripMenuItem(menuType, targetDirectory, "cmd.exe", false);
+				toolStripMenuItem.DropDownItems.Add(openCmdInsideMenuItem);
+
+				var openCmdInsideElevatedMenuItem = openShell.CreateToolStripMenuItem(menuType, targetDirectory, "cmd.exe", true);
+				toolStripMenuItem.DropDownItems.Add(openCmdInsideElevatedMenuItem);
+			}
+
+			return toolStripMenuItem;
+		}
+
+		private ToolStripMenuItem CreateOpenPathMenuItem(ToolStripMenuItem toolStripMenuItem, string menuType, string targetDirectory)
+		{
+			var openPath = new OpenPath();
+			var openPathMenuItem = openPath.CreateToolStripMenuItem(menuType, targetDirectory);
+			toolStripMenuItem.DropDownItems.Add(openPathMenuItem);
+
+			return toolStripMenuItem;
 		}
 		
-		public ContextMenuStrip GetFolderMenu(string menuType, string clickedItemPath, string shellStartUpDirectory)
+		private ToolStripMenuItem CreateCopyPathMenuItem(ToolStripMenuItem toolStripMenuItem, string menuType, string clickedItemPath)
 		{
-			return FolderMenu(menuType, clickedItemPath, shellStartUpDirectory);
+			var copyPath = new CopyPath();
+			var escapedFilePathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath, true);
+			toolStripMenuItem.DropDownItems.Add(escapedFilePathMenuItem);
+			
+			var copyPathMenuItem = copyPath.CreateToolStripMenuItem(menuType, clickedItemPath);
+			toolStripMenuItem.DropDownItems.Add(copyPathMenuItem);
+
+			return toolStripMenuItem;
+		}
+
+		private ToolStripMenuItem CreateCountLinesMenuItem(ToolStripMenuItem toolStripMenuItem, string clickedItemPath, ShellExtInitServer shellServer)
+		{
+			if ("Text" == new FileTypes().GetFileType(Path.GetExtension(clickedItemPath)))
+			{
+				return toolStripMenuItem;
+			}
+
+			var countLines = new CountLines();
+            var countLinesMenuItem = countLines.CreateToolStripMenuItem(shellServer.SelectedItemPaths);
+            toolStripMenuItem.DropDownItems.Add(countLinesMenuItem);
+
+            var countCleanLinesMenuItem = countLines.CreateToolStripMenuItem(shellServer.SelectedItemPaths, true);
+            toolStripMenuItem.DropDownItems.Add(countCleanLinesMenuItem);
+
+            return toolStripMenuItem;
+		}
+		
+		public ContextMenuStrip GetDirectoryMenu(string menuType, string clickedItemPath, string targetDirectory)
+		{
+			return DirectoryMenu(menuType, clickedItemPath, targetDirectory);
+		}
+		
+		public ContextMenuStrip GetFolderMenu(string menuType, string clickedItemPath, string targetDirectory)
+		{
+			return FolderMenu(menuType, clickedItemPath, targetDirectory);
 		}
 
 		public ContextMenuStrip GetFileMenu(string menuType, string clickedItemPath, ShellExtInitServer shellServer)
@@ -286,11 +232,11 @@ namespace Sonnenberg.ContextMenu
 			throw ex;
 		}
 		
-		public ContextMenuStrip GetFolderShortcutMenu(string menuType, string clickedItemPath, ShellExtInitServer shellServer, string shellStartUpDirectory, string shortcutTargetFolder)
+		public ContextMenuStrip GetFolderShortcutMenu(string menuType, string clickedItemPath, ShellExtInitServer shellServer, string shortcutTargetFolder)
 		{
 			if(null != shellServer)
 			{
-				return FolderShortcutMenu(menuType, clickedItemPath, shellStartUpDirectory, shortcutTargetFolder);
+				return FolderShortcutMenu(menuType, clickedItemPath, shortcutTargetFolder);
 			}
 
 			var message = $"{Strings.shellserverArgumentMissingError}";
