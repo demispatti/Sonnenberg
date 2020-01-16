@@ -160,24 +160,6 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Failed to start the application. Please try again, or restart Windows Explorer and try again..
-        /// </summary>
-        public static string failedToStartApplicationError {
-            get {
-                return ResourceManager.GetString("failedToStartApplicationError", resourceCulture);
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized string similar to Failed to stop the application. Please try again, or restart Windows Explorer and try again..
-        /// </summary>
-        public static string failedToStopApplicationError {
-            get {
-                return ResourceManager.GetString("failedToStopApplicationError", resourceCulture);
-            }
-        }
-        
-        /// <summary>
         ///   Looks up a localized string similar to File name.
         /// </summary>
         public static string fileName {
@@ -448,6 +430,15 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Failed to start the application. Please try again, or restart Windows Explorer and try again..
+        /// </summary>
+        public static string startServiceError {
+            get {
+                return ResourceManager.GetString("startServiceError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Failed to start Sonnenberg Service..
         /// </summary>
         public static string startServiceFail {
@@ -462,6 +453,15 @@ namespace Sonnenberg.Language {
         public static string startServiceSuccess {
             get {
                 return ResourceManager.GetString("startServiceSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to stop the application. Please try again, or restart Windows Explorer and try again..
+        /// </summary>
+        public static string stopServiceError {
+            get {
+                return ResourceManager.GetString("stopServiceError", resourceCulture);
             }
         }
         

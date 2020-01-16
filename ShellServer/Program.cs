@@ -59,14 +59,14 @@ namespace Sonnenberg.ShellServer
         {
             return true;
         }
-        
+
         protected override ContextMenuStrip CreateMenu()
         {
             Helper.SetSettings(this);
             
             var clickedItemType = Settings.Default.clickedItemType;
             var clickedItemPath = Settings.Default.clickedItemPath;
-            var targetDirectory = Settings.Default.shellStartUpDirectory;
+            var shellStartUpDirectory = Settings.Default.shellStartUpDirectory;
             var shortcutTargetFolder = Settings.Default.shortcutTargetFolder;
             
             
@@ -90,7 +90,7 @@ namespace Sonnenberg.ShellServer
                     return _contextMenu.GetDirectoryMenu(clickedItemType, clickedItemPath, clickedItemPath);
 
                 case "Folder":
-                    return _contextMenu.GetFolderMenu(clickedItemType, clickedItemPath, targetDirectory);
+                    return _contextMenu.GetFolderMenu(clickedItemType, clickedItemPath, shellStartUpDirectory);
 
                 case "File":
 	                return _contextMenu.GetFileMenu(clickedItemType, clickedItemPath, this);

@@ -53,7 +53,12 @@ namespace Sonnenberg.StartService
             {
                 try
                 {
-                    if (null != service && "Running" == service.Status.ToString())
+                    if (null == service)
+                    {
+                        throw new ArgumentException(Strings.startServiceError);
+                    }
+                    
+                    if ("Running" == service.Status.ToString())
                     {
                         MessageBox.Show(Strings.serviceStartedAlready);
 
@@ -66,15 +71,17 @@ namespace Sonnenberg.StartService
                 }
                 catch (NullReferenceException ex)
                 {
-                    log.Error($"{Strings.failedToStartApplicationError} ({ex.Message})");
-                    MessageBox.Show($"{Strings.failedToStartApplicationError} ({ex.Message})");
+                    var message = $"{Strings.startServiceError} ({ex.Message})";
+                    log.Error(message);
+                    MessageBox.Show(message);
 
                     throw;
                 }
                 catch (ArgumentException ex)
                 {
-                    log.Error($"{Strings.failedToStartApplicationError} ({ex.Message})");
-                    MessageBox.Show($"{Strings.failedToStartApplicationError} ({ex.Message})");
+                    var message = $"{Strings.startServiceError} ({ex.Message})";
+                    log.Error(message);
+                    MessageBox.Show(message);
 
                     throw;
                 }

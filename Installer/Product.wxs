@@ -68,6 +68,8 @@
       <ComponentRef Id="SharpShell.dll" />
       <ComponentRef Id="log4net.dll" />
       <ComponentRef Id="Newtonsoft.Json.dll" />
+	  <ComponentRef Id="Gma.System.MouseKeyHook.dll" />
+      <ComponentRef Id="Interop.IWshRuntimeLibrary.dll" />
       <!-- Icons -->
       <ComponentRef Id="StartService.ico" />
       <ComponentRef Id="StopService.ico" />
@@ -230,6 +232,12 @@
       </Component>
       <Component Id="ContextMenu.dll" Guid="{YOUR_GUID_HERE}">
         <File Id="ContextMenu.dll" Name="ContextMenu.dll" Source="$(var.ContextMenu_TargetDir)ContextMenu.dll" KeyPath="yes" />
+      </Component>
+	  <Component Id="Gma.System.MouseKeyHook.dll" Guid="{YOUR_GUID_HERE}">
+        <File Id="Gma.System.MouseKeyHook.dll" Name="Gma.System.MouseKeyHook.dll" Source="$(var.ShellServer_TargetDir)Gma.System.MouseKeyHook.dll" Hidden="yes" KeyPath="yes" />
+      </Component>
+      <Component Id="Interop.IWshRuntimeLibrary.dll" Guid="{YOUR_GUID_HERE}">
+        <File Id="Interop.IWshRuntimeLibrary.dll" Name="Interop.IWshRuntimeLibrary.dll" Source="$(var.ServerManager_TargetDir)Interop.IWshRuntimeLibrary.dll" Hidden="yes" KeyPath="yes" />
       </Component>
     </ComponentGroup>
   </Fragment>

@@ -42,7 +42,12 @@ namespace Sonnenberg.StopService
             {
                 try
                 {
-                    if (null != service && "Stopped" == service.Status.ToString())
+                    if (null == service)
+                    {
+                        throw new ArgumentException(Strings.stopServiceError);
+                    }
+                    
+                    if ("Stopped" == service.Status.ToString())
                     {
                         MessageBox.Show(Strings.serviceStoppedAlready);
 
@@ -55,15 +60,17 @@ namespace Sonnenberg.StopService
                 }
                 catch (NullReferenceException ex)
                 {
-                    log.Error($"{Strings.failedToStopApplicationError} ({ex.Message})");
-                    MessageBox.Show($"{Strings.failedToStopApplicationError} ({ex.Message})");
+                    var message = $"{Strings.stopServiceError} ({ex.Message})";
+                    log.Error(message);
+                    MessageBox.Show(message);
 
                     throw;
                 }
                 catch (ArgumentException ex)
                 {
-                    log.Error($"{Strings.failedToStopApplicationError} ({ex.Message})");
-                    MessageBox.Show($"{Strings.failedToStopApplicationError} ({ex.Message})");
+                    var message = $"{Strings.stopServiceError} ({ex.Message})";
+                    log.Error(message);
+                    MessageBox.Show(message);
 
                     throw;
                 }
