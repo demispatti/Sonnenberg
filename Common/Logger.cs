@@ -1,8 +1,9 @@
-﻿using System;
+﻿using log4net;
+using log4net.Config;
+using System;
 using System.IO;
 using System.Reflection;
-using log4net;
-using log4net.Config;
+using Log = log4net.LogManager;
 
 namespace Sonnenberg.Common
 {
@@ -13,11 +14,14 @@ namespace Sonnenberg.Common
     {
         private const string ConfigFilename = "app.config";
 
-        private static readonly string Logfile = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Sonnenberg\\Logs\\log.log");
+        private static readonly string Logfile =
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData),
+                "Sonnenberg\\Logs\\log.log");
 
-        private static readonly string DirectoryTree = Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Sonnenberg\\Logs");
+        private static readonly string DirectoryTree =
+            Path.Combine(Environment.GetFolderPath(Environment.SpecialFolder.ApplicationData), "Sonnenberg\\Logs");
 
-        private static readonly ILog log = LogManager.GetLogger(typeof(Logger));
+        private static readonly ILog Log = LogManager.GetLogger(typeof(Logger));
 
         /// <summary>
         /// Creates a directory inside the user's app data folder to store the log file,
@@ -31,13 +35,13 @@ namespace Sonnenberg.Common
             }
 
             Directory.CreateDirectory(DirectoryTree);
-            log.Info("Successfully created directory structure in user AppData folder.");
+            Log.Info("Successfully created directory structure in user AppData folder.");
         }
 
         /// <summary>
         /// Creates the log file,
         /// if the folder does not exist.
-        /// </summary>
+        /// </summary>ee
         private static void AddLogfile()
         {
             if (File.Exists(Logfile)) return;
@@ -46,17 +50,16 @@ namespace Sonnenberg.Common
             {
                 using (File.Create(Logfile))
                 {
-                    log.Info($"Successfully created log file ({Logfile})");
+                    Log.Info($"Successfully created log file ({Logfile})");
                 }
             }
             catch (ArgumentException ex)
             {
-                log.Error($"{ex.Message} (Log4Net)");
-
+                Log.Error($"{ex.Message} (Log4Net)");
                 throw;
             }
         }
-        
+
         /// <summary>
         /// Creates a folder structure inside the user's add data directory,
         /// if it does not exist already.
@@ -66,7 +69,7 @@ namespace Sonnenberg.Common
             AddAppDataDirectory();
             AddLogfile();
         }
-        
+
         /// <summary>
         /// Configures the logger.
         /// </summary>
@@ -75,14 +78,15 @@ namespace Sonnenberg.Common
         {
             try
             {
-                var path = Path.Combine(Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ?? throw new FileNotFoundException(), ConfigFilename);
+                var path = Path.Combine(
+                    Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location) ??
+                    throw new FileNotFoundException(), ConfigFilename);
                 var configFile = new FileInfo(path);
                 XmlConfigurator.ConfigureAndWatch(configFile);
             }
             catch (FileNotFoundException ex)
             {
-                log.Error($"{ex.Message} (Logger)");
-
+                Log.Error($"{ex.Message} (Logger)");
                 throw;
             }
         }

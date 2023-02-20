@@ -168,7 +168,7 @@
   <data name="menuStripNameDirectoryMenu" xml:space="preserve">
     <value>Verzeichnis</value>
   </data>
-  <data name="menuStripNameFilesMenu" xml:space="preserve">
+  <data name="menuStripNameFileMenu" xml:space="preserve">
     <value>Datei</value>
   </data>
   <data name="menuStripNameFolderMenu" xml:space="preserve">
@@ -254,5 +254,86 @@
   </data>
   <data name="openFolderShortcutTargetFolderText" xml:space="preserve">
     <value>Zielverzeichnis öffnen</value>
+  </data>
+  <data name="openBashHereElevatedText" xml:space="preserve">
+    <value>Bash öffnen (Admin)</value>
+  </data>
+  <data name="openBashHereText" xml:space="preserve">
+    <value>Bash öffnen</value>
+  </data>
+  <data name="openBashInsideElevatedText" xml:space="preserve">
+    <value>Bash innerhalb öffnen (Admin)</value>
+  </data>
+  <data name="openBashInsideText" xml:space="preserve">
+    <value>Bash innerhalb öffnen</value>
+  </data>
+  <data name="openGitBashHereElevatedText" xml:space="preserve">
+    <value>GitBash öffnen (Admin)</value>
+  </data>
+  <data name="openGitBashHereText" xml:space="preserve">
+    <value>GitBash öffnen</value>
+  </data>
+  <data name="openGitBashInsideElevatedText" xml:space="preserve">
+    <value>GitBash innerhalb öffnen (Admin)</value>
+  </data>
+  <data name="openGitBashInsideText" xml:space="preserve">
+    <value>GitBash innerhalb öffnen</value>
+  </data>
+  <data name="openGitCmdHereElevatedText" xml:space="preserve">
+    <value>GitCMD öffnen (Admin)</value>
+  </data>
+  <data name="openGitCmdHereText" xml:space="preserve">
+    <value>GitCMD öffnen</value>
+  </data>
+  <data name="openGitCmdInsideElevatedText" xml:space="preserve">
+    <value>GitCMD innerhalb öffnen (Admin)</value>
+  </data>
+  <data name="openGitCmdInsideText" xml:space="preserve">
+    <value>GitCMD innerhalb öffnen</value>
+  </data>
+  <data name="openGitHereElevatedText" xml:space="preserve">
+    <value>Git öffnen (Admin)</value>
+  </data>
+  <data name="openGitHereText" xml:space="preserve">
+    <value>Git öffnen</value>
+  </data>
+  <data name="openGitInsideElevatedText" xml:space="preserve">
+    <value>Git innerhalb öffnen (Admin)</value>
+  </data>
+  <data name="openGitInsideText" xml:space="preserve">
+    <value>Git innerhalb öffnen</value>
+  </data>
+  <data name="openShHereElevatedText" xml:space="preserve">
+    <value>Shell öffnen (Admin)</value>
+  </data>
+  <data name="openShHereText" xml:space="preserve">
+    <value>Shell öffnen</value>
+  </data>
+  <data name="openShInsideElevatedText" xml:space="preserve">
+    <value>Shell innerhalb öffnen (Admin)</value>
+  </data>
+  <data name="openShInsideText" xml:space="preserve">
+    <value>Shell innerhalb öffnen</value>
+  </data>
+  <data name="startServerFail" xml:space="preserve">
+    <value>Sonnenberg Shell-ServerKonnte den Dienst nicht starten.</value>
+  </data>
+  <data name="stopServerFail" xml:space="preserve">
+    <value>Sonnenberg Shell-ServerKonnte den Dienst nicht stoppen.</value>
+  </data>
+  <data name="outOfMemoryError" xml:space="preserve">
+    <value>Zuwenig Speicher vorhanden, um die Operation auszuführen.</value>
+  </data>
+  <data name="outOfMemoryExceptionMessage" xml:space="preserve">
+    <value>ie Operation auszuführen.</value>
+  </data>
+  <data name="startServiceError" xml:space="preserve">
+    <value>Sonnenberg Service: Konnte den Dienst nicht starten.</value>
+  </data>
+  <data name="stopServiceError" xml:space="preserve">
+    <value>Sonnenberg Service: Konnte den Dienst nicht stoppen.</value>
+  </data>
+  <data name="readWindowsThemeRegKeyFailed" xml:space="preserve">
+    <value>Konnte das gegenwärtige Windows-Theme nicht ermitteln.</value>
   </data>
 </root>

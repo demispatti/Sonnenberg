@@ -261,4 +261,79 @@
   <data name="openFolderShortcutTargetFolderText" xml:space="preserve">
     <value>Open Target Folder</value>
   </data>
+  <data name="openBashHereElevatedText" xml:space="preserve">
+    <value>Open Bash (Admin)</value>
+  </data>
+  <data name="openBashHereText" xml:space="preserve">
+    <value>Open Bash</value>
+  </data>
+  <data name="openBashInsideElevatedText" xml:space="preserve">
+    <value>Open Bash Inside (Admin)</value>
+  </data>
+  <data name="openBashInsideText" xml:space="preserve">
+    <value>Open Bash Inside</value>
+  </data>
+  <data name="openGitBashHereElevatedText" xml:space="preserve">
+    <value>Open GitBash (Admin)</value>
+  </data>
+  <data name="openGitBashHereText" xml:space="preserve">
+    <value>Open GitBash</value>
+  </data>
+  <data name="openGitBashInsideElevatedText" xml:space="preserve">
+    <value>Open GitBash Inside (Admin)</value>
+  </data>
+  <data name="openGitBashInsideText" xml:space="preserve">
+    <value>Open GitBash Inside</value>
+  </data>
+  <data name="openGitCmdHereElevatedText" xml:space="preserve">
+    <value>Open GitCMD (Admin)</value>
+  </data>
+  <data name="openGitCmdHereText" xml:space="preserve">
+    <value>Open GitCMD</value>
+  </data>
+  <data name="openGitCmdInsideElevatedText" xml:space="preserve">
+    <value>Open GitCMD Inside (Admin)</value>
+  </data>
+  <data name="openGitCmdInsideText" xml:space="preserve">
+    <value>Open GitCMD Inside</value>
+  </data>
+  <data name="openGitHereElevatedText" xml:space="preserve">
+    <value>Open Git (Admin)</value>
+  </data>
+  <data name="openGitHereText" xml:space="preserve">
+    <value>Open Git</value>
+  </data>
+  <data name="openGitInsideElevatedText" xml:space="preserve">
+    <value>Open Git Inside (Admin)</value>
+  </data>
+  <data name="openGitInsideText" xml:space="preserve">
+    <value>Open Git Inside</value>
+  </data>
+  <data name="openShHereElevatedText" xml:space="preserve">
+    <value>Open Shell (Admin)</value>
+  </data>
+  <data name="openShHereText" xml:space="preserve">
+    <value>Open Shell</value>
+  </data>
+  <data name="openShInsideElevatedText" xml:space="preserve">
+    <value>Open Shell Inside (Admin)</value>
+  </data>
+  <data name="openShInsideText" xml:space="preserve">
+    <value>Open Shell Inside</value>
+  </data>
+  <data name="startServerFail" xml:space="preserve">
+    <value>Cold not start the server.</value>
+  </data>
+  <data name="stopServerFail" xml:space="preserve">
+    <value>Cold not stop the server.</value>
+  </data>
+  <data name="failedToStartApplicationError" xml:space="preserve">
+    <value>Failed to start the application. Please try again, or restart Windows Explorer and try again.</value>
+  </data>
+  <data name="failedToStopApplicationError" xml:space="preserve">
+    <value>Failed to stop the application. Please try again, or restart Windows Explorer and try again.</value>
+  </data>
+  <data name="readWindowsThemeRegKeyFailed" xml:space="preserve">
+    <value>Failed to determine the current Windows Theme.</value>
+  </data>
 </root>

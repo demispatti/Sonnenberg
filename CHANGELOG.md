@@ -1,3 +1,12 @@
+## Version 1.1.4.42
+
+### Changed
+- Refactored lots of code
+- Changed icons
+- Changed Setup.ps1
+- Added Reset.ps1
+- Updated readme.txt
+
 ## Version 1.1.0.0
 
 ### Changed

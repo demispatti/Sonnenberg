@@ -160,6 +160,24 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Failed to start the application. Please try again, or restart Windows Explorer and try again..
+        /// </summary>
+        public static string failedToStartApplicationError {
+            get {
+                return ResourceManager.GetString("failedToStartApplicationError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to stop the application. Please try again, or restart Windows Explorer and try again..
+        /// </summary>
+        public static string failedToStopApplicationError {
+            get {
+                return ResourceManager.GetString("failedToStopApplicationError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to File name.
         /// </summary>
         public static string fileName {
@@ -268,6 +286,42 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open Bash (Admin).
+        /// </summary>
+        public static string openBashHereElevatedText {
+            get {
+                return ResourceManager.GetString("openBashHereElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Bash.
+        /// </summary>
+        public static string openBashHereText {
+            get {
+                return ResourceManager.GetString("openBashHereText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Bash Inside (Admin).
+        /// </summary>
+        public static string openBashInsideElevatedText {
+            get {
+                return ResourceManager.GetString("openBashInsideElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Bash Inside.
+        /// </summary>
+        public static string openBashInsideText {
+            get {
+                return ResourceManager.GetString("openBashInsideText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Open CMD (Admin).
         /// </summary>
         public static string openCmdHereElevatedText {
@@ -322,6 +376,114 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open GitBash (Admin).
+        /// </summary>
+        public static string openGitBashHereElevatedText {
+            get {
+                return ResourceManager.GetString("openGitBashHereElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open GitBash.
+        /// </summary>
+        public static string openGitBashHereText {
+            get {
+                return ResourceManager.GetString("openGitBashHereText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open GitBash Inside (Admin).
+        /// </summary>
+        public static string openGitBashInsideElevatedText {
+            get {
+                return ResourceManager.GetString("openGitBashInsideElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open GitBash Inside.
+        /// </summary>
+        public static string openGitBashInsideText {
+            get {
+                return ResourceManager.GetString("openGitBashInsideText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open GitCMD (Admin).
+        /// </summary>
+        public static string openGitCmdHereElevatedText {
+            get {
+                return ResourceManager.GetString("openGitCmdHereElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open GitCMD.
+        /// </summary>
+        public static string openGitCmdHereText {
+            get {
+                return ResourceManager.GetString("openGitCmdHereText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open GitCMD Inside (Admin).
+        /// </summary>
+        public static string openGitCmdInsideElevatedText {
+            get {
+                return ResourceManager.GetString("openGitCmdInsideElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open GitCMD Inside.
+        /// </summary>
+        public static string openGitCmdInsideText {
+            get {
+                return ResourceManager.GetString("openGitCmdInsideText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Git (Admin).
+        /// </summary>
+        public static string openGitHereElevatedText {
+            get {
+                return ResourceManager.GetString("openGitHereElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Git.
+        /// </summary>
+        public static string openGitHereText {
+            get {
+                return ResourceManager.GetString("openGitHereText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Git Inside (Admin).
+        /// </summary>
+        public static string openGitInsideElevatedText {
+            get {
+                return ResourceManager.GetString("openGitInsideElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Git Inside.
+        /// </summary>
+        public static string openGitInsideText {
+            get {
+                return ResourceManager.GetString("openGitInsideText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Open Powershell (Admin).
         /// </summary>
         public static string openPowershellHereElevatedText {
@@ -358,6 +520,42 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Open Shell (Admin).
+        /// </summary>
+        public static string openShHereElevatedText {
+            get {
+                return ResourceManager.GetString("openShHereElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Shell.
+        /// </summary>
+        public static string openShHereText {
+            get {
+                return ResourceManager.GetString("openShHereText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Shell Inside (Admin).
+        /// </summary>
+        public static string openShInsideElevatedText {
+            get {
+                return ResourceManager.GetString("openShInsideElevatedText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Open Shell Inside.
+        /// </summary>
+        public static string openShInsideText {
+            get {
+                return ResourceManager.GetString("openShInsideText", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to The operation ran out of memory (OutOfMemory)..
         /// </summary>
         public static string outOfMemoryError {
@@ -381,6 +579,15 @@ namespace Sonnenberg.Language {
         public static string readFileError {
             get {
                 return ResourceManager.GetString("readFileError", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Failed to determine the current Windows Theme..
+        /// </summary>
+        public static string readWindowsThemeRegKeyFailed {
+            get {
+                return ResourceManager.GetString("readWindowsThemeRegKeyFailed", resourceCulture);
             }
         }
         
@@ -430,6 +637,15 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Cold not start the server..
+        /// </summary>
+        public static string startServerFail {
+            get {
+                return ResourceManager.GetString("startServerFail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Failed to start the application. Please try again, or restart Windows Explorer and try again..
         /// </summary>
         public static string startServiceError {
@@ -453,6 +669,15 @@ namespace Sonnenberg.Language {
         public static string startServiceSuccess {
             get {
                 return ResourceManager.GetString("startServiceSuccess", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Cold not stop the server..
+        /// </summary>
+        public static string stopServerFail {
+            get {
+                return ResourceManager.GetString("stopServerFail", resourceCulture);
             }
         }
         

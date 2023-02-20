@@ -63,25 +63,20 @@ Software:
 Visual Studio Extensions:
 - [Microsoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
 - WiX Toolset Visual Studio Extension from [here](https://wixtoolset.org/releases/)
-- [Wax](https://marketplace.visualstudio.com/items?itemName=TomEnglert.Wax)
 
 Project:
 - [Clone](https://github.com/demispatti/Sonnenberg.git) the repository.
 
 ---
 ## Automatic Project Setup (recommended)
-This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.  
-In addition, this method depends on the strong naming tool **Sn.exe**, which is part of any Windows SDK (and which will be located automatically, too).
+This step requires Powershell to be installed on your computer, which is shipped with all modern versions of Windows.
 
-### 1. Run Setup Solution
-Do **not open** any project files or the solution in an editor or an IDE while running the setup script, or you will get error messages and you will have to repeat the setup process.
-In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*. Enter your name and your company name. 
-This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup").
-After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution.
+### 1. Run Setup.ps1 with Powershell
+After the setup script has finished, open the solution with the IDE of your choice, restore NuGet packages and build the solution.
 
 ---
 ## Manual Project Setup
-If the Quick Start option should fail, you have to setup the solution manually. Just follow these simple steps in order to get up and running:
+If the Quick Start option should fail, you can setup the solution manually. Just follow these simple steps in order to get up and running:
 
 ### 1. Create Assembly Info GUIDs
 Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HERE.
@@ -89,21 +84,12 @@ Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HE
 ### 2. Create Product.wxs File GUIDs
 Inside the *Installer Project*, open Product.wxs and create *unique UPPERCASE* GUIDs in it where it says YOUR_GUID_HERE.
 
-### 3. Sign The Assemblies With A Strong  Name
-Sign the assemblies with a strong name (see [Docs](https://docs.microsoft.com/en-us/dotnet/standard/assembly/sign-strong-name)). Name the key file after the project, e.g. Common.snk, ContextMenu.snk, etc.
-
-If you wish to run the tests, you have to to sign the test assemblies with a strong name, too.
-For naming, skip the **.Tests** part from the project name, which would give a name like Common.snk, ContextMenu.snk, etc.
-
-### 4. Product.wxs: Enter Manufacturer Name
+### 3. Product.wxs: Enter Manufacturer Name
 Replace YOUR_MANUFACTURER_NAME_HERE with your name (required).
 
-### 5. Build The Solution
-Restore the packages and build the solution.
+### 4. Restore NuGet packages
 
----
-## Running The Tests
-Run the tests.
+### 5. Build The Solution
 
 ---
 ## Debugging The Shell Server
@@ -125,7 +111,7 @@ In order to debug the ShellServer.dll, you need a copy of the [SharpShell Server
 7. Debug.
 8. In order to rebuild, you need to go trough the *Stop Debugging* process described below.
 
-Note #3 (of 3):
+Note #3:
 In order to rebuild anything, you need to make sure the Shell Server ,A.K.A. ShellServer.dll, isn't installed and/or registered, since the file is locked by Windows Explorer during debugging as it is attached to an explorer.exe process. So you must have *Stopped Debugging* properly.
 In addition, the Server Manager Window needs to be closed.
 
@@ -177,7 +163,7 @@ Editor preferences are available in the [editor config](https://github.com/demis
 
 ---
 ## Versioning
-For transparency into our release cycle and in striving to maintain backward compatibility, Sonnenberg is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to those rules whenever possible.
+For transparency into my release cycle and in striving to maintain backward compatibility, Sonnenberg is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to those rules whenever possible.
 
 See [the Releases section of our GitHub project](https://github.com/demispatti/Sonnenberg/releases) for changelogs for each release version of Nicescroll.
 

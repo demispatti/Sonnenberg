@@ -7,7 +7,7 @@
 [Ll]ibrary
 
 # Complementary Subversion Repo for internal use only
-# .svn
+.svn
 
 # Mirrored key files
 keyfiles/
@@ -18,12 +18,15 @@ keyfiles/
 *.user
 *.userosscache
 *.sln.docstates
+.git/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
 # Build results
+[Aa]ssets/
 [Dd]ebug/
+[Dd]ebugging/
 [Dd]ebugPublic/
 [Rr]elease/
 [Rr]eleases/
@@ -35,6 +38,11 @@ x86/
 [Bb]in/
 [Oo]bj/
 [Ll]og/
+[Dd]ist/
+[Pp]ackages/*/
+[Uu]pgradeLog.htm
+[Ii]ntegrationTests.7z
+[Uu]nitTests.7z
 
 # Visual Studio 2015/2017 cache/options directory
 .vs/

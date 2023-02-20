@@ -14,5 +14,9 @@ namespace Sonnenberg.Service
         private void ServiceInstaller1_AfterInstall(object sender, InstallEventArgs e)
         {
         }
+
+        private void ServiceProcessInstaller_AfterInstall(object sender, InstallEventArgs e)
+        {
+        }
     }
 }

@@ -1,0 +1,2006 @@
+[
+  {
+    "Name": "4th Dimension Database Structure File",
+    "Extension": ".4db"
+  },
+  {
+    "Name": "Forth Language File",
+    "Extension": ".4th"
+  },
+  {
+    "Name": "Static Library",
+    "Extension": ".a"
+  },
+  {
+    "Name": "Alice World",
+    "Extension": ".a2w"
+  },
+  {
+    "Name": "ActionScript Byte Code File",
+    "Extension": ".abc"
+  },
+  {
+    "Name": "RSLogix 5000 Program",
+    "Extension": ".acd"
+  },
+  {
+    "Name": "Visual Studio Add-in Definition File",
+    "Extension": ".addin"
+  },
+  {
+    "Name": "Ada Specification File",
+    "Extension": ".ads"
+  },
+  {
+    "Name": "Asterisk Gateway Interface File",
+    "Extension": ".agi"
+  },
+  {
+    "Name": "MIT App Inventor Source Code File",
+    "Extension": ".aia"
+  },
+  {
+    "Name": "Android Interface Definition Language File",
+    "Extension": ".aidl"
+  },
+  {
+    "Name": "Alpha Five Library",
+    "Extension": ".alb"
+  },
+  {
+    "Name": "AutoPlay Media Studio 4 Project File",
+    "Extension": ".am4"
+  },
+  {
+    "Name": "AutoPlay Media Studio 5 Project File",
+    "Extension": ".am5"
+  },
+  {
+    "Name": "AutoPlay Media Studio 6 Project",
+    "Extension": ".am6"
+  },
+  {
+    "Name": "AutoPlay Media Studio 7 Project",
+    "Extension": ".am7"
+  },
+  {
+    "Name": "Adobe AIR Native Extension",
+    "Extension": ".ane"
+  },
+  {
+    "Name": "ADT Android Developer Package",
+    "Extension": ".ap_"
+  },
+  {
+    "Name": "RSView Development Project Archive",
+    "Extension": ".apa"
+  },
+  {
+    "Name": "Windows 8 App Package",
+    "Extension": ".appx"
+  },
+  {
+    "Name": "Windows 8 App Upload Package",
+    "Extension": ".appxupload"
+  },
+  {
+    "Name": "Visual C++ Resource File",
+    "Extension": ".aps"
+  },
+  {
+    "Name": "Android Package Resource File",
+    "Extension": ".arsc"
+  },
+  {
+    "Name": "Artifacts Project",
+    "Extension": ".artproj"
+  },
+  {
+    "Name": "ActionScript File",
+    "Extension": ".as"
+  },
+  {
+    "Name": "FlashDevelop ActionScript 2 Project File",
+    "Extension": ".as2proj"
+  },
+  {
+    "Name": "FlashDevelop ActionScript 3 Project File",
+    "Extension": ".as3proj"
+  },
+  {
+    "Name": "ActionScript Communication File",
+    "Extension": ".asc"
+  },
+  {
+    "Name": "Alpha Five Variable File",
+    "Extension": ".asi"
+  },
+  {
+    "Name": "Assembly Language Source Code File",
+    "Extension": ".asm"
+  },
+  {
+    "Name": "Visual Studio Assembler Source Code File",
+    "Extension": ".asm"
+  },
+  {
+    "Name": "Asphyre Sphinx Archive File",
+    "Extension": ".asvf"
+  },
+  {
+    "Name": "AutoIt v3 Script",
+    "Extension": ".au3"
+  },
+  {
+    "Name": "AutoPlay Media Studio Project File",
+    "Extension": ".autoplay"
+  },
+  {
+    "Name": "AWK Script",
+    "Extension": ".awk"
+  },
+  {
+    "Name": "BASIC Source File",
+    "Extension": ".b"
+  },
+  {
+    "Name": "BASIC Source Code File",
+    "Extension": ".bas"
+  },
+  {
+    "Name": "Blitz Source Code File",
+    "Extension": ".bb"
+  },
+  {
+    "Name": "BBC BASIC Data File",
+    "Extension": ".bbc"
+  },
+  {
+    "Name": "BBEdit Project File",
+    "Extension": ".bbproject"
+  },
+  {
+    "Name": "BBEdit Project Document",
+    "Extension": ".bbprojectd"
+  },
+  {
+    "Name": "Borland C++ Makefile",
+    "Extension": ".bcp"
+  },
+  {
+    "Name": "Borland Developer Studio Project",
+    "Extension": ".bdsproj"
+  },
+  {
+    "Name": "BETA Source File",
+    "Extension": ".bet"
+  },
+  {
+    "Name": "BlueJ Package File",
+    "Extension": ".bluej"
+  },
+  {
+    "Name": "Borland Project Group",
+    "Extension": ".bpg"
+  },
+  {
+    "Name": "Borland Package Library",
+    "Extension": ".bpl"
+  },
+  {
+    "Name": "BREW Application Resource File",
+    "Extension": ".brx"
+  },
+  {
+    "Name": "BASIC Stamp 2 Code File",
+    "Extension": ".bs2"
+  },
+  {
+    "Name": "Visual Studio Source Browser Information File",
+    "Extension": ".bsc"
+  },
+  {
+    "Name": "C/C++ Source Code File",
+    "Extension": ".c"
+  },
+  {
+    "Name": "Lite-C Script",
+    "Extension": ".c"
+  },
+  {
+    "Name": "CryENGINE Character Animation File",
+    "Extension": ".caf"
+  },
+  {
+    "Name": "Construct Project File",
+    "Extension": ".caproj"
+  },
+  {
+    "Name": "Construct Compressed Project File",
+    "Extension": ".capx"
+  },
+  {
+    "Name": "COBOL Source Code File",
+    "Extension": ".cbl"
+  },
+  {
+    "Name": "Code::Blocks Project File",
+    "Extension": ".cbp"
+  },
+  {
+    "Name": "C++ Source Code File",
+    "Extension": ".cc"
+  },
+  {
+    "Name": "XNA Creators Club Game Package",
+    "Extension": ".ccgame"
+  },
+  {
+    "Name": "Compressed Multimedia Fusion File",
+    "Extension": ".ccn"
+  },
+  {
+    "Name": "CodeCharge Studio Page File",
+    "Extension": ".ccp"
+  },
+  {
+    "Name": "CodeCharge Studio Project File",
+    "Extension": ".ccs"
+  },
+  {
+    "Name": "Visual Studio Class Diagram",
+    "Extension": ".cd"
+  },
+  {
+    "Name": "CryENGINE Character Definition File",
+    "Extension": ".cdf"
+  },
+  {
+    "Name": "ColdFusion Component File",
+    "Extension": ".cfc"
+  },
+  {
+    "Name": "Java Class File",
+    "Extension": ".class"
+  },
+  {
+    "Name": "Coda Clips File",
+    "Extension": ".clips"
+  },
+  {
+    "Name": "Program Class File",
+    "Extension": ".cls"
+  },
+  {
+    "Name": "Visual C++ ClassWizard File",
+    "Extension": ".clw"
+  },
+  {
+    "Name": "COBOL Source Code File",
+    "Extension": ".cob"
+  },
+  {
+    "Name": "Compiled Source Code",
+    "Extension": ".cod"
+  },
+  {
+    "Name": "Configuration File",
+    "Extension": ".config"
+  },
+  {
+    "Name": "Xcode C++ Source File",
+    "Extension": ".cp"
+  },
+  {
+    "Name": "Captivate Source File",
+    "Extension": ".cp"
+  },
+  {
+    "Name": "C++ Source Code File",
+    "Extension": ".cpp"
+  },
+  {
+    "Name": "C# Source Code File",
+    "Extension": ".cs"
+  },
+  {
+    "Name": "ContentServ Include File",
+    "Extension": ".csi"
+  },
+  {
+    "Name": "EdLog Program Data File",
+    "Extension": ".csi"
+  },
+  {
+    "Name": "Adobe Code Snippet Document",
+    "Extension": ".csn"
+  },
+  {
+    "Name": "Caché Server Page",
+    "Extension": ".csp"
+  },
+  {
+    "Name": "Visual Studio C# Project",
+    "Extension": ".csproj"
+  },
+  {
+    "Name": "Visual C# Script",
+    "Extension": ".csx"
+  },
+  {
+    "Name": "Visual Basic UserControl Object File",
+    "Extension": ".ctl"
+  },
+  {
+    "Name": "CakePHP Template",
+    "Extension": ".ctp"
+  },
+  {
+    "Name": "BlueJ Context File",
+    "Extension": ".ctxt"
+  },
+  {
+    "Name": "CUDA Source Code File",
+    "Extension": ".cu"
+  },
+  {
+    "Name": "CVS Command File",
+    "Extension": ".cvsrc"
+  },
+  {
+    "Name": "CX-Programmer Project File",
+    "Extension": ".cxp"
+  },
+  {
+    "Name": "C++ Source Code File",
+    "Extension": ".cxx"
+  },
+  {
+    "Name": "D Source Code File",
+    "Extension": ".d"
+  },
+  {
+    "Name": "CryENGINE Animation Database File",
+    "Extension": ".dba"
+  },
+  {
+    "Name": "DarkBASIC Source Code File",
+    "Extension": ".dba"
+  },
+  {
+    "Name": "Visual Studio OR Design File",
+    "Extension": ".dbml"
+  },
+  {
+    "Name": "DarkBASIC Object",
+    "Extension": ".dbo"
+  },
+  {
+    "Name": "DarkBASIC Professional Project File",
+    "Extension": ".dbpro"
+  },
+  {
+    "Name": "Visual Studio Database Project File",
+    "Extension": ".dbproj"
+  },
+  {
+    "Name": "Delphi Compiled Package",
+    "Extension": ".dcp"
+  },
+  {
+    "Name": "Dashcode Project",
+    "Extension": ".dcproj"
+  },
+  {
+    "Name": "Delphi Compiled Unit",
+    "Extension": ".dcu"
+  },
+  {
+    "Name": "Delphi .NET Compiled Unit File",
+    "Extension": ".dcuil"
+  },
+  {
+    "Name": "Declaration File",
+    "Extension": ".dec"
+  },
+  {
+    "Name": "Module-Definition File",
+    "Extension": ".def"
+  },
+  {
+    "Name": "Device Identification FIle",
+    "Extension": ".deviceids"
+  },
+  {
+    "Name": "Dalvik Executable File",
+    "Extension": ".dex"
+  },
+  {
+    "Name": "Omnis Native Datafile",
+    "Extension": ".df1"
+  },
+  {
+    "Name": "Delphi Form",
+    "Extension": ".dfm"
+  },
+  {
+    "Name": "Visual Studio Directed Graph Document",
+    "Extension": ".dgml"
+  },
+  {
+    "Name": "Visual Shader Graph File",
+    "Extension": ".dgsl"
+  },
+  {
+    "Name": "Patch File",
+    "Extension": ".diff"
+  },
+  {
+    "Name": "ER/Studio Data Model File",
+    "Extension": ".dm1"
+  },
+  {
+    "Name": "SQL Developer Data Modeler File",
+    "Extension": ".dmd"
+  },
+  {
+    "Name": "Visual Basic UserDocument",
+    "Extension": ".dob"
+  },
+  {
+    "Name": "Visual Basic Binary UserDocument",
+    "Extension": ".dox"
+  },
+  {
+    "Name": "Delphi Package",
+    "Extension": ".dpk"
+  },
+  {
+    "Name": "Delphi Package",
+    "Extension": ".dpkw"
+  },
+  {
+    "Name": "Delphi Package Library",
+    "Extension": ".dpl"
+  },
+  {
+    "Name": "Delphi Project",
+    "Extension": ".dpr"
+  },
+  {
+    "Name": "Delphi Project",
+    "Extension": ".dproj"
+  },
+  {
+    "Name": "DS Game Maker Project",
+    "Extension": ".dsgm"
+  },
+  {
+    "Name": "Visual C++ 6 Project",
+    "Extension": ".dsp"
+  },
+  {
+    "Name": "Document Type Definition File",
+    "Extension": ".dtd"
+  },
+  {
+    "Name": "Adobe Extension Data Markup Language Document",
+    "Extension": ".edml"
+  },
+  {
+    "Name": "ADO.NET Entity Data Model Designer File",
+    "Extension": ".edmx"
+  },
+  {
+    "Name": "External Entity",
+    "Extension": ".ent"
+  },
+  {
+    "Name": "Mac App Sandboxing Entitlements File",
+    "Extension": ".entitlements"
+  },
+  {
+    "Name": "Embedded SQL File",
+    "Extension": ".eql"
+  },
+  {
+    "Name": "Ruby ERB Script",
+    "Extension": ".erb"
+  },
+  {
+    "Name": "Erlang Source Code File",
+    "Extension": ".erl"
+  },
+  {
+    "Name": "Euphoria Source Code",
+    "Extension": ".ex"
+  },
+  {
+    "Name": "Symbols Export File",
+    "Extension": ".exp"
+  },
+  {
+    "Name": "Euphoria Source code File",
+    "Extension": ".exw"
+  },
+  {
+    "Name": "Fortran Source Code",
+    "Extension": ".f"
+  },
+  {
+    "Name": "Fortran 90 Source Code File",
+    "Extension": ".f90"
+  },
+  {
+    "Name": "wxFormBuilder Project",
+    "Extension": ".fbp"
+  },
+  {
+    "Name": "Compressed FinalBuilder 7 Project",
+    "Extension": ".fbz7"
+  },
+  {
+    "Name": "Fifth Generation Language Source File",
+    "Extension": ".fgl"
+  },
+  {
+    "Name": "Adobe Animate Animation",
+    "Extension": ".fla"
+  },
+  {
+    "Name": "Fortran 77 Source File",
+    "Extension": ".for"
+  },
+  {
+    "Name": "Forth Language File",
+    "Extension": ".forth"
+  },
+  {
+    "Name": "FPS Creator Map File",
+    "Extension": ".fpm"
+  },
+  {
+    "Name": "Mac OS X Application Framework",
+    "Extension": ".framework"
+  },
+  {
+    "Name": "Visual Basic Binary Form File",
+    "Extension": ".frx"
+  },
+  {
+    "Name": "Visual F# Source File",
+    "Extension": ".fs"
+  },
+  {
+    "Name": "Visual F# Signature File",
+    "Extension": ".fsi"
+  },
+  {
+    "Name": "Visual F# Project File",
+    "Extension": ".fsproj"
+  },
+  {
+    "Name": "FireStarter Project File",
+    "Extension": ".fsproj"
+  },
+  {
+    "Name": "Visual F# Script",
+    "Extension": ".fsscript"
+  },
+  {
+    "Name": "Visual F# Script File",
+    "Extension": ".fsx"
+  },
+  {
+    "Name": "FreeMarker Template File",
+    "Extension": ".ftl"
+  },
+  {
+    "Name": "Fortran Source Code File",
+    "Extension": ".ftn"
+  },
+  {
+    "Name": "FilePackager Configuration",
+    "Extension": ".fxc"
+  },
+  {
+    "Name": "FX Composer Project File",
+    "Extension": ".fxcproj"
+  },
+  {
+    "Name": "FaceFX Language File",
+    "Extension": ".fxl"
+  },
+  {
+    "Name": "FXML Source Code File",
+    "Extension": ".fxml"
+  },
+  {
+    "Name": "Adobe Flash FXP Library",
+    "Extension": ".fxpl"
+  },
+  {
+    "Name": "GameSalad Project File",
+    "Extension": ".gameproj"
+  },
+  {
+    "Name": "Precompiled Header File",
+    "Extension": ".gch"
+  },
+  {
+    "Name": "Game Editor Project File",
+    "Extension": ".ged"
+  },
+  {
+    "Name": "RubyGems Package",
+    "Extension": ".gem"
+  },
+  {
+    "Name": "Gem Specification File",
+    "Extension": ".gemspec"
+  },
+  {
+    "Name": "Greenfoot Archive",
+    "Extension": ".gfar"
+  },
+  {
+    "Name": "Git Attributes File",
+    "Extension": ".gitattributes"
+  },
+  {
+    "Name": "Git Ignore File",
+    "Extension": ".gitignore"
+  },
+  {
+    "Name": "MPLAB C Compiler Linker Script File",
+    "Extension": ".gld"
+  },
+  {
+    "Name": "GameMaker 6 Project File",
+    "Extension": ".gm6"
+  },
+  {
+    "Name": "Game Maker 8.1 Project File",
+    "Extension": ".gm81"
+  },
+  {
+    "Name": "Game Maker Program Code",
+    "Extension": ".gmd"
+  },
+  {
+    "Name": "Game Maker Project File",
+    "Extension": ".gmk"
+  },
+  {
+    "Name": "GNU Machine Object File",
+    "Extension": ".gmo"
+  },
+  {
+    "Name": "GameMaker File",
+    "Extension": ".gmx"
+  },
+  {
+    "Name": "Gorm Interface Resource File",
+    "Extension": ".gorm"
+  },
+  {
+    "Name": "Greenfoot Project Archive",
+    "Extension": ".greenfoot"
+  },
+  {
+    "Name": "Groovy Source Code File",
+    "Extension": ".groovy"
+  },
+  {
+    "Name": "Delphi Project Group File",
+    "Extension": ".groupproj"
+  },
+  {
+    "Name": "Google Apps Script",
+    "Extension": ".gs"
+  },
+  {
+    "Name": "GameStarter File",
+    "Extension": ".gs3"
+  },
+  {
+    "Name": "C/C++/Objective-C Header File",
+    "Extension": ".h"
+  },
+  {
+    "Name": "HansaWorld Application Language File",
+    "Extension": ".hal"
+  },
+  {
+    "Name": "Haml Source Code File",
+    "Extension": ".haml"
+  },
+  {
+    "Name": "Haskell Script",
+    "Extension": ".has"
+  },
+  {
+    "Name": "Handlebars Template",
+    "Extension": ".hbs"
+  },
+  {
+    "Name": "C++ Header File",
+    "Extension": ".hh"
+  },
+  {
+    "Name": "High Performance Fortran File",
+    "Extension": ".hpf"
+  },
+  {
+    "Name": "C++ Header File",
+    "Extension": ".hpp"
+  },
+  {
+    "Name": "Haskell Script",
+    "Extension": ".hs"
+  },
+  {
+    "Name": "C++ Source Code Header File",
+    "Extension": ".hxx"
+  },
+  {
+    "Name": "Visual Studio Intermediate File",
+    "Extension": ".i"
+  },
+  {
+    "Name": "Mac OS X Icon Set Folder",
+    "Extension": ".iconset"
+  },
+  {
+    "Name": "Visual Studio Intermediate Debug File",
+    "Extension": ".idb"
+  },
+  {
+    "Name": "Interface Definition Language File",
+    "Extension": ".idl"
+  },
+  {
+    "Name": "Windows Installer Database Text Archive File",
+    "Extension": ".idt"
+  },
+  {
+    "Name": "Incremental Linking File",
+    "Extension": ".ilk"
+  },
+  {
+    "Name": "IntelliJ IDEA Module",
+    "Extension": ".iml"
+  },
+  {
+    "Name": "Include File",
+    "Extension": ".inc"
+  },
+  {
+    "Name": "C++ Inline File",
+    "Extension": ".inl"
+  },
+  {
+    "Name": "Arduino Sketch File",
+    "Extension": ".ino"
+  },
+  {
+    "Name": "Intellisense Precompiled Header File",
+    "Extension": ".ipch"
+  },
+  {
+    "Name": "InstallShield Professional Project File",
+    "Extension": ".ipr"
+  },
+  {
+    "Name": "IntelliJ IDEA Project File",
+    "Extension": ".ipr"
+  },
+  {
+    "Name": "InstallShield Express Project File",
+    "Extension": ".ise"
+  },
+  {
+    "Name": "InstallShield Project File",
+    "Extension": ".ism"
+  },
+  {
+    "Name": "InstallShield Project Template File",
+    "Extension": ".ist"
+  },
+  {
+    "Name": "IWBasic Source Code File",
+    "Extension": ".iwb"
+  },
+  {
+    "Name": "IntelliJ IDEA Web Page",
+    "Extension": ".iws"
+  },
+  {
+    "Name": "Java Source Code File",
+    "Extension": ".java"
+  },
+  {
+    "Name": "JCreator Project File",
+    "Extension": ".jcp"
+  },
+  {
+    "Name": "JTAG Indirect Configuration File",
+    "Extension": ".jic"
+  },
+  {
+    "Name": "JBuilder Project",
+    "Extension": ".jpr"
+  },
+  {
+    "Name": "JBuilder Project",
+    "Extension": ".jpx"
+  },
+  {
+    "Name": "Animate JSFL Script File",
+    "Extension": ".jsfl"
+  },
+  {
+    "Name": "Java Server Page Fragment",
+    "Extension": ".jspf"
+  },
+  {
+    "Name": "KDevelop Project Data File",
+    "Extension": ".kdevelop"
+  },
+  {
+    "Name": "KDevelop Project File",
+    "Extension": ".kdevprj"
+  },
+  {
+    "Name": "Kids Programming Language File",
+    "Extension": ".kpl"
+  },
+  {
+    "Name": "Lex Source File",
+    "Extension": ".l"
+  },
+  {
+    "Name": "Dreamweaver Library Item",
+    "Extension": ".lbi"
+  },
+  {
+    "Name": "Omnis Library",
+    "Extension": ".lbs"
+  },
+  {
+    "Name": "Binutils LD Linker Script",
+    "Extension": ".lds"
+  },
+  {
+    "Name": "Logo Instructions File",
+    "Extension": ".lgo"
+  },
+  {
+    "Name": "Literate Haskell Script",
+    "Extension": ".lhs"
+  },
+  {
+    "Name": "Visual Studio Licensed Classes File",
+    "Extension": ".licenses"
+  },
+  {
+    "Name": "Visual Studio License File",
+    "Extension": ".licx"
+  },
+  {
+    "Name": "Lisp Source Code File",
+    "Extension": ".lisp"
+  },
+  {
+    "Name": "Literate Haskell Script",
+    "Extension": ".lit"
+  },
+  {
+    "Name": "LiveCode Stack File",
+    "Extension": ".livecode"
+  },
+  {
+    "Name": "PC-lint/FlexeLint Configuration File",
+    "Extension": ".lnt"
+  },
+  {
+    "Name": "Localized Project Folder",
+    "Extension": ".lproj"
+  },
+  {
+    "Name": "Visual Studio LightSwitch Project",
+    "Extension": ".lsproj"
+  },
+  {
+    "Name": "LithTech Binary File",
+    "Extension": ".ltb"
+  },
+  {
+    "Name": "Lua Source File",
+    "Extension": ".lua"
+  },
+  {
+    "Name": "Lucid Snippet File",
+    "Extension": ".lucidsnippet"
+  },
+  {
+    "Name": "Liquid XML Studio Project File",
+    "Extension": ".lxsproj"
+  },
+  {
+    "Name": "Objective-C Implementation File",
+    "Extension": ".m"
+  },
+  {
+    "Name": "MATLAB Source Code File",
+    "Extension": ".m"
+  },
+  {
+    "Name": "Macro Processor Library",
+    "Extension": ".m4"
+  },
+  {
+    "Name": "Magik Source Code File",
+    "Extension": ".magik"
+  },
+  {
+    "Name": "Makefile",
+    "Extension": ".mak"
+  },
+  {
+    "Name": "Markdown Documentation File",
+    "Extension": ".markdown"
+  },
+  {
+    "Name": "CodeWarrior Project",
+    "Extension": ".mcp"
+  },
+  {
+    "Name": "Markdown Documentation File",
+    "Extension": ".md"
+  },
+  {
+    "Name": "MagicDraw Project Archive",
+    "Extension": ".mdzip"
+  },
+  {
+    "Name": "RSView Development Runtime File",
+    "Extension": ".mer"
+  },
+  {
+    "Name": "Java Manifest File",
+    "Extension": ".mf"
+  },
+  {
+    "Name": "Multimedia Fusion Development File",
+    "Extension": ".mfa"
+  },
+  {
+    "Name": "Makefile",
+    "Extension": ".mk"
+  },
+  {
+    "Name": "ML Source Code File",
+    "Extension": ".ml"
+  },
+  {
+    "Name": "Objective-C++ Source File",
+    "Extension": ".mm"
+  },
+  {
+    "Name": "Machine Object File",
+    "Extension": ".mo"
+  },
+  {
+    "Name": "Fortran Module File",
+    "Extension": ".mod"
+  },
+  {
+    "Name": "Managed Object Model",
+    "Extension": ".mom"
+  },
+  {
+    "Name": "FoxPro Generated Menu Program",
+    "Extension": ".mpr"
+  },
+  {
+    "Name": "Stimulsoft Report File",
+    "Extension": ".mrt"
+  },
+  {
+    "Name": "Microsoft Help Asset File",
+    "Extension": ".msha"
+  },
+  {
+    "Name": "Microsoft Help Container File",
+    "Extension": ".mshc"
+  },
+  {
+    "Name": "Microsoft Help Index File",
+    "Extension": ".mshi"
+  },
+  {
+    "Name": "MSIX Installer Package",
+    "Extension": ".msix"
+  },
+  {
+    "Name": "Mapping Specification Language File",
+    "Extension": ".msl"
+  },
+  {
+    "Name": "MaxScript Page File",
+    "Extension": ".msp"
+  },
+  {
+    "Name": "Microprocessor Software Specification File",
+    "Extension": ".mss"
+  },
+  {
+    "Name": "MivaScript File",
+    "Extension": ".mv"
+  },
+  {
+    "Name": "Flex MXML Component",
+    "Extension": ".mxml"
+  },
+  {
+    "Name": "Visual Studio Application XML File",
+    "Extension": ".myapp"
+  },
+  {
+    "Name": "Next Byte Codes Source Code File",
+    "Extension": ".nbc"
+  },
+  {
+    "Name": "Visual C++ IntelliSense Database",
+    "Extension": ".ncb"
+  },
+  {
+    "Name": "OMNeT++ Network Description File",
+    "Extension": ".ned"
+  },
+  {
+    "Name": "Delphi .NET Form File",
+    "Extension": ".nfm"
+  },
+  {
+    "Name": "Interface Builder User Interface File",
+    "Extension": ".nib"
+  },
+  {
+    "Name": "NUKE Script",
+    "Extension": ".nk"
+  },
+  {
+    "Name": "NetLogo Source File",
+    "Extension": ".nls"
+  },
+  {
+    "Name": "Not Quite C Source Code File",
+    "Extension": ".nqc"
+  },
+  {
+    "Name": "NSIS Header File",
+    "Extension": ".nsh"
+  },
+  {
+    "Name": "NSIS Script",
+    "Extension": ".nsi"
+  },
+  {
+    "Name": "NuGet Package",
+    "Extension": ".nupkg"
+  },
+  {
+    "Name": "NuGet Specification File",
+    "Extension": ".nuspec"
+  },
+  {
+    "Name": "NVIDIA Vertex Shader File",
+    "Extension": ".nvv"
+  },
+  {
+    "Name": "Node-Webkit App Package",
+    "Extension": ".nw"
+  },
+  {
+    "Name": "Not eXactly C Source Code File",
+    "Extension": ".nxc"
+  },
+  {
+    "Name": "Compiled Object File",
+    "Extension": ".o"
+  },
+  {
+    "Name": "Custom Control Library Type File",
+    "Extension": ".oca"
+  },
+  {
+    "Name": "Xcode Objective-C Unit Test Bundle",
+    "Extension": ".octest"
+  },
+  {
+    "Name": "ActiveX Control",
+    "Extension": ".ocx"
+  },
+  {
+    "Name": "Object Description Language File",
+    "Extension": ".odl"
+  },
+  {
+    "Name": "OMake Object File",
+    "Extension": ".omo"
+  },
+  {
+    "Name": "OWL Source Code File",
+    "Extension": ".owl"
+  },
+  {
+    "Name": "Pascal Source Code",
+    "Extension": ".p"
+  },
+  {
+    "Name": "Panda3D Multifile",
+    "Extension": ".p3d"
+  },
+  {
+    "Name": "Pascal Source File",
+    "Extension": ".pas"
+  },
+  {
+    "Name": "Delphi Unit Source File",
+    "Extension": ".pas"
+  },
+  {
+    "Name": "Patch File",
+    "Extension": ".patch"
+  },
+  {
+    "Name": "PureBasic Source File",
+    "Extension": ".pb"
+  },
+  {
+    "Name": "Pixel Bender Graph File",
+    "Extension": ".pbg"
+  },
+  {
+    "Name": "Pixel Bender Bytecode File",
+    "Extension": ".pbj"
+  },
+  {
+    "Name": "Pixel Bender Kernel File",
+    "Extension": ".pbk"
+  },
+  {
+    "Name": "Xcode Auto-Complete File",
+    "Extension": ".pbxbtree"
+  },
+  {
+    "Name": "Xcode Project Data File",
+    "Extension": ".pbxproj"
+  },
+  {
+    "Name": "Xcode Project User Data File",
+    "Extension": ".pbxuser"
+  },
+  {
+    "Name": "Precompiled Header File",
+    "Extension": ".pch"
+  },
+  {
+    "Name": "Windows Installer Patch Creation Properties File",
+    "Extension": ".pcp"
+  },
+  {
+    "Name": "Processing Development Environment Source Code File",
+    "Extension": ".pde"
+  },
+  {
+    "Name": "VB Project Information File",
+    "Extension": ".pdm"
+  },
+  {
+    "Name": "Perl Header File",
+    "Extension": ".ph"
+  },
+  {
+    "Name": "Pika Software Builder Project File",
+    "Extension": ".pika"
+  },
+  {
+    "Name": "FoxPro Project",
+    "Extension": ".pjx"
+  },
+  {
+    "Name": "Visual Studio Shell File",
+    "Extension": ".pkgdef"
+  },
+  {
+    "Name": "Visual Studio Shell File",
+    "Extension": ".pkgundef"
+  },
+  {
+    "Name": "Perl Script",
+    "Extension": ".pl"
+  },
+  {
+    "Name": "Prolog Source Code File",
+    "Extension": ".pl"
+  },
+  {
+    "Name": "PL/I Source Code",
+    "Extension": ".pl1"
+  },
+  {
+    "Name": "Xcode Playground File",
+    "Extension": ".playground"
+  },
+  {
+    "Name": "PL/B Source File",
+    "Extension": ".plc"
+  },
+  {
+    "Name": "Messenger Plus! Live Encrypted Log File",
+    "Extension": ".ple"
+  },
+  {
+    "Name": "PL/I Source Code File",
+    "Extension": ".pli"
+  },
+  {
+    "Name": "Perl Module",
+    "Extension": ".pm"
+  },
+  {
+    "Name": "Portable Object",
+    "Extension": ".po"
+  },
+  {
+    "Name": "Perl POD File",
+    "Extension": ".pod"
+  },
+  {
+    "Name": "Portable Object File",
+    "Extension": ".pot"
+  },
+  {
+    "Name": "Mobile Data Studio Project File",
+    "Extension": ".ppc"
+  },
+  {
+    "Name": "Visual FoxPro Program File",
+    "Extension": ".prg"
+  },
+  {
+    "Name": "RAPID Program File",
+    "Extension": ".prg"
+  },
+  {
+    "Name": "Qt Project Include File",
+    "Extension": ".pri"
+  },
+  {
+    "Name": "Package Resource Index File",
+    "Extension": ".pri"
+  },
+  {
+    "Name": "Qt Project File",
+    "Extension": ".pro"
+  },
+  {
+    "Name": "Protocol Buffer File",
+    "Extension": ".proto"
+  },
+  {
+    "Name": "Papyrus Script",
+    "Extension": ".psc"
+  },
+  {
+    "Name": "Windows PowerShell Script Module File",
+    "Extension": ".psm1"
+  },
+  {
+    "Name": "Rational Rose Petal File",
+    "Extension": ".ptl"
+  },
+  {
+    "Name": "Pawn Source Code File",
+    "Extension": ".pwn"
+  },
+  {
+    "Name": "Pyrex Definition File",
+    "Extension": ".pxd"
+  },
+  {
+    "Name": "Python Script",
+    "Extension": ".py"
+  },
+  {
+    "Name": "Python Dynamic Module",
+    "Extension": ".pyd"
+  },
+  {
+    "Name": "Python GUI Source File",
+    "Extension": ".pyw"
+  },
+  {
+    "Name": "Pyrex Source Code File",
+    "Extension": ".pyx"
+  },
+  {
+    "Name": "FoxPro Generated Query Program",
+    "Extension": ".qpr"
+  },
+  {
+    "Name": "Rez Source Code File",
+    "Extension": ".r"
+  },
+  {
+    "Name": "R Script File",
+    "Extension": ".r"
+  },
+  {
+    "Name": "REBOL Script",
+    "Extension": ".r"
+  },
+  {
+    "Name": "Rave Reports Project File",
+    "Extension": ".rav"
+  },
+  {
+    "Name": "Ruby Source Code",
+    "Extension": ".rb"
+  },
+  {
+    "Name": "Rembo-C Script",
+    "Extension": ".rbc"
+  },
+  {
+    "Name": "Real Studio Project File",
+    "Extension": ".rbp"
+  },
+  {
+    "Name": "Ruby Script",
+    "Extension": ".rbw"
+  },
+  {
+    "Name": "Resource Script",
+    "Extension": ".rc"
+  },
+  {
+    "Name": "Visual Studio Resources File",
+    "Extension": ".rc2"
+  },
+  {
+    "Name": "Visual Studio Client Report Definition File",
+    "Extension": ".rdlc"
+  },
+  {
+    "Name": "Visual Studio Refresh File",
+    "Extension": ".refresh"
+  },
+  {
+    "Name": "C++ Complied Resource Script",
+    "Extension": ".res"
+  },
+  {
+    "Name": "Windows Resource File",
+    "Extension": ".res"
+  },
+  {
+    "Name": "Windows JavaScript Resources File",
+    "Extension": ".resjson"
+  },
+  {
+    "Name": "Visual Studio Resource File",
+    "Extension": ".resources"
+  },
+  {
+    "Name": "Windows Resources File",
+    "Extension": ".resw"
+  },
+  {
+    "Name": ".NET Managed Resources File",
+    "Extension": ".resx"
+  },
+  {
+    "Name": "Rexx Source File",
+    "Extension": ".rexx"
+  },
+  {
+    "Name": "RISE Editor Model File",
+    "Extension": ".rise"
+  },
+  {
+    "Name": "Racket Source Code File",
+    "Extension": ".rkt"
+  },
+  {
+    "Name": "RELAX NG Compact Syntax File",
+    "Extension": ".rnc"
+  },
+  {
+    "Name": "RemObjects Definition Language File",
+    "Extension": ".rodl"
+  },
+  {
+    "Name": "Python Script",
+    "Extension": ".rpy"
+  },
+  {
+    "Name": "Macintosh Resource File",
+    "Extension": ".rsrc"
+  },
+  {
+    "Name": "Symbian Application Resource File",
+    "Extension": ".rss"
+  },
+  {
+    "Name": "InstallShield Rules File",
+    "Extension": ".rul"
+  },
+  {
+    "Name": "Source Code File",
+    "Extension": ".s"
+  },
+  {
+    "Name": "Motorola S19 File Record",
+    "Extension": ".s19"
+  },
+  {
+    "Name": "SAS Program File",
+    "Extension": ".sas"
+  },
+  {
+    "Name": "Scratch Project File",
+    "Extension": ".sb"
+  },
+  {
+    "Name": "Scratch 2.0 Project File",
+    "Extension": ".sb2"
+  },
+  {
+    "Name": "Scratch 3.0 Project File",
+    "Extension": ".sb3"
+  },
+  {
+    "Name": "OpenGL Shader Builder Project",
+    "Extension": ".sbproj"
+  },
+  {
+    "Name": "SuperCollider Source Code File",
+    "Extension": ".sc"
+  },
+  {
+    "Name": "SourceSafe Source Code Control File",
+    "Extension": ".scc"
+  },
+  {
+    "Name": "AppleScript Script Suite File",
+    "Extension": ".scriptsuite"
+  },
+  {
+    "Name": "AppleScript Script Terminology File",
+    "Extension": ".scriptterminology"
+  },
+  {
+    "Name": "AppleScript Dictionary Document",
+    "Extension": ".sdef"
+  },
+  {
+    "Name": "Bash Shell Script",
+    "Extension": ".sh"
+  },
+  {
+    "Name": "Visual Studio Solution File",
+    "Extension": ".sln"
+  },
+  {
+    "Name": "StarLogo Project File",
+    "Extension": ".slogo"
+  },
+  {
+    "Name": "StarLogo TNG Project File",
+    "Extension": ".sltng"
+  },
+  {
+    "Name": "AMX Mod Plugin Source File",
+    "Extension": ".sma"
+  },
+  {
+    "Name": "Android Smali Assembly Language File",
+    "Extension": ".smali"
+  },
+  {
+    "Name": "Visual Studio IntelliSense Code Snippet",
+    "Extension": ".snippet"
+  },
+  {
+    "Name": "Shared Library",
+    "Extension": ".so"
+  },
+  {
+    "Name": "RPM Specification File",
+    "Extension": ".spec"
+  },
+  {
+    "Name": "Visual Studio SQL Server Project",
+    "Extension": ".sqlproj"
+  },
+  {
+    "Name": "Source Code",
+    "Extension": ".src"
+  },
+  {
+    "Name": "Red Hat Package Manager Source File",
+    "Extension": ".src.rpm"
+  },
+  {
+    "Name": "SilverStripe Source Code File",
+    "Extension": ".ss"
+  },
+  {
+    "Name": "SourceSafe Status File",
+    "Extension": ".ssc"
+  },
+  {
+    "Name": "Adobe Dreamweaver Server Side Include File",
+    "Extension": ".ssi"
+  },
+  {
+    "Name": "Interface Builder Storyboard Document",
+    "Extension": ".storyboard"
+  },
+  {
+    "Name": "Super Project Analyzer File",
+    "Extension": ".sud"
+  },
+  {
+    "Name": "Visual Studio Solution User Options File",
+    "Extension": ".suo"
+  },
+  {
+    "Name": "Super Project Definition File",
+    "Extension": ".sup"
+  },
+  {
+    "Name": "Subversion Base File",
+    "Extension": ".svn-base"
+  },
+  {
+    "Name": "Flex Components Archive",
+    "Extension": ".swc"
+  },
+  {
+    "Name": "Flash Debug File",
+    "Extension": ".swd"
+  },
+  {
+    "Name": "Swift Source Code File",
+    "Extension": ".swift"
+  },
+  {
+    "Name": "Symbols File",
+    "Extension": ".sym"
+  },
+  {
+    "Name": "Turing Source Code File",
+    "Extension": ".t"
+  },
+  {
+    "Name": "MSBuild Targets File",
+    "Extension": ".targets"
+  },
+  {
+    "Name": "Text File",
+    "Extension": ".txt"
+  },
+  {
+    "Name": "Tcl Script",
+    "Extension": ".tcl"
+  },
+  {
+    "Name": "Turbo Debugger Symbols File",
+    "Extension": ".tds"
+  },
+  {
+    "Name": "Visual Studio Test Run Configuration File",
+    "Extension": ".testrunconfig"
+  },
+  {
+    "Name": "Visual Studio Test Settings File",
+    "Extension": ".testsettings"
+  },
+  {
+    "Name": "BBEdit Text Factory",
+    "Extension": ".textfactory"
+  },
+  {
+    "Name": "Tk Script",
+    "Extension": ".tk"
+  },
+  {
+    "Name": "Tag Library Descriptor File",
+    "Extension": ".tld"
+  },
+  {
+    "Name": "Typelib Generated C/C++ Header File",
+    "Extension": ".tlh"
+  },
+  {
+    "Name": "Typelib Generated C/C++ Inline File",
+    "Extension": ".tli"
+  },
+  {
+    "Name": "TextMate Language Grammar File",
+    "Extension": ".tmlanguage"
+  },
+  {
+    "Name": "TextMate Project File",
+    "Extension": ".tmproj"
+  },
+  {
+    "Name": "TI-Nspire Document",
+    "Extension": ".tns"
+  },
+  {
+    "Name": "Turbo Pascal Unit",
+    "Extension": ".tpu"
+  },
+  {
+    "Name": "Visual Studio Test Results File",
+    "Extension": ".trx"
+  },
+  {
+    "Name": "Visual Studio Text Template",
+    "Extension": ".tt"
+  },
+  {
+    "Name": "Turing Source File",
+    "Extension": ".tu"
+  },
+  {
+    "Name": "Turing Program Source File",
+    "Extension": ".tur"
+  },
+  {
+    "Name": "Twig Template",
+    "Extension": ".twig"
+  },
+  {
+    "Name": "User Interface File",
+    "Extension": ".ui"
+  },
+  {
+    "Name": "UML Data Object Model",
+    "Extension": ".uml"
+  },
+  {
+    "Name": "Verilog Source Code File",
+    "Extension": ".v"
+  },
+  {
+    "Name": "Coq Source Code File",
+    "Extension": ".v"
+  },
+  {
+    "Name": "Visual Studio 2012 Solution User Options File",
+    "Extension": ".v11.suo"
+  },
+  {
+    "Name": "Visual Studio 2013 Solution User Options File",
+    "Extension": ".v12.suo"
+  },
+  {
+    "Name": "Visual Basic Project Item File",
+    "Extension": ".vb"
+  },
+  {
+    "Name": "Visual Basic Project Group File",
+    "Extension": ".vbg"
+  },
+  {
+    "Name": "Visual Basic Project File",
+    "Extension": ".vbp"
+  },
+  {
+    "Name": "Visual Studio Visual Basic Project",
+    "Extension": ".vbproj"
+  },
+  {
+    "Name": "Visual Basic Custom Control",
+    "Extension": ".vbx"
+  },
+  {
+    "Name": "Visual Basic Project Template",
+    "Extension": ".vbz"
+  },
+  {
+    "Name": "Verge Code File",
+    "Extension": ".vc"
+  },
+  {
+    "Name": "eMbedded Visual C++ Project File",
+    "Extension": ".vcp"
+  },
+  {
+    "Name": "Visual C++ Project File",
+    "Extension": ".vcproj"
+  },
+  {
+    "Name": "Visual C++ Project",
+    "Extension": ".vcxproj"
+  },
+  {
+    "Name": "VDM Specification File",
+    "Extension": ".vdm"
+  },
+  {
+    "Name": "Visual Studio Deployment Project",
+    "Extension": ".vdp"
+  },
+  {
+    "Name": "Visual Studio Setup and Deployment Project",
+    "Extension": ".vdproj"
+  },
+  {
+    "Name": "ViziGen Code Generation Template",
+    "Extension": ".vgc"
+  },
+  {
+    "Name": "VHDL Source File",
+    "Extension": ".vhd"
+  },
+  {
+    "Name": "Velocity Template",
+    "Extension": ".vm"
+  },
+  {
+    "Name": "Visual Studio Binary Macro Project",
+    "Extension": ".vsmacros"
+  },
+  {
+    "Name": "Visual Studio Test Metadata File",
+    "Extension": ".vsmdi"
+  },
+  {
+    "Name": "Visual Studio Text Macro Project",
+    "Extension": ".vsmproj"
+  },
+  {
+    "Name": "Visual Studio Performance Report File",
+    "Extension": ".vsp"
+  },
+  {
+    "Name": "Visual Studio Serialized Performance Report",
+    "Extension": ".vsps"
+  },
+  {
+    "Name": "Visual Studio Project Source Control File",
+    "Extension": ".vspscc"
+  },
+  {
+    "Name": "Visual Studio Performance Report Data File",
+    "Extension": ".vspx"
+  },
+  {
+    "Name": "Visual Studio Solution Source Control File",
+    "Extension": ".vssscc"
+  },
+  {
+    "Name": "Visual Studio Wizard File",
+    "Extension": ".vsz"
+  },
+  {
+    "Name": "Visual Tool Markup Language Document",
+    "Extension": ".vtm"
+  },
+  {
+    "Name": "Visual Tool Markup Language File",
+    "Extension": ".vtml"
+  },
+  {
+    "Name": "Adobe Dreamweaver Validator Configuration File",
+    "Extension": ".vtv"
+  },
+  {
+    "Name": "OpenEdge Architect Source Code File",
+    "Extension": ".w"
+  },
+  {
+    "Name": "Win32 Makefile",
+    "Extension": ".w32"
+  },
+  {
+    "Name": "Adobe Captivate Widget File",
+    "Extension": ".wdgt"
+  },
+  {
+    "Name": "Dashcode Widget Project",
+    "Extension": ".wdgtproj"
+  },
+  {
+    "Name": "World Definition Language Script",
+    "Extension": ".wdl"
+  },
+  {
+    "Name": "Windev Project File",
+    "Extension": ".wdp"
+  },
+  {
+    "Name": "WinDev Window File",
+    "Extension": ".wdw"
+  },
+  {
+    "Name": "Visual Studio Work Item Query File",
+    "Extension": ".wiq"
+  },
+  {
+    "Name": "WiX Library File",
+    "Extension": ".wixlib"
+  },
+  {
+    "Name": "WiX XML Patch File",
+    "Extension": ".wixmsp"
+  },
+  {
+    "Name": "WiX Transform File",
+    "Extension": ".wixmst"
+  },
+  {
+    "Name": "WiX Object File",
+    "Extension": ".wixobj"
+  },
+  {
+    "Name": "WiX XML Output File",
+    "Extension": ".wixout"
+  },
+  {
+    "Name": "WiX Debug File",
+    "Extension": ".wixpdb"
+  },
+  {
+    "Name": "WiX Project File",
+    "Extension": ".wixproj"
+  },
+  {
+    "Name": "Code::Blocks Workspace File",
+    "Extension": ".workspace"
+  },
+  {
+    "Name": "WinDev Mobile Window File",
+    "Extension": ".wpw"
+  },
+  {
+    "Name": "Windows Script Component",
+    "Extension": ".wsc"
+  },
+  {
+    "Name": "SharePoint Solution Package",
+    "Extension": ".wsp"
+  },
+  {
+    "Name": "WiX Include File",
+    "Extension": ".wxi"
+  },
+  {
+    "Name": "WiX Localization File",
+    "Extension": ".wxl"
+  },
+  {
+    "Name": "WiX Source File",
+    "Extension": ".wxs"
+  },
+  {
+    "Name": "XAML File",
+    "Extension": ".xaml"
+  },
+  {
+    "Name": "Visual Studio Workflow Service File",
+    "Extension": ".xamlx"
+  },
+  {
+    "Name": "XACT Project",
+    "Extension": ".xap"
+  },
+  {
+    "Name": "Xcode App Data File",
+    "Extension": ".xcappdata"
+  },
+  {
+    "Name": "Xcode Archive",
+    "Extension": ".xcarchive"
+  },
+  {
+    "Name": "Xcode Configuration Settings File",
+    "Extension": ".xcconfig"
+  },
+  {
+    "Name": "Xcode Core Data Model File",
+    "Extension": ".xcdatamodeld"
+  },
+  {
+    "Name": "Xcode Project",
+    "Extension": ".xcodeproj"
+  },
+  {
+    "Name": "Xcode Snapshot",
+    "Extension": ".xcsnapshots"
+  },
+  {
+    "Name": "Xcode Workspace File",
+    "Extension": ".xcworkspace"
+  },
+  {
+    "Name": "Interface Builder File",
+    "Extension": ".xib"
+  },
+  {
+    "Name": "Xojo Binary Project File",
+    "Extension": ".xojo_binary_project"
+  },
+  {
+    "Name": "Xojo Menu File",
+    "Extension": ".xojo_menu"
+  },
+  {
+    "Name": "Xojo Project File",
+    "Extension": ".xojo_project"
+  },
+  {
+    "Name": "Xojo XML Project File",
+    "Extension": ".xojo_xml_project"
+  },
+  {
+    "Name": "Windows Workflow File",
+    "Extension": ".xoml"
+  },
+  {
+    "Name": "X++ Source Code File",
+    "Extension": ".xpp"
+  },
+  {
+    "Name": "XQuery File",
+    "Extension": ".xq"
+  },
+  {
+    "Name": "XML Query Language File",
+    "Extension": ".xql"
+  },
+  {
+    "Name": "XQuery Module",
+    "Extension": ".xqm"
+  },
+  {
+    "Name": "XQuery Source Code File",
+    "Extension": ".xquery"
+  },
+  {
+    "Name": "XML Schema Definition",
+    "Extension": ".xsd"
+  },
+  {
+    "Name": "Xdebug Trace File",
+    "Extension": ".xt"
+  },
+  {
+    "Name": "Yacc Source File",
+    "Extension": ".y"
+  },
+  {
+    "Name": "YAML Document",
+    "Extension": ".yaml"
+  },
+  {
+    "Name": "YAML Document",
+    "Extension": ".yml"
+  },
+  {
+    "Name": "YaST Metapackage File",
+    "Extension": ".ymp"
+  },
+  {
+    "Name": "BYOB Project File",
+    "Extension": ".ypr"
+  }
+]

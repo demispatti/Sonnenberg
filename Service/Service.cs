@@ -1,5 +1,4 @@
 ﻿using System.ServiceProcess;
-using Sonnenberg.ServiceManager;
 
 namespace Sonnenberg.Service
 {
@@ -22,7 +21,7 @@ namespace Sonnenberg.Service
         /// <param name="args"></param>
         protected override void OnStart(string[] args)
         {
-            new ServiceManager.Program().StartShellServer();
+            new ServiceManager.ServiceManager().StartShellServer();
         }
 
         /// <summary>
@@ -30,7 +29,7 @@ namespace Sonnenberg.Service
         /// </summary>
         protected override void OnStop()
         {
-            new ServiceManager.Program().StopShellServer();
+            new ServiceManager.ServiceManager().StopShellServer();
         }
     }
 }

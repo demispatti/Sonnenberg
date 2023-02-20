@@ -28,26 +28,30 @@
 		/// </summary>
 		private void InitializeComponent()
 		{
-			this.ServiceProcessInstaller = new System.ServiceProcess.ServiceProcessInstaller();
-			this.ServiceInstaller = new System.ServiceProcess.ServiceInstaller();
-			// 
-			// ServiceProcessInstaller
-			// 
-			this.ServiceProcessInstaller.Account = System.ServiceProcess.ServiceAccount.LocalService;
-			this.ServiceProcessInstaller.Password = null;
-			this.ServiceProcessInstaller.Username = null;
-			// 
-			// ServiceInstaller
-			// 
-			this.ServiceInstaller.Description = "Windows Explorer Context Menu Extension.";
-			this.ServiceInstaller.DisplayName = "Sonnenberg Service";
-			this.ServiceInstaller.ServiceName = "SonnenbergService";
-			this.ServiceInstaller.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
-			this.ServiceInstaller.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.ServiceInstaller1_AfterInstall);
-			// 
-			// ProjectInstaller
-			// 
-			this.Installers.AddRange(new System.Configuration.Install.Installer[] {this.ServiceProcessInstaller, this.ServiceInstaller});
+            this.ServiceProcessInstaller = new System.ServiceProcess.ServiceProcessInstaller();
+            this.ServiceInstaller = new System.ServiceProcess.ServiceInstaller();
+            // 
+            // ServiceProcessInstaller
+            // 
+            this.ServiceProcessInstaller.Account = System.ServiceProcess.ServiceAccount.LocalService;
+            this.ServiceProcessInstaller.Password = null;
+            this.ServiceProcessInstaller.Username = null;
+            this.ServiceProcessInstaller.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.ServiceProcessInstaller_AfterInstall);
+            // 
+            // ServiceInstaller
+            // 
+            this.ServiceInstaller.Description = "Windows Explorer Context Menu Extension.";
+            this.ServiceInstaller.DisplayName = "Sonnenberg Service";
+            this.ServiceInstaller.ServiceName = "SonnenbergService";
+            this.ServiceInstaller.StartType = System.ServiceProcess.ServiceStartMode.Automatic;
+            this.ServiceInstaller.AfterInstall += new System.Configuration.Install.InstallEventHandler(this.ServiceInstaller1_AfterInstall);
+            // 
+            // ProjectInstaller
+            // 
+            this.Installers.AddRange(new System.Configuration.Install.Installer[] {
+            this.ServiceProcessInstaller,
+            this.ServiceInstaller});
+
 		}
 
 		#endregion
