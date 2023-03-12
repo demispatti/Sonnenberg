@@ -1,12 +1,14 @@
 ## Version 1.1.4.42
 
 ### Changed
-- Refactored lots of code
-- Changed icons
-- Changed Setup.ps1
-- Added Reset.ps1
-- Updated readme.txt
-
+- Changed context menu icon
+- Changed context menu names
+- Updated NuGet packages
+- Code cleanup
+- Removed strong names for all modules
+- Optimized the PowerShell setup script
+- Added a PowerShell reset script
+ 
 ## Version 1.1.0.0
 
 ### Changed

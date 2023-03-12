@@ -169,13 +169,13 @@
     <value>lines</value>
   </data>
   <data name="menuStripNameDirectoryMenu" xml:space="preserve">
-    <value>Directory</value>
+    <value>Sonnenberg (Directory)</value>
   </data>
   <data name="menuStripNameFileMenu" xml:space="preserve">
-    <value>File</value>
+    <value>Sonnenberg (File)</value>
   </data>
   <data name="menuStripNameFolderMenu" xml:space="preserve">
-    <value>Folder</value>
+    <value>Sonnenberg (Folder)</value>
   </data>
   <data name="notAuthorizedError" xml:space="preserve">
     <value>Error: You are not authorized to acces this file.</value>
@@ -247,10 +247,10 @@
     <value>You have to provide an agrument.</value>
   </data>
   <data name="menuStripNameFileShortcutMenu" xml:space="preserve">
-    <value>File Shortcut</value>
+    <value>Sonnenberg (File Shortcut)</value>
   </data>
   <data name="menuStripNameFolderShortcutMenu" xml:space="preserve">
-    <value>Folder Shortcut</value>
+    <value>Sonnenberg (Folder Shortcut)</value>
   </data>
   <data name="clickedItemPathArgumentNullException" xml:space="preserve">
     <value>clickedItemPath must not be NULL.</value>

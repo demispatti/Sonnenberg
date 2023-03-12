@@ -166,13 +166,13 @@
     <value>Zeilen</value>
   </data>
   <data name="menuStripNameDirectoryMenu" xml:space="preserve">
-    <value>Verzeichnis</value>
+    <value>Sonnenberg (Verzeichnis)</value>
   </data>
   <data name="menuStripNameFileMenu" xml:space="preserve">
-    <value>Datei</value>
+    <value>Sonnenberg (Datei)</value>
   </data>
   <data name="menuStripNameFolderMenu" xml:space="preserve">
-    <value>Ordner</value>
+    <value>Sonnenberg (Ordner)</value>
   </data>
   <data name="notAuthorizedError" xml:space="preserve">
     <value>Fehler: Sie verfügen nicht über die erforderlichen Zugriffs-Berechtigungen für die Datei.</value>
@@ -241,10 +241,10 @@
     <value>Sie müssen ein Argument mit übergeben.</value>
   </data>
   <data name="menuStripNameFileShortcutMenu" xml:space="preserve">
-    <value>Datei-Verknüpfung</value>
+    <value>Sonnenberg (Datei-Verknüpfung)</value>
   </data>
   <data name="menuStripNameFolderShortcutMenu" xml:space="preserve">
-    <value>Ordner-Verknüpfung</value>
+    <value>Sonnenberg (Ordner-Verknüpfung)</value>
   </data>
   <data name="clickedItemPathArgumentNullException" xml:space="preserve">
     <value>clickedItemPath darf nicht NULL sein.</value>

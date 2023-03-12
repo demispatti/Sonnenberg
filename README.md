@@ -3,7 +3,7 @@
 </p>
 <h2 align="center">Sonnenberg</h2>
 <p align="center">
-A Small But Useful Windows Explorer Extension
+A Tiny But Useful Windows Explorer Extension For Developers
   <br>
   <br>
 <a href="https://github.com/demispatti/Sonnenberg/tree/master/dist" target="_blank"><strong>Get Setup File</strong></a>
@@ -12,6 +12,7 @@ A Small But Useful Windows Explorer Extension
 <a href="https://github.com/demispatti/Sonnenberg/issues/new?template=bug.md" target="_blank">Report A Bug</a><br>
   <a href="https://github.com/demispatti/Sonnenberg/issues/new?template=feature.md&labels=feature" target="_blank">Request Feature</a>
 </p>
+
 
 ---
 ## Table Of Contents
@@ -38,7 +39,7 @@ A Small But Useful Windows Explorer Extension
 This application extends the Windows Explorer context menu. After installation, you'll find the Sonnenberg icon with a drop down inside the Windows Explorer context menu.
 Depending on the context, you'll be able to:
 
-- Copy the path of the clicked item, folder or directory, also in Unix-style
+- Copy the path(s) of the clicked item(s), folder(s) or directory/directories, also in Unix-style
 - Open PowerShell inside any directory and folder
 - Open Command Prompt inside any directory and folder
 - Count lines of text and code files, with or without blank lines, and copy the result to the clipboard
@@ -63,20 +64,25 @@ Software:
 Visual Studio Extensions:
 - [Microsoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
 - WiX Toolset Visual Studio Extension from [here](https://wixtoolset.org/releases/)
+- [Wax](https://marketplace.visualstudio.com/items?itemName=TomEnglert.Wax)
 
 Project:
 - [Clone](https://github.com/demispatti/Sonnenberg.git) the repository.
 
 ---
 ## Automatic Project Setup (recommended)
-This step requires Powershell to be installed on your computer, which is shipped with all modern versions of Windows.
+This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.
 
-### 1. Run Setup.ps1 with Powershell
-After the setup script has finished, open the solution with the IDE of your choice, restore NuGet packages and build the solution.
+### 1. Run Setup Solution
+Do **not open** any project files or the solution in an editor or an IDE while running the setup script, or you will get error messages and you will have to repeat the setup process.
+In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*. Enter your name and your company name. 
+This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup").
+After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution. 
+**To create the installer file, just build the installer project for the platform of your choice**.
 
 ---
 ## Manual Project Setup
-If the Quick Start option should fail, you can setup the solution manually. Just follow these simple steps in order to get up and running:
+If the Quick Start option should fail, you have to setup the solution manually. Just follow these simple steps in order to get up and running:
 
 ### 1. Create Assembly Info GUIDs
 Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HERE.
@@ -84,12 +90,15 @@ Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HE
 ### 2. Create Product.wxs File GUIDs
 Inside the *Installer Project*, open Product.wxs and create *unique UPPERCASE* GUIDs in it where it says YOUR_GUID_HERE.
 
-### 3. Product.wxs: Enter Manufacturer Name
+### 4. Product.wxs: Enter Manufacturer Name
 Replace YOUR_MANUFACTURER_NAME_HERE with your name (required).
 
-### 4. Restore NuGet packages
-
 ### 5. Build The Solution
+Restore the packages and build the solution. To create the installer file, just build the installer project for the platform of your choice.
+
+---
+## Running The Tests
+Run your tests.
 
 ---
 ## Debugging The Shell Server
@@ -111,7 +120,7 @@ In order to debug the ShellServer.dll, you need a copy of the [SharpShell Server
 7. Debug.
 8. In order to rebuild, you need to go trough the *Stop Debugging* process described below.
 
-Note #3:
+Note #3 (of 3):
 In order to rebuild anything, you need to make sure the Shell Server ,A.K.A. ShellServer.dll, isn't installed and/or registered, since the file is locked by Windows Explorer during debugging as it is attached to an explorer.exe process. So you must have *Stopped Debugging* properly.
 In addition, the Server Manager Window needs to be closed.
 
@@ -126,7 +135,7 @@ In addition, the Server Manager Window needs to be closed.
 
 ---
 ## Deployment
-Build the installer project and deploy the MSI file.
+Build the installer project for the desired platform and deploy the MSI file.
 
 ---
 ## Documentation
@@ -163,7 +172,7 @@ Editor preferences are available in the [editor config](https://github.com/demis
 
 ---
 ## Versioning
-For transparency into my release cycle and in striving to maintain backward compatibility, Sonnenberg is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to those rules whenever possible.
+For transparency into our release cycle and in striving to maintain backward compatibility, Sonnenberg is maintained under [the Semantic Versioning guidelines](https://semver.org/). Sometimes we screw up, but we adhere to those rules whenever possible.
 
 See [the Releases section of our GitHub project](https://github.com/demispatti/Sonnenberg/releases) for changelogs for each release version of Nicescroll.
 

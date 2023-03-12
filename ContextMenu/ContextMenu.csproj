@@ -152,6 +152,7 @@
     <Content Include="Resources\Icons\Powershell-Elevated-dark-theme.ico" />
     <Content Include="Resources\Icons\Powershell-Elevated-light-theme.ico" />
     <Content Include="Resources\Icons\Powershell-light-theme.ico" />
+    <None Include="Resources\SonnenbergContextMenuIcon.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">

@@ -140,7 +140,7 @@
         <!-- Install Folder -->
         <DirectoryRef Id="INSTALLFOLDER">
             <!-- Uninstall shortcut -->
-            <Component Id="UninstallProgramShortcut" Guid="{YOUR_GUID_HERE}" KeyPath="yes">
+            <Component Id="UninstallProgramShortcut" Guid="{YOUR_GUID_HERE}">
                 <Shortcut Id="UninstallProgramInstalldirShortcut" Name="uninstall.exe" Description="Uninstall the application." Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" WorkingDirectory="INSTALLFOLDER" />
                 <RemoveFolder Id="CleanUpUninstallProgramShortCut" Directory="INSTALLFOLDER" On="uninstall" />
             </Component>

@@ -24,7 +24,7 @@ namespace Sonnenberg.ContextMenu.ContextMenus
         internal ContextMenuStrip ItemDisplay(string clickedItemType, string clickedItemPath,
             string selectedItemPath, bool isDarkTheme)
         {
-            Icon icon = new Icon(Resources.Context_Menu_File, 40, 40);
+            Icon icon = new Icon(Resources.SonnenbergContextMenuIcon, 40, 40);
 
             var toolStripMenuItem = new ToolStripMenuItem
             {

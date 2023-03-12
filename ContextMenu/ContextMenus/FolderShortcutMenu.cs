@@ -23,7 +23,7 @@ namespace Sonnenberg.ContextMenu.ContextMenus
 
         internal ContextMenuStrip ItemDisplay(string clickedItemType, string clickedItemPath, string shortcutTargetFolder, bool isDarkTheme)
         {
-            var icon = new Icon(Resources.Context_Menu_Directory, 40, 40);
+            var icon = new Icon(Resources.SonnenbergContextMenuIcon, 40, 40);
 
             var toolStripMenuItem = new ToolStripMenuItem
             {

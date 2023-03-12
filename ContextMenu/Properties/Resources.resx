@@ -187,6 +187,9 @@
   <data name="SonnenbergApp" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\sonnenbergapp.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="SonnenbergContextMenuIcon" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\SonnenbergContextMenuIcon.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="SonnenbergStartService" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\resources\sonnenbergstartservice.ico;System.Drawing.Icon, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

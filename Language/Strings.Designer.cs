@@ -232,7 +232,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Directory.
+        ///   Looks up a localized string similar to Sonnenberg (Directory).
         /// </summary>
         public static string menuStripNameDirectoryMenu {
             get {
@@ -241,7 +241,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to File.
+        ///   Looks up a localized string similar to Sonnenberg (File).
         /// </summary>
         public static string menuStripNameFileMenu {
             get {
@@ -250,7 +250,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to File Shortcut.
+        ///   Looks up a localized string similar to Sonnenberg (File Shortcut).
         /// </summary>
         public static string menuStripNameFileShortcutMenu {
             get {
@@ -259,7 +259,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Folder.
+        ///   Looks up a localized string similar to Sonnenberg (Folder).
         /// </summary>
         public static string menuStripNameFolderMenu {
             get {
@@ -268,7 +268,7 @@ namespace Sonnenberg.Language {
         }
         
         /// <summary>
-        ///   Looks up a localized string similar to Folder Shortcut.
+        ///   Looks up a localized string similar to Sonnenberg (Folder Shortcut).
         /// </summary>
         public static string menuStripNameFolderShortcutMenu {
             get {
