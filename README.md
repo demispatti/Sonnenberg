@@ -39,7 +39,7 @@ A Tiny But Useful Windows Explorer Extension For Developers
 This application extends the Windows Explorer context menu. After installation, you'll find the Sonnenberg icon with a drop down inside the Windows Explorer context menu.
 Depending on the context, you'll be able to:
 
-- Copy the path(s) of the clicked item(s), folder(s) or directory/directories, also in Unix-style
+- Copy the path(s) of the selected file(s), folder(s) or directory/directories -- Windows- or Unix-style
 - Open PowerShell inside any directory or folder
 - Open Command Prompt inside any directory or folder
 - Count lines of text and code files, with or without blank lines, and copy the result to the clipboard
