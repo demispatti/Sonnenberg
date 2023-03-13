@@ -40,8 +40,8 @@ This application extends the Windows Explorer context menu. After installation, 
 Depending on the context, you'll be able to:
 
 - Copy the path(s) of the clicked item(s), folder(s) or directory/directories, also in Unix-style
-- Open PowerShell inside any directory and folder
-- Open Command Prompt inside any directory and folder
+- Open PowerShell inside any directory or folder
+- Open Command Prompt inside any directory or folder
 - Count lines of text and code files, with or without blank lines, and copy the result to the clipboard
 
 ### What It Looks Like
