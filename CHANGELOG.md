@@ -3,12 +3,12 @@
 ### Changed
 - Changed context menu icon
 - Changed context menu names
-- Updated NuGet packages
+- Updated dependencies versions
 - Code cleanup
 - Removed strong names for all modules
 - Optimized the PowerShell setup script
 - Added a PowerShell reset script
- 
+
 ## Version 1.1.0.0
 
 ### Changed
