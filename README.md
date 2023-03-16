@@ -45,8 +45,12 @@ Depending on the context, you'll be able to:
 - Count lines of text and code files, with or without blank lines, and copy the result to the clipboard
 
 ### What It Looks Like
-![Context Menu](./assets/image.jpg)
-Works with any theme.
+![Context Menu](./assets/File.png)
+##
+![Context Menu](./assets/Folder.png)
+##
+![Context Menu](./assets/Directory.png)
+With light and dark theme compatible.
 
 ---
 ## Get Setup File
