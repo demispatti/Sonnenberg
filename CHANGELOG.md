@@ -1,6 +1,12 @@
 ## Version 1.1.4.56
 
 ### Changed
+- Updated installer files
+- Code cleanup
+
+## Version 1.1.4.42
+
+### Changed
 - Changed context menu icon
 - Changed context menu names
 - Updated NuGet packages
@@ -8,7 +14,7 @@
 - Removed strong names for all modules
 - Optimized the PowerShell setup script
 - Added a PowerShell reset script
- 
+
 ## Version 1.1.0.0
 
 ### Changed
