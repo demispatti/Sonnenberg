@@ -1,14 +1,13 @@
-﻿using Sonnenberg.Common;
-using Sonnenberg.ContextMenu.ContextMenus;
-using System;
-//using System.Collections.Generic;
+﻿using System;
 using System.Windows.Forms;
+using Sonnenberg.Common;
+using Sonnenberg.ContextMenu.ContextMenus;
 
 namespace Sonnenberg.ContextMenu
 {
     /// <summary>
-    /// The class responsible for creating the context menu
-    /// and all its dependencies.
+    ///     The class responsible for creating the context menu
+    ///     and all its dependencies.
     /// </summary>
     /// <seealso cref="ContextMenu" />
     /// <seealso cref="IDisposable" />
@@ -23,6 +22,12 @@ namespace Sonnenberg.ContextMenu
         {
             ConfigureLogger();
             SetContextMenuStrip();
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
         private void SetContextMenuStrip()
@@ -50,7 +55,8 @@ namespace Sonnenberg.ContextMenu
             return new FileMenu().ItemDisplay(clickedItemType, clickedItemPath, selectedItemPath, isDarkTheme);
         }
 
-        public ContextMenuStrip GetFileShortcutMenu(string clickedItemType, string clickedItemPath, string selectedItemPath, string shortcutTargetFolder, bool isDarkTheme)
+        public ContextMenuStrip GetFileShortcutMenu(string clickedItemType, string clickedItemPath, string selectedItemPath, string shortcutTargetFolder,
+            bool isDarkTheme)
         {
             return new FileShortcutMenu().ItemDisplay(clickedItemType, clickedItemPath, selectedItemPath, shortcutTargetFolder, isDarkTheme);
         }
@@ -67,12 +73,6 @@ namespace Sonnenberg.ContextMenu
             if (disposing) _contextMenuStrip.Dispose();
 
             _disposedValue = true;
-        }
-
-        public void Dispose()
-        {
-            Dispose(true);
-            GC.SuppressFinalize(this);
         }
     }
 }

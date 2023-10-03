@@ -1,9 +1,9 @@
-﻿using Sonnenberg.Common;
+﻿using System.Drawing;
+using System.Windows.Forms;
+using Sonnenberg.Common;
 using Sonnenberg.ContextMenu.Properties;
 using Sonnenberg.ContextMenu.SubMenuItems;
-using System.Drawing;
-using System.Windows.Forms;
-using Strings = Sonnenberg.Language.Strings;
+using Sonnenberg.Language;
 
 namespace Sonnenberg.ContextMenu.ContextMenus
 {

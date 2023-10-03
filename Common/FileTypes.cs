@@ -4,8 +4,8 @@ using System.Linq;
 namespace Sonnenberg.Common
 {
     /// <summary>
-    /// The class responsible for determining what type of file we're dealing with.
-    /// By now, this method distinguishes between text files, image files and folder items.
+    ///     The class responsible for determining what type of file we're dealing with.
+    ///     By now, this method distinguishes between text files, image files and folder items.
     /// </summary>
     /// <see cref="FileExtensions" />
     public class FileTypes
@@ -18,8 +18,8 @@ namespace Sonnenberg.Common
         }
 
         /// <summary>
-        /// Sets an instance of the class that interacts with
-        /// the JSON resource files containing lists of file extensions.
+        ///     Sets an instance of the class that interacts with
+        ///     the JSON resource files containing lists of file extensions.
         /// </summary>
         private void SetFileExtensions()
         {
@@ -27,8 +27,8 @@ namespace Sonnenberg.Common
         }
 
         /// <summary>
-        /// Returns a string containing the file type.
-        /// "supported": all file types except the blacklisted ones.
+        ///     Returns a string containing the file type.
+        ///     "supported": all file types except the blacklisted ones.
         /// </summary>
         /// <returns>string "text" || "folder" || "supported" || "unsupported"</returns>
         private string FileType(string ext)
@@ -45,7 +45,7 @@ namespace Sonnenberg.Common
         }
 
         /// <summary>
-        /// Returns a string containing the file type.
+        ///     Returns a string containing the file type.
         /// </summary>
         /// <param name="ext"></param>
         /// <returns>string "ext" || "unsupported"</returns>

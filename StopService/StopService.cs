@@ -1,16 +1,16 @@
-﻿using log4net;
-using Sonnenberg.Common;
-using System;
+﻿using System;
 using System.Linq;
 using System.ServiceProcess;
 using System.Windows.Forms;
+using log4net;
+using Sonnenberg.Common;
+using Sonnenberg.Language;
 using Log = log4net.LogManager;
-using Strings = Sonnenberg.Language.Strings;
 
 namespace Sonnenberg.StopService
 {
     /// <summary>
-    /// The executable that initializes stopping of the shell server.
+    ///     The executable that initializes stopping of the shell server.
     /// </summary>
     /// <seealso cref="Logger" />
     public class StopService
@@ -33,7 +33,7 @@ namespace Sonnenberg.StopService
         }
 
         /// <summary>
-        /// Stops the service.
+        ///     Stops the service.
         /// </summary>
         /// <seealso cref="ServiceController" />
         private static void Stop()
@@ -42,10 +42,7 @@ namespace Sonnenberg.StopService
             {
                 try
                 {
-                    if (null == service)
-                    {
-                        throw new ArgumentException(Strings.stopServiceError);
-                    }
+                    if (null == service) throw new ArgumentException(Strings.stopServiceError);
 
                     if ("Stopped" == service.Status.ToString())
                     {

@@ -1,9 +1,9 @@
-﻿using Sonnenberg.Common;
+﻿using System.Drawing;
+using System.Windows.Forms;
+using Sonnenberg.Common;
 using Sonnenberg.ContextMenu.Properties;
 using Sonnenberg.ContextMenu.SubMenuItems;
-using System.Drawing;
-using System.Windows.Forms;
-using Strings = Sonnenberg.Language.Strings;
+using Sonnenberg.Language;
 
 namespace Sonnenberg.ContextMenu.ContextMenus
 {
@@ -24,7 +24,7 @@ namespace Sonnenberg.ContextMenu.ContextMenus
         internal ContextMenuStrip ItemDisplay(string clickedItemType, string clickedItemPath,
             string selectedItemPath, bool isDarkTheme)
         {
-            Icon icon = new Icon(Resources.SonnenbergContextMenuIcon, 40, 40);
+            var icon = new Icon(Resources.SonnenbergContextMenuIcon, 40, 40);
 
             var toolStripMenuItem = new ToolStripMenuItem
             {

@@ -1,22 +1,22 @@
-﻿using log4net;
-using Newtonsoft.Json;
-using Newtonsoft.Json.Linq;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Reflection;
+using log4net;
+using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 using Log = log4net.LogManager;
 
 namespace Sonnenberg.Common
 {
     /// <summary>
-    /// The class responsible for interacting with the file extensions library.
-    /// The file extensions library consists of a bunch of JSON resource files that contain
-    /// lists of file extensions grouped by file type, e.g. text, code, audio, video etc.
-    /// So it's the main purpose of this class to read in lists of file extensions.
-    /// These extensions are used to determine which functions will be made available
-    /// from within the Windows Explorer context menu.
+    ///     The class responsible for interacting with the file extensions library.
+    ///     The file extensions library consists of a bunch of JSON resource files that contain
+    ///     lists of file extensions grouped by file type, e.g. text, code, audio, video etc.
+    ///     So it's the main purpose of this class to read in lists of file extensions.
+    ///     These extensions are used to determine which functions will be made available
+    ///     from within the Windows Explorer context menu.
     /// </summary>
     /// <seealso cref="Logger" />
     public class FileExtensions
@@ -71,7 +71,7 @@ namespace Sonnenberg.Common
         }
 
         /// <summary>
-        /// Sets the respective file extensions lists on the properties.
+        ///     Sets the respective file extensions lists on the properties.
         /// </summary>
         /// <param name="fileTypesList"></param>
         /// <returns>List{string}</returns>
@@ -82,18 +82,15 @@ namespace Sonnenberg.Common
                 foreach (var fileType in fileTypesList)
                 {
                     var listItem = GetFileTypeExtensionsList(fileType);
-                    if (null != listItem)
-                    {
-                        list.AddRange(listItem);
-                    }
+                    if (null != listItem) list.AddRange(listItem);
                 }
 
             return list;
         }
 
         /// <summary>
-        /// Returns an Enum containing all resource names that are embedded in this application.
-        /// It will be used to verify that we only process known JSON-files (of whom we know they are compatible).
+        ///     Returns an Enum containing all resource names that are embedded in this application.
+        ///     It will be used to verify that we only process known JSON-files (of whom we know they are compatible).
         /// </summary>
         /// <returns>IEnumerable{string}</returns>
         private static IEnumerable<string> GetManifestResourcesList()
@@ -104,7 +101,7 @@ namespace Sonnenberg.Common
         }
 
         /// <summary>
-        /// Returns an Enum containing all file extensions that are currently requested to be checked against.
+        ///     Returns an Enum containing all file extensions that are currently requested to be checked against.
         /// </summary>
         /// <returns>IEnumerable{string}</returns>
         private static IEnumerable<string> GetFileTypeExtensionsList(string type)
@@ -128,11 +125,11 @@ namespace Sonnenberg.Common
                 JArray responseString = JsonConvert.DeserializeObject(str);
 
                 extensions.AddRange(from item in responseString.Children()
-                                    select item.Children<JProperty>()
+                    select item.Children<JProperty>()
                     into itemProperties
-                                    select itemProperties.Last()
+                    select itemProperties.Last()
                     into element
-                                    select element.Value.ToString());
+                    select element.Value.ToString());
 
                 return extensions;
             }
@@ -157,8 +154,8 @@ namespace Sonnenberg.Common
         }
 
         /// <summary>
-        /// Returns a string containing a JSON object which hosts a group of file extensions associated with their names.
-        /// A group can consist of any value given by <c>_allSupportedFileExtensions</c>.
+        ///     Returns a string containing a JSON object which hosts a group of file extensions associated with their names.
+        ///     A group can consist of any value given by <c>_allSupportedFileExtensions</c>.
         /// </summary>
         /// <see cref="_allSupportedFileExtensions" />
         /// <returns>string</returns>

@@ -1,41 +1,46 @@
-﻿using log4net;
-using Sonnenberg.Common;
-using Sonnenberg.ContextMenu.Properties;
-using Sonnenberg.Language;
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Windows.Forms;
+using log4net;
+using Sonnenberg.Common;
+using Sonnenberg.ContextMenu.Properties;
+using Sonnenberg.Language;
 using Log = log4net.LogManager;
 
 namespace Sonnenberg.ContextMenu.SubMenuItems
 {
     /// <summary>
-    /// The class responsible for creating a <c>ToolStripMenuItem</c> and its click action.
-    /// It starts a CMD-, Git-CMD- or Git-Bash-Process and cds into the respective directory.
-    /// The processes can be started with limited or elevated privileges.
+    ///     The class responsible for creating a <c>ToolStripMenuItem</c> and its click action.
+    ///     It starts a CMD-, Git-CMD- or Git-Bash-Process and cds into the respective directory.
+    ///     The processes can be started with limited or elevated privileges.
     /// </summary>
     /// <remarks>
-    /// - Creates a ToolStripMenuItem
-    /// - Creates a click action
-    /// - Checks that the requested executable is installed
-    /// - Determines the directory where the clicked item resides
-    /// - Determines the directory the CMD process will cd into
-    /// - Assembles the required <c>StartInfo</c> parameters
-    /// - Starts a CMD-, Git-CMD- or Git-Bash-Process and cds into the respective directory
+    ///     - Creates a ToolStripMenuItem
+    ///     - Creates a click action
+    ///     - Checks that the requested executable is installed
+    ///     - Determines the directory where the clicked item resides
+    ///     - Determines the directory the CMD process will cd into
+    ///     - Assembles the required <c>StartInfo</c> parameters
+    ///     - Starts a CMD-, Git-CMD- or Git-Bash-Process and cds into the respective directory
     /// </remarks>
     /// <seealso cref="ContextMenu" />
     /// <seealso cref="Logger" />
     internal class OpenShell : IDisposable
     {
-        private bool _disposedValue;
-
         private static readonly ILog Log = LogManager.GetLogger(typeof(OpenShell));
+        private bool _disposedValue;
 
         internal OpenShell()
         {
             ConfigureLogger();
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
         private static void ConfigureLogger()
@@ -48,7 +53,7 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
         {
             var openShell = new OpenShell();
 
-            if (OpenShell.AppExists("cmd.exe"))
+            if (AppExists("cmd.exe"))
             {
                 var openCmdInsideMenuItem =
                     openShell.CreateItem(clickedItemType, targetDirectory, "cmd.exe", false, isDarkTheme);
@@ -59,7 +64,7 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                 toolStripMenuItem.DropDownItems.Add(openCmdInsideElevatedMenuItem);
             }
 
-            if (OpenShell.AppExists("powershell.exe"))
+            if (AppExists("powershell.exe"))
             {
                 var openPowershellInsideMenuItem = openShell.CreateItem(clickedItemType, targetDirectory,
                     "powershell.exe", false, isDarkTheme);
@@ -104,9 +109,7 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                     text = runElevated ? Strings.openCmdHereElevatedText : Strings.openCmdHereText;
 
                     if ("Folder" == clickedItemType || "FolderShortcut" == clickedItemType)
-                    {
                         text = runElevated ? Strings.openCmdInsideElevatedText : Strings.openCmdInsideText;
-                    }
 
                     break;
 
@@ -114,11 +117,9 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                     text = runElevated ? Strings.openPowershellHereElevatedText : Strings.openPowershellHereText;
 
                     if ("Folder" == clickedItemType || "FolderShortcut" == clickedItemType)
-                    {
                         text = runElevated
                             ? Strings.openPowershellInsideElevatedText
                             : Strings.openPowershellInsideText;
-                    }
 
                     break;
 
@@ -126,9 +127,7 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                     text = runElevated ? Strings.openCmdHereElevatedText : Strings.openCmdHereText;
 
                     if ("Folder" == clickedItemType || "FolderShortcut" == clickedItemType)
-                    {
                         text = runElevated ? Strings.openCmdInsideElevatedText : Strings.openCmdInsideText;
-                    }
 
                     break;
             }
@@ -144,39 +143,27 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
             {
                 case "cmd.exe":
                     if (isDarkTheme)
-                    {
                         icon = runElevated ? Resources.Console_Elevated_dark_theme : Resources.Console_dark_theme;
-                    }
                     else
-                    {
                         icon = runElevated ? Resources.Console_Elevated_light_theme : Resources.Console_light_theme;
-                    }
 
                     break;
 
                 case "powershell.exe":
                     if (isDarkTheme)
-                    {
                         icon = runElevated ? Resources.Powershell_Elevated_dark_theme : Resources.Powershell_dark_theme;
-                    }
                     else
-                    {
                         icon = runElevated
                             ? Resources.Powershell_Elevated_light_theme
                             : Resources.Powershell_light_theme;
-                    }
 
                     break;
 
                 default:
                     if (isDarkTheme)
-                    {
                         icon = runElevated ? Resources.Powershell_Elevated_dark_theme : Resources.Powershell_dark_theme;
-                    }
                     else
-                    {
                         icon = runElevated ? Resources.Console_Elevated_light_theme : Resources.Console_light_theme;
-                    }
 
                     break;
             }
@@ -187,19 +174,19 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
         private ProcessStartInfo ProcessStartInfo(string shellStartUpDirectory, string shellExecutableName,
             bool runElevated)
         {
-            string system32DirectoryPath = $"{Environment.GetFolderPath(Environment.SpecialFolder.Windows)}\\System32";
-            string systemRoot = $"{Environment.GetFolderPath(Environment.SpecialFolder.Windows)}\\..";
+            var system32DirectoryPath = $"{Environment.GetFolderPath(Environment.SpecialFolder.Windows)}\\System32";
+            var systemRoot = $"{Environment.GetFolderPath(Environment.SpecialFolder.Windows)}\\..";
 
-            string programFiles = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles);
-            string programFilesX86 = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86);
-            string userProfileDirectory = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
+            var programFiles = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFiles);
+            var programFilesX86 = Environment.GetFolderPath(Environment.SpecialFolder.ProgramFilesX86);
+            var userProfileDirectory = Environment.GetFolderPath(Environment.SpecialFolder.UserProfile);
 
             try
             {
                 switch (shellExecutableName)
                 {
                     case "cmd.exe":
-                        return new ProcessStartInfo()
+                        return new ProcessStartInfo
                         {
                             WorkingDirectory = $"{system32DirectoryPath}",
                             FileName = "cmd.exe",
@@ -210,7 +197,7 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                         };
 
                     case "powershell.exe":
-                        return new ProcessStartInfo()
+                        return new ProcessStartInfo
                         {
                             WorkingDirectory = $"{userProfileDirectory}\\",
                             FileName = "powershell.exe",
@@ -219,7 +206,7 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                         };
 
                     default:
-                        return new ProcessStartInfo()
+                        return new ProcessStartInfo
                         {
                             WorkingDirectory = $"{system32DirectoryPath}\\",
                             FileName = "cmd.exe",
@@ -289,12 +276,6 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                 _disposedValue = true;
                 Dispose();
             }
-        }
-
-        public void Dispose()
-        {
-            Dispose(true);
-            GC.SuppressFinalize(this);
         }
     }
 }

@@ -1,15 +1,15 @@
-﻿using log4net;
+﻿using System;
+using log4net;
 using SharpShell;
 using SharpShell.ServerRegistration;
 using Sonnenberg.Common;
-using System;
+using Sonnenberg.Language;
 using Log = log4net.LogManager;
-using Strings = Sonnenberg.Language.Strings;
 
 namespace Sonnenberg.ServerManager
 {
     /// <summary>
-    /// The class responsible for interacting with the server registration manager.
+    ///     The class responsible for interacting with the server registration manager.
     /// </summary>
     /// <seealso cref="Logger" />
     /// <seealso cref="ServerRegistrationManager" />
@@ -28,9 +28,9 @@ namespace Sonnenberg.ServerManager
         }
 
         /// <summary>
-        /// Registers and installs the shell server
-        /// in order to add functionality
-        /// to the windows explorer context menu.
+        ///     Registers and installs the shell server
+        ///     in order to add functionality
+        ///     to the windows explorer context menu.
         /// </summary>
         /// ///
         /// <param name="server"></param>
@@ -60,9 +60,9 @@ namespace Sonnenberg.ServerManager
         }
 
         /// <summary>
-        /// Unregisters and uninstalls the shell server
-        /// in order to remove functionality
-        /// from the windows explorer context menu.
+        ///     Unregisters and uninstalls the shell server
+        ///     in order to remove functionality
+        ///     from the windows explorer context menu.
         /// </summary>
         /// <param name="server"></param>
         private void Stop(ISharpShellServer server)
@@ -91,7 +91,7 @@ namespace Sonnenberg.ServerManager
         }
 
         /// <summary>
-        /// Calls the method that starts the shell server.
+        ///     Calls the method that starts the shell server.
         /// </summary>
         /// <param name="server"></param>
         public void StartShellServer(ISharpShellServer server)
@@ -100,7 +100,7 @@ namespace Sonnenberg.ServerManager
         }
 
         /// <summary>
-        /// Calls the method that stops the shell server.
+        ///     Calls the method that stops the shell server.
         /// </summary>
         /// <param name="server"></param>
         public void StopShellServer(ISharpShellServer server)

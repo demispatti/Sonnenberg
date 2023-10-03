@@ -1,19 +1,19 @@
-﻿using log4net;
-using Sonnenberg.Common;
-using System;
+﻿using System;
 using System.Diagnostics;
-using Strings = Sonnenberg.Language.Strings;
+using log4net;
+using Sonnenberg.Common;
+using Sonnenberg.Language;
 
 namespace Sonnenberg.StartServer
 {
     internal class StartServer
     {
+        private static readonly ILog Log = LogManager.GetLogger(typeof(StartServer));
+
         private static void Main(string[] args)
         {
             Start();
         }
-
-        private static readonly ILog Log = LogManager.GetLogger(typeof(StartServer));
 
         private static void Start()
         {
@@ -30,12 +30,10 @@ namespace Sonnenberg.StartServer
         {
             try
             {
-                Process p = new Process();
-                foreach (Process exe in Process.GetProcesses())
-                {
+                var p = new Process();
+                foreach (var exe in Process.GetProcesses())
                     if (exe.ProcessName == "explorer")
                         exe.Kill();
-                }
 
                 Process.Start("explorer.exe");
                 new ServiceManager.ServiceManager().StartShellServer();

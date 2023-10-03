@@ -39,9 +39,9 @@ A Tiny But Useful Windows Explorer Extension For Developers
 This application extends the Windows Explorer context menu. After installation, you'll find the Sonnenberg icon with a drop down inside the Windows Explorer context menu.
 Depending on the context, you'll be able to:
 
-- Copy the path(s) of the selected file(s), folder(s) or directory/directories -- Windows- or Unix-style
-- Open PowerShell inside any directory or folder
-- Open Command Prompt inside any directory or folder
+- Copy the path(s) of the clicked item(s), folder(s) or directory/directories, also in Unix-style
+- Open PowerShell inside any directory and folder
+- Open Command Prompt inside any directory and folder
 - Count lines of text and code files, with or without blank lines, and copy the result to the clipboard
 
 ### What It Looks Like
@@ -64,6 +64,7 @@ Software:
 Visual Studio Extensions:
 - [Microsoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
 - WiX Toolset Visual Studio Extension from [here](https://wixtoolset.org/releases/)
+- [Wax](https://marketplace.visualstudio.com/items?itemName=TomEnglert.Wax)
 
 Project:
 - [Clone](https://github.com/demispatti/Sonnenberg.git) the repository.
@@ -74,14 +75,14 @@ This method depends on *Visual Studio Command Prompt*, which is shipped with rec
 
 ### 1. Run Setup Solution
 Do **not open** any project files or the solution in an editor or an IDE while running the setup script, or you will get error messages and you will have to repeat the setup process.
-In the solution folder on your file system, right-click on *Setup.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*. Enter your name and your company name. 
+In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*. Enter your name and your company name. 
 This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup").
 After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution. 
 **To create the installer file, just build the installer project for the platform of your choice**.
 
 ---
 ## Manual Project Setup
-If the automated project setup option should fail, use the Reset.ps1 script to reset the project files and rerun Setup.ps1, or you can setup the solution manually. Just follow these simple steps in order to get up and running:
+If the Quick Start option should fail, you have to setup the solution manually. Just follow these simple steps in order to get up and running:
 
 ### 1. Create Assembly Info GUIDs
 Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HERE.

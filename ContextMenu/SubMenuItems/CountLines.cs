@@ -1,13 +1,13 @@
-﻿using log4net;
-using Sonnenberg.Common;
-using Sonnenberg.ContextMenu.Properties;
-using Sonnenberg.Language;
-using System;
+﻿using System;
 using System.Drawing;
 using System.IO;
 using System.Text;
 using System.Windows;
 using System.Windows.Forms;
+using log4net;
+using Sonnenberg.Common;
+using Sonnenberg.ContextMenu.Properties;
+using Sonnenberg.Language;
 using Clipboard = System.Windows.Clipboard;
 using Log = log4net.LogManager;
 using MessageBox = System.Windows.MessageBox;
@@ -15,28 +15,33 @@ using MessageBox = System.Windows.MessageBox;
 namespace Sonnenberg.ContextMenu.SubMenuItems
 {
     /// <summary>
-    /// The class responsible the count lines functionality.
-    /// Optionally, blank lines can be omitted.
-    /// It is basically a wrapper for <c>File.ReadAllLines</c>
+    ///     The class responsible the count lines functionality.
+    ///     Optionally, blank lines can be omitted.
+    ///     It is basically a wrapper for <c>File.ReadAllLines</c>
     /// </summary>
     /// <remarks>
-    /// - Creates a ToolStripMenuItem
-    /// - Creates a click action
-    /// - Counts all lines from any supported text file
-    /// - With or without blank lines
-    /// - Communicates the result via <c>MessageBox</c>
+    ///     - Creates a ToolStripMenuItem
+    ///     - Creates a click action
+    ///     - Counts all lines from any supported text file
+    ///     - With or without blank lines
+    ///     - Communicates the result via <c>MessageBox</c>
     /// </remarks>
     /// <seealso cref="ContextMenu" />
     /// <seealso cref="Logger" />
     internal class CountLines : IDisposable
     {
-        private bool _disposedValue;
-
         private static readonly ILog Log = LogManager.GetLogger(typeof(CountLines));
+        private bool _disposedValue;
 
         internal CountLines()
         {
             ConfigureLogger();
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
         private static void ConfigureLogger()
@@ -47,10 +52,7 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
         internal ToolStripMenuItem ItemDisplay(ToolStripMenuItem toolStripMenuItem, string clickedItemPath,
             string selectedItemPath, bool isDarkTheme)
         {
-            if ("Text" == new FileTypes().GetFileType(Path.GetExtension(clickedItemPath)))
-            {
-                return toolStripMenuItem;
-            }
+            if ("Text" == new FileTypes().GetFileType(Path.GetExtension(clickedItemPath))) return toolStripMenuItem;
 
             var countLines = new CountLines();
             var countLinesMenuItem = countLines.CreateItem(selectedItemPath, false, isDarkTheme);
@@ -91,15 +93,11 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
             Icon icon;
 
             if (doOmitEmptyLines)
-            {
                 icon = isDarkTheme
                     ? Resources.Countlines_Omit_Blank_Lines_dark_theme
                     : Resources.Countlines_Omit_Blank_Lines_light_theme;
-            }
             else
-            {
                 icon = isDarkTheme ? Resources.Countlines_dark_theme : Resources.Countlines_light_theme;
-            }
 
             return new Icon(icon, 40, 40);
         }
@@ -170,12 +168,6 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                 _disposedValue = true;
                 Dispose();
             }
-        }
-
-        public void Dispose()
-        {
-            Dispose(true);
-            GC.SuppressFinalize(this);
         }
     }
 }

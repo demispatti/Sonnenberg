@@ -1,131 +1,131 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
-  <PropertyGroup>
-    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
-    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DE033B3B-909F-4682-A5B9-FE8AD6D86D9C}</ProjectGuid>
-    <OutputType>Library</OutputType>
-    <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>Sonnenberg.Common</RootNamespace>
-    <AssemblyName>Common</AssemblyName>
-    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
-    <FileAlignment>512</FileAlignment>
-    <Deterministic>true</Deterministic>
-    <SignAssembly>false</SignAssembly>
-    <AssemblyOriginatorKeyFile>
-    </AssemblyOriginatorKeyFile>
-    <NuGetPackageImportStamp>
-    </NuGetPackageImportStamp>
-    <TargetFrameworkProfile />
-    <LangVersion>7.3</LangVersion>
-    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <DebugSymbols>true</DebugSymbols>
-    <DebugType>full</DebugType>
-    <Optimize>false</Optimize>
-    <OutputPath>bin\Debug\</OutputPath>
-    <DefineConstants>DEBUG;TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
-  </PropertyGroup>
-  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
-    <DebugType>pdbonly</DebugType>
-    <Optimize>true</Optimize>
-    <OutputPath>bin\Release\</OutputPath>
-    <DefineConstants>TRACE</DefineConstants>
-    <ErrorReport>prompt</ErrorReport>
-    <WarningLevel>4</WarningLevel>
-    <Prefer32Bit>false</Prefer32Bit>
-  </PropertyGroup>
-  <ItemGroup>
-    <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
-      <HintPath>..\packages\log4net.2.0.15\lib\net45\log4net.dll</HintPath>
-    </Reference>
-    <Reference Include="Microsoft.CSharp" />
-    <Reference Include="mscorlib" />
-    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
-      <HintPath>..\packages\Newtonsoft.Json.13.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="System" />
-    <Reference Include="System.Configuration" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Drawing" />
-    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
-      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="System.Web" />
-    <Reference Include="System.Windows.Forms" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="FileExtensions.cs" />
-    <Compile Include="FileTypes.cs" />
-    <Compile Include="Helper.cs" />
-    <Compile Include="Logger.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DesignTime>True</DesignTime>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="app.config" />
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Properties\Resources.resx">
-      <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
-      <SubType>Designer</SubType>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Resources\Files\AudioFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\BackupFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\CadFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\CameraRawFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\CodeFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\CompressedFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\DatabaseFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\DataFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\DeveloperFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\DiskImageFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\EbookFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\EncodedFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\ExecutableFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\FontFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\GameFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\GisFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\MiscFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\PageLayoutFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\PluginFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\RasterImageFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\SettingsFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\SpreadsheetFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\SystemFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\TextFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\VectorImageFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\VideoFilesExtensions.json" />
-    <EmbeddedResource Include="Resources\Files\WebFilesExtensions.json" />
-  </ItemGroup>
-  <ItemGroup>
-    <ProjectReference Include="..\Language\Language.csproj">
-      <Project>{2fc7de5d-80f9-469b-bc19-fdca26be792e}</Project>
-      <Name>Language</Name>
-    </ProjectReference>
-  </ItemGroup>
-  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
-  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')"/>
     <PropertyGroup>
-      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+        <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+        <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+        <ProjectGuid>{DE033B3B-909F-4682-A5B9-FE8AD6D86D9C}</ProjectGuid>
+        <OutputType>Library</OutputType>
+        <AppDesignerFolder>Properties</AppDesignerFolder>
+        <RootNamespace>Sonnenberg.Common</RootNamespace>
+        <AssemblyName>Common</AssemblyName>
+        <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+        <FileAlignment>512</FileAlignment>
+        <Deterministic>true</Deterministic>
+        <SignAssembly>false</SignAssembly>
+        <AssemblyOriginatorKeyFile>
+        </AssemblyOriginatorKeyFile>
+        <NuGetPackageImportStamp>
+        </NuGetPackageImportStamp>
+        <TargetFrameworkProfile/>
+        <LangVersion>7.3</LangVersion>
+        <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     </PropertyGroup>
-    <Error Condition="!Exists('..\packages\Microsoft.VisualStudio.SDK.EmbedInteropTypes.15.0.36\build\Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.VisualStudio.SDK.EmbedInteropTypes.15.0.36\build\Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets'))" />
-    <Error Condition="!Exists('..\packages\System.Runtime.WindowsRuntime.4.7.0\build\net461\System.Runtime.WindowsRuntime.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Runtime.WindowsRuntime.4.7.0\build\net461\System.Runtime.WindowsRuntime.targets'))" />
-  </Target>
-  <Import Project="..\packages\Microsoft.VisualStudio.SDK.EmbedInteropTypes.15.0.36\build\Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets" Condition="Exists('..\packages\Microsoft.VisualStudio.SDK.EmbedInteropTypes.15.0.36\build\Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets')" />
-  <Import Project="..\packages\System.Runtime.WindowsRuntime.4.7.0\build\net461\System.Runtime.WindowsRuntime.targets" Condition="Exists('..\packages\System.Runtime.WindowsRuntime.4.7.0\build\net461\System.Runtime.WindowsRuntime.targets')" />
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+        <DebugSymbols>true</DebugSymbols>
+        <DebugType>full</DebugType>
+        <Optimize>false</Optimize>
+        <OutputPath>bin\Debug\</OutputPath>
+        <DefineConstants>DEBUG;TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+    <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+        <DebugType>pdbonly</DebugType>
+        <Optimize>true</Optimize>
+        <OutputPath>bin\Release\</OutputPath>
+        <DefineConstants>TRACE</DefineConstants>
+        <ErrorReport>prompt</ErrorReport>
+        <WarningLevel>4</WarningLevel>
+        <Prefer32Bit>false</Prefer32Bit>
+    </PropertyGroup>
+    <ItemGroup>
+        <Reference Include="log4net, Version=2.0.15.0, Culture=neutral, PublicKeyToken=669e0ddf0bb1aa2a, processorArchitecture=MSIL">
+            <HintPath>..\packages\log4net.2.0.15\lib\net45\log4net.dll</HintPath>
+        </Reference>
+        <Reference Include="Microsoft.CSharp"/>
+        <Reference Include="mscorlib"/>
+        <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+            <HintPath>..\packages\Newtonsoft.Json.13.0.3\lib\net45\Newtonsoft.Json.dll</HintPath>
+        </Reference>
+        <Reference Include="System"/>
+        <Reference Include="System.Configuration"/>
+        <Reference Include="System.Core"/>
+        <Reference Include="System.Drawing"/>
+        <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+            <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+            <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+        </Reference>
+        <Reference Include="System.Web"/>
+        <Reference Include="System.Windows.Forms"/>
+    </ItemGroup>
+    <ItemGroup>
+        <Compile Include="FileExtensions.cs"/>
+        <Compile Include="FileTypes.cs"/>
+        <Compile Include="Helper.cs"/>
+        <Compile Include="Logger.cs"/>
+        <Compile Include="Properties\AssemblyInfo.cs"/>
+        <Compile Include="Properties\Resources.Designer.cs">
+            <AutoGen>True</AutoGen>
+            <DesignTime>True</DesignTime>
+            <DependentUpon>Resources.resx</DependentUpon>
+        </Compile>
+    </ItemGroup>
+    <ItemGroup>
+        <None Include="app.config"/>
+        <None Include="packages.config"/>
+    </ItemGroup>
+    <ItemGroup>
+        <EmbeddedResource Include="Properties\Resources.resx">
+            <Generator>ResXFileCodeGenerator</Generator>
+            <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+            <SubType>Designer</SubType>
+        </EmbeddedResource>
+        <EmbeddedResource Include="Resources\Files\AudioFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\BackupFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\CadFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\CameraRawFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\CodeFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\CompressedFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\DatabaseFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\DataFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\DeveloperFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\DiskImageFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\EbookFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\EncodedFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\ExecutableFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\FontFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\GameFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\GisFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\MiscFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\PageLayoutFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\PluginFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\RasterImageFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\SettingsFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\SpreadsheetFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\SystemFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\TextFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\VectorImageFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\VideoFilesExtensions.json"/>
+        <EmbeddedResource Include="Resources\Files\WebFilesExtensions.json"/>
+    </ItemGroup>
+    <ItemGroup>
+        <ProjectReference Include="..\Language\Language.csproj">
+            <Project>{2fc7de5d-80f9-469b-bc19-fdca26be792e}</Project>
+            <Name>Language</Name>
+        </ProjectReference>
+    </ItemGroup>
+    <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
+    <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+        <PropertyGroup>
+            <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them. For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+        </PropertyGroup>
+        <Error Condition="!Exists('..\packages\Microsoft.VisualStudio.SDK.EmbedInteropTypes.15.0.36\build\Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.VisualStudio.SDK.EmbedInteropTypes.15.0.36\build\Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets'))"/>
+        <Error Condition="!Exists('..\packages\System.Runtime.WindowsRuntime.4.7.0\build\net461\System.Runtime.WindowsRuntime.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Runtime.WindowsRuntime.4.7.0\build\net461\System.Runtime.WindowsRuntime.targets'))"/>
+    </Target>
+    <Import Project="..\packages\Microsoft.VisualStudio.SDK.EmbedInteropTypes.15.0.36\build\Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets" Condition="Exists('..\packages\Microsoft.VisualStudio.SDK.EmbedInteropTypes.15.0.36\build\Microsoft.VisualStudio.SDK.EmbedInteropTypes.targets')"/>
+    <Import Project="..\packages\System.Runtime.WindowsRuntime.4.7.0\build\net461\System.Runtime.WindowsRuntime.targets" Condition="Exists('..\packages\System.Runtime.WindowsRuntime.4.7.0\build\net461\System.Runtime.WindowsRuntime.targets')"/>
 </Project>

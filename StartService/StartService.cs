@@ -1,16 +1,16 @@
-﻿using log4net;
-using Sonnenberg.Common;
-using System;
+﻿using System;
 using System.Linq;
 using System.ServiceProcess;
 using System.Windows.Forms;
+using log4net;
+using Sonnenberg.Common;
+using Sonnenberg.Language;
 using Log = log4net.LogManager;
-using Strings = Sonnenberg.Language.Strings;
 
 namespace Sonnenberg.StartService
 {
     /// <summary>
-    /// The executable that initializes starting of the shell server.
+    ///     The executable that initializes starting of the shell server.
     /// </summary>
     public class StartService
     {
@@ -19,7 +19,7 @@ namespace Sonnenberg.StartService
         private static readonly ILog Log = LogManager.GetLogger(typeof(StartService));
 
         /// <summary>
-        /// Triggers the logger class to create said files.
+        ///     Triggers the logger class to create said files.
         /// </summary>
         /// ///
         /// <seealso cref="Logger" />
@@ -43,7 +43,7 @@ namespace Sonnenberg.StartService
         }
 
         /// <summary>
-        /// Starts the service.
+        ///     Starts the service.
         /// </summary>
         /// ///
         /// <seealso cref="ServiceController" />
@@ -53,10 +53,7 @@ namespace Sonnenberg.StartService
             {
                 try
                 {
-                    if (null == service)
-                    {
-                        throw new ArgumentException(Strings.startServiceError);
-                    }
+                    if (null == service) throw new ArgumentException(Strings.startServiceError);
 
                     if ("Running" == service.Status.ToString())
                     {

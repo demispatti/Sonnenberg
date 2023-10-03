@@ -1,7 +1,4 @@
-﻿using log4net;
-using Sonnenberg.Settings.Properties;
-using System.Collections.Generic;
-using System.IO;
+﻿using Sonnenberg.Settings.Properties;
 
 namespace Sonnenberg.Settings
 {

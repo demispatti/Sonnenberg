@@ -1,48 +1,49 @@
 ﻿<?xml version='1.0' encoding='utf-8'?>
-<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Sonnenberg.Settings.Properties" GeneratedClassName="UserSettings">
-  <Profiles />
-  <Settings>
-    <Setting Name="clickedItemType" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="hasClickedItemType" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
-    <Setting Name="hasMenuWatcherSubscribed" Type="System.Boolean" Scope="User">
-      <Value Profile="(Default)">False</Value>
-    </Setting>
-    <Setting Name="clickedItemPath" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="clickedItemFolder" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="shortcutTargetFile" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="shellStartUpDirectory" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="shortcutTargetFileType" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="clickedItemContainingFolder" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="shortcutTarget" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="shortcutTargetType" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="shortcutTargetFolder" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="selecteditemPaths" Type="System.Collections.IEnumerable" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-    <Setting Name="targetType" Type="System.String" Scope="User">
-      <Value Profile="(Default)" />
-    </Setting>
-  </Settings>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)"
+              GeneratedClassNamespace="Sonnenberg.Settings.Properties" GeneratedClassName="UserSettings">
+    <Profiles/>
+    <Settings>
+        <Setting Name="clickedItemType" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="hasClickedItemType" Type="System.Boolean" Scope="User">
+            <Value Profile="(Default)">False</Value>
+        </Setting>
+        <Setting Name="hasMenuWatcherSubscribed" Type="System.Boolean" Scope="User">
+            <Value Profile="(Default)">False</Value>
+        </Setting>
+        <Setting Name="clickedItemPath" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="clickedItemFolder" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="shortcutTargetFile" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="shellStartUpDirectory" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="shortcutTargetFileType" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="clickedItemContainingFolder" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="shortcutTarget" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="shortcutTargetType" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="shortcutTargetFolder" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="selecteditemPaths" Type="System.Collections.IEnumerable" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+        <Setting Name="targetType" Type="System.String" Scope="User">
+            <Value Profile="(Default)"/>
+        </Setting>
+    </Settings>
 </SettingsFile>

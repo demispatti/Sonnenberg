@@ -1,23 +1,29 @@
-﻿using Sonnenberg.ContextMenu.Properties;
-using Sonnenberg.Language;
-using System;
+﻿using System;
 using System.Drawing;
 using System.Windows.Forms;
+using Sonnenberg.ContextMenu.Properties;
+using Sonnenberg.Language;
 
 namespace Sonnenberg.ContextMenu.SubMenuItems
 {
     /// <summary>
-    /// The class responsible for copying the path of a given, clicked element.
+    ///     The class responsible for copying the path of a given, clicked element.
     /// </summary>
     /// <remarks>
-    /// - Creates a ToolStripMenuItem
-    /// - Creates a click action
-    /// - Clears the clipboard and adds the path to the clipboard
+    ///     - Creates a ToolStripMenuItem
+    ///     - Creates a click action
+    ///     - Clears the clipboard and adds the path to the clipboard
     /// </remarks>
     /// <seealso cref="CopyPath" />
     internal class CopyPath : IDisposable
     {
         private bool _disposedValue;
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
+        }
 
         internal ToolStripMenuItem ItemDisplay(ToolStripMenuItem toolStripMenuItem, string clickedItemType, string clickedItemPath, bool isDarkTheme)
         {
@@ -104,12 +110,6 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                 _disposedValue = true;
                 Dispose();
             }
-        }
-
-        public void Dispose()
-        {
-            Dispose(true);
-            GC.SuppressFinalize(this);
         }
     }
 }

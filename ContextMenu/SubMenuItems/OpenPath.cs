@@ -1,27 +1,27 @@
-﻿using log4net;
-using Sonnenberg.Common;
-using Sonnenberg.ContextMenu.Properties;
-using Sonnenberg.Language;
-using System;
+﻿using System;
 using System.Diagnostics;
 using System.Drawing;
 using System.Windows.Forms;
+using log4net;
+using Sonnenberg.Common;
+using Sonnenberg.ContextMenu.Properties;
+using Sonnenberg.Language;
 
 namespace Sonnenberg.ContextMenu.SubMenuItems
 {
     /// <summary>
-    /// The class responsible for creating a <c>ToolStripMenuItem</c> and its click action.
-    /// It starts a CMD-, Git-CMD- or Git-Bash-Process and cds into the respective directory.
-    /// The processes can be started with limited or elevated privileges.
+    ///     The class responsible for creating a <c>ToolStripMenuItem</c> and its click action.
+    ///     It starts a CMD-, Git-CMD- or Git-Bash-Process and cds into the respective directory.
+    ///     The processes can be started with limited or elevated privileges.
     /// </summary>
     /// <remarks>
-    /// - Creates a ToolStripMenuItem
-    /// - Creates a click action
-    /// - Checks that the requested executable is installed
-    /// - Determines the directory where the clicked item resides
-    /// - Determines the directory the CMD process will cd into
-    /// - Assembles the required <c>StartInfo</c> parameters
-    /// - Starts a CMD-, Git-CMD- or Git-Bash-Process and cds into the respective directory
+    ///     - Creates a ToolStripMenuItem
+    ///     - Creates a click action
+    ///     - Checks that the requested executable is installed
+    ///     - Determines the directory where the clicked item resides
+    ///     - Determines the directory the CMD process will cd into
+    ///     - Assembles the required <c>StartInfo</c> parameters
+    ///     - Starts a CMD-, Git-CMD- or Git-Bash-Process and cds into the respective directory
     /// </remarks>
     /// <seealso cref="ContextMenu" />
     /// <seealso cref="Logger" />
@@ -34,6 +34,12 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
         internal OpenPath()
         {
             ConfigureLogger();
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+            GC.SuppressFinalize(this);
         }
 
         private static void ConfigureLogger()
@@ -91,7 +97,7 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
 
         private static void StartProcess(string shortcutTargetFolder)
         {
-            Process.Start(new ProcessStartInfo()
+            Process.Start(new ProcessStartInfo
             {
                 WorkingDirectory = @"C:\Windows\System32",
                 FileName = shortcutTargetFolder,
@@ -109,12 +115,6 @@ namespace Sonnenberg.ContextMenu.SubMenuItems
                 _disposedValue = true;
                 Dispose();
             }
-        }
-
-        public void Dispose()
-        {
-            Dispose(true);
-            GC.SuppressFinalize(this);
         }
     }
 }

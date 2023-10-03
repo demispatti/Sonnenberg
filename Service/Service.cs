@@ -3,8 +3,8 @@
 namespace Sonnenberg.Service
 {
     /// <summary>
-    /// The Windows Service responsible for starting and stopping of the
-    /// ShellServer trough the Windows Service Manager.
+    ///     The Windows Service responsible for starting and stopping of the
+    ///     ShellServer trough the Windows Service Manager.
     /// </summary>
     /// <seealso cref="ServiceBase" />
     /// <seealso cref="ServiceManager" />
@@ -16,7 +16,7 @@ namespace Sonnenberg.Service
         }
 
         /// <summary>
-        /// Instantiates the Windows Service Manager and initiates starting of the ShellServer.
+        ///     Instantiates the Windows Service Manager and initiates starting of the ShellServer.
         /// </summary>
         /// <param name="args"></param>
         protected override void OnStart(string[] args)
@@ -25,7 +25,7 @@ namespace Sonnenberg.Service
         }
 
         /// <summary>
-        /// Instantiates the Windows Service Manager and initiates stopping of the ShellServer.
+        ///     Instantiates the Windows Service Manager and initiates stopping of the ShellServer.
         /// </summary>
         protected override void OnStop()
         {

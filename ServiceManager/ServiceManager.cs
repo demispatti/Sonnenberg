@@ -1,34 +1,33 @@
-﻿using log4net;
-using SharpShell;
-using System;
+﻿using System;
 using System.Windows.Forms;
+using log4net;
+using Sonnenberg.Language;
 using Log = log4net.LogManager;
-using Strings = Sonnenberg.Language.Strings;
 
 namespace Sonnenberg.ServiceManager
 {
     /// <summary>
-    /// The class responsible for messaging starting and stopping commands
-    /// invoked by the WindowsService and executed by the ShellServerManager.
+    ///     The class responsible for messaging starting and stopping commands
+    ///     invoked by the WindowsService and executed by the ShellServerManager.
     /// </summary>
-    /// <seealso cref="ServerManager"/>
-    /// <seealso cref="ShellServer"/>
+    /// <seealso cref="ServerManager" />
+    /// <seealso cref="ShellServer" />
     public sealed class ServiceManager
     {
         private static readonly ILog Log = LogManager.GetLogger(typeof(ServiceManager));
 
         /// <summary>
-        /// Instantiates the ShellServerManager and creates an Instance of the ShellServer
-        /// to start the ShellServer via ShellServerManager.
+        ///     Instantiates the ShellServerManager and creates an Instance of the ShellServer
+        ///     to start the ShellServer via ShellServerManager.
         /// </summary>
-        /// <seealso cref="ServerManager"/>
-        /// <seealso cref="ShellServer"/>
+        /// <seealso cref="ServerManager" />
+        /// <seealso cref="ShellServer" />
         public void StartShellServer()
         {
             var shellServer = new ShellServer.ShellServer();
             try
             {
-                new ServerManager.ServerManager().StartShellServer((ISharpShellServer)shellServer);
+                new ServerManager.ServerManager().StartShellServer(shellServer);
                 shellServer.Dispose();
             }
             catch (Exception ex)
@@ -41,11 +40,11 @@ namespace Sonnenberg.ServiceManager
         }
 
         /// <summary>
-        /// Instantiates the ShellServerManager and creates an Instance of the ShellServer
-        /// to stop the ShellServer via ShellServerManager.
+        ///     Instantiates the ShellServerManager and creates an Instance of the ShellServer
+        ///     to stop the ShellServer via ShellServerManager.
         /// </summary>
         /// <seealso cref="ServerManager" />
-        /// <seealso cref="ShellServer"/>
+        /// <seealso cref="ShellServer" />
         public void StopShellServer()
         {
             var serverManager = new ServerManager.ServerManager();

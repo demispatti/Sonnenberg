@@ -1,339 +1,344 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <root>
-  <!-- 
-    Microsoft ResX Schema 
-    
-    Version 2.0
-    
-    The primary goals of this format is to allow a simple XML format 
-    that is mostly human readable. The generation and parsing of the 
-    various data types are done through the TypeConverter classes 
-    associated with the data types.
-    
-    Example:
-    
-    ... ado.net/XML headers & schema ...
-    <resheader name="resmimetype">text/microsoft-resx</resheader>
-    <resheader name="version">2.0</resheader>
-    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
-    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
-    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
-    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
-    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
-        <value>[base64 mime encoded serialized .NET Framework object]</value>
-    </data>
-    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
-        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
-        <comment>This is a comment</comment>
-    </data>
-                
-    There are any number of "resheader" rows that contain simple 
-    name/value pairs.
-    
-    Each data row contains a name, and value. The row also contains a 
-    type or mimetype. Type corresponds to a .NET class that support 
-    text/value conversion through the TypeConverter architecture. 
-    Classes that don't support this are serialized and stored with the 
-    mimetype set.
-    
-    The mimetype is used for serialized objects, and tells the 
-    ResXResourceReader how to depersist the object. This is currently not 
-    extensible. For a given mimetype the value must be set accordingly:
-    
-    Note - application/x-microsoft.net.object.binary.base64 is the format 
-    that the ResXResourceWriter will generate, however the reader can 
-    read any of the formats listed below.
-    
-    mimetype: application/x-microsoft.net.object.binary.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
-            : and then encoded with base64 encoding.
-    
-    mimetype: application/x-microsoft.net.object.soap.base64
-    value   : The object must be serialized with 
-            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
-            : and then encoded with base64 encoding.
-
-    mimetype: application/x-microsoft.net.object.bytearray.base64
-    value   : The object must be serialized into a byte array 
-            : using a System.ComponentModel.TypeConverter
-            : and then encoded with base64 encoding.
-    -->
-  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
-    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
-    <xsd:element name="root" msdata:IsDataSet="true">
-      <xsd:complexType>
-        <xsd:choice maxOccurs="unbounded">
-          <xsd:element name="metadata">
+    <!-- 
+      Microsoft ResX Schema 
+      
+      Version 2.0
+      
+      The primary goals of this format is to allow a simple XML format 
+      that is mostly human readable. The generation and parsing of the 
+      various data types are done through the TypeConverter classes 
+      associated with the data types.
+      
+      Example:
+      
+      ... ado.net/XML headers & schema ...
+      <resheader name="resmimetype">text/microsoft-resx</resheader>
+      <resheader name="version">2.0</resheader>
+      <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+      <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+      <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+      <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+      <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+          <value>[base64 mime encoded serialized .NET Framework object]</value>
+      </data>
+      <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+          <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+          <comment>This is a comment</comment>
+      </data>
+                  
+      There are any number of "resheader" rows that contain simple 
+      name/value pairs.
+      
+      Each data row contains a name, and value. The row also contains a 
+      type or mimetype. Type corresponds to a .NET class that support 
+      text/value conversion through the TypeConverter architecture. 
+      Classes that don't support this are serialized and stored with the 
+      mimetype set.
+      
+      The mimetype is used for serialized objects, and tells the 
+      ResXResourceReader how to depersist the object. This is currently not 
+      extensible. For a given mimetype the value must be set accordingly:
+      
+      Note - application/x-microsoft.net.object.binary.base64 is the format 
+      that the ResXResourceWriter will generate, however the reader can 
+      read any of the formats listed below.
+      
+      mimetype: application/x-microsoft.net.object.binary.base64
+      value   : The object must be serialized with 
+              : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+              : and then encoded with base64 encoding.
+      
+      mimetype: application/x-microsoft.net.object.soap.base64
+      value   : The object must be serialized with 
+              : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+              : and then encoded with base64 encoding.
+  
+      mimetype: application/x-microsoft.net.object.bytearray.base64
+      value   : The object must be serialized into a byte array 
+              : using a System.ComponentModel.TypeConverter
+              : and then encoded with base64 encoding.
+      -->
+    <xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" id="root"
+                xmlns="">
+        <xsd:import namespace="http://www.w3.org/XML/1998/namespace"/>
+        <xsd:element name="root" msdata:IsDataSet="true">
             <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" />
-              </xsd:sequence>
-              <xsd:attribute name="name" use="required" type="xsd:string" />
-              <xsd:attribute name="type" type="xsd:string" />
-              <xsd:attribute name="mimetype" type="xsd:string" />
-              <xsd:attribute ref="xml:space" />
+                <xsd:choice maxOccurs="unbounded">
+                    <xsd:element name="metadata">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" use="required" type="xsd:string"/>
+                            <xsd:attribute name="type" type="xsd:string"/>
+                            <xsd:attribute name="mimetype" type="xsd:string"/>
+                            <xsd:attribute ref="xml:space"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="assembly">
+                        <xsd:complexType>
+                            <xsd:attribute name="alias" type="xsd:string"/>
+                            <xsd:attribute name="name" type="xsd:string"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="data">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1"/>
+                            <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3"/>
+                            <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4"/>
+                            <xsd:attribute ref="xml:space"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                    <xsd:element name="resheader">
+                        <xsd:complexType>
+                            <xsd:sequence>
+                                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1"/>
+                            </xsd:sequence>
+                            <xsd:attribute name="name" type="xsd:string" use="required"/>
+                        </xsd:complexType>
+                    </xsd:element>
+                </xsd:choice>
             </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="assembly">
-            <xsd:complexType>
-              <xsd:attribute name="alias" type="xsd:string" />
-              <xsd:attribute name="name" type="xsd:string" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="data">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
-              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
-              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
-              <xsd:attribute ref="xml:space" />
-            </xsd:complexType>
-          </xsd:element>
-          <xsd:element name="resheader">
-            <xsd:complexType>
-              <xsd:sequence>
-                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
-              </xsd:sequence>
-              <xsd:attribute name="name" type="xsd:string" use="required" />
-            </xsd:complexType>
-          </xsd:element>
-        </xsd:choice>
-      </xsd:complexType>
-    </xsd:element>
-  </xsd:schema>
-  <resheader name="resmimetype">
-    <value>text/microsoft-resx</value>
-  </resheader>
-  <resheader name="version">
-    <value>2.0</value>
-  </resheader>
-  <resheader name="reader">
-    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <resheader name="writer">
-    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </resheader>
-  <data name="argumentExceptionMessage" xml:space="preserve">
+        </xsd:element>
+    </xsd:schema>
+    <resheader name="resmimetype">
+        <value>text/microsoft-resx</value>
+    </resheader>
+    <resheader name="version">
+        <value>2.0</value>
+    </resheader>
+    <resheader name="reader">
+        <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <resheader name="writer">
+        <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral,
+            PublicKeyToken=b77a5c561934e089
+        </value>
+    </resheader>
+    <data name="argumentExceptionMessage" xml:space="preserve">
     <value>There was an error (Argument).</value>
   </data>
-  <data name="copyDirectoryPathText" xml:space="preserve">
+    <data name="copyDirectoryPathText" xml:space="preserve">
     <value>Copy Directory Path (Unix-Style)</value>
   </data>
-  <data name="copyFilePathText" xml:space="preserve">
+    <data name="copyFilePathText" xml:space="preserve">
     <value>Copy File Path (Unix-Style)</value>
   </data>
-  <data name="copyFolderPathText" xml:space="preserve">
+    <data name="copyFolderPathText" xml:space="preserve">
     <value>Copy Folder Path (Unix-Style)</value>
   </data>
-  <data name="copyForwardslashedDirectoryPathText" xml:space="preserve">
+    <data name="copyForwardslashedDirectoryPathText" xml:space="preserve">
     <value>Copy Directory Path</value>
   </data>
-  <data name="copyForwardslashedFilePathText" xml:space="preserve">
+    <data name="copyForwardslashedFilePathText" xml:space="preserve">
     <value>Copy File Path</value>
   </data>
-  <data name="copyForwardslashedFolderPathText" xml:space="preserve">
+    <data name="copyForwardslashedFolderPathText" xml:space="preserve">
     <value>Copy Folder Path</value>
   </data>
-  <data name="copyResultToClipboard" xml:space="preserve">
+    <data name="copyResultToClipboard" xml:space="preserve">
     <value>Copy result to clipboard?</value>
   </data>
-  <data name="countLinesNoEmptyOnes" xml:space="preserve">
+    <data name="countLinesNoEmptyOnes" xml:space="preserve">
     <value>Count Lines (w/o empty lines)</value>
   </data>
-  <data name="countAllLines" xml:space="preserve">
+    <data name="countAllLines" xml:space="preserve">
     <value>Count Lines</value>
   </data>
-  <data name="startServiceError" xml:space="preserve">
+    <data name="startServiceError" xml:space="preserve">
     <value>Failed to start the application. Please try again, or restart Windows Explorer and try again.</value>
   </data>
-  <data name="stopServiceError" xml:space="preserve">
+    <data name="stopServiceError" xml:space="preserve">
     <value>Failed to stop the application. Please try again, or restart Windows Explorer and try again.</value>
   </data>
-  <data name="fileName" xml:space="preserve">
+    <data name="fileName" xml:space="preserve">
     <value>File name</value>
   </data>
-  <data name="filePathTooLongError" xml:space="preserve">
+    <data name="filePathTooLongError" xml:space="preserve">
     <value>Error: File path is too long.</value>
   </data>
-  <data name="getImageInfoText" xml:space="preserve">
+    <data name="getImageInfoText" xml:space="preserve">
     <value>Show Image Info</value>
   </data>
-  <data name="height" xml:space="preserve">
+    <data name="height" xml:space="preserve">
     <value>height</value>
   </data>
-  <data name="lines" xml:space="preserve">
+    <data name="lines" xml:space="preserve">
     <value>lines</value>
   </data>
-  <data name="menuStripNameDirectoryMenu" xml:space="preserve">
+    <data name="menuStripNameDirectoryMenu" xml:space="preserve">
     <value>Sonnenberg (Directory)</value>
   </data>
-  <data name="menuStripNameFileMenu" xml:space="preserve">
+    <data name="menuStripNameFileMenu" xml:space="preserve">
     <value>Sonnenberg (File)</value>
   </data>
-  <data name="menuStripNameFolderMenu" xml:space="preserve">
+    <data name="menuStripNameFolderMenu" xml:space="preserve">
     <value>Sonnenberg (Folder)</value>
   </data>
-  <data name="notAuthorizedError" xml:space="preserve">
+    <data name="notAuthorizedError" xml:space="preserve">
     <value>Error: You are not authorized to acces this file.</value>
   </data>
-  <data name="openCmdHereElevatedText" xml:space="preserve">
+    <data name="openCmdHereElevatedText" xml:space="preserve">
     <value>Open CMD (Admin)</value>
   </data>
-  <data name="openCmdHereText" xml:space="preserve">
+    <data name="openCmdHereText" xml:space="preserve">
     <value>Open CMD</value>
   </data>
-  <data name="openCmdInsideElevatedText" xml:space="preserve">
+    <data name="openCmdInsideElevatedText" xml:space="preserve">
     <value>Open CMD Inside (Admin)</value>
   </data>
-  <data name="openCmdInsideText" xml:space="preserve">
+    <data name="openCmdInsideText" xml:space="preserve">
     <value>Open CMD Inside</value>
   </data>
-  <data name="openPowershellHereElevatedText" xml:space="preserve">
+    <data name="openPowershellHereElevatedText" xml:space="preserve">
     <value>Open Powershell (Admin)</value>
   </data>
-  <data name="openPowershellHereText" xml:space="preserve">
+    <data name="openPowershellHereText" xml:space="preserve">
     <value>Open Powershell</value>
   </data>
-  <data name="openPowershellInsideElevatedText" xml:space="preserve">
+    <data name="openPowershellInsideElevatedText" xml:space="preserve">
     <value>Open Powershell inside (Admin)</value>
   </data>
-  <data name="openPowershellInsideText" xml:space="preserve">
+    <data name="openPowershellInsideText" xml:space="preserve">
     <value>Open Powershell inside</value>
   </data>
-  <data name="outOfMemoryError" xml:space="preserve">
+    <data name="outOfMemoryError" xml:space="preserve">
     <value>The operation ran out of memory (OutOfMemory).</value>
   </data>
-  <data name="outOfMemoryExceptionMessage" xml:space="preserve">
+    <data name="outOfMemoryExceptionMessage" xml:space="preserve">
     <value>The operation ran out of memory (OutOfMemory).</value>
   </data>
-  <data name="readFileError" xml:space="preserve">
+    <data name="readFileError" xml:space="preserve">
     <value>Error reading file.</value>
   </data>
-  <data name="serviceStarted" xml:space="preserve">
+    <data name="serviceStarted" xml:space="preserve">
     <value>Sonnenberg Service: The service has started.</value>
   </data>
-  <data name="serviceStartedAlready" xml:space="preserve">
+    <data name="serviceStartedAlready" xml:space="preserve">
     <value>Sonnenberg Service: The service is running.</value>
   </data>
-  <data name="serviceStopped" xml:space="preserve">
+    <data name="serviceStopped" xml:space="preserve">
     <value>Sonnenberg Service: The service has stopped.</value>
   </data>
-  <data name="serviceStoppedAlready" xml:space="preserve">
+    <data name="serviceStoppedAlready" xml:space="preserve">
     <value>Sonnenberg Service: The service is not running.</value>
   </data>
-  <data name="startServiceFail" xml:space="preserve">
+    <data name="startServiceFail" xml:space="preserve">
     <value>Failed to start Sonnenberg Service.</value>
   </data>
-  <data name="startServiceSuccess" xml:space="preserve">
+    <data name="startServiceSuccess" xml:space="preserve">
     <value>Successfully started Sonnenberg Service.</value>
   </data>
-  <data name="stopServiceFail" xml:space="preserve">
+    <data name="stopServiceFail" xml:space="preserve">
     <value>Failed to stopSonnenberg Service.</value>
   </data>
-  <data name="stopServiceSuccess" xml:space="preserve">
+    <data name="stopServiceSuccess" xml:space="preserve">
     <value>Successfully stoppedSonnenberg Service.</value>
   </data>
-  <data name="width" xml:space="preserve">
+    <data name="width" xml:space="preserve">
     <value>width</value>
   </data>
-  <data name="linesCountMsgBoxTitle" xml:space="preserve">
+    <data name="linesCountMsgBoxTitle" xml:space="preserve">
     <value>Lines Count</value>
   </data>
-  <data name="shellserverArgumentMissingError" xml:space="preserve">
+    <data name="shellserverArgumentMissingError" xml:space="preserve">
     <value>You have to provide an agrument.</value>
   </data>
-  <data name="menuStripNameFileShortcutMenu" xml:space="preserve">
+    <data name="menuStripNameFileShortcutMenu" xml:space="preserve">
     <value>Sonnenberg (File Shortcut)</value>
   </data>
-  <data name="menuStripNameFolderShortcutMenu" xml:space="preserve">
+    <data name="menuStripNameFolderShortcutMenu" xml:space="preserve">
     <value>Sonnenberg (Folder Shortcut)</value>
   </data>
-  <data name="clickedItemPathArgumentNullException" xml:space="preserve">
+    <data name="clickedItemPathArgumentNullException" xml:space="preserve">
     <value>clickedItemPath must not be NULL.</value>
   </data>
-  <data name="openFileShortcutTargetFolderText" xml:space="preserve">
+    <data name="openFileShortcutTargetFolderText" xml:space="preserve">
     <value>Open Parent Folder</value>
   </data>
-  <data name="openFolderShortcutTargetFolderText" xml:space="preserve">
+    <data name="openFolderShortcutTargetFolderText" xml:space="preserve">
     <value>Open Target Folder</value>
   </data>
-  <data name="openBashHereElevatedText" xml:space="preserve">
+    <data name="openBashHereElevatedText" xml:space="preserve">
     <value>Open Bash (Admin)</value>
   </data>
-  <data name="openBashHereText" xml:space="preserve">
+    <data name="openBashHereText" xml:space="preserve">
     <value>Open Bash</value>
   </data>
-  <data name="openBashInsideElevatedText" xml:space="preserve">
+    <data name="openBashInsideElevatedText" xml:space="preserve">
     <value>Open Bash Inside (Admin)</value>
   </data>
-  <data name="openBashInsideText" xml:space="preserve">
+    <data name="openBashInsideText" xml:space="preserve">
     <value>Open Bash Inside</value>
   </data>
-  <data name="openGitBashHereElevatedText" xml:space="preserve">
+    <data name="openGitBashHereElevatedText" xml:space="preserve">
     <value>Open GitBash (Admin)</value>
   </data>
-  <data name="openGitBashHereText" xml:space="preserve">
+    <data name="openGitBashHereText" xml:space="preserve">
     <value>Open GitBash</value>
   </data>
-  <data name="openGitBashInsideElevatedText" xml:space="preserve">
+    <data name="openGitBashInsideElevatedText" xml:space="preserve">
     <value>Open GitBash Inside (Admin)</value>
   </data>
-  <data name="openGitBashInsideText" xml:space="preserve">
+    <data name="openGitBashInsideText" xml:space="preserve">
     <value>Open GitBash Inside</value>
   </data>
-  <data name="openGitCmdHereElevatedText" xml:space="preserve">
+    <data name="openGitCmdHereElevatedText" xml:space="preserve">
     <value>Open GitCMD (Admin)</value>
   </data>
-  <data name="openGitCmdHereText" xml:space="preserve">
+    <data name="openGitCmdHereText" xml:space="preserve">
     <value>Open GitCMD</value>
   </data>
-  <data name="openGitCmdInsideElevatedText" xml:space="preserve">
+    <data name="openGitCmdInsideElevatedText" xml:space="preserve">
     <value>Open GitCMD Inside (Admin)</value>
   </data>
-  <data name="openGitCmdInsideText" xml:space="preserve">
+    <data name="openGitCmdInsideText" xml:space="preserve">
     <value>Open GitCMD Inside</value>
   </data>
-  <data name="openGitHereElevatedText" xml:space="preserve">
+    <data name="openGitHereElevatedText" xml:space="preserve">
     <value>Open Git (Admin)</value>
   </data>
-  <data name="openGitHereText" xml:space="preserve">
+    <data name="openGitHereText" xml:space="preserve">
     <value>Open Git</value>
   </data>
-  <data name="openGitInsideElevatedText" xml:space="preserve">
+    <data name="openGitInsideElevatedText" xml:space="preserve">
     <value>Open Git Inside (Admin)</value>
   </data>
-  <data name="openGitInsideText" xml:space="preserve">
+    <data name="openGitInsideText" xml:space="preserve">
     <value>Open Git Inside</value>
   </data>
-  <data name="openShHereElevatedText" xml:space="preserve">
+    <data name="openShHereElevatedText" xml:space="preserve">
     <value>Open Shell (Admin)</value>
   </data>
-  <data name="openShHereText" xml:space="preserve">
+    <data name="openShHereText" xml:space="preserve">
     <value>Open Shell</value>
   </data>
-  <data name="openShInsideElevatedText" xml:space="preserve">
+    <data name="openShInsideElevatedText" xml:space="preserve">
     <value>Open Shell Inside (Admin)</value>
   </data>
-  <data name="openShInsideText" xml:space="preserve">
+    <data name="openShInsideText" xml:space="preserve">
     <value>Open Shell Inside</value>
   </data>
-  <data name="startServerFail" xml:space="preserve">
+    <data name="startServerFail" xml:space="preserve">
     <value>Cold not start the server.</value>
   </data>
-  <data name="stopServerFail" xml:space="preserve">
+    <data name="stopServerFail" xml:space="preserve">
     <value>Cold not stop the server.</value>
   </data>
-  <data name="failedToStartApplicationError" xml:space="preserve">
+    <data name="failedToStartApplicationError" xml:space="preserve">
     <value>Failed to start the application. Please try again, or restart Windows Explorer and try again.</value>
   </data>
-  <data name="failedToStopApplicationError" xml:space="preserve">
+    <data name="failedToStopApplicationError" xml:space="preserve">
     <value>Failed to stop the application. Please try again, or restart Windows Explorer and try again.</value>
   </data>
-  <data name="readWindowsThemeRegKeyFailed" xml:space="preserve">
+    <data name="readWindowsThemeRegKeyFailed" xml:space="preserve">
     <value>Failed to determine the current Windows Theme.</value>
   </data>
 </root>

@@ -1,7 +1,7 @@
-﻿using Gma.System.MouseKeyHook;
-using log4net;
-using System.Linq;
+﻿using System.Linq;
 using System.Windows.Forms;
+using Gma.System.MouseKeyHook;
+using log4net;
 
 namespace Sonnenberg.MenuWatcher
 {
@@ -20,22 +20,16 @@ namespace Sonnenberg.MenuWatcher
 
         private void GlobalMouseEvents(object sender, MouseEventExtArgs e)
         {
-            if (e.IsMouseButtonDown)
-            {
-                PublishCustomEvent();
-            }
+            if (e.IsMouseButtonDown) PublishCustomEvent();
         }
 
         private void GlobalKeyboardEvents(object sender, KeyPressEventArgs e)
         {
             // DEL, ESC, cancel, backspace
-            var array = new[] { 127, 27, 24, 8 };
+            var array = new[] {127, 27, 24, 8};
             var key = e.KeyChar;
 
-            if (array.Contains(key))
-            {
-                PublishCustomEvent();
-            }
+            if (array.Contains(key)) PublishCustomEvent();
         }
 
         private void PublishCustomEvent()

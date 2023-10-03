@@ -1,25 +1,25 @@
-﻿using log4net;
-using Sonnenberg.Common;
-using System;
+﻿using System;
 using System.Diagnostics;
-using Strings = Sonnenberg.Language.Strings;
+using log4net;
+using Sonnenberg.Common;
+using Sonnenberg.Language;
 
 namespace Sonnenberg.StopServer
 {
     internal class StopServer
     {
+        private static readonly ILog Log = LogManager.GetLogger(typeof(StopServer));
+
         private static void Main(string[] args)
         {
             var stopServer = new StopServer();
             stopServer.Stop();
         }
 
-        private static readonly ILog Log = LogManager.GetLogger(typeof(StopServer));
-
         private void Stop()
         {
             ConfigureLogger();
-            this.StopShellServer();
+            StopShellServer();
         }
 
         private static void ConfigureLogger()
@@ -31,11 +31,9 @@ namespace Sonnenberg.StopServer
         {
             try
             {
-                foreach (Process exe in Process.GetProcesses())
-                {
+                foreach (var exe in Process.GetProcesses())
                     if (exe.ProcessName == "explorer")
                         exe.Kill();
-                }
 
                 Process.Start("explorer.exe");
                 new ServiceManager.ServiceManager().StopShellServer();
