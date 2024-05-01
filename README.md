@@ -73,12 +73,13 @@ Project:
 ## Automatic Project Setup (recommended)
 This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.
 
-### 1. Run Setup Solution
+### 1. Run Setup Solution (Setup.ps1)
 Do **not open** any project files or the solution in an editor or an IDE while running the setup script, or you will get error messages and you will have to repeat the setup process.
 In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*. Enter your name and your company name. 
 This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup").
 After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution. 
 **To create the installer file, just build the installer project for the platform of your choice**.
+**To reset the solution, simply run Reset.ps1**
 
 ---
 ## Manual Project Setup
