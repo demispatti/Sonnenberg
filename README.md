@@ -17,15 +17,16 @@ A Tiny But Useful Windows Explorer Extension For Developers
 ---
 ## Table Of Contents
 - [Features](#features)
+- [Architecture](#architecture)
 - [Get Setup File](#get-setup-file)
 - [Getting Started](#getting-started)
 - [Automatic Project Setup (recommended)](#automatic-project-setup-recommended)
 - [Manual Project Setup](#manual-project-setup)
 - [Running The Tests](#running-the-tests)
-- [Debugging The ShellServer](#debugging-the-shell-server)
+- [Debugging The Shell Extension](#debugging-the-shell-extension)
 - [Deployment](#deployment)
 - [Documentation](#documentation)
-- [Frequently Asked Questions](#documentation)
+- [Frequently Asked Questions](#frequently-asked-questions)
 - [Bugs And Feature Requests](#bugs-and-feature-requests)
 - [Contributing](#contributing)
 - [Versioning](#versioning)
@@ -47,6 +48,34 @@ Depending on the context, you'll be able to:
 ### What It Looks Like
 ![Context Menu](./assets/image.jpg)
 Works with any theme.
+
+---
+## Architecture
+
+The project follows **Clean Architecture** principles with clear separation of concerns:
+
+```
+Sonnenberg/
+├── src/
+│   ├── Sonnenberg.Core/              # Domain models & application core
+│   ├── Sonnenberg.Features/          # Feature implementations (CopyPath, LineCounter, ShellLauncher)
+│   ├── Sonnenberg.UI/                # Menus, icons, theming
+│   ├── Sonnenberg.Infrastructure/    # Logging, configuration, events
+│   ├── Sonnenberg.Localization/      # i18n resources
+│   └── Sonnenberg.Management/        # Service management utilities
+├── installer/                         # WiX installer project
+└── docs/                              # Documentation
+```
+
+**Key Benefits:**
+- ✅ **Clean Architecture** - Industry-standard layered design
+- ✅ **SOLID Principles** - Maintainable, testable code
+- ✅ **Separation of Concerns** - Each layer has a specific purpose
+- ✅ **Dependency Injection** - Loosely coupled components
+- ✅ **Comprehensive Documentation** - See `docs/ARCHITECTURE.md`
+
+**Recent Refactoring:**
+The codebase was refactored from 13 separate projects into 6 well-organized projects. See `docs/MIGRATION_GUIDE.md` for details.
 
 ---
 ## Get Setup File
@@ -102,17 +131,17 @@ Restore the packages and build the solution. To create the installer file, just 
 Run your tests.
 
 ---
-## Debugging The Shell Server
+## Debugging The Shell Extension
 
 ### Prerequisites
-Note #1:  
-*if* you already take advantage of **Sonnenberg** on your computer, you need to stop the service first (e.g. via the Start Menu), in order to debug the ShellServer.dll you built.
+Note #1:
+*If* you already use **Sonnenberg** on your computer, stop the service first (e.g. via the Start Menu) before debugging.
 
-Note #2:  
-In order to debug the ShellServer.dll, you need a copy of the [SharpShell ServerManager](https://github.com/dwmkerr/sharpshell/releases/download/v2.7.2.0/ServerManager.zip). Download and unzip it.
+Note #2:
+To debug the shell extension, you need the [SharpShell ServerManager](https://github.com/dwmkerr/sharpshell/releases/download/v2.7.2.0/ServerManager.zip). Download and unzip it.
 
 ### Start Debugging
-1. Execute **ServerManager.exe** as Administrator. Select *File->Load Server*, navigate to "Sonnenberg\ShellServer\bin\Debug", and select *ShellServer.dll*.
+1. Execute **ServerManager.exe** as Administrator. Select *File->Load Server*, navigate to `src\Sonnenberg.Core\bin\Debug`, and select the compiled DLL.
 2. Click *Server*, and then first *install* the Server and then *register* it for the architecture you want to debug.
 3. Click *Explorer*. Make sure there is a tick where it says *Always Unload DLLs*.
 4. Click *Restart Explorer*.
@@ -140,7 +169,9 @@ Build the installer project for the desired platform and deploy the MSI file.
 
 ---
 ## Documentation
-No need for a documentation.
+- **[Architecture Documentation](docs/ARCHITECTURE.md)** - Detailed architecture overview and design decisions
+- **[Migration Guide](docs/MIGRATION_GUIDE.md)** - Guide for developers working with the refactored codebase
+- **Code is self-documenting** - Well-organized with clear naming and XML comments
 
 ---
 ## Frequently Asked Questions
