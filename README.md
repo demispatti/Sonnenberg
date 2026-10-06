@@ -59,7 +59,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 Software:
 - [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
-- [WiX Toolset 3.11.2](https://github.com/wixtoolset/wix3/releases/tag/wix3112rtm)
+- [WiX Toolset 3.14.1](https://www.nuget.org/packages/WiX/3.14.1) (restored through NuGet)
 
 Visual Studio Extensions:
 - [Microsoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)

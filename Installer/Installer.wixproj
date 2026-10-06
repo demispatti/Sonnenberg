@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" InitialTargets="EnsureWixToolsetInstalled" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-    <Import Project="..\packages\WiX.3.11.2\build\wix.props" Condition="Exists('..\packages\WiX.3.11.2\build\wix.props')"/>
+    <Import Project="..\packages\WiX.3.14.1\build\wix.props" Condition="Exists('..\packages\WiX.3.14.1\build\wix.props')"/>
     <PropertyGroup>
         <ProductVersion>3.10</ProductVersion>
         <ProjectGuid>e7e0ae22-0a75-417e-950a-21258f5a737a</ProjectGuid>
@@ -67,11 +67,11 @@
     </ItemGroup>
     <ItemGroup>
         <WixExtension Include="WixUtilExtension">
-            <HintPath>..\..\..\..\..\Program Files (x86)\WiX Toolset v3.11\bin\WixUtilExtension.dll</HintPath>
+            <HintPath>$(WixExtDir)WixUtilExtension.dll</HintPath>
             <Name>WixUtilExtension</Name>
         </WixExtension>
         <WixExtension Include="WixUIExtension">
-            <HintPath>..\..\..\..\..\Program Files (x86)\WiX Toolset v3.11\bin\WixUIExtension.dll</HintPath>
+            <HintPath>$(WixExtDir)WixUIExtension.dll</HintPath>
             <Name>WixUIExtension</Name>
         </WixExtension>
     </ItemGroup>
@@ -219,7 +219,7 @@
         <PropertyGroup>
             <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them. For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
         </PropertyGroup>
-        <Error Condition="!Exists('..\packages\WiX.3.11.2\build\wix.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WiX.3.11.2\build\wix.props'))"/>
+        <Error Condition="!Exists('..\packages\WiX.3.14.1\build\wix.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\WiX.3.14.1\build\wix.props'))"/>
     </Target>
     <!--
       To modify your build process, add your task inside one of the targets below and uncomment it.
