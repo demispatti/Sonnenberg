@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title description">
+  <title id="title">Sonnenberg context menu icon</title>
+  <desc id="description">A low amber sun behind a compact Säntis silhouette and summit tower.</desc>
+  <defs>
+    <linearGradient id="sun" x1="0.2" y1="0.12" x2="0.8" y2="0.9">
+      <stop offset="0" stop-color="#ffd86f"/>
+      <stop offset="1" stop-color="#ef9f36"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="176" cy="207" r="113" fill="url(#sun)" stroke="#fff4cf" stroke-width="12"/>
+
+  <path d="M30 420v-42l61-42 47-13 36-39 31 12 35-50 29 10 39-66 28 12 42-87 25 11 22-31 23 34 25 29 22 56 29 17 33 52 36 21 61 51v65Z"
+        fill="none" stroke="#f7f3e8" stroke-width="26" stroke-linejoin="round" stroke-linecap="round"/>
+  <path d="M30 420v-42l61-42 47-13 36-39 31 12 35-50 29 10 39-66 28 12 42-87 25 11 22-31 23 34 25 29 22 56 29 17 33 52 36 21 61 51v65Z"
+        fill="#194454" stroke="#194454" stroke-width="8" stroke-linejoin="round" stroke-linecap="round"/>
+
+  <g fill="none" stroke-linecap="round">
+    <path d="M405 97v-55M390 54h30M394 72h22" stroke="#f7f3e8" stroke-width="22"/>
+    <path d="M405 97v-55M390 54h30M394 72h22" stroke="#194454" stroke-width="10"/>
+  </g>
+  <circle cx="405" cy="36" r="8" fill="#194454" stroke="#f7f3e8" stroke-width="5"/>
+</svg>
