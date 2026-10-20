@@ -1,0 +1,75 @@
+name: Build and test
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  portable-core:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: ubuntu-latest
+            artifact: linux-x64
+          - runner: macos-latest
+            artifact: macos
+          - runner: windows-latest
+            artifact: windows-x64
+          - runner: windows-11-arm
+            artifact: windows-arm64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.402'
+      - name: Test portable core
+        run: dotnet run --project tests/Sonnenberg.Core.Tests/Sonnenberg.Core.Tests.csproj --configuration Release
+      - name: Upload portable core
+        uses: actions/upload-artifact@v7
+        with:
+          name: sonnenberg-portable-core-${{ matrix.artifact }}
+          path: src/Sonnenberg.Core/bin/Release/net10.0/Sonnenberg.Core.dll
+          if-no-files-found: error
+
+  legacy-build:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [x86, x64]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: microsoft/setup-msbuild@v3
+      - uses: NuGet/setup-nuget@v4.0
+      - name: Restore NuGet packages
+        run: nuget restore Sonnenberg.sln -NonInteractive
+      - name: Build solution
+        run: msbuild Sonnenberg.sln /m /p:Configuration=Release /p:Platform=${{ matrix.platform }}
+      - name: Upload unsigned binaries
+        uses: actions/upload-artifact@v7
+        with:
+          name: sonnenberg-legacy-${{ matrix.platform }}
+          path: |
+            **/bin/Release/**
+            **/bin/${{ matrix.platform }}/Release/**
+          if-no-files-found: error
+
+  installer-readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Report unresolved installer metadata
+        shell: bash
+        run: |
+          count=$(grep -R -E 'YOUR_GUID_HERE|YOUR_MANUFACTURER_NAME_HERE' Installer --include='*.wxs' | wc -l)
+          if [ "$count" -gt 0 ]; then
+            echo "::warning::WiX installer is not release-ready: $count placeholder values remain."
+          fi

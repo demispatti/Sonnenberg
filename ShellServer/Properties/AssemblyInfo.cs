@@ -21,7 +21,7 @@ using log4net.Config;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("YOUR_GUID_HERE")]
+[assembly: Guid("36656368-79EB-4F93-8084-CA251D084737")]
 
 // Version information for an assembly consists of the following four values:
 //

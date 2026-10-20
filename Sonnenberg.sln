@@ -4,9 +4,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 VisualStudioVersion = 16.0.29215.179
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShellServer", "ShellServer\ShellServer.csproj", "{36656368-79EB-4F93-8084-CA251D084737}"
-	ProjectSection(ProjectDependencies) = postProject
-		{C49326B8-6EEA-427D-AE08-FFC57922602D} = {C49326B8-6EEA-427D-AE08-FFC57922602D}
-	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Language", "Language\Language.csproj", "{2FC7DE5D-80F9-469B-BC19-FDCA26BE792E}"
 EndProject
