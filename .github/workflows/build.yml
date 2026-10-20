@@ -122,12 +122,18 @@ jobs:
             echo "::warning::WiX installer is not release-ready: $count placeholder values remain."
           fi
       - name: Validate modern manifest template
-        shell: bash
+        shell: pwsh
         run: |
-          xmllint --noout packaging/AppxManifest.template.xml
-          count=$(grep -c 'REPLACE_WITH_' packaging/AppxManifest.template.xml)
-          if [ "$count" -eq 0 ]; then
-            echo "Expected explicit packaging placeholders were not found."
+          $manifest = Get-Content -Raw packaging/AppxManifest.template.xml
+          try {
+            [xml]$manifest | Out-Null
+          } catch {
+            Write-Error "Modern manifest template is not well-formed XML: $_"
             exit 1
-          fi
-          echo "Modern manifest is a validated template with $count explicit packaging placeholders."
+          }
+          $count = ([regex]::Matches($manifest, 'REPLACE_WITH_')).Count
+          if ($count -eq 0) {
+            Write-Error "Expected explicit packaging placeholders were not found."
+            exit 1
+          }
+          Write-Output "Modern manifest is a validated template with $count explicit packaging placeholders."

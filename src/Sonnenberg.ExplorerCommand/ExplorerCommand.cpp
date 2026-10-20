@@ -353,7 +353,7 @@ private:
 };
 } // namespace
 
-extern "C" HRESULT __stdcall DllCanUnloadNow() noexcept
+extern "C" HRESULT __stdcall DllCanUnloadNow()
 {
     return g_objectCount.load() == 0 && g_serverLocks.load() == 0 ? S_OK : S_FALSE;
 }
@@ -361,7 +361,7 @@ extern "C" HRESULT __stdcall DllCanUnloadNow() noexcept
 extern "C" HRESULT __stdcall DllGetClassObject(
     REFCLSID classId,
     REFIID interfaceId,
-    void** object) noexcept
+    void** object)
 {
     if (object == nullptr)
     {
