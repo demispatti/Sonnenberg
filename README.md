@@ -22,6 +22,7 @@ A Tiny But Useful Windows Explorer Extension For Developers
 - [Automatic Project Setup (recommended)](#automatic-project-setup-recommended)
 - [Manual Project Setup](#manual-project-setup)
 - [Running The Tests](#running-the-tests)
+- [Modernization](#modernization)
 - [Debugging The ShellServer](#debugging-the-shell-server)
 - [Deployment](#deployment)
 - [Documentation](#documentation)
@@ -59,7 +60,7 @@ These instructions will get you a copy of the project up and running on your loc
 ### Prerequisites
 Software:
 - [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
-- [WiX Toolset 3.11.2](https://github.com/wixtoolset/wix3/releases/tag/wix3112rtm)
+- [WiX Toolset 3.14.1](https://www.nuget.org/packages/WiX/3.14.1) (restored through NuGet)
 
 Visual Studio Extensions:
 - [Microsoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
@@ -99,7 +100,18 @@ Restore the packages and build the solution. To create the installer file, just 
 
 ---
 ## Running The Tests
-Run your tests.
+Portable behavior can be developed and tested on macOS, Linux, Windows x64, and Windows ARM64:
+
+```shell
+dotnet run --project tests/Sonnenberg.Core.Tests/Sonnenberg.Core.Tests.csproj --configuration Release
+```
+
+The legacy .NET Framework projects still require Windows and Visual Studio Build Tools.
+
+---
+## Modernization
+
+The current SharpShell handler is a transitional integration that appears under **Show more options** on Windows 11. The modernization branch now contains a minimal native `IExplorerCommand` host that CI builds and smoke-tests on x64 and ARM64; it is not installable until its MSIX identity, assets, and signing are completed. See the [Windows 11 modernization strategy](docs/MODERNIZATION.md) and the [manual Windows 11 test checklist](docs/WINDOWS-11-MANUAL-TESTS.md).
 
 ---
 ## Debugging The Shell Server
@@ -140,7 +152,9 @@ Build the installer project for the desired platform and deploy the MSI file.
 
 ---
 ## Documentation
-No need for a documentation.
+
+- [Windows 11 modernization strategy](docs/MODERNIZATION.md)
+- [Manual Windows 11 integration tests](docs/WINDOWS-11-MANUAL-TESTS.md)
 
 ---
 ## Frequently Asked Questions
@@ -154,7 +168,7 @@ After installation, you'll find the Sonnenberg icon with a drop down inside the 
 
 
 #### Are there any known limitations?
-No
+Yes. The current SharpShell integration is legacy-only on Windows 11. The modern x64/ARM64 host is buildable but not packaged or signed yet, and the WiX installer still requires project-specific GUID and manufacturer values before it can be considered release-ready.
 
 #### Are there any known issues?
 No.

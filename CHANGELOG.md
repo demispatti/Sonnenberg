@@ -1,3 +1,13 @@
+## Unreleased
+
+### Security
+- Updated log4net from the end-of-life 2.0.17 release to 3.5.0, which includes the fix for CVE-2026-40021.
+- Updated the transitional WiX 3 dependency to 3.14.1.
+
+### Added
+- Added a dependency-free native `IExplorerCommand` host and smoke tests for Windows x64 and ARM64.
+- Added portable .NET 10 core tests, GitHub Actions build artifacts, a modern MSIX manifest template, and a Windows 11 manual test checklist.
+
 ## Version 1.1.4.56
 
 ### Changed

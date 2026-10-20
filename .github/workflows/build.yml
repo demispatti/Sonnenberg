@@ -1,0 +1,139 @@
+name: Build and test
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  portable-core:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: ubuntu-latest
+            artifact: linux-x64
+          - runner: macos-latest
+            artifact: macos
+          - runner: windows-latest
+            artifact: windows-x64
+          - runner: windows-11-arm
+            artifact: windows-arm64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-dotnet@v6
+        with:
+          dotnet-version: '10.0.402'
+      - name: Test portable core
+        run: dotnet run --project tests/Sonnenberg.Core.Tests/Sonnenberg.Core.Tests.csproj --configuration Release
+      - name: Upload portable core
+        uses: actions/upload-artifact@v7
+        with:
+          name: sonnenberg-portable-core-${{ matrix.artifact }}
+          path: src/Sonnenberg.Core/bin/Release/net10.0/Sonnenberg.Core.dll
+          if-no-files-found: error
+
+  native-explorer-command:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: windows-latest
+            architecture: x64
+            artifact: x64
+          - runner: windows-11-vs2026-arm
+            architecture: ARM64
+            artifact: arm64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Configure native Explorer command
+        run: >-
+          cmake
+          -S src/Sonnenberg.ExplorerCommand
+          -B build/native-${{ matrix.artifact }}
+          -A ${{ matrix.architecture }}
+      - name: Build native Explorer command
+        run: >-
+          cmake
+          --build build/native-${{ matrix.artifact }}
+          --config Release
+          --parallel
+      - name: Run native smoke tests
+        run: >-
+          ctest
+          --test-dir build/native-${{ matrix.artifact }}
+          --build-config Release
+          --output-on-failure
+      - name: Create checksum
+        shell: pwsh
+        run: |
+          $binary = Get-Item "build/native-${{ matrix.artifact }}/Release/SonnenbergExplorerCommand.dll"
+          $hash = (Get-FileHash $binary.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  $($binary.Name)" | Set-Content -Encoding ascii "$($binary.FullName).sha256"
+      - name: Upload unsigned native host
+        uses: actions/upload-artifact@v7
+        with:
+          name: sonnenberg-explorer-command-${{ matrix.artifact }}
+          path: |
+            build/native-${{ matrix.artifact }}/Release/SonnenbergExplorerCommand.dll
+            build/native-${{ matrix.artifact }}/Release/SonnenbergExplorerCommand.dll.sha256
+            packaging/AppxManifest.template.xml
+          if-no-files-found: error
+
+  legacy-build:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [x86, x64]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: microsoft/setup-msbuild@v3
+      - uses: NuGet/setup-nuget@v4.0
+      - name: Restore NuGet packages
+        run: nuget restore Sonnenberg.sln -NonInteractive
+      - name: Build solution
+        run: msbuild Sonnenberg.sln /m /p:Configuration=Release /p:Platform=${{ matrix.platform }}
+      - name: Upload unsigned binaries
+        uses: actions/upload-artifact@v7
+        with:
+          name: sonnenberg-legacy-${{ matrix.platform }}
+          path: |
+            **/bin/Release/**
+            **/bin/${{ matrix.platform }}/Release/**
+          if-no-files-found: error
+
+  installer-readiness:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - name: Report unresolved installer metadata
+        shell: bash
+        run: |
+          count=$(grep -R -E 'YOUR_GUID_HERE|YOUR_MANUFACTURER_NAME_HERE' Installer --include='*.wxs' | wc -l)
+          if [ "$count" -gt 0 ]; then
+            echo "::warning::WiX installer is not release-ready: $count placeholder values remain."
+          fi
+      - name: Validate modern manifest template
+        shell: pwsh
+        run: |
+          $manifest = Get-Content -Raw packaging/AppxManifest.template.xml
+          try {
+            [xml]$manifest | Out-Null
+          } catch {
+            Write-Error "Modern manifest template is not well-formed XML: $_"
+            exit 1
+          }
+          $count = ([regex]::Matches($manifest, 'REPLACE_WITH_')).Count
+          if ($count -eq 0) {
+            Write-Error "Expected explicit packaging placeholders were not found."
+            exit 1
+          }
+          Write-Output "Modern manifest is a validated template with $count explicit packaging placeholders."
