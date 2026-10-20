@@ -4,6 +4,8 @@
 
 Sonnenberg is a .NET Framework 4.8 solution built around SharpShell 2.7.2, an in-process legacy shell extension, a Windows service, and a WiX 3 installer. The current implementation can build x86 and x64 assemblies, but it has no ARM64 solution configuration and its installer source still contains placeholder GUIDs and manufacturer data. A successful solution build therefore does not prove that a deployable MSI was produced.
 
+The maintenance branch updates the transitional WiX dependency to the patched 3.14.1 release and replaces the end-of-life log4net 2.0.17 dependency with log4net 3.5.0 across all eleven legacy manifests and their project references. log4net 3.5.0 targets .NET Framework 4.6.2 and is compatible with the projects' .NET Framework 4.8 target.
+
 SharpShell's legacy context-menu handler remains useful through Windows 11's **Show more options** menu. It is not a future-proof route into the primary Windows 11 context menu.
 
 ## Target architecture
@@ -87,3 +89,5 @@ GitHub-hosted runners are free for public repositories. The workflow intentional
 - [Microsoft: desktop-to-UWP/MSIX extensions](https://learn.microsoft.com/windows/apps/desktop/modernize/desktop-to-uwp-extensions)
 - [Microsoft: .NET Framework system requirements](https://learn.microsoft.com/dotnet/framework/get-started/system-requirements)
 - [GitHub: hosted runner images and Windows ARM64 labels](https://docs.github.com/actions/reference/runners/github-hosted-runners)
+- [Apache log4net release notes](https://logging.apache.org/log4net/release-notes.html)
+- [NuGet: log4net 3.5.0](https://www.nuget.org/packages/log4net/3.5.0)
