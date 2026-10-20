@@ -1,0 +1,27 @@
+ıK®Ïİzh¬¥«m‹úï›û®*m³úï›oh¥êÚ¶*'‹iz¹¢¶×¦ÏÔ±êìı×¦ŠÊZ¶Ø¿®ù¿±Êâ¦Û?®ù¶öŠ^­«b¢yè¶—«š+myÚlname: Build
+
+on:
+  push:
+    branches: [master]
+  pull_request:
+    branches: [master]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: windows-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        platform: [x86, x64]
+    steps:
+      - uses: actions/checkout@v7
+      - uses: microsoft/setup-msbuild@v3
+      - uses: NuGet/setup-nuget@v4.0
+      - name: Restore NuGet packages
+        run: nuget restore Sonnenberg.sln -NonInteractive
+      - name: Build solution
+        run: msbuild Sonnenberg.sln /m /p:Configuration=Release /p:Platform=${{ matrix.platform }}
