@@ -1,14 +1,15 @@
 # Windows 11 Explorer integration test
 
-Use a Windows 11 PC that is not the development machine. Run the checklist once on x64 and once on ARM64 when native packages exist. Use a disposable local account or a VM snapshot where possible.
+Use a Windows 11 PC that is not the development machine. Run the checklist once on x64 and once on ARM64 when native packages exist. Use a disposable local account or a VM snapshot where possible. The current CI artifacts are unsigned DLLs for build review; they are not packages and must not be registered manually with `regsvr32`.
 
 ## Before testing
 
 1. Record Windows edition, build number, CPU architecture, display scaling, and Explorer theme.
 2. Download the artifact from the corresponding successful GitHub Actions run.
 3. Verify the artifact name and SHA-256 checksum supplied with the test request.
-4. Confirm that no previous Sonnenberg version is installed. Restart Explorer or reboot after uninstalling an older build.
-5. Do not install an unsigned artifact unless the test owner has explicitly explained how the test certificate is trusted and how to remove it afterward.
+4. Confirm that the architecture in the artifact name matches the test PC. The x64 and ARM64 DLLs are not interchangeable.
+5. Confirm that no previous Sonnenberg version is installed. Restart Explorer or reboot after uninstalling an older build.
+6. Do not install an unsigned artifact unless the test owner has explicitly explained how the test certificate is trusted and how to remove it afterward.
 
 ## Install and registration
 

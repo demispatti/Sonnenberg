@@ -1,0 +1,5 @@
+LIBRARY "SonnenbergExplorerCommand"
+
+EXPORTS
+    DllCanUnloadNow PRIVATE
+    DllGetClassObject PRIVATE

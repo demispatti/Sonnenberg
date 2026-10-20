@@ -111,7 +111,7 @@ The legacy .NET Framework projects still require Windows and Visual Studio Build
 ---
 ## Modernization
 
-The current SharpShell handler is a transitional integration that appears under **Show more options** on Windows 11. See the [Windows 11 modernization strategy](docs/MODERNIZATION.md) for the planned native `IExplorerCommand` x64/ARM64 host and the [manual Windows 11 test checklist](docs/WINDOWS-11-MANUAL-TESTS.md) for integration testing.
+The current SharpShell handler is a transitional integration that appears under **Show more options** on Windows 11. The modernization branch now contains a minimal native `IExplorerCommand` host that CI builds and smoke-tests on x64 and ARM64; it is not installable until its MSIX identity, assets, and signing are completed. See the [Windows 11 modernization strategy](docs/MODERNIZATION.md) and the [manual Windows 11 test checklist](docs/WINDOWS-11-MANUAL-TESTS.md).
 
 ---
 ## Debugging The Shell Server
@@ -168,7 +168,7 @@ After installation, you'll find the Sonnenberg icon with a drop down inside the 
 
 
 #### Are there any known limitations?
-Yes. The current SharpShell integration is legacy-only on Windows 11, ARM64 Explorer integration is not implemented yet, and the WiX installer still requires project-specific GUID and manufacturer values before it can be considered release-ready.
+Yes. The current SharpShell integration is legacy-only on Windows 11. The modern x64/ARM64 host is buildable but not packaged or signed yet, and the WiX installer still requires project-specific GUID and manufacturer values before it can be considered release-ready.
 
 #### Are there any known issues?
 No.

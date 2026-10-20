@@ -39,6 +39,54 @@ jobs:
           path: src/Sonnenberg.Core/bin/Release/net10.0/Sonnenberg.Core.dll
           if-no-files-found: error
 
+  native-explorer-command:
+    strategy:
+      fail-fast: false
+      matrix:
+        include:
+          - runner: windows-latest
+            architecture: x64
+            artifact: x64
+          - runner: windows-11-vs2026-arm
+            architecture: ARM64
+            artifact: arm64
+    runs-on: ${{ matrix.runner }}
+    steps:
+      - uses: actions/checkout@v7
+      - name: Configure native Explorer command
+        run: >-
+          cmake
+          -S src/Sonnenberg.ExplorerCommand
+          -B build/native-${{ matrix.artifact }}
+          -A ${{ matrix.architecture }}
+      - name: Build native Explorer command
+        run: >-
+          cmake
+          --build build/native-${{ matrix.artifact }}
+          --config Release
+          --parallel
+      - name: Run native smoke tests
+        run: >-
+          ctest
+          --test-dir build/native-${{ matrix.artifact }}
+          --build-config Release
+          --output-on-failure
+      - name: Create checksum
+        shell: pwsh
+        run: |
+          $binary = Get-Item "build/native-${{ matrix.artifact }}/Release/SonnenbergExplorerCommand.dll"
+          $hash = (Get-FileHash $binary.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  $($binary.Name)" | Set-Content -Encoding ascii "$($binary.FullName).sha256"
+      - name: Upload unsigned native host
+        uses: actions/upload-artifact@v7
+        with:
+          name: sonnenberg-explorer-command-${{ matrix.artifact }}
+          path: |
+            build/native-${{ matrix.artifact }}/Release/SonnenbergExplorerCommand.dll
+            build/native-${{ matrix.artifact }}/Release/SonnenbergExplorerCommand.dll.sha256
+            packaging/AppxManifest.template.xml
+          if-no-files-found: error
+
   legacy-build:
     runs-on: windows-latest
     strategy:
@@ -73,3 +121,13 @@ jobs:
           if [ "$count" -gt 0 ]; then
             echo "::warning::WiX installer is not release-ready: $count placeholder values remain."
           fi
+      - name: Validate modern manifest template
+        shell: bash
+        run: |
+          xmllint --noout packaging/AppxManifest.template.xml
+          count=$(grep -c 'REPLACE_WITH_' packaging/AppxManifest.template.xml)
+          if [ "$count" -eq 0 ]; then
+            echo "Expected explicit packaging placeholders were not found."
+            exit 1
+          fi
+          echo "Modern manifest is a validated template with $count explicit packaging placeholders."

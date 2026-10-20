@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Packaging input, not a ready-to-install manifest. Replace the identity,
+  publisher, version, architecture, executable and visual assets before use.
+-->
+<Package
+  xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
+  xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
+  xmlns:desktop4="http://schemas.microsoft.com/appx/manifest/desktop/windows10/4"
+  xmlns:desktop5="http://schemas.microsoft.com/appx/manifest/desktop/windows10/5"
+  xmlns:com="http://schemas.microsoft.com/appx/manifest/com/windows10"
+  xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
+  IgnorableNamespaces="uap desktop4 desktop5 com rescap">
+  <Identity
+    Name="REPLACE_WITH_PACKAGE_IDENTITY"
+    Publisher="CN=REPLACE_WITH_CERTIFICATE_SUBJECT"
+    Version="0.0.0.0"
+    ProcessorArchitecture="REPLACE_WITH_ARCHITECTURE" />
+  <Properties>
+    <DisplayName>Sonnenberg</DisplayName>
+    <PublisherDisplayName>REPLACE_WITH_PUBLISHER_NAME</PublisherDisplayName>
+    <Logo>Assets\StoreLogo.png</Logo>
+  </Properties>
+  <Dependencies>
+    <TargetDeviceFamily
+      Name="Windows.Desktop"
+      MinVersion="10.0.22000.0"
+      MaxVersionTested="10.0.26100.0" />
+  </Dependencies>
+  <Resources>
+    <Resource Language="en-us" />
+  </Resources>
+  <Applications>
+    <Application
+      Id="Sonnenberg"
+      Executable="REPLACE_WITH_PACKAGE_ENTRYPOINT.exe"
+      EntryPoint="Windows.FullTrustApplication">
+      <uap:VisualElements
+        DisplayName="Sonnenberg"
+        Description="Sonnenberg Explorer commands"
+        BackgroundColor="transparent"
+        Square150x150Logo="Assets\Square150x150Logo.png"
+        Square44x44Logo="Assets\Square44x44Logo.png" />
+      <Extensions>
+        <com:Extension Category="windows.comServer">
+          <com:ComServer>
+            <com:SurrogateServer DisplayName="Sonnenberg Explorer commands">
+              <com:Class
+                Id="B79F8FCC-B264-4D0B-B0C9-EBDAACEBCFD6"
+                Path="SonnenbergExplorerCommand.dll"
+                ThreadingModel="STA" />
+            </com:SurrogateServer>
+          </com:ComServer>
+        </com:Extension>
+        <desktop4:Extension Category="windows.fileExplorerContextMenus">
+          <desktop4:FileExplorerContextMenus>
+            <desktop5:ItemType Type="*">
+              <desktop5:Verb
+                Id="SonnenbergCopyFilePath"
+                Clsid="B79F8FCC-B264-4D0B-B0C9-EBDAACEBCFD6" />
+            </desktop5:ItemType>
+            <desktop5:ItemType Type="Directory">
+              <desktop5:Verb
+                Id="SonnenbergCopyFolderPath"
+                Clsid="B79F8FCC-B264-4D0B-B0C9-EBDAACEBCFD6" />
+            </desktop5:ItemType>
+          </desktop4:FileExplorerContextMenus>
+        </desktop4:Extension>
+      </Extensions>
+    </Application>
+  </Applications>
+  <Capabilities>
+    <rescap:Capability Name="runFullTrust" />
+  </Capabilities>
+</Package>
