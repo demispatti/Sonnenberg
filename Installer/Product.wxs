@@ -1,33 +1,32 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<Wix xmlns:util="http://schemas.microsoft.com/wix/UtilExtension" xmlns="http://schemas.microsoft.com/wix/2006/wi">
+<Wix xmlns:util="http://wixtoolset.org/schemas/v4/wxs/util" xmlns="http://wixtoolset.org/schemas/v4/wxs" xmlns:ui="http://wixtoolset.org/schemas/v4/wxs/ui">
 
-    <?if $(var.Platform) = x86 ?>
-    <?define ProductCode = {YOUR_GUID_HERE}?>
-    <?define UpgradeCode = {YOUR_GUID_HERE}?>
+    <?if $(var.InstallerPlatform) = x86 ?>
+    <?define ProductCode = {C1FC9863-F1C6-42D4-A0DE-469880F03067}?>
+    <?define UpgradeCode = {63EF03B6-4B98-4CE0-B639-08BA70DC20BE}?>
     <?define ProgramFilesFolder = ProgramFilesFolder?>
     <?endif?>
-    <?if $(var.Platform) = x64 ?>
-    <?define ProductCode = {YOUR_GUID_HERE}?>
-    <?define UpgradeCode = {YOUR_GUID_HERE}?>
+    <?if $(var.InstallerPlatform) = x64 ?>
+    <?define ProductCode = {17117211-C246-4CB5-BBA8-6A5548EF962F}?>
+    <?define UpgradeCode = {F4C437A0-691F-4C37-A555-DEF1FAC99773}?>
     <?define ProgramFilesFolder = ProgramFiles64Folder?>
     <?endif?>
 
     <?if $(var.Configuration) = Debug ?>
-    <?if $(var.Platform) = x86 ?>
+    <?if $(var.InstallerPlatform) = x86 ?>
     <?define ProductName = !(loc.ProductName)-!(loc.ProductBitnessX86)-debug?>
     <?define OutputName = !(loc.ProductName)-!(loc.ProductBitnessX86)-debug?>
     <?endif?>
-    <?if $(var.Platform) = x64 ?>
+    <?if $(var.InstallerPlatform) = x64 ?>
     <?define ProductName = !(loc.ProductName)-!(loc.ProductBitnessX64)-debug?>
     <?define OutputName = !(loc.ProductName)-!(loc.ProductBitnessX64)-debug?>
     <?endif?>
     <?endif?>
     <?if $(var.Configuration) = Release ?>
-    <?if $(var.Platform) = x86 ?>
+    <?if $(var.InstallerPlatform) = x86 ?>
     <?define ProductName = !(loc.ProductName)?>
     <?define OutputName = !(loc.ProductName)-!(loc.ProductBitnessX86)?>
     <?endif?>
-    <?if $(var.Platform) = x64 ?>
+    <?if $(var.InstallerPlatform) = x64 ?>
     <?define ProductName = !(loc.ProductName)?>
     <?define OutputName = !(loc.ProductName)-!(loc.ProductBitnessX64)?>
     <?endif?>
@@ -48,77 +47,103 @@
     <?define StopServer_TargetDir=$(var.StopServer.TargetDir)?>
     <?define StartServer_TargetDir=$(var.StartServer.TargetDir)?>
 
-    <Product Id="$(var.ProductCode)" Name="$(var.ProductName)" Language="1033" Version="$(var.BuildVersion)"
-             UpgradeCode="$(var.ProductCode)" Manufacturer="YOUR_MANUFACTURER_NAME_HERE">
-        <Package InstallerVersion="200" InstallPrivileges="elevated" Compressed="yes" InstallScope="perMachine"/>
-        <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed."/>
-        <MediaTemplate EmbedCab="yes"/>
-        <UIRef Id="WixUI_InstallDir"/>
-        <UIRef Id="WixUI_ErrorProgressText"/>
-        <Property Id="WIXUI_INSTALLDIR" Value="INSTALLFOLDER"/>
-        <Property Id="MSIUSEREALADMINDETECTION" Value="1"/>
+    <Package Name="$(var.ProductName)" Language="1033" Version="$(var.BuildVersion)" UpgradeCode="$(var.ProductCode)" Manufacturer="dp">
+
+        <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+        <MediaTemplate EmbedCab="yes" />
+        <ui:WixUI Id="WixUI_InstallDir" InstallDirectory="INSTALLFOLDER" />
+        <UIRef Id="WixUI_ErrorProgressText" />
+        <Property Id="MSIUSEREALADMINDETECTION" Value="1" />
         <Feature Id="ProductFeature" Title="Installer" Level="1">
             <!-- Additional Directories Components -->
-            <ComponentGroupRef Id="LangDeDeDirComponents"/>
-            <ComponentGroupRef Id="LangEnUsDirComponents"/>
-            <ComponentGroupRef Id="DeFilesComponents"/>
-            <ComponentGroupRef Id="ProductComponents"/>
+            <ComponentGroupRef Id="LangDeDeDirComponents" />
+            <ComponentGroupRef Id="LangEnUsDirComponents" />
+            <ComponentGroupRef Id="DeFilesComponents" />
+            <ComponentGroupRef Id="ProductComponents" />
             <!-- Config File -->
-            <ComponentRef Id="app.config"/>
+            <ComponentRef Id="app.config" />
             <!-- Shortcuts -->
-            <ComponentRef Id="StartServiceShortcut"/>
-            <ComponentRef Id="StopServiceShortcut"/>
-            <ComponentRef Id="UninstallProgramShortcut"/>
-            <ComponentRef Id="UninstallApplicationShortcut"/>
+            <ComponentRef Id="StartServiceShortcut" />
+            <ComponentRef Id="StopServiceShortcut" />
+            <ComponentRef Id="UninstallProgramShortcut" />
+            <ComponentRef Id="UninstallApplicationShortcut" />
             <!-- libs -->
-            <ComponentRef Id="SharpShell.dll"/>
-            <ComponentRef Id="log4net.dll"/>
-            <ComponentRef Id="Newtonsoft.Json.dll"/>
-            <ComponentRef Id="Gma.System.MouseKeyHook.dll"/>
-            <ComponentRef Id="Interop.IWshRuntimeLibrary.dll"/>
+            <ComponentRef Id="SharpShell.dll" />
+            <ComponentRef Id="log4net.dll" />
+            <ComponentRef Id="Newtonsoft.Json.dll" />
+            <ComponentRef Id="Gma.System.MouseKeyHook.dll" />
+            <ComponentRef Id="Interop.IWshRuntimeLibrary.dll" />
             <!-- Icons -->
-            <ComponentRef Id="StartService.ico"/>
-            <ComponentRef Id="StopService.ico"/>
-            <ComponentRef Id="Service.ico"/>
+            <ComponentRef Id="StartService.ico" />
+            <ComponentRef Id="StopService.ico" />
+            <ComponentRef Id="Service.ico" />
             <!-- App Files -->
-            <ComponentRef Id="StartService.exe.config"/>
-            <ComponentRef Id="StartService.exe"/>
-            <ComponentRef Id="StopService.exe.config"/>
-            <ComponentRef Id="StopService.exe"/>
-            <ComponentRef Id="Service.exe.config"/>
-            <ComponentRef Id="Service.exe"/>
-            <ComponentRef Id="ServiceManager.dll"/>
-            <ComponentRef Id="ShellServer.dll"/>
-            <ComponentRef Id="ContextMenu.dll"/>
-            <ComponentRef Id="ServerManager.dll"/>
-            <ComponentRef Id="Common.dll"/>
-            <ComponentRef Id="Language.dll"/>
-            <ComponentRef Id="Settings.dll"/>
-            <ComponentRef Id="MenuWatcher.dll"/>
+            <ComponentRef Id="StartService.exe.config" />
+            <ComponentRef Id="StartService.exe" />
+            <ComponentRef Id="StopService.exe.config" />
+            <ComponentRef Id="StopService.exe" />
+            <ComponentRef Id="Service.exe.config" />
+            <ComponentRef Id="Service.exe" />
+            <ComponentRef Id="ServiceManager.dll" />
+            <ComponentRef Id="ShellServer.dll" />
+            <ComponentRef Id="ContextMenu.dll" />
+            <ComponentRef Id="ServerManager.dll" />
+            <ComponentRef Id="Common.dll" />
+            <ComponentRef Id="Language.dll" />
+            <ComponentRef Id="Settings.dll" />
+            <ComponentRef Id="MenuWatcher.dll" />
             <!-- Assets -->
-            <ComponentRef Id="lizenz.rtf"/>
-            <ComponentRef Id="license.rtf"/>
-            <ComponentRef Id="hilfe.rtf"/>
-            <ComponentRef Id="help.rtf"/>
-            <ComponentGroupRef Id="DeFilesComponents"/>
+            <ComponentRef Id="lizenz.rtf" />
+            <ComponentRef Id="license.rtf" />
+            <ComponentRef Id="hilfe.rtf" />
+            <ComponentRef Id="help.rtf" />
         </Feature>
         <!-- installer UI Background Images -->
-        <WixVariable Id="WixUIDialogBmp" Value="$(var.Assets_Dir)Background.bmp"/>
-        <WixVariable Id="WixUIBannerBmp" Value="$(var.Assets_Dir)Banner.bmp"/>
+        <WixVariable Id="WixUIDialogBmp" Value="$(var.Assets_Dir)Background.bmp" />
+        <WixVariable Id="WixUIBannerBmp" Value="$(var.Assets_Dir)Banner.bmp" />
         <!-- License file -->
-        <WixVariable Id="WixUILicenseRtf" Value="$(var.Assets_Dir)en-us\license.rtf"/>
+        <WixVariable Id="WixUILicenseRtf" Value="$(var.Assets_Dir)en-us\license.rtf" />
         <!-- Custom Uninstall Control to suppress the Restart Manager -->
-        <Property Id="MSIRESTARTMANAGERCONTROL" Value="Disable"/>
+        <Property Id="MSIRESTARTMANAGERCONTROL" Value="Disable" />
         <!-- Application Icon -->
-        <Icon Id="SonnenbergInstaller.ico" SourceFile="$(var.Assets_Dir)icons\Sonnenberg.ico"/>
-        <Property Id="ARPPRODUCTICON">SonnenbergInstaller.ico</Property>
-    </Product>
-    <Fragment>
-        <!-- Directories -->
+        <Icon Id="SonnenbergInstaller.ico" SourceFile="$(var.Assets_Dir)icons\Sonnenberg.ico" />
+        <Property Id="ARPPRODUCTICON" Value="SonnenbergInstaller.ico" />
+    </Package>
+    <Fragment><!-- Directories -->
         <!-- Source Directory -->
-        <Directory Id="TARGETDIR" Name="SourceDir">
+
+        <!-- Install Folder -->
+        <DirectoryRef Id="INSTALLFOLDER">
+            <!-- Uninstall shortcut -->
+            <Component Id="UninstallProgramShortcut" KeyPath="yes" Guid="{DECBEB2B-72C0-444B-89AC-8D816180EC54}">
+                <Shortcut Id="UninstallProgramInstalldirShortcut" Name="uninstall.exe" Description="Uninstall the application." Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" WorkingDirectory="INSTALLFOLDER" />
+                <RemoveFolder Id="CleanUpUninstallProgramShortCut" Directory="INSTALLFOLDER" On="uninstall" />
+            </Component>
+        </DirectoryRef>
+        <!-- Start Menu Folder -->
+        <DirectoryRef Id="ApplicationProgramsFolder">
+            <!-- Stert Service shortcut -->
+            <Component Id="StartServiceShortcut" Guid="{0261D987-148D-44E1-9D2C-BBB53868A23E}">
+                <Shortcut Id="StartServiceStartMenuShortcut" Name="Start Service" Description="Start Sonnenberg Service." Target="[INSTALLFOLDER]StartService.exe" WorkingDirectory="INSTALLFOLDER" />
+                <RemoveFolder Id="CleanUpStartServiceShortCut" Directory="ApplicationProgramsFolder" On="uninstall" />
+                <RegistryValue Root="HKCU" Key="Software\DemisPatti\Sonnenberg" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+            </Component>
+            <!-- Stop Service shortcut -->
+            <Component Id="StopServiceShortcut" Guid="{DA3BCCED-0D63-49A7-BDE0-1C2E6C9DC656}">
+                <Shortcut Id="StopServiceStartMenuShortcut" Name="Stop Service" Description="Stop Sonnenberg Service." Target="[INSTALLFOLDER]StopService.exe" WorkingDirectory="INSTALLFOLDER" />
+                <RemoveFolder Id="CleanUpStopServiceShortCut" Directory="ApplicationProgramsFolder" On="uninstall" />
+                <RegistryValue Root="HKCU" Key="Software\DemisPatti\Sonnenberg" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+            </Component>
+            <!-- Uninstall shortcut -->
+            <Component Id="UninstallApplicationShortcut" Guid="{899E4985-4CE6-4995-AB70-00BDF196B6D8}">
+                <Shortcut Id="UninstallApplicationStartMenuShortcut" Name="uninstall.exe" Description="Uninstall the application." Target="[SystemFolder]msiexec.exe" Arguments="/x [ProductCode]" WorkingDirectory="INSTALLFOLDER" />
+                <RemoveFolder Id="CleanUpUninstallApplicationShortCut" Directory="ApplicationProgramsFolder" On="uninstall" />
+                <RegistryValue Root="HKCU" Key="Software\DemisPatti\Sonnenberg" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+            </Component>
+        </DirectoryRef>
+
             <!-- Installation folder -->
-            <Directory Id="$(var.ProgramFilesFolder)">
+            <StandardDirectory Id="$(var.ProgramFilesFolder)">
                 <Directory Id="INSTALLFOLDER" Name="$(var.ProductName)">
                     <!-- Lang Directory -->
                     <Directory Id="LangDir" Name="lang">
@@ -127,221 +152,144 @@
                         <!-- en-us Directory -->
                         <Directory Id="LangEnUsDir" Name="en-us"></Directory>
                     </Directory>
-                    <Directory Id="de" Name="de"/>
+                    <Directory Id="de" Name="de" />
                     <Directory Id="Resources" Name="Resources">
-                        <Directory Id="Resources_Icons" Name="Icons"/>
+                        <Directory Id="Resources_Icons" Name="Icons" />
                     </Directory>
                 </Directory>
-            </Directory>
+            </StandardDirectory>
             <!-- Start Menu Folder -->
-            <Directory Id="ProgramMenuFolder">
-                <Directory Id="ApplicationProgramsFolder" Name="$(var.ProductName)"/>
-            </Directory>
-        </Directory>
-        <!-- Install Folder -->
-        <DirectoryRef Id="INSTALLFOLDER">
-            <!-- Uninstall shortcut -->
-            <Component Id="UninstallProgramShortcut" KeyPath="yes" Guid="{YOUR_GUID_HERE}">
-                <Shortcut Id="UninstallProgramInstalldirShortcut" Name="uninstall.exe"
-                          Description="Uninstall the application." Target="[SystemFolder]msiexec.exe"
-                          Arguments="/x [ProductCode]" WorkingDirectory="INSTALLFOLDER"/>
-                <RemoveFolder Id="CleanUpUninstallProgramShortCut" Directory="INSTALLFOLDER" On="uninstall"/>
-            </Component>
-        </DirectoryRef>
-        <!-- Start Menu Folder -->
-        <DirectoryRef Id="ApplicationProgramsFolder">
-            <!-- Stert Service shortcut -->
-            <Component Id="StartServiceShortcut" Guid="{YOUR_GUID_HERE}">
-                <Shortcut Id="StartServiceStartMenuShortcut" Name="Start Service"
-                          Description="Start Sonnenberg Service." Target="[INSTALLFOLDER]StartService.exe"
-                          WorkingDirectory="APPLICATIONROOTDIRECTORY"/>
-                <RemoveFolder Id="CleanUpStartServiceShortCut" Directory="ApplicationProgramsFolder" On="uninstall"/>
-                <RegistryValue Root="HKCU" Key="Software\DemisPatti\Sonnenberg" Name="installed" Type="integer"
-                               Value="1" KeyPath="yes"/>
-            </Component>
-            <!-- Stop Service shortcut -->
-            <Component Id="StopServiceShortcut" Guid="{YOUR_GUID_HERE}">
-                <Shortcut Id="StopServiceStartMenuShortcut" Name="Stop Service" Description="Stop Sonnenberg Service."
-                          Target="[INSTALLFOLDER]StopService.exe" WorkingDirectory="APPLICATIONROOTDIRECTORY"/>
-                <RemoveFolder Id="CleanUpStopServiceShortCut" Directory="ApplicationProgramsFolder" On="uninstall"/>
-                <RegistryValue Root="HKCU" Key="Software\DemisPatti\Sonnenberg" Name="installed" Type="integer"
-                               Value="1" KeyPath="yes"/>
-            </Component>
-            <!-- Uninstall shortcut -->
-            <Component Id="UninstallApplicationShortcut" Guid="{YOUR_GUID_HERE}">
-                <Shortcut Id="UninstallApplicationStartMenuShortcut" Name="uninstall.exe"
-                          Description="Uninstall the application." Target="[SystemFolder]msiexec.exe"
-                          Arguments="/x [ProductCode]" WorkingDirectory="APPLICATIONROOTDIRECTORY"/>
-                <RemoveFolder Id="CleanUpUninstallApplicationShortCut" Directory="ApplicationProgramsFolder"
-                              On="uninstall"/>
-                <RegistryValue Root="HKCU" Key="Software\DemisPatti\Sonnenberg" Name="installed" Type="integer"
-                               Value="1" KeyPath="yes"/>
-            </Component>
-        </DirectoryRef>
-    </Fragment>
+            <StandardDirectory Id="ProgramMenuFolder">
+                <Directory Id="ApplicationProgramsFolder" Name="$(var.ProductName)" />
+            </StandardDirectory>
+        </Fragment>
     <!-- Component Groups per Directory -->
     <Fragment>
         <!-- Application Root Directory -->
         <ComponentGroup Id="ProductComponents" Directory="INSTALLFOLDER">
             <!-- Config File -->
-            <Component Id="app.config" Guid="{YOUR_GUID_HERE}">
-                <File Id="app.config" Name="app.config" Source="$(var.ShellServer_TargetDir)app.config" Hidden="yes"
-                      KeyPath="yes"/>
+            <Component Id="app.config" Guid="{37D56357-53E3-40D5-A937-ABBE550F67E6}">
+                <File Id="app.config" Name="app.config" Source="$(var.ShellServer_TargetDir)app.config" Hidden="yes" KeyPath="yes" />
             </Component>
             <!-- Libraries -->
-            <Component Id="SharpShell.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="SharpShell.dll" Name="SharpShell.dll" Source="$(var.ShellServer_TargetDir)SharpShell.dll"
-                      Hidden="yes" KeyPath="yes"/>
+            <Component Id="SharpShell.dll" Guid="{C9761279-61AB-4E9A-A116-A683AFA336B9}">
+                <File Id="SharpShell.dll" Name="SharpShell.dll" Source="$(var.ShellServer_TargetDir)SharpShell.dll" Hidden="yes" KeyPath="yes" />
             </Component>
-            <Component Id="log4net.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="log4net.dll" Name="log4net.dll" Source="$(var.ShellServer_TargetDir)log4net.dll" Hidden="yes"
-                      KeyPath="yes"/>
+            <Component Id="log4net.dll" Guid="{1101DEA8-51C4-4554-8783-E02082A24FC1}">
+                <File Id="log4net.dll" Name="log4net.dll" Source="$(var.ShellServer_TargetDir)log4net.dll" Hidden="yes" KeyPath="yes" />
             </Component>
             <!-- Windows Service -->
-            <Component Id="Service.exe.config" Guid="{YOUR_GUID_HERE}">
-                <File Id="Service.exe.config" Name="Service.exe.config"
-                      Source="$(var.Service_TargetDir)Service.exe.config" Hidden="yes" KeyPath="yes"/>
+            <Component Id="Service.exe.config" Guid="{CD1BC656-291F-459F-84E6-5FE7992CFC31}">
+                <File Id="Service.exe.config" Name="Service.exe.config" Source="$(var.Service_TargetDir)Service.exe.config" Hidden="yes" KeyPath="yes" />
             </Component>
-            <Component Id="Service.exe" Guid="{YOUR_GUID_HERE}">
-                <File Id="Service.exe" Name="Service.exe" Source="$(var.Service_TargetDir)Service.exe" KeyPath="yes"/>
+            <Component Id="Service.exe" Guid="{A8589F7E-B949-4853-B6EC-1F19299D6CB1}">
+                <File Id="Service.exe" Name="Service.exe" Source="$(var.Service_TargetDir)Service.exe" KeyPath="yes" />
                 <!--  install / uninstall Service -->
-                <ServiceInstall Id="ServiceInstaller" Type="ownProcess" Name="SonnenbergService"
-                                DisplayName="Sonnenberg Service" Description="Windows Explorer Context Menu Extension."
-                                Start="auto" Account="[SERVICEACCOUNT]" Password="[SERVICEPASSWORD]"
-                                ErrorControl="normal">
-                    <util:PermissionEx User="Everyone" ServicePauseContinue="yes" ServiceQueryStatus="yes"
-                                       ServiceStart="yes" ServiceStop="yes" ServiceUserDefinedControl="yes"/>
+                <ServiceInstall Id="ServiceInstaller" Type="ownProcess" Name="SonnenbergService" DisplayName="Sonnenberg Service" Description="Windows Explorer Context Menu Extension." Start="auto" Account="[SERVICEACCOUNT]" Password="[SERVICEPASSWORD]" ErrorControl="normal">
+                    <util:PermissionEx User="Everyone" ServicePauseContinue="yes" ServiceQueryStatus="yes" ServiceStart="yes" ServiceStop="yes" ServiceUserDefinedControl="yes" Inheritable="no" />
                 </ServiceInstall>
-                <ServiceControl Id="StartService" Start="install" Stop="both" Remove="uninstall"
-                                Name="SonnenbergService" Wait="yes"/>
+                <ServiceControl Id="StartService" Start="install" Stop="both" Remove="uninstall" Name="SonnenbergService" Wait="yes" />
             </Component>
-            <Component Id="Service.ico" Guid="{YOUR_GUID_HERE}">
-                <File Id="Service.ico" Name="Service.ico" Source="$(var.Service_TargetDir)Service.ico" Hidden="yes"
-                      KeyPath="yes"/>
+            <Component Id="Service.ico" Guid="{5B3830B1-1276-4C81-8AE7-5DE929545C1A}">
+                <File Id="Service.ico" Name="Service.ico" Source="$(var.Service_TargetDir)Service.ico" Hidden="yes" KeyPath="yes" />
             </Component>
             <!-- NUget Packages -->
-            <Component Id="Gma.System.MouseKeyHook.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="Gma.System.MouseKeyHook.dll" Name="Gma.System.MouseKeyHook.dll"
-                      Source="$(var.ShellServer_TargetDir)Gma.System.MouseKeyHook.dll" Hidden="yes" KeyPath="yes"/>
+            <Component Id="Gma.System.MouseKeyHook.dll" Guid="{29900451-B9E3-442D-97DA-C426849CF93A}">
+                <File Id="Gma.System.MouseKeyHook.dll" Name="Gma.System.MouseKeyHook.dll" Source="$(var.ShellServer_TargetDir)Gma.System.MouseKeyHook.dll" Hidden="yes" KeyPath="yes" />
             </Component>
-            <Component Id="Interop.IWshRuntimeLibrary.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="Interop.IWshRuntimeLibrary.dll" Name="Interop.IWshRuntimeLibrary.dll"
-                      Source="$(var.ServerManager_TargetDir)Interop.IWshRuntimeLibrary.dll" Hidden="yes" KeyPath="yes"/>
+            <Component Id="Interop.IWshRuntimeLibrary.dll" Guid="{BACBA6B3-F470-4C00-BAC3-83D1028DA6D9}">
+                <File Id="Interop.IWshRuntimeLibrary.dll" Name="Interop.IWshRuntimeLibrary.dll" Source="$(var.ServerManager_TargetDir)Interop.IWshRuntimeLibrary.dll" Hidden="yes" KeyPath="yes" />
             </Component>
-            <Component Id="Castle.Core.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="Castle.Core.dll" Name="Castle.Core.dll" Source="$(var.ContextMenu_TargetDir)Castle.Core.dll"
-                      KeyPath="yes"/>
+            <Component Id="Castle.Core.dll" Guid="{830DDC7D-F4F9-4C49-8FA1-EBBC2996E1DC}">
+                <File Id="Castle.Core.dll" Name="Castle.Core.dll" Source="$(var.ContextMenu_TargetDir)Castle.Core.dll" KeyPath="yes" />
             </Component>
             <!-- Modules Directory -->
-            <Component Id="ShellServer.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="ShellServer.dll" Name="ShellServer.dll" Source="$(var.ShellServer_TargetDir)ShellServer.dll"
-                      KeyPath="yes"/>
+            <Component Id="ShellServer.dll" Guid="{EFB6685B-BA03-4DF9-BC5E-6AB9F26DAB23}">
+                <File Id="ShellServer.dll" Name="ShellServer.dll" Source="$(var.ShellServer_TargetDir)ShellServer.dll" KeyPath="yes" />
             </Component>
-            <Component Id="ServerManager.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="ServerManager.dll" Name="ServerManager.dll"
-                      Source="$(var.ServerManager_TargetDir)ServerManager.dll" KeyPath="yes"/>
+            <Component Id="ServerManager.dll" Guid="{2A7478A9-B6A4-46F6-93C4-72409F870D0E}">
+                <File Id="ServerManager.dll" Name="ServerManager.dll" Source="$(var.ServerManager_TargetDir)ServerManager.dll" KeyPath="yes" />
             </Component>
-            <Component Id="ServiceManager.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="ServiceManager.dll" Name="ServiceManager.dll"
-                      Source="$(var.ServiceManager_TargetDir)ServiceManager.dll" KeyPath="yes"/>
+            <Component Id="ServiceManager.dll" Guid="{92F95CAA-3153-4D46-8756-278DA193BB2F}">
+                <File Id="ServiceManager.dll" Name="ServiceManager.dll" Source="$(var.ServiceManager_TargetDir)ServiceManager.dll" KeyPath="yes" />
             </Component>
-            <Component Id="Language.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="Language.dll" Name="Language.dll" Source="$(var.Language_TargetDir)Language.dll"
-                      KeyPath="yes"/>
+            <Component Id="Language.dll" Guid="{6FF82D83-CE84-4207-B9EF-F753371936BD}">
+                <File Id="Language.dll" Name="Language.dll" Source="$(var.Language_TargetDir)Language.dll" KeyPath="yes" />
             </Component>
-            <Component Id="Common.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="Common.dll" Name="Common.dll" Source="$(var.Common_TargetDir)Common.dll" KeyPath="yes"/>
+            <Component Id="Common.dll" Guid="{DBBECD3B-5DBD-4843-BC57-8C8EC0344FBB}">
+                <File Id="Common.dll" Name="Common.dll" Source="$(var.Common_TargetDir)Common.dll" KeyPath="yes" />
             </Component>
-            <Component Id="Settings.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="Settings.dll" Name="Settings.dll" Source="$(var.Settings_TargetDir)Settings.dll"
-                      KeyPath="yes"/>
+            <Component Id="Settings.dll" Guid="{68F1A0DF-B3D8-4DE8-9425-BE71AE76F0F2}">
+                <File Id="Settings.dll" Name="Settings.dll" Source="$(var.Settings_TargetDir)Settings.dll" KeyPath="yes" />
             </Component>
-            <Component Id="MenuWatcher.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="MenuWatcher.dll" Name="MenuWatcher.dll" Source="$(var.MenuWatcher_TargetDir)MenuWatcher.dll"
-                      KeyPath="yes"/>
+            <Component Id="MenuWatcher.dll" Guid="{F6816583-6EB8-41A5-8B56-B5D635CC9EFC}">
+                <File Id="MenuWatcher.dll" Name="MenuWatcher.dll" Source="$(var.MenuWatcher_TargetDir)MenuWatcher.dll" KeyPath="yes" />
             </Component>
-            <Component Id="ContextMenu.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="ContextMenu.dll" Name="ContextMenu.dll" Source="$(var.ContextMenu_TargetDir)ContextMenu.dll"
-                      KeyPath="yes"/>
+            <Component Id="ContextMenu.dll" Guid="{C1AB4433-2A74-4F54-97E5-D32AA21139EC}">
+                <File Id="ContextMenu.dll" Name="ContextMenu.dll" Source="$(var.ContextMenu_TargetDir)ContextMenu.dll" KeyPath="yes" />
             </Component>
-            <Component Id="StartService.exe.config" Guid="{YOUR_GUID_HERE}">
-                <File Id="StartService.exe.config" Name="StartService.exe.config"
-                      Source="$(var.StartService_TargetDir)StartService.exe.config" Hidden="yes" KeyPath="yes"/>
+            <Component Id="StartService.exe.config" Guid="{EB2EC73B-2F41-460A-82C7-6BACFC57E717}">
+                <File Id="StartService.exe.config" Name="StartService.exe.config" Source="$(var.StartService_TargetDir)StartService.exe.config" Hidden="yes" KeyPath="yes" />
             </Component>
-            <Component Id="StartService.exe" Guid="{YOUR_GUID_HERE}">
-                <File Id="StartService.exe" Name="StartService.exe"
-                      Source="$(var.StartService_TargetDir)StartService.exe" KeyPath="yes"/>
+            <Component Id="StartService.exe" Guid="{79FF5E64-8404-482F-813F-E87F32D768AA}">
+                <File Id="StartService.exe" Name="StartService.exe" Source="$(var.StartService_TargetDir)StartService.exe" KeyPath="yes" />
             </Component>
-            <Component Id="StopService.exe.config" Guid="{YOUR_GUID_HERE}">
-                <File Id="StopService.exe.config" Name="StopService.exe.config"
-                      Source="$(var.StopService_TargetDir)StopService.exe.config" Hidden="yes" KeyPath="yes"/>
+            <Component Id="StopService.exe.config" Guid="{91D5DD34-147B-42F9-AB87-ABB6435241B9}">
+                <File Id="StopService.exe.config" Name="StopService.exe.config" Source="$(var.StopService_TargetDir)StopService.exe.config" Hidden="yes" KeyPath="yes" />
             </Component>
-            <Component Id="StopService.exe" Guid="{YOUR_GUID_HERE}">
-                <File Id="StopService.exe" Name="StopService.exe" Source="$(var.StopService_TargetDir)StopService.exe"
-                      KeyPath="yes"/>
+            <Component Id="StopService.exe" Guid="{871A208D-CAF1-4742-8C1A-CEDF2EE50CD2}">
+                <File Id="StopService.exe" Name="StopService.exe" Source="$(var.StopService_TargetDir)StopService.exe" KeyPath="yes" />
             </Component>
-            <Component Id="StartService.ico" Guid="{YOUR_GUID_HERE}">
-                <File Id="StartService.ico" Name="StartService.ico"
-                      Source="$(var.StartService_TargetDir)StartService.ico" Hidden="yes" KeyPath="yes"/>
+            <Component Id="StartService.ico" Guid="{452B91D7-2300-49F2-A672-367B99B53D78}">
+                <File Id="StartService.ico" Name="StartService.ico" Source="$(var.StartService_TargetDir)StartService.ico" Hidden="yes" KeyPath="yes" />
             </Component>
-            <Component Id="StopService.ico" Guid="{YOUR_GUID_HERE}">
-                <File Id="StopService.ico" Name="StopService.ico" Source="$(var.StopService_TargetDir)StopService.ico"
-                      Hidden="yes" KeyPath="yes"/>
+            <Component Id="StopService.ico" Guid="{21A38643-562A-4027-BAF6-2606E914DE9F}">
+                <File Id="StopService.ico" Name="StopService.ico" Source="$(var.StopService_TargetDir)StopService.ico" Hidden="yes" KeyPath="yes" />
             </Component>
-            <Component Id="StopServer.exe.config" Guid="{YOUR_GUID_HERE}">
-                <File Id="StopServer.exe.config" Name="StopServer.exe.config"
-                      Source="$(var.StopServer_TargetDir)StopServer.exe.config" KeyPath="yes"/>
+            <Component Id="StopServer.exe.config" Guid="{50B7C6AB-71B7-403E-B543-6DFF56CBB08A}">
+                <File Id="StopServer.exe.config" Name="StopServer.exe.config" Source="$(var.StopServer_TargetDir)StopServer.exe.config" KeyPath="yes" />
             </Component>
-            <Component Id="StartServer.exe" Guid="{YOUR_GUID_HERE}">
-                <File Id="StartServer.exe" Name="StartServer.exe" Source="$(var.StartServer_TargetDir)StartServer.exe"
-                      KeyPath="yes"/>
+            <Component Id="StartServer.exe" Guid="{E5AB4B67-B500-4B23-BED5-03A76BF4C767}">
+                <File Id="StartServer.exe" Name="StartServer.exe" Source="$(var.StartServer_TargetDir)StartServer.exe" KeyPath="yes" />
             </Component>
-            <Component Id="StopServer.exe" Guid="{YOUR_GUID_HERE}">
-                <File Id="StopServer.exe" Name="StopServer.exe" Source="$(var.StopServer_TargetDir)StopServer.exe"
-                      KeyPath="yes"/>
+            <Component Id="StopServer.exe" Guid="{EAEB1FF2-EE62-4D81-BA3E-EB02AE2A7593}">
+                <File Id="StopServer.exe" Name="StopServer.exe" Source="$(var.StopServer_TargetDir)StopServer.exe" KeyPath="yes" />
             </Component>
-            <Component Id="System.Windows.Forms.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="System.Windows.Forms.dll" Name="System.Windows.Forms.dll"
-                      Source="$(var.StartServer_TargetDir)System.Windows.Forms.dll" KeyPath="yes"/>
+            <Component Id="StartServer.exe.config" Guid="{E153CC2D-6B5A-4F32-837E-63B3AA338D84}">
+                <File Id="StartServer.exe.config" Name="StartServer.exe.config" Source="$(var.StartServer_TargetDir)StartServer.exe.config" KeyPath="yes" />
             </Component>
-            <Component Id="StartServer.exe.config" Guid="{YOUR_GUID_HERE}">
-                <File Id="StartServer.exe.config" Name="StartServer.exe.config"
-                      Source="$(var.StartServer_TargetDir)StartServer.exe.config" KeyPath="yes"/>
-            </Component>
-            <Component Id="Newtonsoft.Json.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="Newtonsoft.Json.dll" Name="Newtonsoft.Json.dll"
-                      Source="$(var.Service_TargetDir)Newtonsoft.Json.dll" KeyPath="yes"/>
+            <Component Id="Newtonsoft.Json.dll" Guid="{5675159A-03AA-4FDD-9E4E-B4217EAE17E5}">
+                <File Id="Newtonsoft.Json.dll" Name="Newtonsoft.Json.dll" Source="$(var.Service_TargetDir)Newtonsoft.Json.dll" KeyPath="yes" />
             </Component>
         </ComponentGroup>
     </Fragment>
     <!-- de-de Directory -->
     <Fragment>
         <ComponentGroup Id="LangDeDeDirComponents" Directory="LangDeDeDir">
-            <Component Id="lizenz.rtf" Guid="{YOUR_GUID_HERE}">
-                <File Id="lizenz.rtf" Name="lizenz.rtf" Source="$(var.Assets_Dir)de-de\lizenz.rtf" KeyPath="yes"/>
+            <Component Id="lizenz.rtf" Guid="{D83A391A-830C-4F8D-A616-6CACA1635462}">
+                <File Id="lizenz.rtf" Name="lizenz.rtf" Source="$(var.Assets_Dir)de-de\lizenz.rtf" KeyPath="yes" />
             </Component>
-            <Component Id="hilfe.rtf" Guid="{YOUR_GUID_HERE}">
-                <File Id="hilfe.rtf" Name="hilfe.rtf" Source="$(var.Assets_Dir)de-de\hilfe.rtf" KeyPath="yes"/>
+            <Component Id="hilfe.rtf" Guid="{2462728E-8D4D-4301-A64D-C8D5DDB6CD03}">
+                <File Id="hilfe.rtf" Name="hilfe.rtf" Source="$(var.Assets_Dir)de-de\hilfe.rtf" KeyPath="yes" />
             </Component>
         </ComponentGroup>
     </Fragment>
     <!-- en-us Directory -->
     <Fragment>
         <ComponentGroup Id="LangEnUsDirComponents" Directory="LangEnUsDir">
-            <Component Id="license.rtf" Guid="{YOUR_GUID_HERE}">
-                <File Id="license.rtf" Name="license.rtf" Source="$(var.Assets_Dir)en-us\license.rtf" KeyPath="yes"/>
+            <Component Id="license.rtf" Guid="{B8D9629C-4938-4082-805A-B5AAE715FC51}">
+                <File Id="license.rtf" Name="license.rtf" Source="$(var.Assets_Dir)en-us\license.rtf" KeyPath="yes" />
             </Component>
-            <Component Id="help.rtf" Guid="{YOUR_GUID_HERE}">
-                <File Id="help.rtf" Name="help.rtf" Source="$(var.Assets_Dir)en-us\help.rtf" KeyPath="yes"/>
+            <Component Id="help.rtf" Guid="{BD46F700-2288-41DB-9A6B-975ED512514D}">
+                <File Id="help.rtf" Name="help.rtf" Source="$(var.Assets_Dir)en-us\help.rtf" KeyPath="yes" />
             </Component>
         </ComponentGroup>
     </Fragment>
     <!-- German language resource file -->
     <Fragment>
         <ComponentGroup Id="DeFilesComponents" Directory="de">
-            <Component Id="de_Language.resources.dll" Guid="{YOUR_GUID_HERE}">
-                <File Id="de_Language.resources.dll" Name="Language.resources.dll"
-                      Source="$(var.Language_TargetDir)de\Language.resources.dll" KeyPath="yes"/>
+            <Component Id="de_Language.resources.dll" Guid="{92CD5B20-A836-46D7-86FA-04C7BF6542EE}">
+                <File Id="de_Language.resources.dll" Name="Language.resources.dll" Source="$(var.Language_TargetDir)de\Language.resources.dll" KeyPath="yes" />
             </Component>
         </ComponentGroup>
     </Fragment>

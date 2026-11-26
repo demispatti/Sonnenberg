@@ -71,20 +71,27 @@ jobs:
           --test-dir build/native-${{ matrix.artifact }}
           --build-config Release
           --output-on-failure
-      - name: Create checksum
+      - name: Build Explorer MSIX
+        run: >-
+          cmake
+          --build build/native-${{ matrix.artifact }}
+          --config Release
+          --target SonnenbergMsix
+      - name: Create package checksum
         shell: pwsh
         run: |
-          $binary = Get-Item "build/native-${{ matrix.artifact }}/Release/SonnenbergExplorerCommand.dll"
-          $hash = (Get-FileHash $binary.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
-          "$hash  $($binary.Name)" | Set-Content -Encoding ascii "$($binary.FullName).sha256"
-      - name: Upload unsigned native host
+          $package = Get-Item "build/native-${{ matrix.artifact }}/msix/Sonnenberg-Explorer-${{ matrix.artifact }}.msix"
+          $hash = (Get-FileHash $package.FullName -Algorithm SHA256).Hash.ToLowerInvariant()
+          "$hash  $($package.Name)" | Set-Content -Encoding ascii "$($package.FullName).sha256"
+      - name: Upload Explorer test package
         uses: actions/upload-artifact@v7
         with:
-          name: sonnenberg-explorer-command-${{ matrix.artifact }}
+          name: sonnenberg-explorer-msix-${{ matrix.artifact }}
           path: |
-            build/native-${{ matrix.artifact }}/Release/SonnenbergExplorerCommand.dll
-            build/native-${{ matrix.artifact }}/Release/SonnenbergExplorerCommand.dll.sha256
-            packaging/AppxManifest.template.xml
+            build/native-${{ matrix.artifact }}/msix/*.msix
+            build/native-${{ matrix.artifact }}/msix/*.msix.sha256
+            build/native-${{ matrix.artifact }}/msix/*.cer
+            build/native-${{ matrix.artifact }}/msix/Install-Sonnenberg.ps1
           if-no-files-found: error
 
   legacy-build:
@@ -121,19 +128,3 @@ jobs:
           if [ "$count" -gt 0 ]; then
             echo "::warning::WiX installer is not release-ready: $count placeholder values remain."
           fi
-      - name: Validate modern manifest template
-        shell: pwsh
-        run: |
-          $manifest = Get-Content -Raw packaging/AppxManifest.template.xml
-          try {
-            [xml]$manifest | Out-Null
-          } catch {
-            Write-Error "Modern manifest template is not well-formed XML: $_"
-            exit 1
-          }
-          $count = ([regex]::Matches($manifest, 'REPLACE_WITH_')).Count
-          if ($count -eq 0) {
-            Write-Error "Expected explicit packaging placeholders were not found."
-            exit 1
-          }
-          Write-Output "Modern manifest is a validated template with $count explicit packaging placeholders."

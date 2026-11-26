@@ -83,7 +83,7 @@ int wmain(int argumentCount, wchar_t** arguments)
     {
         wchar_t* title = nullptr;
         passed &= Check(SUCCEEDED(command->GetTitle(nullptr, &title)), L"read title");
-        passed &= Check(title != nullptr && std::wstring(title) == L"Copy path", L"title value");
+        passed &= Check(title != nullptr && std::wstring(title) == L"Sonnenberg", L"title value");
         CoTaskMemFree(title);
 
         GUID canonicalName{};
@@ -99,10 +99,42 @@ int wmain(int argumentCount, wchar_t** arguments)
 
         EXPCMDFLAGS flags = ECF_DEFAULT;
         passed &= Check(
-            SUCCEEDED(command->GetFlags(&flags)) && flags == ECF_DEFAULT,
-            L"default command flags");
+            SUCCEEDED(command->GetFlags(&flags)) && flags == ECF_HASSUBCOMMANDS,
+            L"submenu flags");
 
-        passed &= Check(command->Invoke(nullptr, nullptr) == E_INVALIDARG, L"reject missing selection");
+        IEnumExplorerCommand* submenu = nullptr;
+        passed &= Check(SUCCEEDED(command->EnumSubCommands(&submenu)) && submenu != nullptr,
+            L"enumerate submenu");
+        if (submenu != nullptr)
+        {
+            const bool german = PRIMARYLANGID(GetUserDefaultUILanguage()) == LANG_GERMAN;
+            const wchar_t* titles[] = {
+                german ? L"Pfad kopieren" : L"Copy path",
+                german ? L"Pfad mit Schrägstrichen kopieren" : L"Copy path with forward slashes"
+            };
+            for (const wchar_t* expected : titles)
+            {
+                IExplorerCommand* verb = nullptr;
+                passed &= Check(submenu->Next(1, &verb, nullptr) == S_OK && verb != nullptr,
+                    L"read submenu item");
+                if (verb != nullptr)
+                {
+                    wchar_t* verbTitle = nullptr;
+                    passed &= Check(SUCCEEDED(verb->GetTitle(nullptr, &verbTitle)) &&
+                        verbTitle != nullptr && std::wstring(verbTitle) == expected, L"submenu item title");
+                    CoTaskMemFree(verbTitle);
+                    passed &= Check(verb->Invoke(nullptr, nullptr) == E_INVALIDARG, L"reject missing selection");
+                    verb->Release();
+                }
+            }
+            IExplorerCommand* extra = nullptr;
+            passed &= Check(submenu->Next(1, &extra, nullptr) == S_FALSE, L"end of submenu");
+            if (extra != nullptr)
+            {
+                extra->Release();
+            }
+            submenu->Release();
+        }
         command->Release();
     }
 

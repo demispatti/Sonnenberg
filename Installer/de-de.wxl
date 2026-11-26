@@ -1,11 +1,10 @@
-<?xml version="1.0" encoding="utf-8"?>
-<WixLocalization Culture="de-de" xmlns="http://schemas.microsoft.com/wix/2006/localization">
+﻿<WixLocalization Culture="de-de" xmlns="http://wixtoolset.org/schemas/v4/wxl">
 
-    <String Id="LicenseRtf" Overridable="yes">\Lang\de-de\lizenz.rtf</String>
-    <String Id="helpRtf" Overridable="yes">\Lang\de-de\hilfe.rtf</String>
-    <String Id="ProductName">Sonnenberg</String>
-    <String Id="ProductBitnessX86">32bit</String>
-    <String Id="ProductBitnessX64">64bit</String>
-    <String Id="ProductLocale">de</String>
+    <String Id="LicenseRtf" Overridable="yes" Value="\Lang\de-de\lizenz.rtf" />
+    <String Id="helpRtf" Overridable="yes" Value="\Lang\de-de\hilfe.rtf" />
+    <String Id="ProductName" Value="Sonnenberg" />
+    <String Id="ProductBitnessX86" Value="32bit" />
+    <String Id="ProductBitnessX64" Value="64bit" />
+    <String Id="ProductLocale" Value="de" />
 
 </WixLocalization>

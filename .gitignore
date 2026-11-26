@@ -25,6 +25,10 @@ keyfiles/
 
 # Build results
 [Aa]ssets/
+!/packaging/Assets/
+!/assets/
+/assets/*
+!/assets/Sonnenberg-Logo.png
 [Dd]ebug/
 [Dd]ebugging/
 [Dd]ebugPublic/

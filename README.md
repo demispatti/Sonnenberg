@@ -1,12 +1,12 @@
 <p align="center">
-<img src="./assets/Sonnenberg.png" alt="Sonnenberg Logo" width="128" height="128">
+<a href="./assets/Sonnenberg-Logo.png"><img src="./packaging/Assets/Square150x150Logo.png" alt="Sonnenberg Logo" width="128" height="128"></a>
 </p>
 <h2 align="center">Sonnenberg</h2>
 <p align="center">
 A Tiny But Useful Windows Explorer Extension For Developers
   <br>
   <br>
-<a href="https://github.com/demispatti/Sonnenberg/tree/master/dist" target="_blank"><strong>Get Setup File</strong></a>
+<a href="#get-setup-file"><strong>Install or build Sonnenberg</strong></a>
   <br>
   <br>
 <a href="https://github.com/demispatti/Sonnenberg/issues/new?template=bug.md" target="_blank">Report A Bug</a><br>
@@ -19,8 +19,9 @@ A Tiny But Useful Windows Explorer Extension For Developers
 - [Features](#features)
 - [Get Setup File](#get-setup-file)
 - [Getting Started](#getting-started)
-- [Automatic Project Setup (recommended)](#automatic-project-setup-recommended)
-- [Manual Project Setup](#manual-project-setup)
+- [PowerShell permissions](#powershell-permissions)
+- [Build the classic MSI](#build-the-classic-msi)
+- [Legacy Setup and Reset scripts](#legacy-setup-and-reset-scripts)
 - [Running The Tests](#running-the-tests)
 - [Modernization](#modernization)
 - [Debugging The ShellServer](#debugging-the-shell-server)
@@ -51,52 +52,58 @@ Works with any theme.
 
 ---
 ## Get Setup File
-If you're just interested in using or testing the resulting software, you can get an installer file from [here](https://github.com/demispatti/Sonnenberg/tree/master/dist). Choose your language and architecture, and install the package. You can enable and disable the context menu extension via the *Windows Start Menu*, and the application can easily be uninstalled again.
+For the **Windows 11 main context menu**, build the Explorer MSIX using the instructions below or download a test package. Sign in to GitHub, open a successful [Build and test run](https://github.com/demispatti/Sonnenberg/actions/workflows/build.yml), and choose `sonnenberg-explorer-msix-x64` or `sonnenberg-explorer-msix-arm64` under **Artifacts** when available. Both options use a test certificate. The included installer imports it as part of installation.
+
+For the **classic context menu**, the [legacy download directory](https://github.com/demispatti/Sonnenberg/tree/master/dist) contains MSI packages for x86 and x64 in English and German. On Windows 11, these packages put Sonnenberg under **Show more options**.
 
 ---
 ## Getting Started
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+Clone the repository with Git, or download the source ZIP and extract it to a folder you can write to. Run all commands from the repository root unless a step says otherwise.
 
-### Prerequisites
-Software:
-- [Visual Studio Community](https://visualstudio.microsoft.com/vs/community/)
-- [WiX Toolset 3.14.1](https://www.nuget.org/packages/WiX/3.14.1) (restored through NuGet)
+```powershell
+git clone https://github.com/demispatti/Sonnenberg.git
+Set-Location Sonnenberg
+```
 
-Visual Studio Extensions:
-- [Microsoft Visual Studio Installer Projects](https://marketplace.visualstudio.com/items?itemName=VisualStudioClient.MicrosoftVisualStudio2017InstallerProjects)
-- WiX Toolset Visual Studio Extension from [here](https://wixtoolset.org/releases/)
-- [Wax](https://marketplace.visualstudio.com/items?itemName=TomEnglert.Wax)
+Choose the prerequisites for what you want to build.
 
-Project:
-- [Clone](https://github.com/demispatti/Sonnenberg.git) the repository.
+| Target | What to install |
+| --- | --- |
+| [Windows 11 Explorer MSIX](#modernization) | [Visual Studio 2026](https://visualstudio.microsoft.com/) or its Build Tools with **Desktop development with C++**, CMake 3.25 or newer, and a Windows SDK with `MakeAppx.exe` and `SignTool.exe`. In Visual Studio Installer, include **C++ CMake tools for Windows** or install CMake separately. Add the MSVC ARM64 build tools to target ARM64. |
+| [Classic Windows MSI](#build-the-classic-msi) | Visual Studio 2026 or its Build Tools with **.NET desktop development**, the **.NET Framework 4.8 targeting pack**, and NuGet restore access. The project restores WiX 7.0.1 and its UI and Util extensions. Install [HeatWave Community Edition](https://www.firegiant.com/heatwave/) if you want to open the installer project in the Visual Studio IDE. |
+| [Portable core tests](#running-the-tests) | The [.NET SDK](https://dotnet.microsoft.com/download/dotnet/10.0) pinned in [global.json](global.json), currently 10.0.402 or a later patch in its feature band. |
 
----
-## Automatic Project Setup (recommended)
-This method depends on *Visual Studio Command Prompt*, which is shipped with recent versions of Visual Studio. It will be located automatically.
+### PowerShell permissions
 
-### 1. Run Setup Solution (Setup.ps1)
-Do **not open** any project files or the solution in an editor or an IDE while running the setup script, or you will get error messages and you will have to repeat the setup process.
-In the solution folder on your file system, right-click on *setupSolution.ps1* script from within a Windows Explorer Window and select *Run with PowerShell*. Enter your name and your company name. 
-This script will take care of all the necessary steps and actions it takes to get your own clone up and running, and ensure that you can run the tests and build MSI packages (for more information, see "Manual Project Setup").
-After the setup script has finished, open the solution with the IDE of your choice, restore the packages and build the solution. 
-**To create the installer file, just build the installer project for the platform of your choice**.
-**To reset the solution, simply run Reset.ps1**
+Build in a standard **Developer PowerShell for Visual Studio**. For the MSIX installation, open **Windows PowerShell** from the Start menu with **Run as administrator**, accept the Windows prompt and return to the repository folder with `Set-Location`. The installer needs elevation to add the test certificate to the local computer's **Trusted People** store.
 
----
-## Manual Project Setup
-If the Quick Start option should fail, you have to setup the solution manually. Just follow these simple steps in order to get up and running:
+If PowerShell blocks a script you downloaded, check `Get-ExecutionPolicy -List` and review the script first. On a machine you manage, you can allow local scripts for this PowerShell session and unblock just the downloaded script you intend to run.
 
-### 1. Create Assembly Info GUIDs
-Create a GUID for each project's AssemblyInfo.cs file where it says YOUR_GUID_HERE.
+```powershell
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+Unblock-File -LiteralPath .\packaging\Install-Sonnenberg.ps1
+```
 
-### 2. Create Product.wxs File GUIDs
-Inside the *Installer Project*, open Product.wxs and create *unique UPPERCASE* GUIDs in it where it says YOUR_GUID_HERE.
+Use the actual path to the script you are running. The process setting expires when you close PowerShell. If `MachinePolicy` or `UserPolicy` blocks script execution, ask your administrator. See [PowerShell execution policies](https://learn.microsoft.com/powershell/module/microsoft.powershell.core/about/about_execution_policies/).
 
-### 4. Product.wxs: Enter Manufacturer Name
-Replace YOUR_MANUFACTURER_NAME_HERE with your name (required).
+### Build the classic MSI
 
-### 5. Build The Solution
-Restore the packages and build the solution. To create the installer file, just build the installer project for the platform of your choice.
+In **Developer PowerShell for Visual Studio**, restore the NuGet packages and build the solution. The current source already contains installer metadata and GUIDs.
+
+```powershell
+msbuild Sonnenberg.sln -t:Restore -p:RestorePackagesConfig=true
+msbuild Sonnenberg.sln -m -p:Configuration=Release -p:Platform=x64
+```
+
+Choose `-p:Platform=x86` for a 32-bit MSI. The English and German packages appear under `Installer/bin/Release/<platform>/<culture>/`. The restore command covers both the legacy `packages.config` projects and the SDK-style WiX installer. See [NuGet package restore with MSBuild](https://learn.microsoft.com/nuget/consume-packages/package-restore#restore-by-using-msbuild).
+
+The WiX project declares `AcceptEula=wix7`. Review the [WiX license terms](https://docs.firegiant.com/wix/osmf/) before using the MSI build.
+
+### Legacy Setup and Reset scripts
+
+Use [Setup.ps1](Setup.ps1) only when preparing a separate copy with custom legacy installer metadata. It prompts for your name and manufacturer and edits assembly metadata and MSI identifiers. [Reset.ps1](Reset.ps1) replaces those values and GUIDs with placeholders. Keep both scripts away from a checkout whose current installer identity you want to preserve. Resetting metadata does not uninstall Sonnenberg.
+
+Close Visual Studio and use a separate Git checkout so you can review the edits. In Windows PowerShell, navigate to its root and run the script you need, `.\Setup.ps1` or `.\Reset.ps1`. These scripts need write access to the checkout. If that folder requires elevation, reopen **Windows PowerShell** with **Run as administrator**, return to the checkout and run the script there. If execution is blocked, follow the [PowerShell permissions](#powershell-permissions) instructions with the path to `Setup.ps1` or `Reset.ps1`. After a reset, run Setup again before building the classic MSI.
 
 ---
 ## Running The Tests
@@ -106,12 +113,38 @@ Portable behavior can be developed and tested on macOS, Linux, Windows x64, and 
 dotnet run --project tests/Sonnenberg.Core.Tests/Sonnenberg.Core.Tests.csproj --configuration Release
 ```
 
-The legacy .NET Framework projects still require Windows and Visual Studio Build Tools.
+If `dotnet` reports that it cannot find a compatible SDK, run `dotnet --list-sdks` and install a version that matches `global.json`.
+
+To run the native Explorer smoke test on Windows after configuring the build directory as shown below, build the test executable and run CTest. Use the build directory for the architecture you are testing.
+
+```powershell
+cmake --build Installer/obj/native-x64 --config Release
+ctest --test-dir Installer/obj/native-x64 -C Release --output-on-failure
+```
 
 ---
 ## Modernization
 
-The current SharpShell handler is a transitional integration that appears under **Show more options** on Windows 11. The modernization branch now contains a minimal native `IExplorerCommand` host that CI builds and smoke-tests on x64 and ARM64; it is not installable until its MSIX identity, assets, and signing are completed. See the [Windows 11 modernization strategy](docs/MODERNIZATION.md) and the [manual Windows 11 test checklist](docs/WINDOWS-11-MANUAL-TESTS.md).
+On Windows 11, the Explorer MSIX adds a **Sonnenberg** submenu directly to the context menu of selected files and folders. It offers both Windows-style and forward-slash path copying. The legacy MSI provides the SharpShell commands under **Show more options**.
+
+Build the MSIX from Developer PowerShell for Visual Studio. Choose the architecture of the PC that will run Explorer. This example uses x64.
+
+```powershell
+cmake -S src/Sonnenberg.ExplorerCommand -B Installer/obj/native-x64 -A x64
+cmake --build Installer/obj/native-x64 --config Release --target SonnenbergMsix
+```
+
+For ARM64, use `-A ARM64` and replace both instances of `native-x64` with `native-arm64`. The build writes the MSIX, its public test certificate and `Install-Sonnenberg.ps1` to the `msix` subdirectory. CI includes a SHA-256 checksum with the same files for both architectures.
+
+For a local test, open [Windows PowerShell as Administrator](#powershell-permissions) and run the installer script. It selects the native architecture, checks the package signer, and adds the matching public test certificate to **Local Computer > Trusted People** before installing the MSIX. Use the script, MSIX and certificate from a build you trust. Then right-click a file or folder in Explorer and look for **Sonnenberg**.
+
+```powershell
+.\packaging\Install-Sonnenberg.ps1
+```
+
+From an extracted build artifact, run `./Install-Sonnenberg.ps1` in the directory containing the MSIX and CER. To use a different folder, pass `-PackageDirectory`. Use `-WhatIf` to check the selection and certificate without installing.
+
+For distribution, call [Build-MSIX.ps1](packaging/Build-MSIX.ps1) with the certificate subject as `-Publisher`, then sign the resulting package with that certificate. See the [manual Windows 11 test checklist](docs/WINDOWS-11-MANUAL-TESTS.md).
 
 ---
 ## Debugging The Shell Server
@@ -148,7 +181,7 @@ In addition, the Server Manager Window needs to be closed.
 
 ---
 ## Deployment
-Build the installer project for the desired platform and deploy the MSI file.
+Use the [Explorer MSIX](#modernization) for the Windows 11 main context menu or the [classic MSI](#build-the-classic-msi) for the legacy SharpShell integration.
 
 ---
 ## Documentation
@@ -168,7 +201,7 @@ After installation, you'll find the Sonnenberg icon with a drop down inside the 
 
 
 #### Are there any known limitations?
-Yes. The current SharpShell integration is legacy-only on Windows 11. The modern x64/ARM64 host is buildable but not packaged or signed yet, and the WiX installer still requires project-specific GUID and manufacturer values before it can be considered release-ready.
+Yes. The Explorer MSIX targets Windows 11 on x64 and ARM64. The WiX MSI installs the classic SharpShell integration.
 
 #### Are there any known issues?
 No.

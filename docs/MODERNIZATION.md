@@ -48,19 +48,19 @@ Native COM registration, Explorer activation, installer behavior, icon rendering
 - add focused tests before changing the Explorer host;
 - remove unused NUnit/Moq references from production projects.
 
-### Phase 2: modern Explorer adapter (started)
+### Phase 2: modern Explorer adapter
 
 - implement `IExplorerCommand` in a native C++ host for x64 and ARM64;
 - keep the host limited to selection parsing and command dispatch;
 - register both architectures in MSIX manifests;
 - use package identity for the primary Windows 11 context menu.
 
-The first adapter now implements a single **Copy path** command without third-party dependencies. CI compiles and loads the DLL natively on x64 and ARM64, exercises its COM class factory and command metadata, and publishes unsigned DLLs with SHA-256 checksums. `packaging/AppxManifest.template.xml` records the intended packaged COM and File Explorer registration, but deliberately retains explicit identity, publisher, architecture, entry-point, and asset placeholders. It is not installable until Phase 3 supplies those values and signing.
+The native adapter provides a **Sonnenberg** submenu for selected files and folders, with Windows-style and forward-slash path copying. CI tests the COM class factory and submenu on x64 and ARM64. The MSIX manifest registers the COM class and associated Explorer verbs.
 
 ### Phase 3: packaging and signing
 
-- produce x64 and ARM64 MSIX packages in GitHub Actions;
-- upload unsigned PR artifacts, but publish only signed release artifacts;
+- produce x64 and ARM64 MSIX test packages and SHA-256 checksums in GitHub Actions;
+- sign distribution packages with the publisher's certificate;
 - add certificate-subject and package-identity checks;
 - retire the WiX 3 package after the migration window.
 
