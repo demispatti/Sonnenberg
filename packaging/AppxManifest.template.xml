@@ -1,8 +1,4 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--
-  Packaging input, not a ready-to-install manifest. Replace the identity,
-  publisher, version, architecture, executable and visual assets before use.
--->
 <Package
   xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10"
   xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10"
@@ -12,13 +8,13 @@
   xmlns:rescap="http://schemas.microsoft.com/appx/manifest/foundation/windows10/restrictedcapabilities"
   IgnorableNamespaces="uap desktop4 desktop5 com rescap">
   <Identity
-    Name="REPLACE_WITH_PACKAGE_IDENTITY"
-    Publisher="CN=REPLACE_WITH_CERTIFICATE_SUBJECT"
-    Version="0.0.0.0"
-    ProcessorArchitecture="REPLACE_WITH_ARCHITECTURE" />
+    Name="DemisPatti.Sonnenberg.Explorer"
+    Publisher="CN=Sonnenberg"
+    Version="1.1.4.59"
+    ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>Sonnenberg</DisplayName>
-    <PublisherDisplayName>REPLACE_WITH_PUBLISHER_NAME</PublisherDisplayName>
+    <PublisherDisplayName>Sonnenberg</PublisherDisplayName>
     <Logo>Assets\StoreLogo.png</Logo>
   </Properties>
   <Dependencies>
@@ -33,11 +29,12 @@
   <Applications>
     <Application
       Id="Sonnenberg"
-      Executable="REPLACE_WITH_PACKAGE_ENTRYPOINT.exe"
+      Executable="Sonnenberg.exe"
       EntryPoint="Windows.FullTrustApplication">
       <uap:VisualElements
         DisplayName="Sonnenberg"
         Description="Sonnenberg Explorer commands"
+        AppListEntry="none"
         BackgroundColor="transparent"
         Square150x150Logo="Assets\Square150x150Logo.png"
         Square44x44Logo="Assets\Square44x44Logo.png" />
@@ -56,12 +53,17 @@
           <desktop4:FileExplorerContextMenus>
             <desktop5:ItemType Type="*">
               <desktop5:Verb
-                Id="SonnenbergCopyFilePath"
+                Id="SonnenbergFile"
                 Clsid="B79F8FCC-B264-4D0B-B0C9-EBDAACEBCFD6" />
             </desktop5:ItemType>
             <desktop5:ItemType Type="Directory">
               <desktop5:Verb
-                Id="SonnenbergCopyFolderPath"
+                Id="SonnenbergFolder"
+                Clsid="B79F8FCC-B264-4D0B-B0C9-EBDAACEBCFD6" />
+            </desktop5:ItemType>
+            <desktop5:ItemType Type="Directory\Background">
+              <desktop5:Verb
+                Id="SonnenbergFolderBackground"
                 Clsid="B79F8FCC-B264-4D0B-B0C9-EBDAACEBCFD6" />
             </desktop5:ItemType>
           </desktop4:FileExplorerContextMenus>
