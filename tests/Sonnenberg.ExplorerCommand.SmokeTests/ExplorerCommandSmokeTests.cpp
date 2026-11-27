@@ -175,10 +175,10 @@ int wmain(int argumentCount, wchar_t** arguments)
                         return SUCCEEDED(verb->GetState(selection, TRUE, &visibility)) &&
                             visibility == static_cast<EXPCMDSTATE>(enabled ? ECS_ENABLED : ECS_HIDDEN);
                     };
-                    passed &= Check(checkState(folder.Get(), index < 6), L"folder command visibility");
-                    passed &= Check(checkState(textFile.Get(), index < 2 || index == 6 || index == 7),
+                    passed &= Check(checkState(folder.Get(), index >= 1 && index < 6), L"folder command visibility");
+                    passed &= Check(checkState(textFile.Get(), index == 1 || index == 6 || index == 7),
                         L"text file command visibility");
-                    passed &= Check(checkState(binary.Get(), index < 2), L"binary file command visibility");
+                    passed &= Check(checkState(binary.Get(), index == 1), L"binary file command visibility");
                     verb->Release();
                 }
             }

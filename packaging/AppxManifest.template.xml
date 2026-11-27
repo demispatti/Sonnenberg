@@ -10,7 +10,7 @@
   <Identity
     Name="DemisPatti.Sonnenberg.Explorer"
     Publisher="CN=Sonnenberg"
-    Version="1.1.4.59"
+    Version="1.1.4.60"
     ProcessorArchitecture="x64" />
   <Properties>
     <DisplayName>Sonnenberg</DisplayName>

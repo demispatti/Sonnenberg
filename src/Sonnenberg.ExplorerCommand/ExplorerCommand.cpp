@@ -224,6 +224,11 @@ public:
         }
         DWORD count = 0;
         const bool hasSelection = selection != nullptr && SUCCEEDED(selection->GetCount(&count)) && count != 0;
+        if (action_ == Action::CopyPath && hasSelection)
+        {
+            *state = ECS_HIDDEN;
+            return S_OK;
+        }
         if (action_ == Action::Menu || action_ == Action::CopyPath || action_ == Action::CopyForwardPath)
         {
             *state = hasSelection || site_ ? ECS_ENABLED : ECS_DISABLED;
